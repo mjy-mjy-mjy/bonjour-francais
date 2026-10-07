@@ -1,0 +1,46 @@
+name: Update official records and publish website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check scripts
+        run: |
+          node --check app.js
+          node --check content.js
+          python3 scripts/check-site.py
+          node --test scripts/app.test.cjs
+      - name: Refresh official invitation data
+        id: refresh
+        continue-on-error: true
+        run: python3 scripts/update-draws.py
+      - name: Report retained snapshot
+        if: steps.refresh.outcome == 'failure'
+        run: echo '::warning::Official refresh failed. Publishing the last validated snapshot with its original check time.'
+      - name: Prepare public files
+        run: |
+          mkdir _site
+          cp index.html styles.css app.js content.js _site/
+          cp -R data _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
