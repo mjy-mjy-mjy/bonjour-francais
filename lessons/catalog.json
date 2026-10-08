@@ -1,0 +1,188 @@
+[
+  {
+    "number": 1,
+    "title": "Bienvenue !",
+    "translation": "欢迎！",
+    "pages": "14–15",
+    "core": [
+      "问候与介绍姓名",
+      "être / s’appeler 的单数现在时",
+      "基础阴阳性与国籍配合",
+      "qui 问人",
+      "tu / vous 与人称配合",
+      "升调与降调"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Qui est-ce ?",
+    "translation": "这是谁？",
+    "pages": "16–17",
+    "core": [
+      "识别人和国籍",
+      "定冠词单数",
+      "名词与形容词阴阳性",
+      "国家和城市介词",
+      "法语音节"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Ça va bien ?",
+    "translation": "你好吗？",
+    "pages": "18–19",
+    "core": [
+      "询问近况与联系信息",
+      "avoir / aller 单数现在时",
+      "年龄和数字",
+      "单数物主限定词",
+      "un / une 与 quel / quelle",
+      "词组重音"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "correspond@nce.com",
+    "translation": "寻找笔友",
+    "pages": "20–21",
+    "core": [
+      "读个人资料",
+      "说明喜好",
+      "整合身份与联系信息",
+      "法语世界与语言国籍辨析"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Trouvez l’objet",
+    "translation": "找到物品",
+    "pages": "24–25",
+    "core": [
+      "名词和冠词复数",
+      "il y a",
+      "être 复数现在时",
+      "物品位置",
+      "qu’est-ce que",
+      "复数的口语标记"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Portrait-robot",
+    "translation": "人物画像",
+    "pages": "26–27",
+    "core": [
+      "重读人称代词",
+      "avoir 复数现在时",
+      "ne…pas",
+      "形容词配合",
+      "物主限定词复数",
+      "颜色",
+      "/z/ 连读"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Shopping",
+    "translation": "购物",
+    "pages": "28–29",
+    "core": [
+      "指示限定词 ce / cet / cette / ces",
+      "quel 与疑问表达",
+      "comment / combien",
+      "衣物与价格",
+      "喜好",
+      "词间衔接"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Le coin des artistes",
+    "translation": "艺术家的天地",
+    "pages": "30–31",
+    "core": [
+      "描述和定位人物",
+      "艺术与电影资料阅读",
+      "身份、形容词与位置表达复习"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Appartement à louer",
+    "translation": "公寓出租",
+    "pages": "34–35",
+    "core": [
+      "重读人称代词复数",
+      "地点介词",
+      "où",
+      "阅读租房广告",
+      "住房描述",
+      "展唇与圆唇"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "C’est par où ?",
+    "translation": "怎么走？",
+    "pages": "36–37",
+    "core": [
+      "命令式",
+      "prendre 现在时",
+      "缩合冠词",
+      "地点代词 y",
+      "方向与交通方式",
+      "连读与联诵"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Bon voyage !",
+    "translation": "旅途愉快！",
+    "pages": "38–39",
+    "core": [
+      "c’est 的结构",
+      "on",
+      "地点介词与建议",
+      "旅游信息",
+      "禁止连读"
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Marseille",
+    "translation": "马赛",
+    "pages": "40–41",
+    "core": [
+      "描述城市",
+      "住房与旅游资料阅读",
+      "地点、交通与建议的综合复习"
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Un aller simple",
+    "translation": "一张单程票",
+    "pages": "46–47",
+    "core": [
+      "钟点与日期",
+      "quand / à quelle heure",
+      "partir 现在时",
+      "礼貌购票",
+      "数字读音",
+      "/s/ 与 /z/"
+    ]
+  },
+  {
+    "number": 14,
+    "title": "À Londres",
+    "translation": "在伦敦",
+    "pages": "48–49",
+    "core": [
+      "faire 现在时",
+      "est-ce que 疑问句",
+      "职业阴阳性",
+      "工作与每周安排",
+      "三个鼻化元音"
+    ]
+  }
+]

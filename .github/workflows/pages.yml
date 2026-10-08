@@ -24,6 +24,8 @@ jobs:
         run: |
           node --check app.js
           node --check content.js
+          python3 scripts/build-course.py
+          node --check course.js
           node --check lesson14.js
           python3 scripts/check-site.py
           node --test scripts/app.test.cjs
@@ -37,7 +39,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir _site
-          cp index.html styles.css app.js content.js lesson14.js _site/
+          cp index.html styles.css app.js content.js course.js lesson14.js _site/
           cp -R data _site/
       - uses: actions/upload-pages-artifact@v3
         with:

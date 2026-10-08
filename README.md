@@ -34,10 +34,12 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 ```sh
 python3 scripts/update-draws.py
+python3 scripts/build-course.py
 python3 scripts/check-site.py
 node --check app.js
 node --check content.js
 node --check lesson14.js
+node --check course.js
 node --test scripts/app.test.cjs
 ```
 
@@ -60,6 +62,8 @@ node --test scripts/app.test.cjs
 
 ## 当前状态
 
-第一版以第 14 课 **À Londres** 为首个补充课程，包含 12 个详细知识模块、10 组书面练习及答案解析、30 道可自动判分并记录错题的小测。支持知识点搜索、目录定位、展开参考答案与 A4 打印（含答案）。其他课次提供教材学习记录与笔记入口。A2 及中级、考试专项内容将在后续扩充。
+第一版以第 14 课 **À Londres** 为首个补充课程，包含 12 个详细知识模块、10 组书面练习及答案解析、30 道可自动判分并记录错题的小测。支持知识点搜索、目录定位、展开参考答案与 A4 打印（含答案）。第 1 课 **Bienvenue !** 已补充同样的 12 模块结构、10 组书面练习及答案、30 道即时小测。第 2—13 课按课次逐一编写、核对后发布；目录中的课题不代表正文已经完成。其他课次提供教材学习记录与笔记入口。A2 及中级、考试专项内容将在后续扩充。
 
 教材配套音频通过出版方资源页访问；本站尚未集成音轨播放器、自动口语或写作评分。
+
+第 1—13 课的内容源放在 `lessons/NN.json`，目录放在 `lessons/catalog.json`。运行 `scripts/build-course.py` 生成 `course.js`；不要直接编辑生成文件。每课完成后保存知识覆盖与功能核对记录，再开始下一课。

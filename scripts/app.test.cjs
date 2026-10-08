@@ -31,6 +31,7 @@ function app(saved, hash = '#route') {
   context.print = () => {context.printed = true;};
   context.scrollTo = () => {};
   vm.runInContext(fs.readFileSync(path.join(root, 'content.js'), 'utf8'), context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'course.js'), 'utf8'), context);
   vm.runInContext(fs.readFileSync(path.join(root, 'lesson14.js'), 'utf8'), context);
   vm.runInContext(fs.readFileSync(path.join(root, 'app.js'), 'utf8'), context);
   return {context, elements, storage, main: element('main')};
@@ -156,4 +157,69 @@ test('question IDs and correct-option indexes are valid and remain compatible wi
   const restored = app(JSON.stringify(state), '#lesson/14');
   assert.ok(restored.main.innerHTML.includes('已有笔记'));
   assert.ok(restored.main.innerHTML.includes('已收藏'));
+});
+
+test('lesson 1 covers the verified core instead of merely having twelve section headings', () => {
+  const a = app(null, '#lesson/1');
+  const c = a.context.COURSE_LIBRARY.lessons.find(c => c.number === 1);
+  assert.equal(c.sections.length, 12);
+  for (const text of ['s’appelle','vous vous appelez','Qui est-ce','C’est Hugo','française','italienne','mon mari','ma femme','升调','降调','nom','prénom','Bonne soirée']) {
+    assert.ok(a.main.innerHTML.includes(text), text);
+  }
+  for (const section of c.sections) assert.ok(a.main.innerHTML.includes(`id="lesson1-${section.id}"`));
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length, 30);
+  const practice = c.sections.find(s=>s.id==='practice').html;
+  for (const letter of 'ABCDEFGHIJ') assert.ok(practice.includes(`<h3>${letter}.`), letter);
+  assert.equal((practice.match(/<details>/g)||[]).length, 10);
+  assert.ok(a.main.innerHTML.includes('打印 / 另存为 PDF（含答案）'));
+});
+
+test('lesson-specific category pages and search preserve the selected lesson', () => {
+  for (const category of ['grammar','vocabulary','pronunciation','reading','speaking','writing','listening']) {
+    const a = app(null, '#'+category+'/1');
+    assert.ok(a.main.innerHTML.includes('Bienvenue !'), category);
+    assert.ok(a.main.innerHTML.includes('第 1 课'), category);
+    assert.ok(a.main.innerHTML.includes('#lesson/1'), category);
+    assert.ok(a.elements.navigation.innerHTML.includes('#grammar/1'), category);
+  }
+  const a = app();
+  a.elements.search.listeners.input({target:{value:'Qui est-ce'}});
+  assert.ok(a.main.innerHTML.includes('#lesson/1/questions'));
+  assert.ok(!app(null, '#lesson/15').main.innerHTML.includes('即时小测'));
+});
+
+test('question IDs across courses are unique and new lesson mistakes survive reload', () => {
+  const a = app(null, '#lesson/1');
+  const qs = [...a.context.COURSE_CONTENT.questions, ...a.context.LESSON14_CONTENT.quickQuestions, ...a.context.COURSE_LIBRARY.lessons.flatMap(c=>c.quickQuestions)];
+  assert.equal(new Set(qs.map(q=>q.id)).size, qs.length);
+  const q = a.context.COURSE_LIBRARY.lessons[0].quickQuestions.find(q=>q.question.includes('Qui est-ce'));
+  const feedback={};
+  const form={dataset:{question:q.id},answer:String((q.answer+1)%3),querySelector:()=>feedback};
+  const e={preventDefault(){},target:{closest:()=>form}};
+  a.main.listeners.submit(e);
+  const restored=app(a.storage.value,'#review');
+  assert.ok(restored.main.innerHTML.includes(`data-question="${q.id}"`));
+  assert.ok(restored.main.innerHTML.includes('第 1 课'));
+  form.answer=String(q.answer);a.main.listeners.submit(e);
+  assert.deepEqual(JSON.parse(a.storage.value).wrong,[]);
+});
+
+test('lesson 1 deep links preserve answer state; lesson switches render the new content', () => {
+  const a = app(null,'#lesson/1/questions');
+  assert.equal(a.elements['lesson1-questions'].scrolled,true);
+  const before=a.main.innerHTML;
+  a.context.location.hash='#lesson/1/sound';
+  a.context.events.hashchange({oldURL:'https://example.test/#lesson/1/questions'});
+  assert.equal(a.main.innerHTML,before);
+  assert.equal(a.elements['lesson1-sound'].scrolled,true);
+  a.context.location.hash='#lesson/14/sound';
+  a.context.events.hashchange({oldURL:'https://example.test/#lesson/1/sound'});
+  assert.ok(a.main.innerHTML.includes('À Londres'));
+  assert.equal(a.elements['lesson14-sound'].scrolled,true);
+});
+
+test('older skill-page notes remain visible in lesson 14 after adding course selection', () => {
+  const state={version:1,completed:[],wrong:[],favorites:[],notes:{reading:'旧阅读笔记'},attempts:{}};
+  const a=app(JSON.stringify(state),'#reading/14');
+  assert.ok(a.main.innerHTML.includes('旧阅读笔记'));
 });
