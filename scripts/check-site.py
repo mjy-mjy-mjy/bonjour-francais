@@ -13,7 +13,7 @@ class AssetCheck(HTMLParser):
         for name in ('src', 'href'):
             path = attrs.get(name, '')
             if path and not urlparse(path).scheme and not path.startswith('#'):
-                assert (ROOT / path).is_file(), f'Missing asset: {path}'
+                assert (ROOT / urlparse(path).path).is_file(), f'Missing asset: {path}'
 
 
 AssetCheck().feed((ROOT / 'index.html').read_text(encoding='utf-8'))
