@@ -249,3 +249,20 @@ test('lesson 3 covers wellbeing, age, contact details, determiners, numbers and 
   a.elements.search.listeners.input({target:{value:'mon adresse'}});
   assert.ok(a.main.innerHTML.includes('#lesson/3/possessives'));
 });
+
+test('lesson 4 integrates profile reading, likes, questions and message production', () => {
+  const a=app(null,'#lesson/4');
+  for(const text of ['correspond@nce.com','J’aime le cinéma','J’aime danser','j’adore','tu aimes','Vous aimez','Mei','Ana','Marco','francophone','未提及','共同喜好','6—8 句','/vu.zɛ.me/']) assert.ok(a.main.innerHTML.includes(text),text);
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,30);
+  for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']) {
+    const page=app(null,'#'+kind+'/4');
+    assert.ok(page.main.innerHTML.includes('#lesson/4'),kind);
+    assert.ok(page.elements.navigation.innerHTML.includes('#grammar/4'),kind);
+  }
+  a.elements.search.listeners.input({target:{value:'correspondante'}});
+  assert.ok(a.main.innerHTML.includes('#lesson/4/words'));
+  const stored={version:1,completed:[4],wrong:['l04-q24'],favorites:[4],notes:{'lesson-4':'笔友留言'},attempts:{'l04-q24':false}};
+  const restored=app(JSON.stringify(stored),'#review');
+  assert.ok(restored.main.innerHTML.includes('correspond@nce.com'));
+  assert.ok(restored.main.innerHTML.includes('data-question="l04-q24"'));
+});

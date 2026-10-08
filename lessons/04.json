@@ -1,0 +1,457 @@
+{
+  "number": 4,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "01 / 综合目标、教材核心与学习顺序",
+      "html": "<h2>01 / 综合目标、教材核心与学习顺序</h2><p>第 4 课是第一单元的综合运用：从个人资料中识别人，理解喜好，给适合交流的人写一段简短介绍。前 3 课分别学习姓名、国籍、居住地、年龄和联系方式，本课要求把这些信息连成有逻辑的表达。</p><div class=\"note\"><b>核心交际：</b>读个人资料、说明喜好、寻找笔友。已学 être、s’appeler、avoir、aller、地点介词、单数限定词为复习。为了自己能写喜欢什么，本页补充 aimer、adorer、détester 的规则现在时；否定和名词复数明确作预览，不冒充本课新核心。所有资料卡与留言为原创。</div><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>达标表现</th></tr></thead><tbody><tr><td>读懂人物</td><td>分清名字、年龄、国籍、住处、语言和喜好，不依据单一字段猜别的信息。</td></tr><tr><td>说喜好</td><td>能说 J’aime le cinéma / J’aime danser；知道语言身份与爱好不是同一字段。</td></tr><tr><td>提问</td><td>能根据缺失信息选姓名、年龄、住处等问法，而不是每句都问 Qui est-ce ?</td></tr><tr><td>找共同点</td><td>能从已给资料指出一两项共同喜好，不猜对方职业和联系方式。</td></tr><tr><td>写留言</td><td>写 6—8 句，先自我介绍，再说明喜好，最后问一两个与交流有关的问题。</td></tr><tr><td>复习</td><td>完成十组任务，并能在不看表的情况下把 je 改成 il / elle 介绍同一个人。</td></tr></tbody></table></div><p>先读第 02 节的方法 → 用第 03—06 节查语言结构 → 扩展词汇 → 读原创人物卡并完成练习 → 写自己的留言 → 依据第 12 节自查。不要把综合课当作“没有新语法，所以不用练”的一页目录。</p>"
+    },
+    {
+      "id": "profiles",
+      "title": "02 / 读人物资料：字段、线索和未知信息",
+      "html": "<h2>02 / 读人物资料：字段、线索和未知信息</h2><p>个人资料可能是句子，也可能是省略主语的栏目。读取时先找信息属于哪一类，再恢复成完整句。<b>Nationalité : italienne</b> 说明国籍；<b>Ville : Lyon</b> 说明居住地；<b>Langues : italien, français</b> 说明语言，三个字段不能互相替代。</p><div class=\"table-scroll\"><table><thead><tr><th>字段／线索</th><th>通常在找什么</th><th>还原句子的办法</th></tr></thead><tbody><tr><td>Prénom / Nom / Je m’appelle…</td><td>名、姓与称呼</td><td>Elle s’appelle Ana Keller.</td></tr><tr><td>Âge / J’ai… ans</td><td>年龄</td><td>Elle a vingt et un ans.</td></tr><tr><td>Nationalité / Je suis…</td><td>人物国籍</td><td>Elle est suisse.</td></tr><tr><td>Ville / J’habite…</td><td>城市或国家</td><td>Elle habite à Genève, en Suisse.</td></tr><tr><td>Langues / Je parle…</td><td>会说或使用的语言</td><td>Elle parle français et allemand.</td></tr><tr><td>J’aime… / Mes goûts…</td><td>喜好；Mes goûts 为识别性补充</td><td>Elle aime le cinéma.</td></tr><tr><td>Correspondant / correspondante</td><td>寻找交流对象，人物名词有两性</td><td>Je cherche une correspondante.（chercher 与 une 用法补充）</td></tr></tbody></table></div><h3>2.1 一次读懂只做一个任务</h3><ol><li>第一遍找人物姓名与资料数量，先判断是一个人还是几个人。</li><li>第二遍分字段记录年龄／国籍／城市／语言／喜好。</li><li>第三遍找可能的交流共同点；必须能指出资料中的原句。</li><li>最后列未知字段：没写职业、电话或完整街道地址，就标“未提及”。</li></ol><h3>2.2 三类不同的结论</h3><p><b>明确：</b>“J’habite à Lyon”可以确定住里昂。<b>允许的综合：</b>一个人喜欢电影，另一个也喜欢电影，可以说有共同喜好。<b>不能推出：</b>住里昂不代表法国国籍；说法语不代表法国人；喜欢法国不代表现在住法国；年龄 21 不证明是大学生。</p><h3>2.3 从第一人称到第三人称</h3><p class=\"example\">Je m’appelle Ana. J’ai vingt et un ans. Je suis suisse. J’habite à Genève. J’aime le cinéma.<br>→ Elle s’appelle Ana. Elle a vingt et un ans. Elle est suisse. Elle habite à Genève. Elle aime le cinéma.</p><p>变化是主语、动词和代词配套关系一起变；语言名、地名和喜好名词通常不因转述者性别而改写。Mei（本页设为女性）的 chinoise 不改成 chinois，只因为另一个男性正在介绍她。</p>"
+    },
+    {
+      "id": "verbs",
+      "title": "03 / aimer、adorer、détester：规则变位与省音",
+      "html": "<h2>03 / aimer、adorer、détester：规则变位与省音</h2><p>补充三个常见喜好动词，帮助把阅读理解转成自己的表达。<b>aimer</b> 喜欢；<b>adorer</b> 很喜欢、喜爱；<b>détester</b> 讨厌，语气较强。它们按规则 -er 现在时变化；不要把表示喜爱的人或事物误当作新的主语。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>aimer</th><th>adorer</th><th>détester</th></tr></thead><tbody><tr><td>je</td><td>j’aime</td><td>j’adore</td><td>je déteste</td></tr><tr><td>tu</td><td>tu aimes</td><td>tu adores</td><td>tu détestes</td></tr><tr><td>il / elle / on</td><td>il / elle / on aime</td><td>il / elle / on adore</td><td>il / elle / on déteste</td></tr><tr><td>nous（拓展）</td><td>nous aimons</td><td>nous adorons</td><td>nous détestons</td></tr><tr><td>vous</td><td>vous aimez</td><td>vous adorez</td><td>vous détestez</td></tr><tr><td>ils / elles（拓展）</td><td>ils / elles aiment</td><td>ils / elles adorent</td><td>ils / elles détestent</td></tr></tbody></table></div><h3>3.1 分三步写正确的动词</h3><p>①看主语；②取词干 aim-、ador-、détest-；③接 -e、-es、-e、-ons、-ez、-ent。aimer / adorer 以元音开头，所以 je 省音为 j’；détester 以 /d/ 开头，保留 je。<b>j’aime</b> 不是“少了主语”，j’ 就是省音后的 je。</p><h3>3.2 两类词尾：书写不同，声音可能相同</h3><p>aime、aimes、aiment 在常见现在时中通常都读 /ɛm/；仍需分别书写 elle aime、tu aimes、ils aiment。nous aimons 与 vous aimez 有不同读音。不要为了区分 aimes 而单独读末 s，也不要给 -ent 加一个“昂”音。</p><h3>3.3 不规则动词仍单独复习</h3><p>不是所有看起来熟悉的动词都能套此表：être、avoir、aller 不规则；s’appeler 还有配套代词和拼写变化。J’aime / J’habite / Je parle 是相似的规则词，Je suis / J’ai / Je vais 则要查各自表。</p><h3>3.4 喜好强弱不是精确量表</h3><p>J’aime le cinéma. 是喜欢；J’adore le cinéma. 通常更热情；Je déteste le cinéma. 是强烈负面偏好。它们不是可换成固定百分比的强度分数；对人直接用 aimer 还可能有“爱”的关系含义，本课主练活动、艺术与地点。</p>"
+    },
+    {
+      "id": "likes",
+      "title": "04 / 喜好句型：名词、活动、否定与冠词",
+      "html": "<h2>04 / 喜好句型：名词、活动、否定与冠词</h2><p>表达喜好时先判断后面是<strong>名词</strong>还是<strong>动词不定式</strong>。两个结构都常见，但不是把词汇互换后其余全部照搬。</p><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>自编例句</th><th>注意</th></tr></thead><tbody><tr><td>aimer + 定冠词 + 类别名词</td><td>J’aime le cinéma. / Elle aime la musique.</td><td>总体喜好常用 le / la / l’；不把冠词全部删掉。</td></tr><tr><td>aimer + 专有地名</td><td>J’aime Paris. / J’aime la France.</td><td>通常城市不加冠词；国家名称按自身形式。</td></tr><tr><td>aimer + 动词不定式（补充）</td><td>J’aime danser. / Il aime chanter.</td><td>第二个动词保留不定式，不写 J’aime danse。</td></tr><tr><td>adorer + 名词或不定式</td><td>J’adore la musique. / Elle adore danser.</td><td>同样检查冠词或不定式。</td></tr><tr><td>détester + 名词或不定式</td><td>Je déteste le football.</td><td>强烈不喜欢；语气看语境。</td></tr><tr><td>ne…pas（第 6 课预览）</td><td>Je n’aime pas le football.</td><td>n’ 在 aime 前省音；表示通常喜好类别时 le 仍保留。</td></tr></tbody></table></div><h3>4.1 不定式与变位不能混成两个谓语</h3><p class=\"example\">Je danse. 我跳舞。<br>J’aime danser. 我喜欢跳舞。<br>Elle aime danser. 她喜欢跳舞。</p><p>在喜欢做某事的结构里，aimer 随主语变位，danser 表示喜欢的活动，保持不定式；不能写 Elle aime danse。prendre、faire 等后续活动动词也可能用于不定式位置，但本课不据此要求提前掌握它们全部变位。</p><h3>4.2 总体类别与某一个东西</h3><p><b>J’aime le cinéma.</b> 指喜欢电影这一领域，不等于只喜欢一间电影院。<b>J’aime cette ville.</b> 指喜欢这座城市，cette 第 7 课系统学习。<b>J’aime un film.</b> 则更像某一部电影，语境不同。本课先会表达整体喜好，不随意把 le 换成 un。</p><h3>4.3 会说、正在学、喜欢：三种信息</h3><p><b>Je parle français.</b> 说明语言；<b>J’étudie le français.</b> 说明学习，étudier 为补充词；<b>J’aime le français.</b> 说明喜欢法语。不是喜欢法语就能推出熟练说法语，也不是只要写 Je parle 就代表某个考试等级。</p><h3>4.4 否定范围明确标为拓展</h3><p>完整 ne…pas 第 6 课再练。本页提供 Je n’aime pas… 是为了读懂或补充一条不喜欢的活动；不要把口语中常省略 ne 的现象当本课书面写法。核心输出只用 J’aime、J’adore、Je déteste 也能完成。</p>"
+    },
+    {
+      "id": "identity",
+      "title": "05 / 第一单元结构表：身份、年龄、地点与语言",
+      "html": "<h2>05 / 第一单元结构表：身份、年龄、地点与语言</h2><p>综合表达中，每句先确定任务，再选动词和词类。中文的“是／在／会／有”不能机械对应成同一个法语动词。</p><div class=\"table-scroll\"><table><thead><tr><th>信息</th><th>自己</th><th>介绍一位女性</th><th>关键检查</th></tr></thead><tbody><tr><td>姓名</td><td>Je m’appelle Mei.</td><td>Elle s’appelle Mei.</td><td>m’ / s’ 和主语对应。</td></tr><tr><td>身份国籍</td><td>Je suis chinoise.</td><td>Elle est chinoise.</td><td>国籍形容词随被介绍人物性别。</td></tr><tr><td>年龄</td><td>J’ai dix-neuf ans.</td><td>Elle a dix-neuf ans.</td><td>avoir；je 在 ai 前省音。</td></tr><tr><td>城市</td><td>J’habite à Lyon.</td><td>Elle habite à Lyon.</td><td>城市 à，habiter 规则变位。</td></tr><tr><td>国家</td><td>J’habite en France.</td><td>Elle habite en France.</td><td>国家看性别、数和开头音。</td></tr><tr><td>语言</td><td>Je parle chinois.</td><td>Elle parle chinois.</td><td>语言名不随人物女性变 chinoise。</td></tr><tr><td>喜好名词</td><td>J’aime la musique.</td><td>Elle aime la musique.</td><td>主体动词变位；类别名词有冠词。</td></tr><tr><td>喜好活动</td><td>J’aime danser.</td><td>Elle aime danser.</td><td>后接活动动词不定式。</td></tr></tbody></table></div><h3>5.1 国籍、语言与法语世界</h3><p>France 是国家；français / française 可作国籍形容词；le français 是法语。说法语的人可住在法国、加拿大、比利时、瑞士或其他地区，国籍和语言不能一一对应。<b>francophone</b> 是讲法语的，<b>français</b> 作为国籍形容词则表示法国的／法国人。地区与个人所说语言可能不同，阅读仍依据资料而非概括猜测。</p><h3>5.2 常用地名复习表</h3><div class=\"table-scroll\"><table><thead><tr><th>地名原形</th><th>居住短语</th><th>人物国籍例词</th></tr></thead><tbody><tr><td>Paris / Lyon</td><td>à Paris / à Lyon</td><td>住法国城市不能证明法国国籍。</td></tr><tr><td>la France</td><td>en France</td><td>français / française</td></tr><tr><td>la Chine</td><td>en Chine</td><td>chinois / chinoise</td></tr><tr><td>l’Italie（f.）</td><td>en Italie</td><td>italien / italienne</td></tr><tr><td>le Canada</td><td>au Canada</td><td>canadien / canadienne</td></tr><tr><td>la Suisse</td><td>en Suisse</td><td>suisse / suisse</td></tr><tr><td>la Belgique</td><td>en Belgique</td><td>belge / belge</td></tr><tr><td>le Japon</td><td>au Japon</td><td>japonais / japonaise</td></tr></tbody></table></div><h3>5.3 单数限定词复习</h3><p>le numéro / l’adresse；un numéro / une adresse；mon numéro / mon adresse；quel numéro / quelle adresse。每个结构按自己的规则改变；不把阴性元音词前 mon 的形式当作判断名词阳性的依据。</p><h3>5.4 从一项信息到完整介绍</h3><p>先读清楚，再选择 4—6 个重要字段组成句子。初次留言无需把所有信息都塞进去；姓名、年龄、住处、语言和共同喜好往往足够构成一段可理解的交流开头。</p>"
+    },
+    {
+      "id": "questions",
+      "title": "06 / 按信息提问：复习、确认与继续对话",
+      "html": "<h2>06 / 按信息提问：复习、确认与继续对话</h2><p>先明确希望得到什么信息，才决定疑问词和动词。面对本人，用 tu／vous；谈资料中的第三人，用 il／elle。缺失信息有不同问法，不把 Qui est-ce ? 当通用问题。</p><div class=\"table-scroll\"><table><thead><tr><th>想知道</th><th>面对本人（vous）</th><th>谈第三人女性</th></tr></thead><tbody><tr><td>姓名</td><td>Vous vous appelez comment ?</td><td>Elle s’appelle comment ?</td></tr><tr><td>身份识别</td><td>Vous êtes Ana ?</td><td>Qui est-ce ? → C’est Ana.</td></tr><tr><td>年龄</td><td>Quel âge avez-vous ?</td><td>Elle a quel âge ?</td></tr><tr><td>住处</td><td>Vous habitez où ?</td><td>Elle habite où ?</td></tr><tr><td>国籍确认</td><td>Vous êtes suisse ?</td><td>Elle est suisse ?</td></tr><tr><td>语言确认</td><td>Vous parlez français ?</td><td>Elle parle français ?</td></tr><tr><td>喜好确认</td><td>Vous aimez le cinéma ?</td><td>Elle aime le cinéma ?</td></tr><tr><td>活动喜好（补充）</td><td>Vous aimez danser ?</td><td>Elle aime danser ?</td></tr></tbody></table></div><h3>6.1 开放提问与确认</h3><p>Vous habitez où ? 要提供地点；Vous habitez à Lyon ? 可以确认或更正。Vous aimez le cinéma ? 问是否喜欢；若想让对方说明多项喜好，可以先写“Et vous ?”，或使用 <b>Vous aimez quoi ?</b>（口语补充）。正式特殊疑问结构第 14 课再全面整理。</p><h3>6.2 不只重复同一个字段</h3><p class=\"example\">— Vous aimez le cinéma ?<br>— Oui, j’aime le cinéma. Et vous ?<br>— Moi aussi. Vous habitez à Lyon ?<br>— Non, j’habite à Genève.</p><p>Moi aussi. 是“我也一样”的固定回应（moi 第 6 课系统学习）。先发现共同喜好，再问对方住处；不要对一份已经写清名字的资料反复问姓名。</p><h3>6.3 第一句留言的交际顺序</h3><p>Bonjour → 简短介绍自己 → 指出共同喜好 → 问一个相关问题 → 礼貌结束。只写电话号码和一串问题，读者难以理解是谁以及为什么联系；只写长篇自我介绍而无回应问题，又不利于继续交流。</p>"
+    },
+    {
+      "id": "words",
+      "title": "07 / 喜好、笔友与资料词汇表",
+      "html": "<h2>07 / 喜好、笔友与资料词汇表</h2><div class=\"table-scroll\"><table><thead><tr><th>词／表达</th><th>词性与性别</th><th>含义／搭配</th><th>例句</th></tr></thead><tbody><tr><td>un correspondant / une correspondante</td><td>人物名词，阳／阴</td><td>笔友、通信对象。</td><td>Je cherche une correspondante.</td></tr><tr><td>chercher</td><td>规则 -er 动词（补充）</td><td>寻找，不等于 chercher à… 的全部用法。</td><td>Je cherche un correspondant.</td></tr><tr><td>aimer</td><td>规则 -er 动词</td><td>喜欢；aimer + 名词／不定式。</td><td>J’aime le cinéma.</td></tr><tr><td>adorer</td><td>规则 -er 动词</td><td>很喜欢、喜爱。</td><td>J’adore la musique.</td></tr><tr><td>détester</td><td>规则 -er 动词</td><td>讨厌，语气较强。</td><td>Je déteste le football.</td></tr><tr><td>le goût / les goûts</td><td>阳性名词，复数为识别性预览</td><td>喜好、口味；本课资料中的 goûts。</td><td>Mes goûts（我的喜好，复数预览）</td></tr><tr><td>le cinéma</td><td>阳性名词</td><td>电影／电影院，依语境。</td><td>J’aime le cinéma.</td></tr><tr><td>la musique</td><td>阴性名词</td><td>音乐；总体喜好带 la。</td><td>Elle adore la musique.</td></tr><tr><td>le sport</td><td>阳性名词</td><td>体育；具体运动搭配后续。</td><td>J’aime le sport.</td></tr><tr><td>le football</td><td>阳性名词</td><td>足球。</td><td>Il aime le football.</td></tr><tr><td>la danse</td><td>阴性名词</td><td>舞蹈这一名词。</td><td>J’aime la danse.</td></tr><tr><td>danser</td><td>规则 -er 动词</td><td>跳舞；喜欢做时用不定式。</td><td>J’aime danser.</td></tr><tr><td>chanter</td><td>规则 -er 动词</td><td>唱歌。</td><td>Elle aime chanter.</td></tr><tr><td>la lecture</td><td>阴性名词（补充）</td><td>阅读，喜好名词。</td><td>J’aime la lecture.</td></tr><tr><td>lire</td><td>不规则动词不定式（补充）</td><td>阅读；现在仅作活动不定式识别。</td><td>J’aime lire.</td></tr><tr><td>le voyage / les voyages</td><td>阳性名词，复数预览</td><td>旅行；复数喜好用法整体识别。</td><td>J’aime les voyages.</td></tr><tr><td>voyager</td><td>规则 -er 动词（补充）</td><td>旅行；拼写变化后续需要时讲。</td><td>J’aime voyager.</td></tr><tr><td>étudier</td><td>规则 -er 动词（补充）</td><td>学习；常用 J’étudie le français。</td><td>J’étudie le français.</td></tr><tr><td>parler</td><td>规则 -er 动词（复习）</td><td>说某语言。</td><td>Je parle français.</td></tr><tr><td>francophone</td><td>阴阳性同形形容词（补充）</td><td>讲法语的；不必法国国籍。</td><td>Elle est francophone.</td></tr><tr><td>aussi</td><td>副词</td><td>也；根据整句含义使用。</td><td>J’aime aussi la musique.</td></tr><tr><td>et</td><td>连词</td><td>并列和。</td><td>le cinéma et la musique</td></tr><tr><td>ou</td><td>连词</td><td>或者，别与 où 混。</td><td>Paris ou Lyon ?</td></tr><tr><td>mais</td><td>连词（补充）</td><td>但是，用于简单对照。</td><td>J’aime le sport, mais je déteste le football.</td></tr><tr><td>moi aussi</td><td>固定回应，重读代词预览</td><td>我也一样。</td><td>— J’aime le cinéma. — Moi aussi.</td></tr><tr><td>Bonjour / Au revoir</td><td>问候／告别（复习）</td><td>留言开始／结束。</td><td>Bonjour, Ana.</td></tr><tr><td>À bientôt</td><td>告别（复习）</td><td>希望不久再见。</td><td>À bientôt !</td></tr><tr><td>le message</td><td>阳性名词（补充）</td><td>消息、留言。</td><td>Un message.</td></tr><tr><td>le prénom / le nom</td><td>阳性名词（复习）</td><td>名与姓。</td><td>Mei Lin：按资料字段确认。</td></tr></tbody></table></div><h3>7.1 词性决定句型</h3><p>la danse 是名词：J’aime la danse；danser 是动词：J’aime danser。la lecture 与 lire 同样分开学。不要因为中文都译“阅读”，就写 J’aime le lire 来表达通常的阅读爱好。</p><h3>7.2 不定式识别不等于掌握全部变位</h3><p>lire、voyager 等词可以先在 J’aime… 后作为固定活动识别。lire 的完整现在时将在第 15 课学习；voyager 的 nous voyageons 涉及拼写保持读音，本课不要求写未讲解的变位。练习只考本页已给形式。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "08 / 原创个人资料、留言和听说读写任务",
+      "html": "<h2>08 / 原创个人资料、留言和听说读写任务</h2><h3>8.1 三份教学虚构资料</h3><p class=\"example\"><b>Ana</b><br>Bonjour ! Je m’appelle Ana Keller. J’ai vingt et un ans. Je suis suisse. J’habite à Genève, en Suisse. Je parle français et allemand. J’aime le cinéma et la musique. J’aime aussi danser. À bientôt !</p><p class=\"example\"><b>Mei</b><br>Bonjour. Je m’appelle Mei Lin. J’ai dix-neuf ans. Je suis chinoise. J’habite à Lyon, en France. Je parle chinois et français. J’aime la musique et le cinéma. Je déteste le football. Et vous ?</p><p class=\"example\"><b>Marco</b><br>Salut ! Je m’appelle Marco Rossi. J’ai vingt-cinq ans. Je suis italien. J’habite à Montréal, au Canada. Je parle italien et français. J’adore le football. J’aime chanter. À bientôt !</p><h3>8.2 阅读时可建立的共同点</h3><p>Ana 与 Mei 都明确喜欢电影和音乐；Marco 喜欢足球，而 Mei 明确讨厌足球。三人都列了法语，但各自还有另一语言。共同喜好可以作为留言话题；不同喜好也能交流，不因一个偏好就给人作总体好坏评价。</p><h3>8.3 原创留言示例</h3><p class=\"example\">Bonjour, Ana.<br>Je m’appelle Mei. J’ai dix-neuf ans. Je suis chinoise et j’habite à Lyon. Je parle chinois et français. J’aime aussi le cinéma et la musique. Vous aimez chanter ?<br>À bientôt !<br>Mei</p><p>先介绍自己，再回应对方已写出的爱好，最后问一项相关的新信息。Ana 的资料说喜欢跳舞，没有说喜不喜欢唱歌，所以这个问题有继续交流的价值。资料和留言均虚构，练习只写文本，不发送消息。</p><h3>8.4 听力任务和资料整合</h3><p>配套视频或音频请在出版方资源中按第一单元及课次找对应素材；本课如以图文阅读为主，不把自编人物卡冒充官方音轨。听第一单元素材时，第一遍记姓名／地点；第二遍记年龄／语言／喜好；第三遍对照原文；第四遍转成第三人称复述。</p><h3>8.5 写作自查顺序</h3><ol><li>是否让读者知道我是谁、在哪里、想谈什么。</li><li>国籍与语言分别使用正确词类；住处介词正确。</li><li>每个句子的主语、变位和省音正确。</li><li>aimer 后名词带合适冠词，活动动词保持不定式。</li><li>提问是否回应对方资料，而非重复已知信息。</li><li>结束语符合交流关系，标点和重音符有检查。</li></ol>"
+    },
+    {
+      "id": "sound",
+      "title": "09 / 第一单元发音复习：同音词尾与整组表达",
+      "html": "<h2>09 / 第一单元发音复习：同音词尾与整组表达</h2><p>本课综合练习前 3 课的语调、音节与词组重音，不虚构一个本课必须掌握的新音。喜好动词补充省音与主语前连读，让整段人物介绍更加连续。</p><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>听读重点</th><th>检查</th></tr></thead><tbody><tr><td>J’aime le cinéma.</td><td>j’aime 常读 /ʒɛm/</td><td>je 在元音前省音；不是 /ʒə.ɛm/ 分开读。</td></tr><tr><td>J’adore la musique.</td><td>j’adore 连为 /ʒadɔʁ/</td><td>不要在省音位置再添加独立 je。</td></tr><tr><td>Tu aimes / elle aime</td><td>动词常均 /ɛm/</td><td>听主语辨人称；拼写不能互换。</td></tr><tr><td>Vous aimez…</td><td>常有 /z/ 连读，约 /vu.zɛ.me/</td><td>主语 vous 的潜在 s 在元音前读 /z/。</td></tr><tr><td>Elle aime…</td><td>elle 的 /l/ 本来发音，接 aime 连续</td><td>这是本已发音辅音的衔接，不是补出不存在的连读音。</td></tr><tr><td>J’ai vingt et un ans.</td><td>按年龄短语连续读</td><td>保持数值与最后 ans 清楚，节奏服务信息准确。</td></tr><tr><td>Je suis suisse. / Elle est suisse.</td><td>suisse 通常 /sɥis/</td><td>两性同形，不额外期待阴性 e 音。</td></tr></tbody></table></div><h3>9.1 读一段资料，用意义划组</h3><p class=\"example\">Bonjour / je m’appelle Ana / j’ai vingt et un ans / j’habite à Genève / j’aime le cinéma et la musique.</p><p>分组只是教学建议，实际语速和语义可以改变；组内尽量连续，末可承重音音节自然突出。不要在每个冠词和名词之间停顿，也不要为了“连起来”吞掉年龄或地名。</p><h3>9.2 问句和喜好陈述</h3><p>Vous aimez le cinéma ? 是确认式问句，常有上升语调；J’aime le cinéma. 是陈述，常收束。Elle habite où ? 属于带疑问词的口语问法，实际语调依语境与录音，不把所有问号都强制成一个模子。</p><h3>9.3 跟读、转述、再录音</h3><ol><li>先读短资料，标每一项信息，不为流利而猜词。</li><li>把 j’aime 与 vous aimez 成对录音，听省音和 /z/ 是否清楚。</li><li>用 elle 转述 Ana，用 il 转述 Marco，保留正确国籍词形。</li><li>重录一段 30—45 秒介绍，检查一项语法和一项节奏问题。</li></ol>"
+    },
+    {
+      "id": "errors",
+      "title": "10 / 综合易错点：原句、修正与理由",
+      "html": "<h2>10 / 综合易错点：原句、修正与理由</h2><div class=\"table-scroll\"><table><thead><tr><th>错误</th><th>修正</th><th>判断理由</th></tr></thead><tbody><tr><td>Je aime la musique.</td><td>J’aime la musique.</td><td>je 在元音前省音。</td></tr><tr><td>Tu aime le cinéma.</td><td>Tu aimes le cinéma.</td><td>tu 规则词尾 -es；同音也要书写。</td></tr><tr><td>Elle aimes danser.</td><td>Elle aime danser.</td><td>第三人称单数 -e。</td></tr><tr><td>J’aime danse.</td><td>J’aime danser.</td><td>喜好活动用不定式。</td></tr><tr><td>J’aime cinéma.</td><td>J’aime le cinéma.</td><td>总体类别喜好通常带定冠词。</td></tr><tr><td>Je suis vingt ans.</td><td>J’ai vingt ans.</td><td>年龄用 avoir。</td></tr><tr><td>Elle s’appelle Ana. Elle suis suisse.</td><td>Elle est suisse.</td><td>être 随主语。</td></tr><tr><td>Je parle française.（女性说话者）</td><td>Je parle français.</td><td>语言名不按说话者性别改。</td></tr><tr><td>Elle habite en Lyon.</td><td>Elle habite à Lyon.</td><td>城市用 à。</td></tr><tr><td>Marco habite en Canada.</td><td>Marco habite au Canada.</td><td>阳性辅音开头国家 au。</td></tr><tr><td>住法国所以国籍是 française。</td><td>分别读取 nationality 与住处。</td><td>不能凭住处推国籍。</td></tr><tr><td>会法语所以就是法国人。</td><td>法语使用者可有不同国籍。</td><td>语言与国籍不是同一信息。</td></tr><tr><td>Son numéro 表明主人是男性。</td><td>son 配合 numéro 阳性。</td><td>拥有者性别看前文。</td></tr><tr><td>ma adresse</td><td>mon adresse</td><td>阴性元音前换物主词形式。</td></tr><tr><td>姓名回答每次都 Oui。</td><td>Je m’appelle…</td><td>开放问姓名需要信息。</td></tr><tr><td>aiment 的 -ent 都读成 /ɑ̃/。</td><td>常不发音，按主语书写。</td><td>把拼写和词尾声音分开。</td></tr><tr><td>Elle aime 的 /l/ 是新连读音。</td><td>/l/ 在 elle 单独也发音。</td><td>本有辅音衔接与潜在连读分开。</td></tr><tr><td>人物卡没写职业，就猜学生。</td><td>标未提及。</td><td>年龄不能证明职业。</td></tr><tr><td>共同点只凭国籍和刻板印象。</td><td>引用已给喜好或语言。</td><td>共同点要有文本依据。</td></tr><tr><td>全文只有自我介绍，没有回应或问题。</td><td>回应对方一项资料，再问相关问题。</td><td>笔友留言是交流开头。</td></tr></tbody></table></div><p>改稿按“信息是否有依据 → 句型选择 → 主语与变位 → 冠词与配合 → 省音、重音符和标点”检查。一次只追求一个检查层级，更容易找出真正的错误。</p>"
+    },
+    {
+      "id": "practice",
+      "title": "11 / 十组综合练习与逐项解析",
+      "html": "<h2>11 / 十组综合练习与逐项解析</h2><p>下面将第一单元知识与喜好表达放在同一套任务中。A、B 的复数只使用本页已给变位，属于查阅拓展；其余核心以单数和礼貌 vous 为主。J 为开放留言与口头输出，给示范和自查标准。</p><h3>A. 常见动词变位</h3><ol><li>J’___ le cinéma.（aimer）</li><li>Tu ___ la musique.（aimer）</li><li>Elle ___ danser.（aimer）</li><li>Vous ___ le football ?（adorer）</li><li>Je ___ le football.（détester）</li><li>Elle ___ à Genève.（habiter）</li><li>Il ___ italien.（parler）</li><li>J’___ dix-neuf ans.（avoir）</li><li>Elle ___ suisse.（être）</li><li>Nous ___ la musique.（aimer，拓展）</li></ol><details><summary>展开答案与解析</summary><ol><li>aime；je 在元音前省音。</li><li>aimes；tu 词尾 -es。</li><li>aime；第三人称单数 -e，danser 不定式。</li><li>adorez；vous 词尾 -ez。</li><li>déteste；辅音开头保留 je。</li><li>habite；第三人称单数 -e。</li><li>parle；此处 italien 是语言。</li><li>ai；年龄用 avoir。</li><li>est；être 不套规则 -er。</li><li>aimons；nous 词尾 -ons。</li></ol></details><h3>B. 把第一人称改成第三人称</h3><ol><li>J’aime la musique. 改为 Elle。</li><li>J’habite à Montréal. 改为 Il。</li><li>J’ai vingt-cinq ans. 改为 Il。</li><li>Je m’appelle Ana. 改为 Elle。</li><li>Je suis chinoise. 改为本页人物 Mei 的第三人介绍。</li><li>Je parle chinois. 改为 Elle。</li><li>J’aime danser. 改为 Il。</li><li>Tu aimes le cinéma. 改为 Vous。</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle aime la musique. 主语、变位同时换。</li><li>Il habite à Montréal. 地名不变。</li><li>Il a vingt-cinq ans. avoir 用 a。</li><li>Elle s’appelle Ana. 配套代词也换为 s’。</li><li>Elle est chinoise. 人物仍女性，国籍保持阴性。</li><li>Elle parle chinois. 语言不换成 chinoise。</li><li>Il aime danser. aimer 变位，danser 保留不定式。</li><li>Vous aimez le cinéma. vous 词尾 -ez。</li></ol></details><h3>C. 词类、喜好与资料字段</h3><ol><li>J’aime la danse. 与 J’aime danser. 中后面的词各是什么词类？</li><li>aimer / adorer / détester 各表达什么？</li><li>J’aime le français. 能证明说话者已经熟练说法语吗？</li><li>Je parle français. 能证明法国国籍吗？</li><li>francophone 与 français（国籍形容词）是否必然相同？</li><li>correspondant / correspondante 的阴阳性形式分别是什么？</li><li>cinéma / musique 的冠词分别是什么？</li><li>ou 与 où 分别表示什么？</li></ol><details><summary>展开答案与解析</summary><ol><li>la danse 名词；danser 动词不定式，两种喜好结构都可。</li><li>喜欢／很喜欢／讨厌；不是精确百分比强度。</li><li>不能；喜欢与能力是不同信息。</li><li>不能；语言不决定国籍。</li><li>不是；讲法语不等于法国国籍。</li><li>un correspondant 阳性；une correspondante 阴性。</li><li>le cinéma 阳性，la musique 阴性。</li><li>ou 或者；où 哪里。</li></ol></details><h3>D. 冠词、国籍与地点结构复习</h3><ol><li>J’aime ___ cinéma.</li><li>J’adore ___ musique.</li><li>Elle habite ___ Genève.</li><li>Il habite ___ Canada.</li><li>Mei habite ___ France.</li><li>Ana est ___（瑞士人，女性）。</li><li>___ est votre adresse ?</li><li>___ adresse（我的地址）。</li></ol><details><summary>展开答案与解析</summary><ol><li>le，整体类别喜好。</li><li>la，musique 阴性。</li><li>à，通常城市。</li><li>au，阳性辅音开头国家。</li><li>en，France 阴性。</li><li>suisse，阴阳性同形。</li><li>Quelle，adresse 阴性。</li><li>mon，adresse 阴性但元音开头。</li></ol></details><h3>E. 按回答提问，避免重复已有信息</h3><ol><li>Je m’appelle Marco.</li><li>J’ai vingt-cinq ans.</li><li>J’habite à Montréal.</li><li>Oui, je parle français.</li><li>Oui, j’aime le cinéma.</li><li>Oui, j’aime danser.（补充）</li><li>C’est Ana.</li><li>Elle habite à Genève.</li></ol><details><summary>展开答案与解析</summary><ol><li>Vous vous appelez comment ? 问本人姓名。</li><li>Quel âge avez-vous ? 问年龄。</li><li>Vous habitez où ? 问住处。</li><li>Vous parlez français ? 确认语言。</li><li>Vous aimez le cinéma ? 确认喜好。</li><li>Vous aimez danser ? 活动保持不定式。</li><li>Qui est-ce ? 识別第三人。</li><li>Elle habite où ? 谈第三人。</li></ol></details><h3>F. 中文译成法语</h3><ol><li>我喜欢电影和音乐。</li><li>她喜欢跳舞。</li><li>他二十五岁，住在加拿大蒙特利尔。</li><li>我说中文和法语。</li><li>这是安娜。她是瑞士人。</li><li>您喜欢唱歌吗？</li><li>我很喜欢足球。</li><li>我讨厌足球。</li></ol><details><summary>展开答案与解析</summary><ol><li>J’aime le cinéma et la musique. 两个类别各用合适冠词。</li><li>Elle aime danser. aimer 随 elle，danser 不定式。</li><li>Il a vingt-cinq ans. Il habite à Montréal, au Canada. 年龄与地点分句。</li><li>Je parle chinois et français. 语言不随人物性别变。</li><li>C’est Ana. Elle est suisse. 指认后补国籍。</li><li>Vous aimez chanter ? vous 变位，不定式 chanter。</li><li>J’adore le football. je 在 adore 前省音。</li><li>Je déteste le football. détester 辅音开头保留 je。</li></ol></details><h3>G. 阅读第 08 节三份原创资料</h3><ol><li>Ana 几岁、什么国籍？</li><li>Mei 住法国，能否写她是 française？</li><li>Marco 的住处、国籍和语言分别是什么？</li><li>Ana 与 Mei 共有哪两项明确的喜好？</li><li>Marco 与 Mei 对足球的偏好是否一致？</li><li>三份资料都列了哪一种语言？</li><li>Ana 是否喜欢唱歌？资料能否确定？</li><li>资料是否提供任何人的完整街道地址或电话？</li><li>用 4 句介绍 Mei；另加一项喜好作第 5 句。</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a vingt et un ans. Elle est suisse.</li><li>不能；她明确是 chinoise，住处 Lyon 在法国。</li><li>Il habite à Montréal, au Canada. Il est italien. Il parle italien et français.</li><li>le cinéma 与 la musique，两个资料明确写出。</li><li>不一致；Marco adore le football，Mei déteste le football。</li><li>le français；各自另有一种语言。</li><li>不能，资料说她 aime danser，没有说明 chanter。</li><li>没有；标未提及，不能补真实或猜测的号码。</li><li>Elle s’appelle Mei Lin. Elle a dix-neuf ans. Elle est chinoise. Elle habite à Lyon, en France. Elle aime la musique. 可换成文本另一个明确喜好。</li></ol></details><h3>H. 发音、拼写与整组朗读</h3><ol><li>aime / aimes / aiment 在常见读法中，动词声音是否必然不同？</li><li>j’aime 是否要读出一个独立 je 再读 aime？</li><li>vous aimez 常见连读辅音是什么？</li><li>elle aime 的 /l/ 属于本已发音辅音还是新增潜在连读音？</li><li>aiment 的 -ent 是否通常读 /ɑ̃/？</li><li>J’aime le cinéma. 是否在每个词后强停顿？</li><li>suisse 的阴性是否再加 e 并产生新音节？</li><li>语调确认问句 Vous aimez le cinéma ? 与陈述有什么常见区别？</li></ol><details><summary>展开答案与解析</summary><ol><li>不必然，通常动词都 /ɛm/；凭主语和语境辨认，拼写按人称。</li><li>不需要；j’ 为省音主语，常连读 /ʒɛm/。</li><li>/z/，约 /vu.zɛ.me/。</li><li>本已发音，elle 单独也读 /l/，跨词衔接为联诵。</li><li>通常不读，不把拼写 ent 当鼻化元音。</li><li>不是，意义组内连续，组末自然突出。</li><li>不用，suisse 两性同形。</li><li>确认问句常升调，陈述常收束；具体依语境，不把规则绝对化。</li></ol></details><h3>I. 综合改错并给理由</h3><ol><li>Je aime cinéma.</li><li>Tu aime danser.</li><li>Elle aime danse.</li><li>Mei est chinoise. Elle parle chinoise.</li><li>Il habite en Montréal, en Canada.</li><li>Elle suis suisse.</li><li>J’ai vingt et un ans. 因说话者女性改为 vingt et une ans 是否正确？</li><li>住法国的人在卡片中没有国籍，所以填 française 是否正确？</li></ol><details><summary>展开答案与解析</summary><ol><li>J’aime le cinéma. 同时修正省音与整体喜好冠词。</li><li>Tu aimes danser. tu 词尾 -es。</li><li>Elle aime danser. 后面活动动词保持不定式。</li><li>Elle parle chinois. 国籍形容词与语言名分开。</li><li>Il habite à Montréal, au Canada. 城市 à，国家 Canada 阳性 au。</li><li>Elle est suisse. être 跟 elle。</li><li>不正确；an 阳性，年龄 vingt et un ans 不按说话者性别改。</li><li>不正确；国籍未知，应标未提及。</li></ol></details><h3>J. 留言、口语与综合自查</h3><ol><li>给 Ana 写 6—8 句留言，介绍自己并回应两项共同喜好，再问一项未知信息。</li><li>遮住模板，用 30—45 秒介绍自己；至少包含姓名、年龄、国籍、住处、语言、喜好。</li><li>以 vous 完成一段问答，再转述同伴资料；说明至少 3 处人称变化。</li><li>读三份资料选一个交流话题，写出选择依据；若有不同偏好也可说明，不能添加未知职业或联系方式。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考：Bonjour, Ana. Je m’appelle Wen. J’ai vingt ans. Je suis chinois. J’habite à Shanghai, en Chine. Je parle chinois et français. J’aime aussi le cinéma et la musique. Vous aimez chanter ? À bientôt ! 内容可改；检查信息顺序、共同点有依据、最后的问题相关。</li><li>参考同一介绍，口头以意义组连续说。自查主语不漏、年龄用 avoir、国籍配合、城市／国家介词、语言不变、aimer 后冠词或不定式正确。</li><li>例如 Vous vous appelez… → Elle s’appelle…；Vous avez… → Elle a…；Vous aimez… → Elle aime…。同伴实际国籍与喜好不要因转述者而改变。</li><li>如选 Ana：她明确 aime le cinéma et la musique，与我设定的这两项喜好共同。选 Marco 也可谈 football 或 chanter。开放任务无唯一人选；理由必须来自资料，不给人作总体优劣排序。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12 / 第一单元自查、速记卡与资料",
+      "html": "<h2>12 / 第一单元自查、速记卡与资料</h2><ul><li>能读人物资料并分字段记录，未知信息不猜测。</li><li>能用 je／tu／il／elle／vous 正确配合常见动词。</li><li>能用 J’aime + 类别名词／活动不定式表达喜好。</li><li>能区分国家、国籍、语言和住处，说明 francophone 的范围。</li><li>能写年龄 avoir、姓名 s’appeler、近况 aller 的基本句。</li><li>能选城市 à、国家 en／au，解释 mon adresse 与 quelle adresse。</li><li>能根据需要选择问法，再将第一人称资料转述为第三人称。</li><li>能写一段回应对方资料的 6—8 句留言，并提出相关新问题。</li><li>能读出 j’aime 的省音、vous aimez 的 /z/，把介绍分意义组表达。</li></ul><div class=\"example\"><b>一分钟速记</b><br>姓名：Je m’appelle… → Elle s’appelle…<br>年龄：J’ai… ans → Elle a… ans。<br>国籍：Je suis chinoise → Elle est chinoise。<br>地点：à + 城市；en France／Chine；au Canada。<br>语言：Je parle français；不由女性改成 française。<br>喜好：J’aime le cinéma／la musique；J’aime danser。<br>变位：j’aime／tu aimes／elle aime／vous aimez。<br>留言：问候 → 简介 → 回应共同点 → 相关问题 → 告别。</div><h3>复习安排</h3><p>当天完成 A—D；隔天重做 I、错题和 G 中的未知信息判断；三天后写一段新留言并转成第三人称；一周后脱稿说完整介绍。第一单元四课应形成一条可实际使用的对话链，不只四张词汇表。</p><h3>资料与范围</h3><p>课次交际目标按 <a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">出版方公开目录</a>核对；规则 -er 变位可查 <a href=\"https://www.laits.utexas.edu/tex/gr/ver1.html\" target=\"_blank\" rel=\"noopener noreferrer\">德州大学法语语法</a>。本课是综合应用，喜好动词、部分新词和否定预览是本站补充。资料、例句、留言与习题均原创；出版方音视频经资源入口访问，不把原创材料标为教材原文。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "J’___ le cinéma.（aimer）",
+      "options": [
+        "aime",
+        "aimes",
+        "aimez"
+      ],
+      "answer": 0,
+      "explanation": "je 使用 aime，元音前省音为 j’。",
+      "group": "grammar",
+      "id": "l04-q01"
+    },
+    {
+      "question": "Tu ___ la musique.",
+      "options": [
+        "aime",
+        "aimes",
+        "aimez"
+      ],
+      "answer": 1,
+      "explanation": "tu 的规则 -er 词尾为 -es。",
+      "group": "grammar",
+      "id": "l04-q02"
+    },
+    {
+      "question": "Elle ___ danser.",
+      "options": [
+        "aimes",
+        "aimez",
+        "aime"
+      ],
+      "answer": 2,
+      "explanation": "第三人称单数 aime；后面 danser 保持不定式。",
+      "group": "grammar",
+      "id": "l04-q03"
+    },
+    {
+      "question": "“我喜欢跳舞”的正确结构是？",
+      "options": [
+        "J’aime danser.",
+        "J’aime danse.",
+        "J’aime le danser."
+      ],
+      "answer": 0,
+      "explanation": "aimer 后接活动动词时用不定式，不把它变成第二个谓语。",
+      "group": "grammar",
+      "id": "l04-q04"
+    },
+    {
+      "question": "“我喜欢音乐这一领域”的常规表达是？",
+      "options": [
+        "J’aime musique.",
+        "J’aime la musique.",
+        "J’aime un musique."
+      ],
+      "answer": 1,
+      "explanation": "总体喜好类别常带定冠词，musique 阴性。",
+      "group": "grammar",
+      "id": "l04-q05"
+    },
+    {
+      "question": "Vous ___ le football ?（adorer）",
+      "options": [
+        "adore",
+        "adores",
+        "adorez"
+      ],
+      "answer": 2,
+      "explanation": "vous 对应 adorez；对一人礼貌也一样。",
+      "group": "grammar",
+      "id": "l04-q06"
+    },
+    {
+      "question": "adorer 比 aimer 通常表达？",
+      "options": [
+        "更热情地喜爱",
+        "完全一样的精确数值",
+        "地址"
+      ],
+      "answer": 0,
+      "explanation": "adorer 通常表示很喜欢，但强弱不是可换成固定百分比的量表。",
+      "group": "vocabulary",
+      "id": "l04-q07"
+    },
+    {
+      "question": "détester 通常表示？",
+      "options": [
+        "居住",
+        "讨厌",
+        "说法语"
+      ],
+      "answer": 1,
+      "explanation": "détester 是较强的负面喜好动词。",
+      "group": "vocabulary",
+      "id": "l04-q08"
+    },
+    {
+      "question": "la danse 与 danser 分别是？",
+      "options": [
+        "两个国籍词",
+        "两个名词",
+        "名词和动词不定式"
+      ],
+      "answer": 2,
+      "explanation": "词性不同：J’aime la danse / J’aime danser 都可。",
+      "group": "vocabulary",
+      "id": "l04-q09"
+    },
+    {
+      "question": "“我叫Ana”改成介绍她，应是？",
+      "options": [
+        "Elle s’appelle Ana.",
+        "Elle m’appelle Ana.",
+        "Elle tu appelles Ana."
+      ],
+      "answer": 0,
+      "explanation": "s’appeler 配套代词跟主语变为 s’。",
+      "group": "grammar",
+      "id": "l04-q10"
+    },
+    {
+      "question": "J’ai vingt et un ans. 改为介绍她，应是？",
+      "options": [
+        "Elle suis vingt et un ans.",
+        "Elle a vingt et un ans.",
+        "Elle a vingt et une ans."
+      ],
+      "answer": 1,
+      "explanation": "年龄用 avoir；an 阳性，不按人物女性改成 une。",
+      "group": "grammar",
+      "id": "l04-q11"
+    },
+    {
+      "question": "女性说“我说中文”，应写？",
+      "options": [
+        "Je parle chinoise.",
+        "Je suis Chine.",
+        "Je parle chinois."
+      ],
+      "answer": 2,
+      "explanation": "语言名不随说话者性别配合。",
+      "group": "grammar",
+      "id": "l04-q12"
+    },
+    {
+      "question": "Montréal、Canada 的居住表达是？",
+      "options": [
+        "à Montréal, au Canada",
+        "en Montréal, en Canada",
+        "au Montréal, à le Canada"
+      ],
+      "answer": 0,
+      "explanation": "通常城市 à；阳性辅音开头国家 Canada 用 au。",
+      "group": "grammar",
+      "id": "l04-q13"
+    },
+    {
+      "question": "francophone 能证明法国国籍吗？",
+      "options": [
+        "能，所有说法语的人都是法国人",
+        "不能，语言与国籍分开",
+        "能，由词尾判断"
+      ],
+      "answer": 1,
+      "explanation": "francophone 表讲法语，个人国籍可以不同。",
+      "group": "vocabulary",
+      "id": "l04-q14"
+    },
+    {
+      "question": "“我喜欢法语”能直接证明熟练说法语吗？",
+      "options": [
+        "能，喜欢就是能力",
+        "能，等于考试等级",
+        "不能，偏好与能力不同"
+      ],
+      "answer": 2,
+      "explanation": "J’aime le français 表示偏好，不给语言能力等级。",
+      "group": "reading",
+      "id": "l04-q15"
+    },
+    {
+      "question": "Ana 与 Mei 的明确共同喜好是？",
+      "options": [
+        "电影和音乐",
+        "足球和职业",
+        "未提供的旅行目的地"
+      ],
+      "answer": 0,
+      "explanation": "两份原创资料都列 le cinéma 和 la musique。",
+      "group": "reading",
+      "id": "l04-q16"
+    },
+    {
+      "question": "Marco 与 Mei 对足球的资料是？",
+      "options": [
+        "两人都讨厌",
+        "Marco 很喜欢，Mei 讨厌",
+        "两人都未提供"
+      ],
+      "answer": 1,
+      "explanation": "依据原资料，adore 与 déteste 表相反倾向。",
+      "group": "reading",
+      "id": "l04-q17"
+    },
+    {
+      "question": "Mei 住法国里昂，她资料中写出的国籍是？",
+      "options": [
+        "française",
+        "suisse",
+        "chinoise"
+      ],
+      "answer": 2,
+      "explanation": "资料明确 chinoise；住法国不能替代国籍字段。",
+      "group": "reading",
+      "id": "l04-q18"
+    },
+    {
+      "question": "三份资料中都列出的语言是？",
+      "options": [
+        "法语",
+        "中文",
+        "德语"
+      ],
+      "answer": 0,
+      "explanation": "每份资料列了 français，但不因此得出同一国籍。",
+      "group": "reading",
+      "id": "l04-q19"
+    },
+    {
+      "question": "Ana 资料说喜欢跳舞，是否能确定她喜欢唱歌？",
+      "options": [
+        "能，活动相近",
+        "不能，唱歌未提及",
+        "必然不喜欢"
+      ],
+      "answer": 1,
+      "explanation": "相似活动不能互相推断；可作为新问题询问。",
+      "group": "reading",
+      "id": "l04-q20"
+    },
+    {
+      "question": "问对方年龄，合适的是？",
+      "options": [
+        "Qui est-ce âge ?",
+        "Vous êtes quel âge ?",
+        "Quel âge avez-vous ?"
+      ],
+      "answer": 2,
+      "explanation": "年龄使用 avoir；âge 阳性，quel。",
+      "group": "speaking",
+      "id": "l04-q21"
+    },
+    {
+      "question": "问本人住在哪里，合适的是？",
+      "options": [
+        "Vous habitez où ?",
+        "Qui habitez-vous ?",
+        "Vous êtes numéro ?"
+      ],
+      "answer": 0,
+      "explanation": "où 问地点，habiter 用 vous 变位。",
+      "group": "speaking",
+      "id": "l04-q22"
+    },
+    {
+      "question": "“我也喜欢电影”可回应？",
+      "options": [
+        "Et tu ?（独立反问）",
+        "Moi aussi.",
+        "Ma adresse."
+      ],
+      "answer": 1,
+      "explanation": "Moi aussi. 固定回应表示同样情况；moi 为重读代词预览。",
+      "group": "speaking",
+      "id": "l04-q23"
+    },
+    {
+      "question": "写第一条笔友留言，最能继续交流的是？",
+      "options": [
+        "只写一串电话号码",
+        "猜对方职业",
+        "简介自己，回应共同点，再问相关未知信息"
+      ],
+      "answer": 2,
+      "explanation": "留言是交流开头，应该有身份、关联和可回应的问题。",
+      "group": "writing",
+      "id": "l04-q24"
+    },
+    {
+      "question": "j’aime 的常见读法是？",
+      "options": [
+        "/ʒɛm/，省音后连续",
+        "独立 je 后强停顿再 aime",
+        "末 e 必须加成新音节"
+      ],
+      "answer": 0,
+      "explanation": "je 在元音前省音，j’aime 连为一组。",
+      "group": "pronunciation",
+      "id": "l04-q25"
+    },
+    {
+      "question": "vous aimez 常见连读辅音是？",
+      "options": [
+        "/s/",
+        "/z/",
+        "/t/"
+      ],
+      "answer": 1,
+      "explanation": "vous 末潜在 s 在元音前常连读为 /z/。",
+      "group": "pronunciation",
+      "id": "l04-q26"
+    },
+    {
+      "question": "elle aime 的 /l/ 是？",
+      "options": [
+        "新增的词尾 s 连读",
+        "永远不发音",
+        "elle 本已发音辅音的联诵"
+      ],
+      "answer": 2,
+      "explanation": "elle 单独也发 /l/，不是临时新增的潜在连读音。",
+      "group": "pronunciation",
+      "id": "l04-q27"
+    },
+    {
+      "question": "aime / aimes / aiment 的动词声音常见关系是？",
+      "options": [
+        "可同音，但书写须按人称",
+        "词尾都必须逐字读",
+        "aiment 必须读鼻化 ent"
+      ],
+      "answer": 0,
+      "explanation": "常见读法均 /ɛm/，需靠主语与语境辨认。",
+      "group": "pronunciation",
+      "id": "l04-q28"
+    },
+    {
+      "question": "“我的地址”的正确物主词结构是？",
+      "options": [
+        "ma adresse",
+        "mon adresse",
+        "mon la adresse"
+      ],
+      "answer": 1,
+      "explanation": "adresse 阴性元音开头，物主词换 mon，不堆叠冠词。",
+      "group": "grammar",
+      "id": "l04-q29"
+    },
+    {
+      "question": "资料缺少职业，阅读记录应该？",
+      "options": [
+        "由年龄猜学生",
+        "由喜好猜演员",
+        "写未提及"
+      ],
+      "answer": 2,
+      "explanation": "未知字段不能用刻板推断补齐。",
+      "group": "reading",
+      "id": "l04-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "verbs",
+      "likes",
+      "identity",
+      "questions",
+      "errors"
+    ],
+    "vocabulary": [
+      "words",
+      "likes"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "profiles",
+      "phrases"
+    ],
+    "speaking": [
+      "questions",
+      "phrases"
+    ],
+    "writing": [
+      "profiles",
+      "phrases",
+      "errors"
+    ]
+  },
+  "listening": "复习第一单元出版方配套录音／视频：第一遍记人物与地点；第二遍按年龄、国籍、语言、喜好分别记录；第三遍对照原文核对；第四遍转述为 il／elle 并补一句自己的相关喜好。本课原创资料用作阅读与口语任务，不标为官方音轨；未提及的信息不推断。"
+}
