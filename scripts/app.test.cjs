@@ -223,3 +223,16 @@ test('older skill-page notes remain visible in lesson 14 after adding course sel
   const a=app(JSON.stringify(state),'#reading/14');
   assert.ok(a.main.innerHTML.includes('旧阅读笔记'));
 });
+
+test('lesson 2 covers articles, agreement, places, identity and syllables with practice', () => {
+  const a=app(null,'#lesson/2');
+  for(const text of ['l’étudiant','l’Italie','le Mexique','en Iran','au Canada','italienne','canadienne','Je parle chinois','/pa.ʁi/','联诵']) assert.ok(a.main.innerHTML.includes(text),text);
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,30);
+  for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']) {
+    const page=app(null,'#'+kind+'/2');
+    assert.ok(page.main.innerHTML.includes('#lesson/2'),kind);
+    assert.ok(page.elements.navigation.innerHTML.includes('#grammar/2'),kind);
+  }
+  a.elements.search.listeners.input({target:{value:'Mexique'}});
+  assert.ok(a.main.innerHTML.includes('#lesson/2/places'));
+});
