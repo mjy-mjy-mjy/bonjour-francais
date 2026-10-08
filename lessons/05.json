@@ -1,0 +1,455 @@
+{
+  "number": 5,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "01 / 学习目标、核心与路线",
+      "html": "<h2>01 / 学习目标、核心与路线</h2><p>从介绍人物进入描述房间和物品：先说明房间里有什么，再辨认物品，最后定位已知物品。本课核心不是背几个家具词，而是把冠词、名词的数、être 和位置结构同时用对。</p><div class=\"note\"><b>教材核心：</b>冠词与名词复数；il y a；être 复数现在时；物品位置；qu’est-ce que 问事物；复数口语标记。c’est / ce sont 帮助完成辨认；缩合形式 au / aux 是位置表达的补充；形容词系统配合、否定和颜色留到第6课展开。</div><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>达标表现</th></tr></thead><tbody><tr><td>列物品</td><td>Il y a une table et deux chaises. 能表达存在与数量。</td></tr><tr><td>辨认</td><td>Qu’est-ce que c’est ? → C’est un livre. 能给类别，不回答人名。</td></tr><tr><td>定位</td><td>Où sont les livres ? → Ils sont sur la table. 能匹配单复数。</td></tr><tr><td>语法</td><td>un / une → des；le / la / l’ → les，同时改变名词。</td></tr><tr><td>听辨</td><td>知道名词末 s 常不读，主要听冠词、代词、动词和数量词。</td></tr><tr><td>输出</td><td>读懂一段房间描述，按指定位置摆放物品并写6—8句。</td></tr></tbody></table></div><p>先学第02—04节结构 → 对照第05节问法 → 用第06—08节描述布局 → 做第11节A—I → 完成J并逐项自查。本页人物、房间和练习均为原创。</p>"
+    },
+    {
+      "id": "plural",
+      "title": "02 / 冠词和名词复数：两项一起改变",
+      "html": "<h2>02 / 冠词和名词复数：两项一起改变</h2><div class=\"table-scroll\"><table><thead><tr><th>单数</th><th>复数</th><th>用途</th></tr></thead><tbody><tr><td>un livre</td><td>des livres</td><td>一个／一些未特定的物品。</td></tr><tr><td>une chaise</td><td>des chaises</td><td>des 对阴阳性复数同形。</td></tr><tr><td>le livre</td><td>les livres</td><td>语境中已知的书或一类书。</td></tr><tr><td>la chaise</td><td>les chaises</td><td>les 对阴阳性复数同形。</td></tr><tr><td>l’objet</td><td>les objets</td><td>l’ 的复数是 les，不是 l’s。</td></tr><tr><td>deux livres</td><td>deux livres</td><td>数词本身限定数量，不再写 deux des livres 表示普通“两本书”。</td></tr></tbody></table></div><h3>2.1 常规复数：冠词换形，名词加 s</h3><p>un livre → des livres；la table → les tables。不要只改冠词成 les table，也不要只写 le tables。des 并不等于数量二，它是不定复数，可用 deux / trois 给精确数量。变复数不改变名词原有阴阳性，les chaises 仍是阴性名词复数。</p><h3>2.2 常用例外与查阅补充</h3><div class=\"table-scroll\"><table><thead><tr><th>单数词尾／类型</th><th>例子</th><th>注意</th></tr></thead><tbody><tr><td>原来为 -s / -x / -z</td><td>un pays → des pays；un prix → des prix；un nez → des nez</td><td>书写不额外加 s，靠限定词等判断数。</td></tr><tr><td>常见 -eau / -au</td><td>un tableau → des tableaux；un bureau → des bureaux</td><td>常加 x，不能写 tableaus。</td></tr><tr><td>许多 -al（拓展）</td><td>un journal → des journaux</td><td>也有 bal → bals、festival → festivals 等例外，遇到词查证。</td></tr><tr><td>部分完全不规则（拓展）</td><td>un œil → des yeux</td><td>第6课人物外貌会用 yeux，整体记。</td></tr></tbody></table></div><h3>2.3 不要提前把所有 de 都叫不定冠词</h3><p>des livres 在本课是 un livre 的复数。à côté <b>des livres</b> 中 des 则来自 <b>de + les</b>，属于缩合；字形相同，结构不同。否定或名词前形容词触发 de 的规则另有条件，后续课学习；本课不使用“des 永远等于一些”的绝对解释。</p><h3>2.4 书写与声音分开检查</h3><p>livre / livres 在常见读法中同音；tableau / tableaux 也常同音。复数写法必须保留，但不能为了读出复数而把末尾 s 一律读 /s/。听时用整组信息判断，不只听名词。</p>"
+    },
+    {
+      "id": "etre",
+      "title": "03 / être 完整现在时、复数与代词回指",
+      "html": "<h2>03 / être 完整现在时、复数与代词回指</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>être</th><th>自编例句</th></tr></thead><tbody><tr><td>je</td><td>suis</td><td>Je suis dans la chambre.</td></tr><tr><td>tu</td><td>es</td><td>Tu es devant la table.</td></tr><tr><td>il / elle / on</td><td>est</td><td>Le livre est sur la table.</td></tr><tr><td>nous</td><td>sommes</td><td>Nous sommes dans la chambre.</td></tr><tr><td>vous</td><td>êtes</td><td>Vous êtes près de la fenêtre.</td></tr><tr><td>ils / elles</td><td>sont</td><td>Les livres sont sur la table.</td></tr></tbody></table></div><h3>3.1 名词作主语，动词按名词的数</h3><p>Le livre <b>est</b>…；Les livres <b>sont</b>…。La chaise est…；Les chaises sont…。不要把冠词 les 看成独立主语；真正的主语是整个名词短语。nous 是“我们”，sommes 不能换成 sont；礼貌 vous 对一人也用 êtes。</p><h3>3.2 il / elle 不只表示他／她</h3><p class=\"example\">Le livre est sur la table. → <b>Il</b> est sur la table.<br>La lampe est près de la fenêtre. → <b>Elle</b> est près de la fenêtre.<br>Les livres sont sur la table. → <b>Ils</b> sont sur la table.<br>Les chaises sont devant la table. → <b>Elles</b> sont devant la table.</p><p>代词回指物品时，按名词语法性别和数量选择，不按中文“它”统一写 il。这里 elles 可回指几把椅子，不代表椅子有女性生理性别。先在上下文找到回指对象，再选代词。</p><h3>3.3 不把存在句的 il 当物品代词</h3><p><b>Il y a des livres.</b> 中 il 是固定非人称结构的一部分，不回指 livres；因此即使书很多也不能改成 Ils y ont。与 <b>Ils sont sur la table.</b> 的 ils 回指那些书不同。</p>"
+    },
+    {
+      "id": "existence",
+      "title": "04 / il y a、c’est、ce sont 与 être：四种任务",
+      "html": "<h2>04 / il y a、c’est、ce sont 与 être：四种任务</h2><p>先判断是在“引入有什么”“辨认是什么”还是“说已知物品在哪”。这些句子可以描述同一房间，但不能随意互换动词。</p><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>结构</th><th>例句</th></tr></thead><tbody><tr><td>引入存在</td><td>il y a + un / une / des / 数量 + 名词</td><td>Il y a une table dans la chambre.</td></tr><tr><td>辨认一件</td><td>c’est + 单数名词短语</td><td>C’est une table.</td></tr><tr><td>辨认多件</td><td>ce sont + 复数名词短语</td><td>Ce sont des livres.</td></tr><tr><td>定位已知物品</td><td>名词或代词 + est / sont + 位置</td><td>La table est près de la fenêtre.</td></tr></tbody></table></div><h3>4.1 il y a 的形式不随后面的数量变化</h3><p class=\"example\">Il y a un livre. / Il y a des livres. / Il y a trois livres.<br>结构都为 il y a，不写 il y ont。</p><p>这里 y 先与整体表达一起记，第10课学习地点代词 y 的用法。il y a 还可用于过去时间“……以前”，本课只学存在，不把时间用法混入物品练习。</p><h3>4.2 已知与新信息的自然顺序</h3><p><b>Dans la chambre, il y a une table.</b> 先让读者知道有一张桌子；下一句 <b>La table est près de la fenêtre.</b> 把已出现的桌子定位。通常引入用 une、后续已知用 la；不是“il y a 后永远不能出现定冠词”，语境有列举特定物品的情况，本课采用最清晰的入门结构。</p><h3>4.3 ce sont 与口语 c’est</h3><p>规范书写按数用 <b>Ce sont des chaises.</b>；口语中能听到 C’est des chaises.。本课练规范 ce sont，不把口语现象误作听力不存在。ce 在这个结构中是呈现代词，第7课 ce livre 的 ce 是指示限定词，作用不同。</p>"
+    },
+    {
+      "id": "questions",
+      "title": "05 / qu’est-ce que、où 与多少：问法决定答案",
+      "html": "<h2>05 / qu’est-ce que、où 与多少：问法决定答案</h2><div class=\"table-scroll\"><table><thead><tr><th>目标</th><th>问句</th><th>对应答案</th></tr></thead><tbody><tr><td>辨认事物</td><td>Qu’est-ce que c’est ?</td><td>C’est un tableau. / Ce sont des tableaux.</td></tr><tr><td>问房间有什么</td><td>Qu’est-ce qu’il y a dans la chambre ?</td><td>Il y a une table et deux chaises.</td></tr><tr><td>问一件物品的位置</td><td>Où est le livre ? / Le livre est où ?</td><td>Il est sur la table.</td></tr><tr><td>问几件的位置</td><td>Où sont les livres ?</td><td>Ils sont dans le sac.</td></tr><tr><td>确认是否有</td><td>Il y a une lampe ?</td><td>Oui, il y a une lampe.</td></tr><tr><td>精确数量（补充）</td><td>Il y a combien de chaises ?</td><td>Il y a deux chaises.</td></tr></tbody></table></div><h3>5.1 qui 问人，qu’est-ce que 问事物</h3><p>Qui est-ce ? → C’est Ana.；Qu’est-ce que c’est ? → C’est une lampe.。不要问物品时用 qui，也不要面对事物辨认题只答 Oui。qu’est-ce que c’est 整体先会用，第14课再系统比较各种 est-ce que 结构。</p><h3>5.2 省音和连字符不能混写</h3><p><b>Qu’est-ce que c’est ?</b> 中 est-ce 保留连字符；que 在 il 的元音前省音：<b>Qu’est-ce qu’il y a… ?</b>。c’est 自身也省音。不要写 Qu’est que c’est，也不要把所有词连成一个没有分隔的词。</p><h3>5.3 问位置与问数量不同</h3><p>Où sont les livres ? 需要位置；Deux livres. 只给数量，不能回答完整位置问题。Qu’est-ce qu’il y a… ? 用于开放列物品；Il y a deux livres ? 是确认。读题先圈疑问任务，再作答。</p><h3>5.4 数量短语预览</h3><p>combien de + 复数名词中 de 是结构词：combien de livres。第7课价格与数量问法会再整理，当前作为补充句型识别。</p>"
+    },
+    {
+      "id": "places",
+      "title": "06 / 位置介词：参照物、视角和缩合",
+      "html": "<h2>06 / 位置介词：参照物、视角和缩合</h2><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>含义</th><th>自编例句</th></tr></thead><tbody><tr><td>sur</td><td>在表面上，通常有接触</td><td>Le livre est sur la table.</td></tr><tr><td>sous</td><td>在下方</td><td>Le sac est sous la chaise.</td></tr><tr><td>dans</td><td>在内部</td><td>Les livres sont dans le sac.</td></tr><tr><td>devant</td><td>在前面</td><td>La chaise est devant la table.</td></tr><tr><td>derrière</td><td>在后面</td><td>La lampe est derrière la chaise.</td></tr><tr><td>entre…et…</td><td>在两者之间</td><td>Le sac est entre la table et la chaise.</td></tr><tr><td>à côté de</td><td>在旁边</td><td>Le bureau est à côté de la fenêtre.</td></tr><tr><td>près de</td><td>在附近</td><td>La chaise est près du bureau.</td></tr><tr><td>loin de（补充）</td><td>离……远</td><td>Le lit est loin de la porte.</td></tr><tr><td>à gauche de / à droite de（补充）</td><td>在……左／右边</td><td>Le lit est à gauche de la table.</td></tr></tbody></table></div><h3>6.1 不是每个介词后都加 de</h3><p>sur la table、dans le sac、devant la porte：不另加 de。à côté <b>de</b> la table、près <b>de</b> la porte：de 是表达的一部分。不能写 sur de la table，也不能写 à côté la table。</p><h3>6.2 de + 定冠词的查阅表</h3><div class=\"table-scroll\"><table><thead><tr><th>原结构</th><th>实际形式</th><th>例子</th></tr></thead><tbody><tr><td>de + le</td><td>du</td><td>près du bureau</td></tr><tr><td>de + les</td><td>des</td><td>à côté des livres</td></tr><tr><td>de + la</td><td>de la</td><td>près de la porte</td></tr><tr><td>de + l’</td><td>de l’</td><td>près de l’armoire</td></tr></tbody></table></div><p>缩合 du / des 不是删除参照物的性别或数，而是法语组合形式。au / aux（à + le / les）第10课完整整理；当前只把常用位置表达写对。</p><h3>6.3 参照物与视角</h3><p>“前、后、左、右”必须说明或共享参照视角。Le sac est à gauche de la table. 不是只说“包在左边”就能唯一定位；图片任务应按题目给出的观察方向判断。between 使用两项参照：entre la table et la chaise，不漏 et。</p>"
+    },
+    {
+      "id": "words",
+      "title": "07 / 家具与物品词汇、搭配和辨析",
+      "html": "<h2>07 / 家具与物品词汇、搭配和辨析</h2><div class=\"table-scroll\"><table><thead><tr><th>单数词典形式</th><th>复数</th><th>中文</th><th>完整例句</th></tr></thead><tbody><tr><td>le livre</td><td>des livres</td><td>书</td><td>Les livres sont dans le sac.</td></tr><tr><td>la table</td><td>des tables</td><td>桌子</td><td>La table est près de la fenêtre.</td></tr><tr><td>la chaise</td><td>des chaises</td><td>椅子</td><td>Il y a deux chaises.</td></tr><tr><td>le bureau</td><td>des bureaux</td><td>书桌／办公桌</td><td>Le bureau est à côté de la porte.</td></tr><tr><td>le lit</td><td>des lits</td><td>床</td><td>Le lit est dans la chambre.</td></tr><tr><td>l’armoire（f.）</td><td>des armoires</td><td>衣柜</td><td>Elle est près du lit.</td></tr><tr><td>la lampe</td><td>des lampes</td><td>灯</td><td>La lampe est sur le bureau.</td></tr><tr><td>le sac</td><td>des sacs</td><td>包</td><td>Il est sous la chaise.</td></tr><tr><td>la fenêtre</td><td>des fenêtres</td><td>窗户</td><td>Le bureau est près de la fenêtre.</td></tr><tr><td>la porte</td><td>des portes</td><td>门</td><td>La chaise est devant la porte.</td></tr><tr><td>la chambre</td><td>des chambres</td><td>房间／卧室</td><td>Dans la chambre, il y a un lit.</td></tr><tr><td>le mur</td><td>des murs</td><td>墙</td><td>Le tableau est sur le mur.</td></tr><tr><td>le tableau</td><td>des tableaux</td><td>画／板，按情景</td><td>Ce sont des tableaux.</td></tr><tr><td>la photo</td><td>des photos</td><td>照片</td><td>La photo est sur la table.</td></tr><tr><td>l’objet（m.）</td><td>des objets</td><td>物品</td><td>Qu’est-ce que c’est ?</td></tr><tr><td>le stylo</td><td>des stylos</td><td>笔</td><td>Les stylos sont dans le sac.</td></tr><tr><td>le cahier</td><td>des cahiers</td><td>练习本</td><td>Il y a un cahier.</td></tr><tr><td>l’ordinateur（m.）</td><td>des ordinateurs</td><td>电脑</td><td>Il est sur le bureau.</td></tr><tr><td>la clé</td><td>des clés</td><td>钥匙</td><td>Les clés sont dans le sac.</td></tr><tr><td>le fauteuil</td><td>des fauteuils</td><td>扶手椅</td><td>Il est près de la fenêtre.</td></tr></tbody></table></div><h3>7.1 三组区别</h3><p><b>table / bureau：</b>table 范围较广，bureau 可指书桌，也可指办公室，按语境。<b>sur / dans：</b>书在包表面和在包内部不同。<b>tableau / table：</b>画或板是 tableau，不是 table 的复数。复数 tableaux 的 x 不成为新音节。</p><h3>7.2 把性别带进位置回答</h3><p>la clé → Elle est…；les clés → Elles sont…；le stylo → Il est…；les stylos → Ils sont…。背词时同时读冠词，避免后来只凭中文词义选择代词。cahier、livre、photo 不是所有纸质物品的通称，要依物品类别辨认。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "08 / 原创房间描述、完整对话与四项任务",
+      "html": "<h2>08 / 原创房间描述、完整对话与四项任务</h2><h3>8.1 教学布局（所有位置按本段定义）</h3><p class=\"example\">Dans la chambre, il y a une table, deux chaises, un lit et un bureau. La table est près de la fenêtre. Les chaises sont devant la table. Le lit est à gauche de la table. Le bureau est à côté de la porte. Trois livres sont sur la table. Une lampe est sur le bureau. Le sac est sous une chaise. Les clés sont dans le sac.</p><p>本段没有图，不假设实际家具尺寸或房间方向。左侧以本段给定观察方向为准。后续阅读题只依据这里给出的关系，不推断没有说明的物品。</p><h3>8.2 寻物对话</h3><p class=\"example\">— Qu’est-ce que c’est ?<br>— C’est un sac.<br>— Où sont les clés ?<br>— Elles sont dans le sac.<br>— Et le sac, il est où ?<br>— Il est sous une chaise.<br>— Il y a des livres dans le sac ?<br>— Non. Les livres sont sur la table.</p><p>最后的 Non 后给正确信息，完整否定 il n’y a pas de… 第6课展开。不能把读不到的数量或位置填进回答。</p><h3>8.3 阅读与听力</h3><ol><li>阅读：列物品和数量，再单独记录每个“物品→位置→参照物”。</li><li>听教材第5课：第一遍认物品；第二遍听冠词、数量与位置；第三遍核对原文；第四遍按角色跟读。</li><li>听不清 les / des 时复听整组；无法确定的内容先留空，而非给名词末尾强加 /s/。</li><li>用物品卡或自己画的示意图还原位置，核对 sur / sous / dans 的差别。</li></ol><h3>8.4 说写输出</h3><p>用6—8句描述桌面或虚构房间，至少一条 il y a、一条 C’est / Ce sont、两条 est / sont 的定位，一条复数代词回指。先说明参照物，再读给同伴摆放；书面完成后逐项检查冠词、名词s／x、être 和介词。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "09 / 复数的口语标记：听整组，不读出所有s",
+      "html": "<h2>09 / 复数的口语标记：听整组，不读出所有s</h2><div class=\"table-scroll\"><table><thead><tr><th>对比</th><th>常见听辨线索</th><th>书写要求</th></tr></thead><tbody><tr><td>le livre / les livres</td><td>le 与 les 的元音不同；livre(s) 常同音</td><td>复数仍写 livres。</td></tr><tr><td>une chaise / des chaises</td><td>une 与 des 不同，名词常同音</td><td>des + chaises 同时改。</td></tr><tr><td>l’objet / les objets</td><td>复数 les 在元音前常有 /z/</td><td>约 /le.zɔb.ʒɛ/。</td></tr><tr><td>il est / ils sont</td><td>主语与动词整组改变</td><td>不要期待 ils 的 s 每次独立读。</td></tr><tr><td>elle est / elles sont</td><td>动词是重要线索</td><td>elles 回指阴性复数。</td></tr><tr><td>C’est un livre / Ce sont des livres</td><td>呈现结构、冠词一起提示数</td><td>规范书写用 ce sont。</td></tr></tbody></table></div><h3>9.1 les / des 与连读</h3><p>les 常读 /le/，des 常读 /de/；元音前 les objets、des objets 常有 /z/ 连读。s 不因此在所有位置都读：les livres 后接辅音，不给 les 额外读 /z/。les livres 的 livre(s) 末 s 通常不读。</p><h3>9.2 数量词也是证据</h3><p>deux chaises、trois livres 的数词可直接提示数量；复数不总由名词自身提供声音。某些不规则词如 œil / yeux 有明显变化（拓展），不能反过来得出“所有复数名词都同音”的绝对规则。</p><h3>9.3 连读不是任意添加辅音</h3><p>Les objets sont sur la table. 中 les objets 的 /z/ 来自限定词；table 的末 e 通常不添音节。Le livre est… 中 livre 末 /ʁ/ 本来发音，属于连续衔接。第10课再整理连读和联诵，当前先按音轨听清词组。</p><h3>9.4 复听步骤</h3><p>先只标“单／复”，再写听到的冠词、代词、动词或数量证据；对照原文后改书写；最后用一件物品／几件物品成对朗读。不要只因为没听到s就把复数判成单数。</p>"
+    },
+    {
+      "id": "errors",
+      "title": "10 / 易错点、修正与原因",
+      "html": "<h2>10 / 易错点、修正与原因</h2><div class=\"table-scroll\"><table><thead><tr><th>错误</th><th>修正</th><th>原因</th></tr></thead><tbody><tr><td>les table</td><td>les tables</td><td>冠词和名词都改复数。</td></tr><tr><td>des bureau</td><td>des bureaux</td><td>bureau 常用复数为 bureaux。</td></tr><tr><td>le livres</td><td>les livres</td><td>复数名词搭复数限定词。</td></tr><tr><td>deux des livres（普通两本书）</td><td>deux livres</td><td>普通数量词直接限定名词；另有部分集合语境不在本课。</td></tr><tr><td>Il y ont deux livres.</td><td>Il y a deux livres.</td><td>存在结构不随后面的数量变。</td></tr><tr><td>Le livre sont…</td><td>Le livre est…</td><td>主语单数。</td></tr><tr><td>Les chaises est…</td><td>Les chaises sont…</td><td>主语复数。</td></tr><tr><td>la lampe → il</td><td>la lampe → elle</td><td>物品代词按语法性别。</td></tr><tr><td>les clés → ils</td><td>les clés → elles</td><td>阴性复数回指。</td></tr><tr><td>Qu’est que c’est ?</td><td>Qu’est-ce que c’est ?</td><td>结构保留 est-ce。</td></tr><tr><td>Qu’est-ce que il y a ?</td><td>Qu’est-ce qu’il y a ?</td><td>que 在 il 前省音。</td></tr><tr><td>Où sont les livres ? — Trois.</td><td>Ils sont sur la table.</td><td>位置问题不能只答数量。</td></tr><tr><td>C’est des chaises.（规范练习）</td><td>Ce sont des chaises.</td><td>规范书写复数呈现。</td></tr><tr><td>sur de la table</td><td>sur la table</td><td>sur 后不额外加de。</td></tr><tr><td>à côté la table</td><td>à côté de la table</td><td>复合位置表达要保留de。</td></tr><tr><td>près de le bureau</td><td>près du bureau</td><td>de + le 缩合du。</td></tr><tr><td>dans 读成在表面</td><td>dans 表内部，sur 表表面</td><td>不能按中文笼统在来混用。</td></tr><tr><td>名词复数s都读/s/</td><td>听冠词、动词、数量；s常不发音</td><td>声音和书写分开。</td></tr></tbody></table></div><p>检查顺序：句子任务 → 主语与动词 → 名词数和冠词 → 位置参照 → 省音缩合 → 发音。多个错误分别指出，不以“语感不对”代替规则。</p>"
+    },
+    {
+      "id": "practice",
+      "title": "11 / 十组练习、逐项答案与解析",
+      "html": "<h2>11 / 十组练习、逐项答案与解析</h2><p>先答再展开。A—I给逐项答案，J给开放任务样例和自查条件；拓展题会标明范围。</p><h3>A. 名词和冠词复数</h3><ol><li>un livre</li><li>une chaise</li><li>le sac</li><li>la table</li><li>l’objet</li><li>un bureau</li><li>le tableau</li><li>un pays（补充）</li></ol><details><summary>展开答案与解析</summary><ol><li>des livres：冠词换des，名词+s。</li><li>des chaises：阴阳性复数同用des。</li><li>les sacs：定冠词复数les。</li><li>les tables。</li><li>les objets：不是l’s。</li><li>des bureaux：-eau→-eaux。</li><li>les tableaux：x书写常不读。</li><li>des pays：原来s结尾不再加s。</li></ol></details><h3>B. être变位与物品代词</h3><ol><li>Nous ___ dans la chambre.</li><li>Vous ___ près de la porte.</li><li>Les livres ___ sur la table.</li><li>Le sac ___ sous la chaise.</li><li>La lampe est… 用代词改写。</li><li>Les clés sont… 用代词改写。</li></ol><details><summary>展开答案与解析</summary><ol><li>sommes；nous不是sont。</li><li>êtes；礼貌一人也一样。</li><li>sont；复数主语。</li><li>est；单数主语。</li><li>Elle est…；lampe阴性。</li><li>Elles sont…；clés阴性复数。</li></ol></details><h3>C. 词义与搭配</h3><ol><li>table / tableau的区别</li><li>sur / dans的区别</li><li>sous表示什么？</li><li>être定位句与il y a有什么差别？</li><li>bureau的复数</li><li>物品clé的冠词与复数</li></ol><details><summary>展开答案与解析</summary><ol><li>桌子／画或板；tableau不是table复数。</li><li>表面上／内部。</li><li>在下方。</li><li>定位已知物品／引入有什么。</li><li>bureaux。</li><li>la clé / les clés或des clés。</li></ol></details><h3>D. 存在、呈现和位置</h3><ol><li>___ une table dans la chambre.（引入）</li><li>___ un livre.（辨认一件）</li><li>___ des chaises.（规范辨认多件）</li><li>Les livres ___ dans le sac.</li><li>La lampe est près ___ bureau.</li><li>Le sac est entre la table ___ la chaise.</li><li>Les clés sont ___ le sac.（内部）</li><li>Le livre est ___ la table.（表面）</li></ol><details><summary>展开答案与解析</summary><ol><li>Il y a：非人称存在。</li><li>C’est：单数呈现。</li><li>Ce sont：复数呈现。</li><li>sont：复数定位。</li><li>du：de+le。</li><li>et：两个参照物。</li><li>dans。</li><li>sur。</li></ol></details><h3>E. 根据回答提问</h3><ol><li>C’est une lampe.</li><li>Ce sont des livres.</li><li>Il y a une table et deux chaises.</li><li>Le sac est sous la chaise.</li><li>Elles sont dans le sac.（问les clés）</li><li>Oui, il y a une lampe.</li></ol><details><summary>展开答案与解析</summary><ol><li>Qu’est-ce que c’est ?</li><li>Qu’est-ce que c’est ? 辨认后复数回答。</li><li>Qu’est-ce qu’il y a dans la chambre ?</li><li>Où est le sac ?</li><li>Où sont les clés ?</li><li>Il y a une lampe ? 确认存在。</li></ol></details><h3>F. 中文译法语</h3><ol><li>房间里有两把椅子。</li><li>这是一本书。</li><li>这些是画。</li><li>包在椅子下面。</li><li>钥匙在包里面。</li><li>书桌在门旁边。</li></ol><details><summary>展开答案与解析</summary><ol><li>Il y a deux chaises dans la chambre.</li><li>C’est un livre.</li><li>Ce sont des tableaux.</li><li>Le sac est sous la chaise.</li><li>Les clés sont dans le sac. / Elles sont dans le sac. 有回指时可用elles。</li><li>Le bureau est à côté de la porte.</li></ol></details><h3>G. 读第08节布局，不猜未给信息</h3><ol><li>有几把椅子？</li><li>三本书在哪里？</li><li>灯在哪里？</li><li>包在桌面还是椅子下面？</li><li>钥匙在何处？</li><li>床相对桌子在哪边？</li><li>课文有无说明电脑数量？</li></ol><details><summary>展开答案与解析</summary><ol><li>两把：Il y a deux chaises.</li><li>Sur la table。</li><li>Sur le bureau。</li><li>Sous une chaise；不能混sur/sous。</li><li>Dans le sac。</li><li>À gauche de la table；按段落设定视角。</li><li>没有，写未提及，不猜0或1。</li></ol></details><h3>H. 复数听辨与读音</h3><ol><li>livre / livres通常靠末s区分声音吗？</li><li>les objets常见连读辅音？</li><li>les livres是否给les添/z/？</li><li>des tableaux的x通常读吗？</li><li>il est / ils sont可用什么辨数？</li><li>没听到名词s能否断言单数？</li></ol><details><summary>展开答案与解析</summary><ol><li>不能，常同音；听限定词等。</li><li>/z/，约/le.zɔb.ʒɛ/。</li><li>不，后接辅音。</li><li>通常不读；书写保留。</li><li>主语和动词整组，est/sont有区别。</li><li>不能，冠词、动词或数量词可提示复数。</li></ol></details><h3>I. 改错并解释</h3><ol><li>Il y ont des livres.</li><li>Les livre est sur la table.</li><li>La lampe, il est sur le bureau.</li><li>Qu’est-ce que il y a ?</li><li>La chaise est à côté la porte.</li><li>Le sac est près de le lit.</li></ol><details><summary>展开答案与解析</summary><ol><li>Il y a des livres. 结构不变。</li><li>Les livres sont sur la table. 名词和动词都改。</li><li>La lampe, elle est sur le bureau. 阴性回指。</li><li>Qu’est-ce qu’il y a ? que省音。</li><li>À côté de la porte. 保留de。</li><li>Près du lit. de+le缩合。</li></ol></details><h3>J. 口说、写作、听力与摆放任务</h3><ol><li>用6—8句写虚构桌面，含il y a、辨认、两条定位及复数回指。</li><li>与同伴完成辨认→定位→确认的6轮对话。</li><li>把第08节关系记录成物品→位置→参照物，再画简图或摆物品。</li><li>听教材录音，记录一项单复数误听及依据，重录两句。</li></ol><details><summary>展开答案与解析</summary><ol><li>示范：Il y a une table. C’est un bureau. Deux livres sont sur le bureau. Ils sont près de la lampe. Le sac est sous la chaise. Les clés sont dans le sac. 内容可改；检查参照物明确、冠词和数一致。</li><li>示范：Qu’est-ce que c’est ?—C’est un sac. Où sont les clés ?—Dans le sac. Le sac est sur la table ?—Non, il est sous la chaise. 检查问题和答案对应。</li><li>列table→près de→fenêtre；livres→sur→table；clés→dans→sac等。只画段落给出的关系，不补没写的电脑。</li><li>如最初把les livres写成le livre；复听les及动词sont后改正。依据必须来自实际听到的录音，不能把范例当自己的记录。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12 / 脱稿自查、一分钟卡与资料",
+      "html": "<h2>12 / 脱稿自查、一分钟卡与资料</h2><ul><li>能把un/une、le/la/l’与名词一起变复数，写bureaux/tableaux。</li><li>能默写nous sommes、vous êtes、ils/elles sont。</li><li>能区分存在、辨认和定位，il y a不随后面物品数量变。</li><li>能回指la lampe和les clés，选择elle/elles。</li><li>能写Qu’est-ce que c’est、Qu’est-ce qu’il y a以及Où est/sont。</li><li>能用sur、sous、dans、devant、derrière、entre…et…及à côté de。</li><li>能解释près du bureau的du来自de+le。</li><li>能听冠词、代词、动词和数词判断复数，不强读所有末s。</li><li>能说写6—8句并按描述摆出位置，未知信息不猜测。</li></ul><div class=\"example\"><b>一分钟速记</b><br>复数：un/une→des；le/la/l’→les；livre→livres，bureau→bureaux。<br>être：nous sommes / vous êtes / ils, elles sont。<br>存在：Il y a un livre / des livres。<br>辨认：C’est un livre / Ce sont des livres。<br>定位：Le livre est… / Les livres sont…<br>物品回指：la lampe→elle；les clés→elles。<br>位置：sur表面、dans内部、sous下方；à côté de、près du。<br>听辨：冠词+数量+代词+动词，名词s常不读。</div><h3>复习安排</h3><p>当天做A—D；隔天重做I和错题；三天后换一组物品完成E、F、J；一周后只听描述摆放，再核对位置。颜色、形容词配合与完整否定会在第6课继续。</p><h3>范围与资料</h3><p>核心栏目按<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">出版方公开目录</a>核对。可查德州大学<a href=\"https://www.laits.utexas.edu/tex/gr/no2.html\" target=\"_blank\" rel=\"noopener noreferrer\">名词单复数</a>和<a href=\"https://www.laits.utexas.edu/tex/gr/det4.html\" target=\"_blank\" rel=\"noopener noreferrer\">不定冠词</a>；例句、布局和练习原创，配套录音通过出版方资源访问。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "un livre 的复数是？",
+      "options": [
+        "des livres",
+        "des livre",
+        "un livres"
+      ],
+      "answer": 0,
+      "explanation": "冠词换des，名词加s。",
+      "group": "grammar",
+      "id": "l05-q01"
+    },
+    {
+      "question": "la chaise 的复数是？",
+      "options": [
+        "la chaises",
+        "les chaises",
+        "les chaise"
+      ],
+      "answer": 1,
+      "explanation": "定冠词和名词一起变复数。",
+      "group": "grammar",
+      "id": "l05-q02"
+    },
+    {
+      "question": "un bureau 的复数是？",
+      "options": [
+        "des bureaus",
+        "des bureau",
+        "des bureaux"
+      ],
+      "answer": 2,
+      "explanation": "bureau常用复数为bureaux。",
+      "group": "grammar",
+      "id": "l05-q03"
+    },
+    {
+      "question": "l’objet 的复数是？",
+      "options": [
+        "les objets",
+        "l’s objets",
+        "le objets"
+      ],
+      "answer": 0,
+      "explanation": "l’的复数形式les，名词+s。",
+      "group": "grammar",
+      "id": "l05-q04"
+    },
+    {
+      "question": "Nous ___ dans la chambre.",
+      "options": [
+        "sont",
+        "sommes",
+        "êtes"
+      ],
+      "answer": 1,
+      "explanation": "nous的être为sommes。",
+      "group": "grammar",
+      "id": "l05-q05"
+    },
+    {
+      "question": "Vous ___ près de la porte.",
+      "options": [
+        "sommes",
+        "sont",
+        "êtes"
+      ],
+      "answer": 2,
+      "explanation": "vous用êtes，礼貌单数也一样。",
+      "group": "grammar",
+      "id": "l05-q06"
+    },
+    {
+      "question": "Les livres ___ sur la table.",
+      "options": [
+        "sont",
+        "est",
+        "sommes"
+      ],
+      "answer": 0,
+      "explanation": "复数主语les livres用sont。",
+      "group": "grammar",
+      "id": "l05-q07"
+    },
+    {
+      "question": "la lampe 用物品代词回指是？",
+      "options": [
+        "il",
+        "elle",
+        "ils"
+      ],
+      "answer": 1,
+      "explanation": "lampe阴性单数，elle。",
+      "group": "grammar",
+      "id": "l05-q08"
+    },
+    {
+      "question": "les clés 用代词回指是？",
+      "options": [
+        "il",
+        "ils",
+        "elles"
+      ],
+      "answer": 2,
+      "explanation": "clés阴性复数，elles。",
+      "group": "grammar",
+      "id": "l05-q09"
+    },
+    {
+      "question": "房间里有三本书，正确句子是？",
+      "options": [
+        "Il y a trois livres.",
+        "Il y ont trois livres.",
+        "Ils y a trois livres."
+      ],
+      "answer": 0,
+      "explanation": "存在结构il y a不按后面数量改变。",
+      "group": "grammar",
+      "id": "l05-q10"
+    },
+    {
+      "question": "规范辨认几把椅子，应写？",
+      "options": [
+        "C’est des chaises.",
+        "Ce sont des chaises.",
+        "Ils y a des chaises."
+      ],
+      "answer": 1,
+      "explanation": "规范书面复数呈现用ce sont；口语可能听到c’est des。",
+      "group": "grammar",
+      "id": "l05-q11"
+    },
+    {
+      "question": "问事物“这是什么”，应说？",
+      "options": [
+        "Qui est-ce ?",
+        "Où est-ce livres ?",
+        "Qu’est-ce que c’est ?"
+      ],
+      "answer": 2,
+      "explanation": "qui问人，这里问事物类别。",
+      "group": "speaking",
+      "id": "l05-q12"
+    },
+    {
+      "question": "问房间有什么，正确是？",
+      "options": [
+        "Qu’est-ce qu’il y a dans la chambre ?",
+        "Qu’est-ce que il y a dans la chambre ?",
+        "Qui y ont chambre ?"
+      ],
+      "answer": 0,
+      "explanation": "que在il前省音为qu’。",
+      "group": "grammar",
+      "id": "l05-q13"
+    },
+    {
+      "question": "Où sont les livres ? 最合适的回答？",
+      "options": [
+        "Trois.",
+        "Ils sont sur la table.",
+        "Oui."
+      ],
+      "answer": 1,
+      "explanation": "où问位置，需要给位置。",
+      "group": "speaking",
+      "id": "l05-q14"
+    },
+    {
+      "question": "书在包内部，用哪个介词？",
+      "options": [
+        "sur",
+        "devant",
+        "dans"
+      ],
+      "answer": 2,
+      "explanation": "dans表示内部，sur常表示表面。",
+      "group": "vocabulary",
+      "id": "l05-q15"
+    },
+    {
+      "question": "包在椅子下方，应说？",
+      "options": [
+        "sous la chaise",
+        "sur la chaise",
+        "dans de la chaise"
+      ],
+      "answer": 0,
+      "explanation": "sous表示下方。",
+      "group": "vocabulary",
+      "id": "l05-q16"
+    },
+    {
+      "question": "“在桌子旁边”正确结构是？",
+      "options": [
+        "à côté la table",
+        "à côté de la table",
+        "sur de la table"
+      ],
+      "answer": 1,
+      "explanation": "à côté de必须保留de。",
+      "group": "grammar",
+      "id": "l05-q17"
+    },
+    {
+      "question": "près de + le bureau 的实际形式？",
+      "options": [
+        "près de le bureau",
+        "près le bureau",
+        "près du bureau"
+      ],
+      "answer": 2,
+      "explanation": "de+le缩合du。",
+      "group": "grammar",
+      "id": "l05-q18"
+    },
+    {
+      "question": "两个参照物之间，用？",
+      "options": [
+        "entre la table et la chaise",
+        "entre la table ou la chaise",
+        "dans de deux table"
+      ],
+      "answer": 0,
+      "explanation": "entre…et…连接两项参照。",
+      "group": "grammar",
+      "id": "l05-q19"
+    },
+    {
+      "question": "tableau 是什么？",
+      "options": [
+        "table的复数",
+        "画／板，按情景",
+        "所有家具"
+      ],
+      "answer": 1,
+      "explanation": "tableau不是table复数，其复数为tableaux。",
+      "group": "vocabulary",
+      "id": "l05-q20"
+    },
+    {
+      "question": "les objets 常见连读辅音是？",
+      "options": [
+        "/s/",
+        "/t/",
+        "/z/"
+      ],
+      "answer": 2,
+      "explanation": "限定词les在元音前常有/z/。",
+      "group": "pronunciation",
+      "id": "l05-q21"
+    },
+    {
+      "question": "livre / livres 的常见读音关系？",
+      "options": [
+        "可同音，不能只听末s判断",
+        "复数末s始终读/s/",
+        "复数必多一个音节"
+      ],
+      "answer": 0,
+      "explanation": "名词s常不读；听限定词、数词或动词。",
+      "group": "pronunciation",
+      "id": "l05-q22"
+    },
+    {
+      "question": "les livres 中les的末s一般怎样？",
+      "options": [
+        "每次读/z/",
+        "后接辅音时通常不独立读",
+        "读/t/"
+      ],
+      "answer": 1,
+      "explanation": "连读依环境，不给辅音前的les任意加音。",
+      "group": "pronunciation",
+      "id": "l05-q23"
+    },
+    {
+      "question": "tableaux 的末x通常？",
+      "options": [
+        "读/ks/",
+        "读/z/，任何位置一样",
+        "不独立读，书写仍保留"
+      ],
+      "answer": 2,
+      "explanation": "词典形式tableau与复数常同音。",
+      "group": "pronunciation",
+      "id": "l05-q24"
+    },
+    {
+      "question": "第08节描述中三本书在哪里？",
+      "options": [
+        "sur la table",
+        "dans le sac",
+        "sous le lit"
+      ],
+      "answer": 0,
+      "explanation": "依据原创布局，书在桌面。",
+      "group": "reading",
+      "id": "l05-q25"
+    },
+    {
+      "question": "第08节描述中钥匙在哪里？",
+      "options": [
+        "sur le bureau",
+        "dans le sac",
+        "derrière la fenêtre"
+      ],
+      "answer": 1,
+      "explanation": "钥匙在包里，不能混sur/dans。",
+      "group": "reading",
+      "id": "l05-q26"
+    },
+    {
+      "question": "第08节是否提供电脑数量？",
+      "options": [
+        "一定一台",
+        "一定零台",
+        "没有，未提及"
+      ],
+      "answer": 2,
+      "explanation": "未给信息不能由常识补数量。",
+      "group": "reading",
+      "id": "l05-q27"
+    },
+    {
+      "question": "定位已知的那本书，正确句是？",
+      "options": [
+        "Le livre est sur la table.",
+        "Il y ont le livre sur table.",
+        "Le livre sont table."
+      ],
+      "answer": 0,
+      "explanation": "已知单数主语+est+位置。",
+      "group": "grammar",
+      "id": "l05-q28"
+    },
+    {
+      "question": "des livres 与 près des livres 中des是否结构相同？",
+      "options": [
+        "永远都表示一些",
+        "前者不定冠词，后者de+les缩合",
+        "二者都没有冠词"
+      ],
+      "answer": 1,
+      "explanation": "字形相同，需按句法判断。",
+      "group": "grammar",
+      "id": "l05-q29"
+    },
+    {
+      "question": "明确“两本书”的普通名词短语是？",
+      "options": [
+        "deux des livres",
+        "deux livre",
+        "deux livres"
+      ],
+      "answer": 2,
+      "explanation": "数词直接限定普通数量，名词复数。",
+      "group": "grammar",
+      "id": "l05-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "plural",
+      "etre",
+      "existence",
+      "questions",
+      "places",
+      "errors"
+    ],
+    "vocabulary": [
+      "words"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "phrases"
+    ],
+    "speaking": [
+      "questions",
+      "phrases"
+    ],
+    "writing": [
+      "phrases",
+      "errors"
+    ]
+  },
+  "listening": "听第5课：第一遍辨物品；第二遍记录数量与位置参照；第三遍核对冠词、代词、est/sont和qu’est-ce qu’il y a的省音；第四遍分角色跟读，再按描述摆物品。没有听到末s不等于单数，未知内容留空。"
+}

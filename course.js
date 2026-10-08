@@ -2056,6 +2056,1875 @@ window.COURSE_LIBRARY = {
         ]
       },
       "listening": "复习第一单元出版方配套录音／视频：第一遍记人物与地点；第二遍按年龄、国籍、语言、喜好分别记录；第三遍对照原文核对；第四遍转述为 il／elle 并补一句自己的相关喜好。本课原创资料用作阅读与口语任务，不标为官方音轨；未提及的信息不推断。"
+    },
+    {
+      "number": 5,
+      "title": "Trouvez l’objet",
+      "translation": "找到物品",
+      "pages": "24–25",
+      "core": [
+        "名词和冠词复数",
+        "il y a",
+        "être 复数现在时",
+        "物品位置",
+        "qu’est-ce que",
+        "复数的口语标记"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "01 / 学习目标、核心与路线",
+          "html": "<h2>01 / 学习目标、核心与路线</h2><p>从介绍人物进入描述房间和物品：先说明房间里有什么，再辨认物品，最后定位已知物品。本课核心不是背几个家具词，而是把冠词、名词的数、être 和位置结构同时用对。</p><div class=\"note\"><b>教材核心：</b>冠词与名词复数；il y a；être 复数现在时；物品位置；qu’est-ce que 问事物；复数口语标记。c’est / ce sont 帮助完成辨认；缩合形式 au / aux 是位置表达的补充；形容词系统配合、否定和颜色留到第6课展开。</div><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>达标表现</th></tr></thead><tbody><tr><td>列物品</td><td>Il y a une table et deux chaises. 能表达存在与数量。</td></tr><tr><td>辨认</td><td>Qu’est-ce que c’est ? → C’est un livre. 能给类别，不回答人名。</td></tr><tr><td>定位</td><td>Où sont les livres ? → Ils sont sur la table. 能匹配单复数。</td></tr><tr><td>语法</td><td>un / une → des；le / la / l’ → les，同时改变名词。</td></tr><tr><td>听辨</td><td>知道名词末 s 常不读，主要听冠词、代词、动词和数量词。</td></tr><tr><td>输出</td><td>读懂一段房间描述，按指定位置摆放物品并写6—8句。</td></tr></tbody></table></div><p>先学第02—04节结构 → 对照第05节问法 → 用第06—08节描述布局 → 做第11节A—I → 完成J并逐项自查。本页人物、房间和练习均为原创。</p>"
+        },
+        {
+          "id": "plural",
+          "title": "02 / 冠词和名词复数：两项一起改变",
+          "html": "<h2>02 / 冠词和名词复数：两项一起改变</h2><div class=\"table-scroll\"><table><thead><tr><th>单数</th><th>复数</th><th>用途</th></tr></thead><tbody><tr><td>un livre</td><td>des livres</td><td>一个／一些未特定的物品。</td></tr><tr><td>une chaise</td><td>des chaises</td><td>des 对阴阳性复数同形。</td></tr><tr><td>le livre</td><td>les livres</td><td>语境中已知的书或一类书。</td></tr><tr><td>la chaise</td><td>les chaises</td><td>les 对阴阳性复数同形。</td></tr><tr><td>l’objet</td><td>les objets</td><td>l’ 的复数是 les，不是 l’s。</td></tr><tr><td>deux livres</td><td>deux livres</td><td>数词本身限定数量，不再写 deux des livres 表示普通“两本书”。</td></tr></tbody></table></div><h3>2.1 常规复数：冠词换形，名词加 s</h3><p>un livre → des livres；la table → les tables。不要只改冠词成 les table，也不要只写 le tables。des 并不等于数量二，它是不定复数，可用 deux / trois 给精确数量。变复数不改变名词原有阴阳性，les chaises 仍是阴性名词复数。</p><h3>2.2 常用例外与查阅补充</h3><div class=\"table-scroll\"><table><thead><tr><th>单数词尾／类型</th><th>例子</th><th>注意</th></tr></thead><tbody><tr><td>原来为 -s / -x / -z</td><td>un pays → des pays；un prix → des prix；un nez → des nez</td><td>书写不额外加 s，靠限定词等判断数。</td></tr><tr><td>常见 -eau / -au</td><td>un tableau → des tableaux；un bureau → des bureaux</td><td>常加 x，不能写 tableaus。</td></tr><tr><td>许多 -al（拓展）</td><td>un journal → des journaux</td><td>也有 bal → bals、festival → festivals 等例外，遇到词查证。</td></tr><tr><td>部分完全不规则（拓展）</td><td>un œil → des yeux</td><td>第6课人物外貌会用 yeux，整体记。</td></tr></tbody></table></div><h3>2.3 不要提前把所有 de 都叫不定冠词</h3><p>des livres 在本课是 un livre 的复数。à côté <b>des livres</b> 中 des 则来自 <b>de + les</b>，属于缩合；字形相同，结构不同。否定或名词前形容词触发 de 的规则另有条件，后续课学习；本课不使用“des 永远等于一些”的绝对解释。</p><h3>2.4 书写与声音分开检查</h3><p>livre / livres 在常见读法中同音；tableau / tableaux 也常同音。复数写法必须保留，但不能为了读出复数而把末尾 s 一律读 /s/。听时用整组信息判断，不只听名词。</p>"
+        },
+        {
+          "id": "etre",
+          "title": "03 / être 完整现在时、复数与代词回指",
+          "html": "<h2>03 / être 完整现在时、复数与代词回指</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>être</th><th>自编例句</th></tr></thead><tbody><tr><td>je</td><td>suis</td><td>Je suis dans la chambre.</td></tr><tr><td>tu</td><td>es</td><td>Tu es devant la table.</td></tr><tr><td>il / elle / on</td><td>est</td><td>Le livre est sur la table.</td></tr><tr><td>nous</td><td>sommes</td><td>Nous sommes dans la chambre.</td></tr><tr><td>vous</td><td>êtes</td><td>Vous êtes près de la fenêtre.</td></tr><tr><td>ils / elles</td><td>sont</td><td>Les livres sont sur la table.</td></tr></tbody></table></div><h3>3.1 名词作主语，动词按名词的数</h3><p>Le livre <b>est</b>…；Les livres <b>sont</b>…。La chaise est…；Les chaises sont…。不要把冠词 les 看成独立主语；真正的主语是整个名词短语。nous 是“我们”，sommes 不能换成 sont；礼貌 vous 对一人也用 êtes。</p><h3>3.2 il / elle 不只表示他／她</h3><p class=\"example\">Le livre est sur la table. → <b>Il</b> est sur la table.<br>La lampe est près de la fenêtre. → <b>Elle</b> est près de la fenêtre.<br>Les livres sont sur la table. → <b>Ils</b> sont sur la table.<br>Les chaises sont devant la table. → <b>Elles</b> sont devant la table.</p><p>代词回指物品时，按名词语法性别和数量选择，不按中文“它”统一写 il。这里 elles 可回指几把椅子，不代表椅子有女性生理性别。先在上下文找到回指对象，再选代词。</p><h3>3.3 不把存在句的 il 当物品代词</h3><p><b>Il y a des livres.</b> 中 il 是固定非人称结构的一部分，不回指 livres；因此即使书很多也不能改成 Ils y ont。与 <b>Ils sont sur la table.</b> 的 ils 回指那些书不同。</p>"
+        },
+        {
+          "id": "existence",
+          "title": "04 / il y a、c’est、ce sont 与 être：四种任务",
+          "html": "<h2>04 / il y a、c’est、ce sont 与 être：四种任务</h2><p>先判断是在“引入有什么”“辨认是什么”还是“说已知物品在哪”。这些句子可以描述同一房间，但不能随意互换动词。</p><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>结构</th><th>例句</th></tr></thead><tbody><tr><td>引入存在</td><td>il y a + un / une / des / 数量 + 名词</td><td>Il y a une table dans la chambre.</td></tr><tr><td>辨认一件</td><td>c’est + 单数名词短语</td><td>C’est une table.</td></tr><tr><td>辨认多件</td><td>ce sont + 复数名词短语</td><td>Ce sont des livres.</td></tr><tr><td>定位已知物品</td><td>名词或代词 + est / sont + 位置</td><td>La table est près de la fenêtre.</td></tr></tbody></table></div><h3>4.1 il y a 的形式不随后面的数量变化</h3><p class=\"example\">Il y a un livre. / Il y a des livres. / Il y a trois livres.<br>结构都为 il y a，不写 il y ont。</p><p>这里 y 先与整体表达一起记，第10课学习地点代词 y 的用法。il y a 还可用于过去时间“……以前”，本课只学存在，不把时间用法混入物品练习。</p><h3>4.2 已知与新信息的自然顺序</h3><p><b>Dans la chambre, il y a une table.</b> 先让读者知道有一张桌子；下一句 <b>La table est près de la fenêtre.</b> 把已出现的桌子定位。通常引入用 une、后续已知用 la；不是“il y a 后永远不能出现定冠词”，语境有列举特定物品的情况，本课采用最清晰的入门结构。</p><h3>4.3 ce sont 与口语 c’est</h3><p>规范书写按数用 <b>Ce sont des chaises.</b>；口语中能听到 C’est des chaises.。本课练规范 ce sont，不把口语现象误作听力不存在。ce 在这个结构中是呈现代词，第7课 ce livre 的 ce 是指示限定词，作用不同。</p>"
+        },
+        {
+          "id": "questions",
+          "title": "05 / qu’est-ce que、où 与多少：问法决定答案",
+          "html": "<h2>05 / qu’est-ce que、où 与多少：问法决定答案</h2><div class=\"table-scroll\"><table><thead><tr><th>目标</th><th>问句</th><th>对应答案</th></tr></thead><tbody><tr><td>辨认事物</td><td>Qu’est-ce que c’est ?</td><td>C’est un tableau. / Ce sont des tableaux.</td></tr><tr><td>问房间有什么</td><td>Qu’est-ce qu’il y a dans la chambre ?</td><td>Il y a une table et deux chaises.</td></tr><tr><td>问一件物品的位置</td><td>Où est le livre ? / Le livre est où ?</td><td>Il est sur la table.</td></tr><tr><td>问几件的位置</td><td>Où sont les livres ?</td><td>Ils sont dans le sac.</td></tr><tr><td>确认是否有</td><td>Il y a une lampe ?</td><td>Oui, il y a une lampe.</td></tr><tr><td>精确数量（补充）</td><td>Il y a combien de chaises ?</td><td>Il y a deux chaises.</td></tr></tbody></table></div><h3>5.1 qui 问人，qu’est-ce que 问事物</h3><p>Qui est-ce ? → C’est Ana.；Qu’est-ce que c’est ? → C’est une lampe.。不要问物品时用 qui，也不要面对事物辨认题只答 Oui。qu’est-ce que c’est 整体先会用，第14课再系统比较各种 est-ce que 结构。</p><h3>5.2 省音和连字符不能混写</h3><p><b>Qu’est-ce que c’est ?</b> 中 est-ce 保留连字符；que 在 il 的元音前省音：<b>Qu’est-ce qu’il y a… ?</b>。c’est 自身也省音。不要写 Qu’est que c’est，也不要把所有词连成一个没有分隔的词。</p><h3>5.3 问位置与问数量不同</h3><p>Où sont les livres ? 需要位置；Deux livres. 只给数量，不能回答完整位置问题。Qu’est-ce qu’il y a… ? 用于开放列物品；Il y a deux livres ? 是确认。读题先圈疑问任务，再作答。</p><h3>5.4 数量短语预览</h3><p>combien de + 复数名词中 de 是结构词：combien de livres。第7课价格与数量问法会再整理，当前作为补充句型识别。</p>"
+        },
+        {
+          "id": "places",
+          "title": "06 / 位置介词：参照物、视角和缩合",
+          "html": "<h2>06 / 位置介词：参照物、视角和缩合</h2><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>含义</th><th>自编例句</th></tr></thead><tbody><tr><td>sur</td><td>在表面上，通常有接触</td><td>Le livre est sur la table.</td></tr><tr><td>sous</td><td>在下方</td><td>Le sac est sous la chaise.</td></tr><tr><td>dans</td><td>在内部</td><td>Les livres sont dans le sac.</td></tr><tr><td>devant</td><td>在前面</td><td>La chaise est devant la table.</td></tr><tr><td>derrière</td><td>在后面</td><td>La lampe est derrière la chaise.</td></tr><tr><td>entre…et…</td><td>在两者之间</td><td>Le sac est entre la table et la chaise.</td></tr><tr><td>à côté de</td><td>在旁边</td><td>Le bureau est à côté de la fenêtre.</td></tr><tr><td>près de</td><td>在附近</td><td>La chaise est près du bureau.</td></tr><tr><td>loin de（补充）</td><td>离……远</td><td>Le lit est loin de la porte.</td></tr><tr><td>à gauche de / à droite de（补充）</td><td>在……左／右边</td><td>Le lit est à gauche de la table.</td></tr></tbody></table></div><h3>6.1 不是每个介词后都加 de</h3><p>sur la table、dans le sac、devant la porte：不另加 de。à côté <b>de</b> la table、près <b>de</b> la porte：de 是表达的一部分。不能写 sur de la table，也不能写 à côté la table。</p><h3>6.2 de + 定冠词的查阅表</h3><div class=\"table-scroll\"><table><thead><tr><th>原结构</th><th>实际形式</th><th>例子</th></tr></thead><tbody><tr><td>de + le</td><td>du</td><td>près du bureau</td></tr><tr><td>de + les</td><td>des</td><td>à côté des livres</td></tr><tr><td>de + la</td><td>de la</td><td>près de la porte</td></tr><tr><td>de + l’</td><td>de l’</td><td>près de l’armoire</td></tr></tbody></table></div><p>缩合 du / des 不是删除参照物的性别或数，而是法语组合形式。au / aux（à + le / les）第10课完整整理；当前只把常用位置表达写对。</p><h3>6.3 参照物与视角</h3><p>“前、后、左、右”必须说明或共享参照视角。Le sac est à gauche de la table. 不是只说“包在左边”就能唯一定位；图片任务应按题目给出的观察方向判断。between 使用两项参照：entre la table et la chaise，不漏 et。</p>"
+        },
+        {
+          "id": "words",
+          "title": "07 / 家具与物品词汇、搭配和辨析",
+          "html": "<h2>07 / 家具与物品词汇、搭配和辨析</h2><div class=\"table-scroll\"><table><thead><tr><th>单数词典形式</th><th>复数</th><th>中文</th><th>完整例句</th></tr></thead><tbody><tr><td>le livre</td><td>des livres</td><td>书</td><td>Les livres sont dans le sac.</td></tr><tr><td>la table</td><td>des tables</td><td>桌子</td><td>La table est près de la fenêtre.</td></tr><tr><td>la chaise</td><td>des chaises</td><td>椅子</td><td>Il y a deux chaises.</td></tr><tr><td>le bureau</td><td>des bureaux</td><td>书桌／办公桌</td><td>Le bureau est à côté de la porte.</td></tr><tr><td>le lit</td><td>des lits</td><td>床</td><td>Le lit est dans la chambre.</td></tr><tr><td>l’armoire（f.）</td><td>des armoires</td><td>衣柜</td><td>Elle est près du lit.</td></tr><tr><td>la lampe</td><td>des lampes</td><td>灯</td><td>La lampe est sur le bureau.</td></tr><tr><td>le sac</td><td>des sacs</td><td>包</td><td>Il est sous la chaise.</td></tr><tr><td>la fenêtre</td><td>des fenêtres</td><td>窗户</td><td>Le bureau est près de la fenêtre.</td></tr><tr><td>la porte</td><td>des portes</td><td>门</td><td>La chaise est devant la porte.</td></tr><tr><td>la chambre</td><td>des chambres</td><td>房间／卧室</td><td>Dans la chambre, il y a un lit.</td></tr><tr><td>le mur</td><td>des murs</td><td>墙</td><td>Le tableau est sur le mur.</td></tr><tr><td>le tableau</td><td>des tableaux</td><td>画／板，按情景</td><td>Ce sont des tableaux.</td></tr><tr><td>la photo</td><td>des photos</td><td>照片</td><td>La photo est sur la table.</td></tr><tr><td>l’objet（m.）</td><td>des objets</td><td>物品</td><td>Qu’est-ce que c’est ?</td></tr><tr><td>le stylo</td><td>des stylos</td><td>笔</td><td>Les stylos sont dans le sac.</td></tr><tr><td>le cahier</td><td>des cahiers</td><td>练习本</td><td>Il y a un cahier.</td></tr><tr><td>l’ordinateur（m.）</td><td>des ordinateurs</td><td>电脑</td><td>Il est sur le bureau.</td></tr><tr><td>la clé</td><td>des clés</td><td>钥匙</td><td>Les clés sont dans le sac.</td></tr><tr><td>le fauteuil</td><td>des fauteuils</td><td>扶手椅</td><td>Il est près de la fenêtre.</td></tr></tbody></table></div><h3>7.1 三组区别</h3><p><b>table / bureau：</b>table 范围较广，bureau 可指书桌，也可指办公室，按语境。<b>sur / dans：</b>书在包表面和在包内部不同。<b>tableau / table：</b>画或板是 tableau，不是 table 的复数。复数 tableaux 的 x 不成为新音节。</p><h3>7.2 把性别带进位置回答</h3><p>la clé → Elle est…；les clés → Elles sont…；le stylo → Il est…；les stylos → Ils sont…。背词时同时读冠词，避免后来只凭中文词义选择代词。cahier、livre、photo 不是所有纸质物品的通称，要依物品类别辨认。</p>"
+        },
+        {
+          "id": "phrases",
+          "title": "08 / 原创房间描述、完整对话与四项任务",
+          "html": "<h2>08 / 原创房间描述、完整对话与四项任务</h2><h3>8.1 教学布局（所有位置按本段定义）</h3><p class=\"example\">Dans la chambre, il y a une table, deux chaises, un lit et un bureau. La table est près de la fenêtre. Les chaises sont devant la table. Le lit est à gauche de la table. Le bureau est à côté de la porte. Trois livres sont sur la table. Une lampe est sur le bureau. Le sac est sous une chaise. Les clés sont dans le sac.</p><p>本段没有图，不假设实际家具尺寸或房间方向。左侧以本段给定观察方向为准。后续阅读题只依据这里给出的关系，不推断没有说明的物品。</p><h3>8.2 寻物对话</h3><p class=\"example\">— Qu’est-ce que c’est ?<br>— C’est un sac.<br>— Où sont les clés ?<br>— Elles sont dans le sac.<br>— Et le sac, il est où ?<br>— Il est sous une chaise.<br>— Il y a des livres dans le sac ?<br>— Non. Les livres sont sur la table.</p><p>最后的 Non 后给正确信息，完整否定 il n’y a pas de… 第6课展开。不能把读不到的数量或位置填进回答。</p><h3>8.3 阅读与听力</h3><ol><li>阅读：列物品和数量，再单独记录每个“物品→位置→参照物”。</li><li>听教材第5课：第一遍认物品；第二遍听冠词、数量与位置；第三遍核对原文；第四遍按角色跟读。</li><li>听不清 les / des 时复听整组；无法确定的内容先留空，而非给名词末尾强加 /s/。</li><li>用物品卡或自己画的示意图还原位置，核对 sur / sous / dans 的差别。</li></ol><h3>8.4 说写输出</h3><p>用6—8句描述桌面或虚构房间，至少一条 il y a、一条 C’est / Ce sont、两条 est / sont 的定位，一条复数代词回指。先说明参照物，再读给同伴摆放；书面完成后逐项检查冠词、名词s／x、être 和介词。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "09 / 复数的口语标记：听整组，不读出所有s",
+          "html": "<h2>09 / 复数的口语标记：听整组，不读出所有s</h2><div class=\"table-scroll\"><table><thead><tr><th>对比</th><th>常见听辨线索</th><th>书写要求</th></tr></thead><tbody><tr><td>le livre / les livres</td><td>le 与 les 的元音不同；livre(s) 常同音</td><td>复数仍写 livres。</td></tr><tr><td>une chaise / des chaises</td><td>une 与 des 不同，名词常同音</td><td>des + chaises 同时改。</td></tr><tr><td>l’objet / les objets</td><td>复数 les 在元音前常有 /z/</td><td>约 /le.zɔb.ʒɛ/。</td></tr><tr><td>il est / ils sont</td><td>主语与动词整组改变</td><td>不要期待 ils 的 s 每次独立读。</td></tr><tr><td>elle est / elles sont</td><td>动词是重要线索</td><td>elles 回指阴性复数。</td></tr><tr><td>C’est un livre / Ce sont des livres</td><td>呈现结构、冠词一起提示数</td><td>规范书写用 ce sont。</td></tr></tbody></table></div><h3>9.1 les / des 与连读</h3><p>les 常读 /le/，des 常读 /de/；元音前 les objets、des objets 常有 /z/ 连读。s 不因此在所有位置都读：les livres 后接辅音，不给 les 额外读 /z/。les livres 的 livre(s) 末 s 通常不读。</p><h3>9.2 数量词也是证据</h3><p>deux chaises、trois livres 的数词可直接提示数量；复数不总由名词自身提供声音。某些不规则词如 œil / yeux 有明显变化（拓展），不能反过来得出“所有复数名词都同音”的绝对规则。</p><h3>9.3 连读不是任意添加辅音</h3><p>Les objets sont sur la table. 中 les objets 的 /z/ 来自限定词；table 的末 e 通常不添音节。Le livre est… 中 livre 末 /ʁ/ 本来发音，属于连续衔接。第10课再整理连读和联诵，当前先按音轨听清词组。</p><h3>9.4 复听步骤</h3><p>先只标“单／复”，再写听到的冠词、代词、动词或数量证据；对照原文后改书写；最后用一件物品／几件物品成对朗读。不要只因为没听到s就把复数判成单数。</p>"
+        },
+        {
+          "id": "errors",
+          "title": "10 / 易错点、修正与原因",
+          "html": "<h2>10 / 易错点、修正与原因</h2><div class=\"table-scroll\"><table><thead><tr><th>错误</th><th>修正</th><th>原因</th></tr></thead><tbody><tr><td>les table</td><td>les tables</td><td>冠词和名词都改复数。</td></tr><tr><td>des bureau</td><td>des bureaux</td><td>bureau 常用复数为 bureaux。</td></tr><tr><td>le livres</td><td>les livres</td><td>复数名词搭复数限定词。</td></tr><tr><td>deux des livres（普通两本书）</td><td>deux livres</td><td>普通数量词直接限定名词；另有部分集合语境不在本课。</td></tr><tr><td>Il y ont deux livres.</td><td>Il y a deux livres.</td><td>存在结构不随后面的数量变。</td></tr><tr><td>Le livre sont…</td><td>Le livre est…</td><td>主语单数。</td></tr><tr><td>Les chaises est…</td><td>Les chaises sont…</td><td>主语复数。</td></tr><tr><td>la lampe → il</td><td>la lampe → elle</td><td>物品代词按语法性别。</td></tr><tr><td>les clés → ils</td><td>les clés → elles</td><td>阴性复数回指。</td></tr><tr><td>Qu’est que c’est ?</td><td>Qu’est-ce que c’est ?</td><td>结构保留 est-ce。</td></tr><tr><td>Qu’est-ce que il y a ?</td><td>Qu’est-ce qu’il y a ?</td><td>que 在 il 前省音。</td></tr><tr><td>Où sont les livres ? — Trois.</td><td>Ils sont sur la table.</td><td>位置问题不能只答数量。</td></tr><tr><td>C’est des chaises.（规范练习）</td><td>Ce sont des chaises.</td><td>规范书写复数呈现。</td></tr><tr><td>sur de la table</td><td>sur la table</td><td>sur 后不额外加de。</td></tr><tr><td>à côté la table</td><td>à côté de la table</td><td>复合位置表达要保留de。</td></tr><tr><td>près de le bureau</td><td>près du bureau</td><td>de + le 缩合du。</td></tr><tr><td>dans 读成在表面</td><td>dans 表内部，sur 表表面</td><td>不能按中文笼统在来混用。</td></tr><tr><td>名词复数s都读/s/</td><td>听冠词、动词、数量；s常不发音</td><td>声音和书写分开。</td></tr></tbody></table></div><p>检查顺序：句子任务 → 主语与动词 → 名词数和冠词 → 位置参照 → 省音缩合 → 发音。多个错误分别指出，不以“语感不对”代替规则。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "11 / 十组练习、逐项答案与解析",
+          "html": "<h2>11 / 十组练习、逐项答案与解析</h2><p>先答再展开。A—I给逐项答案，J给开放任务样例和自查条件；拓展题会标明范围。</p><h3>A. 名词和冠词复数</h3><ol><li>un livre</li><li>une chaise</li><li>le sac</li><li>la table</li><li>l’objet</li><li>un bureau</li><li>le tableau</li><li>un pays（补充）</li></ol><details><summary>展开答案与解析</summary><ol><li>des livres：冠词换des，名词+s。</li><li>des chaises：阴阳性复数同用des。</li><li>les sacs：定冠词复数les。</li><li>les tables。</li><li>les objets：不是l’s。</li><li>des bureaux：-eau→-eaux。</li><li>les tableaux：x书写常不读。</li><li>des pays：原来s结尾不再加s。</li></ol></details><h3>B. être变位与物品代词</h3><ol><li>Nous ___ dans la chambre.</li><li>Vous ___ près de la porte.</li><li>Les livres ___ sur la table.</li><li>Le sac ___ sous la chaise.</li><li>La lampe est… 用代词改写。</li><li>Les clés sont… 用代词改写。</li></ol><details><summary>展开答案与解析</summary><ol><li>sommes；nous不是sont。</li><li>êtes；礼貌一人也一样。</li><li>sont；复数主语。</li><li>est；单数主语。</li><li>Elle est…；lampe阴性。</li><li>Elles sont…；clés阴性复数。</li></ol></details><h3>C. 词义与搭配</h3><ol><li>table / tableau的区别</li><li>sur / dans的区别</li><li>sous表示什么？</li><li>être定位句与il y a有什么差别？</li><li>bureau的复数</li><li>物品clé的冠词与复数</li></ol><details><summary>展开答案与解析</summary><ol><li>桌子／画或板；tableau不是table复数。</li><li>表面上／内部。</li><li>在下方。</li><li>定位已知物品／引入有什么。</li><li>bureaux。</li><li>la clé / les clés或des clés。</li></ol></details><h3>D. 存在、呈现和位置</h3><ol><li>___ une table dans la chambre.（引入）</li><li>___ un livre.（辨认一件）</li><li>___ des chaises.（规范辨认多件）</li><li>Les livres ___ dans le sac.</li><li>La lampe est près ___ bureau.</li><li>Le sac est entre la table ___ la chaise.</li><li>Les clés sont ___ le sac.（内部）</li><li>Le livre est ___ la table.（表面）</li></ol><details><summary>展开答案与解析</summary><ol><li>Il y a：非人称存在。</li><li>C’est：单数呈现。</li><li>Ce sont：复数呈现。</li><li>sont：复数定位。</li><li>du：de+le。</li><li>et：两个参照物。</li><li>dans。</li><li>sur。</li></ol></details><h3>E. 根据回答提问</h3><ol><li>C’est une lampe.</li><li>Ce sont des livres.</li><li>Il y a une table et deux chaises.</li><li>Le sac est sous la chaise.</li><li>Elles sont dans le sac.（问les clés）</li><li>Oui, il y a une lampe.</li></ol><details><summary>展开答案与解析</summary><ol><li>Qu’est-ce que c’est ?</li><li>Qu’est-ce que c’est ? 辨认后复数回答。</li><li>Qu’est-ce qu’il y a dans la chambre ?</li><li>Où est le sac ?</li><li>Où sont les clés ?</li><li>Il y a une lampe ? 确认存在。</li></ol></details><h3>F. 中文译法语</h3><ol><li>房间里有两把椅子。</li><li>这是一本书。</li><li>这些是画。</li><li>包在椅子下面。</li><li>钥匙在包里面。</li><li>书桌在门旁边。</li></ol><details><summary>展开答案与解析</summary><ol><li>Il y a deux chaises dans la chambre.</li><li>C’est un livre.</li><li>Ce sont des tableaux.</li><li>Le sac est sous la chaise.</li><li>Les clés sont dans le sac. / Elles sont dans le sac. 有回指时可用elles。</li><li>Le bureau est à côté de la porte.</li></ol></details><h3>G. 读第08节布局，不猜未给信息</h3><ol><li>有几把椅子？</li><li>三本书在哪里？</li><li>灯在哪里？</li><li>包在桌面还是椅子下面？</li><li>钥匙在何处？</li><li>床相对桌子在哪边？</li><li>课文有无说明电脑数量？</li></ol><details><summary>展开答案与解析</summary><ol><li>两把：Il y a deux chaises.</li><li>Sur la table。</li><li>Sur le bureau。</li><li>Sous une chaise；不能混sur/sous。</li><li>Dans le sac。</li><li>À gauche de la table；按段落设定视角。</li><li>没有，写未提及，不猜0或1。</li></ol></details><h3>H. 复数听辨与读音</h3><ol><li>livre / livres通常靠末s区分声音吗？</li><li>les objets常见连读辅音？</li><li>les livres是否给les添/z/？</li><li>des tableaux的x通常读吗？</li><li>il est / ils sont可用什么辨数？</li><li>没听到名词s能否断言单数？</li></ol><details><summary>展开答案与解析</summary><ol><li>不能，常同音；听限定词等。</li><li>/z/，约/le.zɔb.ʒɛ/。</li><li>不，后接辅音。</li><li>通常不读；书写保留。</li><li>主语和动词整组，est/sont有区别。</li><li>不能，冠词、动词或数量词可提示复数。</li></ol></details><h3>I. 改错并解释</h3><ol><li>Il y ont des livres.</li><li>Les livre est sur la table.</li><li>La lampe, il est sur le bureau.</li><li>Qu’est-ce que il y a ?</li><li>La chaise est à côté la porte.</li><li>Le sac est près de le lit.</li></ol><details><summary>展开答案与解析</summary><ol><li>Il y a des livres. 结构不变。</li><li>Les livres sont sur la table. 名词和动词都改。</li><li>La lampe, elle est sur le bureau. 阴性回指。</li><li>Qu’est-ce qu’il y a ? que省音。</li><li>À côté de la porte. 保留de。</li><li>Près du lit. de+le缩合。</li></ol></details><h3>J. 口说、写作、听力与摆放任务</h3><ol><li>用6—8句写虚构桌面，含il y a、辨认、两条定位及复数回指。</li><li>与同伴完成辨认→定位→确认的6轮对话。</li><li>把第08节关系记录成物品→位置→参照物，再画简图或摆物品。</li><li>听教材录音，记录一项单复数误听及依据，重录两句。</li></ol><details><summary>展开答案与解析</summary><ol><li>示范：Il y a une table. C’est un bureau. Deux livres sont sur le bureau. Ils sont près de la lampe. Le sac est sous la chaise. Les clés sont dans le sac. 内容可改；检查参照物明确、冠词和数一致。</li><li>示范：Qu’est-ce que c’est ?—C’est un sac. Où sont les clés ?—Dans le sac. Le sac est sur la table ?—Non, il est sous la chaise. 检查问题和答案对应。</li><li>列table→près de→fenêtre；livres→sur→table；clés→dans→sac等。只画段落给出的关系，不补没写的电脑。</li><li>如最初把les livres写成le livre；复听les及动词sont后改正。依据必须来自实际听到的录音，不能把范例当自己的记录。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "12 / 脱稿自查、一分钟卡与资料",
+          "html": "<h2>12 / 脱稿自查、一分钟卡与资料</h2><ul><li>能把un/une、le/la/l’与名词一起变复数，写bureaux/tableaux。</li><li>能默写nous sommes、vous êtes、ils/elles sont。</li><li>能区分存在、辨认和定位，il y a不随后面物品数量变。</li><li>能回指la lampe和les clés，选择elle/elles。</li><li>能写Qu’est-ce que c’est、Qu’est-ce qu’il y a以及Où est/sont。</li><li>能用sur、sous、dans、devant、derrière、entre…et…及à côté de。</li><li>能解释près du bureau的du来自de+le。</li><li>能听冠词、代词、动词和数词判断复数，不强读所有末s。</li><li>能说写6—8句并按描述摆出位置，未知信息不猜测。</li></ul><div class=\"example\"><b>一分钟速记</b><br>复数：un/une→des；le/la/l’→les；livre→livres，bureau→bureaux。<br>être：nous sommes / vous êtes / ils, elles sont。<br>存在：Il y a un livre / des livres。<br>辨认：C’est un livre / Ce sont des livres。<br>定位：Le livre est… / Les livres sont…<br>物品回指：la lampe→elle；les clés→elles。<br>位置：sur表面、dans内部、sous下方；à côté de、près du。<br>听辨：冠词+数量+代词+动词，名词s常不读。</div><h3>复习安排</h3><p>当天做A—D；隔天重做I和错题；三天后换一组物品完成E、F、J；一周后只听描述摆放，再核对位置。颜色、形容词配合与完整否定会在第6课继续。</p><h3>范围与资料</h3><p>核心栏目按<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">出版方公开目录</a>核对。可查德州大学<a href=\"https://www.laits.utexas.edu/tex/gr/no2.html\" target=\"_blank\" rel=\"noopener noreferrer\">名词单复数</a>和<a href=\"https://www.laits.utexas.edu/tex/gr/det4.html\" target=\"_blank\" rel=\"noopener noreferrer\">不定冠词</a>；例句、布局和练习原创，配套录音通过出版方资源访问。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "question": "un livre 的复数是？",
+          "options": [
+            "des livres",
+            "des livre",
+            "un livres"
+          ],
+          "answer": 0,
+          "explanation": "冠词换des，名词加s。",
+          "group": "grammar",
+          "id": "l05-q01"
+        },
+        {
+          "question": "la chaise 的复数是？",
+          "options": [
+            "la chaises",
+            "les chaises",
+            "les chaise"
+          ],
+          "answer": 1,
+          "explanation": "定冠词和名词一起变复数。",
+          "group": "grammar",
+          "id": "l05-q02"
+        },
+        {
+          "question": "un bureau 的复数是？",
+          "options": [
+            "des bureaus",
+            "des bureau",
+            "des bureaux"
+          ],
+          "answer": 2,
+          "explanation": "bureau常用复数为bureaux。",
+          "group": "grammar",
+          "id": "l05-q03"
+        },
+        {
+          "question": "l’objet 的复数是？",
+          "options": [
+            "les objets",
+            "l’s objets",
+            "le objets"
+          ],
+          "answer": 0,
+          "explanation": "l’的复数形式les，名词+s。",
+          "group": "grammar",
+          "id": "l05-q04"
+        },
+        {
+          "question": "Nous ___ dans la chambre.",
+          "options": [
+            "sont",
+            "sommes",
+            "êtes"
+          ],
+          "answer": 1,
+          "explanation": "nous的être为sommes。",
+          "group": "grammar",
+          "id": "l05-q05"
+        },
+        {
+          "question": "Vous ___ près de la porte.",
+          "options": [
+            "sommes",
+            "sont",
+            "êtes"
+          ],
+          "answer": 2,
+          "explanation": "vous用êtes，礼貌单数也一样。",
+          "group": "grammar",
+          "id": "l05-q06"
+        },
+        {
+          "question": "Les livres ___ sur la table.",
+          "options": [
+            "sont",
+            "est",
+            "sommes"
+          ],
+          "answer": 0,
+          "explanation": "复数主语les livres用sont。",
+          "group": "grammar",
+          "id": "l05-q07"
+        },
+        {
+          "question": "la lampe 用物品代词回指是？",
+          "options": [
+            "il",
+            "elle",
+            "ils"
+          ],
+          "answer": 1,
+          "explanation": "lampe阴性单数，elle。",
+          "group": "grammar",
+          "id": "l05-q08"
+        },
+        {
+          "question": "les clés 用代词回指是？",
+          "options": [
+            "il",
+            "ils",
+            "elles"
+          ],
+          "answer": 2,
+          "explanation": "clés阴性复数，elles。",
+          "group": "grammar",
+          "id": "l05-q09"
+        },
+        {
+          "question": "房间里有三本书，正确句子是？",
+          "options": [
+            "Il y a trois livres.",
+            "Il y ont trois livres.",
+            "Ils y a trois livres."
+          ],
+          "answer": 0,
+          "explanation": "存在结构il y a不按后面数量改变。",
+          "group": "grammar",
+          "id": "l05-q10"
+        },
+        {
+          "question": "规范辨认几把椅子，应写？",
+          "options": [
+            "C’est des chaises.",
+            "Ce sont des chaises.",
+            "Ils y a des chaises."
+          ],
+          "answer": 1,
+          "explanation": "规范书面复数呈现用ce sont；口语可能听到c’est des。",
+          "group": "grammar",
+          "id": "l05-q11"
+        },
+        {
+          "question": "问事物“这是什么”，应说？",
+          "options": [
+            "Qui est-ce ?",
+            "Où est-ce livres ?",
+            "Qu’est-ce que c’est ?"
+          ],
+          "answer": 2,
+          "explanation": "qui问人，这里问事物类别。",
+          "group": "speaking",
+          "id": "l05-q12"
+        },
+        {
+          "question": "问房间有什么，正确是？",
+          "options": [
+            "Qu’est-ce qu’il y a dans la chambre ?",
+            "Qu’est-ce que il y a dans la chambre ?",
+            "Qui y ont chambre ?"
+          ],
+          "answer": 0,
+          "explanation": "que在il前省音为qu’。",
+          "group": "grammar",
+          "id": "l05-q13"
+        },
+        {
+          "question": "Où sont les livres ? 最合适的回答？",
+          "options": [
+            "Trois.",
+            "Ils sont sur la table.",
+            "Oui."
+          ],
+          "answer": 1,
+          "explanation": "où问位置，需要给位置。",
+          "group": "speaking",
+          "id": "l05-q14"
+        },
+        {
+          "question": "书在包内部，用哪个介词？",
+          "options": [
+            "sur",
+            "devant",
+            "dans"
+          ],
+          "answer": 2,
+          "explanation": "dans表示内部，sur常表示表面。",
+          "group": "vocabulary",
+          "id": "l05-q15"
+        },
+        {
+          "question": "包在椅子下方，应说？",
+          "options": [
+            "sous la chaise",
+            "sur la chaise",
+            "dans de la chaise"
+          ],
+          "answer": 0,
+          "explanation": "sous表示下方。",
+          "group": "vocabulary",
+          "id": "l05-q16"
+        },
+        {
+          "question": "“在桌子旁边”正确结构是？",
+          "options": [
+            "à côté la table",
+            "à côté de la table",
+            "sur de la table"
+          ],
+          "answer": 1,
+          "explanation": "à côté de必须保留de。",
+          "group": "grammar",
+          "id": "l05-q17"
+        },
+        {
+          "question": "près de + le bureau 的实际形式？",
+          "options": [
+            "près de le bureau",
+            "près le bureau",
+            "près du bureau"
+          ],
+          "answer": 2,
+          "explanation": "de+le缩合du。",
+          "group": "grammar",
+          "id": "l05-q18"
+        },
+        {
+          "question": "两个参照物之间，用？",
+          "options": [
+            "entre la table et la chaise",
+            "entre la table ou la chaise",
+            "dans de deux table"
+          ],
+          "answer": 0,
+          "explanation": "entre…et…连接两项参照。",
+          "group": "grammar",
+          "id": "l05-q19"
+        },
+        {
+          "question": "tableau 是什么？",
+          "options": [
+            "table的复数",
+            "画／板，按情景",
+            "所有家具"
+          ],
+          "answer": 1,
+          "explanation": "tableau不是table复数，其复数为tableaux。",
+          "group": "vocabulary",
+          "id": "l05-q20"
+        },
+        {
+          "question": "les objets 常见连读辅音是？",
+          "options": [
+            "/s/",
+            "/t/",
+            "/z/"
+          ],
+          "answer": 2,
+          "explanation": "限定词les在元音前常有/z/。",
+          "group": "pronunciation",
+          "id": "l05-q21"
+        },
+        {
+          "question": "livre / livres 的常见读音关系？",
+          "options": [
+            "可同音，不能只听末s判断",
+            "复数末s始终读/s/",
+            "复数必多一个音节"
+          ],
+          "answer": 0,
+          "explanation": "名词s常不读；听限定词、数词或动词。",
+          "group": "pronunciation",
+          "id": "l05-q22"
+        },
+        {
+          "question": "les livres 中les的末s一般怎样？",
+          "options": [
+            "每次读/z/",
+            "后接辅音时通常不独立读",
+            "读/t/"
+          ],
+          "answer": 1,
+          "explanation": "连读依环境，不给辅音前的les任意加音。",
+          "group": "pronunciation",
+          "id": "l05-q23"
+        },
+        {
+          "question": "tableaux 的末x通常？",
+          "options": [
+            "读/ks/",
+            "读/z/，任何位置一样",
+            "不独立读，书写仍保留"
+          ],
+          "answer": 2,
+          "explanation": "词典形式tableau与复数常同音。",
+          "group": "pronunciation",
+          "id": "l05-q24"
+        },
+        {
+          "question": "第08节描述中三本书在哪里？",
+          "options": [
+            "sur la table",
+            "dans le sac",
+            "sous le lit"
+          ],
+          "answer": 0,
+          "explanation": "依据原创布局，书在桌面。",
+          "group": "reading",
+          "id": "l05-q25"
+        },
+        {
+          "question": "第08节描述中钥匙在哪里？",
+          "options": [
+            "sur le bureau",
+            "dans le sac",
+            "derrière la fenêtre"
+          ],
+          "answer": 1,
+          "explanation": "钥匙在包里，不能混sur/dans。",
+          "group": "reading",
+          "id": "l05-q26"
+        },
+        {
+          "question": "第08节是否提供电脑数量？",
+          "options": [
+            "一定一台",
+            "一定零台",
+            "没有，未提及"
+          ],
+          "answer": 2,
+          "explanation": "未给信息不能由常识补数量。",
+          "group": "reading",
+          "id": "l05-q27"
+        },
+        {
+          "question": "定位已知的那本书，正确句是？",
+          "options": [
+            "Le livre est sur la table.",
+            "Il y ont le livre sur table.",
+            "Le livre sont table."
+          ],
+          "answer": 0,
+          "explanation": "已知单数主语+est+位置。",
+          "group": "grammar",
+          "id": "l05-q28"
+        },
+        {
+          "question": "des livres 与 près des livres 中des是否结构相同？",
+          "options": [
+            "永远都表示一些",
+            "前者不定冠词，后者de+les缩合",
+            "二者都没有冠词"
+          ],
+          "answer": 1,
+          "explanation": "字形相同，需按句法判断。",
+          "group": "grammar",
+          "id": "l05-q29"
+        },
+        {
+          "question": "明确“两本书”的普通名词短语是？",
+          "options": [
+            "deux des livres",
+            "deux livre",
+            "deux livres"
+          ],
+          "answer": 2,
+          "explanation": "数词直接限定普通数量，名词复数。",
+          "group": "grammar",
+          "id": "l05-q30"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "plural",
+          "etre",
+          "existence",
+          "questions",
+          "places",
+          "errors"
+        ],
+        "vocabulary": [
+          "words"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "phrases"
+        ],
+        "speaking": [
+          "questions",
+          "phrases"
+        ],
+        "writing": [
+          "phrases",
+          "errors"
+        ]
+      },
+      "listening": "听第5课：第一遍辨物品；第二遍记录数量与位置参照；第三遍核对冠词、代词、est/sont和qu’est-ce qu’il y a的省音；第四遍分角色跟读，再按描述摆物品。没有听到末s不等于单数，未知内容留空。"
+    },
+    {
+      "number": 6,
+      "title": "Portrait-robot",
+      "translation": "人物画像",
+      "pages": "26–27",
+      "core": [
+        "重读人称代词",
+        "avoir 复数现在时",
+        "ne…pas",
+        "形容词配合",
+        "物主限定词复数",
+        "颜色",
+        "/z/ 连读"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "01 / 目标：描述、辨认与说明归属",
+          "html": "<h2>01 / 目标：描述、辨认与说明归属</h2><p>听到人物描述后能辨认谁，说明头发、眼睛、衣物颜色或拥有的物品，再用否定排除不符合的人。本课把“形容词跟谁配合”“谁的东西”“不是／没有”三条规则分开学习。</p><div class=\"note\"><b>核心：</b>重读代词moi、toi、lui、elle、vous；avoir复数；ne…pas；形容词配合；物主词复数；颜色；/z/连读。重读代词nous、eux、elles的完整表为预览，第9课继续；复杂形容词位置和描述职业留后续专题。</div><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>可检查的表现</th></tr></thead><tbody><tr><td>描述</td><td>Il a les cheveux courts et les yeux bleus. 正确区分avoir特征与être。</td></tr><tr><td>否认</td><td>Il n’a pas de lunettes. / Ce n’est pas lui. 不是所有否定都换de。</td></tr><tr><td>配合</td><td>une veste noire / des vestes noires；知道orange/marron常不变。</td></tr><tr><td>归属</td><td>son sac / ses sacs；后面名词复数才选择ses。</td></tr><tr><td>对比</td><td>Moi, j’ai…；Lui, il a…，重读代词不能直接代替动词前主语。</td></tr><tr><td>听辨</td><td>区分ils ont / ils sont，读mes amis、vous avez的/z/。</td></tr></tbody></table></div><p>学习顺序：avoir与重读代词 → 否定 → 配合与颜色 → 物主词 → 原创人物卡 → 练习与自查。描述仅按任务给定信息，不凭颜色猜国籍、性格或身份。</p>"
+        },
+        {
+          "id": "avoir",
+          "title": "02 / avoir 完整现在时与人物特征",
+          "html": "<h2>02 / avoir 完整现在时与人物特征</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>avoir</th><th>自编例句</th></tr></thead><tbody><tr><td>je</td><td>j’ai</td><td>J’ai un sac.</td></tr><tr><td>tu</td><td>tu as</td><td>Tu as les yeux bleus.</td></tr><tr><td>il / elle / on</td><td>a</td><td>Elle a les cheveux courts.</td></tr><tr><td>nous</td><td>avons</td><td>Nous avons des lunettes.</td></tr><tr><td>vous</td><td>avez</td><td>Vous avez un sac noir.</td></tr><tr><td>ils / elles</td><td>ont</td><td>Ils ont des sacs.</td></tr></tbody></table></div><h3>2.1 三个复数形式必须单独记</h3><p>nous avons、vous avez、ils/elles ont。être的复数sommes/êtes/sont与avoir不同：<b>Ils sont dans la chambre.</b> 定位；<b>Ils ont des sacs.</b> 拥有。不能因为主语同为ils就混用sont/ont。</p><h3>2.2 身体特征常用定冠词</h3><p class=\"example\">Il a <b>les cheveux</b> courts. 他的头发短。<br>Elle a <b>les yeux</b> verts. 她的眼睛绿。<br>Il a <b>une barbe</b>. 他留胡子。<br>Elle a <b>des lunettes</b>. 她有眼镜／按描述戴眼镜。</p><p>头发常用复数cheveux，眼睛用不规则复数yeux（un œil→des yeux）。avoir + les cheveux/les yeux是常用特征结构，不直接逐字仿中文写Il est cheveux…。眼镜lunettes通常复数，不能仅因一副眼镜就改成une lunettes。</p><h3>2.3 être与avoir描述不同属性</h3><p><b>Elle est grande.</b> 描述她高；<b>Elle a les cheveux longs.</b> 描述她的头发长。grande配合elle，longs配合阳性复数cheveux，不随人物女性写longues。衣物整体颜色可说Son sac est noir，拥有可说Elle a un sac noir。</p>"
+        },
+        {
+          "id": "tonic",
+          "title": "03 / 重读人称代词：独立回应、介词和对比",
+          "html": "<h2>03 / 重读人称代词：独立回应、介词和对比</h2><div class=\"table-scroll\"><table><thead><tr><th>主语代词</th><th>重读形式</th><th>本课用途</th></tr></thead><tbody><tr><td>je</td><td>moi</td><td>Moi, j’ai un sac. / Avec moi.</td></tr><tr><td>tu</td><td>toi</td><td>Et toi ? / C’est toi ?</td></tr><tr><td>il</td><td>lui</td><td>C’est lui. / Lui, il a des lunettes.</td></tr><tr><td>elle</td><td>elle</td><td>C’est elle. / Elle, elle a un sac.</td></tr><tr><td>nous（预览）</td><td>nous</td><td>Avec nous.</td></tr><tr><td>vous</td><td>vous</td><td>Et vous ? 对一人或多人。</td></tr><tr><td>ils（预览）</td><td>eux</td><td>C’est pour eux.</td></tr><tr><td>elles（预览）</td><td>elles</td><td>Avec elles.</td></tr></tbody></table></div><h3>3.1 三个常见位置</h3><p>①独立回应：Qui est-ce ?—C’est lui.；Et toi ?。②介词后：avec moi、pour elle、à côté de lui。③突出对比：Moi, j’ai un sac rouge. Lui, il a un sac noir.。本课先掌握整体用法，不提前把lui当作所有“他”的统一形式。</p><h3>3.2 主语代词和重读代词不是任选</h3><p>普通句说 <b>Il a un sac.</b>，不说Lui a un sac。突出对比可说<b>Lui, il a un sac.</b>，仍保留il作为动词前主语。c’est后用lui，不说C’est il。elle、vous等形式相同，要按位置理解作用。</p><h3>3.3 lui在不同语法中的另一用途（后续识别）</h3><p>lui以后还可作间接宾语代词，如Je lui parle。它的位置和功能与C’est lui的重读形式不同。本课只学已经给出的重读用法，不将两个功能混成“lui永远放句末”。</p>"
+        },
+        {
+          "id": "negative",
+          "title": "04 / ne…pas：动词位置、省音与冠词变化",
+          "html": "<h2>04 / ne…pas：动词位置、省音与冠词变化</h2><p>普通现在时书面否定，把<strong>ne放变位动词前、pas放变位动词后</strong>。动词元音或哑音h开头时，ne省音为n’。先找到变位动词，再放两部分。</p><div class=\"table-scroll\"><table><thead><tr><th>肯定</th><th>否定</th><th>检查</th></tr></thead><tbody><tr><td>Il a un sac.</td><td>Il n’a pas de sac.</td><td>a元音开头，ne→n’；un常变de。</td></tr><tr><td>Elle a des lunettes.</td><td>Elle n’a pas de lunettes.</td><td>des通常变de，lunettes仍复数。</td></tr><tr><td>Je parle français.</td><td>Je ne parle pas français.</td><td>parle辅音开头，ne保留。</td></tr><tr><td>J’aime le cinéma.</td><td>Je n’aime pas le cinéma.</td><td>定冠词le保留；主语je在ne前不写j’。</td></tr><tr><td>Il est grand.</td><td>Il n’est pas grand.</td><td>否定être，形容词本身不变冠词。</td></tr><tr><td>C’est un sac.</td><td>Ce n’est pas un sac.</td><td>être后的un不因否定换de。</td></tr><tr><td>Ce sont des lunettes.</td><td>Ce ne sont pas des lunettes.</td><td>être后的des保留。</td></tr><tr><td>Il y a une lampe.</td><td>Il n’y a pas de lampe.</td><td>否定固定存在结构，n’在y前，pas在a后。</td></tr></tbody></table></div><h3>4.1 不能只在末尾追加pas</h3><p>Il a un sac pas不合规范。用Il n’a pas de sac。口语可听到省ne，如Il a pas de sac；本页书面练习要求完整ne…pas。否定不等于把主语省掉：Je n’ai pas de sac，不写J’n’ai。</p><h3>4.2 不是所有冠词都变de</h3><p>一般否定拥有／存在时，不定冠词un/une/des常变de/d’：Je n’ai pas d’ordinateur。定冠词le/la/les保留：Il n’a pas <b>les cheveux blonds</b>（否定这一特征）；être后不定冠词也通常保留：Ce n’est pas <b>une</b> chaise。对比或限定语境还有例外，后续再学；不要套“只要pas后全部de”的口诀。</p><h3>4.3 没有物品和不是这种物品</h3><p><b>Il n’y a pas de sac.</b> 没有包；<b>Ce n’est pas un sac.</b> 眼前有物品，但不是包。两句信息不同。回答否定以后，可补正确信息：Ce n’est pas un sac. C’est un livre.。</p><h3>4.4 否定里仍要配合</h3><p>Elle n’est pas grande. grande仍配合elle；Les sacs ne sont pas noirs. noirs仍配合sacs。ne…pas不会取消主语、形容词或数的一致关系。</p>"
+        },
+        {
+          "id": "agreement",
+          "title": "05 / 形容词性数配合：先找真正修饰对象",
+          "html": "<h2>05 / 形容词性数配合：先找真正修饰对象</h2><div class=\"table-scroll\"><table><thead><tr><th>阳性单数</th><th>阴性单数</th><th>阳性复数</th><th>阴性复数</th></tr></thead><tbody><tr><td>grand</td><td>grande</td><td>grands</td><td>grandes</td></tr><tr><td>petit</td><td>petite</td><td>petits</td><td>petites</td></tr><tr><td>blond</td><td>blonde</td><td>blonds</td><td>blondes</td></tr><tr><td>brun</td><td>brune</td><td>bruns</td><td>brunes</td></tr><tr><td>court</td><td>courte</td><td>courts</td><td>courtes</td></tr><tr><td>long</td><td>longue</td><td>longs</td><td>longues</td></tr><tr><td>noir</td><td>noire</td><td>noirs</td><td>noires</td></tr></tbody></table></div><h3>5.1 通常加e，再按数加s</h3><p>Elle est petite；Elles sont petites。un sac noir→des sacs noirs。long→longue有拼写变化，不是简单longe；已经以e结尾如rouge，阴性通常不再加第二个e。</p><h3>5.2 形容词跟名词，不跟拥有者</h3><p><b>Elle a les cheveux longs.</b>：longs修饰cheveux，阳性复数。<b>Il a une veste noire.</b>：noire修饰veste，阴性单数。即使人物男性，衣物veste仍阴性。转述者男女也不改变被描述物品的性别。</p><h3>5.3 在名词后或être后，配合仍存在</h3><p>un sac noir；Le sac est noir。des vestes noires；Les vestes sont noires。形容词位置有词汇习惯：un grand sac（grand常在名词前），un sac noir（颜色常在名词后）。本课以颜色后置和être表语为主，不把“所有形容词都后置”当绝对规则。</p><h3>5.4 前置复数形容词的补充</h3><p>正式书写常有des→de：<b>de grands sacs</b>。这与否定导致de不同。当前练习主要用des sacs noirs，避免要求尚未练习的复杂位置变化；阅读见到de grands yeux可按整体理解。</p>"
+        },
+        {
+          "id": "colors",
+          "title": "06 / 颜色：常规配合、不变色词和复合颜色",
+          "html": "<h2>06 / 颜色：常规配合、不变色词和复合颜色</h2><div class=\"table-scroll\"><table><thead><tr><th>阳性单数</th><th>阴性单数</th><th>复数例</th><th>注意</th></tr></thead><tbody><tr><td>noir</td><td>noire</td><td>des sacs noirs</td><td>黑色，常规配合。</td></tr><tr><td>blanc</td><td>blanche</td><td>des vestes blanches</td><td>白色，阴性有ch变化。</td></tr><tr><td>bleu</td><td>bleue</td><td>des yeux bleus</td><td>蓝色，加e/s。</td></tr><tr><td>vert</td><td>verte</td><td>des vestes vertes</td><td>绿色，常规配合。</td></tr><tr><td>gris</td><td>grise</td><td>des sacs gris / des vestes grises</td><td>灰色，阳性已有s，复数不再加。</td></tr><tr><td>rouge</td><td>rouge</td><td>des vestes rouges</td><td>红色，单数两性同形，复数加s。</td></tr><tr><td>jaune</td><td>jaune</td><td>des sacs jaunes</td><td>黄色，单数两性同形。</td></tr><tr><td>rose</td><td>rose</td><td>des vestes roses</td><td>粉色；虽源自名词，也常作为形容词配合。</td></tr><tr><td>violet</td><td>violette</td><td>des vestes violettes</td><td>紫色，阴性双t。</td></tr><tr><td>orange</td><td>orange</td><td>des sacs orange</td><td>橙色，名词来源色词通常不变。</td></tr><tr><td>marron</td><td>marron</td><td>des chaussures marron</td><td>棕色，通常不变，不机械加s。</td></tr><tr><td>bleu clair / vert foncé（拓展）</td><td>相同</td><td>des vestes bleu clair</td><td>两个词构成具体色调时通常整组不配合。</td></tr></tbody></table></div><h3>6.1 同形与不变不是同一概念</h3><p>rouge、jaune两性单数同形，但复数rouges、jaunes。orange、marron作通常颜色形容词时，性数均不变。rose是常用可配合色词，不因“来自玫瑰这个名词”就一律不变。</p><h3>6.2 人物与身体词的配合</h3><p>Il est blond / Elle est blonde描述人；les cheveux blonds中blonds修饰cheveux。les yeux bleus中bleus修饰yeux。棕色眼睛可说les yeux marron（不变色词），不要由人物女性自动改成marronne。</p><h3>6.3 颜色与款式分开记录</h3><p>un sac noir是颜色；grand/petit是大小；long/court是长度。描述人物时用给定的特征组合，不因穿某颜色就推断性格或职业。复合颜色留作查阅，核心先掌握常用单色配合。</p>"
+        },
+        {
+          "id": "possessives",
+          "title": "07 / 物主限定词全表：谁的、什么东西、有几件",
+          "html": "<h2>07 / 物主限定词全表：谁的、什么东西、有几件</h2><div class=\"table-scroll\"><table><thead><tr><th>拥有者</th><th>阳性单数名词</th><th>阴性单数名词</th><th>复数名词</th></tr></thead><tbody><tr><td>je</td><td>mon</td><td>ma</td><td>mes</td></tr><tr><td>tu</td><td>ton</td><td>ta</td><td>tes</td></tr><tr><td>il / elle</td><td>son</td><td>sa</td><td>ses</td></tr><tr><td>nous</td><td>notre</td><td>notre</td><td>nos</td></tr><tr><td>vous</td><td>votre</td><td>votre</td><td>vos</td></tr><tr><td>ils / elles</td><td>leur</td><td>leur</td><td>leurs</td></tr></tbody></table></div><h3>7.1 用三个问题选择</h3><p>①谁的？我→mon系列，她→son系列，他们→leur系列。②名词单复数？她的一件sac→son sac，几件→ses sacs。③单数时名词性别和开头音？ma veste，但元音开头阴性mon adresse。复数mes/tes/ses不区分所拥有名词男女。</p><h3>7.2 一个拥有者不代表物品单数</h3><p class=\"example\">Mei：son sac / ses sacs / ses lunettes。<br>Marco et Ana：leur sac（两人共同一个或按语境各自的一个）/ leurs sacs。<br>Nous：notre sac / nos sacs。</p><p>leur/leurs中的s看后面名词的数，不只是看拥有者有几人。一个人拥有几件衣物也用ses；多人拥有一个共同物品可用leur，不是“他们的必为leurs”。</p><h3>7.3 son与sa不说明拥有者男女</h3><p>她的包son sac，他的包也son sac；她的夹克sa veste，他的夹克也sa veste。归属谁要看语境或加名字。物主词与形容词都配合东西：son sac noir / sa veste noire，但两者选择步骤不同。</p><h3>7.4 不定冠词、物主词与否定分开</h3><p>Elle a <b>des</b> lunettes→Elle n’a pas <b>de</b> lunettes；Elle a <b>ses</b> lunettes→Elle n’a pas <b>ses</b> lunettes（特定的她的眼镜不在手上）。不要在所有否定后把mes/ses/vos改成de。</p>"
+        },
+        {
+          "id": "words",
+          "title": "08 / 外貌、衣物与描述词汇",
+          "html": "<h2>08 / 外貌、衣物与描述词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词典形式／词性</th><th>中文</th><th>完整例句</th></tr></thead><tbody><tr><td>les cheveux（m. pl.）</td><td>头发</td><td>Il a les cheveux courts.</td></tr><tr><td>un œil / les yeux（m.）</td><td>眼睛，复数不规则</td><td>Elle a les yeux verts.</td></tr><tr><td>les lunettes（f. pl.）</td><td>眼镜，通常复数</td><td>Il a des lunettes.</td></tr><tr><td>la barbe</td><td>胡子</td><td>Il a une barbe.</td></tr><tr><td>la moustache</td><td>小胡子</td><td>Il a une moustache.</td></tr><tr><td>le visage</td><td>脸</td><td>Son visage…（整体识别）</td></tr><tr><td>le sac</td><td>包</td><td>Ses sacs sont noirs.</td></tr><tr><td>la veste</td><td>夹克</td><td>Sa veste est blanche.</td></tr><tr><td>la chemise</td><td>衬衫</td><td>Sa chemise est bleue.</td></tr><tr><td>le pantalon</td><td>裤子，法语可单数</td><td>Son pantalon est noir.</td></tr><tr><td>les chaussures（f. pl.）</td><td>鞋</td><td>Ses chaussures sont marron.</td></tr><tr><td>grand / grande</td><td>高、大</td><td>Elle est grande.</td></tr><tr><td>petit / petite</td><td>矮、小</td><td>Il est petit.</td></tr><tr><td>long / longue</td><td>长</td><td>Les cheveux sont longs.</td></tr><tr><td>court / courte</td><td>短</td><td>Elle a les cheveux courts.</td></tr><tr><td>blond / blonde</td><td>金发的</td><td>Elle est blonde.</td></tr><tr><td>brun / brune</td><td>棕发的</td><td>Il est brun.</td></tr><tr><td>avec / sans（补充）</td><td>和／带着，没带／没有</td><td>avec lui / sans lunettes</td></tr><tr><td>moi / toi / lui / elle</td><td>重读代词</td><td>C’est lui.</td></tr><tr><td>mes / tes / ses</td><td>后面名词复数的物主词</td><td>mes lunettes</td></tr><tr><td>nos / vos / leurs</td><td>复数物主词</td><td>vos sacs</td></tr><tr><td>ne…pas</td><td>否定两部分</td><td>Il ne parle pas français.</td></tr></tbody></table></div><h3>8.1 三组常见混淆</h3><p><b>être blond / avoir les cheveux blonds：</b>一个修饰人，一个修饰cheveux。<b>pantalon / lunettes：</b>中文“裤子”“眼镜”都像复合物，但法语通常un pantalon、des lunettes。<b>avoir / être：</b>拥有或身体特征 vs 形容词描述／定位。</p><h3>8.2 词汇学习单位</h3><p>记la veste + sa veste noire，les yeux + les yeux bleus，les cheveux + les cheveux courts。既保留名词性数，也给一个真实语法搭配，比把每个颜色孤立翻译成中文更能用于描述。</p>"
+        },
+        {
+          "id": "phrases",
+          "title": "09 / 原创人物卡、辨认对话与四项任务",
+          "html": "<h2>09 / 原创人物卡、辨认对话与四项任务</h2><h3>9.1 三位虚构人物</h3><div class=\"table-scroll\"><table><thead><tr><th>人物</th><th>外貌与物品</th><th>位置</th></tr></thead><tbody><tr><td>Hugo</td><td>grand；cheveux courts et bruns；yeux bleus；des lunettes；un sac noir</td><td>devant la porte</td></tr><tr><td>Ana</td><td>grande；cheveux longs et blonds；yeux verts；pas de lunettes；une veste blanche</td><td>près de la fenêtre</td></tr><tr><td>Mei</td><td>petite；cheveux courts et noirs；yeux marron；des lunettes；un sac rouge</td><td>à côté d’Ana</td></tr></tbody></table></div><p class=\"example\">Hugo est grand. Il a les cheveux courts et les yeux bleus. Il a des lunettes. Son sac est noir. Ana est grande. Elle a les cheveux longs. Elle n’a pas de lunettes. Sa veste est blanche. Mei est à côté d’Ana. Elle a des lunettes et un sac rouge.</p><h3>9.2 从描述到辨认</h3><p class=\"example\">— C’est lui ?<br>— Non, ce n’est pas lui. La personne a les cheveux longs et elle n’a pas de lunettes.<br>— C’est Ana ?<br>— Oui, c’est elle. Elle est près de la fenêtre.<br>— Et les lunettes, ce sont ses lunettes ?<br>— Non, ce ne sont pas ses lunettes. Ana n’a pas de lunettes dans cette description.</p><p>personne语法上阴性，可用elle回指“这个人”，这里按给定线索是Ana。最后否定ses lunettes保留ses，与否定des lunettes→de不同。</p><h3>9.3 阅读与听力</h3><p>先记录每个人的头发、眼睛、衣物、眼镜和位置，再用已知特征排除；不知道的信息写未提及。听第6课时第一遍辨认人物数量，第二遍圈颜色和ne…pas，第三遍核对原文的性数、物主词和avoir，第四遍按角色跟读并用3—5句描述一位人物。</p><h3>9.4 输出</h3><p>写6—8句描述虚构人：一条être，一条avoir头发或眼睛，两条衣物/物品颜色，一条ne…pas，一条位置，最后C’est lui/elle。对话伙伴只按线索选择；写完标每个形容词修饰的名词，检查冠词与否定范围。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "10 / /z/连读、ont与sont及描述节奏",
+          "html": "<h2>10 / /z/连读、ont与sont及描述节奏</h2><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>常见读音线索</th><th>书写与作用</th></tr></thead><tbody><tr><td>nous avons</td><td>/nu.za.vɔ̃/</td><td>主语末s在元音前/z/。</td></tr><tr><td>vous avez</td><td>/vu.za.ve/</td><td>即使一位礼貌对象也保持。</td></tr><tr><td>ils ont</td><td>/il.zɔ̃/</td><td>avoir：/z/接鼻化元音。</td></tr><tr><td>ils sont</td><td>/il.sɔ̃/</td><td>être：sont自身/s/，不是/z/。</td></tr><tr><td>mes amis / ses amis</td><td>约/me.za.mi/、/se.za.mi/</td><td>物主词复数元音前/z/。</td></tr><tr><td>les yeux</td><td>约/le.zjø/</td><td>定冠词复数元音前/z/。</td></tr><tr><td>des sacs / ses sacs</td><td>sacs辅音开头，不加/z/</td><td>不要所有词组都硬连。</td></tr></tbody></table></div><h3>10.1 连读范围与词尾</h3><p>主语代词或限定词后接元音的常用组合，/z/帮助听辨。mes sacs的sacs以辅音开头，mes末s一般不独立读；grands、noirs的复数s也不因为看到复数就一律发/s/。听完整结构，不只凭一个字母。</p><h3>10.2 否定的声音</h3><p>Il n’a pas de lunettes. 中n’与a连接，pas末s通常不读。Ce n’est pas lui. 不在每个短词之间停顿。真实口语可能弱化或省ne，跟读教材给出的形式，书面练习仍保留完整否定。</p><h3>10.3 成对听辨</h3><p>Ils ont des sacs. / Ils sont près de la porte. 先只标“有／在”，再核对/z/与/s/。对照录音后写正确动词，不能把ont/sont当一组同音词。</p><h3>10.4 意义组朗读</h3><p class=\"example\">Il a les cheveux COURTS / et les yeux BLEUS / il n’a pas de luNETTES.</p><p>每组末音节自然突出，否定和颜色信息清楚；不因追求语速吞掉pas。录一遍描述，找一处具体配合或连读问题再录第二遍。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "11 / 十组练习与逐项解析",
+          "html": "<h2>11 / 十组练习与逐项解析</h2><p>先独立作答；答案解释配合对象或否定结构。所有人物题按第09节原创卡，不由照片或现实人物猜测。</p><h3>A. avoir与否定</h3><ol><li>Nous ___ des sacs.</li><li>Vous ___ des lunettes ?</li><li>Ils ___ un sac.</li><li>Il a un sac. 改否定。</li><li>Elle a des lunettes. 改否定。</li><li>Il y a une lampe. 改否定。</li><li>C’est une veste. 改否定。</li><li>J’aime le cinéma. 改否定。</li></ol><details><summary>展开答案与解析</summary><ol><li>avons。</li><li>avez。</li><li>ont，不是sont。</li><li>Il n’a pas de sac. un→de。</li><li>Elle n’a pas de lunettes. des→de。</li><li>Il n’y a pas de lampe. 固定结构。</li><li>Ce n’est pas une veste. être后保留une。</li><li>Je n’aime pas le cinéma. 定冠词保留。</li></ol></details><h3>B. 形容词性数配合</h3><ol><li>un sac noir → des sacs…</li><li>une veste blanc…</li><li>des vestes vert…</li><li>Elle est petit…</li><li>les cheveux long…</li><li>les yeux bleu…</li><li>des chaussures marron…</li><li>des vestes orange…</li></ol><details><summary>展开答案与解析</summary><ol><li>noirs，阳性复数。</li><li>blanche，阴性变化。</li><li>vertes，阴性复数。</li><li>petite，配合elle。</li><li>longs，修饰cheveux阳性复数。</li><li>bleus，修饰yeux。</li><li>marron，通常颜色词不变。</li><li>orange，通常不变。</li></ol></details><h3>C. 词义与搭配</h3><ol><li>un œil的常用复数</li><li>lunettes的常用性数</li><li>pantalon通常可用单数吗？</li><li>être blonde与cheveux blonds分别修饰谁？</li><li>rouge与marron的复数行为区别</li><li>“她的包”用son sac还是sa sac？</li></ol><details><summary>展开答案与解析</summary><ol><li>les yeux，阳性复数。</li><li>阴性复数；des lunettes。</li><li>可：un pantalon，不仿中文自动复数。</li><li>人物女性／头发阳性复数。</li><li>rouge→rouges；marron通常不变。</li><li>son sac，按sac阳性，不按拥有者女性。</li></ol></details><h3>D. 重读代词与物主词</h3><ol><li>C’est ___（他）。</li><li>Et ___（你，tu）？</li><li>avec ___（我）。</li><li>她的多个包：___ sacs。</li><li>我们的包（多个）：___ sacs。</li><li>他们共同一个包：___ sac。</li><li>他们的多个包：___ sacs。</li><li>___, il a un sac.（突出他）</li></ol><details><summary>展开答案与解析</summary><ol><li>lui，c’est后重读形式。</li><li>toi。</li><li>moi，介词后重读。</li><li>ses，名词复数。</li><li>nos。</li><li>leur，后面单数。</li><li>leurs，后面复数。</li><li>Lui；普通主语il仍保留。</li></ol></details><h3>E. 根据回答提问</h3><ol><li>Oui, il a des lunettes.</li><li>Non, ce n’est pas lui.</li><li>Son sac est noir.</li><li>Elle est près de la fenêtre.</li><li>Oui, ce sont mes lunettes.</li><li>Nous avons deux sacs.（确认两个）</li></ol><details><summary>展开答案与解析</summary><ol><li>Il a des lunettes ?</li><li>C’est lui ?</li><li>Son sac est de quelle couleur ?（颜色整体问法补充）</li><li>Elle est où ?</li><li>Ce sont vos lunettes ?</li><li>Vous avez deux sacs ?</li></ol></details><h3>F. 中译法</h3><ol><li>她的头发短。</li><li>他没有眼镜。</li><li>这不是他。</li><li>她的夹克白色。</li><li>我们的包是黑色（多个）。</li><li>他的鞋是棕色。</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a les cheveux courts. courts修饰cheveux。</li><li>Il n’a pas de lunettes.</li><li>Ce n’est pas lui. 重读代词。</li><li>Sa veste est blanche.</li><li>Nos sacs sont noirs.</li><li>Ses chaussures sont marron. 色词不变。</li></ol></details><h3>G. 阅读第09节人物卡</h3><ol><li>谁没眼镜？</li><li>谁有红包？</li><li>谁在门前？</li><li>Ana头发长短？</li><li>Hugo眼睛颜色？</li><li>Mei眼睛颜色是否写marrons？</li><li>人物卡能否确定Hugo职业？</li></ol><details><summary>展开答案与解析</summary><ol><li>Ana；Elle n’a pas de lunettes。</li><li>Mei，son sac est rouge。</li><li>Hugo，devant la porte。</li><li>Longs，修饰cheveux。</li><li>Bleus。</li><li>marron，不变色词。</li><li>不能，未提及。</li></ol></details><h3>H. /z/与描述读音</h3><ol><li>ils ont常见衔接辅音</li><li>ils sont是否同样为/z/？</li><li>vous avez常见连读</li><li>ses sacs是否在ses后加/z/？</li><li>mes amis是否有/z/？</li><li>pas末s在Il n’a pas de…中通常读吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>/z/，/il.zɔ̃/。</li><li>不，sont自身/s/，整组/il.sɔ̃/。</li><li>/z/，/vu.za.ve/。</li><li>一般不，sacs辅音开头。</li><li>有，/me.za.mi/。</li><li>通常不独立读。</li></ol></details><h3>I. 改错并解释</h3><ol><li>Lui a un sac.（普通主语句）</li><li>Elle a les cheveux longues.</li><li>Il n’est pas de grand.</li><li>Ce n’est pas de sac.（想说不是一个包）</li><li>Elle n’a pas des lunettes.（普通无眼镜描述）</li><li>Ils ont leurs sac.（共同一个包）</li><li>Ses chaussures sont marrons.</li><li>Je n’ai pas mon lunettes.（我的眼镜不在）</li></ol><details><summary>展开答案与解析</summary><ol><li>Il a un sac. 或Lui, il a un sac。</li><li>Elle a les cheveux longs. 按cheveux配合。</li><li>Il n’est pas grand. 形容词前不因否定加de。</li><li>Ce n’est pas un sac. être后保留不定冠词。</li><li>Elle n’a pas de lunettes. 普通否定des→de。</li><li>Ils ont leur sac. 后面名词单数。</li><li>Ses chaussures sont marron. 通常色词不变。</li><li>Je n’ai pas mes lunettes. 物主词跟lunettes复数，否定不换de。</li></ol></details><h3>J. 描述、辨认、写作与听力自查</h3><ol><li>写6—8句描述Hugo或虚构人物，含être、avoir、颜色、归属、否定、位置。</li><li>两人根据至少三条人物线索辨认，含C’est lui/elle及一次否定。</li><li>把一人一包改成多人多个包，说明至少三处变化。</li><li>听第6课，标ont/sont、颜色和否定，录音改一处/z/。</li></ol><details><summary>展开答案与解析</summary><ol><li>示范：Hugo est grand. Il a les cheveux courts. Il a les yeux bleus. Son sac est noir. Il a des lunettes. Il n’a pas de veste blanche. Il est devant la porte. 自查每个形容词修饰对象。</li><li>C’est lui ?—Non, ce n’est pas lui. La personne a les cheveux longs et elle n’a pas de lunettes.—C’est Ana ?—Oui, c’est elle. 线索只来自卡片。</li><li>Il a son sac noir→Ils ont leurs sacs noirs。代词il→ils、a→ont、son→leurs、sac→sacs、noir→noirs；具体拥有关系按设定。</li><li>记录真实听到的证据，例如ils ont的/z/；书写仍完整ne…pas。开放任务按自己录音核对，不复制模板当实际记录。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "12 / 易错点、复习清单与速记卡",
+          "html": "<h2>12 / 易错点、复习清单与速记卡</h2><div class=\"table-scroll\"><table><thead><tr><th>误解</th><th>修正与原因</th></tr></thead><tbody><tr><td>所有否定冠词都变de</td><td>不定冠词常变de；定冠词、物主词和être后的不定冠词通常保留。</td></tr><tr><td>lui可直接作动词主语</td><td>普通句il a；突出对比Lui, il a。</td></tr><tr><td>她的东西都用sa</td><td>看后面名词：son sac，sa veste，ses sacs。</td></tr><tr><td>他们的所有东西都用leurs</td><td>看物品数：leur sac / leurs sacs。</td></tr><tr><td>人物女性所以cheveux要longues</td><td>longs修饰阳性复数cheveux。</td></tr><tr><td>所有颜色都加e/s</td><td>marron/orange常不变；rose常配合。</td></tr><tr><td>ont/sont同音</td><td>ils ont/z/、ils sont/s/。</td></tr><tr><td>les lunettes必须是多副才复数</td><td>一副眼镜也通常des lunettes。</td></tr><tr><td>j’可以放ne前</td><td>Je n’ai pas…，je在ne辅音前不省音。</td></tr><tr><td>pas使形容词不用配合</td><td>Elle n’est pas grande，配合仍在。</td></tr></tbody></table></div><ul><li>能默写nous avons、vous avez、ils ont，区分être。</li><li>能用moi、toi、lui、elle、vous完成独立回应、介词与对比。</li><li>能用ne…pas并解释冠词保留或变de的原因。</li><li>能给sac、veste、cheveux、yeux各自配正确形容词。</li><li>能正确用noir/blanc/bleu/vert和marron/orange等例外。</li><li>能按拥有者与物品性数选mes/tes/ses/nos/vos/leurs。</li><li>能描述和排除人物，不推断未知信息。</li></ul><div class=\"example\"><b>一分钟速记</b><br>avoir：nous avons / vous avez / ils ont。<br>重读：C’est lui / avec moi / Et toi / Lui, il a…。<br>否定：Il n’a pas de sac；Ce n’est pas un sac；Je n’aime pas le cinéma。<br>特征：elle a les cheveux longs；il a les yeux bleus。<br>颜色：veste blanche、sacs noirs、chaussures marron、sacs orange。<br>物主：son sac / ses sacs；leur sac / leurs sacs。<br>听辨：ils ont /il.zɔ̃/；ils sont /il.sɔ̃/。</div><h3>资料与复习</h3><p>当天A—D，隔天I，三天后换人物做E、F、J。核心按<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">出版方目录</a>；可查德州大学<a href=\"https://www.laits.utexas.edu/tex/gr/det6.html\" target=\"_blank\" rel=\"noopener noreferrer\">物主限定词</a>及<a href=\"https://www.laits.utexas.edu/tex/gr/det3.html\" target=\"_blank\" rel=\"noopener noreferrer\">身体特征冠词</a>。例句人物卡练习原创，音频从出版方访问。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "question": "Nous ___ des sacs.",
+          "options": [
+            "avons",
+            "avez",
+            "ont"
+          ],
+          "answer": 0,
+          "explanation": "nous的avoir为avons。",
+          "group": "grammar",
+          "id": "l06-q01"
+        },
+        {
+          "question": "Vous ___ des lunettes ?",
+          "options": [
+            "avons",
+            "avez",
+            "ont"
+          ],
+          "answer": 1,
+          "explanation": "vous使用avez。",
+          "group": "grammar",
+          "id": "l06-q02"
+        },
+        {
+          "question": "Ils ___ un sac.（有）",
+          "options": [
+            "sont",
+            "avons",
+            "ont"
+          ],
+          "answer": 2,
+          "explanation": "avoir为ont；sont是être。",
+          "group": "grammar",
+          "id": "l06-q03"
+        },
+        {
+          "question": "普通“他没包”应说？",
+          "options": [
+            "Il n’a pas de sac.",
+            "Il n’a pas un sac.（无特别对比）",
+            "Il pas a sac."
+          ],
+          "answer": 0,
+          "explanation": "普通否定拥有，不定冠词un变de。",
+          "group": "grammar",
+          "id": "l06-q04"
+        },
+        {
+          "question": "“这不是一件夹克”应说？",
+          "options": [
+            "Ce n’est pas de veste.",
+            "Ce n’est pas une veste.",
+            "Ce pas veste est."
+          ],
+          "answer": 1,
+          "explanation": "être后不定冠词une通常保留。",
+          "group": "grammar",
+          "id": "l06-q05"
+        },
+        {
+          "question": "否定J’aime le cinéma，应写？",
+          "options": [
+            "J’n’aime pas de cinéma.",
+            "Je n’aime pas de cinéma.",
+            "Je n’aime pas le cinéma."
+          ],
+          "answer": 2,
+          "explanation": "定冠词保留；主语je在ne前不省音。",
+          "group": "grammar",
+          "id": "l06-q06"
+        },
+        {
+          "question": "C’est ___（他）。",
+          "options": [
+            "lui",
+            "il",
+            "son"
+          ],
+          "answer": 0,
+          "explanation": "c’est后用重读代词lui。",
+          "group": "grammar",
+          "id": "l06-q07"
+        },
+        {
+          "question": "“你呢？”tu关系应说？",
+          "options": [
+            "Et tu ?",
+            "Et toi ?",
+            "Et ton ?"
+          ],
+          "answer": 1,
+          "explanation": "独立反问用toi。",
+          "group": "speaking",
+          "id": "l06-q08"
+        },
+        {
+          "question": "“和我”应说？",
+          "options": [
+            "avec je",
+            "avec mon",
+            "avec moi"
+          ],
+          "answer": 2,
+          "explanation": "介词后重读moi。",
+          "group": "grammar",
+          "id": "l06-q09"
+        },
+        {
+          "question": "“他有一个包”的普通主语句？",
+          "options": [
+            "Il a un sac.",
+            "Lui a un sac.",
+            "Lui ont un sac."
+          ],
+          "answer": 0,
+          "explanation": "普通动词前用il；对比可Lui, il a。",
+          "group": "grammar",
+          "id": "l06-q10"
+        },
+        {
+          "question": "Elle a les cheveux ___.（长）",
+          "options": [
+            "longues",
+            "longs",
+            "longue"
+          ],
+          "answer": 1,
+          "explanation": "longs修饰阳性复数cheveux，不看人物女性。",
+          "group": "grammar",
+          "id": "l06-q11"
+        },
+        {
+          "question": "Sa veste est ___.（白）",
+          "options": [
+            "blanc",
+            "blancs",
+            "blanche"
+          ],
+          "answer": 2,
+          "explanation": "veste阴性单数，blanche。",
+          "group": "grammar",
+          "id": "l06-q12"
+        },
+        {
+          "question": "Des sacs ___（黑）。",
+          "options": [
+            "noirs",
+            "noires",
+            "noire"
+          ],
+          "answer": 0,
+          "explanation": "sacs阳性复数，noirs。",
+          "group": "grammar",
+          "id": "l06-q13"
+        },
+        {
+          "question": "Des chaussures ___（棕）。",
+          "options": [
+            "marrons",
+            "marron",
+            "marronne"
+          ],
+          "answer": 1,
+          "explanation": "marron常作不变颜色词。",
+          "group": "grammar",
+          "id": "l06-q14"
+        },
+        {
+          "question": "Des vestes ___（橙）。",
+          "options": [
+            "oranges",
+            "orangées（另一词义）",
+            "orange"
+          ],
+          "answer": 2,
+          "explanation": "通常颜色orange不按性数配合。",
+          "group": "grammar",
+          "id": "l06-q15"
+        },
+        {
+          "question": "Des vestes ___（粉）。",
+          "options": [
+            "roses",
+            "rose，绝不变",
+            "ros"
+          ],
+          "answer": 0,
+          "explanation": "rose是常见可配合色词，阴性复数roses。",
+          "group": "grammar",
+          "id": "l06-q16"
+        },
+        {
+          "question": "“她的多个包”是？",
+          "options": [
+            "sa sacs",
+            "ses sacs",
+            "son sacs"
+          ],
+          "answer": 1,
+          "explanation": "后面复数名词用ses，不区分名词性别。",
+          "group": "grammar",
+          "id": "l06-q17"
+        },
+        {
+          "question": "“他们共同一个包”是？",
+          "options": [
+            "leurs sac",
+            "ses sac",
+            "leur sac"
+          ],
+          "answer": 2,
+          "explanation": "leur系列由拥有者决定，名词单数选leur。",
+          "group": "grammar",
+          "id": "l06-q18"
+        },
+        {
+          "question": "“我们的多个包”是？",
+          "options": [
+            "nos sacs",
+            "notre sacs",
+            "leurs sacs"
+          ],
+          "answer": 0,
+          "explanation": "我们→notre系列，复数物品用nos。",
+          "group": "grammar",
+          "id": "l06-q19"
+        },
+        {
+          "question": "son sac能证明拥有者男性吗？",
+          "options": [
+            "能",
+            "不能，son配合sac",
+            "能，由颜色证明"
+          ],
+          "answer": 1,
+          "explanation": "拥有者男女由语境，名词sac阳性决定son。",
+          "group": "grammar",
+          "id": "l06-q20"
+        },
+        {
+          "question": "un œil的常见复数是？",
+          "options": [
+            "œils",
+            "œiles",
+            "yeux"
+          ],
+          "answer": 2,
+          "explanation": "眼睛复数yeux要整体记。",
+          "group": "vocabulary",
+          "id": "l06-q21"
+        },
+        {
+          "question": "一副眼镜常用？",
+          "options": [
+            "des lunettes",
+            "une lunettes",
+            "un lunettes"
+          ],
+          "answer": 0,
+          "explanation": "lunettes通常为阴性复数。",
+          "group": "vocabulary",
+          "id": "l06-q22"
+        },
+        {
+          "question": "ils ont常见衔接辅音？",
+          "options": [
+            "/s/",
+            "/z/",
+            "/t/"
+          ],
+          "answer": 1,
+          "explanation": "主语末s在元音前连读/z/。",
+          "group": "pronunciation",
+          "id": "l06-q23"
+        },
+        {
+          "question": "ils sont的关键辅音是？",
+          "options": [
+            "/z/",
+            "与ils ont完全同音",
+            "/s/"
+          ],
+          "answer": 2,
+          "explanation": "sont自身/s/，与ont区别。",
+          "group": "pronunciation",
+          "id": "l06-q24"
+        },
+        {
+          "question": "mes amis常见连读是？",
+          "options": [
+            "/z/",
+            "/s/",
+            "/t/"
+          ],
+          "answer": 0,
+          "explanation": "物主限定词元音前/z/。",
+          "group": "pronunciation",
+          "id": "l06-q25"
+        },
+        {
+          "question": "ses sacs是否在ses后加/z/？",
+          "options": [
+            "始终加",
+            "一般不，后接辅音",
+            "必须加/t/"
+          ],
+          "answer": 1,
+          "explanation": "sacs以辅音开头，不能任意连读。",
+          "group": "pronunciation",
+          "id": "l06-q26"
+        },
+        {
+          "question": "第09节谁没有眼镜？",
+          "options": [
+            "Hugo",
+            "Mei",
+            "Ana"
+          ],
+          "answer": 2,
+          "explanation": "Ana的卡和正文明确pas de lunettes。",
+          "group": "reading",
+          "id": "l06-q27"
+        },
+        {
+          "question": "第09节谁有红包？",
+          "options": [
+            "Mei",
+            "Hugo",
+            "Ana"
+          ],
+          "answer": 0,
+          "explanation": "Mei的包rouge；Hugo包noir。",
+          "group": "reading",
+          "id": "l06-q28"
+        },
+        {
+          "question": "人物卡能确定Hugo职业吗？",
+          "options": [
+            "能，由眼镜判断",
+            "不能，未提及",
+            "能，由身高判断"
+          ],
+          "answer": 1,
+          "explanation": "描述不提供职业，不能推断。",
+          "group": "reading",
+          "id": "l06-q29"
+        },
+        {
+          "question": "“她的眼镜不在手上”，否定ses lunettes应保留？",
+          "options": [
+            "de，所有否定如此",
+            "sa，人物女性",
+            "ses，物主词不自动换de"
+          ],
+          "answer": 2,
+          "explanation": "否定特定物品仍用复数ses，区别des→de。",
+          "group": "grammar",
+          "id": "l06-q30"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "avoir",
+          "tonic",
+          "negative",
+          "agreement",
+          "possessives",
+          "review"
+        ],
+        "vocabulary": [
+          "colors",
+          "words"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "phrases"
+        ],
+        "speaking": [
+          "tonic",
+          "phrases"
+        ],
+        "writing": [
+          "agreement",
+          "phrases",
+          "review"
+        ]
+      },
+      "listening": "听第6课：第一遍按人物列线索；第二遍记录头发、眼睛、衣物颜色、眼镜和否定；第三遍核对avoir、形容词配合、物主词与ne…pas；第四遍重点跟读/z/与ils ont/ils sont，再描述一位人物。未知国籍或职业不猜。"
+    },
+    {
+      "number": 7,
+      "title": "Shopping",
+      "translation": "购物",
+      "pages": "28–29",
+      "core": [
+        "指示限定词 ce / cet / cette / ces",
+        "quel 与疑问表达",
+        "comment / combien",
+        "衣物与价格",
+        "喜好",
+        "词间衔接"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标 / 从指物到购物",
+          "html": "<h2>1. 学习目标 / 从指物到购物</h2><p>本课对应 <strong>Shopping，第28—29页</strong>。教材核心是指示形容词、疑问形容词、comment / combien、描述物品和购物表达，以及词语之间的语音衔接。第5课的物品复数、第6课的颜色和配合在这里继续使用。</p><ol><li>准确选择 ce / cet / cette / ces，指出一件或几件商品。</li><li>用 quel / quelle / quels / quelles 询问颜色、尺码或价格。</li><li>区分“怎么样”“多少钱”“多少件”，能提问并回答。</li><li>读懂简单价签，描述商品颜色、大小，表达喜好。</li><li>完成至少8次发言的购物对话，说明所指商品，问价，再作选择。</li></ol><p>学习顺序：指示词 → 疑问词 → 问句功能 → 价格 → 描述 → 词汇 → 场景 → 语音 → 纠错 → 练习。所有商店、价格和对话均为本站原创的学习情境，不是实际商品报价。-ci / -là、材质、cher作副词及礼貌句 Je voudrais… 属于明确标注的补充。</p>"
+        },
+        {
+          "id": "demonstratives",
+          "title": "2. 指示词 / ce、cet、cette、ces",
+          "html": "<h2>2. 指示词 / ce、cet、cette、ces</h2><div class=\"table-scroll\"><table><thead><tr><th>所修饰名词</th><th>形式</th><th>例子</th><th>判断理由</th></tr></thead><tbody><tr><td>阳性单数，辅音起首</td><td>ce</td><td>ce sac / ce manteau</td><td>sac、manteau均为阳性单数</td></tr><tr><td>阳性单数，元音或哑音h起首</td><td>cet</td><td>cet article / cet homme</td><td>article、homme均为阳性单数，便于衔接</td></tr><tr><td>阴性单数，不论起首</td><td>cette</td><td>cette veste / cette écharpe / cette amie</td><td>先看阴性，不因元音改为cet</td></tr><tr><td>复数，不分阴阳</td><td>ces</td><td>ces sacs / ces robes / ces articles</td><td>先看复数，不使用cets或cettes</td></tr></tbody></table></div><p><strong>先数、再性、最后起首声音。</strong>复数一律 ces；单数阴性一律 cette；只在阳性单数内部区分 ce 与 cet。ce / cette 并不跟说话者的性别变化：男女顾客都说 cette veste。</p><p>指示词通常占据冠词的位置：<strong>ce sac</strong>，不说 ce le sac、un ce sac。它可指“这”也可指“那”，具体靠现场和语境判断，不是 ce 近、cet 远。</p><p>补充：<strong>ce sac-ci / ce sac-là</strong>可明确区分这个包／那个包，-ci、-là接在名词后；复数 ces sacs-là 仍由 ces 表示复数。h需要查词典类别：cet homme 是哑音h；ce héros 是嘘音h，阻止衔接。不要把所有写h的词都改成cet。</p><p>对照：<strong>ces chaussures</strong>＝这些鞋；<strong>ses chaussures</strong>＝他／她的鞋。ces 和 ses 通常同音 /se/，书写必须看意义。</p>"
+        },
+        {
+          "id": "quel",
+          "title": "3. 疑问形容词 / quel的四种形式",
+          "html": "<h2>3. 疑问形容词 / quel的四种形式</h2><div class=\"table-scroll\"><table><thead><tr><th>名词特征</th><th>形式</th><th>问句</th><th>回答</th></tr></thead><tbody><tr><td>阳性单数</td><td>quel</td><td>Quel sac ?</td><td>Ce sac noir.</td></tr><tr><td>阴性单数</td><td>quelle</td><td>Quelle couleur ?</td><td>Bleu.</td></tr><tr><td>阳性复数</td><td>quels</td><td>Quels articles ?</td><td>Ces deux sacs.</td></tr><tr><td>阴性复数</td><td>quelles</td><td>Quelles chaussures ?</td><td>Ces chaussures noires.</td></tr></tbody></table></div><p>quel相当于“什么／哪一个”，必须与所询问的<strong>名词</strong>配合。顾客是女性，不会使 prix 变成 quelle：<strong>Quel est le prix de cette robe ?</strong>里 prix 阳性单数，所以 quel est；即使问一双复数 chaussures 的总价，也是 Quel est le prix de ces chaussures ?</p><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>例句</th><th>分析</th></tr></thead><tbody><tr><td>quel + 名词</td><td>Quelle taille ?</td><td>taille阴性单数，问尺码</td></tr><tr><td>quel + être + 名词</td><td>Quelle est la couleur de ce pull ?</td><td>couleur阴性单数，être用est</td></tr><tr><td>复数名词对应sont</td><td>Quelles sont les couleurs de ces robes ?</td><td>couleurs阴性复数，对应quelles sont</td></tr></tbody></table></div><p>常见固定搭配：quel prix、quelle taille、quelle couleur、quels vêtements、quelles chaussures。quel / quelle / quels / quelles单独常读 /kɛl/，拼写差别需要从名词判断；后接元音时复数形式可出现 /z/ 连读，如 quels articles。</p>"
+        },
+        {
+          "id": "questions",
+          "title": "4. 问句功能 / comment、combien、combien de",
+          "html": "<h2>4. 问句功能 / comment、combien、combien de</h2><div class=\"table-scroll\"><table><thead><tr><th>想获取的信息</th><th>问题</th><th>自然回答</th><th>不要混淆</th></tr></thead><tbody><tr><td>样子、特点</td><td>Cette veste, elle est comment ?</td><td>Elle est courte et rouge.</td><td>不是问多少钱</td></tr><tr><td>价钱</td><td>Combien coûte cette veste ?</td><td>Elle coûte vingt-quatre euros cinquante.</td><td>金额回答</td></tr><tr><td>口语问价</td><td>Ça coûte combien ? / C’est combien ?</td><td>C’est vingt-quatre euros cinquante.</td><td>须有明确商品语境</td></tr><tr><td>数量</td><td>Combien de sacs est-ce qu’il y a ?</td><td>Il y a deux sacs.</td><td>combien de + 名词，de不变</td></tr><tr><td>颜色</td><td>Quelle est la couleur de ce pull ?</td><td>Il est bleu.</td><td>couleur决定quelle</td></tr><tr><td>尺码</td><td>Quelle taille ?</td><td>Taille M.</td><td>服装标签可见的尺码</td></tr><tr><td>位置（复习）</td><td>Où sont ces chaussures ?</td><td>Elles sont sous la table.</td><td>où问地点</td></tr></tbody></table></div><p>口语中疑问词可留在句末：<strong>Cette robe coûte combien ?</strong>也可放前面：<strong>Combien coûte cette robe ?</strong>。先掌握完整、清楚的问题，再根据对话使用短问句。combien de直接接名词：combien de robes，不说 combien des robes；“你有多少件外套？”可说 Combien de vestes est-ce que tu as ?</p><p>对话接续：问“Elle est comment ?”时，Elle est noire 回答外观；问“Elle coûte combien ?”时，Elle coûte trente euros 回答价钱。听到数字不一定是价格，数量问题回答数量，尺码问题回答标签尺码。</p>"
+        },
+        {
+          "id": "prices",
+          "title": "5. 价格表达 / coûter变位与欧元读法",
+          "html": "<h2>5. 价格表达 / coûter变位与欧元读法</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>coûter现在时</th><th>例句</th></tr></thead><tbody><tr><td>je</td><td>coûte</td><td>Je coûte…形式可变位，但本课通常以商品作主语。</td></tr><tr><td>tu</td><td>coûtes</td><td>tu coûtes</td></tr><tr><td>il / elle / ça</td><td>coûte</td><td>Cette veste coûte vingt euros.</td></tr><tr><td>nous</td><td>coûtons</td><td>nous coûtons</td></tr><tr><td>vous</td><td>coûtez</td><td>vous coûtez</td></tr><tr><td>ils / elles</td><td>coûtent</td><td>Ces chaussures coûtent trente euros.</td></tr></tbody></table></div><p>coûter是规则-er动词。商品单数用 coûte，复数用 coûtent；词尾-e / -es / -ent在这些形式中通常不发音。名词与代词一致：<strong>Ce pull coûte vingt euros. Il coûte vingt euros.</strong>；<strong>Ces chaussures coûtent trente euros. Elles coûtent trente euros.</strong>不要按“一个价格”把复数商品的动词改为单数。</p><div class=\"table-scroll\"><table><thead><tr><th>价签</th><th>常见读法</th><th>中文</th></tr></thead><tbody><tr><td>1 €</td><td>un euro</td><td>一欧元</td></tr><tr><td>20 €</td><td>vingt euros</td><td>二十欧元</td></tr><tr><td>24,50 €</td><td>vingt-quatre euros cinquante</td><td>二十四欧元五十欧分</td></tr><tr><td>30,90 €</td><td>trente euros quatre-vingt-dix</td><td>三十欧元九十欧分</td></tr><tr><td>8,05 €</td><td>huit euros cinq centimes</td><td>八欧元五欧分</td></tr></tbody></table></div><p>法语书面价签常用逗号分隔小数部分。24,50 €里的50是欧分，不能读成二十四欧元五欧分。也可完整说 vingt-quatre euros et cinquante centimes。euro为阳性名词，复数写euros；un euro，deux euros。数字衔接按具体数字学习：deux euros有 /z/，vingt euros通常有 /t/；不要把所有末尾辅音都读出来。</p><p>数词复习：vingt et un、vingt-deux、trente、quarante、cinquante、soixante。价格任务优先掌握1—69及常见欧分；更大数字系统后续再学。追问可说 Pardon, combien ? 或 Vous pouvez répéter, s’il vous plaît ?，后一句按整块表达使用。</p>"
+        },
+        {
+          "id": "description",
+          "title": "6. 描述与选择 / 配合、喜好、材质",
+          "html": "<h2>6. 描述与选择 / 配合、喜好、材质</h2><div class=\"table-scroll\"><table><thead><tr><th>用途</th><th>表达</th><th>中文与要点</th></tr></thead><tbody><tr><td>介绍特点</td><td>Ce sac est petit et noir.</td><td>petit、noir与sac阳性单数配合</td></tr><tr><td>阴性特点</td><td>Cette veste est petite et noire.</td><td>两个形容词都配合</td></tr><tr><td>复数特点</td><td>Ces robes sont longues et bleues.</td><td>两项都阴性复数</td></tr><tr><td>价格评价</td><td>Cette robe est chère. / Ces sacs sont chers.</td><td>cher / chère / chers / chères与主语配合</td></tr><tr><td>喜欢</td><td>J’aime ce pull. / J’aime bien cette couleur.</td><td>aimer + 所选物品；不加à</td></tr><tr><td>不喜欢</td><td>Je n’aime pas ces chaussures.</td><td>否定围绕aime，指示词ces保留</td></tr><tr><td>选择</td><td>Je prends ce sac.</td><td>本课作为购物短语掌握“我选这个包”</td></tr><tr><td>补充：材质</td><td>un pull en laine / un sac en cuir</td><td>羊毛毛衣／皮包，en后的材质这里不加冠词</td></tr><tr><td>补充：试穿</td><td>Je voudrais essayer cette veste, s’il vous plaît.</td><td>礼貌请求整块掌握，条件式稍后系统学习</td></tr></tbody></table></div><p>aimer现在时复习：j’aime、tu aimes、il/elle aime、nous aimons、vous aimez、ils/elles aiment。Je n’aime pas cette robe 与 Je n’ai pas de robe 结构不同：前者“不喜欢这条裙子”，cette不变；后者“没有裙子”，不定冠词通常改de。</p><p>补充辨析：<strong>Ces sacs sont chers</strong>中chers是形容词，配合sacs；<strong>Ces sacs coûtent cher</strong>中cher修饰coûter，是副词，不随sacs加s。前者是本课优先结构。不要把“便宜”硬译成petit：可说 Ce sac n’est pas cher。体型、尺寸、价格是不同信息。</p>"
+        },
+        {
+          "id": "words",
+          "title": "7. 词汇表 / 商品、价签与搭配",
+          "html": "<h2>7. 词汇表 / 商品、价签与搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>单数与阴阳性</th><th>复数</th><th>中文</th><th>整句使用</th></tr></thead><tbody><tr><td>un vêtement</td><td>des vêtements</td><td>衣服，类别总称</td><td>Ces vêtements sont bleus.</td></tr><tr><td>un pantalon</td><td>des pantalons</td><td>长裤，单条也用单数</td><td>Ce pantalon est noir.</td></tr><tr><td>un jean</td><td>des jeans</td><td>牛仔裤</td><td>Ce jean coûte trente euros.</td></tr><tr><td>une robe</td><td>des robes</td><td>连衣裙</td><td>Cette robe est longue.</td></tr><tr><td>une jupe</td><td>des jupes</td><td>半身裙</td><td>Cette jupe est courte.</td></tr><tr><td>une chemise</td><td>des chemises</td><td>衬衫</td><td>Cette chemise est blanche.</td></tr><tr><td>un pull</td><td>des pulls</td><td>套头毛衣</td><td>Ce pull est bleu.</td></tr><tr><td>un tee-shirt</td><td>des tee-shirts</td><td>T恤</td><td>Ce tee-shirt est rouge.</td></tr><tr><td>une veste</td><td>des vestes</td><td>外套、夹克</td><td>Cette veste est petite.</td></tr><tr><td>un manteau</td><td>des manteaux</td><td>大衣，复数-eaux</td><td>Ce manteau est gris.</td></tr><tr><td>une chaussure</td><td>des chaussures</td><td>一只鞋／鞋</td><td>Ces chaussures sont noires.</td></tr><tr><td>une écharpe</td><td>des écharpes</td><td>围巾，阴性元音仍cette</td><td>Cette écharpe est verte.</td></tr><tr><td>un chapeau</td><td>des chapeaux</td><td>帽子</td><td>Ce chapeau est marron.</td></tr><tr><td>un sac</td><td>des sacs</td><td>包</td><td>Ce sac est cher.</td></tr><tr><td>un article</td><td>des articles</td><td>商品、物品</td><td>Cet article coûte dix euros.</td></tr><tr><td>une couleur</td><td>des couleurs</td><td>颜色</td><td>Quelle couleur ?</td></tr><tr><td>une taille</td><td>des tailles</td><td>尺码、尺寸</td><td>Quelle taille ? Taille M.</td></tr><tr><td>un prix</td><td>des prix</td><td>价格，x结尾复数不变</td><td>Quel est le prix de ce sac ?</td></tr><tr><td>un euro</td><td>des euros</td><td>欧元</td><td>Deux euros.</td></tr><tr><td>un centime</td><td>des centimes</td><td>分，本情境为欧分</td><td>Cinq centimes.</td></tr><tr><td>la laine</td><td>—</td><td>羊毛（补充）</td><td>Ce pull est en laine.</td></tr><tr><td>le cuir</td><td>—</td><td>皮革（补充）</td><td>Ce sac est en cuir.</td></tr></tbody></table></div><p>记忆方法：一起记“限定词＋名词＋形容词”，如 une veste noire → cette veste noire → ces vestes noires。chaussures常以复数出现，但une chaussure确实可指一只鞋。pantalon、jean不因有两条裤腿就强制复数。</p>"
+        },
+        {
+          "id": "phrases",
+          "title": "8. 原创购物场景 / 价签、阅读与输出",
+          "html": "<h2>8. 原创购物场景 / 价签、阅读与输出</h2><div class=\"table-scroll\"><table><thead><tr><th>编号</th><th>商品</th><th>颜色／尺寸</th><th>价格（虚构）</th></tr></thead><tbody><tr><td>A</td><td>un sac</td><td>petit, noir</td><td>18 €</td></tr><tr><td>B</td><td>une veste</td><td>courte, rouge, taille M</td><td>24,50 €</td></tr><tr><td>C</td><td>des chaussures</td><td>noires, pointure 38</td><td>30 €</td></tr><tr><td>D</td><td>un pull</td><td>bleu, taille L</td><td>20 €</td></tr></tbody></table></div><p><strong>阅读资料：</strong>Dans cette boutique, il y a un sac, une veste, des chaussures et un pull. Le sac est petit et noir. Il coûte dix-huit euros. La veste est courte et rouge. Elle coûte vingt-quatre euros cinquante. Les chaussures sont noires. Elles coûtent trente euros. Le pull est bleu et coûte vingt euros. Léa aime la veste rouge. Elle n’aime pas les chaussures noires.</p><div class=\"table-scroll\"><table><thead><tr><th>角色</th><th>法语</th><th>中文</th></tr></thead><tbody><tr><td>店员</td><td>Bonjour !</td><td>您好！</td></tr><tr><td>顾客</td><td>Bonjour. Cette veste, elle est comment ?</td><td>您好。这件外套是什么样的？</td></tr><tr><td>店员</td><td>Elle est courte et rouge.</td><td>短款、红色。</td></tr><tr><td>顾客</td><td>Quelle taille ?</td><td>什么尺码？</td></tr><tr><td>店员</td><td>Taille M.</td><td>M号。</td></tr><tr><td>顾客</td><td>Elle coûte combien ?</td><td>多少钱？</td></tr><tr><td>店员</td><td>Vingt-quatre euros cinquante.</td><td>24.50欧元。</td></tr><tr><td>顾客</td><td>J’aime cette couleur. Et ces chaussures ?</td><td>我喜欢这个颜色。那这些鞋呢？</td></tr><tr><td>店员</td><td>Elles coûtent trente euros.</td><td>30欧元。</td></tr><tr><td>顾客</td><td>Merci. Je prends la veste.</td><td>谢谢。我选这件外套。</td></tr></tbody></table></div><p>pointure表示鞋码，taille用于此处服装尺码；不推断不同国家尺码换算。文章没有说明材质、库存或Léa是否购买，不能从喜欢推断已经买了。</p><p><strong>听力练法：</strong>配套教材音频第7课按“先辨商品 → 再记价格 → 再听指示词和单复数 → 对照教材”四遍练习。上面资料是本站原创阅读素材，不冒充教材音频原文。</p><p><strong>口语：</strong>用A—D价签替换对话中的商品，双方各说至少4次，每次问句都要有对应回答。<strong>写作：</strong>用6—8句介绍两件商品，包括指示词、颜色或尺寸、价格、喜好；写后检查限定词、主语、动词及形容词的数。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "9. 语音 / 连读、联诵与省音",
+          "html": "<h2>9. 语音 / 连读、联诵与省音</h2><div class=\"table-scroll\"><table><thead><tr><th>现象</th><th>例子</th><th>听读提示</th></tr></thead><tbody><tr><td>连读 liaison</td><td>ces articles /se.zaʁ.tikl/</td><td>ces单独末尾s不发音，接元音名词时带/z/</td></tr><tr><td>复习连读</td><td>deux euros /dø.zø.ʁo/</td><td>数字与元音起首单位的衔接</td></tr><tr><td>联诵 enchaînement</td><td>cet article /sɛ.taʁ.tikl/</td><td>cet中的t本来发音，接元音重新划分音节，不是隐藏s的连读</td></tr><tr><td>阴性联诵</td><td>cette écharpe /sɛ.te.ʃaʁp/</td><td>cette也有/t/；阴性元音不改cet</td></tr><tr><td>无需连读</td><td>ces manteaux</td><td>m辅音起首，ces末尾不另读/z/</td></tr><tr><td>禁用/t/连读</td><td>un sac et une veste</td><td>et不能因为后面une就读出/t/</td></tr><tr><td>省音 élision</td><td>j’aime / l’article</td><td>je、le等在元音或哑音h前省音</td></tr><tr><td>同音辨义</td><td>ces / ses</td><td>同读/se/，听语境“这些”还是“他／她的”</td></tr><tr><td>四形近同音</td><td>quel / quelle / quels / quelles</td><td>通常/kɛl/，不能只靠单个词声音判断性数</td></tr></tbody></table></div><p>练习节奏：<strong>ces‿articles / cet‿article / cette‿écharpe / ce manteau</strong>各读三次，再嵌入 Cet article coûte dix euros。符号‿在这里提示衔接，连读与联诵的成因仍不同。不把每个书面词尾辅音都恢复发音。</p><p>价格录音：录下18 €、20 €、24,50 €、30 €；重听能否区分24.50与24.05。再录“Cette veste est rouge. Ces chaussures sont noires.”，检查这件／这些的声音和句意。</p>"
+        },
+        {
+          "id": "errors",
+          "title": "10. 易错点 / 选形、问意与读价",
+          "html": "<h2>10. 易错点 / 选形、问意与读价</h2><div class=\"table-scroll\"><table><thead><tr><th>误用或误判</th><th>改正</th><th>原因</th></tr></thead><tbody><tr><td>cet veste</td><td>cette veste</td><td>veste阴性；元音规则只在阳性单数内部</td></tr><tr><td>ce article</td><td>cet article</td><td>article阳性单数元音起首</td></tr><tr><td>cet écharpe</td><td>cette écharpe</td><td>écharpe阴性，不用cet</td></tr><tr><td>cette chaussures</td><td>ces chaussures</td><td>名词复数，统一ces</td></tr><tr><td>ce le pull</td><td>ce pull</td><td>指示词不和定冠词叠放</td></tr><tr><td>Quelle est le prix ?</td><td>Quel est le prix ?</td><td>prix阳性单数，不跟顾客或商品性别</td></tr><tr><td>Quel couleurs ?</td><td>Quelles couleurs ?</td><td>couleurs阴性复数</td></tr><tr><td>Combien des robes ?</td><td>Combien de robes ?</td><td>数量结构combien de</td></tr><tr><td>Ces chaussures coûte vingt euros.</td><td>Ces chaussures coûtent vingt euros.</td><td>复数商品主语决定coûtent</td></tr><tr><td>Cette veste est cher.</td><td>Cette veste est chère.</td><td>être后形容词与veste配合</td></tr><tr><td>Ces sacs coûtent chers.</td><td>Ces sacs coûtent cher.</td><td>补充：这里cher是副词</td></tr><tr><td>Je n’aime pas de sac.（想说不喜欢这个包）</td><td>Je n’aime pas ce sac.</td><td>否定不会把指示词ce改de</td></tr><tr><td>“24,50 €”读成24欧元5欧分</td><td>vingt-quatre euros cinquante</td><td>逗号后50是五十欧分</td></tr><tr><td>“Elle est comment ?”只答vingt euros</td><td>Elle est courte et rouge.</td><td>问特征就回答特征</td></tr><tr><td>Léa喜欢外套，所以她已买外套</td><td>资料未提及是否购买</td><td>阅读不得把推测当已知</td></tr></tbody></table></div>"
+        },
+        {
+          "id": "practice",
+          "title": "11. 书面练习 / A—J与完整解析",
+          "html": "<h2>11. 书面练习 / A—J与完整解析</h2><p>先独立写答案，再逐组展开解析。开放题的参考文本是示范，不是唯一答案；照着自查项修改自己的表达。</p><h3>A. 填写指示词</h3><ol><li>___ sac noir</li><li>___ article (m.)</li><li>___ veste rouge</li><li>___ écharpe verte</li><li>___ chaussures noires</li><li>___ homme (h muet)</li><li>___ amie (f.)</li><li>___ manteaux gris</li></ol><details><summary>展开答案与解析</summary><ol><li>ce：阳性单数辅音。</li><li>cet：阳性单数元音。</li><li>cette：阴性单数。</li><li>cette：阴性元音仍用cette。</li><li>ces：阴性复数。</li><li>cet：阳性、哑音h。</li><li>cette：amie阴性，不能cet。</li><li>ces：manteaux阳性复数。</li></ol></details><h3>B. 填写quel四种形式</h3><ol><li>___ prix ?</li><li>___ couleur ?</li><li>___ articles ?</li><li>___ chaussures ?</li><li>___ est le prix de ces robes ?</li><li>___ sont les couleurs de ces pulls ?</li></ol><details><summary>展开答案与解析</summary><ol><li>Quel，prix阳性单数。</li><li>Quelle，couleur阴性单数。</li><li>Quels，articles阳性复数。</li><li>Quelles，chaussures阴性复数。</li><li>Quel：所询问名词prix单数，不是robes。</li><li>Quelles：couleurs阴性复数，对应sont。</li></ol></details><h3>C. 词汇与价格</h3><ol><li>译成法语：一件大衣／这些大衣。</li><li>译成法语：这条长裤。</li><li>译成法语：这条围巾。</li><li>用法语写24,50 €的口语读法。</li><li>用法语写8,05 €的完整读法。</li><li>哪一词问鞋码：taille还是pointure？</li></ol><details><summary>展开答案与解析</summary><ol><li>un manteau / ces manteaux；复数改-eaux。</li><li>ce pantalon；pantalon阳性单数。</li><li>cette écharpe；阴性。</li><li>vingt-quatre euros cinquante；50欧分。</li><li>huit euros et cinq centimes；明确五欧分。</li><li>pointure；本场景taille问服装尺码。</li></ol></details><h3>D. 选择问句功能</h3><ol><li>想问外套外观，用comment还是combien？写完整口语句。</li><li>问这只包价格，用coûter写问句。</li><li>问有多少只包，用combien de和il y a写完整问句。</li><li>问毛衣颜色，用quelle写问句。</li><li>问这些鞋在哪，用où写问句。</li><li>把单数Cette veste coûte vingt euros改为复数。</li></ol><details><summary>展开答案与解析</summary><ol><li>Cette veste, elle est comment ? comment问特征。</li><li>Combien coûte ce sac ? / Ce sac coûte combien ? 均问价。</li><li>Combien de sacs est-ce qu’il y a ? 数量结构保留de。</li><li>Quelle est la couleur de ce pull ? couleur决定quelle。</li><li>Où sont ces chaussures ? chaussures复数，用sont。</li><li>Ces vestes coûtent vingt euros. 限定词、名词和动词一同改变；金额未必改变，题目保持原值。</li></ol></details><h3>E. 对话接句</h3><ol><li>店员问Quelle taille ?，你需M号，怎样简答？</li><li>店员问Quelle couleur ?，你想要蓝色，怎样简答？</li><li>问Elle coûte combien ?，价签20 €，用完整句回答。</li><li>店员问Vous aimez ces chaussures ?，你不喜欢，怎样回答？</li><li>你未听清价格，写一个追问。</li><li>你选这只包，用Je prends回答。</li></ol><details><summary>展开答案与解析</summary><ol><li>Taille M, s’il vous plaît. 按已给标签回答。</li><li>Bleu, s’il vous plaît. 也可La couleur bleue；此处简答颜色。</li><li>Elle coûte vingt euros. 保持代词elle。</li><li>Non, je n’aime pas ces chaussures. ces不变。</li><li>Pardon, combien ? 礼貌要求再说金额。</li><li>Je prends ce sac. 指出已选物品。</li></ol></details><h3>F. 中文转法语</h3><ol><li>这件外套又短又红。</li><li>这些鞋是黑色的。</li><li>这只包18欧元。</li><li>这条裙子很贵。</li><li>我喜欢这个颜色。</li><li>我不喜欢这些鞋。</li></ol><details><summary>展开答案与解析</summary><ol><li>Cette veste est courte et rouge. 两个形容词与veste配合。</li><li>Ces chaussures sont noires. sont与noires均复数。</li><li>Ce sac coûte dix-huit euros. sac阳性单数。</li><li>Cette robe est chère. chère阴性单数。</li><li>J’aime cette couleur. couleur阴性；aimer后直接接宾语。</li><li>Je n’aime pas ces chaussures. ne省音，ces保留。</li></ol></details><h3>G. 依据第8模块资料阅读</h3><ol><li>黑色的小商品是什么？</li><li>外套价格是多少？</li><li>哪件商品是蓝色？</li><li>鞋的颜色和价格分别是什么？</li><li>Léa喜欢什么？</li><li>Léa不喜欢什么？</li><li>资料能否证明Léa买了外套？</li></ol><details><summary>展开答案与解析</summary><ol><li>Le sac. 资料给small/noir对应包。</li><li>24,50 € / vingt-quatre euros cinquante。</li><li>Le pull；不可把蓝色移到外套。</li><li>Elles sont noires et coûtent trente euros. 两项都需回答。</li><li>Elle aime la veste rouge.</li><li>Elle n’aime pas les chaussures noires.</li><li>不能；资料只说喜欢，未提及购买。</li></ol></details><h3>H. 语音识别</h3><ol><li>ces articles中是否有/z/？说明原因。</li><li>cet article中的/t/属于连读还是联诵？</li><li>cette écharpe应否因元音改写cet écharpe？</li><li>ces manteaux需要加读/z/吗？</li><li>et une veste里的et能读/t/连读吗？</li><li>quel、quelle、quels、quelles能否仅靠其单独读音判断性数？</li></ol><details><summary>展开答案与解析</summary><ol><li>有，ces末尾原本不读的s在元音名词前连读为/z/。</li><li>联诵enchaînement：cet本来就发/t/，与后面元音衔接。</li><li>不能；阴性依然cette，有/t/联诵。</li><li>不需要；m是辅音。</li><li>不能；et不作/t/连读。</li><li>通常不能，四形单独常同读/kɛl/，须看名词与语境。</li></ol></details><h3>I. 纠错并解释</h3><ol><li>cet robe</li><li>ce article</li><li>Quels est le prix de ces chaussures ?</li><li>Ces sacs sont chère.</li><li>Ces chaussures coûte trente euros.</li><li>Je n’aime pas de cette veste.</li><li>Combien des pulls est-ce qu’il y a ?</li><li>Ces sacs coûtent chers.（补充）</li></ol><details><summary>展开答案与解析</summary><ol><li>cette robe：阴性。</li><li>cet article：阳性单数元音。</li><li>Quel est le prix de ces chaussures ? prix阳性单数。</li><li>Ces sacs sont chers. 阳性复数配合。</li><li>Ces chaussures coûtent trente euros. 主语复数。</li><li>Je n’aime pas cette veste. 指示词不变且不加de。</li><li>Combien de pulls est-ce qu’il y a ? 数量结构de。</li><li>Ces sacs coûtent cher. cher作副词不变。</li></ol></details><h3>J. 开放输出与自查</h3><ol><li>用6—8句介绍A、B两件商品，含价格与喜好。</li><li>写至少8次发言的购物对话，包含商品指认、问特征、问价与选择。</li><li>从家中选三件衣物，各写指示词＋特点，至少一项复数。</li><li>录一段30秒购物描述，再检查四个衔接例子。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考：Ce sac est petit et noir. Il coûte dix-huit euros. J’aime ce sac. Cette veste est courte. Elle est rouge. Elle coûte vingt-quatre euros cinquante. J’aime cette couleur. 自查ce/cette、主语和形容词一致；无需声称购买。</li><li>参考8次发言：A Bonjour. / B Bonjour. / A Cette veste, elle est comment ? / B Elle est courte et rouge. / A Elle coûte combien ? / B Vingt-quatre euros cinquante. / A J’aime cette couleur. Je prends la veste. / B Merci. 自查每问必有对应答句，可增加尺码回合。</li><li>参考：Ce pantalon est noir. Cette écharpe est verte. Ces chaussures sont marron. 自查性数，marron不变；实际内容可替换但要配合。</li><li>参考：Cet article coûte dix euros. Cette écharpe est verte. Ces articles sont chers. Je prends un sac et une veste. 自查cet与cette的/t/联诵、ces articles的/z/、et后不加/t/。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "12. 复习清单 / 自测与学习资料",
+          "html": "<h2>12. 复习清单 / 自测与学习资料</h2><ul><li>我能按数→性→起首声音选择四种指示词。</li><li>我知道cette amie不能改成cet amie。</li><li>我能使quel与prix、taille、couleurs配合。</li><li>我能区分comment、combien、combien de，并回答相应信息。</li><li>我能读24,50 €，区分五十欧分和五欧分。</li><li>我能让商品复数对应coûtent和正确代词。</li><li>我能表达喜欢／不喜欢，并保留指示词。</li><li>我能区别ces与ses、连读与联诵。</li><li>我能完成购物对话，不凭阅读资料猜购买结果。</li></ul><p><strong>一分钟复习：</strong>ce sac / cet article / cette veste / ces chaussures；Quel prix ? Quelle taille ? Quelles couleurs ?；Elle est comment ? Elle coûte combien ?；Ces chaussures coûtent trente euros. Je n’aime pas ces chaussures.</p><p>复习安排：当天完成A—D；第二天口头做E、H并写F；第三天读G、改I、完成J；一周后先做即时小测再回顾错题。笔记里记录“原句→改句→理由”，不要只抄正确选项。</p><p>核对来源：<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Hachette《Le Nouveau Taxi! 1》课程目录</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/det7.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：指示词</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/int4.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：quel</a>；<a href=\"https://www.laits.utexas.edu/tex/pr/int7.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：疑问词</a>。正文、场景和练习为原创学习材料；请结合自己的教材与配套音频使用。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "question": "___ article est noir.（article阳性单数）",
+          "options": [
+            "Ce",
+            "Cet",
+            "Cette"
+          ],
+          "answer": 1,
+          "explanation": "article阳性单数且元音起首，用cet。",
+          "group": "grammar",
+          "id": "l07-q01"
+        },
+        {
+          "question": "___ écharpe est verte.",
+          "options": [
+            "Cet",
+            "Ce",
+            "Cette"
+          ],
+          "answer": 2,
+          "explanation": "écharpe阴性；即使元音起首仍是cette。",
+          "group": "grammar",
+          "id": "l07-q02"
+        },
+        {
+          "question": "___ chaussures sont noires.",
+          "options": [
+            "Ces",
+            "Cet",
+            "Cette"
+          ],
+          "answer": 0,
+          "explanation": "复数不分阴阳，一律ces。",
+          "group": "grammar",
+          "id": "l07-q03"
+        },
+        {
+          "question": "“这只包”的正确写法？",
+          "options": [
+            "ce le sac",
+            "ce sac",
+            "cet sac"
+          ],
+          "answer": 1,
+          "explanation": "指示词替代冠词，且sac以辅音起首。",
+          "group": "grammar",
+          "id": "l07-q04"
+        },
+        {
+          "question": "___ homme：homme的h是哑音h。",
+          "options": [
+            "Ce",
+            "Cette",
+            "Cet"
+          ],
+          "answer": 2,
+          "explanation": "阳性单数哑音h起首使用cet。",
+          "group": "grammar",
+          "id": "l07-q05"
+        },
+        {
+          "question": "___ amie：amie为阴性。",
+          "options": [
+            "Cette",
+            "Cet",
+            "Ce"
+          ],
+          "answer": 0,
+          "explanation": "阴性单数用cette，不使用阳性cet。",
+          "group": "grammar",
+          "id": "l07-q06"
+        },
+        {
+          "question": "___ est le prix de ces chaussures ?",
+          "options": [
+            "Quelle",
+            "Quels",
+            "Quel"
+          ],
+          "answer": 2,
+          "explanation": "与prix阳性单数配合，不与chaussures配合。",
+          "group": "grammar",
+          "id": "l07-q07"
+        },
+        {
+          "question": "___ couleurs aimez-vous ?",
+          "options": [
+            "Quel",
+            "Quelles",
+            "Quels"
+          ],
+          "answer": 1,
+          "explanation": "couleurs阴性复数，所以quelles。",
+          "group": "grammar",
+          "id": "l07-q08"
+        },
+        {
+          "question": "问服装尺码时选择：",
+          "options": [
+            "Quelle taille ?",
+            "Quel taille ?",
+            "Quelles taille ?"
+          ],
+          "answer": 0,
+          "explanation": "taille阴性单数，用quelle。",
+          "group": "grammar",
+          "id": "l07-q09"
+        },
+        {
+          "question": "想问这件外套的外观，选哪一句？",
+          "options": [
+            "Elle coûte combien ?",
+            "Elle est comment ?",
+            "Combien de vestes ?"
+          ],
+          "answer": 1,
+          "explanation": "comment问特点，另两项问金额或数量。",
+          "group": "speaking",
+          "id": "l07-q10"
+        },
+        {
+          "question": "想知道店里有多少只包：",
+          "options": [
+            "Comment est ce sac ?",
+            "Combien coûte ce sac ?",
+            "Combien de sacs est-ce qu’il y a ?"
+          ],
+          "answer": 2,
+          "explanation": "combien de + 名词是数量结构。",
+          "group": "grammar",
+          "id": "l07-q11"
+        },
+        {
+          "question": "Ces chaussures ___ trente euros.",
+          "options": [
+            "coûtent",
+            "coûte",
+            "coûtez"
+          ],
+          "answer": 0,
+          "explanation": "chaussures复数第三人称，用coûtent。",
+          "group": "grammar",
+          "id": "l07-q12"
+        },
+        {
+          "question": "24,50 €的常见读法：",
+          "options": [
+            "vingt-quatre euros cinq",
+            "vingt-quatre euros cinquante",
+            "vingt-quatre euros quinze"
+          ],
+          "answer": 1,
+          "explanation": "50欧分读cinquante，5和15对应不同金额。",
+          "group": "vocabulary",
+          "id": "l07-q13"
+        },
+        {
+          "question": "8,05 €可明确读作：",
+          "options": [
+            "huit euros cinquante centimes",
+            "huit euros quinze centimes",
+            "huit euros cinq centimes"
+          ],
+          "answer": 2,
+          "explanation": "05表示五欧分。",
+          "group": "vocabulary",
+          "id": "l07-q14"
+        },
+        {
+          "question": "Cette robe est ___.",
+          "options": [
+            "chère",
+            "cher",
+            "chers"
+          ],
+          "answer": 0,
+          "explanation": "形容词与robe阴性单数配合。",
+          "group": "grammar",
+          "id": "l07-q15"
+        },
+        {
+          "question": "Ces sacs sont ___.",
+          "options": [
+            "chère",
+            "chers",
+            "chères"
+          ],
+          "answer": 1,
+          "explanation": "sacs阳性复数，形容词chers。",
+          "group": "grammar",
+          "id": "l07-q16"
+        },
+        {
+          "question": "Ces sacs coûtent ___.（补充）",
+          "options": [
+            "chères",
+            "chers",
+            "cher"
+          ],
+          "answer": 2,
+          "explanation": "coûter cher里的cher为副词，不作性数变化。",
+          "group": "grammar",
+          "id": "l07-q17"
+        },
+        {
+          "question": "表示“我不喜欢这些鞋”：",
+          "options": [
+            "Je n’aime pas ces chaussures.",
+            "Je n’aime pas de chaussures.",
+            "Je n’ai pas de chaussures."
+          ],
+          "answer": 0,
+          "explanation": "指示词ces保留；第三项是没有鞋，不是喜好。",
+          "group": "writing",
+          "id": "l07-q18"
+        },
+        {
+          "question": "这些大衣：",
+          "options": [
+            "ces manteaus",
+            "ces manteaux",
+            "cette manteaux"
+          ],
+          "answer": 1,
+          "explanation": "manteau复数为manteaux，限定词ces。",
+          "group": "vocabulary",
+          "id": "l07-q19"
+        },
+        {
+          "question": "一条长裤：",
+          "options": [
+            "une pantalon",
+            "des pantalon",
+            "un pantalon"
+          ],
+          "answer": 2,
+          "explanation": "pantalon阳性；单条裤子使用单数。",
+          "group": "vocabulary",
+          "id": "l07-q20"
+        },
+        {
+          "question": "ces articles里衔接辅音是？",
+          "options": [
+            "/z/",
+            "/t/",
+            "没有衔接辅音"
+          ],
+          "answer": 0,
+          "explanation": "ces末尾s在元音名词前连读为/z/。",
+          "group": "pronunciation",
+          "id": "l07-q21"
+        },
+        {
+          "question": "cet article中的/t/属于？",
+          "options": [
+            "从不发音",
+            "联诵 enchaînement",
+            "ces的/z/连读"
+          ],
+          "answer": 1,
+          "explanation": "cet原本有/t/，此处与元音重新划分音节。",
+          "group": "pronunciation",
+          "id": "l07-q22"
+        },
+        {
+          "question": "et une veste应怎样读et的末尾？",
+          "options": [
+            "必须/t/",
+            "必须/z/",
+            "不作/t/连读"
+          ],
+          "answer": 2,
+          "explanation": "et不因后接元音而发/t/连读。",
+          "group": "pronunciation",
+          "id": "l07-q23"
+        },
+        {
+          "question": "ces与ses单独发音通常：",
+          "options": [
+            "同音，需要语境辨义",
+            "ces读/t/而ses读/s/",
+            "可以仅凭读音辨性别"
+          ],
+          "answer": 0,
+          "explanation": "通常同读/se/，书写区别指示和所属。",
+          "group": "pronunciation",
+          "id": "l07-q24"
+        },
+        {
+          "question": "阅读资料中，外套的价格是？",
+          "options": [
+            "30 €",
+            "24,50 €",
+            "18 €"
+          ],
+          "answer": 1,
+          "explanation": "资料说明veste24.50，鞋30、包18。",
+          "group": "reading",
+          "id": "l07-q25"
+        },
+        {
+          "question": "阅读资料中，Léa不喜欢什么？",
+          "options": [
+            "le pull bleu",
+            "la veste rouge",
+            "les chaussures noires"
+          ],
+          "answer": 2,
+          "explanation": "原文Elle n’aime pas les chaussures noires。",
+          "group": "reading",
+          "id": "l07-q26"
+        },
+        {
+          "question": "资料能证明Léa买了外套吗？",
+          "options": [
+            "不能，资料未提及购买",
+            "能，因为她喜欢",
+            "能，因为她看见价签"
+          ],
+          "answer": 0,
+          "explanation": "喜好和购买是不同事实；不补造结果。",
+          "group": "reading",
+          "id": "l07-q27"
+        },
+        {
+          "question": "“Elle est comment ?”的对应回答是？",
+          "options": [
+            "Vingt euros.",
+            "Elle est courte et rouge.",
+            "Il y a deux vestes."
+          ],
+          "answer": 1,
+          "explanation": "完整回答特征；金额答错信息，数量也不是特征回答。",
+          "group": "speaking",
+          "id": "l07-q28"
+        },
+        {
+          "question": "对方说价钱太快，可以追问：",
+          "options": [
+            "Je suis trente euros.",
+            "Combien de prix ?",
+            "Pardon, combien ?"
+          ],
+          "answer": 2,
+          "explanation": "请求重说金额，另外两句结构不合适。",
+          "group": "speaking",
+          "id": "l07-q29"
+        },
+        {
+          "question": "Je n’aime pas cette veste中，cette应否改de？",
+          "options": [
+            "不改，保留指示词",
+            "改de",
+            "改成阳性cet"
+          ],
+          "answer": 0,
+          "explanation": "否定不把指示词变为de。",
+          "group": "grammar",
+          "id": "l07-q30"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "demonstratives",
+          "quel",
+          "questions",
+          "prices",
+          "description",
+          "errors"
+        ],
+        "vocabulary": [
+          "words",
+          "description"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "phrases"
+        ],
+        "speaking": [
+          "questions",
+          "phrases"
+        ],
+        "writing": [
+          "description",
+          "phrases",
+          "errors"
+        ]
+      },
+      "listening": "教材第7课：先识别商品，再记录价格和选择，第三遍关注ce/cette/ces与单复数，最后对照教材。本站原创价签和对话用于阅读、口语替换练习，不是教材音频原文。"
+    },
+    {
+      "number": 8,
+      "title": "Le coin des artistes",
+      "translation": "艺术家的天地",
+      "pages": "30–31",
+      "core": [
+        "描述和定位人物",
+        "艺术与电影资料阅读",
+        "身份、形容词与位置表达复习"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标 / 第二单元综合应用",
+          "html": "<h2>1. 学习目标 / 第二单元综合应用</h2><p>本课对应 <strong>Le coin des artistes，第30—31页</strong>。它是第二单元的综合阅读与交际课：看懂短资料，展示并定位人物，结合外貌与物品辨认人物。重点是把第5—7课的结构用起来，不把复习结构当成一整套新语法。</p><ol><li>读出人物资料中的身份、年龄、职业、外貌、位置与物品。</li><li>用C’est… / Ce sont…介绍，用il/elle est描述，用il/elle a说身体特征。</li><li>用à gauche、à droite、entre…et…清楚定位人物和物品。</li><li>理解代词所指，比较两个人，凭资料作判断而不凭印象猜职业。</li><li>完成展览人物介绍、问答和一段8—10句的综合说明。</li></ol><p>先学“身份→外貌→位置→所属”，再使用阅读方法和原创展览资料。本站的三位艺术工作者都是<strong>虚构人物</strong>，资料和对话为原创练习；它们不替代教材中的实际人物与图片。职业词、展览词汇是场景补充；复习的语音内容用于口头呈现。</p>"
+        },
+        {
+          "id": "identity",
+          "title": "2. 身份介绍 / C’est与il est",
+          "html": "<h2>2. 身份介绍 / C’est与il est</h2><div class=\"table-scroll\"><table><thead><tr><th>交际任务</th><th>本课优先结构</th><th>示例</th><th>理由</th></tr></thead><tbody><tr><td>指认一个人</td><td>C’est + 人名／名词组</td><td>C’est Ana. / C’est une artiste.</td><td>回答Qui est-ce ?</td></tr><tr><td>指认几个人</td><td>Ce sont + 复数名词组</td><td>Ce sont des artistes.</td><td>书面规范用ce sont</td></tr><tr><td>已知人物的职业</td><td>il / elle est + 职业</td><td>Elle est peintre. / Il est acteur.</td><td>中性职业说明通常不加冠词</td></tr><tr><td>已知人物的国籍</td><td>il / elle est + 国籍形容词</td><td>Elle est française. / Il est belge.</td><td>与人物性别配合</td></tr><tr><td>描述特征</td><td>il / elle est + 形容词</td><td>Elle est petite. / Il est grand.</td><td>形容词跟主语配合</td></tr><tr><td>重新确认</td><td>C’est + 重读代词</td><td>C’est lui. / C’est elle.</td><td>重读形式用于独立指认</td></tr></tbody></table></div><p>串起来：<strong>C’est Ana. Elle est peintre. Elle est française. Elle est petite.</strong>先指认，再提供信息。C’est une peintre 与 Elle est peintre 都可介绍职业，结构不同；不要把C’est里的une照搬到所有il/elle est职业句。带限定、评价等成分时，职业名词组会有其他用法；本课先掌握上述中性结构。</p><p>否定复习：<strong>Ce n’est pas une artiste</strong>，être后不定冠词une保留；<strong>Elle n’est pas peintre</strong>，原本没有冠词，就不额外添加de；<strong>Elle n’a pas de sac</strong>才是avoir否定下不定冠词转de的典型情形。</p><p>职业阴阳性：un acteur → une actrice；un musicien → une musicienne。artiste、peintre的书面形式可不变，用冠词、代词及配合显示性别：un artiste / une artiste；un peintre / une peintre。</p>"
+        },
+        {
+          "id": "portraits",
+          "title": "3. 外貌辨认 / être与avoir配合",
+          "html": "<h2>3. 外貌辨认 / être与avoir配合</h2><div class=\"table-scroll\"><table><thead><tr><th>信息</th><th>结构</th><th>例子</th><th>检查点</th></tr></thead><tbody><tr><td>高矮</td><td>être + grand/petit</td><td>Ana est petite. Luc est grand.</td><td>跟人物性别配合</td></tr><tr><td>头发</td><td>avoir les cheveux + 形容词</td><td>Elle a les cheveux courts et bruns.</td><td>courts、bruns配合cheveux，不跟女性改为courtes</td></tr><tr><td>眼睛</td><td>avoir les yeux + 颜色</td><td>Il a les yeux bleus.</td><td>yeux阳性复数；œil→yeux</td></tr><tr><td>眼睛例外颜色</td><td>avoir les yeux marron</td><td>Mei a les yeux marron.</td><td>marron通常不变</td></tr><tr><td>戴眼镜</td><td>avoir des lunettes</td><td>Luc a des lunettes.</td><td>lunettes复数</td></tr><tr><td>不戴眼镜</td><td>ne pas avoir de lunettes</td><td>Ana n’a pas de lunettes.</td><td>否定des通常改de</td></tr><tr><td>所带物品</td><td>avoir + 名词组</td><td>Mei a un sac noir.</td><td>黑色形容词配合sac，不配合Mei</td></tr></tbody></table></div><p>完整辨认描述：<strong>La personne à gauche est petite. Elle a les cheveux courts et bruns. Elle n’a pas de lunettes. C’est Ana.</strong>把多个特征合并，有助于排除同样头发短的人。人物职业仍必须来自资料，不能因为戴眼镜就猜是画家。</p><p>复习四形：grand/grande/grands/grandes；petit/petite/petits/petites；long/longue/longs/longues；noir/noire/noirs/noires。阴性人物的“长发”仍是 <strong>Elle a les cheveux longs</strong>，因为中心名词cheveux阳性复数。眼睛颜色：bleus、verts；marron不变。</p>"
+        },
+        {
+          "id": "location",
+          "title": "4. 空间位置 / 谁在左边，什么在后面",
+          "html": "<h2>4. 空间位置 / 谁在左边，什么在后面</h2><div class=\"table-scroll\"><table><thead><tr><th>词块</th><th>意义</th><th>完整句子</th></tr></thead><tbody><tr><td>à gauche / à droite</td><td>左边／右边</td><td>Ana est à gauche. Mei est à droite.</td></tr><tr><td>au centre</td><td>中央</td><td>Luc est au centre.</td></tr><tr><td>à gauche de / à droite de</td><td>在……左／右</td><td>Ana est à gauche de Luc.</td></tr><tr><td>entre…et…</td><td>在……与……之间</td><td>Luc est entre Ana et Mei.</td></tr><tr><td>à côté de</td><td>在……旁边</td><td>Mei est à côté de Luc.</td></tr><tr><td>devant / derrière</td><td>前面／后面</td><td>L’affiche est derrière Luc.</td></tr><tr><td>sur / sous</td><td>上面／下面</td><td>Le sac de Mei est sous la table.</td></tr><tr><td>dans</td><td>在内部</td><td>Les clés sont dans le sac.</td></tr><tr><td>près de / loin de</td><td>靠近／远离</td><td>Le tableau est près de la porte.</td></tr></tbody></table></div><p><strong>先确定观察方向。</strong>本课展览位置以读者面对三位人物时看到的左右为准。描述人物自身的左手是另一种参照，不能混用。entre要写两个参照：entre Ana <strong>et</strong> Mei，不说entre Ana à Mei。</p><p>de缩合复习：à côté de + le tableau → à côté <strong>du</strong> tableau；à gauche de + les artistes → à gauche <strong>des</strong> artistes；près de la porte、près de l’affiche不缩合。à gauche单独说明左边，à gauche de说明谁／什么的左边。</p><p>区分存在与位置：<strong>Il y a une affiche derrière Luc</strong>引入一张海报；<strong>L’affiche est derrière Luc</strong>定位已知海报。复数已知物品用sont：Les sacs sont près de la table，不写Les sacs est。</p>"
+        },
+        {
+          "id": "possessions",
+          "title": "5. 所属与代词 / 凭上下文找所指",
+          "html": "<h2>5. 所属与代词 / 凭上下文找所指</h2><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>表达</th><th>意义</th></tr></thead><tbody><tr><td>明确物主</td><td>le sac d’Ana / le sac de Mei</td><td>Ana的包／Mei的包；d’因元音省音</td></tr><tr><td>已知物主</td><td>son sac / ses lunettes</td><td>他或她的包／眼镜；跟所属物的性数变化</td></tr><tr><td>指出物品</td><td>ce sac / cette affiche / ces photos</td><td>指示词，不说明物主</td></tr><tr><td>确认人物</td><td>C’est lui. / C’est elle.</td><td>此处重读代词指人</td></tr><tr><td>确认属于谁（补充）</td><td>Ce sac est à Ana.</td><td>这个包属于Ana</td></tr><tr><td>避免所指不明</td><td>Ana a un sac rouge. Son sac est sur la table.</td><td>Son紧接Ana时，语境可确定物主</td></tr></tbody></table></div><p><strong>son不等于“男性的”。</strong>Ana是女性，也说son sac，因为sac是阳性单数。Luc有眼镜，说ses lunettes，因为lunettes复数。de + 人名直接指明主人；两位人物都可能有包时，le sac d’Ana比单独son sac更清楚。</p><p>代词线索：<strong>Ana est peintre. Elle a un sac rouge. Il est sur la table.</strong>第一句Elle指Ana；后句Il指sac，不是突然出现一个男性。句子 <strong>Ana regarde Mei. Elle a les cheveux courts</strong>只凭这两句可能无法唯一确定Elle所指；需要补充上下文或重说人名。阅读题不应强行给含混代词唯一答案。</p><p>物品同属一个人也要分别配合：son sac、sa veste、ses chaussures；多人共享一个包可说leur sac，多个包说leurs sacs。指示词ces与物主词ses声音相近，仍靠上下文和意思区分。</p>"
+        },
+        {
+          "id": "reading-method",
+          "title": "6. 阅读方法 / 明确信息、矛盾与未提及",
+          "html": "<h2>6. 阅读方法 / 明确信息、矛盾与未提及</h2><p>阅读资料先不要逐词翻译。先看资料类型和人物名，再用表格整理六项信息：身份、年龄、职业、外貌、位置、所带物品。然后查找题目所需的那一项，回原句核实。</p><div class=\"table-scroll\"><table><thead><tr><th>步骤</th><th>操作</th><th>例子</th></tr></thead><tbody><tr><td>1 定位信息</td><td>圈人名、数字、职业和地点</td><td>Ana、vingt-six ans、peintre、à gauche</td></tr><tr><td>2 找中心词</td><td>判断形容词修饰谁</td><td>cheveux courts修饰头发；sac rouge修饰包</td></tr><tr><td>3 跟代词链</td><td>追踪elle/il/ils/elles的先行词</td><td>Elle指人物；Il也可能指前句sac</td></tr><tr><td>4 对照题目</td><td>需要哪些条件就比对哪些</td><td>“长黑发并戴眼镜”不能只看头发</td></tr><tr><td>5 判断证据</td><td>原文明确、相反或未说明</td><td>她喜欢画画不等于她有几幅画</td></tr><tr><td>6 简洁作答</td><td>回答题目所问信息</td><td>问Où就给位置；问Qui就给人物</td></tr></tbody></table></div><p>本课使用三类判断：</p><ul><li><strong>Vrai（正确）</strong>：资料明确支持，如资料说Luc戴眼镜，则Luc a des lunettes为正确。</li><li><strong>Faux（错误）</strong>：资料明确矛盾，如Ana在左边，则Ana est à droite为错误。</li><li><strong>Non indiqué（未提及）</strong>：资料没有给证据，如Ana的电话号码是多少、她会几种语言。</li></ul><p>“未提及”不是自动判错；也不要因为姓名、外貌、职业而猜国籍或语言。本文人物卡明确写的国籍才能作答，不能把与真实人物相似的姓名当作传记证据。复述时保留原文事实，未知部分写资料未提及。</p>"
+        },
+        {
+          "id": "words",
+          "title": "7. 词汇 / 艺术、人物和展览",
+          "html": "<h2>7. 词汇 / 艺术、人物和展览</h2><div class=\"table-scroll\"><table><thead><tr><th>词性与阴阳性／词块</th><th>复数</th><th>中文</th><th>例句</th></tr></thead><tbody><tr><td>un / une artiste</td><td>des artistes</td><td>艺术工作者；书面同形</td><td>Ana et Mei sont des artistes.</td></tr><tr><td>un / une peintre</td><td>des peintres</td><td>画家；书面同形</td><td>Ana est peintre.</td></tr><tr><td>un acteur / une actrice</td><td>des acteurs / des actrices</td><td>演员</td><td>Luc est acteur.</td></tr><tr><td>un musicien / une musicienne</td><td>des musiciens / des musiciennes</td><td>音乐工作者</td><td>Mei est musicienne.</td></tr><tr><td>un tableau</td><td>des tableaux</td><td>绘画、画；注意不是本课指桌子</td><td>Le tableau est derrière Ana.</td></tr><tr><td>une peinture</td><td>des peintures</td><td>绘画作品／绘画这一艺术</td><td>Ana aime la peinture.</td></tr><tr><td>une photo</td><td>des photos</td><td>照片</td><td>Cette photo est derrière Mei.</td></tr><tr><td>une affiche</td><td>des affiches</td><td>海报</td><td>L’affiche est derrière Luc.</td></tr><tr><td>une exposition</td><td>des expositions</td><td>展览</td><td>Dans cette exposition, il y a trois artistes.</td></tr><tr><td>un musée</td><td>des musées</td><td>博物馆（场景补充）</td><td>Il y a des tableaux dans ce musée.</td></tr><tr><td>une personne</td><td>des personnes</td><td>人；语法阴性，不限定男性女性</td><td>Cette personne a des lunettes.</td></tr><tr><td>un portrait</td><td>des portraits</td><td>肖像</td><td>Ce portrait est petit.</td></tr><tr><td>une table</td><td>des tables</td><td>桌子，区别tableau</td><td>Le sac est sur la table.</td></tr><tr><td>une porte</td><td>des portes</td><td>门</td><td>Le tableau est près de la porte.</td></tr><tr><td>des cheveux</td><td>—</td><td>头发，本课用复数整体描述</td><td>Elle a les cheveux courts.</td></tr><tr><td>un œil / des yeux</td><td>—</td><td>眼睛；复数不规则</td><td>Il a les yeux bleus.</td></tr><tr><td>des lunettes</td><td>—</td><td>眼镜</td><td>Il a des lunettes.</td></tr><tr><td>au centre</td><td>—</td><td>在中央</td><td>Luc est au centre.</td></tr><tr><td>à gauche / à droite</td><td>—</td><td>在左／右</td><td>Ana est à gauche.</td></tr><tr><td>entre…et…</td><td>—</td><td>在……之间</td><td>Luc est entre Ana et Mei.</td></tr><tr><td>une nationalité</td><td>des nationalités</td><td>国籍</td><td>Sa nationalité est indiquée dans la fiche.</td></tr><tr><td>une fiche</td><td>des fiches</td><td>资料卡</td><td>Cette fiche présente Ana.</td></tr></tbody></table></div><p>重点辨析：<strong>une table</strong>是桌子；<strong>un tableau</strong>在此场景是画，复数tableaux；<strong>une peinture</strong>可表示绘画活动，Ana aime la peinture是喜欢绘画，不自动等于拥有某幅画。职业名词先记成词对：un acteur / une actrice；un musicien / une musicienne。</p><p>本课所需复习动词：être → je suis、tu es、il/elle est、nous sommes、vous êtes、ils/elles sont；avoir → j’ai、tu as、il/elle a、nous avons、vous avez、ils/elles ont；aimer → j’aime、tu aimes、il/elle aime、nous aimons、vous aimez、ils/elles aiment。三组用途分别是身份特征、拥有、喜好。</p>"
+        },
+        {
+          "id": "phrases",
+          "title": "8. 原创资料 / 三位艺术工作者与展览",
+          "html": "<h2>8. 原创资料 / 三位艺术工作者与展览</h2><p>下面为<strong>虚构展览</strong>，全部人物信息以本页为准。读者面对人物：左侧Ana，中央Luc，右侧Mei。后面的物品及包的位置另有说明；人物站位与物品位置分开读取。</p><div class=\"table-scroll\"><table><thead><tr><th>资料</th><th>Ana</th><th>Luc</th><th>Mei</th></tr></thead><tbody><tr><td>年龄</td><td>26岁</td><td>30岁</td><td>24岁</td></tr><tr><td>国籍</td><td>française</td><td>belge</td><td>chinoise</td></tr><tr><td>职业</td><td>peintre</td><td>acteur</td><td>musicienne</td></tr><tr><td>高矮</td><td>petite</td><td>grand</td><td>petite</td></tr><tr><td>头发</td><td>courts et bruns</td><td>longs et noirs</td><td>courts et noirs</td></tr><tr><td>眼睛</td><td>verts</td><td>bleus</td><td>marron</td></tr><tr><td>眼镜</td><td>无</td><td>有</td><td>无</td></tr><tr><td>物品</td><td>un sac rouge</td><td>des lunettes</td><td>un sac noir、une écharpe verte</td></tr><tr><td>站位（读者方向）</td><td>à gauche</td><td>au centre</td><td>à droite</td></tr><tr><td>喜好</td><td>la peinture</td><td>le cinéma</td><td>la musique</td></tr></tbody></table></div><h3>资料一：Ana</h3><p>C’est Ana. Elle a vingt-six ans. Elle est française et elle est peintre. Elle est petite. Elle a les cheveux courts et bruns et les yeux verts. Elle n’a pas de lunettes. Elle a un sac rouge. Elle aime la peinture.</p><h3>资料二：Luc</h3><p>C’est Luc. Il a trente ans. Il est belge et il est acteur. Il est grand. Il a les cheveux longs et noirs et les yeux bleus. Il a des lunettes. Il aime le cinéma.</p><h3>资料三：Mei</h3><p>C’est Mei. Elle a vingt-quatre ans. Elle est chinoise et elle est musicienne. Elle est petite. Elle a les cheveux courts et noirs et les yeux marron. Elle n’a pas de lunettes. Elle a un sac noir et une écharpe verte. Elle aime la musique.</p><h3>展览位置资料</h3><p>Dans cette exposition, il y a trois artistes. Ana est à gauche. Luc est entre Ana et Mei. Mei est à droite. Le tableau est derrière Ana, près de la porte. L’affiche est derrière Luc. La photo est derrière Mei. Le sac d’Ana est sur la table. Le sac de Mei est sous la table.</p><div class=\"table-scroll\"><table><thead><tr><th>发言</th><th>法语</th><th>中文与线索</th></tr></thead><tbody><tr><td>A</td><td>Qui est la personne à gauche ?</td><td>左边的人是谁？问身份</td></tr><tr><td>B</td><td>C’est Ana. Elle est peintre.</td><td>是Ana，她是画家。</td></tr><tr><td>A</td><td>Elle a des lunettes ?</td><td>她戴眼镜吗？</td></tr><tr><td>B</td><td>Non, elle n’a pas de lunettes.</td><td>否定des→de。</td></tr><tr><td>A</td><td>Et la personne au centre ?</td><td>中央的人呢？</td></tr><tr><td>B</td><td>C’est Luc. Il est acteur. Il a des lunettes.</td><td>两项身份特征。</td></tr><tr><td>A</td><td>Où est le sac de Mei ?</td><td>Mei的包在哪里？</td></tr><tr><td>B</td><td>Il est sous la table.</td><td>Il回指阳性sac。</td></tr><tr><td>A</td><td>Qu’est-ce qu’il y a derrière Ana ?</td><td>Ana后面有什么？</td></tr><tr><td>B</td><td>Il y a un tableau.</td><td>引入物品。</td></tr></tbody></table></div><p><strong>资料边界：</strong>没有给人物的姓氏、生日、电话号码、会说的语言，也没给画作作者、票价或包的价格。不能从国籍推断会说几种语言，不能从“画在Ana身后”推断画是Ana所作。</p><p><strong>教材听力：</strong>使用配套资源中第8课所属音轨，先记录人名与职业，再听位置和外貌，最后对照教材。上述原创资料可朗读、录音、自问自答，不标成教材音频文字。</p><p><strong>输出：</strong>先不看表格口头介绍一个人，再看资料纠错；用8—10句介绍展览中的两个人、两个物品的位置以及相同／不同特征。原始资料与推断要分开。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "9. 口头呈现 / 单元语音复习",
+          "html": "<h2>9. 口头呈现 / 单元语音复习</h2><div class=\"table-scroll\"><table><thead><tr><th>复习项</th><th>练习词块</th><th>检查方法</th></tr></thead><tbody><tr><td>复数听觉线索</td><td>un artiste / des artistes</td><td>单复数主要听限定词，des artistes有/z/</td></tr><tr><td>/z/连读</td><td>les yeux / ses amis / vous avez</td><td>限定词、代词和元音起首词的衔接</td></tr><tr><td>ont与sont</td><td>Ils ont des lunettes. / Ils sont artistes.</td><td>ont连读为/z/；sont本身有/s/，区分拥有与身份</td></tr><tr><td>cet/cette联诵</td><td>cet artiste / cette affiche</td><td>本来发音的/t/接入后面元音音节</td></tr><tr><td>节奏组</td><td>C’est Ana / elle est peintre / elle est à gauche</td><td>按意义组朗读，避免每个词都重读</td></tr><tr><td>否定</td><td>Elle n’a pas de lunettes.</td><td>初学口头输出先保留完整否定，pas末尾s不另读</td></tr><tr><td>眼睛颜色</td><td>les yeux verts / les yeux bleus</td><td>yeux接辅音颜色时，不把末尾x再读/z/</td></tr><tr><td>同音词辨义</td><td>ces photos / ses photos</td><td>指示或所属靠语境，而不是单独声音</td></tr></tbody></table></div><p>跟读顺序：先准确读一句，再读三句人物链，最后读完整资料。录音参考：<strong>C’est Luc. Il est acteur. Il a des lunettes. Il est entre Ana et Mei.</strong>注意acteur身份用est，眼镜用a；entre Ana et Mei中的et不作/t/连读。</p><p>听辨任务：同伴随机读“Il a les cheveux courts”“Il a les cheveux longs”“Il a des lunettes”“Il n’a pas de lunettes”，记录特征并指向资料中的人物。特征不足以唯一辨认时继续追问，不只凭一个线索抢答。</p>"
+        },
+        {
+          "id": "errors",
+          "title": "10. 易错点 / 综合描述与证据",
+          "html": "<h2>10. 易错点 / 综合描述与证据</h2><div class=\"table-scroll\"><table><thead><tr><th>误用或误判</th><th>修正</th><th>原因</th></tr></thead><tbody><tr><td>Il a peintre.</td><td>Il est peintre.</td><td>职业用être；拥有物品才用avoir</td></tr><tr><td>Elle est vingt-six ans.</td><td>Elle a vingt-six ans.</td><td>年龄用avoir</td></tr><tr><td>Elle a les cheveux courtes.</td><td>Elle a les cheveux courts.</td><td>配合cheveux阳性复数</td></tr><tr><td>Elle a les yeux marrons.</td><td>Elle a les yeux marron.</td><td>颜色marron不变</td></tr><tr><td>Elle n’a pas des lunettes.</td><td>Elle n’a pas de lunettes.</td><td>本课中存在／拥有否定des→de</td></tr><tr><td>Ce n’est pas de peintre.</td><td>Ce n’est pas une peintre.</td><td>être后不定冠词通常保留；本意非此职业身份</td></tr><tr><td>Ana是女性，所以说sa sac</td><td>son sac</td><td>配合sac阳性，不跟物主性别</td></tr><tr><td>Luc est entre Ana à Mei.</td><td>Luc est entre Ana et Mei.</td><td>entre…et…两个参照</td></tr><tr><td>à côté de le tableau</td><td>à côté du tableau</td><td>de+le缩合du</td></tr><tr><td>Ce sont trois artiste.</td><td>Ce sont trois artistes.</td><td>数字后的名词也须复数</td></tr><tr><td>图画在Ana后面，所以Ana是作者</td><td>作者资料未提及</td><td>位置关系不是创作关系</td></tr><tr><td>同为短发，所以一定是同一个人</td><td>结合眼睛、发色、位置等继续辨认</td><td>多个角色可能共享一个特征</td></tr><tr><td>Elle指谁？不明也强行猜Ana</td><td>重读上下文或重复人名</td><td>所指不明时不能编唯一答案</td></tr></tbody></table></div>"
+        },
+        {
+          "id": "practice",
+          "title": "11. 书面练习 / A—J与完整解析",
+          "html": "<h2>11. 书面练习 / A—J与完整解析</h2><p>先读第8模块资料再答题。位置题以读者方向为准，资料判断题使用正确／错误／未提及三种结果。先自己写，再展开对应答案。</p><h3>A. 选择être或avoir并变位</h3><ol><li>Ana ___ peintre.</li><li>Ana ___ vingt-six ans.</li><li>Luc ___ grand.</li><li>Luc ___ des lunettes.</li><li>Mei ___ les cheveux courts.</li><li>Ana et Mei ___ petites.</li><li>Ana et Mei ___ des sacs.</li><li>Nous ___ artistes.</li></ol><details><summary>展开答案与解析</summary><ol><li>est：职业。</li><li>a：年龄。</li><li>est：身高特征。</li><li>a：拥有眼镜。</li><li>a：身体特征avoir les cheveux。</li><li>sont：复数主语和形容词。</li><li>ont：复数主语、拥有。</li><li>sommes：nous的être变位。</li></ol></details><h3>B. 限定词与形容词配合</h3><ol><li>___ artiste：指向Ana，填写指示词。</li><li>___ artiste：指向Luc，填写指示词。</li><li>Mei a les cheveux ___ (court).</li><li>Ana a un sac ___ (rouge).</li><li>Ana et Mei sont ___ (petit).</li><li>Mei a les yeux ___ (marron).</li></ol><details><summary>展开答案与解析</summary><ol><li>cette artiste：Ana女性，阴性单数。</li><li>cet artiste：Luc男性，阳性单数元音起首。</li><li>courts：cheveux阳性复数，不看Mei性别。</li><li>rouge：sac阳性单数，rouge单数形式同形。</li><li>petites：两位女性，阴性复数。</li><li>marron：此颜色不变。</li></ol></details><h3>C. 职业与场景词汇</h3><ol><li>un acteur的阴性是什么？</li><li>un musicien的阴性是什么？</li><li>指女性画家，写冠词＋名词。</li><li>“一张桌子”和“一幅画”分别怎么写？</li><li>un tableau的复数是什么？</li><li>“这张海报”怎么写？</li></ol><details><summary>展开答案与解析</summary><ol><li>une actrice：职业词变形。</li><li>une musicienne：-ien→-ienne。</li><li>une peintre：书面名词同形，冠词体现阴性。</li><li>une table / un tableau：性别、意思不同。</li><li>des tableaux：-eau→-eaux。</li><li>cette affiche：affiche阴性，元音仍cette。</li></ol></details><h3>D. 依据展览位置资料回答</h3><ol><li>Qui est à gauche ?</li><li>Qui est au centre ?</li><li>Qui est à droite ?</li><li>Luc est entre qui et qui ?</li><li>Où est le tableau ? 给两个位置线索。</li><li>Où est l’affiche ?</li><li>Où est le sac d’Ana ?</li><li>Où est le sac de Mei ?</li></ol><details><summary>展开答案与解析</summary><ol><li>C’est Ana. 以读者面对人物的方向。</li><li>C’est Luc.</li><li>C’est Mei.</li><li>Il est entre Ana et Mei. entre后用et。</li><li>Il est derrière Ana, près de la porte. tableau阳性，用il。</li><li>Elle est derrière Luc. affiche阴性，用elle。</li><li>Il est sur la table. 不混同Mei的包。</li><li>Il est sous la table. 下方，不是上方。</li></ol></details><h3>E. 人物辨认与追问</h3><ol><li>你要问左边的人是谁，写问句。</li><li>回答左边是Ana且是画家。</li><li>别人问Luc是否戴眼镜，给完整肯定答案。</li><li>别人问Ana是否戴眼镜，给完整否定答案。</li><li>已知某人短黑发，是否足以在三人中唯一确定？结合资料解释。</li><li>有人指向Mei，却说C’est Ana，你怎样简短纠正？</li></ol><details><summary>展开答案与解析</summary><ol><li>Qui est la personne à gauche ? / Qui est-ce, à gauche ? 问身份。</li><li>C’est Ana. Elle est peintre. 介绍后用elle。</li><li>Oui, il a des lunettes. 保持avoir。</li><li>Non, elle n’a pas de lunettes. des→de。</li><li>足以：本资料只有Mei短黑发，Ana短棕发，Luc长黑发。若只说“短发”则不够；比较完整条件。</li><li>Non, ce n’est pas Ana. C’est Mei. 人名指认直接保留，无需加de。</li></ol></details><h3>F. 中文转法语</h3><ol><li>她有短棕发。</li><li>他是演员并且戴眼镜。</li><li>Ana的包在桌子上。</li><li>Mei在Luc右边。</li><li>这些人是艺术工作者。</li><li>这不是一位女画家。</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a les cheveux courts et bruns. 两个形容词配合cheveux。</li><li>Il est acteur et il a des lunettes. 身份être、拥有avoir。</li><li>Le sac d’Ana est sur la table. d’省音，位置用est。</li><li>Mei est à droite de Luc. 说明参照Luc。</li><li>Ces personnes sont des artistes. / Ce sont des artistes. 若强调“这些人”，第一句更直接。</li><li>Ce n’est pas une peintre. être否定冠词保留。</li></ol></details><h3>G. 综合阅读与资料边界</h3><ol><li>Ana多大？用法语完整回答。</li><li>Luc是什么国籍和职业？</li><li>谁是musicienne？</li><li>Ana与Mei在高矮、头发长度上有什么共同点？</li><li>Ana与Mei的发色分别是什么？</li><li>“Luc n’a pas de lunettes”：Vrai、Faux还是Non indiqué？</li><li>“Ana parle trois langues”：Vrai、Faux还是Non indiqué？</li><li>能证明Ana创作了她身后的画吗？</li><li>Ana a un sac rouge. Il est sur la table. 这里Il指谁？</li><li>Ana regarde Mei. Elle a les cheveux courts. 仅凭这两句能唯一确定Elle指谁吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a vingt-six ans. 年龄用a。</li><li>Il est belge et il est acteur. 两项均来自资料。</li><li>C’est Mei. Elle est musicienne.</li><li>Elles sont petites et elles ont les cheveux courts. 共同点两项。</li><li>Ana a les cheveux bruns. Mei a les cheveux noirs. 主语明确。</li><li>Faux：原文Il a des lunettes，明确矛盾。</li><li>Non indiqué：资料没写她会说的语言数量。</li><li>不能；身后位置已知，作者未提及。</li><li>指le sac rouge，sac阳性；不是指Ana。</li><li>不能，两人都短发，句子本身所指可能含混；须上下文或重复人名。</li></ol></details><h3>H. 语音与句意</h3><ol><li>des artistes中的衔接辅音是什么？</li><li>Ils ont与Ils sont能否视为同一个声音和意思？</li><li>cet artiste的/t/是连读还是联诵？</li><li>et Mei的et是否要读/t/？</li><li>les yeux bleus在yeux与bleus间加/z/吗？</li><li>把C’est Ana. Elle est peintre. Elle est à gauche分成三个节奏组并录音。</li></ol><details><summary>展开答案与解析</summary><ol><li>/z/；限定词des与元音起首名词连读。</li><li>不能：Ils ont常为/il.zɔ̃/，Ils sont为/il.sɔ̃/；avoir与être意义不同。</li><li>联诵：cet中的t原本发音，再接元音。</li><li>不读/t/连读；et禁用此连读。</li><li>不加；bleus以/b/辅音起首。</li><li>参考分组：C’est Ana / elle est peintre / elle est à gauche；核对句末节奏，不逐词重读。</li></ol></details><h3>I. 综合纠错</h3><ol><li>Elle est trente ans.</li><li>Ana a les cheveux brunes.</li><li>Mei a les yeux marrons.</li><li>Ce n’est pas de musicienne.</li><li>Ana a sa sac rouge.</li><li>Luc est entre Ana à Mei.</li><li>Le sac est à côté de le tableau.</li><li>Ils sont des lunettes.（要表达他们戴眼镜）</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a trente ans. 年龄avoir。</li><li>Ana a les cheveux bruns. cheveux阳性复数。</li><li>Mei a les yeux marron. 颜色不变。</li><li>Ce n’est pas une musicienne. être后une保留。</li><li>Ana a son sac rouge. sac阳性，son与物品配合；若首次介绍可说Ana a un sac rouge。</li><li>Luc est entre Ana et Mei. 两参照用et连接。</li><li>Le sac est à côté du tableau. de+le→du。</li><li>Ils ont des lunettes. avoir表示拥有／佩戴，être不是这个意思。</li></ol></details><h3>J. 开放输出与自查</h3><ol><li>用8—10句介绍Ana与Luc：身份、年龄、外貌和站位都要出现。</li><li>写双方至少8次发言的展览问答，包含人物辨认、否定和物品位置。</li><li>写6句比较Ana和Mei，并说明一项资料未提及的信息。</li><li>对照自己的教材第8课人物资料，填六项阅读表后作30—45秒口头介绍。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考9句：C’est Ana. Elle a vingt-six ans. Elle est française et elle est peintre. Elle est petite et elle a les cheveux courts et bruns. Elle est à gauche. C’est Luc. Il a trente ans et il est belge. Il est acteur et il a des lunettes. Il est au centre, entre Ana et Mei. 自查所有信息来自资料；年龄a、职业est、头发形容词配合cheveux。</li><li>参考8次发言：A Qui est la personne à droite ? / B C’est Mei. / A Elle a des lunettes ? / B Non, elle n’a pas de lunettes. / A Elle est peintre ? / B Non, elle est musicienne. / A Où est son sac ? / B Il est sous la table. 自查此处son承接Mei，il回指sac；每问有相应回答。</li><li>参考6句：Ana et Mei sont petites. Elles ont les cheveux courts. Ana a les cheveux bruns. Mei a les cheveux noirs. Ana a les yeux verts et Mei a les yeux marron. Ana est à gauche et Mei est à droite. 再用中文补一句：资料未提及两人的电话号码；也可法语Ce n’est pas indiqué（整块补充）。</li><li>方法参考：姓名／年龄／职业／外貌／位置／物品；对照教材只填有证据的内容，没有的写未提及。口头框架C’est… Il/Elle est… Il/Elle a… Il/Elle est à…；不要把本站虚构资料混入真实教材人物。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "12. 单元复习 / 自测清单与资料",
+          "html": "<h2>12. 单元复习 / 自测清单与资料</h2><ul><li>我能在身份、年龄、身体特征中准确选择être或avoir。</li><li>我能区分C’est une artiste与Elle est artiste。</li><li>我能描述cheveux和yeux，并使形容词跟中心名词配合。</li><li>我能用à gauche de、entre…et…、sur/sous定位。</li><li>我能区分展示物品、物品所属、已知物品的位置。</li><li>我能根据上下文判断elle和il所指，发现含混时不强猜。</li><li>我能比较两个完整人物资料，而不凭单一外貌猜职业。</li><li>我能区分资料明确支持、明确矛盾、未提及。</li><li>我能完成展览问答和人物介绍，并回原资料核对。</li></ul><p><strong>一分钟回顾：</strong>C’est une artiste. Elle est peintre. Elle a vingt-six ans. Elle a les cheveux courts. Elle n’a pas de lunettes. Son sac est sur la table. Luc est entre Ana et Mei. Ce sont des artistes.</p><p><strong>第二单元串联：</strong>第5课“有／是／在” → 第6课“外貌、否定、所属” → 第7课“指示、问特征与价格” → 第8课“读资料并准确呈现人物”。复习时先做本课A、D、G，暴露结构与理解问题，再回对应课详细解释；第二天录J的口头介绍，一周后重新做小测和错题。</p><p>本页是通向后续阅读、口语与写作路线的A1基础训练；更高水平任务会在后续课程中逐步加入。</p><p>核对来源：<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Hachette《Le Nouveau Taxi! 1》课程目录</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/det3.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：身体特征与冠词</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/det6.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：物主词</a>。完整教材人物、图片和音频以自己的教材及出版方授权资源为准；本站资料与练习均为原创。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "question": "Ana ___ peintre.",
+          "options": [
+            "a",
+            "est",
+            "ont"
+          ],
+          "answer": 1,
+          "explanation": "中性职业陈述使用être；Ana单数，用est。",
+          "group": "grammar",
+          "id": "l08-q01"
+        },
+        {
+          "question": "Luc ___ trente ans.",
+          "options": [
+            "est",
+            "sont",
+            "a"
+          ],
+          "answer": 2,
+          "explanation": "年龄使用avoir：il a trente ans。",
+          "group": "grammar",
+          "id": "l08-q02"
+        },
+        {
+          "question": "“这是两位艺术工作者”的规范书面表达：",
+          "options": [
+            "Ce sont deux artistes.",
+            "C’est deux artiste.",
+            "Il y ont deux artistes."
+          ],
+          "answer": 0,
+          "explanation": "复数身份指认用ce sont，artistes也复数。",
+          "group": "grammar",
+          "id": "l08-q03"
+        },
+        {
+          "question": "___ artiste：指Ana（女性）。",
+          "options": [
+            "Cet",
+            "Cette",
+            "Ce"
+          ],
+          "answer": 1,
+          "explanation": "阴性单数用cette，即使artiste元音起首。",
+          "group": "grammar",
+          "id": "l08-q04"
+        },
+        {
+          "question": "___ artiste：指Luc（男性）。",
+          "options": [
+            "Cette",
+            "Ce",
+            "Cet"
+          ],
+          "answer": 2,
+          "explanation": "阳性单数元音起首，cet。",
+          "group": "grammar",
+          "id": "l08-q05"
+        },
+        {
+          "question": "Mei a les cheveux ___.（短）",
+          "options": [
+            "courts",
+            "courtes",
+            "courte"
+          ],
+          "answer": 0,
+          "explanation": "courts配合cheveux阳性复数，不跟Mei性别。",
+          "group": "grammar",
+          "id": "l08-q06"
+        },
+        {
+          "question": "Mei a les yeux ___.",
+          "options": [
+            "marrons",
+            "marron",
+            "marronnes"
+          ],
+          "answer": 1,
+          "explanation": "颜色marron通常不变。",
+          "group": "grammar",
+          "id": "l08-q07"
+        },
+        {
+          "question": "“Ana不戴眼镜”：",
+          "options": [
+            "Ana n’est pas des lunettes.",
+            "Ana n’a pas des lunettes.",
+            "Ana n’a pas de lunettes."
+          ],
+          "answer": 2,
+          "explanation": "拥有否定des转de，使用avoir。",
+          "group": "grammar",
+          "id": "l08-q08"
+        },
+        {
+          "question": "“这不是一位女性画家”：",
+          "options": [
+            "Ce n’est pas une peintre.",
+            "Ce n’est pas de peintre.",
+            "Ce n’a pas une peintre."
+          ],
+          "answer": 0,
+          "explanation": "être后的不定冠词une保留。",
+          "group": "grammar",
+          "id": "l08-q09"
+        },
+        {
+          "question": "Ana的包：___ sac。",
+          "options": [
+            "sa",
+            "son",
+            "ses"
+          ],
+          "answer": 1,
+          "explanation": "sac阳性单数，son；不按女性物主选sa。",
+          "group": "grammar",
+          "id": "l08-q10"
+        },
+        {
+          "question": "Luc est ___ Ana et Mei.",
+          "options": [
+            "sur",
+            "sous",
+            "entre"
+          ],
+          "answer": 2,
+          "explanation": "两个人作为参照，用entre…et…。",
+          "group": "grammar",
+          "id": "l08-q11"
+        },
+        {
+          "question": "à côté de + le tableau合并为：",
+          "options": [
+            "à côté du tableau",
+            "à côté de le tableau",
+            "à côté des tableau"
+          ],
+          "answer": 0,
+          "explanation": "de+le缩合du。",
+          "group": "grammar",
+          "id": "l08-q12"
+        },
+        {
+          "question": "“桌子”和“画”对应：",
+          "options": [
+            "un tableau / une table",
+            "une table / un tableau",
+            "une tableau / un table"
+          ],
+          "answer": 1,
+          "explanation": "table是阴性桌子，tableau是阳性画。",
+          "group": "vocabulary",
+          "id": "l08-q13"
+        },
+        {
+          "question": "un acteur的阴性：",
+          "options": [
+            "une acteur",
+            "une actricee",
+            "une actrice"
+          ],
+          "answer": 2,
+          "explanation": "acteur→actrice。",
+          "group": "vocabulary",
+          "id": "l08-q14"
+        },
+        {
+          "question": "“一位女性音乐工作者”：",
+          "options": [
+            "une musicienne",
+            "un musicien",
+            "une musicien"
+          ],
+          "answer": 0,
+          "explanation": "女性形式为musicienne，冠词une。",
+          "group": "vocabulary",
+          "id": "l08-q15"
+        },
+        {
+          "question": "un tableau的复数：",
+          "options": [
+            "des tableaus",
+            "des tableaux",
+            "des tableau"
+          ],
+          "answer": 1,
+          "explanation": "-eau通常复数-eaux。",
+          "group": "vocabulary",
+          "id": "l08-q16"
+        },
+        {
+          "question": "资料中，Ana的年龄是？",
+          "options": [
+            "30岁",
+            "24岁",
+            "26岁"
+          ],
+          "answer": 2,
+          "explanation": "Elle a vingt-six ans。",
+          "group": "reading",
+          "id": "l08-q17"
+        },
+        {
+          "question": "资料中，中央人物是谁？",
+          "options": [
+            "Luc",
+            "Ana",
+            "Mei"
+          ],
+          "answer": 0,
+          "explanation": "Luc est entre Ana et Mei，对应中央。",
+          "group": "reading",
+          "id": "l08-q18"
+        },
+        {
+          "question": "Mei的包在哪里？",
+          "options": [
+            "sur la table",
+            "sous la table",
+            "derrière Ana"
+          ],
+          "answer": 1,
+          "explanation": "位置资料明确Le sac de Mei est sous la table。",
+          "group": "reading",
+          "id": "l08-q19"
+        },
+        {
+          "question": "“Luc n’a pas de lunettes”按资料判断：",
+          "options": [
+            "Vrai",
+            "Non indiqué",
+            "Faux"
+          ],
+          "answer": 2,
+          "explanation": "资料说Il a des lunettes，明确矛盾。",
+          "group": "reading",
+          "id": "l08-q20"
+        },
+        {
+          "question": "“Ana parle trois langues”按资料判断：",
+          "options": [
+            "Non indiqué",
+            "Vrai",
+            "Faux"
+          ],
+          "answer": 0,
+          "explanation": "没有语言数量信息；国籍不能替代证据。",
+          "group": "reading",
+          "id": "l08-q21"
+        },
+        {
+          "question": "画在Ana身后，能证明她是作者吗？",
+          "options": [
+            "能，位置已足够",
+            "不能，作者资料未提及",
+            "能，因为所有画都归身旁的人"
+          ],
+          "answer": 1,
+          "explanation": "位置与创作关系是不同事实。",
+          "group": "reading",
+          "id": "l08-q22"
+        },
+        {
+          "question": "Ana a un sac rouge. Il est sur la table. 这里Il指：",
+          "options": [
+            "Ana",
+            "Luc",
+            "le sac rouge"
+          ],
+          "answer": 2,
+          "explanation": "Il回指阳性sac，不是人物Ana。",
+          "group": "reading",
+          "id": "l08-q23"
+        },
+        {
+          "question": "两人都短发，问“短发的人是谁”信息是否足够？",
+          "options": [
+            "不足，需发色、位置等其他线索",
+            "足够，一定是Ana",
+            "足够，一定是Mei"
+          ],
+          "answer": 0,
+          "explanation": "人物可共享一个特征，继续追问以唯一辨认。",
+          "group": "speaking",
+          "id": "l08-q24"
+        },
+        {
+          "question": "des artistes的连读辅音是？",
+          "options": [
+            "/t/",
+            "/z/",
+            "/p/"
+          ],
+          "answer": 1,
+          "explanation": "des与元音名词衔接，末尾s读/z/。",
+          "group": "pronunciation",
+          "id": "l08-q25"
+        },
+        {
+          "question": "Ils ont与Ils sont的辨听：",
+          "options": [
+            "完全同音",
+            "都发/il.tɔ̃/",
+            "前者有/z/衔接，后者有/s/"
+          ],
+          "answer": 2,
+          "explanation": "常见读法/il.zɔ̃/与/il.sɔ̃/，拥有和身份不同。",
+          "group": "pronunciation",
+          "id": "l08-q26"
+        },
+        {
+          "question": "cet artiste的/t/属于：",
+          "options": [
+            "联诵 enchaînement",
+            "不发音",
+            "隐藏s的/z/连读"
+          ],
+          "answer": 0,
+          "explanation": "cet本来发/t/，与元音重新划分音节。",
+          "group": "pronunciation",
+          "id": "l08-q27"
+        },
+        {
+          "question": "有人误认右边Mei是Ana，合适的纠正：",
+          "options": [
+            "Non, elle a Ana.",
+            "Non, ce n’est pas Ana. C’est Mei.",
+            "Non, il y ont Mei."
+          ],
+          "answer": 1,
+          "explanation": "用身份指认纠正，ne…pas围绕est。",
+          "group": "speaking",
+          "id": "l08-q28"
+        },
+        {
+          "question": "“这位女性头发是长的”正确写法：",
+          "options": [
+            "Elle est les cheveux longues.",
+            "Elle a les cheveux longues.",
+            "Elle a les cheveux longs."
+          ],
+          "answer": 2,
+          "explanation": "avoir身体特征；longs配合cheveux阳性复数。",
+          "group": "writing",
+          "id": "l08-q29"
+        },
+        {
+          "question": "只凭Ana regarde Mei. Elle a les cheveux courts能确定Elle指谁吗？",
+          "options": [
+            "不能，这两句的指代可能含混",
+            "一定指Ana",
+            "一定指Mei"
+          ],
+          "answer": 0,
+          "explanation": "两位女性都可接elle，且都短发；需上下文。",
+          "group": "reading",
+          "id": "l08-q30"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "identity",
+          "portraits",
+          "location",
+          "possessions",
+          "errors"
+        ],
+        "vocabulary": [
+          "words"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading-method",
+          "phrases"
+        ],
+        "speaking": [
+          "identity",
+          "location",
+          "phrases"
+        ],
+        "writing": [
+          "portraits",
+          "possessions",
+          "phrases",
+          "errors"
+        ]
+      },
+      "listening": "教材第8课综合任务：先识别人名与职业，再记录外貌、位置和所属，最后对照自己的教材资料。本站虚构展览资料用于朗读和口语输出，不是教材配套音频原文。"
     }
   ]
 };

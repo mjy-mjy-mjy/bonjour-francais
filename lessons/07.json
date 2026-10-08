@@ -1,0 +1,457 @@
+{
+  "number": 7,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标 / 从指物到购物",
+      "html": "<h2>1. 学习目标 / 从指物到购物</h2><p>本课对应 <strong>Shopping，第28—29页</strong>。教材核心是指示形容词、疑问形容词、comment / combien、描述物品和购物表达，以及词语之间的语音衔接。第5课的物品复数、第6课的颜色和配合在这里继续使用。</p><ol><li>准确选择 ce / cet / cette / ces，指出一件或几件商品。</li><li>用 quel / quelle / quels / quelles 询问颜色、尺码或价格。</li><li>区分“怎么样”“多少钱”“多少件”，能提问并回答。</li><li>读懂简单价签，描述商品颜色、大小，表达喜好。</li><li>完成至少8次发言的购物对话，说明所指商品，问价，再作选择。</li></ol><p>学习顺序：指示词 → 疑问词 → 问句功能 → 价格 → 描述 → 词汇 → 场景 → 语音 → 纠错 → 练习。所有商店、价格和对话均为本站原创的学习情境，不是实际商品报价。-ci / -là、材质、cher作副词及礼貌句 Je voudrais… 属于明确标注的补充。</p>"
+    },
+    {
+      "id": "demonstratives",
+      "title": "2. 指示词 / ce、cet、cette、ces",
+      "html": "<h2>2. 指示词 / ce、cet、cette、ces</h2><div class=\"table-scroll\"><table><thead><tr><th>所修饰名词</th><th>形式</th><th>例子</th><th>判断理由</th></tr></thead><tbody><tr><td>阳性单数，辅音起首</td><td>ce</td><td>ce sac / ce manteau</td><td>sac、manteau均为阳性单数</td></tr><tr><td>阳性单数，元音或哑音h起首</td><td>cet</td><td>cet article / cet homme</td><td>article、homme均为阳性单数，便于衔接</td></tr><tr><td>阴性单数，不论起首</td><td>cette</td><td>cette veste / cette écharpe / cette amie</td><td>先看阴性，不因元音改为cet</td></tr><tr><td>复数，不分阴阳</td><td>ces</td><td>ces sacs / ces robes / ces articles</td><td>先看复数，不使用cets或cettes</td></tr></tbody></table></div><p><strong>先数、再性、最后起首声音。</strong>复数一律 ces；单数阴性一律 cette；只在阳性单数内部区分 ce 与 cet。ce / cette 并不跟说话者的性别变化：男女顾客都说 cette veste。</p><p>指示词通常占据冠词的位置：<strong>ce sac</strong>，不说 ce le sac、un ce sac。它可指“这”也可指“那”，具体靠现场和语境判断，不是 ce 近、cet 远。</p><p>补充：<strong>ce sac-ci / ce sac-là</strong>可明确区分这个包／那个包，-ci、-là接在名词后；复数 ces sacs-là 仍由 ces 表示复数。h需要查词典类别：cet homme 是哑音h；ce héros 是嘘音h，阻止衔接。不要把所有写h的词都改成cet。</p><p>对照：<strong>ces chaussures</strong>＝这些鞋；<strong>ses chaussures</strong>＝他／她的鞋。ces 和 ses 通常同音 /se/，书写必须看意义。</p>"
+    },
+    {
+      "id": "quel",
+      "title": "3. 疑问形容词 / quel的四种形式",
+      "html": "<h2>3. 疑问形容词 / quel的四种形式</h2><div class=\"table-scroll\"><table><thead><tr><th>名词特征</th><th>形式</th><th>问句</th><th>回答</th></tr></thead><tbody><tr><td>阳性单数</td><td>quel</td><td>Quel sac ?</td><td>Ce sac noir.</td></tr><tr><td>阴性单数</td><td>quelle</td><td>Quelle couleur ?</td><td>Bleu.</td></tr><tr><td>阳性复数</td><td>quels</td><td>Quels articles ?</td><td>Ces deux sacs.</td></tr><tr><td>阴性复数</td><td>quelles</td><td>Quelles chaussures ?</td><td>Ces chaussures noires.</td></tr></tbody></table></div><p>quel相当于“什么／哪一个”，必须与所询问的<strong>名词</strong>配合。顾客是女性，不会使 prix 变成 quelle：<strong>Quel est le prix de cette robe ?</strong>里 prix 阳性单数，所以 quel est；即使问一双复数 chaussures 的总价，也是 Quel est le prix de ces chaussures ?</p><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>例句</th><th>分析</th></tr></thead><tbody><tr><td>quel + 名词</td><td>Quelle taille ?</td><td>taille阴性单数，问尺码</td></tr><tr><td>quel + être + 名词</td><td>Quelle est la couleur de ce pull ?</td><td>couleur阴性单数，être用est</td></tr><tr><td>复数名词对应sont</td><td>Quelles sont les couleurs de ces robes ?</td><td>couleurs阴性复数，对应quelles sont</td></tr></tbody></table></div><p>常见固定搭配：quel prix、quelle taille、quelle couleur、quels vêtements、quelles chaussures。quel / quelle / quels / quelles单独常读 /kɛl/，拼写差别需要从名词判断；后接元音时复数形式可出现 /z/ 连读，如 quels articles。</p>"
+    },
+    {
+      "id": "questions",
+      "title": "4. 问句功能 / comment、combien、combien de",
+      "html": "<h2>4. 问句功能 / comment、combien、combien de</h2><div class=\"table-scroll\"><table><thead><tr><th>想获取的信息</th><th>问题</th><th>自然回答</th><th>不要混淆</th></tr></thead><tbody><tr><td>样子、特点</td><td>Cette veste, elle est comment ?</td><td>Elle est courte et rouge.</td><td>不是问多少钱</td></tr><tr><td>价钱</td><td>Combien coûte cette veste ?</td><td>Elle coûte vingt-quatre euros cinquante.</td><td>金额回答</td></tr><tr><td>口语问价</td><td>Ça coûte combien ? / C’est combien ?</td><td>C’est vingt-quatre euros cinquante.</td><td>须有明确商品语境</td></tr><tr><td>数量</td><td>Combien de sacs est-ce qu’il y a ?</td><td>Il y a deux sacs.</td><td>combien de + 名词，de不变</td></tr><tr><td>颜色</td><td>Quelle est la couleur de ce pull ?</td><td>Il est bleu.</td><td>couleur决定quelle</td></tr><tr><td>尺码</td><td>Quelle taille ?</td><td>Taille M.</td><td>服装标签可见的尺码</td></tr><tr><td>位置（复习）</td><td>Où sont ces chaussures ?</td><td>Elles sont sous la table.</td><td>où问地点</td></tr></tbody></table></div><p>口语中疑问词可留在句末：<strong>Cette robe coûte combien ?</strong>也可放前面：<strong>Combien coûte cette robe ?</strong>。先掌握完整、清楚的问题，再根据对话使用短问句。combien de直接接名词：combien de robes，不说 combien des robes；“你有多少件外套？”可说 Combien de vestes est-ce que tu as ?</p><p>对话接续：问“Elle est comment ?”时，Elle est noire 回答外观；问“Elle coûte combien ?”时，Elle coûte trente euros 回答价钱。听到数字不一定是价格，数量问题回答数量，尺码问题回答标签尺码。</p>"
+    },
+    {
+      "id": "prices",
+      "title": "5. 价格表达 / coûter变位与欧元读法",
+      "html": "<h2>5. 价格表达 / coûter变位与欧元读法</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>coûter现在时</th><th>例句</th></tr></thead><tbody><tr><td>je</td><td>coûte</td><td>Je coûte…形式可变位，但本课通常以商品作主语。</td></tr><tr><td>tu</td><td>coûtes</td><td>tu coûtes</td></tr><tr><td>il / elle / ça</td><td>coûte</td><td>Cette veste coûte vingt euros.</td></tr><tr><td>nous</td><td>coûtons</td><td>nous coûtons</td></tr><tr><td>vous</td><td>coûtez</td><td>vous coûtez</td></tr><tr><td>ils / elles</td><td>coûtent</td><td>Ces chaussures coûtent trente euros.</td></tr></tbody></table></div><p>coûter是规则-er动词。商品单数用 coûte，复数用 coûtent；词尾-e / -es / -ent在这些形式中通常不发音。名词与代词一致：<strong>Ce pull coûte vingt euros. Il coûte vingt euros.</strong>；<strong>Ces chaussures coûtent trente euros. Elles coûtent trente euros.</strong>不要按“一个价格”把复数商品的动词改为单数。</p><div class=\"table-scroll\"><table><thead><tr><th>价签</th><th>常见读法</th><th>中文</th></tr></thead><tbody><tr><td>1 €</td><td>un euro</td><td>一欧元</td></tr><tr><td>20 €</td><td>vingt euros</td><td>二十欧元</td></tr><tr><td>24,50 €</td><td>vingt-quatre euros cinquante</td><td>二十四欧元五十欧分</td></tr><tr><td>30,90 €</td><td>trente euros quatre-vingt-dix</td><td>三十欧元九十欧分</td></tr><tr><td>8,05 €</td><td>huit euros cinq centimes</td><td>八欧元五欧分</td></tr></tbody></table></div><p>法语书面价签常用逗号分隔小数部分。24,50 €里的50是欧分，不能读成二十四欧元五欧分。也可完整说 vingt-quatre euros et cinquante centimes。euro为阳性名词，复数写euros；un euro，deux euros。数字衔接按具体数字学习：deux euros有 /z/，vingt euros通常有 /t/；不要把所有末尾辅音都读出来。</p><p>数词复习：vingt et un、vingt-deux、trente、quarante、cinquante、soixante。价格任务优先掌握1—69及常见欧分；更大数字系统后续再学。追问可说 Pardon, combien ? 或 Vous pouvez répéter, s’il vous plaît ?，后一句按整块表达使用。</p>"
+    },
+    {
+      "id": "description",
+      "title": "6. 描述与选择 / 配合、喜好、材质",
+      "html": "<h2>6. 描述与选择 / 配合、喜好、材质</h2><div class=\"table-scroll\"><table><thead><tr><th>用途</th><th>表达</th><th>中文与要点</th></tr></thead><tbody><tr><td>介绍特点</td><td>Ce sac est petit et noir.</td><td>petit、noir与sac阳性单数配合</td></tr><tr><td>阴性特点</td><td>Cette veste est petite et noire.</td><td>两个形容词都配合</td></tr><tr><td>复数特点</td><td>Ces robes sont longues et bleues.</td><td>两项都阴性复数</td></tr><tr><td>价格评价</td><td>Cette robe est chère. / Ces sacs sont chers.</td><td>cher / chère / chers / chères与主语配合</td></tr><tr><td>喜欢</td><td>J’aime ce pull. / J’aime bien cette couleur.</td><td>aimer + 所选物品；不加à</td></tr><tr><td>不喜欢</td><td>Je n’aime pas ces chaussures.</td><td>否定围绕aime，指示词ces保留</td></tr><tr><td>选择</td><td>Je prends ce sac.</td><td>本课作为购物短语掌握“我选这个包”</td></tr><tr><td>补充：材质</td><td>un pull en laine / un sac en cuir</td><td>羊毛毛衣／皮包，en后的材质这里不加冠词</td></tr><tr><td>补充：试穿</td><td>Je voudrais essayer cette veste, s’il vous plaît.</td><td>礼貌请求整块掌握，条件式稍后系统学习</td></tr></tbody></table></div><p>aimer现在时复习：j’aime、tu aimes、il/elle aime、nous aimons、vous aimez、ils/elles aiment。Je n’aime pas cette robe 与 Je n’ai pas de robe 结构不同：前者“不喜欢这条裙子”，cette不变；后者“没有裙子”，不定冠词通常改de。</p><p>补充辨析：<strong>Ces sacs sont chers</strong>中chers是形容词，配合sacs；<strong>Ces sacs coûtent cher</strong>中cher修饰coûter，是副词，不随sacs加s。前者是本课优先结构。不要把“便宜”硬译成petit：可说 Ce sac n’est pas cher。体型、尺寸、价格是不同信息。</p>"
+    },
+    {
+      "id": "words",
+      "title": "7. 词汇表 / 商品、价签与搭配",
+      "html": "<h2>7. 词汇表 / 商品、价签与搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>单数与阴阳性</th><th>复数</th><th>中文</th><th>整句使用</th></tr></thead><tbody><tr><td>un vêtement</td><td>des vêtements</td><td>衣服，类别总称</td><td>Ces vêtements sont bleus.</td></tr><tr><td>un pantalon</td><td>des pantalons</td><td>长裤，单条也用单数</td><td>Ce pantalon est noir.</td></tr><tr><td>un jean</td><td>des jeans</td><td>牛仔裤</td><td>Ce jean coûte trente euros.</td></tr><tr><td>une robe</td><td>des robes</td><td>连衣裙</td><td>Cette robe est longue.</td></tr><tr><td>une jupe</td><td>des jupes</td><td>半身裙</td><td>Cette jupe est courte.</td></tr><tr><td>une chemise</td><td>des chemises</td><td>衬衫</td><td>Cette chemise est blanche.</td></tr><tr><td>un pull</td><td>des pulls</td><td>套头毛衣</td><td>Ce pull est bleu.</td></tr><tr><td>un tee-shirt</td><td>des tee-shirts</td><td>T恤</td><td>Ce tee-shirt est rouge.</td></tr><tr><td>une veste</td><td>des vestes</td><td>外套、夹克</td><td>Cette veste est petite.</td></tr><tr><td>un manteau</td><td>des manteaux</td><td>大衣，复数-eaux</td><td>Ce manteau est gris.</td></tr><tr><td>une chaussure</td><td>des chaussures</td><td>一只鞋／鞋</td><td>Ces chaussures sont noires.</td></tr><tr><td>une écharpe</td><td>des écharpes</td><td>围巾，阴性元音仍cette</td><td>Cette écharpe est verte.</td></tr><tr><td>un chapeau</td><td>des chapeaux</td><td>帽子</td><td>Ce chapeau est marron.</td></tr><tr><td>un sac</td><td>des sacs</td><td>包</td><td>Ce sac est cher.</td></tr><tr><td>un article</td><td>des articles</td><td>商品、物品</td><td>Cet article coûte dix euros.</td></tr><tr><td>une couleur</td><td>des couleurs</td><td>颜色</td><td>Quelle couleur ?</td></tr><tr><td>une taille</td><td>des tailles</td><td>尺码、尺寸</td><td>Quelle taille ? Taille M.</td></tr><tr><td>un prix</td><td>des prix</td><td>价格，x结尾复数不变</td><td>Quel est le prix de ce sac ?</td></tr><tr><td>un euro</td><td>des euros</td><td>欧元</td><td>Deux euros.</td></tr><tr><td>un centime</td><td>des centimes</td><td>分，本情境为欧分</td><td>Cinq centimes.</td></tr><tr><td>la laine</td><td>—</td><td>羊毛（补充）</td><td>Ce pull est en laine.</td></tr><tr><td>le cuir</td><td>—</td><td>皮革（补充）</td><td>Ce sac est en cuir.</td></tr></tbody></table></div><p>记忆方法：一起记“限定词＋名词＋形容词”，如 une veste noire → cette veste noire → ces vestes noires。chaussures常以复数出现，但une chaussure确实可指一只鞋。pantalon、jean不因有两条裤腿就强制复数。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "8. 原创购物场景 / 价签、阅读与输出",
+      "html": "<h2>8. 原创购物场景 / 价签、阅读与输出</h2><div class=\"table-scroll\"><table><thead><tr><th>编号</th><th>商品</th><th>颜色／尺寸</th><th>价格（虚构）</th></tr></thead><tbody><tr><td>A</td><td>un sac</td><td>petit, noir</td><td>18 €</td></tr><tr><td>B</td><td>une veste</td><td>courte, rouge, taille M</td><td>24,50 €</td></tr><tr><td>C</td><td>des chaussures</td><td>noires, pointure 38</td><td>30 €</td></tr><tr><td>D</td><td>un pull</td><td>bleu, taille L</td><td>20 €</td></tr></tbody></table></div><p><strong>阅读资料：</strong>Dans cette boutique, il y a un sac, une veste, des chaussures et un pull. Le sac est petit et noir. Il coûte dix-huit euros. La veste est courte et rouge. Elle coûte vingt-quatre euros cinquante. Les chaussures sont noires. Elles coûtent trente euros. Le pull est bleu et coûte vingt euros. Léa aime la veste rouge. Elle n’aime pas les chaussures noires.</p><div class=\"table-scroll\"><table><thead><tr><th>角色</th><th>法语</th><th>中文</th></tr></thead><tbody><tr><td>店员</td><td>Bonjour !</td><td>您好！</td></tr><tr><td>顾客</td><td>Bonjour. Cette veste, elle est comment ?</td><td>您好。这件外套是什么样的？</td></tr><tr><td>店员</td><td>Elle est courte et rouge.</td><td>短款、红色。</td></tr><tr><td>顾客</td><td>Quelle taille ?</td><td>什么尺码？</td></tr><tr><td>店员</td><td>Taille M.</td><td>M号。</td></tr><tr><td>顾客</td><td>Elle coûte combien ?</td><td>多少钱？</td></tr><tr><td>店员</td><td>Vingt-quatre euros cinquante.</td><td>24.50欧元。</td></tr><tr><td>顾客</td><td>J’aime cette couleur. Et ces chaussures ?</td><td>我喜欢这个颜色。那这些鞋呢？</td></tr><tr><td>店员</td><td>Elles coûtent trente euros.</td><td>30欧元。</td></tr><tr><td>顾客</td><td>Merci. Je prends la veste.</td><td>谢谢。我选这件外套。</td></tr></tbody></table></div><p>pointure表示鞋码，taille用于此处服装尺码；不推断不同国家尺码换算。文章没有说明材质、库存或Léa是否购买，不能从喜欢推断已经买了。</p><p><strong>听力练法：</strong>配套教材音频第7课按“先辨商品 → 再记价格 → 再听指示词和单复数 → 对照教材”四遍练习。上面资料是本站原创阅读素材，不冒充教材音频原文。</p><p><strong>口语：</strong>用A—D价签替换对话中的商品，双方各说至少4次，每次问句都要有对应回答。<strong>写作：</strong>用6—8句介绍两件商品，包括指示词、颜色或尺寸、价格、喜好；写后检查限定词、主语、动词及形容词的数。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "9. 语音 / 连读、联诵与省音",
+      "html": "<h2>9. 语音 / 连读、联诵与省音</h2><div class=\"table-scroll\"><table><thead><tr><th>现象</th><th>例子</th><th>听读提示</th></tr></thead><tbody><tr><td>连读 liaison</td><td>ces articles /se.zaʁ.tikl/</td><td>ces单独末尾s不发音，接元音名词时带/z/</td></tr><tr><td>复习连读</td><td>deux euros /dø.zø.ʁo/</td><td>数字与元音起首单位的衔接</td></tr><tr><td>联诵 enchaînement</td><td>cet article /sɛ.taʁ.tikl/</td><td>cet中的t本来发音，接元音重新划分音节，不是隐藏s的连读</td></tr><tr><td>阴性联诵</td><td>cette écharpe /sɛ.te.ʃaʁp/</td><td>cette也有/t/；阴性元音不改cet</td></tr><tr><td>无需连读</td><td>ces manteaux</td><td>m辅音起首，ces末尾不另读/z/</td></tr><tr><td>禁用/t/连读</td><td>un sac et une veste</td><td>et不能因为后面une就读出/t/</td></tr><tr><td>省音 élision</td><td>j’aime / l’article</td><td>je、le等在元音或哑音h前省音</td></tr><tr><td>同音辨义</td><td>ces / ses</td><td>同读/se/，听语境“这些”还是“他／她的”</td></tr><tr><td>四形近同音</td><td>quel / quelle / quels / quelles</td><td>通常/kɛl/，不能只靠单个词声音判断性数</td></tr></tbody></table></div><p>练习节奏：<strong>ces‿articles / cet‿article / cette‿écharpe / ce manteau</strong>各读三次，再嵌入 Cet article coûte dix euros。符号‿在这里提示衔接，连读与联诵的成因仍不同。不把每个书面词尾辅音都恢复发音。</p><p>价格录音：录下18 €、20 €、24,50 €、30 €；重听能否区分24.50与24.05。再录“Cette veste est rouge. Ces chaussures sont noires.”，检查这件／这些的声音和句意。</p>"
+    },
+    {
+      "id": "errors",
+      "title": "10. 易错点 / 选形、问意与读价",
+      "html": "<h2>10. 易错点 / 选形、问意与读价</h2><div class=\"table-scroll\"><table><thead><tr><th>误用或误判</th><th>改正</th><th>原因</th></tr></thead><tbody><tr><td>cet veste</td><td>cette veste</td><td>veste阴性；元音规则只在阳性单数内部</td></tr><tr><td>ce article</td><td>cet article</td><td>article阳性单数元音起首</td></tr><tr><td>cet écharpe</td><td>cette écharpe</td><td>écharpe阴性，不用cet</td></tr><tr><td>cette chaussures</td><td>ces chaussures</td><td>名词复数，统一ces</td></tr><tr><td>ce le pull</td><td>ce pull</td><td>指示词不和定冠词叠放</td></tr><tr><td>Quelle est le prix ?</td><td>Quel est le prix ?</td><td>prix阳性单数，不跟顾客或商品性别</td></tr><tr><td>Quel couleurs ?</td><td>Quelles couleurs ?</td><td>couleurs阴性复数</td></tr><tr><td>Combien des robes ?</td><td>Combien de robes ?</td><td>数量结构combien de</td></tr><tr><td>Ces chaussures coûte vingt euros.</td><td>Ces chaussures coûtent vingt euros.</td><td>复数商品主语决定coûtent</td></tr><tr><td>Cette veste est cher.</td><td>Cette veste est chère.</td><td>être后形容词与veste配合</td></tr><tr><td>Ces sacs coûtent chers.</td><td>Ces sacs coûtent cher.</td><td>补充：这里cher是副词</td></tr><tr><td>Je n’aime pas de sac.（想说不喜欢这个包）</td><td>Je n’aime pas ce sac.</td><td>否定不会把指示词ce改de</td></tr><tr><td>“24,50 €”读成24欧元5欧分</td><td>vingt-quatre euros cinquante</td><td>逗号后50是五十欧分</td></tr><tr><td>“Elle est comment ?”只答vingt euros</td><td>Elle est courte et rouge.</td><td>问特征就回答特征</td></tr><tr><td>Léa喜欢外套，所以她已买外套</td><td>资料未提及是否购买</td><td>阅读不得把推测当已知</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "practice",
+      "title": "11. 书面练习 / A—J与完整解析",
+      "html": "<h2>11. 书面练习 / A—J与完整解析</h2><p>先独立写答案，再逐组展开解析。开放题的参考文本是示范，不是唯一答案；照着自查项修改自己的表达。</p><h3>A. 填写指示词</h3><ol><li>___ sac noir</li><li>___ article (m.)</li><li>___ veste rouge</li><li>___ écharpe verte</li><li>___ chaussures noires</li><li>___ homme (h muet)</li><li>___ amie (f.)</li><li>___ manteaux gris</li></ol><details><summary>展开答案与解析</summary><ol><li>ce：阳性单数辅音。</li><li>cet：阳性单数元音。</li><li>cette：阴性单数。</li><li>cette：阴性元音仍用cette。</li><li>ces：阴性复数。</li><li>cet：阳性、哑音h。</li><li>cette：amie阴性，不能cet。</li><li>ces：manteaux阳性复数。</li></ol></details><h3>B. 填写quel四种形式</h3><ol><li>___ prix ?</li><li>___ couleur ?</li><li>___ articles ?</li><li>___ chaussures ?</li><li>___ est le prix de ces robes ?</li><li>___ sont les couleurs de ces pulls ?</li></ol><details><summary>展开答案与解析</summary><ol><li>Quel，prix阳性单数。</li><li>Quelle，couleur阴性单数。</li><li>Quels，articles阳性复数。</li><li>Quelles，chaussures阴性复数。</li><li>Quel：所询问名词prix单数，不是robes。</li><li>Quelles：couleurs阴性复数，对应sont。</li></ol></details><h3>C. 词汇与价格</h3><ol><li>译成法语：一件大衣／这些大衣。</li><li>译成法语：这条长裤。</li><li>译成法语：这条围巾。</li><li>用法语写24,50 €的口语读法。</li><li>用法语写8,05 €的完整读法。</li><li>哪一词问鞋码：taille还是pointure？</li></ol><details><summary>展开答案与解析</summary><ol><li>un manteau / ces manteaux；复数改-eaux。</li><li>ce pantalon；pantalon阳性单数。</li><li>cette écharpe；阴性。</li><li>vingt-quatre euros cinquante；50欧分。</li><li>huit euros et cinq centimes；明确五欧分。</li><li>pointure；本场景taille问服装尺码。</li></ol></details><h3>D. 选择问句功能</h3><ol><li>想问外套外观，用comment还是combien？写完整口语句。</li><li>问这只包价格，用coûter写问句。</li><li>问有多少只包，用combien de和il y a写完整问句。</li><li>问毛衣颜色，用quelle写问句。</li><li>问这些鞋在哪，用où写问句。</li><li>把单数Cette veste coûte vingt euros改为复数。</li></ol><details><summary>展开答案与解析</summary><ol><li>Cette veste, elle est comment ? comment问特征。</li><li>Combien coûte ce sac ? / Ce sac coûte combien ? 均问价。</li><li>Combien de sacs est-ce qu’il y a ? 数量结构保留de。</li><li>Quelle est la couleur de ce pull ? couleur决定quelle。</li><li>Où sont ces chaussures ? chaussures复数，用sont。</li><li>Ces vestes coûtent vingt euros. 限定词、名词和动词一同改变；金额未必改变，题目保持原值。</li></ol></details><h3>E. 对话接句</h3><ol><li>店员问Quelle taille ?，你需M号，怎样简答？</li><li>店员问Quelle couleur ?，你想要蓝色，怎样简答？</li><li>问Elle coûte combien ?，价签20 €，用完整句回答。</li><li>店员问Vous aimez ces chaussures ?，你不喜欢，怎样回答？</li><li>你未听清价格，写一个追问。</li><li>你选这只包，用Je prends回答。</li></ol><details><summary>展开答案与解析</summary><ol><li>Taille M, s’il vous plaît. 按已给标签回答。</li><li>Bleu, s’il vous plaît. 也可La couleur bleue；此处简答颜色。</li><li>Elle coûte vingt euros. 保持代词elle。</li><li>Non, je n’aime pas ces chaussures. ces不变。</li><li>Pardon, combien ? 礼貌要求再说金额。</li><li>Je prends ce sac. 指出已选物品。</li></ol></details><h3>F. 中文转法语</h3><ol><li>这件外套又短又红。</li><li>这些鞋是黑色的。</li><li>这只包18欧元。</li><li>这条裙子很贵。</li><li>我喜欢这个颜色。</li><li>我不喜欢这些鞋。</li></ol><details><summary>展开答案与解析</summary><ol><li>Cette veste est courte et rouge. 两个形容词与veste配合。</li><li>Ces chaussures sont noires. sont与noires均复数。</li><li>Ce sac coûte dix-huit euros. sac阳性单数。</li><li>Cette robe est chère. chère阴性单数。</li><li>J’aime cette couleur. couleur阴性；aimer后直接接宾语。</li><li>Je n’aime pas ces chaussures. ne省音，ces保留。</li></ol></details><h3>G. 依据第8模块资料阅读</h3><ol><li>黑色的小商品是什么？</li><li>外套价格是多少？</li><li>哪件商品是蓝色？</li><li>鞋的颜色和价格分别是什么？</li><li>Léa喜欢什么？</li><li>Léa不喜欢什么？</li><li>资料能否证明Léa买了外套？</li></ol><details><summary>展开答案与解析</summary><ol><li>Le sac. 资料给small/noir对应包。</li><li>24,50 € / vingt-quatre euros cinquante。</li><li>Le pull；不可把蓝色移到外套。</li><li>Elles sont noires et coûtent trente euros. 两项都需回答。</li><li>Elle aime la veste rouge.</li><li>Elle n’aime pas les chaussures noires.</li><li>不能；资料只说喜欢，未提及购买。</li></ol></details><h3>H. 语音识别</h3><ol><li>ces articles中是否有/z/？说明原因。</li><li>cet article中的/t/属于连读还是联诵？</li><li>cette écharpe应否因元音改写cet écharpe？</li><li>ces manteaux需要加读/z/吗？</li><li>et une veste里的et能读/t/连读吗？</li><li>quel、quelle、quels、quelles能否仅靠其单独读音判断性数？</li></ol><details><summary>展开答案与解析</summary><ol><li>有，ces末尾原本不读的s在元音名词前连读为/z/。</li><li>联诵enchaînement：cet本来就发/t/，与后面元音衔接。</li><li>不能；阴性依然cette，有/t/联诵。</li><li>不需要；m是辅音。</li><li>不能；et不作/t/连读。</li><li>通常不能，四形单独常同读/kɛl/，须看名词与语境。</li></ol></details><h3>I. 纠错并解释</h3><ol><li>cet robe</li><li>ce article</li><li>Quels est le prix de ces chaussures ?</li><li>Ces sacs sont chère.</li><li>Ces chaussures coûte trente euros.</li><li>Je n’aime pas de cette veste.</li><li>Combien des pulls est-ce qu’il y a ?</li><li>Ces sacs coûtent chers.（补充）</li></ol><details><summary>展开答案与解析</summary><ol><li>cette robe：阴性。</li><li>cet article：阳性单数元音。</li><li>Quel est le prix de ces chaussures ? prix阳性单数。</li><li>Ces sacs sont chers. 阳性复数配合。</li><li>Ces chaussures coûtent trente euros. 主语复数。</li><li>Je n’aime pas cette veste. 指示词不变且不加de。</li><li>Combien de pulls est-ce qu’il y a ? 数量结构de。</li><li>Ces sacs coûtent cher. cher作副词不变。</li></ol></details><h3>J. 开放输出与自查</h3><ol><li>用6—8句介绍A、B两件商品，含价格与喜好。</li><li>写至少8次发言的购物对话，包含商品指认、问特征、问价与选择。</li><li>从家中选三件衣物，各写指示词＋特点，至少一项复数。</li><li>录一段30秒购物描述，再检查四个衔接例子。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考：Ce sac est petit et noir. Il coûte dix-huit euros. J’aime ce sac. Cette veste est courte. Elle est rouge. Elle coûte vingt-quatre euros cinquante. J’aime cette couleur. 自查ce/cette、主语和形容词一致；无需声称购买。</li><li>参考8次发言：A Bonjour. / B Bonjour. / A Cette veste, elle est comment ? / B Elle est courte et rouge. / A Elle coûte combien ? / B Vingt-quatre euros cinquante. / A J’aime cette couleur. Je prends la veste. / B Merci. 自查每问必有对应答句，可增加尺码回合。</li><li>参考：Ce pantalon est noir. Cette écharpe est verte. Ces chaussures sont marron. 自查性数，marron不变；实际内容可替换但要配合。</li><li>参考：Cet article coûte dix euros. Cette écharpe est verte. Ces articles sont chers. Je prends un sac et une veste. 自查cet与cette的/t/联诵、ces articles的/z/、et后不加/t/。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12. 复习清单 / 自测与学习资料",
+      "html": "<h2>12. 复习清单 / 自测与学习资料</h2><ul><li>我能按数→性→起首声音选择四种指示词。</li><li>我知道cette amie不能改成cet amie。</li><li>我能使quel与prix、taille、couleurs配合。</li><li>我能区分comment、combien、combien de，并回答相应信息。</li><li>我能读24,50 €，区分五十欧分和五欧分。</li><li>我能让商品复数对应coûtent和正确代词。</li><li>我能表达喜欢／不喜欢，并保留指示词。</li><li>我能区别ces与ses、连读与联诵。</li><li>我能完成购物对话，不凭阅读资料猜购买结果。</li></ul><p><strong>一分钟复习：</strong>ce sac / cet article / cette veste / ces chaussures；Quel prix ? Quelle taille ? Quelles couleurs ?；Elle est comment ? Elle coûte combien ?；Ces chaussures coûtent trente euros. Je n’aime pas ces chaussures.</p><p>复习安排：当天完成A—D；第二天口头做E、H并写F；第三天读G、改I、完成J；一周后先做即时小测再回顾错题。笔记里记录“原句→改句→理由”，不要只抄正确选项。</p><p>核对来源：<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Hachette《Le Nouveau Taxi! 1》课程目录</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/det7.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：指示词</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/int4.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：quel</a>；<a href=\"https://www.laits.utexas.edu/tex/pr/int7.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：疑问词</a>。正文、场景和练习为原创学习材料；请结合自己的教材与配套音频使用。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "___ article est noir.（article阳性单数）",
+      "options": [
+        "Ce",
+        "Cet",
+        "Cette"
+      ],
+      "answer": 1,
+      "explanation": "article阳性单数且元音起首，用cet。",
+      "group": "grammar",
+      "id": "l07-q01"
+    },
+    {
+      "question": "___ écharpe est verte.",
+      "options": [
+        "Cet",
+        "Ce",
+        "Cette"
+      ],
+      "answer": 2,
+      "explanation": "écharpe阴性；即使元音起首仍是cette。",
+      "group": "grammar",
+      "id": "l07-q02"
+    },
+    {
+      "question": "___ chaussures sont noires.",
+      "options": [
+        "Ces",
+        "Cet",
+        "Cette"
+      ],
+      "answer": 0,
+      "explanation": "复数不分阴阳，一律ces。",
+      "group": "grammar",
+      "id": "l07-q03"
+    },
+    {
+      "question": "“这只包”的正确写法？",
+      "options": [
+        "ce le sac",
+        "ce sac",
+        "cet sac"
+      ],
+      "answer": 1,
+      "explanation": "指示词替代冠词，且sac以辅音起首。",
+      "group": "grammar",
+      "id": "l07-q04"
+    },
+    {
+      "question": "___ homme：homme的h是哑音h。",
+      "options": [
+        "Ce",
+        "Cette",
+        "Cet"
+      ],
+      "answer": 2,
+      "explanation": "阳性单数哑音h起首使用cet。",
+      "group": "grammar",
+      "id": "l07-q05"
+    },
+    {
+      "question": "___ amie：amie为阴性。",
+      "options": [
+        "Cette",
+        "Cet",
+        "Ce"
+      ],
+      "answer": 0,
+      "explanation": "阴性单数用cette，不使用阳性cet。",
+      "group": "grammar",
+      "id": "l07-q06"
+    },
+    {
+      "question": "___ est le prix de ces chaussures ?",
+      "options": [
+        "Quelle",
+        "Quels",
+        "Quel"
+      ],
+      "answer": 2,
+      "explanation": "与prix阳性单数配合，不与chaussures配合。",
+      "group": "grammar",
+      "id": "l07-q07"
+    },
+    {
+      "question": "___ couleurs aimez-vous ?",
+      "options": [
+        "Quel",
+        "Quelles",
+        "Quels"
+      ],
+      "answer": 1,
+      "explanation": "couleurs阴性复数，所以quelles。",
+      "group": "grammar",
+      "id": "l07-q08"
+    },
+    {
+      "question": "问服装尺码时选择：",
+      "options": [
+        "Quelle taille ?",
+        "Quel taille ?",
+        "Quelles taille ?"
+      ],
+      "answer": 0,
+      "explanation": "taille阴性单数，用quelle。",
+      "group": "grammar",
+      "id": "l07-q09"
+    },
+    {
+      "question": "想问这件外套的外观，选哪一句？",
+      "options": [
+        "Elle coûte combien ?",
+        "Elle est comment ?",
+        "Combien de vestes ?"
+      ],
+      "answer": 1,
+      "explanation": "comment问特点，另两项问金额或数量。",
+      "group": "speaking",
+      "id": "l07-q10"
+    },
+    {
+      "question": "想知道店里有多少只包：",
+      "options": [
+        "Comment est ce sac ?",
+        "Combien coûte ce sac ?",
+        "Combien de sacs est-ce qu’il y a ?"
+      ],
+      "answer": 2,
+      "explanation": "combien de + 名词是数量结构。",
+      "group": "grammar",
+      "id": "l07-q11"
+    },
+    {
+      "question": "Ces chaussures ___ trente euros.",
+      "options": [
+        "coûtent",
+        "coûte",
+        "coûtez"
+      ],
+      "answer": 0,
+      "explanation": "chaussures复数第三人称，用coûtent。",
+      "group": "grammar",
+      "id": "l07-q12"
+    },
+    {
+      "question": "24,50 €的常见读法：",
+      "options": [
+        "vingt-quatre euros cinq",
+        "vingt-quatre euros cinquante",
+        "vingt-quatre euros quinze"
+      ],
+      "answer": 1,
+      "explanation": "50欧分读cinquante，5和15对应不同金额。",
+      "group": "vocabulary",
+      "id": "l07-q13"
+    },
+    {
+      "question": "8,05 €可明确读作：",
+      "options": [
+        "huit euros cinquante centimes",
+        "huit euros quinze centimes",
+        "huit euros cinq centimes"
+      ],
+      "answer": 2,
+      "explanation": "05表示五欧分。",
+      "group": "vocabulary",
+      "id": "l07-q14"
+    },
+    {
+      "question": "Cette robe est ___.",
+      "options": [
+        "chère",
+        "cher",
+        "chers"
+      ],
+      "answer": 0,
+      "explanation": "形容词与robe阴性单数配合。",
+      "group": "grammar",
+      "id": "l07-q15"
+    },
+    {
+      "question": "Ces sacs sont ___.",
+      "options": [
+        "chère",
+        "chers",
+        "chères"
+      ],
+      "answer": 1,
+      "explanation": "sacs阳性复数，形容词chers。",
+      "group": "grammar",
+      "id": "l07-q16"
+    },
+    {
+      "question": "Ces sacs coûtent ___.（补充）",
+      "options": [
+        "chères",
+        "chers",
+        "cher"
+      ],
+      "answer": 2,
+      "explanation": "coûter cher里的cher为副词，不作性数变化。",
+      "group": "grammar",
+      "id": "l07-q17"
+    },
+    {
+      "question": "表示“我不喜欢这些鞋”：",
+      "options": [
+        "Je n’aime pas ces chaussures.",
+        "Je n’aime pas de chaussures.",
+        "Je n’ai pas de chaussures."
+      ],
+      "answer": 0,
+      "explanation": "指示词ces保留；第三项是没有鞋，不是喜好。",
+      "group": "writing",
+      "id": "l07-q18"
+    },
+    {
+      "question": "这些大衣：",
+      "options": [
+        "ces manteaus",
+        "ces manteaux",
+        "cette manteaux"
+      ],
+      "answer": 1,
+      "explanation": "manteau复数为manteaux，限定词ces。",
+      "group": "vocabulary",
+      "id": "l07-q19"
+    },
+    {
+      "question": "一条长裤：",
+      "options": [
+        "une pantalon",
+        "des pantalon",
+        "un pantalon"
+      ],
+      "answer": 2,
+      "explanation": "pantalon阳性；单条裤子使用单数。",
+      "group": "vocabulary",
+      "id": "l07-q20"
+    },
+    {
+      "question": "ces articles里衔接辅音是？",
+      "options": [
+        "/z/",
+        "/t/",
+        "没有衔接辅音"
+      ],
+      "answer": 0,
+      "explanation": "ces末尾s在元音名词前连读为/z/。",
+      "group": "pronunciation",
+      "id": "l07-q21"
+    },
+    {
+      "question": "cet article中的/t/属于？",
+      "options": [
+        "从不发音",
+        "联诵 enchaînement",
+        "ces的/z/连读"
+      ],
+      "answer": 1,
+      "explanation": "cet原本有/t/，此处与元音重新划分音节。",
+      "group": "pronunciation",
+      "id": "l07-q22"
+    },
+    {
+      "question": "et une veste应怎样读et的末尾？",
+      "options": [
+        "必须/t/",
+        "必须/z/",
+        "不作/t/连读"
+      ],
+      "answer": 2,
+      "explanation": "et不因后接元音而发/t/连读。",
+      "group": "pronunciation",
+      "id": "l07-q23"
+    },
+    {
+      "question": "ces与ses单独发音通常：",
+      "options": [
+        "同音，需要语境辨义",
+        "ces读/t/而ses读/s/",
+        "可以仅凭读音辨性别"
+      ],
+      "answer": 0,
+      "explanation": "通常同读/se/，书写区别指示和所属。",
+      "group": "pronunciation",
+      "id": "l07-q24"
+    },
+    {
+      "question": "阅读资料中，外套的价格是？",
+      "options": [
+        "30 €",
+        "24,50 €",
+        "18 €"
+      ],
+      "answer": 1,
+      "explanation": "资料说明veste24.50，鞋30、包18。",
+      "group": "reading",
+      "id": "l07-q25"
+    },
+    {
+      "question": "阅读资料中，Léa不喜欢什么？",
+      "options": [
+        "le pull bleu",
+        "la veste rouge",
+        "les chaussures noires"
+      ],
+      "answer": 2,
+      "explanation": "原文Elle n’aime pas les chaussures noires。",
+      "group": "reading",
+      "id": "l07-q26"
+    },
+    {
+      "question": "资料能证明Léa买了外套吗？",
+      "options": [
+        "不能，资料未提及购买",
+        "能，因为她喜欢",
+        "能，因为她看见价签"
+      ],
+      "answer": 0,
+      "explanation": "喜好和购买是不同事实；不补造结果。",
+      "group": "reading",
+      "id": "l07-q27"
+    },
+    {
+      "question": "“Elle est comment ?”的对应回答是？",
+      "options": [
+        "Vingt euros.",
+        "Elle est courte et rouge.",
+        "Il y a deux vestes."
+      ],
+      "answer": 1,
+      "explanation": "完整回答特征；金额答错信息，数量也不是特征回答。",
+      "group": "speaking",
+      "id": "l07-q28"
+    },
+    {
+      "question": "对方说价钱太快，可以追问：",
+      "options": [
+        "Je suis trente euros.",
+        "Combien de prix ?",
+        "Pardon, combien ?"
+      ],
+      "answer": 2,
+      "explanation": "请求重说金额，另外两句结构不合适。",
+      "group": "speaking",
+      "id": "l07-q29"
+    },
+    {
+      "question": "Je n’aime pas cette veste中，cette应否改de？",
+      "options": [
+        "不改，保留指示词",
+        "改de",
+        "改成阳性cet"
+      ],
+      "answer": 0,
+      "explanation": "否定不把指示词变为de。",
+      "group": "grammar",
+      "id": "l07-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "demonstratives",
+      "quel",
+      "questions",
+      "prices",
+      "description",
+      "errors"
+    ],
+    "vocabulary": [
+      "words",
+      "description"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "phrases"
+    ],
+    "speaking": [
+      "questions",
+      "phrases"
+    ],
+    "writing": [
+      "description",
+      "phrases",
+      "errors"
+    ]
+  },
+  "listening": "教材第7课：先识别商品，再记录价格和选择，第三遍关注ce/cette/ces与单复数，最后对照教材。本站原创价签和对话用于阅读、口语替换练习，不是教材音频原文。"
+}

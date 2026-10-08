@@ -266,3 +266,25 @@ test('lesson 4 integrates profile reading, likes, questions and message producti
   assert.ok(restored.main.innerHTML.includes('correspond@nce.com'));
   assert.ok(restored.main.innerHTML.includes('data-question="l04-q24"'));
 });
+
+const unitTwoCoverage={
+  5:['des bureaux','nous sommes','Il y a','Ce sont','Qu’est-ce qu’il y a','près du bureau','les objets','复数口语标记'],
+  6:['nous avons','ils ont','Il n’a pas de','Ce n’est pas','mes','marron','moi','/z/'],
+  7:['ce','cet','cette','ces','quels','quelles','combien','euros','cher','enchaînement'],
+  8:['artiste','peintre','à gauche','entre','cheveux','资料','未提及','展览']
+};
+const authoredUnitTwo=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=8&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
+for(const {number:n} of authoredUnitTwo)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
+  const a=app(null,'#lesson/'+n);
+  for(const text of unitTwoCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,30);
+  assert.equal((a.main.innerHTML.match(/<details>/g)||[]).length,10);
+  for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']){
+    const page=app(null,`#${kind}/${n}`);assert.ok(page.main.innerHTML.includes(`#lesson/${n}`),kind);assert.ok(page.elements.navigation.innerHTML.includes(`#grammar/${n}`),kind);
+  }
+  const q=a.context.COURSE_LIBRARY.lessons.find(c=>c.number===n).quickQuestions[0];
+  const form={dataset:{question:q.id},answer:String((q.answer+1)%q.options.length),querySelector:()=>({})};
+  a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
+  const review=app(a.storage.value,'#review');assert.ok(review.main.innerHTML.includes(`data-question="${q.id}"`));assert.ok(review.main.innerHTML.includes(`第 ${n} 课`));
+  form.answer=String(q.answer);a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});assert.deepEqual(JSON.parse(a.storage.value).wrong,[]);
+});

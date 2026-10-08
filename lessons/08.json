@@ -1,0 +1,458 @@
+{
+  "number": 8,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标 / 第二单元综合应用",
+      "html": "<h2>1. 学习目标 / 第二单元综合应用</h2><p>本课对应 <strong>Le coin des artistes，第30—31页</strong>。它是第二单元的综合阅读与交际课：看懂短资料，展示并定位人物，结合外貌与物品辨认人物。重点是把第5—7课的结构用起来，不把复习结构当成一整套新语法。</p><ol><li>读出人物资料中的身份、年龄、职业、外貌、位置与物品。</li><li>用C’est… / Ce sont…介绍，用il/elle est描述，用il/elle a说身体特征。</li><li>用à gauche、à droite、entre…et…清楚定位人物和物品。</li><li>理解代词所指，比较两个人，凭资料作判断而不凭印象猜职业。</li><li>完成展览人物介绍、问答和一段8—10句的综合说明。</li></ol><p>先学“身份→外貌→位置→所属”，再使用阅读方法和原创展览资料。本站的三位艺术工作者都是<strong>虚构人物</strong>，资料和对话为原创练习；它们不替代教材中的实际人物与图片。职业词、展览词汇是场景补充；复习的语音内容用于口头呈现。</p>"
+    },
+    {
+      "id": "identity",
+      "title": "2. 身份介绍 / C’est与il est",
+      "html": "<h2>2. 身份介绍 / C’est与il est</h2><div class=\"table-scroll\"><table><thead><tr><th>交际任务</th><th>本课优先结构</th><th>示例</th><th>理由</th></tr></thead><tbody><tr><td>指认一个人</td><td>C’est + 人名／名词组</td><td>C’est Ana. / C’est une artiste.</td><td>回答Qui est-ce ?</td></tr><tr><td>指认几个人</td><td>Ce sont + 复数名词组</td><td>Ce sont des artistes.</td><td>书面规范用ce sont</td></tr><tr><td>已知人物的职业</td><td>il / elle est + 职业</td><td>Elle est peintre. / Il est acteur.</td><td>中性职业说明通常不加冠词</td></tr><tr><td>已知人物的国籍</td><td>il / elle est + 国籍形容词</td><td>Elle est française. / Il est belge.</td><td>与人物性别配合</td></tr><tr><td>描述特征</td><td>il / elle est + 形容词</td><td>Elle est petite. / Il est grand.</td><td>形容词跟主语配合</td></tr><tr><td>重新确认</td><td>C’est + 重读代词</td><td>C’est lui. / C’est elle.</td><td>重读形式用于独立指认</td></tr></tbody></table></div><p>串起来：<strong>C’est Ana. Elle est peintre. Elle est française. Elle est petite.</strong>先指认，再提供信息。C’est une peintre 与 Elle est peintre 都可介绍职业，结构不同；不要把C’est里的une照搬到所有il/elle est职业句。带限定、评价等成分时，职业名词组会有其他用法；本课先掌握上述中性结构。</p><p>否定复习：<strong>Ce n’est pas une artiste</strong>，être后不定冠词une保留；<strong>Elle n’est pas peintre</strong>，原本没有冠词，就不额外添加de；<strong>Elle n’a pas de sac</strong>才是avoir否定下不定冠词转de的典型情形。</p><p>职业阴阳性：un acteur → une actrice；un musicien → une musicienne。artiste、peintre的书面形式可不变，用冠词、代词及配合显示性别：un artiste / une artiste；un peintre / une peintre。</p>"
+    },
+    {
+      "id": "portraits",
+      "title": "3. 外貌辨认 / être与avoir配合",
+      "html": "<h2>3. 外貌辨认 / être与avoir配合</h2><div class=\"table-scroll\"><table><thead><tr><th>信息</th><th>结构</th><th>例子</th><th>检查点</th></tr></thead><tbody><tr><td>高矮</td><td>être + grand/petit</td><td>Ana est petite. Luc est grand.</td><td>跟人物性别配合</td></tr><tr><td>头发</td><td>avoir les cheveux + 形容词</td><td>Elle a les cheveux courts et bruns.</td><td>courts、bruns配合cheveux，不跟女性改为courtes</td></tr><tr><td>眼睛</td><td>avoir les yeux + 颜色</td><td>Il a les yeux bleus.</td><td>yeux阳性复数；œil→yeux</td></tr><tr><td>眼睛例外颜色</td><td>avoir les yeux marron</td><td>Mei a les yeux marron.</td><td>marron通常不变</td></tr><tr><td>戴眼镜</td><td>avoir des lunettes</td><td>Luc a des lunettes.</td><td>lunettes复数</td></tr><tr><td>不戴眼镜</td><td>ne pas avoir de lunettes</td><td>Ana n’a pas de lunettes.</td><td>否定des通常改de</td></tr><tr><td>所带物品</td><td>avoir + 名词组</td><td>Mei a un sac noir.</td><td>黑色形容词配合sac，不配合Mei</td></tr></tbody></table></div><p>完整辨认描述：<strong>La personne à gauche est petite. Elle a les cheveux courts et bruns. Elle n’a pas de lunettes. C’est Ana.</strong>把多个特征合并，有助于排除同样头发短的人。人物职业仍必须来自资料，不能因为戴眼镜就猜是画家。</p><p>复习四形：grand/grande/grands/grandes；petit/petite/petits/petites；long/longue/longs/longues；noir/noire/noirs/noires。阴性人物的“长发”仍是 <strong>Elle a les cheveux longs</strong>，因为中心名词cheveux阳性复数。眼睛颜色：bleus、verts；marron不变。</p>"
+    },
+    {
+      "id": "location",
+      "title": "4. 空间位置 / 谁在左边，什么在后面",
+      "html": "<h2>4. 空间位置 / 谁在左边，什么在后面</h2><div class=\"table-scroll\"><table><thead><tr><th>词块</th><th>意义</th><th>完整句子</th></tr></thead><tbody><tr><td>à gauche / à droite</td><td>左边／右边</td><td>Ana est à gauche. Mei est à droite.</td></tr><tr><td>au centre</td><td>中央</td><td>Luc est au centre.</td></tr><tr><td>à gauche de / à droite de</td><td>在……左／右</td><td>Ana est à gauche de Luc.</td></tr><tr><td>entre…et…</td><td>在……与……之间</td><td>Luc est entre Ana et Mei.</td></tr><tr><td>à côté de</td><td>在……旁边</td><td>Mei est à côté de Luc.</td></tr><tr><td>devant / derrière</td><td>前面／后面</td><td>L’affiche est derrière Luc.</td></tr><tr><td>sur / sous</td><td>上面／下面</td><td>Le sac de Mei est sous la table.</td></tr><tr><td>dans</td><td>在内部</td><td>Les clés sont dans le sac.</td></tr><tr><td>près de / loin de</td><td>靠近／远离</td><td>Le tableau est près de la porte.</td></tr></tbody></table></div><p><strong>先确定观察方向。</strong>本课展览位置以读者面对三位人物时看到的左右为准。描述人物自身的左手是另一种参照，不能混用。entre要写两个参照：entre Ana <strong>et</strong> Mei，不说entre Ana à Mei。</p><p>de缩合复习：à côté de + le tableau → à côté <strong>du</strong> tableau；à gauche de + les artistes → à gauche <strong>des</strong> artistes；près de la porte、près de l’affiche不缩合。à gauche单独说明左边，à gauche de说明谁／什么的左边。</p><p>区分存在与位置：<strong>Il y a une affiche derrière Luc</strong>引入一张海报；<strong>L’affiche est derrière Luc</strong>定位已知海报。复数已知物品用sont：Les sacs sont près de la table，不写Les sacs est。</p>"
+    },
+    {
+      "id": "possessions",
+      "title": "5. 所属与代词 / 凭上下文找所指",
+      "html": "<h2>5. 所属与代词 / 凭上下文找所指</h2><div class=\"table-scroll\"><table><thead><tr><th>任务</th><th>表达</th><th>意义</th></tr></thead><tbody><tr><td>明确物主</td><td>le sac d’Ana / le sac de Mei</td><td>Ana的包／Mei的包；d’因元音省音</td></tr><tr><td>已知物主</td><td>son sac / ses lunettes</td><td>他或她的包／眼镜；跟所属物的性数变化</td></tr><tr><td>指出物品</td><td>ce sac / cette affiche / ces photos</td><td>指示词，不说明物主</td></tr><tr><td>确认人物</td><td>C’est lui. / C’est elle.</td><td>此处重读代词指人</td></tr><tr><td>确认属于谁（补充）</td><td>Ce sac est à Ana.</td><td>这个包属于Ana</td></tr><tr><td>避免所指不明</td><td>Ana a un sac rouge. Son sac est sur la table.</td><td>Son紧接Ana时，语境可确定物主</td></tr></tbody></table></div><p><strong>son不等于“男性的”。</strong>Ana是女性，也说son sac，因为sac是阳性单数。Luc有眼镜，说ses lunettes，因为lunettes复数。de + 人名直接指明主人；两位人物都可能有包时，le sac d’Ana比单独son sac更清楚。</p><p>代词线索：<strong>Ana est peintre. Elle a un sac rouge. Il est sur la table.</strong>第一句Elle指Ana；后句Il指sac，不是突然出现一个男性。句子 <strong>Ana regarde Mei. Elle a les cheveux courts</strong>只凭这两句可能无法唯一确定Elle所指；需要补充上下文或重说人名。阅读题不应强行给含混代词唯一答案。</p><p>物品同属一个人也要分别配合：son sac、sa veste、ses chaussures；多人共享一个包可说leur sac，多个包说leurs sacs。指示词ces与物主词ses声音相近，仍靠上下文和意思区分。</p>"
+    },
+    {
+      "id": "reading-method",
+      "title": "6. 阅读方法 / 明确信息、矛盾与未提及",
+      "html": "<h2>6. 阅读方法 / 明确信息、矛盾与未提及</h2><p>阅读资料先不要逐词翻译。先看资料类型和人物名，再用表格整理六项信息：身份、年龄、职业、外貌、位置、所带物品。然后查找题目所需的那一项，回原句核实。</p><div class=\"table-scroll\"><table><thead><tr><th>步骤</th><th>操作</th><th>例子</th></tr></thead><tbody><tr><td>1 定位信息</td><td>圈人名、数字、职业和地点</td><td>Ana、vingt-six ans、peintre、à gauche</td></tr><tr><td>2 找中心词</td><td>判断形容词修饰谁</td><td>cheveux courts修饰头发；sac rouge修饰包</td></tr><tr><td>3 跟代词链</td><td>追踪elle/il/ils/elles的先行词</td><td>Elle指人物；Il也可能指前句sac</td></tr><tr><td>4 对照题目</td><td>需要哪些条件就比对哪些</td><td>“长黑发并戴眼镜”不能只看头发</td></tr><tr><td>5 判断证据</td><td>原文明确、相反或未说明</td><td>她喜欢画画不等于她有几幅画</td></tr><tr><td>6 简洁作答</td><td>回答题目所问信息</td><td>问Où就给位置；问Qui就给人物</td></tr></tbody></table></div><p>本课使用三类判断：</p><ul><li><strong>Vrai（正确）</strong>：资料明确支持，如资料说Luc戴眼镜，则Luc a des lunettes为正确。</li><li><strong>Faux（错误）</strong>：资料明确矛盾，如Ana在左边，则Ana est à droite为错误。</li><li><strong>Non indiqué（未提及）</strong>：资料没有给证据，如Ana的电话号码是多少、她会几种语言。</li></ul><p>“未提及”不是自动判错；也不要因为姓名、外貌、职业而猜国籍或语言。本文人物卡明确写的国籍才能作答，不能把与真实人物相似的姓名当作传记证据。复述时保留原文事实，未知部分写资料未提及。</p>"
+    },
+    {
+      "id": "words",
+      "title": "7. 词汇 / 艺术、人物和展览",
+      "html": "<h2>7. 词汇 / 艺术、人物和展览</h2><div class=\"table-scroll\"><table><thead><tr><th>词性与阴阳性／词块</th><th>复数</th><th>中文</th><th>例句</th></tr></thead><tbody><tr><td>un / une artiste</td><td>des artistes</td><td>艺术工作者；书面同形</td><td>Ana et Mei sont des artistes.</td></tr><tr><td>un / une peintre</td><td>des peintres</td><td>画家；书面同形</td><td>Ana est peintre.</td></tr><tr><td>un acteur / une actrice</td><td>des acteurs / des actrices</td><td>演员</td><td>Luc est acteur.</td></tr><tr><td>un musicien / une musicienne</td><td>des musiciens / des musiciennes</td><td>音乐工作者</td><td>Mei est musicienne.</td></tr><tr><td>un tableau</td><td>des tableaux</td><td>绘画、画；注意不是本课指桌子</td><td>Le tableau est derrière Ana.</td></tr><tr><td>une peinture</td><td>des peintures</td><td>绘画作品／绘画这一艺术</td><td>Ana aime la peinture.</td></tr><tr><td>une photo</td><td>des photos</td><td>照片</td><td>Cette photo est derrière Mei.</td></tr><tr><td>une affiche</td><td>des affiches</td><td>海报</td><td>L’affiche est derrière Luc.</td></tr><tr><td>une exposition</td><td>des expositions</td><td>展览</td><td>Dans cette exposition, il y a trois artistes.</td></tr><tr><td>un musée</td><td>des musées</td><td>博物馆（场景补充）</td><td>Il y a des tableaux dans ce musée.</td></tr><tr><td>une personne</td><td>des personnes</td><td>人；语法阴性，不限定男性女性</td><td>Cette personne a des lunettes.</td></tr><tr><td>un portrait</td><td>des portraits</td><td>肖像</td><td>Ce portrait est petit.</td></tr><tr><td>une table</td><td>des tables</td><td>桌子，区别tableau</td><td>Le sac est sur la table.</td></tr><tr><td>une porte</td><td>des portes</td><td>门</td><td>Le tableau est près de la porte.</td></tr><tr><td>des cheveux</td><td>—</td><td>头发，本课用复数整体描述</td><td>Elle a les cheveux courts.</td></tr><tr><td>un œil / des yeux</td><td>—</td><td>眼睛；复数不规则</td><td>Il a les yeux bleus.</td></tr><tr><td>des lunettes</td><td>—</td><td>眼镜</td><td>Il a des lunettes.</td></tr><tr><td>au centre</td><td>—</td><td>在中央</td><td>Luc est au centre.</td></tr><tr><td>à gauche / à droite</td><td>—</td><td>在左／右</td><td>Ana est à gauche.</td></tr><tr><td>entre…et…</td><td>—</td><td>在……之间</td><td>Luc est entre Ana et Mei.</td></tr><tr><td>une nationalité</td><td>des nationalités</td><td>国籍</td><td>Sa nationalité est indiquée dans la fiche.</td></tr><tr><td>une fiche</td><td>des fiches</td><td>资料卡</td><td>Cette fiche présente Ana.</td></tr></tbody></table></div><p>重点辨析：<strong>une table</strong>是桌子；<strong>un tableau</strong>在此场景是画，复数tableaux；<strong>une peinture</strong>可表示绘画活动，Ana aime la peinture是喜欢绘画，不自动等于拥有某幅画。职业名词先记成词对：un acteur / une actrice；un musicien / une musicienne。</p><p>本课所需复习动词：être → je suis、tu es、il/elle est、nous sommes、vous êtes、ils/elles sont；avoir → j’ai、tu as、il/elle a、nous avons、vous avez、ils/elles ont；aimer → j’aime、tu aimes、il/elle aime、nous aimons、vous aimez、ils/elles aiment。三组用途分别是身份特征、拥有、喜好。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "8. 原创资料 / 三位艺术工作者与展览",
+      "html": "<h2>8. 原创资料 / 三位艺术工作者与展览</h2><p>下面为<strong>虚构展览</strong>，全部人物信息以本页为准。读者面对人物：左侧Ana，中央Luc，右侧Mei。后面的物品及包的位置另有说明；人物站位与物品位置分开读取。</p><div class=\"table-scroll\"><table><thead><tr><th>资料</th><th>Ana</th><th>Luc</th><th>Mei</th></tr></thead><tbody><tr><td>年龄</td><td>26岁</td><td>30岁</td><td>24岁</td></tr><tr><td>国籍</td><td>française</td><td>belge</td><td>chinoise</td></tr><tr><td>职业</td><td>peintre</td><td>acteur</td><td>musicienne</td></tr><tr><td>高矮</td><td>petite</td><td>grand</td><td>petite</td></tr><tr><td>头发</td><td>courts et bruns</td><td>longs et noirs</td><td>courts et noirs</td></tr><tr><td>眼睛</td><td>verts</td><td>bleus</td><td>marron</td></tr><tr><td>眼镜</td><td>无</td><td>有</td><td>无</td></tr><tr><td>物品</td><td>un sac rouge</td><td>des lunettes</td><td>un sac noir、une écharpe verte</td></tr><tr><td>站位（读者方向）</td><td>à gauche</td><td>au centre</td><td>à droite</td></tr><tr><td>喜好</td><td>la peinture</td><td>le cinéma</td><td>la musique</td></tr></tbody></table></div><h3>资料一：Ana</h3><p>C’est Ana. Elle a vingt-six ans. Elle est française et elle est peintre. Elle est petite. Elle a les cheveux courts et bruns et les yeux verts. Elle n’a pas de lunettes. Elle a un sac rouge. Elle aime la peinture.</p><h3>资料二：Luc</h3><p>C’est Luc. Il a trente ans. Il est belge et il est acteur. Il est grand. Il a les cheveux longs et noirs et les yeux bleus. Il a des lunettes. Il aime le cinéma.</p><h3>资料三：Mei</h3><p>C’est Mei. Elle a vingt-quatre ans. Elle est chinoise et elle est musicienne. Elle est petite. Elle a les cheveux courts et noirs et les yeux marron. Elle n’a pas de lunettes. Elle a un sac noir et une écharpe verte. Elle aime la musique.</p><h3>展览位置资料</h3><p>Dans cette exposition, il y a trois artistes. Ana est à gauche. Luc est entre Ana et Mei. Mei est à droite. Le tableau est derrière Ana, près de la porte. L’affiche est derrière Luc. La photo est derrière Mei. Le sac d’Ana est sur la table. Le sac de Mei est sous la table.</p><div class=\"table-scroll\"><table><thead><tr><th>发言</th><th>法语</th><th>中文与线索</th></tr></thead><tbody><tr><td>A</td><td>Qui est la personne à gauche ?</td><td>左边的人是谁？问身份</td></tr><tr><td>B</td><td>C’est Ana. Elle est peintre.</td><td>是Ana，她是画家。</td></tr><tr><td>A</td><td>Elle a des lunettes ?</td><td>她戴眼镜吗？</td></tr><tr><td>B</td><td>Non, elle n’a pas de lunettes.</td><td>否定des→de。</td></tr><tr><td>A</td><td>Et la personne au centre ?</td><td>中央的人呢？</td></tr><tr><td>B</td><td>C’est Luc. Il est acteur. Il a des lunettes.</td><td>两项身份特征。</td></tr><tr><td>A</td><td>Où est le sac de Mei ?</td><td>Mei的包在哪里？</td></tr><tr><td>B</td><td>Il est sous la table.</td><td>Il回指阳性sac。</td></tr><tr><td>A</td><td>Qu’est-ce qu’il y a derrière Ana ?</td><td>Ana后面有什么？</td></tr><tr><td>B</td><td>Il y a un tableau.</td><td>引入物品。</td></tr></tbody></table></div><p><strong>资料边界：</strong>没有给人物的姓氏、生日、电话号码、会说的语言，也没给画作作者、票价或包的价格。不能从国籍推断会说几种语言，不能从“画在Ana身后”推断画是Ana所作。</p><p><strong>教材听力：</strong>使用配套资源中第8课所属音轨，先记录人名与职业，再听位置和外貌，最后对照教材。上述原创资料可朗读、录音、自问自答，不标成教材音频文字。</p><p><strong>输出：</strong>先不看表格口头介绍一个人，再看资料纠错；用8—10句介绍展览中的两个人、两个物品的位置以及相同／不同特征。原始资料与推断要分开。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "9. 口头呈现 / 单元语音复习",
+      "html": "<h2>9. 口头呈现 / 单元语音复习</h2><div class=\"table-scroll\"><table><thead><tr><th>复习项</th><th>练习词块</th><th>检查方法</th></tr></thead><tbody><tr><td>复数听觉线索</td><td>un artiste / des artistes</td><td>单复数主要听限定词，des artistes有/z/</td></tr><tr><td>/z/连读</td><td>les yeux / ses amis / vous avez</td><td>限定词、代词和元音起首词的衔接</td></tr><tr><td>ont与sont</td><td>Ils ont des lunettes. / Ils sont artistes.</td><td>ont连读为/z/；sont本身有/s/，区分拥有与身份</td></tr><tr><td>cet/cette联诵</td><td>cet artiste / cette affiche</td><td>本来发音的/t/接入后面元音音节</td></tr><tr><td>节奏组</td><td>C’est Ana / elle est peintre / elle est à gauche</td><td>按意义组朗读，避免每个词都重读</td></tr><tr><td>否定</td><td>Elle n’a pas de lunettes.</td><td>初学口头输出先保留完整否定，pas末尾s不另读</td></tr><tr><td>眼睛颜色</td><td>les yeux verts / les yeux bleus</td><td>yeux接辅音颜色时，不把末尾x再读/z/</td></tr><tr><td>同音词辨义</td><td>ces photos / ses photos</td><td>指示或所属靠语境，而不是单独声音</td></tr></tbody></table></div><p>跟读顺序：先准确读一句，再读三句人物链，最后读完整资料。录音参考：<strong>C’est Luc. Il est acteur. Il a des lunettes. Il est entre Ana et Mei.</strong>注意acteur身份用est，眼镜用a；entre Ana et Mei中的et不作/t/连读。</p><p>听辨任务：同伴随机读“Il a les cheveux courts”“Il a les cheveux longs”“Il a des lunettes”“Il n’a pas de lunettes”，记录特征并指向资料中的人物。特征不足以唯一辨认时继续追问，不只凭一个线索抢答。</p>"
+    },
+    {
+      "id": "errors",
+      "title": "10. 易错点 / 综合描述与证据",
+      "html": "<h2>10. 易错点 / 综合描述与证据</h2><div class=\"table-scroll\"><table><thead><tr><th>误用或误判</th><th>修正</th><th>原因</th></tr></thead><tbody><tr><td>Il a peintre.</td><td>Il est peintre.</td><td>职业用être；拥有物品才用avoir</td></tr><tr><td>Elle est vingt-six ans.</td><td>Elle a vingt-six ans.</td><td>年龄用avoir</td></tr><tr><td>Elle a les cheveux courtes.</td><td>Elle a les cheveux courts.</td><td>配合cheveux阳性复数</td></tr><tr><td>Elle a les yeux marrons.</td><td>Elle a les yeux marron.</td><td>颜色marron不变</td></tr><tr><td>Elle n’a pas des lunettes.</td><td>Elle n’a pas de lunettes.</td><td>本课中存在／拥有否定des→de</td></tr><tr><td>Ce n’est pas de peintre.</td><td>Ce n’est pas une peintre.</td><td>être后不定冠词通常保留；本意非此职业身份</td></tr><tr><td>Ana是女性，所以说sa sac</td><td>son sac</td><td>配合sac阳性，不跟物主性别</td></tr><tr><td>Luc est entre Ana à Mei.</td><td>Luc est entre Ana et Mei.</td><td>entre…et…两个参照</td></tr><tr><td>à côté de le tableau</td><td>à côté du tableau</td><td>de+le缩合du</td></tr><tr><td>Ce sont trois artiste.</td><td>Ce sont trois artistes.</td><td>数字后的名词也须复数</td></tr><tr><td>图画在Ana后面，所以Ana是作者</td><td>作者资料未提及</td><td>位置关系不是创作关系</td></tr><tr><td>同为短发，所以一定是同一个人</td><td>结合眼睛、发色、位置等继续辨认</td><td>多个角色可能共享一个特征</td></tr><tr><td>Elle指谁？不明也强行猜Ana</td><td>重读上下文或重复人名</td><td>所指不明时不能编唯一答案</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "practice",
+      "title": "11. 书面练习 / A—J与完整解析",
+      "html": "<h2>11. 书面练习 / A—J与完整解析</h2><p>先读第8模块资料再答题。位置题以读者方向为准，资料判断题使用正确／错误／未提及三种结果。先自己写，再展开对应答案。</p><h3>A. 选择être或avoir并变位</h3><ol><li>Ana ___ peintre.</li><li>Ana ___ vingt-six ans.</li><li>Luc ___ grand.</li><li>Luc ___ des lunettes.</li><li>Mei ___ les cheveux courts.</li><li>Ana et Mei ___ petites.</li><li>Ana et Mei ___ des sacs.</li><li>Nous ___ artistes.</li></ol><details><summary>展开答案与解析</summary><ol><li>est：职业。</li><li>a：年龄。</li><li>est：身高特征。</li><li>a：拥有眼镜。</li><li>a：身体特征avoir les cheveux。</li><li>sont：复数主语和形容词。</li><li>ont：复数主语、拥有。</li><li>sommes：nous的être变位。</li></ol></details><h3>B. 限定词与形容词配合</h3><ol><li>___ artiste：指向Ana，填写指示词。</li><li>___ artiste：指向Luc，填写指示词。</li><li>Mei a les cheveux ___ (court).</li><li>Ana a un sac ___ (rouge).</li><li>Ana et Mei sont ___ (petit).</li><li>Mei a les yeux ___ (marron).</li></ol><details><summary>展开答案与解析</summary><ol><li>cette artiste：Ana女性，阴性单数。</li><li>cet artiste：Luc男性，阳性单数元音起首。</li><li>courts：cheveux阳性复数，不看Mei性别。</li><li>rouge：sac阳性单数，rouge单数形式同形。</li><li>petites：两位女性，阴性复数。</li><li>marron：此颜色不变。</li></ol></details><h3>C. 职业与场景词汇</h3><ol><li>un acteur的阴性是什么？</li><li>un musicien的阴性是什么？</li><li>指女性画家，写冠词＋名词。</li><li>“一张桌子”和“一幅画”分别怎么写？</li><li>un tableau的复数是什么？</li><li>“这张海报”怎么写？</li></ol><details><summary>展开答案与解析</summary><ol><li>une actrice：职业词变形。</li><li>une musicienne：-ien→-ienne。</li><li>une peintre：书面名词同形，冠词体现阴性。</li><li>une table / un tableau：性别、意思不同。</li><li>des tableaux：-eau→-eaux。</li><li>cette affiche：affiche阴性，元音仍cette。</li></ol></details><h3>D. 依据展览位置资料回答</h3><ol><li>Qui est à gauche ?</li><li>Qui est au centre ?</li><li>Qui est à droite ?</li><li>Luc est entre qui et qui ?</li><li>Où est le tableau ? 给两个位置线索。</li><li>Où est l’affiche ?</li><li>Où est le sac d’Ana ?</li><li>Où est le sac de Mei ?</li></ol><details><summary>展开答案与解析</summary><ol><li>C’est Ana. 以读者面对人物的方向。</li><li>C’est Luc.</li><li>C’est Mei.</li><li>Il est entre Ana et Mei. entre后用et。</li><li>Il est derrière Ana, près de la porte. tableau阳性，用il。</li><li>Elle est derrière Luc. affiche阴性，用elle。</li><li>Il est sur la table. 不混同Mei的包。</li><li>Il est sous la table. 下方，不是上方。</li></ol></details><h3>E. 人物辨认与追问</h3><ol><li>你要问左边的人是谁，写问句。</li><li>回答左边是Ana且是画家。</li><li>别人问Luc是否戴眼镜，给完整肯定答案。</li><li>别人问Ana是否戴眼镜，给完整否定答案。</li><li>已知某人短黑发，是否足以在三人中唯一确定？结合资料解释。</li><li>有人指向Mei，却说C’est Ana，你怎样简短纠正？</li></ol><details><summary>展开答案与解析</summary><ol><li>Qui est la personne à gauche ? / Qui est-ce, à gauche ? 问身份。</li><li>C’est Ana. Elle est peintre. 介绍后用elle。</li><li>Oui, il a des lunettes. 保持avoir。</li><li>Non, elle n’a pas de lunettes. des→de。</li><li>足以：本资料只有Mei短黑发，Ana短棕发，Luc长黑发。若只说“短发”则不够；比较完整条件。</li><li>Non, ce n’est pas Ana. C’est Mei. 人名指认直接保留，无需加de。</li></ol></details><h3>F. 中文转法语</h3><ol><li>她有短棕发。</li><li>他是演员并且戴眼镜。</li><li>Ana的包在桌子上。</li><li>Mei在Luc右边。</li><li>这些人是艺术工作者。</li><li>这不是一位女画家。</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a les cheveux courts et bruns. 两个形容词配合cheveux。</li><li>Il est acteur et il a des lunettes. 身份être、拥有avoir。</li><li>Le sac d’Ana est sur la table. d’省音，位置用est。</li><li>Mei est à droite de Luc. 说明参照Luc。</li><li>Ces personnes sont des artistes. / Ce sont des artistes. 若强调“这些人”，第一句更直接。</li><li>Ce n’est pas une peintre. être否定冠词保留。</li></ol></details><h3>G. 综合阅读与资料边界</h3><ol><li>Ana多大？用法语完整回答。</li><li>Luc是什么国籍和职业？</li><li>谁是musicienne？</li><li>Ana与Mei在高矮、头发长度上有什么共同点？</li><li>Ana与Mei的发色分别是什么？</li><li>“Luc n’a pas de lunettes”：Vrai、Faux还是Non indiqué？</li><li>“Ana parle trois langues”：Vrai、Faux还是Non indiqué？</li><li>能证明Ana创作了她身后的画吗？</li><li>Ana a un sac rouge. Il est sur la table. 这里Il指谁？</li><li>Ana regarde Mei. Elle a les cheveux courts. 仅凭这两句能唯一确定Elle指谁吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a vingt-six ans. 年龄用a。</li><li>Il est belge et il est acteur. 两项均来自资料。</li><li>C’est Mei. Elle est musicienne.</li><li>Elles sont petites et elles ont les cheveux courts. 共同点两项。</li><li>Ana a les cheveux bruns. Mei a les cheveux noirs. 主语明确。</li><li>Faux：原文Il a des lunettes，明确矛盾。</li><li>Non indiqué：资料没写她会说的语言数量。</li><li>不能；身后位置已知，作者未提及。</li><li>指le sac rouge，sac阳性；不是指Ana。</li><li>不能，两人都短发，句子本身所指可能含混；须上下文或重复人名。</li></ol></details><h3>H. 语音与句意</h3><ol><li>des artistes中的衔接辅音是什么？</li><li>Ils ont与Ils sont能否视为同一个声音和意思？</li><li>cet artiste的/t/是连读还是联诵？</li><li>et Mei的et是否要读/t/？</li><li>les yeux bleus在yeux与bleus间加/z/吗？</li><li>把C’est Ana. Elle est peintre. Elle est à gauche分成三个节奏组并录音。</li></ol><details><summary>展开答案与解析</summary><ol><li>/z/；限定词des与元音起首名词连读。</li><li>不能：Ils ont常为/il.zɔ̃/，Ils sont为/il.sɔ̃/；avoir与être意义不同。</li><li>联诵：cet中的t原本发音，再接元音。</li><li>不读/t/连读；et禁用此连读。</li><li>不加；bleus以/b/辅音起首。</li><li>参考分组：C’est Ana / elle est peintre / elle est à gauche；核对句末节奏，不逐词重读。</li></ol></details><h3>I. 综合纠错</h3><ol><li>Elle est trente ans.</li><li>Ana a les cheveux brunes.</li><li>Mei a les yeux marrons.</li><li>Ce n’est pas de musicienne.</li><li>Ana a sa sac rouge.</li><li>Luc est entre Ana à Mei.</li><li>Le sac est à côté de le tableau.</li><li>Ils sont des lunettes.（要表达他们戴眼镜）</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a trente ans. 年龄avoir。</li><li>Ana a les cheveux bruns. cheveux阳性复数。</li><li>Mei a les yeux marron. 颜色不变。</li><li>Ce n’est pas une musicienne. être后une保留。</li><li>Ana a son sac rouge. sac阳性，son与物品配合；若首次介绍可说Ana a un sac rouge。</li><li>Luc est entre Ana et Mei. 两参照用et连接。</li><li>Le sac est à côté du tableau. de+le→du。</li><li>Ils ont des lunettes. avoir表示拥有／佩戴，être不是这个意思。</li></ol></details><h3>J. 开放输出与自查</h3><ol><li>用8—10句介绍Ana与Luc：身份、年龄、外貌和站位都要出现。</li><li>写双方至少8次发言的展览问答，包含人物辨认、否定和物品位置。</li><li>写6句比较Ana和Mei，并说明一项资料未提及的信息。</li><li>对照自己的教材第8课人物资料，填六项阅读表后作30—45秒口头介绍。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考9句：C’est Ana. Elle a vingt-six ans. Elle est française et elle est peintre. Elle est petite et elle a les cheveux courts et bruns. Elle est à gauche. C’est Luc. Il a trente ans et il est belge. Il est acteur et il a des lunettes. Il est au centre, entre Ana et Mei. 自查所有信息来自资料；年龄a、职业est、头发形容词配合cheveux。</li><li>参考8次发言：A Qui est la personne à droite ? / B C’est Mei. / A Elle a des lunettes ? / B Non, elle n’a pas de lunettes. / A Elle est peintre ? / B Non, elle est musicienne. / A Où est son sac ? / B Il est sous la table. 自查此处son承接Mei，il回指sac；每问有相应回答。</li><li>参考6句：Ana et Mei sont petites. Elles ont les cheveux courts. Ana a les cheveux bruns. Mei a les cheveux noirs. Ana a les yeux verts et Mei a les yeux marron. Ana est à gauche et Mei est à droite. 再用中文补一句：资料未提及两人的电话号码；也可法语Ce n’est pas indiqué（整块补充）。</li><li>方法参考：姓名／年龄／职业／外貌／位置／物品；对照教材只填有证据的内容，没有的写未提及。口头框架C’est… Il/Elle est… Il/Elle a… Il/Elle est à…；不要把本站虚构资料混入真实教材人物。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12. 单元复习 / 自测清单与资料",
+      "html": "<h2>12. 单元复习 / 自测清单与资料</h2><ul><li>我能在身份、年龄、身体特征中准确选择être或avoir。</li><li>我能区分C’est une artiste与Elle est artiste。</li><li>我能描述cheveux和yeux，并使形容词跟中心名词配合。</li><li>我能用à gauche de、entre…et…、sur/sous定位。</li><li>我能区分展示物品、物品所属、已知物品的位置。</li><li>我能根据上下文判断elle和il所指，发现含混时不强猜。</li><li>我能比较两个完整人物资料，而不凭单一外貌猜职业。</li><li>我能区分资料明确支持、明确矛盾、未提及。</li><li>我能完成展览问答和人物介绍，并回原资料核对。</li></ul><p><strong>一分钟回顾：</strong>C’est une artiste. Elle est peintre. Elle a vingt-six ans. Elle a les cheveux courts. Elle n’a pas de lunettes. Son sac est sur la table. Luc est entre Ana et Mei. Ce sont des artistes.</p><p><strong>第二单元串联：</strong>第5课“有／是／在” → 第6课“外貌、否定、所属” → 第7课“指示、问特征与价格” → 第8课“读资料并准确呈现人物”。复习时先做本课A、D、G，暴露结构与理解问题，再回对应课详细解释；第二天录J的口头介绍，一周后重新做小测和错题。</p><p>本页是通向后续阅读、口语与写作路线的A1基础训练；更高水平任务会在后续课程中逐步加入。</p><p>核对来源：<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Hachette《Le Nouveau Taxi! 1》课程目录</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/det3.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：身体特征与冠词</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/det6.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：物主词</a>。完整教材人物、图片和音频以自己的教材及出版方授权资源为准；本站资料与练习均为原创。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "Ana ___ peintre.",
+      "options": [
+        "a",
+        "est",
+        "ont"
+      ],
+      "answer": 1,
+      "explanation": "中性职业陈述使用être；Ana单数，用est。",
+      "group": "grammar",
+      "id": "l08-q01"
+    },
+    {
+      "question": "Luc ___ trente ans.",
+      "options": [
+        "est",
+        "sont",
+        "a"
+      ],
+      "answer": 2,
+      "explanation": "年龄使用avoir：il a trente ans。",
+      "group": "grammar",
+      "id": "l08-q02"
+    },
+    {
+      "question": "“这是两位艺术工作者”的规范书面表达：",
+      "options": [
+        "Ce sont deux artistes.",
+        "C’est deux artiste.",
+        "Il y ont deux artistes."
+      ],
+      "answer": 0,
+      "explanation": "复数身份指认用ce sont，artistes也复数。",
+      "group": "grammar",
+      "id": "l08-q03"
+    },
+    {
+      "question": "___ artiste：指Ana（女性）。",
+      "options": [
+        "Cet",
+        "Cette",
+        "Ce"
+      ],
+      "answer": 1,
+      "explanation": "阴性单数用cette，即使artiste元音起首。",
+      "group": "grammar",
+      "id": "l08-q04"
+    },
+    {
+      "question": "___ artiste：指Luc（男性）。",
+      "options": [
+        "Cette",
+        "Ce",
+        "Cet"
+      ],
+      "answer": 2,
+      "explanation": "阳性单数元音起首，cet。",
+      "group": "grammar",
+      "id": "l08-q05"
+    },
+    {
+      "question": "Mei a les cheveux ___.（短）",
+      "options": [
+        "courts",
+        "courtes",
+        "courte"
+      ],
+      "answer": 0,
+      "explanation": "courts配合cheveux阳性复数，不跟Mei性别。",
+      "group": "grammar",
+      "id": "l08-q06"
+    },
+    {
+      "question": "Mei a les yeux ___.",
+      "options": [
+        "marrons",
+        "marron",
+        "marronnes"
+      ],
+      "answer": 1,
+      "explanation": "颜色marron通常不变。",
+      "group": "grammar",
+      "id": "l08-q07"
+    },
+    {
+      "question": "“Ana不戴眼镜”：",
+      "options": [
+        "Ana n’est pas des lunettes.",
+        "Ana n’a pas des lunettes.",
+        "Ana n’a pas de lunettes."
+      ],
+      "answer": 2,
+      "explanation": "拥有否定des转de，使用avoir。",
+      "group": "grammar",
+      "id": "l08-q08"
+    },
+    {
+      "question": "“这不是一位女性画家”：",
+      "options": [
+        "Ce n’est pas une peintre.",
+        "Ce n’est pas de peintre.",
+        "Ce n’a pas une peintre."
+      ],
+      "answer": 0,
+      "explanation": "être后的不定冠词une保留。",
+      "group": "grammar",
+      "id": "l08-q09"
+    },
+    {
+      "question": "Ana的包：___ sac。",
+      "options": [
+        "sa",
+        "son",
+        "ses"
+      ],
+      "answer": 1,
+      "explanation": "sac阳性单数，son；不按女性物主选sa。",
+      "group": "grammar",
+      "id": "l08-q10"
+    },
+    {
+      "question": "Luc est ___ Ana et Mei.",
+      "options": [
+        "sur",
+        "sous",
+        "entre"
+      ],
+      "answer": 2,
+      "explanation": "两个人作为参照，用entre…et…。",
+      "group": "grammar",
+      "id": "l08-q11"
+    },
+    {
+      "question": "à côté de + le tableau合并为：",
+      "options": [
+        "à côté du tableau",
+        "à côté de le tableau",
+        "à côté des tableau"
+      ],
+      "answer": 0,
+      "explanation": "de+le缩合du。",
+      "group": "grammar",
+      "id": "l08-q12"
+    },
+    {
+      "question": "“桌子”和“画”对应：",
+      "options": [
+        "un tableau / une table",
+        "une table / un tableau",
+        "une tableau / un table"
+      ],
+      "answer": 1,
+      "explanation": "table是阴性桌子，tableau是阳性画。",
+      "group": "vocabulary",
+      "id": "l08-q13"
+    },
+    {
+      "question": "un acteur的阴性：",
+      "options": [
+        "une acteur",
+        "une actricee",
+        "une actrice"
+      ],
+      "answer": 2,
+      "explanation": "acteur→actrice。",
+      "group": "vocabulary",
+      "id": "l08-q14"
+    },
+    {
+      "question": "“一位女性音乐工作者”：",
+      "options": [
+        "une musicienne",
+        "un musicien",
+        "une musicien"
+      ],
+      "answer": 0,
+      "explanation": "女性形式为musicienne，冠词une。",
+      "group": "vocabulary",
+      "id": "l08-q15"
+    },
+    {
+      "question": "un tableau的复数：",
+      "options": [
+        "des tableaus",
+        "des tableaux",
+        "des tableau"
+      ],
+      "answer": 1,
+      "explanation": "-eau通常复数-eaux。",
+      "group": "vocabulary",
+      "id": "l08-q16"
+    },
+    {
+      "question": "资料中，Ana的年龄是？",
+      "options": [
+        "30岁",
+        "24岁",
+        "26岁"
+      ],
+      "answer": 2,
+      "explanation": "Elle a vingt-six ans。",
+      "group": "reading",
+      "id": "l08-q17"
+    },
+    {
+      "question": "资料中，中央人物是谁？",
+      "options": [
+        "Luc",
+        "Ana",
+        "Mei"
+      ],
+      "answer": 0,
+      "explanation": "Luc est entre Ana et Mei，对应中央。",
+      "group": "reading",
+      "id": "l08-q18"
+    },
+    {
+      "question": "Mei的包在哪里？",
+      "options": [
+        "sur la table",
+        "sous la table",
+        "derrière Ana"
+      ],
+      "answer": 1,
+      "explanation": "位置资料明确Le sac de Mei est sous la table。",
+      "group": "reading",
+      "id": "l08-q19"
+    },
+    {
+      "question": "“Luc n’a pas de lunettes”按资料判断：",
+      "options": [
+        "Vrai",
+        "Non indiqué",
+        "Faux"
+      ],
+      "answer": 2,
+      "explanation": "资料说Il a des lunettes，明确矛盾。",
+      "group": "reading",
+      "id": "l08-q20"
+    },
+    {
+      "question": "“Ana parle trois langues”按资料判断：",
+      "options": [
+        "Non indiqué",
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explanation": "没有语言数量信息；国籍不能替代证据。",
+      "group": "reading",
+      "id": "l08-q21"
+    },
+    {
+      "question": "画在Ana身后，能证明她是作者吗？",
+      "options": [
+        "能，位置已足够",
+        "不能，作者资料未提及",
+        "能，因为所有画都归身旁的人"
+      ],
+      "answer": 1,
+      "explanation": "位置与创作关系是不同事实。",
+      "group": "reading",
+      "id": "l08-q22"
+    },
+    {
+      "question": "Ana a un sac rouge. Il est sur la table. 这里Il指：",
+      "options": [
+        "Ana",
+        "Luc",
+        "le sac rouge"
+      ],
+      "answer": 2,
+      "explanation": "Il回指阳性sac，不是人物Ana。",
+      "group": "reading",
+      "id": "l08-q23"
+    },
+    {
+      "question": "两人都短发，问“短发的人是谁”信息是否足够？",
+      "options": [
+        "不足，需发色、位置等其他线索",
+        "足够，一定是Ana",
+        "足够，一定是Mei"
+      ],
+      "answer": 0,
+      "explanation": "人物可共享一个特征，继续追问以唯一辨认。",
+      "group": "speaking",
+      "id": "l08-q24"
+    },
+    {
+      "question": "des artistes的连读辅音是？",
+      "options": [
+        "/t/",
+        "/z/",
+        "/p/"
+      ],
+      "answer": 1,
+      "explanation": "des与元音名词衔接，末尾s读/z/。",
+      "group": "pronunciation",
+      "id": "l08-q25"
+    },
+    {
+      "question": "Ils ont与Ils sont的辨听：",
+      "options": [
+        "完全同音",
+        "都发/il.tɔ̃/",
+        "前者有/z/衔接，后者有/s/"
+      ],
+      "answer": 2,
+      "explanation": "常见读法/il.zɔ̃/与/il.sɔ̃/，拥有和身份不同。",
+      "group": "pronunciation",
+      "id": "l08-q26"
+    },
+    {
+      "question": "cet artiste的/t/属于：",
+      "options": [
+        "联诵 enchaînement",
+        "不发音",
+        "隐藏s的/z/连读"
+      ],
+      "answer": 0,
+      "explanation": "cet本来发/t/，与元音重新划分音节。",
+      "group": "pronunciation",
+      "id": "l08-q27"
+    },
+    {
+      "question": "有人误认右边Mei是Ana，合适的纠正：",
+      "options": [
+        "Non, elle a Ana.",
+        "Non, ce n’est pas Ana. C’est Mei.",
+        "Non, il y ont Mei."
+      ],
+      "answer": 1,
+      "explanation": "用身份指认纠正，ne…pas围绕est。",
+      "group": "speaking",
+      "id": "l08-q28"
+    },
+    {
+      "question": "“这位女性头发是长的”正确写法：",
+      "options": [
+        "Elle est les cheveux longues.",
+        "Elle a les cheveux longues.",
+        "Elle a les cheveux longs."
+      ],
+      "answer": 2,
+      "explanation": "avoir身体特征；longs配合cheveux阳性复数。",
+      "group": "writing",
+      "id": "l08-q29"
+    },
+    {
+      "question": "只凭Ana regarde Mei. Elle a les cheveux courts能确定Elle指谁吗？",
+      "options": [
+        "不能，这两句的指代可能含混",
+        "一定指Ana",
+        "一定指Mei"
+      ],
+      "answer": 0,
+      "explanation": "两位女性都可接elle，且都短发；需上下文。",
+      "group": "reading",
+      "id": "l08-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "identity",
+      "portraits",
+      "location",
+      "possessions",
+      "errors"
+    ],
+    "vocabulary": [
+      "words"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "reading-method",
+      "phrases"
+    ],
+    "speaking": [
+      "identity",
+      "location",
+      "phrases"
+    ],
+    "writing": [
+      "portraits",
+      "possessions",
+      "phrases",
+      "errors"
+    ]
+  },
+  "listening": "教材第8课综合任务：先识别人名与职业，再记录外貌、位置和所属，最后对照自己的教材资料。本站虚构展览资料用于朗读和口语输出，不是教材配套音频原文。"
+}
