@@ -236,3 +236,16 @@ test('lesson 2 covers articles, agreement, places, identity and syllables with p
   a.elements.search.listeners.input({target:{value:'Mexique'}});
   assert.ok(a.main.innerHTML.includes('#lesson/2/places'));
 });
+
+test('lesson 3 covers wellbeing, age, contact details, determiners, numbers and rhythm', () => {
+  const a=app(null,'#lesson/3');
+  for(const text of ['Comment allez-vous','J’ai dix-neuf ans','j’ai','tu as','vous avez','mon adresse','son numéro','une adresse','Quelle est ton adresse','vingt et un','前导 0','词组重音','/si.zɑ̃/']) assert.ok(a.main.innerHTML.includes(text),text);
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,30);
+  for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']) {
+    const page=app(null,'#'+kind+'/3');
+    assert.ok(page.main.innerHTML.includes('#lesson/3'),kind);
+    assert.ok(page.elements.navigation.innerHTML.includes('#grammar/3'),kind);
+  }
+  a.elements.search.listeners.input({target:{value:'mon adresse'}});
+  assert.ok(a.main.innerHTML.includes('#lesson/3/possessives'));
+});

@@ -1,0 +1,457 @@
+{
+  "number": 3,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "01 / 本课任务、核心与复习顺序",
+      "html": "<h2>01 / 本课任务、核心与复习顺序</h2><p>本课把初次见面的介绍推进到实际交流：问近况，说明年龄，询问或提供地址、电话。每一种信息对应不同句型，不能把姓名、年龄、住处和号码都塞进同一个“是什么”的结构。</p><div class=\"note\"><b>核心：</b>近况问答；年龄、地址、电话；avoir / aller 单数现在时；单数物主限定词；un / une；quel / quelle；词组重音。礼貌 vous 是交流需要的复习形式。完整复数变位、物主词复数和 70—100 数字规则为查阅拓展，后续课再系统使用。</div><div class=\"table-scroll\"><table><thead><tr><th>交际目标</th><th>自查方式</th></tr></thead><tbody><tr><td>近况</td><td>能理解 Ça va ?、Comment allez-vous ?，并自然回应和反问。</td></tr><tr><td>年龄</td><td>能用 avoir + 数字 + ans，而非 être；问题里也用 avoir。</td></tr><tr><td>联系方式</td><td>能把 rue／ville／code postal／numéro 分开记录，复述电话不漏前导 0。</td></tr><tr><td>限定词</td><td>能解释 ma／mon 的选择按后面名词，不按拥有者是男是女。</td></tr><tr><td>问句</td><td>能根据名词性别选择 quel／quelle，并知道 question 的回答要提供信息。</td></tr><tr><td>听说读写</td><td>读登记卡、听写号码、进行信息核对，写一段包含已学身份信息的短介绍。</td></tr></tbody></table></div><p>先读近况和变位 → 对照年龄句型 → 练物主词、冠词和 quel → 专门听读数字 → 做书面练习 → 用完整对话和自查卡收尾。公开页面中的地址与号码均为教学虚构占位，不用于实际联系。</p>"
+    },
+    {
+      "id": "greetings",
+      "title": "02 / Ça va ?：近况、回应与交际语气",
+      "html": "<h2>02 / Ça va ?：近况、回应与交际语气</h2><p><b>aller</b> 的基本意思是“去”，但在问候中表示“情况、身体或生活过得怎样”。<b>Ça va ?</b> 很常用；<b>Comment allez-vous ?</b> 使用礼貌 vous 或询问多人。不要把它们逐字译成“这个去吗”。</p><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>使用场景</th><th>可行回应</th></tr></thead><tbody><tr><td>Ça va ?</td><td>熟人或一般较自然的交流；是否适合仍看关系。</td><td>Oui, ça va, merci. Et toi ?</td></tr><tr><td>Comment ça va ?</td><td>更明确地询问近况。</td><td>Ça va bien, merci.</td></tr><tr><td>Comment vas-tu ?</td><td>对熟悉的一人；倒装问法。</td><td>Je vais bien. Et toi ?</td></tr><tr><td>Comment allez-vous ?</td><td>较礼貌，或面对多人。</td><td>Je vais bien, merci. Et vous ?</td></tr><tr><td>Ça va bien. / Très bien.</td><td>近况良好；Très bien 可简短回应。</td><td>太好了／我很好，依语境。</td></tr><tr><td>Pas mal.</td><td>还不错；固定短语，非完整否定句。</td><td>Pas mal, merci.</td></tr><tr><td>Comme ci, comme ça.</td><td>一般般；表示中等情况。</td><td>Comme ci, comme ça.</td></tr><tr><td>Ça ne va pas très bien.（拓展）</td><td>不太好；ne…pas 第 6 课系统讲。</td><td>可先识别整体表达，不要求展开全部否定语法。</td></tr></tbody></table></div><h3>2.1 问与答可能写作相同</h3><p><b>Ça va ?</b> 有问号，问对方；<b>Ça va.</b> 没有问号，回答近况。听时依语调、轮次和情境判断；书写保留 ç：<b>ça</b> 读 /sa/，不要写 ca。<b>va</b> 是 aller 的第三人称单数，因主语是 ça；<b>Je vais bien.</b> 主语 je，用 vais。</p><h3>2.2 回应以后反问</h3><p class=\"example\">— Bonjour, madame. Comment allez-vous ?<br>— Très bien, merci. Et vous ?<br>— Je vais bien, merci.<br><br>— Salut, Mei ! Ça va ?<br>— Ça va, merci. Et toi ?<br>— Pas mal.</p><p>对方用 vous 时，反问通常 Et vous ?；熟人用 tu，则 Et toi ?，toi 是重读代词（第 6 课系统学习）。不是 Et tu ?。近况问答通常简短，不需要每次都做完整生活汇报。</p><h3>2.3 语境中的礼貌与边界</h3><p>年龄、住址和电话用于本课任务练习；实际交流先看场景和对方意愿。教学时可使用虚构数据；如果暂时不提供某个字段，可先说 Je préfère ne pas répondre.（“我更愿意不回答”，固定拓展），不把真实个人信息当作完成练习的条件。</p>"
+    },
+    {
+      "id": "verbs",
+      "title": "03 / avoir 与 aller：完整表、单数核心和年龄",
+      "html": "<h2>03 / avoir 与 aller：完整表、单数核心和年龄</h2><p>两者都是不规则动词。<b>avoir</b> 常表示“有”，并用于年龄；<b>aller</b> 常表示“去”，也用于近况。不要按第 2 课 parler 的 -er 规则给 aller 造出 je alle。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>avoir</th><th>aller</th><th>本课例句</th></tr></thead><tbody><tr><td>je</td><td>j’ai</td><td>je vais</td><td>J’ai vingt ans. / Je vais bien.</td></tr><tr><td>tu</td><td>tu as</td><td>tu vas</td><td>Tu as quel âge ? / Comment vas-tu ?</td></tr><tr><td>il / elle / on</td><td>il / elle / on a</td><td>il / elle / on va</td><td>Elle a dix-neuf ans. / Ça va bien.</td></tr><tr><td>nous（拓展）</td><td>nous avons</td><td>nous allons</td><td>Nous allons bien.</td></tr><tr><td>vous</td><td>vous avez</td><td>vous allez</td><td>Vous avez quel âge ? / Comment allez-vous ?</td></tr><tr><td>ils / elles（拓展）</td><td>ils / elles ont</td><td>ils / elles vont</td><td>Ils ont vingt ans.</td></tr></tbody></table></div><h3>3.1 j’ai 的省音，as / a / à 的区别</h3><p>je + ai → <b>j’ai</b>，不是 je ai。<b>tu as</b> 的 s 书写不能省，<b>il a</b> 不加 s；通常两者动词都读 /a/。<b>à</b> 带重音，是介词：Il a vingt ans et il habite à Lyon. 第一个 a 是动词，第二个 à 是地点介词。</p><h3>3.2 年龄必须用 avoir</h3><p class=\"example\">J’ai dix-neuf ans. 我十九岁。<br>Tu as quel âge ? 你几岁？<br>Quel âge avez-vous ? 您几岁？<br>Elle a un an. 她一岁。<br>Il a deux ans. 他两岁。</p><p>不是 Je suis dix-neuf ans。<b>an</b> 是阳性名词，数词 1 时 un an，通常 2 及以上用 ans。这里的数字说明年龄，不需要加 mon âge 代替结构；<b>Mon âge est…</b> 不是本课首选的自然报年龄句。</p><h3>3.3 aller 的两条理解路径</h3><p><b>Je vais bien.</b> 问候中的近况；<b>Je vais à Paris.</b> 实际去向，地点介词复习第 2 课。不要因为 aller 出现在问候中就认定它只能表示“好”；也不要把 Je suis bien 与 Je vais bien 完全等同，前者可能表示某人现在舒服、自在等。</p><h3>3.4 后续语法预览，当前不必混入练习</h3><p>aller + 不定式可构成近将来，avoir 可作复合时态助动词；这些在后续课学习。本课先区分“年龄用 avoir”“近况用 aller”“动词随主语变位”，不把尚未学的时态作为必答要求。</p>"
+    },
+    {
+      "id": "possessives",
+      "title": "04 / 单数物主限定词：mon、ma、ton、ta、son、sa",
+      "html": "<h2>04 / 单数物主限定词：mon、ma、ton、ta、son、sa</h2><p>教材常称“主有形容词”；这里也使用“物主限定词”，因为它在名词前承担限定作用。选择分两步：<b>谁的</b>确定 mon／ton／son 等系列；<b>被拥有的名词性数</b>确定系列中的形式。不是按拥有者的性别决定。</p><div class=\"table-scroll\"><table><thead><tr><th>拥有者</th><th>后面阳性单数</th><th>后面阴性单数（辅音开头）</th><th>示例</th></tr></thead><tbody><tr><td>je：我的</td><td>mon</td><td>ma</td><td>mon numéro / ma ville</td></tr><tr><td>tu：你的</td><td>ton</td><td>ta</td><td>ton téléphone / ta nationalité</td></tr><tr><td>il / elle：他／她的</td><td>son</td><td>sa</td><td>son âge / sa famille；son 不等于“只属于男性”。</td></tr><tr><td>nous（拓展）：我们的</td><td>notre</td><td>notre</td><td>notre adresse</td></tr><tr><td>vous：您的／你们的</td><td>votre</td><td>votre</td><td>votre numéro / votre adresse</td></tr><tr><td>ils / elles（拓展）：他们／她们的</td><td>leur</td><td>leur</td><td>leur numéro / leur ville</td></tr></tbody></table></div><h3>4.1 son / sa 无法单独告诉你拥有者男女</h3><p class=\"example\">Marco a un téléphone. <b>Son téléphone</b>… 他的电话。<br>Mei a un téléphone. <b>Son téléphone</b>… 她的电话。<br>Marco : <b>ma ville</b>；Mei : <b>ma ville</b>。两人都按 ville 阴性使用 ma。</p><p>是谁的，要看前文或另加名字；物主词形式本身配合后面的 téléphone／ville。也不要写 mon la ville，物主限定词通常与定冠词处在相同位置，本课结构不同时堆叠。</p><h3>4.2 阴性元音／哑音 h 前用 mon、ton、son</h3><p><b>adresse</b> 阴性，但元音开头：<b>mon adresse</b>、<b>ton adresse</b>、<b>son adresse</b>。<b>amie</b> 也阴性：mon amie。词的性别仍为阴性，不因使用 mon 变成阳性。遇到后面插入形容词时，要看紧接物主词的音，例如 <b>ma nouvelle adresse</b>（nouvelle 为后续词）：因为新相邻词是辅音开头，ma 可以保留。</p><h3>4.3 votre：一人也能用</h3><p>对陌生的一位成年人用 vous，问 <b>Votre adresse ?</b>；不是只有对多人才能用 votre。它在单数名词前不按阴阳性换形式。问两个地址时才涉及复数 vos（后续学习）。</p><h3>4.4 完整形式预览（第 6 课继续）</h3><div class=\"table-scroll\"><table><thead><tr><th>系列</th><th>阳性单数</th><th>阴性单数</th><th>复数名词（拓展）</th></tr></thead><tbody><tr><td>我的</td><td>mon</td><td>ma</td><td>mes</td></tr><tr><td>你的</td><td>ton</td><td>ta</td><td>tes</td></tr><tr><td>他／她的</td><td>son</td><td>sa</td><td>ses</td></tr><tr><td>我们的</td><td>notre</td><td>notre</td><td>nos</td></tr><tr><td>您／你们的</td><td>votre</td><td>votre</td><td>vos</td></tr><tr><td>他们／她们的</td><td>leur</td><td>leur</td><td>leurs</td></tr></tbody></table></div><p>复数看的是所拥有的名词是否复数，不单看拥有者有几人。当前优先练单数 mon numéro、mon adresse、votre nationalité。</p>"
+    },
+    {
+      "id": "articles",
+      "title": "05 / un、une：不定冠词单数与其他限定词的对照",
+      "html": "<h2>05 / un、une：不定冠词单数与其他限定词的对照</h2><p><b>un</b> 阳性单数，<b>une</b> 阴性单数，通常引入一个／某一个人物或事物。它们不仅是数字，还能说明名词性别。不能因为中文常省掉“一个”，就把法语名词前的限定词全部删除。</p><div class=\"table-scroll\"><table><thead><tr><th>名词</th><th>不定冠词形式</th><th>中文／用途</th></tr></thead><tbody><tr><td>téléphone（m.）</td><td>un téléphone</td><td>一个电话／电话设备。</td></tr><tr><td>numéro（m.）</td><td>un numéro</td><td>一个号码。</td></tr><tr><td>adresse（f.）</td><td>une adresse</td><td>一个地址；元音前 une 不写成 un’。</td></tr><tr><td>ville（f.）</td><td>une ville</td><td>一座城市。</td></tr><tr><td>étudiant（m.）</td><td>un étudiant</td><td>一位男学生；元音前 un 不省音。</td></tr><tr><td>étudiante（f.）</td><td>une étudiante</td><td>一位女学生；une 不省音为 un’。</td></tr><tr><td>an（m.）</td><td>un an</td><td>一年／一岁中的“一”；两个以上 ans。</td></tr></tbody></table></div><h3>5.1 un / une 与 le / la / l’ 的差别</h3><p><b>C’est une adresse.</b> 说明“这是一个地址”；<b>C’est l’adresse de Mei.</b> 指梅的那个地址（de 的限定用法为补充）；<b>mon adresse</b> 表示我的地址；<b>quelle adresse ?</b> 在询问地址。这些是不同的限定方式，不把 une、la、ma 全堆在一起。</p><h3>5.2 元音前不套用定冠词的省音规则</h3><p class=\"example\">la adresse → l’adresse（定冠词省音）<br>une adresse → une adresse（不定冠词保留）<br>ma adresse → mon adresse（物主词换形，不是写 m’adresse）</p><p>三个结构不能只背一个“元音前全省音”的规则；词类决定具体变化。un / une 的复数 des 以后学习，不要求现在完整展开复数名词。</p><h3>5.3 国籍与职业句中的限制（复习／拓展）</h3><p><b>Elle est chinoise.</b> 中 chinoise 是形容词，不加 une；<b>C’est une Chinoise.</b> 为名词结构，可以有 une 并将国籍人物名词大写。职业说明常说 Je suis étudiant.；C’est un étudiant. 是另一结构。这里只比较基本形式，第 14 课职业专题再补全细节。</p>"
+    },
+    {
+      "id": "questions",
+      "title": "06 / quel、quelle：年龄、地址与电话的完整问句",
+      "html": "<h2>06 / quel、quelle：年龄、地址与电话的完整问句</h2><p><b>quel / quelle</b> 放在名词前或与名词通过 être 连接，必须配合被询问的名词性别。它问哪一个、什么，不按提问者或回答者的男女选择。本课先用单数，复数 quels / quelles 第 7 课再系统复习。</p><div class=\"table-scroll\"><table><thead><tr><th>信息</th><th>熟悉关系 tu</th><th>礼貌 vous</th><th>回答示例</th></tr></thead><tbody><tr><td>近况</td><td>Comment vas-tu ? / Ça va ?</td><td>Comment allez-vous ?</td><td>Je vais bien, merci.</td></tr><tr><td>年龄</td><td>Tu as quel âge ? / Quel âge as-tu ?</td><td>Vous avez quel âge ? / Quel âge avez-vous ?</td><td>J’ai vingt ans.</td></tr><tr><td>地址</td><td>Quelle est ton adresse ?</td><td>Quelle est votre adresse ?</td><td>Mon adresse : 12, rue du Cours, 00000 Ville-Exemple.（虚构）</td></tr><tr><td>电话</td><td>Quel est ton numéro de téléphone ?</td><td>Quel est votre numéro de téléphone ?</td><td>Mon numéro : 06 00 00 00 00.（虚构占位）</td></tr><tr><td>居住城市（复习）</td><td>Tu habites où ?</td><td>Vous habitez où ?</td><td>J’habite à Lyon.</td></tr><tr><td>姓名（复习）</td><td>Tu t’appelles comment ?</td><td>Comment vous appelez-vous ?</td><td>Je m’appelle Mei.</td></tr></tbody></table></div><h3>6.1 三个关键词决定 quel / quelle</h3><p><b>âge</b> 阳性：quel âge；<b>numéro</b> 阳性：quel numéro；<b>adresse</b> 阴性：quelle adresse。对女性问 Quel âge as-tu ? 仍用 quel，因为配合的是 âge。问男性的地址仍用 Quelle est ton adresse ?，因为 adresse 阴性。</p><h3>6.2 问句里 quel 与物主词各自有规则</h3><p><b>Quelle est ton adresse ?</b>：quelle 按 adresse 阴性；ton 在阴性元音开头 adresse 前代替 ta。两者看似一个阴性、一个阳性，实际上规则不同。<b>Quel est votre numéro ?</b>：quel 按 numéro 阳性；votre 按拥有者 vous，单数名词前不变。</p><h3>6.3 两种结构不能随便拼接</h3><p>说 <b>Quel âge as-tu ?</b>，因为年龄用 avoir；说 <b>Quelle est votre adresse ?</b>，因为询问“你的地址是什么”。不要拼成 Quelle adresse avez-vous est ?。<b>Quel est votre âge ?</b> 也能理解，但本课先采用更直接的 Quel âge avez-vous ?；其主谓结构不同。</p><h3>6.4 倒装的连字符</h3><p><b>as-tu</b>、<b>avez-vous</b>、<b>vas-tu</b>、<b>allez-vous</b> 的连字符属于倒装书写，不是随便加一个词。Tu as quel âge ? 是常见口语语序；Quel âge as-tu ? 是倒装形式，不再保留前面的 tu。本课先准确使用已有形式，不必提前掌握全部倒装规则。</p><h3>6.5 听不清数字时，请核对</h3><p class=\"example\">Pardon ? 您说什么？<br>Vous pouvez répéter, s’il vous plaît ? 请您重复一下好吗？（固定补充）<br>Zéro six, puis huit zéros ? 零六，然后八个零？（仅为分段核对的举例）<br>Merci. 谢谢。</p><p>每次记录号码，先保留听到的分组，再请对方逐组核对，不把一个模糊号码猜成完整号码；地址也可以请对方拼写街道名。</p>"
+    },
+    {
+      "id": "numbers",
+      "title": "07 / 数字、年龄和电话：基础表与读取方法",
+      "html": "<h2>07 / 数字、年龄和电话：基础表与读取方法</h2><div class=\"table-scroll\"><table><thead><tr><th>数字</th><th>法语</th><th>记忆与输出</th></tr></thead><tbody><tr><td>0—5</td><td>zéro、un、deux、trois、quatre、cinq</td><td>前导 0 在电话中也要保留。</td></tr><tr><td>6—10</td><td>six、sept、huit、neuf、dix</td><td>年龄后接 ans 时关注跨词辅音。</td></tr><tr><td>11—16</td><td>onze、douze、treize、quatorze、quinze、seize</td><td>先整体掌握，别把 12 当作 dix-deux。</td></tr><tr><td>17—19</td><td>dix-sept、dix-huit、dix-neuf</td><td>传统拼写用连字符。</td></tr><tr><td>20</td><td>vingt</td><td>年龄 J’ai vingt ans.</td></tr><tr><td>21</td><td>vingt et un</td><td>传统拼写有 et，不是 vingt-un。</td></tr><tr><td>22—29</td><td>vingt-deux…vingt-neuf</td><td>有规则的十位 + 个位。</td></tr><tr><td>30 / 40 / 50 / 60</td><td>trente / quarante / cinquante / soixante</td><td>先记十位，再组合；31 trente et un。</td></tr><tr><td>70 / 71（拓展）</td><td>soixante-dix / soixante et onze</td><td>法、加拿大常用的 60 + 10／11 结构。</td></tr><tr><td>80 / 81（拓展）</td><td>quatre-vingts / quatre-vingt-un</td><td>80 完整数有 s，后接另一个数时去 s；81 无 et。</td></tr><tr><td>90 / 91（拓展）</td><td>quatre-vingt-dix / quatre-vingt-onze</td><td>80 + 10／11；91 无 et。</td></tr><tr><td>100（拓展）</td><td>cent</td><td>其他百位规则后续需要时补充。</td></tr></tbody></table></div><h3>7.1 先练最常用的年龄与号码块</h3><p>J’ai dix-huit ans. / J’ai vingt et un ans. / Elle a trente-deux ans. 句中只有 avoir 根据主语变化，数词不因为人物男女变 forme。un an 中 an 为阳性，不能说 une an。</p><h3>7.2 电话不是一个巨大的整数</h3><p>本课虚构占位号码 <b>06 00 00 00 00</b>：可分组读 <b>zéro six / zéro zéro / zéro zéro / zéro zéro / zéro zéro</b>。法国电话号码常两位一组，也可为核对而逐位读。不同国家分组习惯可不同；先按对方给出的分组抄写，保留前导零，不能把 06 写成 6。连续几个零时仍逐个核实数量。</p><h3>7.3 地址的号、邮编和城市是不同字段</h3><p><b>12, rue du Cours, 00000 Ville-Exemple</b> 是教学虚构地址：12 门牌号；rue du Cours 街道；00000 占位邮编；Ville-Exemple 虚构城市。邮编可逐位或按对方分组读，不自动当年龄或门牌号。实际填写要遵循当地地址格式，练习先检查信息位置和数字准确性。</p><h3>7.4 拼写规范（查阅补充）</h3><p>本页采用教材常见传统拼写：vingt et un、trente-deux；1990 年调整拼写也允许数词各部分加连字符，如 vingt-et-un。不要把被接受的两种拼写当两个数值。瑞士、比利时等地区可能用 septante／nonante 等，本页主练法国和加拿大常见形式。</p><h3>7.5 听写流程</h3><ol><li>先听全组，写下已确定数字，空缺先留空。</li><li>第二遍核对 13／30、14／40、15／50、16／60 等容易混淆组合。</li><li>把数字重新读给对方听，特别检查前导 0 与位数。</li><li>最后把年龄、门牌、邮编、电话各自写入正确字段。</li></ol>"
+    },
+    {
+      "id": "words",
+      "title": "08 / 关键词汇、搭配与用途辨析",
+      "html": "<h2>08 / 关键词汇、搭配与用途辨析</h2><div class=\"table-scroll\"><table><thead><tr><th>词／表达</th><th>词性与性数</th><th>中文／用途</th><th>例句</th></tr></thead><tbody><tr><td>ça</td><td>指示代词</td><td>这、情况；Ça va 固定结构。</td><td>Ça va bien.</td></tr><tr><td>aller</td><td>不规则动词</td><td>去／近况如何；vais、vas、va。</td><td>Je vais bien.</td></tr><tr><td>avoir</td><td>不规则动词</td><td>有；年龄使用 avoir。</td><td>J’ai vingt ans.</td></tr><tr><td>bien</td><td>副词</td><td>好，修饰动作／情况。</td><td>Ça va bien.</td></tr><tr><td>mal</td><td>副词</td><td>不好；Pas mal 是固定回应。</td><td>Pas mal, merci.</td></tr><tr><td>très</td><td>副词</td><td>很、非常。</td><td>Très bien.</td></tr><tr><td>merci</td><td>感谢表达</td><td>谢谢。</td><td>Bien, merci.</td></tr><tr><td>et vous ? / et toi ?</td><td>反问固定表达</td><td>您／你呢？</td><td>Je vais bien. Et vous ?</td></tr><tr><td>l’âge</td><td>阳性名词</td><td>年龄；quel âge。</td><td>Quel âge as-tu ?</td></tr><tr><td>un an / des ans</td><td>阳性名词，单／复</td><td>年／岁；复数为后续预览。</td><td>Elle a un an.</td></tr><tr><td>l’adresse</td><td>阴性名词</td><td>地址；mon adresse，而非 ma adresse。</td><td>Quelle est votre adresse ?</td></tr><tr><td>la rue</td><td>阴性名词</td><td>街、街道。</td><td>12, rue du Cours（虚构）</td></tr><tr><td>la ville</td><td>阴性名词（复习）</td><td>城市。</td><td>Ma ville est Lyon.</td></tr><tr><td>le code postal</td><td>阳性名词短语</td><td>邮政编码；code 阳性。</td><td>Votre code postal ?</td></tr><tr><td>le numéro</td><td>阳性名词</td><td>号码；quel numéro。</td><td>Mon numéro…</td></tr><tr><td>le téléphone</td><td>阳性名词</td><td>电话；可指设备或联系方式语境。</td><td>un téléphone</td></tr><tr><td>le numéro de téléphone</td><td>阳性名词短语</td><td>电话号码，核心词 numéro 阳性。</td><td>Quel est votre numéro de téléphone ?</td></tr><tr><td>la nationalité</td><td>阴性名词（复习）</td><td>国籍，别与住处混淆。</td><td>Ma nationalité…</td></tr><tr><td>un / une</td><td>不定冠词单数</td><td>阳性／阴性，元音前不省音。</td><td>un numéro / une adresse</td></tr><tr><td>mon / ma</td><td>物主限定词单数</td><td>我的，按被限定名词选择。</td><td>mon numéro / ma ville</td></tr><tr><td>ton / ta</td><td>物主限定词单数</td><td>你的（tu）。</td><td>ton adresse / ta ville</td></tr><tr><td>son / sa</td><td>物主限定词单数</td><td>他／她的，不按拥有者男女选择。</td><td>son numéro / sa ville</td></tr><tr><td>votre</td><td>物主限定词单数</td><td>您的／你们的，单数名词前同形。</td><td>votre adresse</td></tr><tr><td>quel / quelle</td><td>疑问限定词单数</td><td>哪一个／什么，按名词性别配合。</td><td>quel âge / quelle adresse</td></tr><tr><td>pardon ?</td><td>核对表达</td><td>抱歉，没听清／请再说一次？</td><td>Pardon, votre numéro ?</td></tr><tr><td>répéter</td><td>规则 -er 动词，固定请求补充</td><td>重复；本课先识别请求整句。</td><td>Vous pouvez répéter ?</td></tr><tr><td>s’il vous plaît</td><td>礼貌请求短语</td><td>请，对 vous 的请求。</td><td>Votre adresse, s’il vous plaît.</td></tr><tr><td>zéro</td><td>数词</td><td>零；读号时保留。</td><td>zéro six</td></tr><tr><td>le prénom / le nom</td><td>阳性名词（复习）</td><td>名／姓，登记卡中区分。</td><td>Mon prénom est Mei.</td></tr></tbody></table></div><h3>8.1 近况、年龄、住处和号码分别表达</h3><p>Ça va bien. 回答近况；J’ai vingt ans. 报年龄；J’habite à Lyon. 报居住地；Mon numéro : … 提供号码。不要把数字回答给 Ça va ?，也不要用 J’ai Lyon. 回答住所。</p><h3>8.2 地址 vs 居住地</h3><p>J’habite à Lyon. 可以只提供城市；完整 adresse 常包含门牌和街道等。对方问 Quelle est votre adresse ? 时，要看表格或语境需要多少信息，不能总把城市当作完整地址。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "09 / 原创登记卡、对话与输出任务",
+      "html": "<h2>09 / 原创登记卡、对话与输出任务</h2><h3>9.1 教学虚构登记卡</h3><div class=\"table-scroll\"><table><thead><tr><th>字段</th><th>内容</th><th>读写提醒</th></tr></thead><tbody><tr><td>Prénom / Nom</td><td>Mei / Lin</td><td>名与姓分开。</td></tr><tr><td>Âge</td><td>19 ans</td><td>Elle a dix-neuf ans.</td></tr><tr><td>Nationalité</td><td>chinoise</td><td>国籍阴性；城市不决定国籍。</td></tr><tr><td>Ville</td><td>Ville-Exemple</td><td>教学虚构城市名称。</td></tr><tr><td>Adresse</td><td>12, rue du Cours</td><td>教学虚构地址。</td></tr><tr><td>Code postal</td><td>00000</td><td>占位邮编，保留五个 0。</td></tr><tr><td>Téléphone</td><td>06 00 00 00 00</td><td>教学虚构占位号码，保留开头 0。</td></tr><tr><td>Langues</td><td>chinois, français</td><td>语言名不随人物性别配合。</td></tr></tbody></table></div><h3>9.2 接待场景：有问候，也有核对</h3><p class=\"example\">— Bonjour. Comment allez-vous ? 您好，您近况如何？<br>— Très bien, merci. Et vous ? 很好，谢谢。您呢？<br>— Bien, merci. Vous vous appelez comment ?<br>— Je m’appelle Mei Lin.<br>— Quel âge avez-vous ?<br>— J’ai dix-neuf ans.<br>— Quelle est votre adresse ?<br>— Mon adresse : 12, rue du Cours, 00000 Ville-Exemple.<br>— Et votre numéro de téléphone ?<br>— Zéro six / zéro zéro / zéro zéro / zéro zéro / zéro zéro.<br>— Merci. Au revoir et bonne journée !<br>— Au revoir !</p><h3>9.3 熟人间变化</h3><p>把 Comment allez-vous ? 改为 Comment vas-tu ?；Quel âge avez-vous ? 改为 Quel âge as-tu ?；votre adresse 改为 ton adresse。不是简单把所有 vous 字样换成 tu：动词要变，物主词要看名词，相邻元音也要检查。</p><h3>9.4 阅读与听力工作顺序</h3><p>阅读时先找每个字段，再把卡片改为第三人介绍：Elle s’appelle Mei Lin. Elle a dix-neuf ans. Elle est chinoise. 听教材录音时，第一遍辨认问近况／年龄／地址／电话的轮次；第二遍记录数字；第三遍对照教材原文核对遗漏的前导零与人称；第四遍按词组跟读。没有出现的字段写“未提及”，不照示范卡补进去。</p><h3>9.5 可替换模板与输出要求</h3><p class=\"example\">Bonjour. Je m’appelle… Je vais bien. J’ai… ans. Je suis… J’habite à… Mon numéro de téléphone : … Et vous ?</p><p>写作时至少包含姓名、年龄、国籍、城市等 4 个不同字段，再增加近况或语言。电话号码可以继续用本页虚构占位，实际信息不是练习要求。口语时把同一内容分成几组说完，核对数字不要赶速度。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "10 / 词组重音、节奏与数字衔接",
+      "html": "<h2>10 / 词组重音、节奏与数字衔接</h2><p>法语的常规重音通常落在一个<strong>节奏组最后一个可承重音的音节</strong>，不模仿英语给每个内容词都加独立强重音，也不把中文每字等距、每字停顿的方式搬过来。节奏组按语义和语速划分，可以存在不同的合理分组。</p><div class=\"table-scroll\"><table><thead><tr><th>短语</th><th>教学分组／重音示意</th><th>理解</th></tr></thead><tbody><tr><td>Je vais bien.</td><td>Je vais BIEN.</td><td>整组收束在 bien。</td></tr><tr><td>J’ai dix-neuf ans.</td><td>J’ai dix-neuf ANS.</td><td>数词与 ans 在同一个意义组。</td></tr><tr><td>Quel âge avez-vous ?</td><td>Quel âge avez-VOUS ?</td><td>疑问句语调可另有变化，重音位置不等于每次必须升调。</td></tr><tr><td>Mon numéro de téléphone…</td><td>Mon numéro de téléPHONE…</td><td>名词短语通常连续读，避免 mon／numéro／de／téléphone 每词停顿。</td></tr><tr><td>Mon adresse : 12, rue du Cours.</td><td>Mon aDRESSE / douze, rue du COURS.</td><td>信息核对可分组；不是给所有音节相同的大停顿。</td></tr></tbody></table></div><h3>10.1 重音与音量不是同一件事</h3><p>末音节常有相对延长、突出，未必喊得更响。不是把每个末字母都发出来；téléphone 末 e 在常见读法中不额外成一拍，重音落在 /fɔn/。语气强调可改变分配，本课练普通信息表达。</p><h3>10.2 avoir 的同音异写与省音</h3><p>j’ai 常读 /ʒe/；tu as / il a 的动词常都读 /a/，需要用主语辨认。a 和 à 在普通语音中同音，书写凭结构区分。不能为了区分 as / a，强行把 tu as 末 s 读出来。</p><h3>10.3 数字接 ans：先听，再模仿</h3><div class=\"table-scroll\"><table><thead><tr><th>年龄短语</th><th>常见读音重点</th><th>注意</th></tr></thead><tbody><tr><td>deux ans</td><td>/dø.zɑ̃/</td><td>潜在末 s 的连读为 /z/。</td></tr><tr><td>trois ans</td><td>/tʁwa.zɑ̃/</td><td>与 trois 单独末 s 不读不同。</td></tr><tr><td>six ans</td><td>/si.zɑ̃/</td><td>six 在此接元音常用 /z/，不是 /s/。</td></tr><tr><td>dix ans</td><td>/di.zɑ̃/</td><td>dix 在此接元音常用 /z/。</td></tr><tr><td>vingt ans</td><td>/vɛ̃.tɑ̃/</td><td>此处可听到 /t/；不要误写成年龄用 vingt a。</td></tr></tbody></table></div><h3>10.4 三步跟读</h3><ol><li>先圈意思完整的小组，例如 Bonjour / je m’appelle Mei / j’ai dix-neuf ans。</li><li>跟录音把组内词连起来，末可承重音音节稍延长，不在每个词前重新起音。</li><li>用另一年龄重说整组，再把一个电话号码按原分组读回，检查节奏没有妨碍数字准确性。</li></ol><p>数字在不同环境读音会变化，第 13 课系统整理。这里先掌握常见年龄短语；不要把单独数词读音机械套用到所有位置。</p>"
+    },
+    {
+      "id": "practice",
+      "title": "11 / 十组练习与逐项答案解析",
+      "html": "<h2>11 / 十组练习与逐项答案解析</h2><p>先作答，再展开答案。数字拼写采用传统形式，可接受对应的调整拼写。联系方式均为教学虚构占位。J 是开放任务，检查信息准确、结构正确和交际回应，不以参考样例为唯一答案。</p><h3>A. avoir 与 aller 变位</h3><ol><li>J’___ dix-neuf ans.</li><li>Tu ___ quel âge ?</li><li>Elle ___ vingt ans.</li><li>Je ___ bien.</li><li>Comment ___-tu ?</li><li>Ça ___ bien.</li><li>Quel âge ___-vous ?</li><li>Comment ___-vous ?</li></ol><details><summary>展开答案与解析</summary><ol><li>ai。j’ai 表年龄。</li><li>as。tu 的 avoir 形式；书写 s。</li><li>a。第三人称单数不加 s。</li><li>vais。aller 表近况。</li><li>vas。tu 的 aller；倒装 vas-tu。</li><li>va。ça 第三人称单数。</li><li>avez。vous 的 avoir，即使礼貌问一人。</li><li>allez。vous 的 aller，不是 avez。</li></ol></details><h3>B. 主语转换与信息回应</h3><ol><li>J’ai vingt ans. 改成 Elle。</li><li>Tu vas bien. 改成 Vous。</li><li>Tu as dix-neuf ans. 改成 Je。</li><li>Vous avez quel âge ? 回答自己 21 岁。</li><li>Elle a un an. 改成她 2 岁。</li><li>你向熟悉同学反问“你呢？”如何说？</li><li>您向陌生工作人员反问“您呢？”如何说？</li><li>Comment allez-vous ? 回答很好并感谢。</li></ol><details><summary>展开答案与解析</summary><ol><li>Elle a vingt ans. avoir 跟主语变。</li><li>Vous allez bien. aller 使用 vous 变位。</li><li>J’ai dix-neuf ans. je 在 ai 前省音。</li><li>J’ai vingt et un ans. 回答转成 je。</li><li>Elle a deux ans. 年龄 2 用复数 ans。</li><li>Et toi ? 使用重读代词固定反问。</li><li>Et vous ? 与礼貌关系对应。</li><li>Je vais bien, merci. / Très bien, merci. 可再说 Et vous ?</li></ol></details><h3>C. 词义、字段与固定表达</h3><ol><li>Ça va ? 与 Ça va. 的作用有什么不同？</li><li>Pas mal 常译为怎样的近况？</li><li>âge / adresse / numéro 分别提供什么信息？</li><li>code postal 是电话还是邮编？</li><li>近况提问的答案能否仅填 19 ans？</li><li>J’habite à Lyon. 是否一定构成完整街道地址？</li><li>电话号码 06 开头，能否丢掉 0 只写 6？</li><li>虚构号码 06 00 00 00 00 有几位数字？</li></ol><details><summary>展开答案与解析</summary><ol><li>问句询问对方，陈述常回应近况；听时看语调和轮次。</li><li>还不错；固定短语，不用逐词直译成“不坏东西”。</li><li>年龄／地址／号码；应写不同字段。</li><li>邮政编码，与电话号码分开。</li><li>不能；19 ans 回答年龄，不是近况。</li><li>不一定；只是城市，完整地址常需要门牌、街道等。</li><li>不能；前导零是号码的一部分。</li><li>10 位；06 两位加四组 00 共八位，合计十位。</li></ol></details><h3>D. 限定词：配合、元音与结构</h3><ol><li>我的号码：___ numéro。</li><li>我的城市：___ ville。</li><li>我的地址：___ adresse。</li><li>你的地址（tu）：___ adresse。</li><li>他的城市：___ ville。</li><li>她的号码：___ numéro。</li><li>您的地址（vous）：___ adresse。</li><li>一个地址：___ adresse。</li><li>询问年龄：___ âge。</li><li>询问地址：___ adresse。</li></ol><details><summary>展开答案与解析</summary><ol><li>mon numéro，numéro 阳性。</li><li>ma ville，ville 阴性、辅音开头。</li><li>mon adresse，adresse 阴性但元音开头。</li><li>ton adresse，阴性元音前不用 ta。</li><li>sa ville，看 ville 阴性，不看他是男性。</li><li>son numéro，看 numéro 阳性，不看她是女性。</li><li>votre adresse，对一人也可用礼貌 vous。</li><li>une adresse，不定冠词不省音。</li><li>quel âge，âge 阳性。</li><li>quelle adresse，adresse 阴性。</li></ol></details><h3>E. 根据回答提出自然问题</h3><ol><li>Je vais bien, merci.（礼貌关系）</li><li>J’ai dix-neuf ans.（礼貌关系）</li><li>Mon adresse : 12, rue du Cours, 00000 Ville-Exemple.</li><li>Mon numéro de téléphone : 06 00 00 00 00.</li><li>J’habite à Lyon.</li><li>Je m’appelle Mei Lin.</li><li>Oui, ça va bien.（一般自然问候）</li><li>回答中的一个数字没听清，请求重复。</li></ol><details><summary>展开答案与解析</summary><ol><li>Comment allez-vous ? 问近况。</li><li>Quel âge avez-vous ? / Vous avez quel âge ? 年龄使用 avoir。</li><li>Quelle est votre adresse ? quel 配合阴性 adresse。</li><li>Quel est votre numéro de téléphone ? numéro 阳性。</li><li>Vous habitez où ? 问居住地。</li><li>Comment vous appelez-vous ? / Vous vous appelez comment ?</li><li>Ça va ? / Comment ça va ? 都可。</li><li>Pardon ? / Vous pouvez répéter, s’il vous plaît ? 请求补充，不猜数字。</li></ol></details><h3>F. 中文译为法语，保留必要字段</h3><ol><li>我十九岁。</li><li>她二十一岁。</li><li>您近况如何？我很好，谢谢。</li><li>你（熟人）几岁？</li><li>您的地址是什么？</li><li>这是我的号码。（号码可用占位）</li><li>我住在中国上海。（复习）</li><li>我的名字是梅。我说中文。（复习）</li></ol><details><summary>展开答案与解析</summary><ol><li>J’ai dix-neuf ans. 不是 je suis。</li><li>Elle a vingt et un ans. avoir 单数 a。</li><li>Comment allez-vous ? — Je vais bien, merci.</li><li>Quel âge as-tu ? / Tu as quel âge ?</li><li>Quelle est votre adresse ? adresse 阴性。</li><li>C’est mon numéro : 06 00 00 00 00. mon 按 numéro。</li><li>J’habite à Shanghai, en Chine. 城市与国家介词不同。</li><li>Je m’appelle Mei. Je parle chinois. 语言不随人物性别变。</li></ol></details><h3>G. 阅读第 09 节虚构登记卡</h3><ol><li>姓名的 prénom 与 nom 分别是什么？</li><li>她几岁？用法语完整句。</li><li>她的国籍是什么？</li><li>卡片中的 12 表示年龄、门牌还是电话的一组？</li><li>00000 是电话还是占位邮编？</li><li>电话号码共几位？开头是什么？</li><li>她说哪两种语言？</li><li>卡片是否写出她的职业？能否猜测是学生？</li><li>把卡片中姓名、年龄、国籍三项写成三句。</li></ol><details><summary>展开答案与解析</summary><ol><li>Prénom : Mei；Nom : Lin。</li><li>Elle a dix-neuf ans.</li><li>Elle est chinoise.</li><li>门牌；年龄是 19，号码另列字段。</li><li>占位邮编，共五个 0。</li><li>10 位，06 开头；保留前导 0。</li><li>Elle parle chinois et français.</li><li>未提供，不能因为 19 岁就猜职业。</li><li>Elle s’appelle Mei Lin. Elle a dix-neuf ans. Elle est chinoise.</li></ol></details><h3>H. 词组重音与常见年龄读音</h3><ol><li>Je vais bien. 的整组重音通常落在哪个词？</li><li>Mon numéro de téléphone… 是否每个词之间都应明显停顿？</li><li>téléphone 末 e 在常见读法中是否自动另成一拍？</li><li>deux ans 中常见连读辅音是什么？</li><li>six ans 常见 /s/ 还是 /z/ 衔接？</li><li>dix ans 常见 /s/ 还是 /z/ 衔接？</li><li>vingt ans 可听到哪个跨词辅音？</li><li>a 与 à 通常怎样凭听音或结构区别书写？</li></ol><details><summary>展开答案与解析</summary><ol><li>bien，整组末可承重音音节，未必喊得更响。</li><li>不是，名词短语可连续；信息核对才按意义组停顿。</li><li>通常不另成一拍，重音落在 /fɔn/。</li><li>/z/：/dø.zɑ̃/。</li><li>通常 /z/：/si.zɑ̃/。</li><li>通常 /z/：/di.zɑ̃/。</li><li>/t/：/vɛ̃.tɑ̃/。</li><li>常同音 /a/，主要凭结构：avoir 变位 a，介词 à。</li></ol></details><h3>I. 改错并解释原因</h3><ol><li>Je suis vingt ans.</li><li>Je ai dix-neuf ans.</li><li>Elle as dix-huit ans.</li><li>Comment avez-vous ?（问近况）</li><li>Quel est votre adresse ?</li><li>Ma adresse est…</li><li>Elle a son ville.（想表达“她的城市”这一名词短语）</li><li>une numéro</li><li>Quel âge avez-vous ? — Vous avez vingt ans.（回答自己）</li><li>06 被登记成 6。（核对电话）</li></ol><details><summary>展开答案与解析</summary><ol><li>J’ai vingt ans. 年龄用 avoir。</li><li>J’ai dix-neuf ans. je 在 ai 前省音。</li><li>Elle a dix-huit ans. elle 对应 a，无 s。</li><li>Comment allez-vous ? 近况用 aller。</li><li>Quelle est votre adresse ? 按 adresse 阴性。</li><li>Mon adresse est… 阴性元音前使用 mon。</li><li>sa ville。名词短语用 sa 配合 ville；不要额外拼成含糊的拥有句。</li><li>un numéro。numéro 阳性。</li><li>J’ai vingt ans. 回答自身从 vous 转为 je。</li><li>必须保留 06 的前导零；号码不是可删零的整数。</li></ol></details><h3>J. 完整输出、数字核对与自评</h3><ol><li>与同伴完成 8—10 轮：问候、近况、姓名、年龄、地址、号码、核对、告别。</li><li>把一段 vous 对话改为 tu，指出至少 3 项不是直接换主语就能完成的变化。</li><li>按本页虚构卡片写 5—7 句介绍，不添加未给的职业。</li><li>听教材录音并记录数字，再朗读个人介绍，找一个需改进的词组节奏问题。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考：Bonjour. Comment allez-vous ? — Bien, merci. Et vous ? — Très bien. Quel âge avez-vous ? — J’ai dix-neuf ans. Quelle est votre adresse ? — Mon adresse… Et votre numéro ? — 06 00 00 00 00. — Merci, au revoir ! 可增姓名轮次。自查回应对应、字段完整、数字可核对。</li><li>例如 allez-vous → vas-tu；avez-vous → as-tu；votre adresse → ton adresse；Et vous ? → Et toi ?。动词、物主词和重读代词各有规则。</li><li>参考：Elle s’appelle Mei Lin. Elle a dix-neuf ans. Elle est chinoise. Elle habite à Ville-Exemple. Son adresse : 12, rue du Cours. Son numéro : 06 00 00 00 00. Elle parle chinois et français. 自查不凭年龄猜职业。</li><li>记录实际遗漏的数字与一处节奏问题，例如把 Mon numéro de téléphone 分得过碎。重录时改善该处，并确认没有因赶语速丢掉数字；开放任务没有唯一评分答案。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12 / 易错点、自查清单与一分钟卡片",
+      "html": "<h2>12 / 易错点、自查清单与一分钟卡片</h2><div class=\"table-scroll\"><table><thead><tr><th>错误或误解</th><th>修正</th><th>原因</th></tr></thead><tbody><tr><td>Je suis dix-neuf ans.</td><td>J’ai dix-neuf ans.</td><td>年龄用 avoir。</td></tr><tr><td>Comment avez-vous ?</td><td>Comment allez-vous ?</td><td>问近况用 aller。</td></tr><tr><td>Je va bien.</td><td>Je vais bien.</td><td>je 对应 vais，ça 对应 va。</td></tr><tr><td>je ai</td><td>j’ai</td><td>元音前省音。</td></tr><tr><td>Tu a / elle as</td><td>Tu as / elle a</td><td>同音也要按主语拼写。</td></tr><tr><td>Ça va 无论何时都只能是回答。</td><td>Ça va ? 也可提问。</td><td>问号、语调与轮次决定作用。</td></tr><tr><td>Et tu ?</td><td>Et toi ?</td><td>该独立反问用重读代词。</td></tr><tr><td>ma adresse</td><td>mon adresse</td><td>阴性元音开头触发换形。</td></tr><tr><td>男性拥有城市要用 mon ville。</td><td>男性也说 ma ville。</td><td>按被拥有名词的阴阳性。</td></tr><tr><td>son 永远等于他的，sa 永远等于她的。</td><td>Son numéro 可为他或她的。</td><td>拥有者性别由语境确定。</td></tr><tr><td>mon la ville</td><td>ma ville</td><td>限定词不在本课结构中堆叠。</td></tr><tr><td>un’ adresse</td><td>une adresse</td><td>une 不套用 le / la 省音规则。</td></tr><tr><td>une numéro</td><td>un numéro</td><td>numéro 阳性。</td></tr><tr><td>Quelle âge pour une femme ?</td><td>Quel âge…</td><td>quel 配合 âge，不看回答者性别。</td></tr><tr><td>Quel adresse…</td><td>Quelle adresse…</td><td>adresse 阴性。</td></tr><tr><td>女士只能用 ta adresse。</td><td>ton adresse</td><td>元音规则与名词阴性同时成立。</td></tr><tr><td>votre 只能对多人。</td><td>对一人也用礼貌 votre。</td><td>vous 可礼貌指单数。</td></tr><tr><td>年龄 21 为 vingt-un。</td><td>vingt et un</td><td>传统数词形式有 et。</td></tr><tr><td>电话 06 可以写成 6。</td><td>保留 06。</td><td>号码前导零也是信息。</td></tr><tr><td>重音就是每个词都喊很响。</td><td>组内连续，组末适当突出。</td><td>词组重音按节奏和意义组织。</td></tr></tbody></table></div><h3>12.1 脱稿自查</h3><ul><li>能听懂 Ça va ?，给近况而不是年龄，接 Et toi / Et vous。</li><li>能默写 j’ai、tu as、il / elle a，je vais、tu vas、il / elle va，及礼貌 vous 形式。</li><li>能问 Quel âge avez-vous ?，回答 J’ai… ans。</li><li>能解释 mon adresse 与 ma ville 为何不同，son／sa 为何不直接表示拥有者男女。</li><li>能区分 une adresse、l’adresse、mon adresse、quelle adresse。</li><li>能写 quel âge、quel numéro、quelle adresse，知道配合对象。</li><li>能读写基础数词，保留电话前导 0，并分清年龄／门牌／邮编／电话。</li><li>能把信息卡改成完整介绍，给未提及字段留空。</li><li>能用一组一组的节奏读句子，而不是每词断开。</li></ul><div class=\"example\"><b>一分钟速记</b><br>近况：Ça va ? / Comment allez-vous ? → Je vais bien, merci.<br>年龄：Quel âge avez-vous ? → J’ai vingt ans.<br>avoir：j’ai / tu as / il, elle a / vous avez。<br>aller：je vais / tu vas / il, elle va / vous allez。<br>物主词：mon numéro / ma ville / mon adresse；votre adresse。<br>限定词：un numéro / une adresse；quel âge / quelle adresse。<br>电话：按分组，保留前导 0，听不清先 Pardon ?<br>节奏：Je vais BIEN / j’ai vingt ANS；不在每词后停顿。</div><h3>12.2 复习步骤与资料</h3><p>当天做 A—D，隔天重做 I 与错题；三天后更换年龄做 E、F、J；一周后脱稿说一段新的介绍。复数物主词、70—100 的数词规则为拓展，基础稳定后再查阅。</p><p>课次范围按 <a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">出版方公开目录</a>核对；变位与物主词可参阅德州大学 <a href=\"https://www.laits.utexas.edu/tex/gr/virr2.html\" target=\"_blank\" rel=\"noopener noreferrer\">avoir</a>、<a href=\"https://www.laits.utexas.edu/tex/pd/virr4.html\" target=\"_blank\" rel=\"noopener noreferrer\">aller</a>、<a href=\"https://www.laits.utexas.edu/tex/gr/det6.html\" target=\"_blank\" rel=\"noopener noreferrer\">物主限定词</a>。节奏组可查 <a href=\"https://www.laits.utexas.edu/fi/html/pho/13.html\" target=\"_blank\" rel=\"noopener noreferrer\">法语节奏组练习</a>。本站讲解与任务原创，配套音轨从出版方资源访问。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "“我十九岁”应说？",
+      "options": [
+        "J’ai dix-neuf ans.",
+        "Je suis dix-neuf ans.",
+        "Je vais dix-neuf ans."
+      ],
+      "answer": 0,
+      "explanation": "年龄使用 avoir + 数词 + ans，je 与 ai 省音。",
+      "group": "grammar",
+      "id": "l03-q01"
+    },
+    {
+      "question": "Tu ___ quel âge ?",
+      "options": [
+        "a",
+        "as",
+        "ai"
+      ],
+      "answer": 1,
+      "explanation": "tu 的 avoir 变位为 as，通常与 a 同音但拼写不同。",
+      "group": "grammar",
+      "id": "l03-q02"
+    },
+    {
+      "question": "Elle ___ vingt ans.",
+      "options": [
+        "ai",
+        "as",
+        "a"
+      ],
+      "answer": 2,
+      "explanation": "elle 第三人称单数用 a，无 s。",
+      "group": "grammar",
+      "id": "l03-q03"
+    },
+    {
+      "question": "Je ___ bien.（近况）",
+      "options": [
+        "vais",
+        "vas",
+        "va"
+      ],
+      "answer": 0,
+      "explanation": "问候中的 aller 使用 je vais，不能用 je va。",
+      "group": "grammar",
+      "id": "l03-q04"
+    },
+    {
+      "question": "Ça ___ ?",
+      "options": [
+        "vais",
+        "va",
+        "avez"
+      ],
+      "answer": 1,
+      "explanation": "主语 ça 对应 aller 第三人称单数 va。",
+      "group": "grammar",
+      "id": "l03-q05"
+    },
+    {
+      "question": "礼貌问近况的句子是？",
+      "options": [
+        "Comment avez-vous ?",
+        "Comment êtes-vous âge ?",
+        "Comment allez-vous ?"
+      ],
+      "answer": 2,
+      "explanation": "近况用 aller；vous 使用 allez。",
+      "group": "speaking",
+      "id": "l03-q06"
+    },
+    {
+      "question": "熟人之间说“你呢？”可用？",
+      "options": [
+        "Et toi ?",
+        "Et tu ?",
+        "Et ton ?"
+      ],
+      "answer": 0,
+      "explanation": "独立反问用重读代词 toi；ton 是物主限定词。",
+      "group": "speaking",
+      "id": "l03-q07"
+    },
+    {
+      "question": "___ ville 表示我的城市。",
+      "options": [
+        "mon",
+        "ma",
+        "mes"
+      ],
+      "answer": 1,
+      "explanation": "ville 阴性单数、辅音开头，按名词用 ma，不按拥有者性别。",
+      "group": "grammar",
+      "id": "l03-q08"
+    },
+    {
+      "question": "___ adresse 表示我的地址。",
+      "options": [
+        "ma",
+        "m’",
+        "mon"
+      ],
+      "answer": 2,
+      "explanation": "adresse 阴性但元音开头，ma 换为 mon；不是省音写 m’。",
+      "group": "grammar",
+      "id": "l03-q09"
+    },
+    {
+      "question": "Mei 的电话号码，son numéro 中 son 表明什么？",
+      "options": [
+        "numéro 阳性，拥有者男女需看语境",
+        "拥有者必为男性",
+        "号码有多个"
+      ],
+      "answer": 0,
+      "explanation": "son 配合被限定名词 numéro；它本身不证明拥有者男性。",
+      "group": "grammar",
+      "id": "l03-q10"
+    },
+    {
+      "question": "“一个地址”应写？",
+      "options": [
+        "un’ adresse",
+        "une adresse",
+        "un adresse"
+      ],
+      "answer": 1,
+      "explanation": "adresse 阴性，une 在元音前不省音。",
+      "group": "grammar",
+      "id": "l03-q11"
+    },
+    {
+      "question": "“一个号码”应写？",
+      "options": [
+        "une numéro",
+        "l’une numéro",
+        "un numéro"
+      ],
+      "answer": 2,
+      "explanation": "numéro 阳性单数，用 un。",
+      "group": "grammar",
+      "id": "l03-q12"
+    },
+    {
+      "question": "___ âge avez-vous ?",
+      "options": [
+        "Quel",
+        "Quelle",
+        "Quelles"
+      ],
+      "answer": 0,
+      "explanation": "âge 阳性单数，quel；不按回答者性别选。",
+      "group": "grammar",
+      "id": "l03-q13"
+    },
+    {
+      "question": "___ est votre adresse ?",
+      "options": [
+        "Quel",
+        "Quelle",
+        "Quels"
+      ],
+      "answer": 1,
+      "explanation": "adresse 阴性单数，quelle。",
+      "group": "grammar",
+      "id": "l03-q14"
+    },
+    {
+      "question": "对一位女士问“你（tu）的地址”哪句正确？",
+      "options": [
+        "Quel est ta adresse ?",
+        "Quelle est ta adresse ?",
+        "Quelle est ton adresse ?"
+      ],
+      "answer": 2,
+      "explanation": "quelle 配合阴性 adresse；ton 替代元音前的 ta。",
+      "group": "grammar",
+      "id": "l03-q15"
+    },
+    {
+      "question": "问 Vous avez quel âge ?，回答自己 20 岁，应说？",
+      "options": [
+        "J’ai vingt ans.",
+        "Vous avez vingt ans.",
+        "Je vais vingt ans."
+      ],
+      "answer": 0,
+      "explanation": "回答自身变为 je，年龄仍用 avoir。",
+      "group": "speaking",
+      "id": "l03-q16"
+    },
+    {
+      "question": "Pas mal. 作为近况回应通常是什么意思？",
+      "options": [
+        "不知道号码",
+        "还不错",
+        "这是邮编"
+      ],
+      "answer": 1,
+      "explanation": "Pas mal 是常用固定回应，可表示还不错。",
+      "group": "vocabulary",
+      "id": "l03-q17"
+    },
+    {
+      "question": "le code postal 指？",
+      "options": [
+        "门牌号",
+        "年龄",
+        "邮政编码"
+      ],
+      "answer": 2,
+      "explanation": "邮编是地址相关字段，与电话、年龄分别记录。",
+      "group": "vocabulary",
+      "id": "l03-q18"
+    },
+    {
+      "question": "电话号码以 06 开头，记录时应该？",
+      "options": [
+        "保留开头 0",
+        "自动删成 6",
+        "改写为六岁"
+      ],
+      "answer": 0,
+      "explanation": "电话号码不是可以删除前导零的整数。",
+      "group": "reading",
+      "id": "l03-q19"
+    },
+    {
+      "question": "21 的常见传统拼写是？",
+      "options": [
+        "vingt-un",
+        "vingt et un",
+        "vingt et une，所有位置都如此"
+      ],
+      "answer": 1,
+      "explanation": "本课年龄用 vingt et un ans；传统形式含 et。",
+      "group": "vocabulary",
+      "id": "l03-q20"
+    },
+    {
+      "question": "19 的常见传统拼写是？",
+      "options": [
+        "dix et neuf",
+        "neuf-dix",
+        "dix-neuf"
+      ],
+      "answer": 2,
+      "explanation": "17—19 按 dix-sept、dix-huit、dix-neuf 记忆。",
+      "group": "vocabulary",
+      "id": "l03-q21"
+    },
+    {
+      "question": "80 完整数的传统拼写是？（拓展）",
+      "options": [
+        "quatre-vingts",
+        "quatre-vingt et un",
+        "soixante-vingts"
+      ],
+      "answer": 0,
+      "explanation": "80 为 quatre-vingts，后接其他数如81时去 s。",
+      "group": "vocabulary",
+      "id": "l03-q22"
+    },
+    {
+      "question": "Je vais bien. 的普通整组重音常落在哪？",
+      "options": [
+        "每个词都必须独立强重音",
+        "bien",
+        "je 的字母 j"
+      ],
+      "answer": 1,
+      "explanation": "组末可承重音音节突出，组内通常连续。",
+      "group": "pronunciation",
+      "id": "l03-q23"
+    },
+    {
+      "question": "six ans 中常见衔接辅音是？",
+      "options": [
+        "/s/，始终不变",
+        "/t/",
+        "/z/"
+      ],
+      "answer": 2,
+      "explanation": "six 接 ans 常读 /si.zɑ̃/，数词随语音环境变化。",
+      "group": "pronunciation",
+      "id": "l03-q24"
+    },
+    {
+      "question": "deux ans 中常见连读是什么？",
+      "options": [
+        "/z/",
+        "/k/",
+        "无论如何都必须停顿"
+      ],
+      "answer": 0,
+      "explanation": "deux ans 常读 /dø.zɑ̃/，末潜在辅音连读为 /z/。",
+      "group": "pronunciation",
+      "id": "l03-q25"
+    },
+    {
+      "question": "a 与 à 在普通语音中如何区分书写？",
+      "options": [
+        "à 必须读成额外一个音节",
+        "常同音，主要看句法结构",
+        "a 一律写重音"
+      ],
+      "answer": 1,
+      "explanation": "a 是 avoir 的变位，à 是介词；常同为 /a/。",
+      "group": "pronunciation",
+      "id": "l03-q26"
+    },
+    {
+      "question": "登记卡写 âge:19，adresse:12,rue…；12 是？",
+      "options": [
+        "年龄",
+        "国籍",
+        "门牌号"
+      ],
+      "answer": 2,
+      "explanation": "看所在字段确定数字意义，不能把所有数都当年龄。",
+      "group": "reading",
+      "id": "l03-q27"
+    },
+    {
+      "question": "卡片没有职业，能否因人物19岁猜学生？",
+      "options": [
+        "不能，职业未提供",
+        "能，19岁必为学生",
+        "能，由电话前缀确定"
+      ],
+      "answer": 0,
+      "explanation": "阅读依据已给信息；未提供字段不能推断。",
+      "group": "reading",
+      "id": "l03-q28"
+    },
+    {
+      "question": "电话号码没听清，最合适的做法？",
+      "options": [
+        "补一个自己喜欢的数字",
+        "说 Pardon ? 并请对方重复核对",
+        "删掉不清楚的一组再用"
+      ],
+      "answer": 1,
+      "explanation": "核对信息优先于猜测，可用固定礼貌请求重复。",
+      "group": "speaking",
+      "id": "l03-q29"
+    },
+    {
+      "question": "一岁的常见年龄表达是？",
+      "options": [
+        "Elle est une an.",
+        "Elle a une ans.",
+        "Elle a un an."
+      ],
+      "answer": 2,
+      "explanation": "年龄用 avoir；an 阳性，1用单数 un an。",
+      "group": "grammar",
+      "id": "l03-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "verbs",
+      "possessives",
+      "articles",
+      "questions",
+      "review"
+    ],
+    "vocabulary": [
+      "numbers",
+      "words"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "phrases"
+    ],
+    "speaking": [
+      "greetings",
+      "questions",
+      "phrases"
+    ],
+    "writing": [
+      "possessives",
+      "phrases",
+      "review"
+    ]
+  },
+  "listening": "听第 3 课：第一遍标近况、姓名、年龄、地址、电话各段；第二遍把年龄、门牌、邮编和电话分字段记录，电话保留前导 0；第三遍对照原文检查 avoir／aller、物主限定词和 quel／quelle；第四遍按节奏组跟读，再用虚构信息完成登记问答。未提及的信息留空。"
+}
