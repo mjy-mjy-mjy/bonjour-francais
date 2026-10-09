@@ -694,3 +694,13 @@ test('selecting or completing a chapter resets the browsed unit to match the cur
   quickNoteClick(a,{unit:'9'});clickComplete(a,15);
   assert.ok(a.main.innerHTML.includes('data-unit="4" aria-pressed="true"'));assert.ok(a.main.innerHTML.includes('href="#lesson/16" class="chapter-card current'));
 });
+
+test('searching the current lesson title and returning to its base route retains page state',()=>{
+  const a=app(null,'#lesson/14/faire'),original=a.main.innerHTML;
+  a.elements.search.listeners.input({target:{value:'Le dimanche'}});
+  a.context.location.hash='#lesson/14';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14/faire'});
+  assert.equal(a.main.innerHTML,original);assert.equal(a.main.hidden,false);assert.equal(a.elements['search-results'].hidden,true);
+  a.context.location.hash='#lesson/14/toc';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14'});
+  a.context.location.hash='#lesson/14';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14/toc'});
+  assert.equal(a.main.innerHTML,original);
+});
