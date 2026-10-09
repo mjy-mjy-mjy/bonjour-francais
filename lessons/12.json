@@ -1,0 +1,458 @@
+{
+  "number": 12,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标与第三单元综合路线",
+      "html": "<h2>1. 学习目标与第三单元综合路线</h2><p>第12课 <strong>Marseille（马赛）</strong>对应教材第40—41页，是第9—11课的综合运用：读懂城市与旅游介绍，描述住处，在地图上说明位置和路线，给出简单建议。重点是把已学结构用在同一个情境中，不在这里突然增加过去时、将来时或复杂关系从句。</p><div class=\"table-scroll\"><table><thead><tr><th>层次</th><th>本课内容</th><th>学完后应能完成</th></tr></thead><tbody><tr><td>教材核心</td><td>城市、地点与旅游资料的阅读和描述</td><td>从短文提取地点、特点与可做的活动；用简单句介绍城市。</td></tr><tr><td>单元复习</td><td>重读代词、位置介词、où、prendre、命令式、缩合冠词、y、c’est、on</td><td>看住房广告，给出3—5步路线；用on＋第三人称单数和命令式提建议。</td></tr><tr><td>补充训练</td><td>真实城市背景＋原创虚构情境；信息证据表；听说读写整合</td><td>区分已知与未提及的信息，提出补充问题，写8—10句连贯介绍。</td></tr></tbody></table></div><p><strong>建议顺序：</strong>先读城市背景→整理语法结构→阅读住房广告→沿示意图走路线→比较旅游活动→完成A—J练习→做30题小测→录音和复习。本课的A/B/C资料、广告、对话与练习均为本站原创；示意图、租金和活动交通属于虚构教学情境，不是教材原文，也不是实际旅行指南。</p><p>完成标准：能说清“在哪、有什么、怎么去、建议做什么”，每个信息能指出来自哪份资料；听不懂或资料没写时会询问，不把猜测写进答案。A1阶段训练为后续NCLC目标打基础，不能用完成本课等同于达到NCLC 7。</p>"
+    },
+    {
+      "id": "city",
+      "title": "2. Marseille：读懂真实城市背景",
+      "html": "<h2>2. Marseille：读懂真实城市背景</h2><p>Marseille 是法国南部、地中海沿岸的城市。Vieux-Port 是马赛的老港，也是城市的重要地标；Le Panier 是靠近老港的历史街区。这里仅用稳定的城市背景，不提供会变化的票价、开放时间或实际交通安排。背景可核对 <a href=\"https://www.marseille-tourisme.com/decouvrez-marseille/pourquoi-venir/idees-sejours/ou-partir-cet-ete-en-france/\" target=\"_blank\" rel=\"noopener\">马赛旅游局的法国南部介绍</a>、<a href=\"https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/sites-et-monuments/le-vieux-port/\" target=\"_blank\" rel=\"noopener\">Vieux-Port介绍</a>和<a href=\"https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/les-111-quartiers-marseillais/le-quartier-du-panier/\" target=\"_blank\" rel=\"noopener\">Le Panier介绍</a>。</p><h3>资料A：原创A1城市短文</h3><blockquote>Marseille est une ville du sud de la France. Elle est au bord de la mer Méditerranée. Le Vieux-Port est à Marseille. C’est un port connu. Le Panier est un quartier historique près du Vieux-Port. On peut visiter ce quartier à pied.</blockquote><p>译文：马赛是法国南部的一座城市。它在地中海边。老港位于马赛。它是一个知名港口。帕尼耶是靠近老港的历史街区。可以步行参观这个街区。</p><div class=\"table-scroll\"><table><thead><tr><th>语句</th><th>怎样读</th><th>避免的误解</th></tr></thead><tbody><tr><td>une ville du sud de la France</td><td>du＝de＋le；说明法国南部的一座城市。</td><td>du不是所有名词前都能直接放的冠词；这里由de＋le sud形成。</td></tr><tr><td>au bord de la mer Méditerranée</td><td>au＝à＋le；au bord de…＝在……边上。</td><td>mer是海，port是港口，二者不等同。</td></tr><tr><td>Elle est… / C’est un port…</td><td>Elle回指Marseille这座城市；c’est用于识别或介绍。</td><td>城市在哪里用est；介绍名词用c’est＋冠词＋名词。</td></tr><tr><td>un quartier historique près du Vieux-Port</td><td>quartier是街区；près de＋le Vieux-Port→près du Vieux-Port。</td><td>“靠近”不自动等于“隔壁”，也不能推出步行几分钟。</td></tr><tr><td>On peut visiter… à pied.</td><td>可用表达：人们/我们可以步行参观……。peut＋动词原形。</td><td>peut是pouvoir的第三人称单数；这里作为功能表达补充，不要求完整变位。</td></tr></tbody></table></div><p><strong>地名与冠词：</strong>城市名用 <em>à Marseille</em>；法国用 <em>en France</em>。专名含冠词时保留相应结构：<em>le Vieux-Port → au Vieux-Port / près du Vieux-Port</em>，<em>le Panier → dans le Panier</em>。先学可靠的完整搭配，不把所有城市、国家、岛名套成同一种介词。</p>"
+    },
+    {
+      "id": "structures",
+      "title": "3. 综合语法：先选表达功能，再造句",
+      "html": "<h2>3. 综合语法：先选表达功能，再造句</h2><div class=\"table-scroll\"><table><thead><tr><th>想表达什么</th><th>结构与完整例句</th><th>判断方法</th></tr></thead><tbody><tr><td>介绍／识别</td><td>C’est une ville. / C’est un quartier historique. / Ce sont des musées.</td><td>名词前保留冠词；复数用ce sont。</td></tr><tr><td>描述已知对象</td><td>Marseille est au bord de la mer. Elle est dans le sud de la France.</td><td>有明确主语时用être；elle回指阴性ville。</td></tr><tr><td>总体评价</td><td>C’est beau. / C’est intéressant.</td><td>整体“这很漂亮/有意思”通常用形容词阳性单数。</td></tr><tr><td>描述阴性名词</td><td>La ville est belle. / Elle est belle.</td><td>ville阴性，形容词belle；不能把elle est belle与c’est beau混为一谈。</td></tr><tr><td>说某处有什么</td><td>Il y a un parc près de la place. / Il y a deux pièces.</td><td>il y a表示存在，后面数量单复数不改变a。</td></tr><tr><td>介绍住处</td><td>Nous habitons à Marseille. Moi, j’habite dans un appartement.</td><td>主语nous配habitons；moi用于强调，后面仍是je/j’。</td></tr><tr><td>集体计划／一般建议</td><td>On visite le musée. / On prend le bus. / On va au parc.</td><td>on配visite/prend/va，不能配visitons/prenons/allons。</td></tr><tr><td>直接指路／建议</td><td>Prenez la rue à droite. Continuez tout droit. Visitez le musée.</td><td>vous命令式不写vous主语；说法礼貌，与陌生人问路匹配。</td></tr><tr><td>避免重复地点</td><td>Vous allez au musée ? Oui, j’y vais. / Allez-y à pied.</td><td>y替代完整地点：一般放变位动词前，肯定命令式放后并加连字符。</td></tr><tr><td>询问</td><td>Où est le musée ? Comment aller au parc ? Est-ce qu’il y a un balcon ?</td><td>où问地点；comment问办法；est-ce qu’引出是否问题。</td></tr></tbody></table></div><h3>位置和交通的结构检查</h3><div class=\"table-scroll\"><table><thead><tr><th>规则</th><th>例句</th><th>原因</th></tr></thead><tbody><tr><td>à＋le→au；à＋les→aux</td><td>On va au musée. On va aux toilettes.</td><td>去某处的à与定冠词缩合。</td></tr><tr><td>de＋le→du；de＋les→des</td><td>Le parc est près du musée. C’est loin des magasins.</td><td>près/loin de引出地点，de与le/les缩合。</td></tr><tr><td>à/de＋la或l’不缩成au/du</td><td>à la gare, à l’école, près de la place, près de l’hôtel</td><td>先看名词的冠词；不能只看有没有地点。</td></tr><tr><td>直接宾语与交通方式</td><td>On prend le bus. On va au musée en bus.</td><td>prendre＋le bus；aller＋地点＋en bus。</td></tr><tr><td>常用交通搭配</td><td>à pied, à vélo ; en bus, en métro, en train, en voiture</td><td>步行是à pied，不是en pied；这些是常用搭配。</td></tr><tr><td>否定复习</td><td>On ne va pas au musée. On n’y va pas. Il n’y a pas de balcon.</td><td>ne…pas包住变位动词；y在动词前；否定存在中的un常变de。</td></tr></tbody></table></div><p><strong>完整思路示范：</strong>“我们去博物馆，那里有展览，你们可以去参观。”→<em>On va au musée. Il y a une exposition. Visitez le musée !</em> 两个y不要混淆：<em>il y a</em>作为“有”整体学习；<em>on y va</em>中的y替代au musée。中文意思相近时，也要先分清“介绍”“存在”“行动”“指令”。</p>"
+    },
+    {
+      "id": "evidence",
+      "title": "4. 阅读资料的方法：每个答案都找证据",
+      "html": "<h2>4. 阅读资料的方法：每个答案都找证据</h2><p>本课使用三类资料：A是城市背景；B是虚构住房广告；C是虚构街区图和旅游选项。A中真实地标不在C的虚构地图上。<strong>禁止拿示意图推算老港与帕尼耶的真实方位、距离或交通。</strong></p><div class=\"table-scroll\"><table><thead><tr><th>阅读步骤</th><th>本课操作</th><th>产出</th></tr></thead><tbody><tr><td>1. 判断文体</td><td>城市短文看地名和特点；广告看面积、房间、楼层与价格；地图看朝向和起点。</td><td>先说明正在读A、B还是C。</td></tr><tr><td>2. 抓关键词</td><td>圈出Marseille、sud、mer、40 m²、deux pièces、rez-de-chaussée、700 €、près de、à pied。</td><td>只记录文本支持的信息。</td></tr><tr><td>3. 拆句与回指</td><td>Elle在A回指城市；B中的une chambre不是两间卧室；C中的y要找到具体目的地。</td><td>把代词替换成原名词再读。</td></tr><tr><td>4. 检查肯定与否定</td><td>avec balcon表示有；sans ascenseur表示没有；没有写ascenseur则是未提及。</td><td>没有写≠没有；未提及≠肯定有。</td></tr><tr><td>5. 回答并补问</td><td>广告没说明charges时不能认定700€包含全部费用。</td><td>Les charges sont comprises ?</td></tr><tr><td>6. 整合资料</td><td>用B描述住处，用C给路线，用A介绍真实城市。</td><td>用原始资料的范围约束每句结论。</td></tr></tbody></table></div><h3>三种阅读判定</h3><div class=\"table-scroll\"><table><thead><tr><th>结论</th><th>例子</th><th>为什么</th></tr></thead><tbody><tr><td>资料支持</td><td>B写“deux pièces : un salon et une chambre”→有一间卧室。</td><td>房间分配有直接证据。</td></tr><tr><td>资料否定</td><td>B写“au rez-de-chaussée”→不是二楼。</td><td>广告明确说地面层。</td></tr><tr><td>未提及／不能判断</td><td>B没写电梯、互联网、押金→无法确认。</td><td>不能从楼层低或房租数字推断设施和费用。</td></tr></tbody></table></div><p>回答可以很短：<em>Oui, il y a un balcon.</em> / <em>Non, c’est au rez-de-chaussée.</em> / <em>Le texte ne donne pas cette information.</em> 最后一句为补充阅读表达，意思是“文本没有提供这个信息”。做题时写中文“未提及”也可以；先把判断做对，再逐步用法语表达。</p>"
+    },
+    {
+      "id": "words",
+      "title": "5. 城市、住房与旅游词汇",
+      "html": "<h2>5. 城市、住房与旅游词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词／搭配</th><th>性别、形式与意思</th><th>完整例句／辨析</th></tr></thead><tbody><tr><td>une ville → des villes</td><td>阴性，城市</td><td>Marseille est une ville du sud de la France.</td></tr><tr><td>un quartier → des quartiers</td><td>阳性，街区</td><td>Le Panier est un quartier historique.</td></tr><tr><td>un port → des ports</td><td>阳性，港口</td><td>C’est un port connu. mer＝海，不是港口。</td></tr><tr><td>la mer Méditerranée</td><td>阴性，地中海</td><td>Marseille est au bord de la mer Méditerranée.</td></tr><tr><td>le sud / le nord</td><td>阳性，南方／北方</td><td>dans le sud de la France；复习à l’est / à l’ouest。</td></tr><tr><td>le centre-ville</td><td>阳性，市中心</td><td>L’appartement est près du centre-ville.</td></tr><tr><td>une rue → des rues</td><td>阴性，街道</td><td>Prenez la rue à droite.</td></tr><tr><td>une place → des places</td><td>阴性，广场</td><td>Le café est sur la place. place在别的语境也可表示位置／座位。</td></tr><tr><td>un parc → des parcs</td><td>阳性，公园</td><td>On va au parc à pied.</td></tr><tr><td>un jardin → des jardins</td><td>阳性，花园</td><td>Il y a un jardin calme.</td></tr><tr><td>un musée → des musées</td><td>阳性，博物馆</td><td>Visitez le musée. 词尾-ée不保证阴性。</td></tr><tr><td>une exposition → des expositions</td><td>阴性，展览</td><td>Il y a une exposition d’art.</td></tr><tr><td>un tableau → des tableaux</td><td>阳性，绘画作品／画</td><td>On regarde des tableaux. 复数不是tableaus。</td></tr><tr><td>un café → des cafés</td><td>阳性，咖啡馆；也可指咖啡饮料</td><td>Il y a deux cafés sur la place. 此处是两家咖啡馆。</td></tr><tr><td>un appartement → des appartements</td><td>阳性，公寓</td><td>J’habite dans un appartement de 40 m².</td></tr><tr><td>une pièce → des pièces</td><td>阴性，房间／主要居室</td><td>Deux pièces : un salon et une chambre. 两室不等于两卧室。</td></tr><tr><td>un salon / une chambre</td><td>阳性客厅／阴性卧室</td><td>Il y a un salon et une chambre.</td></tr><tr><td>une cuisine / une salle de bains</td><td>阴性厨房／阴性浴室</td><td>这份广告另列厨房与浴室，不把它们算入两间主要居室。</td></tr><tr><td>un balcon → des balcons</td><td>阳性，阳台</td><td>Il y a un balcon. 有阳台不等于有花园。</td></tr><tr><td>le rez-de-chaussée</td><td>阳性，地面层</td><td>C’est au rez-de-chaussée. 不与premier étage（地面层上方一层）混同。</td></tr><tr><td>le loyer / les charges</td><td>阳性租金／阴性复数附加费用</td><td>Le loyer est de 700 euros par mois. Les charges sont comprises ?</td></tr><tr><td>une visite / visiter</td><td>阴性名词参观／动词参观</td><td>une visite du musée；visiter le musée，动词后直接接对象。</td></tr><tr><td>historique / connu, connue</td><td>历史的／知名的</td><td>un quartier historique；un port connu；une ville connue。</td></tr><tr><td>calme / intéressant, intéressante</td><td>安静的／有趣的</td><td>un parc calme；une exposition intéressante。</td></tr><tr><td>près de / loin de / en face de</td><td>靠近／远离／在……正对面</td><td>près du musée；en face de la place。de后看冠词是否缩合。</td></tr><tr><td>au bord de / à pied / tout droit</td><td>在……边上／步行／一直往前</td><td>au bord de la mer；Allez-y à pied；Continuez tout droit。</td></tr></tbody></table></div><p><strong>口头读数字：</strong><em>40 m²</em>读 <em>quarante mètres carrés</em>；<em>700 € par mois</em>读 <em>sept cents euros par mois</em>。cents的词尾s在这个乘整百且没有再接其他数词的数字中保留；这里只要求准确读取广告，不扩展整套大数拼写规则。des tableaux的-x不读出来；不要把每个复数词尾都单独发一个音。</p>"
+    },
+    {
+      "id": "housing",
+      "title": "6. 资料B：住房广告与实用提问",
+      "html": "<h2>6. 资料B：住房广告与实用提问</h2><p><strong>虚构广告B：</strong>以下住房、地址标签、价格仅用于学习。在马赛城市背景下设置一个虚构街区，房屋标为Appartement B。</p><blockquote>À louer à Marseille : appartement de 40 m², au rez-de-chaussée. Deux pièces : un salon et une chambre. Cuisine, salle de bains et balcon. Appartement près d’une place. Loyer : 700 € par mois.</blockquote><p>译文：马赛有一套公寓出租，40平方米，地面层。两间主要居室：一间客厅和一间卧室。另有厨房、浴室和阳台。公寓靠近一处广场。每月租金700欧元。</p><div class=\"table-scroll\"><table><thead><tr><th>项目</th><th>B已提供</th><th>B未提供</th></tr></thead><tbody><tr><td>位置</td><td>à Marseille；près d’une place</td><td>真实街名、离真实老港多远、实际公交线路。</td></tr><tr><td>面积与房间</td><td>40 m²；1 salon＋1 chambre</td><td>第二间卧室；住房可入住人数。</td></tr><tr><td>楼层与设施</td><td>rez-de-chaussée；cuisine、salle de bains、balcon</td><td>电梯、互联网、停车位、花园均未提及。</td></tr><tr><td>费用</td><td>700€ / mois</td><td>charges是否包含；押金与付款条件。</td></tr></tbody></table></div><h3>围绕缺失信息提问</h3><div class=\"table-scroll\"><table><thead><tr><th>你想确认</th><th>法语问题</th><th>合适的回答方式</th></tr></thead><tbody><tr><td>广告已有的楼层</td><td>C’est à quel étage ?</td><td>C’est au rez-de-chaussée.</td></tr><tr><td>广告已有的阳台</td><td>Est-ce qu’il y a un balcon ?</td><td>Oui, il y a un balcon.</td></tr><tr><td>费用范围</td><td>Les charges sont comprises ?</td><td>等待房东说明；本课资料不足，不能替房东回答oui。</td></tr><tr><td>未提及的电梯</td><td>Est-ce qu’il y a un ascenseur ?</td><td>未提及；低楼层也不能推出整栋没有电梯。</td></tr><tr><td>卧室数</td><td>Il y a combien de chambres ?</td><td>Il y a une chambre. 不回答deux，只因广告写deux pièces。</td></tr></tbody></table></div><p><strong>条件匹配：</strong>Lina souhaite（希望）un appartement au rez-de-chaussée, avec un balcon et une chambre. B满足这三条已知条件。Paul souhaite deux chambres；B不满足。Mei souhaite Internet et des charges comprises；B信息不足，需要提问。“希望”表达是任务说明，不要求本课完整学习souhaiter变位。</p>"
+    },
+    {
+      "id": "route",
+      "title": "7. 资料C：虚构街区图与两条路线",
+      "html": "<h2>7. 资料C：虚构街区图与两条路线</h2><p>这张图是教学示意图，<strong>不是马赛真实地图</strong>。上北下南、左西右东；相邻格之间有笔直道路，所有标记点都在道路交会处。图中Appartement B与广告B为同一虚构住处，parc、musée等均为虚构地点。道路长度与用时未设定。</p><div class=\"table-scroll\"><table><thead><tr><th>西侧</th><th>中间</th><th>东侧</th></tr></thead><tbody><tr><td>parc</td><td>école</td><td>musée</td></tr><tr><td>Appartement B</td><td>place（两家café）</td><td>poste</td></tr><tr><td>gare</td><td>bibliothèque</td><td>pharmacie</td></tr></tbody></table></div><p><strong>起点统一：</strong>从Appartement B出发，面朝东方（看向place）。</p><div class=\"table-scroll\"><table><thead><tr><th>目的地</th><th>逐步路线</th><th>到达检验</th></tr></thead><tbody><tr><td>parc</td><td>Tournez à gauche. Continuez tout droit jusqu’au parc.</td><td>出发时向东；左转后向北；沿西列向上到parc。</td></tr><tr><td>musée</td><td>Continuez tout droit jusqu’à la place. Continuez jusqu’à la poste. Tournez à gauche. Continuez tout droit jusqu’au musée.</td><td>先向东到place，再向东到poste；左转向北；到东列上格musée。</td></tr></tbody></table></div><h3>位置描述不是转弯指令</h3><p><em>Le parc est au nord de l’appartement.</em> 描述固定方位；<em>Tournez à gauche.</em> 左右以当时朝向为准。若从同一公寓面朝西出发，去parc应先向右转。本课路线题若未另说明，均使用“面朝东”的默认起点。<em>Le musée est à l’est de l’école.</em>、<em>La bibliothèque est entre la gare et la pharmacie.</em>都是图上可核对的位置。</p><p><strong>到达目的地后的回指：</strong> <em>Vous allez au musée ? — Oui, j’y vais à pied.</em> y＝au musée。<em>Vous allez au parc ? — Allez-y !</em> y＝au parc。知道目的地并不能推出步行时长，也不能从示意图得出真实城市交通线路。</p>"
+    },
+    {
+      "id": "tourism",
+      "title": "8. 旅游资料、建议与完整对话",
+      "html": "<h2>8. 旅游资料、建议与完整对话</h2><h3>资料C的活动表：同一虚构街区</h3><div class=\"table-scroll\"><table><thead><tr><th>活动</th><th>资料给出的特点</th><th>资料给出的交通</th></tr></thead><tbody><tr><td>parc</td><td>C’est un parc calme. Il y a des fleurs. On se promène dans le parc.</td><td>Depuis l’appartement B, on y va à pied.</td></tr><tr><td>musée</td><td>C’est un musée d’art. Il y a une exposition et des tableaux.</td><td>Depuis l’appartement B, on y va à pied.</td></tr><tr><td>place</td><td>Il y a deux cafés sur la place.</td><td>Depuis l’appartement B, on y va à pied.</td></tr></tbody></table></div><p>这些介绍未给票价、开放时间、用时、是否预约，也没有说两家咖啡馆现在营业。<em>se promène</em>来自se promener（散步），本课作为“on se promène…”功能表达补充，完整代词式动词在后续学习。<em>Depuis l’appartement B</em>＝从B公寓出发，为来源地点补充表达。</p><h3>根据偏好提出有依据的建议</h3><div class=\"table-scroll\"><table><thead><tr><th>偏好</th><th>可以怎么说</th><th>依据与限度</th></tr></thead><tbody><tr><td>J’aime les fleurs.</td><td>Visitez le parc. C’est calme et il y a des fleurs.</td><td>花与安静都有资料支持；不保证全天开放。</td></tr><tr><td>J’aime l’art.</td><td>Visitez le musée. Il y a une exposition et des tableaux.</td><td>展览与绘画满足艺术偏好；不推断免费。</td></tr><tr><td>Je voudrais un café.</td><td>Allez sur la place. Il y a deux cafés.</td><td>voudrais＝想要，为实用句复习；需要另外确认营业情况。</td></tr><tr><td>希望只花五分钟</td><td>Le texte ne donne pas cette information.</td><td>地图无长度，活动表无时长，不能给五分钟保证。</td></tr></tbody></table></div><h3>原创对话：游客Lina向当地朋友Noé询问住处与活动</h3><blockquote><p>Lina : Tu habites où ?<br>Noé : J’habite à Marseille, dans l’appartement B.<br>Lina : C’est près de la place ?<br>Noé : Oui. Il y a un balcon et une chambre.<br>Lina : Moi, j’aime l’art. On va au musée ?<br>Noé : Oui, on y va à pied.<br>Lina : C’est par où ?<br>Noé : Depuis l’appartement, regarde vers la place. Continue tout droit jusqu’à la poste, puis tourne à gauche. Continue jusqu’au musée.<br>Lina : D’accord. À la poste, à gauche, c’est ça ?<br>Noé : Oui, c’est ça. Il y a une exposition au musée.</p></blockquote><p>译读：Lina询问住处是否靠近广场；Noé补充阳台与卧室。两人基于Lina的艺术偏好去博物馆。Noé先让她看向广场，确定朝东，再给路线；“一直到邮局”包括穿过广场的路段。朋友间用tu形式continue/tourne/regarde；陌生人问路换成vous形式continuez/tournez/regardez，不能一句tu一句vous随意切换。</p><h3>四项输出</h3><ol><li>听：从<a href=\"https://www.hachettefle.com/\" target=\"_blank\" rel=\"noopener\">出版方资源</a>查找你所用版本的配套素材，先用教材确认第12课是否对应音轨。第一遍辨地名和主题，第二遍记录位置与活动，第三遍对照教材；不要把本站原创对话当成教材音轨逐字稿。</li><li>说：录60—90秒，先用A介绍真实马赛，再说明B是虚构住房、C是练习图，最后用tu或vous一套称呼给去musée的路线。</li><li>读：把A/B/C各摘两条有证据的信息，另写两条未提及的项目；能说明来源。</li><li>写：给朋友写8—10句消息，介绍城市、虚构住处与活动，含一条建议、一段路线和一个需要补问的问题。</li></ol>"
+    },
+    {
+      "id": "sound",
+      "title": "9. 语音复习：圆唇、连读与联诵",
+      "html": "<h2>9. 语音复习：圆唇、连读与联诵</h2><div class=\"table-scroll\"><table><thead><tr><th>项目</th><th>示范</th><th>自查方法</th></tr></thead><tbody><tr><td>/i/、/y/、/u/</td><td>ville /vil/；rue /ʁy/；vous /vu/</td><td>/y/舌位近/i/但嘴唇收圆；/u/舌位更靠后。读rue时不要自动变成“rou”。</td></tr><tr><td>/i y u/对比</td><td>lit /li/ — lu /ly/ — loup /lu/</td><td>这里只作发音比较，lu不作为本课过去分词语法。先慢读，再放进tu habites / vous habitez。</td></tr><tr><td>常见连读</td><td>les expositions：/z/；on y va：/n/；vous allez：/z/</td><td>前词本来单独不读的词尾辅音在该语境出现。</td></tr><tr><td>本来就发音的联诵</td><td>avec un ami：/k/接到un；cette exposition：/t/接到exposition</td><td>avec的/k/、cette的/t/单独已经发音，不是新增隐藏词尾的连读。</td></tr><tr><td>et之后不连读</td><td>un parc et un musée</td><td>et结尾t不因后面un而变成/t/。</td></tr><tr><td>单数名词后避免连读</td><td>un quartier intéressant</td><td>quartier结尾r不作为隐藏辅音连到intéressant；注意quartier词内本来存在的/ʁ/不受此规则影响。</td></tr><tr><td>嘘音h阻断</td><td>les héros；复习le héros</td><td>不能加/z/；也不缩成l’héros。嘘音h本身通常不发/h/。</td></tr><tr><td>命令式的y</td><td>Allez-y；Vas-y</td><td>Allez-y有/z/连读；Vas-y的s用于与y连接，写法保留。</td></tr></tbody></table></div><p><strong>三轮录音：</strong>①读ville/rue/vous，听圆唇与舌位；②读<em>On y va. Vous allez au musée. Regardez les expositions.</em>，标出/n z z/；③读<em>Un parc et un musée. C’est un quartier intéressant. Avec un ami.</em>，区分禁止连读与本来发音的联诵。符号只标目标音，不是全句音标，避免逐字机械地加所有词尾。</p><p>口语中的<em>tu habites</em>没有变成<em>t’habites</em>的标准书面缩写；保留tu。<em>j’habite</em>用j’是je遇元音或哑音h的省音。连读规则可核对<a href=\"https://www.laits.utexas.edu/fi/html/pho/12.html\" target=\"_blank\" rel=\"noopener\">得州大学法语语音资料</a>。</p>"
+    },
+    {
+      "id": "errors",
+      "title": "10. 易错点：用资料和结构一起检查",
+      "html": "<h2>10. 易错点：用资料和结构一起检查</h2><div class=\"table-scroll\"><table><thead><tr><th>错误／不当结论</th><th>正确表达／判断</th><th>为什么</th></tr></thead><tbody><tr><td>Marseille est une ville au Canada.</td><td>Marseille est une ville du sud de la France.</td><td>城市背景A已说明法国南部，不能与移民目标国家混淆。</td></tr><tr><td>C’est belle.（整体赞美）</td><td>C’est beau. / La ville est belle.</td><td>整体评价与阴性对象描写是不同结构。</td></tr><tr><td>C’est deux cafés.</td><td>Ce sont deux cafés. / Il y a deux cafés.</td><td>介绍用ce sont；表示存在用il y a。</td></tr><tr><td>On prenons le bus.</td><td>On prend le bus.</td><td>on的动词是第三人称单数。</td></tr><tr><td>Moi habite à Marseille.</td><td>Moi, j’habite à Marseille.</td><td>重读moi强调，不能代替常规主语je。</td></tr><tr><td>On va à le musée.</td><td>On va au musée.</td><td>à＋le缩合成au。</td></tr><tr><td>Le parc est près de le musée.</td><td>Le parc est près du musée.</td><td>de＋le缩合成du。注意C图本课未把两个地点定为相邻，语法例句不当成地图事实。</td></tr><tr><td>On prend en bus.</td><td>On prend le bus. / On va en bus.</td><td>prendre后接交通工具宾语；en bus描述方式。</td></tr><tr><td>Va-y !</td><td>Vas-y !</td><td>肯定命令式va接y恢复s，保留连字符。</td></tr><tr><td>Vous allez y.</td><td>Vous y allez.</td><td>一般句中y在变位动词前。</td></tr><tr><td>deux pièces→两间卧室</td><td>这份B广告是一个客厅＋一间卧室。</td><td>以广告所列分配为准，不只抓数字。</td></tr><tr><td>B没写charges→费用已包含</td><td>未提及；问Les charges sont comprises ?</td><td>没写的信息不能自行补成有或没有。</td></tr><tr><td>按C图推出Vieux-Port在公寓东面</td><td>不能判断。</td><td>真实地标A与虚构图C不可混作真实城市坐标。</td></tr><tr><td>同一地点永远左转去公园</td><td>先确定面对方向。</td><td>朝东时左转去北；朝西时右转去北。</td></tr><tr><td>公园与博物馆步行都是五分钟</td><td>资料未给用时。</td><td>没有距离、速度或时长，不能靠格数作分钟推算。</td></tr></tbody></table></div><p>审阅自己写的句子时先问“信息可靠吗”，再看“主语、动词、介词、冠词是否正确”。一个语法正确的句子也可能与资料矛盾；一个信息正确的句子仍需修正变位。两项分别检查。</p>"
+    },
+    {
+      "id": "practice",
+      "title": "11. 分层练习A—J与参考解析",
+      "html": "<h2>11. 分层练习A—J与参考解析</h2><p>先独立作答，再展开解析。A/B/C指正文资料；路线默认Appartement B出发面朝东。阅读题允许中文答案，翻译和输出尽量用法语。开放题按信息、结构和表达完整度检查，参考答案不是唯一写法。</p><h3>A. 城市短文：证据与判断</h3><ol><li>A中的Marseille位于哪个国家、哪个区域？</li><li>Marseille在什么海边？</li><li>Vieux-Port是什么：城市、港口还是国家？</li><li>Le Panier与Vieux-Port的关系是什么？</li><li>A给了去Le Panier的步行分钟数吗？</li><li>On peut visiter ce quartier à pied中的ce quartier指什么？</li><li>Elle est au bord de la mer中elle回指什么？</li><li>A能证明B公寓在Vieux-Port旁边吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>法国南部：une ville du sud de la France。不是加拿大。</li><li>地中海：la mer Méditerranée。</li><li>港口：un port connu；不是另一个城市。</li><li>它是靠近Vieux-Port的历史街区：un quartier historique près du Vieux-Port。</li><li>没有，未提及。可以步行参观不等于给出具体分钟数。</li><li>Le Panier这个街区，最近明确的quartier名词。</li><li>Marseille这座城市；une ville为阴性。</li><li>不能；A没定位B公寓，B也没有写老港。</li></ol></details><h3>B. 按功能补结构</h3><ol><li>填c’est / ce sont / il y a：____ une ville du sud de la France.（介绍城市）</li><li>____ deux cafés sur la place.（表示存在）</li><li>____ deux musées.（指着两座建筑作介绍）</li><li>La ville est ____.（beau / belle）</li><li>整体评价风景：C’est ____.（beau / belle）</li><li>On ____ le musée.（visite / visitons）</li><li>On ____ le bus.（prend / prenons）</li><li>Moi, ____ dans un appartement.（j’habite / habite）</li></ol><details><summary>展开答案与解析</summary><ol><li>C’est une ville du sud de la France. c’est＋冠词＋名词。</li><li>Il y a deux cafés sur la place. 存在结构不随数量改成ont。</li><li>Ce sont deux musées. 复数识别使用ce sont。</li><li>belle：ville阴性单数。</li><li>beau：整体评价用阳性单数。</li><li>visite：on＋第三人称单数。</li><li>prend：on＋第三人称单数，不是nous prenons。</li><li>j’habite：moi用于强调，后面有主语je省音为j’。</li></ol></details><h3>C. 介词、冠词和y</h3><ol><li>On va ____ musée.</li><li>Le Panier est près ____ Vieux-Port.</li><li>Marseille est ____ France.</li><li>J’habite ____ Marseille.</li><li>Les cafés sont ____ la place.</li><li>改写避免重复：On va au musée.（用y）</li><li>把Allez au parc改为含y的肯定命令式。</li><li>改正：Je vais au parc en pied.</li></ol><details><summary>展开答案与解析</summary><ol><li>au：à＋le musée。</li><li>du：près de＋le Vieux-Port。</li><li>en France：国家常用搭配。</li><li>à Marseille：城市名。</li><li>sur la place：广场上；不同于dans une rue。</li><li>On y va. y代替au musée，在va前。</li><li>Allez-y ! y代替au parc，肯定命令式放动词后加连字符。</li><li>Je vais au parc à pied. 步行为à pied。</li></ol></details><h3>D. 住房B：不能只看数字</h3><ol><li>B广告的面积是多少？用法语写出数字的读法。</li><li>两间主要居室分别是什么？</li><li>有多少卧室？</li><li>位于什么楼层？</li><li>广告明确有阳台吗？</li><li>700€是否已经包含charges？</li><li>广告能证明有互联网吗？</li><li>Lina、Paul、Mei三人中：谁的所列条件得到满足，谁不满足，谁信息不足？</li></ol><details><summary>展开答案与解析</summary><ol><li>40 m²＝quarante mètres carrés。</li><li>Un salon et une chambre：一个客厅与一间卧室。</li><li>Une chambre：一间，不是deux chambres。</li><li>Au rez-de-chaussée：地面层。</li><li>有：广告明确写balcon。</li><li>未提及；只能确定每月租金700€。</li><li>不能，Internet未提及。</li><li>Lina三项满足；Paul要求两卧室而B只有一间；Mei要求互联网和费用包含，两项都待确认。</li></ol></details><h3>E. 地图C：位置、朝向与路线</h3><ol><li>parc在Appartement B的哪个方向？</li><li>musée在école的哪个方向？</li><li>bibliothèque位于哪两个地点之间？</li><li>从B面朝东去parc，先左转还是右转？</li><li>从B面朝东去musée，向东走到哪个地点再转向北？</li><li>如果从B面朝西去parc，先向哪边转？</li></ol><details><summary>展开答案与解析</summary><ol><li>北方：Le parc est au nord de l’appartement.</li><li>东方：Le musée est à l’est de l’école.</li><li>La bibliothèque est entre la gare et la pharmacie.</li><li>左转：Tournez à gauche，朝东左转后朝北。</li><li>poste：先经过place到poste，再Tournez à gauche向北到musée。</li><li>右转：面朝西时右边是北。转弯不能脱离当前朝向。</li></ol></details><h3>F. 旅游偏好与追问</h3><ol><li>Lina说J’aime les fleurs，请给一条有依据的建议。</li><li>朋友说J’aime l’art，请给一条建议并说明原因。</li><li>有人想喝咖啡，按C图可以建议去哪里？</li><li>访客问Le musée est gratuit ?应回答什么判断？</li><li>想确认住房费用包含情况，写一个问题。</li><li>想确认博物馆营业时间，使用À quelle heure…写问题。</li></ol><details><summary>展开答案与解析</summary><ol><li>Visitez le parc. Il y a des fleurs. / Va au parc. Il y a des fleurs. 两种称呼可选，但不要混用。</li><li>Visitez le musée. Il y a une exposition et des tableaux. / C’est un musée d’art. 有明确艺术信息。</li><li>Allez sur la place. Il y a deux cafés. 资料未保证当前营业。</li><li>未提及，不能判断；Le texte ne donne pas cette information. gratuit＝免费。</li><li>Les charges sont comprises ? 需要房东补充。</li><li>À quelle heure ouvre le musée ? ouvrir这里作为询问时间的补充表达，不要求全变位。也可礼貌说Quelles sont les heures d’ouverture ?</li></ol></details><h3>G. 翻译与改写</h3><ol><li>我们住在马赛。（用nous）</li><li>他们住在一套公寓里。（用ils）</li><li>我们去博物馆。（用on）</li><li>广场上有两家咖啡馆。</li><li>这是一处历史街区。</li><li>她／它很漂亮。（回指城市）</li><li>请一直走到邮局，再向左转。（vous命令式）</li><li>把Tu vas au parc改为含y的句子。</li></ol><details><summary>展开答案与解析</summary><ol><li>Nous habitons à Marseille. nous配habitons。</li><li>Ils habitent dans un appartement. ils配habitent。</li><li>On va au musée. on配va；à＋le→au。</li><li>Il y a deux cafés sur la place. café在此指咖啡馆。</li><li>C’est un quartier historique. quartier阳性，un。</li><li>Elle est belle. elle回指阴性ville。</li><li>Continuez tout droit jusqu’à la poste, puis tournez à gauche. poste用la，不缩合au。</li><li>Tu y vas. y在vas之前。</li></ol></details><h3>H. 语音辨析与录音</h3><ol><li>ville、rue、vous的目标元音分别是/i/、/y/还是/u/？</li><li>les expositions之间应出现什么连读辅音？</li><li>on y va中on与y之间应出现什么连读辅音？</li><li>un parc et un musée中et后要加/t/吗？</li><li>avec un ami中的/k/是隐藏词尾连读还是本来发音的联诵？</li><li>les héros能加/z/连读吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>ville /i/；rue /y/；vous /u/。读/y/时前舌位配圆唇。</li><li>/z/：les复数冠词在元音开头名词前连读。</li><li>/n/：on接元音开头y。注意不改变书面on。</li><li>不加；et后禁止连读隐藏t。</li><li>本来发音的联诵；avec单独就有/k/。</li><li>不能；héros有嘘音h，阻断连读，h本身通常不发/h/。</li></ol></details><h3>I. 纠错：语法与资料分别检查</h3><ol><li>On allons au musée.</li><li>Va-y à pied !</li><li>Nous habitons à le centre-ville.</li><li>Il y ont deux cafés.</li><li>B有两间卧室，因为它写deux pièces。</li><li>B没有电梯，因为广告未写。</li><li>C的格子证明马赛老港离B只有两分钟。</li><li>C’est belle.（评价整体景色）</li></ol><details><summary>展开答案与解析</summary><ol><li>On va au musée. on与nous的动词形式不同。</li><li>Vas-y à pied ! 接y时va恢复s，加连字符。</li><li>Nous habitons au centre-ville. à＋le→au；这里是语法纠错，不拿它作为B确实在市中心的事实。</li><li>Il y a deux cafés. il y a存在结构不随后面复数变化。</li><li>B只有一间卧室，另外一间主要居室是客厅。</li><li>未提及电梯，不能断定没有。</li><li>不能判断。C是虚构图且没有长度或用时；A真实地标未在图内。</li><li>C’est beau. 或改成描述具体阴性名词La ville est belle.</li></ol></details><h3>J. 整合输出：阅读、口语与写作</h3><ol><li>写8—10句消息给朋友：用A介绍城市，用B介绍住处，用C推荐活动并给去musée的路线，最后问一个资料未给的问题。明确标示虚构资料。</li><li>从B面朝东出发，录60—90秒vous形式的问路对话：问目的地、给路线、重复转弯确认、确认到达。</li><li>做A/B/C证据表：每份资料两条已知信息，加两条整个资料包没有给的信息。</li><li>录朗读：On y va. Vous allez au musée. Avec un ami. Un parc et un musée. 然后对照本课解释检查连读。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考10句：Marseille est une ville du sud de la France. Elle est au bord de la mer Méditerranée. Pour cet exercice, j’habite dans l’appartement B. Il y a un salon et une chambre. C’est au rez-de-chaussée. Il y a un balcon. Dans ce quartier imaginaire, visitez le musée : il y a une exposition. Depuis l’appartement B, continuez tout droit jusqu’à la poste. Tournez à gauche et continuez jusqu’au musée. À quelle heure ouvre le musée ? Pour cet exercice＝在这个练习中，quartier imaginaire＝虚构街区，作为提示短语。评分：事实准确、语法一致、路线完整、含补问。答案非唯一。</li><li>参考：Excusez-moi, le musée, c’est par où ? — Depuis l’appartement B, regardez vers la place. Continuez tout droit jusqu’à la place, puis jusqu’à la poste. Tournez à gauche et continuez jusqu’au musée. — À la poste, à gauche ? — Oui, c’est ça. — Merci. 必须先确定朝东；保持vous；不能凭空加入距离、分钟数。</li><li>示例：A法国南部、地中海边；B40m²、1卧室；C公园有花、博物馆有绘画。未给：B的charges是否包含、musée开放时间。把每条事实连到A/B/C，不用A推算B位置。</li><li>on y的/n/、vous allez的/z/是连读；avec un的/k/本来就发音，属联诵；et un不加/t/。能逐一说明，再自然连句，避免只读符号。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12. 复习清单与下一步",
+      "html": "<h2>12. 复习清单与下一步</h2><ul><li>我能从A说出Marseille的国家、区域、海岸背景，区分ville、port、quartier。</li><li>我能区分c’est、ce sont、elle est与il y a，正确写on va/prend/visite。</li><li>我能使用à Marseille、en France、au musée、près du Vieux-Port及à pied。</li><li>我能读B的40m²、两室一卧、地面层、阳台与月租，不能把未提及的设施和费用当成事实。</li><li>我能按C的默认朝向给出parc和musée两条路线，也能在改变朝向后重算左右。</li><li>我能用y回指目的地，用tu或vous一致地表达建议和指令。</li><li>我能根据艺术或花卉偏好选活动，同时提出缺失信息问题。</li><li>我能区分/i y u/，正确处理on y、vous allez、avec un与et un。</li><li>我完成了A—J与即时小测，并用错题页复查错误原因。</li><li>我能录60—90秒介绍并写8—10句，把真实城市背景和虚构教学资料明确分开。</li></ul><p><strong>间隔复习：</strong>当天完成A—E；次日不看讲解再做G、I；三天后重录J并检查资料证据；一周后只看图向别人指路。若常错on、冠词或路线朝向，分别回看第11、10、9课。本课完成第三单元地点与旅游综合，下一单元开始前保留自己的短文和录音作对照。</p><p><strong>教材范围核对：</strong><a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener\">出版方教材目录与教学目标</a>；本课扩展问题如开放时间、on peut、se promène均已标注，不能因本站练习出现就声称全部是教材新语法。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "资料A说明Marseille在哪里？",
+      "options": [
+        "法国南部",
+        "加拿大北部",
+        "未提及国家"
+      ],
+      "answer": 0,
+      "explanation": "A写une ville du sud de la France，明确为法国南部。",
+      "group": "reading",
+      "id": "l12-q01"
+    },
+    {
+      "question": "Le Vieux-Port在A中是什么？",
+      "options": [
+        "一座城市",
+        "一个港口",
+        "一个国家"
+      ],
+      "answer": 1,
+      "explanation": "A写C’est un port connu，port为港口。",
+      "group": "reading",
+      "id": "l12-q02"
+    },
+    {
+      "question": "A说明Le Panier与Vieux-Port的什么关系？",
+      "options": [
+        "步行五分钟",
+        "处于不同国家",
+        "Le Panier靠近Vieux-Port"
+      ],
+      "answer": 2,
+      "explanation": "A写près du Vieux-Port，但未给分钟数。",
+      "group": "reading",
+      "id": "l12-q03"
+    },
+    {
+      "question": "整体评价风景：C’est ____.",
+      "options": [
+        "beau",
+        "belle",
+        "beaux"
+      ],
+      "answer": 0,
+      "explanation": "C’est＋形容词作整体评价一般用阳性单数beau。",
+      "group": "grammar",
+      "id": "l12-q04"
+    },
+    {
+      "question": "回指La ville：Elle est ____.",
+      "options": [
+        "beau",
+        "belle",
+        "beaux"
+      ],
+      "answer": 1,
+      "explanation": "ville阴性单数，elle配belle。",
+      "group": "grammar",
+      "id": "l12-q05"
+    },
+    {
+      "question": "____ deux musées.（识别两座建筑）",
+      "options": [
+        "C’est",
+        "Il y ont",
+        "Ce sont"
+      ],
+      "answer": 2,
+      "explanation": "复数识别结构ce sont＋复数名词组。",
+      "group": "grammar",
+      "id": "l12-q06"
+    },
+    {
+      "question": "表示广场上有两家咖啡馆：____ deux cafés sur la place.",
+      "options": [
+        "Il y a",
+        "Il y ont",
+        "Ils ont"
+      ],
+      "answer": 0,
+      "explanation": "存在结构il y a不因后面的deux cafés改成ont。",
+      "group": "grammar",
+      "id": "l12-q07"
+    },
+    {
+      "question": "On ____ le musée.",
+      "options": [
+        "visitons",
+        "visite",
+        "visitez"
+      ],
+      "answer": 1,
+      "explanation": "on配第三人称单数visite；nous配visitons。",
+      "group": "grammar",
+      "id": "l12-q08"
+    },
+    {
+      "question": "On ____ le bus.",
+      "options": [
+        "prenons",
+        "prenez",
+        "prend"
+      ],
+      "answer": 2,
+      "explanation": "on配prend。交通工具是prendre的直接宾语。",
+      "group": "grammar",
+      "id": "l12-q09"
+    },
+    {
+      "question": "强调“我住在马赛”：Moi, ____ à Marseille.",
+      "options": [
+        "j’habite",
+        "habite",
+        "nous habitons"
+      ],
+      "answer": 0,
+      "explanation": "重读moi强调；主语仍为je，省音j’habite。",
+      "group": "grammar",
+      "id": "l12-q10"
+    },
+    {
+      "question": "On va ____ musée.",
+      "options": [
+        "à le",
+        "au",
+        "du"
+      ],
+      "answer": 1,
+      "explanation": "aller引出目的地用à；à＋le→au。",
+      "group": "grammar",
+      "id": "l12-q11"
+    },
+    {
+      "question": "Le Panier est près ____ Vieux-Port.",
+      "options": [
+        "de le",
+        "au",
+        "du"
+      ],
+      "answer": 2,
+      "explanation": "près de＋le Vieux-Port→près du Vieux-Port。",
+      "group": "grammar",
+      "id": "l12-q12"
+    },
+    {
+      "question": "城市名搭配：J’habite ____ Marseille.",
+      "options": [
+        "à",
+        "en",
+        "au"
+      ],
+      "answer": 0,
+      "explanation": "城市名通常用à Marseille。",
+      "group": "grammar",
+      "id": "l12-q13"
+    },
+    {
+      "question": "交通方式：On va au parc ____.",
+      "options": [
+        "en pied",
+        "à pied",
+        "au pied"
+      ],
+      "answer": 1,
+      "explanation": "步行的常用表达为à pied。",
+      "group": "grammar",
+      "id": "l12-q14"
+    },
+    {
+      "question": "用y改写On va au musée：",
+      "options": [
+        "On va y.",
+        "On y allons.",
+        "On y va."
+      ],
+      "answer": 2,
+      "explanation": "y替代au musée，放在变位动词va前；on不能用allons。",
+      "group": "grammar",
+      "id": "l12-q15"
+    },
+    {
+      "question": "含y的肯定命令式写法：",
+      "options": [
+        "Allez-y !",
+        "Y allez !",
+        "Allez y !"
+      ],
+      "answer": 0,
+      "explanation": "肯定命令式y放动词后，加连字符。",
+      "group": "grammar",
+      "id": "l12-q16"
+    },
+    {
+      "question": "资料B有多少卧室？",
+      "options": [
+        "两间",
+        "一间",
+        "未提及"
+      ],
+      "answer": 1,
+      "explanation": "B两间主要居室为un salon和une chambre，所以一间卧室。",
+      "group": "reading",
+      "id": "l12-q17"
+    },
+    {
+      "question": "B广告明确在哪一层？",
+      "options": [
+        "二楼",
+        "premier étage",
+        "rez-de-chaussée"
+      ],
+      "answer": 2,
+      "explanation": "B明确写au rez-de-chaussée，即地面层。",
+      "group": "reading",
+      "id": "l12-q18"
+    },
+    {
+      "question": "B的700€是否包含charges？",
+      "options": [
+        "未提及，需要询问",
+        "肯定包含",
+        "肯定不含"
+      ],
+      "answer": 0,
+      "explanation": "B只给月租，没写charges是否包含，不能肯定有或没有。",
+      "group": "reading",
+      "id": "l12-q19"
+    },
+    {
+      "question": "C图中parc在Appartement B的哪个方向？",
+      "options": [
+        "南",
+        "北",
+        "东"
+      ],
+      "answer": 1,
+      "explanation": "parc在B正上方，上北下南。",
+      "group": "reading",
+      "id": "l12-q20"
+    },
+    {
+      "question": "从B面朝东去musée，应在哪里向左转？",
+      "options": [
+        "公寓门口",
+        "gare",
+        "poste"
+      ],
+      "answer": 2,
+      "explanation": "向东经过place到poste后左转朝北，到musée。",
+      "group": "reading",
+      "id": "l12-q21"
+    },
+    {
+      "question": "若从B面朝西去parc，先怎么转？",
+      "options": [
+        "向右转",
+        "向左转",
+        "继续向西"
+      ],
+      "answer": 0,
+      "explanation": "西面朝向的右侧为北，parc在B北方。",
+      "group": "speaking",
+      "id": "l12-q22"
+    },
+    {
+      "question": "访客J’aime l’art，C资料支持哪条建议？",
+      "options": [
+        "Visitez la pharmacie.",
+        "Visitez le musée.",
+        "Visitez la gare."
+      ],
+      "answer": 1,
+      "explanation": "C明确博物馆有艺术展与绘画；另两项无艺术信息。",
+      "group": "speaking",
+      "id": "l12-q23"
+    },
+    {
+      "question": "想补问B费用包含情况，用哪句？",
+      "options": [
+        "Où est Marseille ?",
+        "C’est beau ?",
+        "Les charges sont comprises ?"
+      ],
+      "answer": 2,
+      "explanation": "该句询问附加费用是否包含，正好弥补广告缺失。",
+      "group": "writing",
+      "id": "l12-q24"
+    },
+    {
+      "question": "rue中的目标元音是？",
+      "options": [
+        "/y/",
+        "/u/",
+        "/i/"
+      ],
+      "answer": 0,
+      "explanation": "rue /ʁy/为前高圆唇/y/，不等于vous中的/u/。",
+      "group": "pronunciation",
+      "id": "l12-q25"
+    },
+    {
+      "question": "on y va中on和y之间的连读辅音是？",
+      "options": [
+        "/z/",
+        "/n/",
+        "/t/"
+      ],
+      "answer": 1,
+      "explanation": "on在元音开头y前连读/n/。",
+      "group": "pronunciation",
+      "id": "l12-q26"
+    },
+    {
+      "question": "un parc et un musée中et后应如何读？",
+      "options": [
+        "添加/t/",
+        "添加/z/",
+        "不添加隐藏/t/"
+      ],
+      "answer": 2,
+      "explanation": "et后禁止连读其隐藏词尾t。",
+      "group": "pronunciation",
+      "id": "l12-q27"
+    },
+    {
+      "question": "avec un ami中的/k/属于？",
+      "options": [
+        "本来发音的联诵",
+        "新增隐藏/k/的连读",
+        "应完全不发音"
+      ],
+      "answer": 0,
+      "explanation": "avec单独就发/k/，接到后词属于联诵。",
+      "group": "pronunciation",
+      "id": "l12-q28"
+    },
+    {
+      "question": "用B写住房描述，哪句准确？",
+      "options": [
+        "Il y a deux chambres.",
+        "Il y a un salon et une chambre.",
+        "Il n’y a pas de balcon."
+      ],
+      "answer": 1,
+      "explanation": "B一客厅一卧室，且有balcon；写作必须同时检查事实和语法。",
+      "group": "writing",
+      "id": "l12-q29"
+    },
+    {
+      "question": "朋友间用tu，去公园：____ à pied !",
+      "options": [
+        "Va-y",
+        "Allez y",
+        "Vas-y"
+      ],
+      "answer": 2,
+      "explanation": "tu命令式va接y时恢复s，写Vas-y；Allez为vous且该选项缺连字符。",
+      "group": "grammar",
+      "id": "l12-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "structures",
+      "errors"
+    ],
+    "vocabulary": [
+      "words"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "city",
+      "evidence",
+      "housing",
+      "route",
+      "tourism"
+    ],
+    "speaking": [
+      "route",
+      "tourism"
+    ],
+    "writing": [
+      "structures",
+      "evidence",
+      "housing",
+      "tourism",
+      "errors"
+    ]
+  },
+  "listening": "教材第12课：先用教材确认配套音轨，辨认城市与旅游主题，再记地点、交通和活动，对照教材复听。本站A/B/C和Lina—Noé对话为原创阅读与口语训练，不是教材音轨逐字稿。"
+}

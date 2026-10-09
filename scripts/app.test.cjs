@@ -281,16 +281,20 @@ test('lesson 4 integrates profile reading, likes, questions and message producti
   assert.ok(restored.main.innerHTML.includes('data-question="l04-q24"'));
 });
 
-const unitTwoCoverage={
+const authoredCoverage={
   5:['des bureaux','nous sommes','Il y a','Ce sont','Qu’est-ce qu’il y a','près du bureau','les objets','复数口语标记'],
   6:['nous avons','ils ont','Il n’a pas de','Ce n’est pas','mes','marron','moi','/z/'],
   7:['ce','cet','cette','ces','quels','quelles','combien','euros','cher','enchaînement'],
-  8:['artiste','peintre','à gauche','entre','cheveux','资料','未提及','展览']
+  8:['artiste','peintre','à gauche','entre','cheveux','资料','未提及','展览'],
+  9:['eux','elles','chez nous','habitez','Où','rez-de-chaussée','m²','/y/','圆唇'],
+  10:['Prenez','prenons','Allez','au','aux','y','enchaînement','交通'],
+  11:['C’est','On','on','禁止连读','en Martinique','conseil','旅游'],
+  12:['Marseille','住房','旅游','未提及','港口','路线','资料']
 };
-const authoredUnitTwo=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=8&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
-for(const {number:n} of authoredUnitTwo)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
+const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=12&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
+for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
   const a=app(null,'#lesson/'+n);
-  for(const text of unitTwoCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
+  for(const text of authoredCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
   assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,30);
   assert.equal((a.main.innerHTML.match(/<details>/g)||[]).length,10);
   for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']){

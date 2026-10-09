@@ -1,0 +1,457 @@
+{
+  "number": 10,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标 / 问路、指路与交通",
+      "html": "<h2>1. 学习目标 / 问路、指路与交通</h2><p>对应 <strong>C’est par où ?，第36—37页</strong>。教材核心：命令式、prendre现在时、地点介词与缩合冠词、地点代词y；用它们询问方向、说明路线和交通方式，区分连读与联诵。</p><ol><li>对熟人、陌生人或一组人选合适的命令式形式。</li><li>完整掌握prendre与复习aller；不把prenons写成prendons。</li><li>区分au/aux与du/des，同时保留à la、à l’、de la、de l’。</li><li>用y替代已经明确的地点，并放在正确位置。</li><li>按起点、朝向和路口指路，能复述路线确认。</li></ol><p>第9课地图只定位，本课开始描述移动。正向命令式为核心；否定命令式作为y位置的补充预览，后续再系统学习。不提前展开人称宾语代词或复合时态。下方路线和交通情境是虚构练习，不代表真实导航。</p>"
+    },
+    {
+      "id": "prendre",
+      "title": "2. prendre与aller / 完整现在时",
+      "html": "<h2>2. prendre与aller / 完整现在时</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>prendre</th><th>aller</th><th>场景例句</th></tr></thead><tbody><tr><td>je</td><td>prends</td><td>vais</td><td>Je prends le bus. Je vais à la gare.</td></tr><tr><td>tu</td><td>prends</td><td>vas</td><td>Tu prends le métro. Tu vas au parc.</td></tr><tr><td>il / elle / on</td><td>prend</td><td>va</td><td>Elle prend le train. Elle va au musée.</td></tr><tr><td>nous</td><td>prenons</td><td>allons</td><td>Nous prenons un taxi. Nous allons à la poste.</td></tr><tr><td>vous</td><td>prenez</td><td>allez</td><td>Vous prenez le bus. Vous allez à l’école.</td></tr><tr><td>ils / elles</td><td>prennent</td><td>vont</td><td>Ils prennent le métro. Ils vont aux toilettes.</td></tr></tbody></table></div><p>prendre三个词干组：prend-（单数）、pren-（nous/vous）、prenn-（ils/elles）。词尾s、d通常不发音；je prends /ʒə pʁɑ̃/，nous prenons /nu pʁə.nɔ̃/，vous prenez /vu pʁə.ne/，ils prennent /il pʁɛn/。prennent的-ent不读，但前面的n和元音与prend不同。</p><p><strong>prendre + 交通工具名词组</strong>：prendre le bus / le métro / le train / un taxi。这里不加en：不写prendre en bus。<strong>aller + 目的地 + 交通方式</strong>：Je vais à la gare en bus。le bus可表一般乘公交；un bus指某一辆／一班公交，依上下文选择，不能说un永远错误。</p><p>aller的不规则形式逐个记。Vous allez…是陈述／问句；<strong>Allez…</strong>省去主语后用于指令，不把Vous allez tout droit误当命令式。</p>"
+    },
+    {
+      "id": "imperative",
+      "title": "3. 命令式 / 省主语、选对象、保留正确词形",
+      "html": "<h2>3. 命令式 / 省主语、选对象、保留正确词形</h2><div class=\"table-scroll\"><table><thead><tr><th>动词</th><th>对tu</th><th>一起行动nous</th><th>对vous／敬称</th><th>规律</th></tr></thead><tbody><tr><td>tourner</td><td>Tourne.</td><td>Tournons.</td><td>Tournez.</td><td>规则-er的tu命令式去-s</td></tr><tr><td>continuer</td><td>Continue.</td><td>Continuons.</td><td>Continuez.</td><td>不要保留tu作主语</td></tr><tr><td>prendre</td><td>Prends.</td><td>Prenons.</td><td>Prenez.</td><td>不是-er；tu形式保留s</td></tr><tr><td>aller</td><td>Va.</td><td>Allons.</td><td>Allez.</td><td>tu为va，不是vas（后接y另见下一模块）</td></tr></tbody></table></div><p>命令式三种人称没有主语代词：<strong>Tournez à droite.</strong>对陌生人礼貌指路；<strong>Tourne à droite.</strong>对熟人；<strong>Prenons le bus.</strong>含说话者“我们乘公交吧”。陌生人一人也用vous形式，不因对方只有一人就改tu。</p><p>生成步骤：先选对象 → 找相应现在时 → 删除主语 → 调整-er和aller的tu末尾s。Tu tournes → Tourne；Tu prends → Prends。不能把所有命令式末尾s都删除。</p><p>可加s’il vous plaît、Merci缓和请求：<strong>Répétez, s’il vous plaît.</strong>本课优先用courtesy开场：Excusez-moi，随后问路；不是把命令式只理解成凶的命令。</p><p>补充辨析：Vous prenez le bus表示“您乘公交”；Prenez le bus是建议／指示；Prenons le bus是包括自己的一起行动。人称宾语代词的复杂命令式顺序留后续学习。</p>"
+    },
+    {
+      "id": "articles",
+      "title": "4. 缩合冠词 / au、aux、du、des",
+      "html": "<h2>4. 缩合冠词 / au、aux、du、des</h2><div class=\"table-scroll\"><table><thead><tr><th>介词＋冠词</th><th>结果</th><th>例子</th><th>说明</th></tr></thead><tbody><tr><td>à + le</td><td>au</td><td>aller au parc / au musée</td><td>必须缩合</td></tr><tr><td>à + les</td><td>aux</td><td>aller aux toilettes</td><td>复数，不分阴阳</td></tr><tr><td>à + la</td><td>à la</td><td>aller à la gare</td><td>不缩合</td></tr><tr><td>à + l’</td><td>à l’</td><td>aller à l’école / à l’hôtel</td><td>保留省音</td></tr><tr><td>de + le</td><td>du</td><td>près du parc / à côté du musée</td><td>必须缩合</td></tr><tr><td>de + les</td><td>des</td><td>près des commerces</td><td>de+定冠词les</td></tr><tr><td>de + la</td><td>de la</td><td>près de la gare</td><td>不缩合</td></tr><tr><td>de + l’</td><td>de l’</td><td>près de l’école</td><td>不缩合</td></tr></tbody></table></div><p>先记名词性数和起首音，再选择结构：musée阳性→au musée；gare阴性→à la gare；école阴性元音→à l’école；toilettes复数→aux toilettes。不说à le、de le，也不把à la改成au。</p><p>“从／某物的／靠近”中的de与“到／在”的à意义不同：<strong>Je vais au musée</strong>去博物馆；<strong>Je suis près du musée</strong>在博物馆附近。不能仅因为两个都是阳性地点，就用同一个缩合形式。</p><p>des有两种分析：Il y a <strong>des commerces</strong>是不定冠词；près <strong>des commerces</strong>是de+les缩合。du在此是de+le；食品中的部分冠词du后续学习。本课不把这些功能混成一条规则。</p>"
+    },
+    {
+      "id": "y",
+      "title": "5. 地点代词y / 已知地点与词序",
+      "html": "<h2>5. 地点代词y / 已知地点与词序</h2><div class=\"table-scroll\"><table><thead><tr><th>完整句</th><th>用y替换</th><th>位置</th></tr></thead><tbody><tr><td>Je vais à la gare.</td><td>J’y vais.</td><td>主语＋y＋变位动词；je省音</td></tr><tr><td>Nous allons au parc.</td><td>Nous y allons.</td><td>不是Nous allons y</td></tr><tr><td>Ils habitent dans ce quartier.</td><td>Ils y habitent.</td><td>y也可替代dans＋地点</td></tr><tr><td>Je vais chez Ana.</td><td>J’y vais.</td><td>此处指Ana家这个地点，不是把Ana本人当宾语</td></tr><tr><td>Je ne vais pas à la gare.</td><td>Je n’y vais pas.</td><td>ne/n’＋y＋动词＋pas</td></tr><tr><td>Allez au parc.</td><td>Allez-y.</td><td>肯定命令式：动词后，连字符</td></tr><tr><td>Va au parc.</td><td>Vas-y.</td><td>后接y时为衔接恢复s</td></tr><tr><td>Allons à la gare.</td><td>Allons-y.</td><td>nous建议形式，也需连字符</td></tr></tbody></table></div><p><strong>先找到y指的地点。y在这些句子中读/i/。</strong>“Je vais à la gare. J’y prends le train.”中y回指车站。若对话没给地点，突然说J’y vais会让人无法知道去哪里。</p><p>y替代的是整个地点词块，不重复保留：Je vais au parc → J’y vais，而不是J’y vais au parc作为本课标准替换练习。口语可有强调重说，但这里只练清楚的替换。</p><p>普通陈述句y在变位动词前；肯定命令式在后。补充否定命令式：<strong>N’y allez pas.</strong>，y回到动词前，无连字符；tu是<strong>N’y va pas.</strong>，此时不保留Vas-y中的衔接s。复杂不定式与复合时态词序留后续课。</p><p>不是见到“à＋人”就一律y。本课只练地点，包括chez＋人表示其住处的地点用法；对人表达思考、说话等另学相应代词。</p>"
+    },
+    {
+      "id": "directions",
+      "title": "6. 指路句型 / 起点、朝向和确认",
+      "html": "<h2>6. 指路句型 / 起点、朝向和确认</h2><div class=\"table-scroll\"><table><thead><tr><th>功能</th><th>法语</th><th>中文与注意</th></tr></thead><tbody><tr><td>礼貌开场</td><td>Excusez-moi, la gare, c’est par où ?</td><td>请问车站怎么走？</td></tr><tr><td>问去法</td><td>Pour aller à la poste, s’il vous plaît ?</td><td>询问去邮局的路线；口语短问</td></tr><tr><td>直走</td><td>Allez tout droit. / Continuez tout droit.</td><td>tout droit不是à droite</td></tr><tr><td>右转／左转</td><td>Tournez à droite. / Tournez à gauche.</td><td>以行走者此刻面向为参照</td></tr><tr><td>沿某条路走</td><td>Prenez cette rue.</td><td>prendre也可“走这条路”</td></tr><tr><td>到一个点</td><td>Allez jusqu’à la place.</td><td>jusqu’à引入终点；jusqu’au parc是补充缩合</td></tr><tr><td>顺序</td><td>D’abord… ensuite… puis…</td><td>先、然后、再；帮助拆步骤</td></tr><tr><td>确认所听路线</td><td>Donc, je vais tout droit, puis je tourne à gauche ?</td><td>用自己主语复述，不误抄命令式</td></tr><tr><td>未听清</td><td>Pardon, à gauche ou à droite ?</td><td>要求确认关键方向</td></tr><tr><td>交通追问</td><td>Vous y allez en bus ou à pied ?</td><td>地点已知，用y减少重复</td></tr></tbody></table></div><p>完整路线应说清楚<strong>出发点＋初始面向＋地标＋动作顺序＋终点</strong>。只有“右转”而没有起点和朝向不是可靠的练习答案。地图上“东在右”不等于行走者永远向右走；转弯之后左／右必须根据新的朝向计算。</p><p>尽量一条指令一个动作：Allez jusqu’à la place. Puis tournez à gauche。路线较长时，让对方复述最关键的转弯点。</p>"
+    },
+    {
+      "id": "words",
+      "title": "7. 词汇与搭配 / 交通、地标和动作",
+      "html": "<h2>7. 词汇与搭配 / 交通、地标和动作</h2><div class=\"table-scroll\"><table><thead><tr><th>词／阴阳性</th><th>搭配或复数</th><th>中文</th><th>例句</th></tr></thead><tbody><tr><td>le bus</td><td>en bus / prendre le bus</td><td>公交车</td><td>Je vais à la gare en bus.</td></tr><tr><td>le métro</td><td>en métro / prendre le métro</td><td>地铁</td><td>Nous prenons le métro.</td></tr><tr><td>le train</td><td>en train / prendre le train</td><td>火车</td><td>Ils prennent le train.</td></tr><tr><td>un taxi</td><td>en taxi / prendre un taxi</td><td>出租车</td><td>Prenez un taxi.</td></tr><tr><td>une voiture</td><td>en voiture</td><td>汽车</td><td>Elle va au parc en voiture.</td></tr><tr><td>un vélo</td><td>à vélo</td><td>自行车；本课优先搭配à vélo</td><td>Il va à l’école à vélo.</td></tr><tr><td>un avion</td><td>en avion</td><td>飞机</td><td>Nous voyageons en avion.</td></tr><tr><td>un bateau</td><td>en bateau</td><td>船</td><td>Vous y allez en bateau.</td></tr><tr><td>à pied</td><td>固定词块</td><td>步行，不写en pied</td><td>Je vais à la poste à pied.</td></tr><tr><td>une rue</td><td>des rues</td><td>街道</td><td>Prenez cette rue.</td></tr><tr><td>un carrefour</td><td>des carrefours</td><td>路口</td><td>Tournez au carrefour.</td></tr><tr><td>une direction</td><td>des directions</td><td>方向</td><td>Quelle direction ?</td></tr><tr><td>un plan</td><td>des plans</td><td>平面图</td><td>Regardez le plan.</td></tr><tr><td>un chemin</td><td>des chemins</td><td>路线、路</td><td>Demander son chemin.</td></tr><tr><td>la poste</td><td>—</td><td>邮局／邮政，本场景地标</td><td>Allez à la poste.</td></tr><tr><td>une école</td><td>des écoles</td><td>学校</td><td>L’école est au nord de la place.</td></tr><tr><td>une gare</td><td>des gares</td><td>火车站</td><td>Je vais à la gare.</td></tr><tr><td>un musée</td><td>des musées</td><td>博物馆</td><td>Allez au musée.</td></tr><tr><td>un arrêt</td><td>des arrêts</td><td>站点、停靠点</td><td>Un arrêt de bus.</td></tr><tr><td>tout droit</td><td>—</td><td>直走</td><td>Continuez tout droit.</td></tr><tr><td>à droite / à gauche</td><td>—</td><td>向右／向左</td><td>Tournez à gauche.</td></tr><tr><td>jusqu’à</td><td>—</td><td>直到、到……</td><td>Jusqu’à la poste.</td></tr></tbody></table></div><p>按两种句式记交通：<strong>Je prends le bus</strong>与<strong>J’y vais en bus</strong>。不要机械把en移进prendre后。交通工具的介词还有地域和使用习惯差别，本课优先采用à pied、à vélo、en voiture/bus/métro/train/avion/bateau这些常见形式。</p><p>动作词复习：aller去，tourner转弯，continuer继续，prendre乘坐／选走，arriver到达。arriver等新词在路线对话中先按词块理解，不提前要求所有时态。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "8. 原创路线图 / 从车站到邮局",
+      "html": "<h2>8. 原创路线图 / 从车站到邮局</h2><p>延续第9课虚构街区：北↑、东→。<strong>每个单元格是练习停靠点，相邻上下左右之间可直走；不走对角线，不表示真实路网或距离。</strong></p><div class=\"table-scroll\"><table><thead><tr><th>西←</th><th>中央</th><th>东→</th></tr></thead><tbody><tr><td>parc</td><td>école</td><td>poste</td></tr><tr><td>boulangerie</td><td>place</td><td>appartement A</td></tr><tr><td>gare：出发，面向北↑</td><td>bibliothèque</td><td>pharmacie</td></tr></tbody></table></div><p><strong>路线R1，gare → poste：</strong>从左下车站出发，面向北。先直走到面包店；右转后面向东；直走经过广场到公寓A；左转后面向北；直走到邮局。</p><p><strong>法语：</strong>Vous êtes à la gare, face au nord. Allez tout droit jusqu’à la boulangerie. Tournez à droite. Continuez tout droit jusqu’à l’appartement A : vous passez par la place. Tournez à gauche. Allez tout droit jusqu’à la poste.</p><p><strong>路线R2，gare → bibliothèque：</strong>同一起点面向北；在车站右转面向东，直走到图书馆。不先走到面包店。</p><div class=\"table-scroll\"><table><thead><tr><th>角色</th><th>法语</th><th>中文</th></tr></thead><tbody><tr><td>A</td><td>Excusez-moi, pour aller à la poste ?</td><td>礼貌问目的地。</td></tr><tr><td>B</td><td>Vous êtes à la gare. Allez tout droit jusqu’à la boulangerie.</td><td>指出起点与第一个地标。</td></tr><tr><td>A</td><td>Puis je tourne à gauche ?</td><td>故意确认错方向。</td></tr><tr><td>B</td><td>Non, tournez à droite. Continuez jusqu’à l’appartement A.</td><td>纠正并给下一段。</td></tr><tr><td>A</td><td>Je passe par la place ?</td><td>确认经过点。</td></tr><tr><td>B</td><td>Oui. À l’appartement A, tournez à gauche.</td><td>转弯点明确。</td></tr><tr><td>A</td><td>Et ensuite ?</td><td>追问顺序。</td></tr><tr><td>B</td><td>Allez tout droit jusqu’à la poste.</td><td>终点。</td></tr><tr><td>A</td><td>Merci. J’y vais à pied.</td><td>y回指邮局。</td></tr><tr><td>B</td><td>De rien.</td><td>礼貌收尾。</td></tr></tbody></table></div><p><strong>听力：</strong>用第10课配套音频记“目的地→地标→转弯→交通”，再对照教材。本站路线不是教材音频原文。<strong>口语：</strong>按图互换角色指路，至少8次发言，听者复述两个转弯。<strong>阅读：</strong>把R1指令逐步落到表格，记录每一步朝向。<strong>写作：</strong>写5—7个短句从车站到邮局，保持敬称命令式；再用第一人称写两句确认。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "9. 语音 / 连读liaison与联诵enchaînement",
+      "html": "<h2>9. 语音 / 连读liaison与联诵enchaînement</h2><div class=\"table-scroll\"><table><thead><tr><th>例子</th><th>现象</th><th>原因</th></tr></thead><tbody><tr><td>vous allez /vu.za.le/</td><td>/z/连读</td><td>vous单独末尾s不读，后接元音动词时连读</td></tr><tr><td>nous allons /nu.za.lɔ̃/</td><td>/z/连读</td><td>代词＋元音动词</td></tr><tr><td>Allez-y /a.le.zi/</td><td>/z/衔接</td><td>肯定命令式后接y，连字符对应词序</td></tr><tr><td>avec elle /a.vɛ.kɛl/</td><td>/k/联诵 enchaînement</td><td>avec单独k本来发音，接到elle元音</td></tr><tr><td>cet arrêt /sɛ.ta.ʁɛ/</td><td>/t/联诵</td><td>cet的t本来发音</td></tr><tr><td>tout droit</td><td>无/t/连读给d前</td><td>d是辅音起首，tout末尾t不因此再读</td></tr><tr><td>bus /bys/</td><td>词尾s本来发音</td><td>不要把bus的s也当普遍不发音末尾s</td></tr><tr><td>et ensuite</td><td>et后不作/t/连读</td><td>第11课系统整理禁止连读</td></tr></tbody></table></div><p>判断方法：前词单独读时末尾辅音本来存在吗？存在→后接元音可能联诵；本来隐藏而因连接出现→连读。符号连接只是朗读提示，不意味着两个现象同一规则。</p><p>分节奏：<strong>Allez tout droit / jusqu’à la boulangerie / puis tournez à droite.</strong>动作与地标一组，避免路线长句含糊。录音后问自己能否分清tout droit（直走）与à droite（右转），再比对tu与vous的命令式尾音。</p>"
+    },
+    {
+      "id": "errors",
+      "title": "10. 易错点 / 词形、词序与方向",
+      "html": "<h2>10. 易错点 / 词形、词序与方向</h2><div class=\"table-scroll\"><table><thead><tr><th>误用或误判</th><th>修正</th><th>理由</th></tr></thead><tbody><tr><td>Vous allez…当成命令式</td><td>Allez…</td><td>命令式无主语代词</td></tr><tr><td>Prend le bus. 对tu</td><td>Prends le bus.</td><td>prendre的tu命令式保留s</td></tr><tr><td>Tournes à droite. 对tu</td><td>Tourne à droite.</td><td>规则-er的tu命令式去s</td></tr><tr><td>Va-y.</td><td>Vas-y.</td><td>后接y恢复s并有连字符</td></tr><tr><td>nous prendons</td><td>nous prenons</td><td>prendre复数词干不同</td></tr><tr><td>à le parc / à les toilettes</td><td>au parc / aux toilettes</td><td>必须缩合</td></tr><tr><td>près au musée</td><td>près du musée</td><td>près de用de，不是à</td></tr><tr><td>Je vais y.</td><td>J’y vais.</td><td>陈述句y放变位动词前</td></tr><tr><td>Je y ne vais pas.</td><td>Je n’y vais pas.</td><td>n’＋y＋动词＋pas</td></tr><tr><td>Allez y.</td><td>Allez-y.</td><td>肯定命令式连接符</td></tr><tr><td>Je prends en bus.</td><td>Je prends le bus.</td><td>prendre后直接名词组</td></tr><tr><td>en pied</td><td>à pied</td><td>固定交通词块</td></tr><tr><td>地图上东在右，所以每次右转都向东</td><td>按当前面向计算</td><td>转弯后朝向会变</td></tr><tr><td>图有三格，所以步行三分钟</td><td>图不表示距离和时间</td><td>未给比例和速度，不作推断</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "practice",
+      "title": "11. 书面练习 / A—J与完整解析",
+      "html": "<h2>11. 书面练习 / A—J与完整解析</h2><p>路线题必须使用第8模块的起点和朝向，其他路线可能也能到达，但此处G题核对指定R1、R2。先独立作答再看解析。</p><h3>A. prendre完整变位</h3><ol><li>Je ___ le bus.</li><li>Tu ___ le train.</li><li>Elle ___ un taxi.</li><li>Nous ___ le métro.</li><li>Vous ___ le bus.</li><li>Ils ___ le train.</li></ol><details><summary>展开答案与解析</summary><ol><li>prends：je单数。</li><li>prends：tu单数保留s。</li><li>prend：第三人称单数d结尾。</li><li>prenons：不写prendons。</li><li>prenez：pren-词干。</li><li>prennent：双n，-ent不读出。</li></ol></details><h3>B. 改为指定命令式</h3><ol><li>Tu tournes à gauche → 对tu。</li><li>Vous prenez le bus → 对vous。</li><li>Nous allons à la gare → 一起行动。</li><li>Tu prends cette rue → 对tu。</li><li>Vous continuez tout droit → 对vous。</li><li>Tu vas au parc → 对tu。</li><li>Nous prenons le train → 一起行动。</li><li>Vous allez à la poste → 对vous。</li></ol><details><summary>展开答案与解析</summary><ol><li>Tourne à gauche. 删除tu并去s。</li><li>Prenez le bus. 删vous。</li><li>Allons à la gare. 删nous。</li><li>Prends cette rue. prendre不是-er，保留s。</li><li>Continuez tout droit. 删除vous。</li><li>Va au parc. aller的tu命令式va。</li><li>Prenons le train. 不保留nous主语。</li><li>Allez à la poste. 保留allez词形。</li></ol></details><h3>C. 缩合与交通搭配</h3><ol><li>à + le musée</li><li>à + les toilettes</li><li>à + la poste</li><li>à + l’école</li><li>près de + le parc</li><li>près de + les commerces</li><li>“步行”写交通词块。</li><li>“乘公交”用prendre写整句。</li></ol><details><summary>展开答案与解析</summary><ol><li>au musée：à+le。</li><li>aux toilettes：à+les。</li><li>à la poste：不缩合。</li><li>à l’école：省音保留。</li><li>près du parc：de+le。</li><li>près des commerces：de+les。</li><li>à pied；不写en pied。</li><li>Je prends le bus. 不加en。</li></ol></details><h3>D. 用y替换已标明地点</h3><ol><li>Je vais à la poste.</li><li>Nous allons au parc.</li><li>Ils habitent dans ce quartier.</li><li>Je ne vais pas à la gare.</li><li>Allez à la poste.</li><li>Va au parc.</li><li>Allons à l’école.</li><li>N’allez pas à la gare.（补充）</li></ol><details><summary>展开答案与解析</summary><ol><li>J’y vais. je省音。</li><li>Nous y allons. y在动词前。</li><li>Ils y habitent. 替代dans地点。</li><li>Je n’y vais pas. n’＋y＋vais＋pas。</li><li>Allez-y. 肯定命令式后置。</li><li>Vas-y. 衔接s，连字符。</li><li>Allons-y. 后置、连字符。</li><li>N’y allez pas. 否定命令式前置，无连接符。</li></ol></details><h3>E. 问路回应</h3><ol><li>陌生人问路，怎样礼貌开场？</li><li>对方把R1第一处转弯听成左，你怎样纠正？</li><li>没听清左右，写追问。</li><li>你决定步行去已知邮局，用y回应。</li><li>邀请同伴一起乘公交，用nous命令式。</li><li>把Tournez à droite改成“我右转”的确认句。</li></ol><details><summary>展开答案与解析</summary><ol><li>Excusez-moi, pour aller à la poste, s’il vous plaît ? 也可La poste, c’est par où ?。</li><li>Non, tournez à droite à la boulangerie. 转弯点明确。</li><li>Pardon, à gauche ou à droite ?。</li><li>J’y vais à pied. y回指邮局。</li><li>Prenons le bus. nous命令式包含自己。</li><li>Je tourne à droite. 陈述恢复主语和相应词形。</li></ol></details><h3>F. 中文转法语</h3><ol><li>我们乘地铁。</li><li>他们坐火车去Lyon。</li><li>请右转。（敬称）</li><li>我们去公园吧。</li><li>我不去那里。</li><li>请走到学校。（敬称）</li></ol><details><summary>展开答案与解析</summary><ol><li>Nous prenons le métro.</li><li>Ils vont à Lyon en train. 主语ils用vont，城市前用à，方式用en train。</li><li>Tournez à droite, s’il vous plaît.</li><li>Allons au parc. 一起行动。</li><li>Je n’y vais pas. 地点先由语境给出。</li><li>Allez jusqu’à l’école, s’il vous plaît. à+l’保留。</li></ol></details><h3>G. 逐步核对路线R1/R2</h3><ol><li>R1起点与最初面向分别是什么？</li><li>R1第一段直走到哪里？</li><li>第一处转弯是左还是右？转后面向哪里？</li><li>R1经过哪个中央地标？</li><li>R1第二处转弯在哪？转后面向哪里？</li><li>R1终点是什么？</li><li>R2从车站首先做什么？</li><li>这些资料能给真实步行用时吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>车站gare，面向北。</li><li>面包店boulangerie。</li><li>右转，北面向转为东。</li><li>广场place。</li><li>公寓A，左转后面向北。</li><li>邮局poste。</li><li>右转，面向东，再直走到图书馆；不先去面包店。</li><li>不能，图不表示距离、真实路网或速度。</li></ol></details><h3>H. 连读与联诵</h3><ol><li>vous allez出现哪个衔接辅音？</li><li>avec elle的/k/是连读还是联诵？</li><li>cet arrêt的/t/原本是否发音？</li><li>Allez-y中y前听到哪个辅音？</li><li>tout droit是否要把tout的t单独读出？</li><li>bus里的末尾s是否本来发音？</li></ol><details><summary>展开答案与解析</summary><ol><li>/z/，代词与元音动词连读。</li><li>联诵enchaînement，avec的k本来发音。</li><li>是；接元音构成联诵。</li><li>/z/；常见/a.le.zi/。</li><li>不需，d是辅音起首。</li><li>是，bus /bys/；不是所有词末s都无声。</li></ol></details><h3>I. 纠错并解释</h3><ol><li>Nous prendons le bus.</li><li>Tu tourne à droite.（命令式）</li><li>Prend cette rue.（对tu）</li><li>à le musée</li><li>Je vais y.</li><li>Allez y.</li><li>Je prends en métro.</li><li>Va-y.</li></ol><details><summary>展开答案与解析</summary><ol><li>Nous prenons le bus. 复数词干pren-。</li><li>Tourne à droite. 命令式删tu；若陈述为Tu tournes à droite。</li><li>Prends cette rue. prendre保留s。</li><li>au musée：缩合。</li><li>J’y vais. 前置并省音。</li><li>Allez-y. 加连字符。</li><li>Je prends le métro. prendre后名词组。</li><li>Vas-y. 为衔接恢复s。</li></ol></details><h3>J. 开放输出与路线自查</h3><ol><li>用5—7短句写R1敬称路线，起点与方向先交代。</li><li>写双方至少8次发言的问路对话，包含一次确认和纠正。</li><li>用三种交通各写“prendre”或“aller”句，其中一句带y。</li><li>录30—45秒指路，再按图记录每一段朝向。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考6指令句：Allez tout droit jusqu’à la boulangerie. Tournez à droite. Continuez jusqu’à la place. Continuez jusqu’à l’appartement A. Tournez à gauche. Allez jusqu’à la poste. 先说明Vous êtes à la gare, face au nord. 自查起点说明不算六条动作，第一转右、第二转左。</li><li>参考8次：A Excusez-moi, la poste, c’est par où ? / B Allez à la boulangerie. / A Puis je tourne à gauche ? / B Non, à droite. Continuez jusqu’à l’appartement A. / A Je passe par la place ? / B Oui. Ensuite, tournez à gauche. / A Puis je vais tout droit jusqu’à la poste ? / B Oui. 自查每步与R1一致；双方已在车站面向北。</li><li>参考：Je prends le bus. Nous allons à l’école à vélo. Le musée est au centre. J’y vais en métro. 自查y的地点明确；prendre不加en；à vélo。</li><li>核对表：gare↑ → boulangerie↑；右转→东；place→appartement A向东；左转→北；poste向北。录音检查地标和转弯是否一一对应，再检查vous命令式与语音。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12. 自测清单 / 变位、路线与y",
+      "html": "<h2>12. 自测清单 / 变位、路线与y</h2><ul><li>我能说prendre六形，区分prend与prennent的声音。</li><li>我会从tu/nous/vous生成命令式，不保留主语。</li><li>我知道Tourne去s、Prends保留s、Vas-y恢复s。</li><li>我能完整区分au/aux、du/des、à la/l’和de la/l’。</li><li>我能说J’y vais、Je n’y vais pas、Allez-y。</li><li>我能按明确起点和朝向逐步指路，并听者复述。</li><li>我能用prendre与aller分别表达交通方式。</li><li>我能解释连读与联诵差别，不恢复每个尾辅音。</li></ul><p><strong>一分钟：</strong>Nous prenons le bus. Prenez cette rue. Tournez à droite. Allez au parc. J’y vais à pied. Allez-y. Vous allez /z/；avec elle /k/联诵。</p><p>复习：当天A—D；第二天E口头、F书写；第三天G走图、H录音、I纠错、J输出；一周后先复测再看错题。正文各结构分开检查后，用同一条路线同时检查它们。</p><p>核对来源：<a href=\"https://hachettefle-us.3dcartstores.com/assets/images/Pdf%20Links/2987552058.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Hachette课程目录</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/tai1.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：命令式</a>；<a href=\"https://laits.utexas.edu/tex/gr/pro6.html\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：y</a>；<a href=\"https://laits.utexas.edu/tex/pdf/vre2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">UT Austin：prendre</a>。全部路线和练习原创，音频使用自己的教材授权资源。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "Nous ___ le bus.",
+      "options": [
+        "prendons",
+        "prenons",
+        "prennent"
+      ],
+      "answer": 1,
+      "explanation": "prendre的nous形式是prenons，词干pren-。",
+      "group": "grammar",
+      "id": "l10-q01"
+    },
+    {
+      "question": "Ils ___ le métro.",
+      "options": [
+        "prend",
+        "prenez",
+        "prennent"
+      ],
+      "answer": 2,
+      "explanation": "ils第三人称复数prennent，双n。",
+      "group": "grammar",
+      "id": "l10-q02"
+    },
+    {
+      "question": "对陌生人说“乘公交”：",
+      "options": [
+        "Prenez le bus.",
+        "Prends le bus.",
+        "Vous prennent le bus."
+      ],
+      "answer": 0,
+      "explanation": "敬称vous命令式为Prenez，无主语。",
+      "group": "grammar",
+      "id": "l10-q03"
+    },
+    {
+      "question": "对tu说“右转”：",
+      "options": [
+        "Tournes à droite.",
+        "Tourne à droite.",
+        "Tu tourne à droite."
+      ],
+      "answer": 1,
+      "explanation": "规则-er的tu命令式删主语并去s。",
+      "group": "grammar",
+      "id": "l10-q04"
+    },
+    {
+      "question": "对tu说“走这条路”：",
+      "options": [
+        "Prend cette rue.",
+        "Prendre cette rue.",
+        "Prends cette rue."
+      ],
+      "answer": 2,
+      "explanation": "prendre不是-er；tu命令式保留s。",
+      "group": "grammar",
+      "id": "l10-q05"
+    },
+    {
+      "question": "建议一起乘火车：",
+      "options": [
+        "Prenons le train.",
+        "Prenez le train.",
+        "Prend le train."
+      ],
+      "answer": 0,
+      "explanation": "nous命令式含说话者一起行动。",
+      "group": "grammar",
+      "id": "l10-q06"
+    },
+    {
+      "question": "aller的vous命令式：",
+      "options": [
+        "Vous allez.",
+        "Allez.",
+        "Vont."
+      ],
+      "answer": 1,
+      "explanation": "Allez，无主语。",
+      "group": "grammar",
+      "id": "l10-q07"
+    },
+    {
+      "question": "去博物馆：aller ___.",
+      "options": [
+        "à le musée",
+        "à la musée",
+        "au musée"
+      ],
+      "answer": 2,
+      "explanation": "musée阳性，à+le缩合au。",
+      "group": "grammar",
+      "id": "l10-q08"
+    },
+    {
+      "question": "去洗手间：aller ___.",
+      "options": [
+        "aux toilettes",
+        "à les toilettes",
+        "au toilettes"
+      ],
+      "answer": 0,
+      "explanation": "les复数冠词与à缩合aux。",
+      "group": "grammar",
+      "id": "l10-q09"
+    },
+    {
+      "question": "在公园附近：près ___.",
+      "options": [
+        "au parc",
+        "du parc",
+        "de le parc"
+      ],
+      "answer": 1,
+      "explanation": "près de，de+le缩合du。",
+      "group": "grammar",
+      "id": "l10-q10"
+    },
+    {
+      "question": "去学校：aller ___.",
+      "options": [
+        "au école",
+        "à la école",
+        "à l’école"
+      ],
+      "answer": 2,
+      "explanation": "元音起首省音，à+l’保留。",
+      "group": "grammar",
+      "id": "l10-q11"
+    },
+    {
+      "question": "Je vais à la poste，用y：",
+      "options": [
+        "J’y vais.",
+        "Je vais y.",
+        "Je y va."
+      ],
+      "answer": 0,
+      "explanation": "陈述y在变位动词前，je省音。",
+      "group": "grammar",
+      "id": "l10-q12"
+    },
+    {
+      "question": "“我不去那里”：",
+      "options": [
+        "Je y ne vais pas.",
+        "Je n’y vais pas.",
+        "Je ne vais y pas."
+      ],
+      "answer": 1,
+      "explanation": "n’＋y＋vais＋pas。",
+      "group": "grammar",
+      "id": "l10-q13"
+    },
+    {
+      "question": "Va au parc用y：",
+      "options": [
+        "Va-y.",
+        "Y va.",
+        "Vas-y."
+      ],
+      "answer": 2,
+      "explanation": "肯定命令式后置，为衔接恢复s并加连字符。",
+      "group": "grammar",
+      "id": "l10-q14"
+    },
+    {
+      "question": "Allez au parc用y：",
+      "options": [
+        "Allez-y.",
+        "Y allez.",
+        "Allez y."
+      ],
+      "answer": 0,
+      "explanation": "肯定命令式后置、连接符。",
+      "group": "grammar",
+      "id": "l10-q15"
+    },
+    {
+      "question": "“步行”：",
+      "options": [
+        "en pied",
+        "à pied",
+        "au pied作为交通词块"
+      ],
+      "answer": 1,
+      "explanation": "交通固定表达à pied。",
+      "group": "vocabulary",
+      "id": "l10-q16"
+    },
+    {
+      "question": "“我乘地铁”：",
+      "options": [
+        "Je prends en métro.",
+        "Je prends à métro.",
+        "Je prends le métro."
+      ],
+      "answer": 2,
+      "explanation": "prendre直接接交通工具名词组。",
+      "group": "grammar",
+      "id": "l10-q17"
+    },
+    {
+      "question": "“去学校骑自行车”：",
+      "options": [
+        "aller à l’école à vélo",
+        "aller à l’école en pied",
+        "prendre à vélo"
+      ],
+      "answer": 0,
+      "explanation": "本课优先搭配à vélo，aller带目的地和方式。",
+      "group": "vocabulary",
+      "id": "l10-q18"
+    },
+    {
+      "question": "tout droit与à droite：",
+      "options": [
+        "都表示右转",
+        "直走与向右不同",
+        "都表示左转"
+      ],
+      "answer": 1,
+      "explanation": "路线必须区别直走与右转。",
+      "group": "vocabulary",
+      "id": "l10-q19"
+    },
+    {
+      "question": "R1的起点和最初方向：",
+      "options": [
+        "poste向西",
+        "gare向东",
+        "gare向北"
+      ],
+      "answer": 2,
+      "explanation": "资料明确gare、face au nord。",
+      "group": "reading",
+      "id": "l10-q20"
+    },
+    {
+      "question": "R1在面包店的第一转：",
+      "options": [
+        "右转朝东",
+        "左转朝西",
+        "右转朝南"
+      ],
+      "answer": 0,
+      "explanation": "初始北向，右转是东。",
+      "group": "reading",
+      "id": "l10-q21"
+    },
+    {
+      "question": "R1第二处转弯点：",
+      "options": [
+        "place",
+        "appartement A",
+        "bibliothèque"
+      ],
+      "answer": 1,
+      "explanation": "公寓A左转向北去邮局。",
+      "group": "reading",
+      "id": "l10-q22"
+    },
+    {
+      "question": "R2从车站第一步：",
+      "options": [
+        "先去面包店",
+        "先去公园",
+        "右转朝东去图书馆"
+      ],
+      "answer": 2,
+      "explanation": "R2在车站右转，不先北上。",
+      "group": "reading",
+      "id": "l10-q23"
+    },
+    {
+      "question": "图能告诉实际步行时间吗？",
+      "options": [
+        "不能，未给比例和速度",
+        "能，每格一分钟",
+        "能，三分钟固定"
+      ],
+      "answer": 0,
+      "explanation": "练习图只给相邻点连接。",
+      "group": "reading",
+      "id": "l10-q24"
+    },
+    {
+      "question": "vous allez中的衔接辅音：",
+      "options": [
+        "/t/",
+        "/z/",
+        "/k/"
+      ],
+      "answer": 1,
+      "explanation": "代词与元音动词/z/连读。",
+      "group": "pronunciation",
+      "id": "l10-q25"
+    },
+    {
+      "question": "avec elle的/k/属于：",
+      "options": [
+        "隐藏s连读",
+        "不发音",
+        "联诵 enchaînement"
+      ],
+      "answer": 2,
+      "explanation": "k本来发音，接入后面的元音。",
+      "group": "pronunciation",
+      "id": "l10-q26"
+    },
+    {
+      "question": "bus的s：",
+      "options": [
+        "本来发音，/bys/",
+        "永远不发音",
+        "只有接元音才发音"
+      ],
+      "answer": 0,
+      "explanation": "词尾s不一定隐藏，bus本来读/s/。",
+      "group": "pronunciation",
+      "id": "l10-q27"
+    },
+    {
+      "question": "没听清转向时的追问：",
+      "options": [
+        "Quel est le loyer ?",
+        "Pardon, à gauche ou à droite ?",
+        "Je prends y."
+      ],
+      "answer": 1,
+      "explanation": "直接确认路线的关键左右。",
+      "group": "speaking",
+      "id": "l10-q28"
+    },
+    {
+      "question": "收到Tournez à droite，第一人称复述：",
+      "options": [
+        "Je tournez à droite.",
+        "Tourne je à droite.",
+        "Je tourne à droite."
+      ],
+      "answer": 2,
+      "explanation": "陈述恢复je，对应tourne。",
+      "group": "speaking",
+      "id": "l10-q29"
+    },
+    {
+      "question": "Nous allons au parc用y：",
+      "options": [
+        "Nous y allons.",
+        "Nous allons y.",
+        "Nous y va."
+      ],
+      "answer": 0,
+      "explanation": "y前置，nous保持allons。",
+      "group": "writing",
+      "id": "l10-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "prendre",
+      "imperative",
+      "articles",
+      "y",
+      "errors"
+    ],
+    "vocabulary": [
+      "words"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "phrases"
+    ],
+    "speaking": [
+      "directions",
+      "phrases"
+    ],
+    "writing": [
+      "imperative",
+      "y",
+      "directions",
+      "phrases",
+      "errors"
+    ]
+  },
+  "listening": "教材第10课：先记目的地，再依次记录地标、转弯与交通方式，最后核对教材路线；本站图用于指路和复述，不是教材音轨转写。"
+}
