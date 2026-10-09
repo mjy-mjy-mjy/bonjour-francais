@@ -8,11 +8,11 @@
   <script>
     try { document.documentElement.dataset.theme = localStorage.getItem('bonjour-francais-theme-v1') === 'paper' ? 'paper' : 'glass'; } catch {}
   </script>
-  <link rel="stylesheet" href="styles.css?v=2dc59784b6d1">
+  <link rel="stylesheet" href="styles.css?v=b9943c3321bc">
   <script src="content.js?v=28f437980e88" defer></script>
   <script src="course.js?v=6be24dbad7c8" defer></script>
   <script src="lesson14.js?v=0a583bdbc7a6" defer></script>
-  <script src="app.js?v=01027586222d" defer></script>
+  <script src="app.js?v=2dbb4152625a" defer></script>
 </head>
 <body>
   <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
@@ -40,6 +40,7 @@
       <span class="page-location" id="page-location">A1 / 教材学习路线</span>
       <div class="topbar-actions">
         <label class="search"><span class="search-label">查找</span><input id="search" type="search" placeholder="词汇、语法或资源" aria-label="搜索学习内容"></label>
+        <a class="button secondary quick-note-link" href="#notebook"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-writing"></use></svg>随手记</a>
         <button type="button" class="button secondary theme-toggle" id="theme-toggle" aria-label="切换配色，当前为液态玻璃"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-palette"></use></svg><span id="theme-label" aria-live="polite">配色：液态玻璃</span></button>
       </div>
     </header>

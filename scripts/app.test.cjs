@@ -21,7 +21,7 @@ function app(saved, hash = '#route', theme = null) {
     console, location: {hash},
     document: {documentElement: {dataset: {}}, getElementById: element, createElement: () => ({click() {}})},
     localStorage: {getItem: key => key === 'bonjour-francais-theme-v1' ? storage.theme : storage.value,
-      setItem: (key, value) => {if(key === 'bonjour-francais-theme-v1') {if(storage.failTheme)throw Error('theme storage unavailable');storage.theme = value;}else storage.value = value;}},
+      setItem: (key, value) => {if(key === 'bonjour-francais-theme-v1') {if(storage.failTheme)throw Error('theme storage unavailable');storage.theme = value;}else {if(storage.failSave)throw Error('progress storage unavailable');storage.value = value;}}},
     setTimeout: () => 1, clearTimeout() {},
     fetch: async () => ({ok: true, json: async () => snapshot}),
     FormData: class {constructor(form) {this.form = form;} get() {return this.form.answer;}},
@@ -41,7 +41,7 @@ function app(saved, hash = '#route', theme = null) {
 
 test('every learning page renders; invalid lesson numbers are rejected', () => {
   for (const page of ['route','lesson/14','lesson/13','pronunciation','vocabulary','grammar',
-                      'listening','speaking','reading','writing','review','resources','settings']) {
+                      'listening','speaking','reading','writing','review','resources','settings','notebook']) {
     assert.ok(app(null, '#' + page).main.innerHTML.includes('<h1>'), page);
   }
   assert.ok(app(null, '#lesson/99').main.innerHTML.includes('找不到'));
@@ -472,4 +472,149 @@ test('browsing textbook units does not advance the current lesson or mark chapte
   a.context.events.hashchange({oldURL:'https://example.test/#lesson/8'});
   assert.ok(a.main.innerHTML.includes('data-unit="2" aria-pressed="true"'));
   assert.ok(a.main.innerHTML.includes('<h1>继续第 8 课。</h1>'));
+});
+
+function quickNoteInput(a,field,value) {
+  a.main.listeners.input({target:{dataset:{quickNoteField:field},value}});
+}
+function quickNoteSubmit(a) {
+  a.main.listeners.submit({target:{id:'quick-note-form'},preventDefault(){}});
+}
+function quickNoteClick(a,dataset={},id='') {
+  a.main.listeners.click({target:{closest:()=>({dataset,id,hasAttribute:()=>false})}});
+}
+function quickNoteFixture(overrides={}) {
+  return {id:'note-1',title:'常用表达',body:'Ça marche !\n好的，没问题。',createdAt:'2026-10-09T03:00:00.000Z',updatedAt:'2026-10-09T03:00:00.000Z',...overrides};
+}
+
+test('standalone notebook restores old progress and drafts without changing the current lesson',()=>{
+  const saved=progress({currentLesson:14,completed:[1,2],notes:{'lesson-14':'课后笔记'}});
+  const a=app(saved,'#notebook');
+  assert.ok(a.elements.navigation.innerHTML.includes('href="#notebook"'));
+  assert.ok(a.main.innerHTML.includes('记一笔'));
+  quickNoteInput(a,'title','每天一点');quickNoteInput(a,'body','Bonjour !\n今天复习问候。');
+  const state=JSON.parse(a.storage.value);
+  assert.equal(state.currentLesson,14);assert.deepEqual(state.completed,[1,2]);
+  assert.equal(state.notes['lesson-14'],'课后笔记');assert.equal(state.quickNotes.length,0);
+  const restored=app(a.storage.value,'#notebook');
+  assert.ok(restored.main.innerHTML.includes('每天一点'));assert.ok(restored.main.innerHTML.includes('Bonjour !\n今天复习问候。'));
+  restored.elements['theme-toggle'].listeners.click();
+  assert.equal(restored.storage.value,a.storage.value);
+});
+
+test('quick notes create multiple records, escape personal text and keep line breaks after reload',()=>{
+  const a=app(null,'#notebook');
+  quickNoteInput(a,'title','<img src=x onerror=alert(1)>');
+  quickNoteInput(a,'body','第一行\n<script>alert(1)</script>');quickNoteSubmit(a);
+  let state=JSON.parse(a.storage.value);
+  assert.equal(state.quickNotes.length,1);assert.equal(state.quickNoteDraft.body,'');
+  assert.ok(!a.main.innerHTML.includes('<img src=x'));assert.ok(a.main.innerHTML.includes('&lt;script&gt;'));
+  quickNoteInput(a,'body','第二条，不需要标题。');quickNoteSubmit(a);
+  state=JSON.parse(a.storage.value);
+  assert.equal(state.quickNotes.length,2);assert.notEqual(state.quickNotes[0].id,state.quickNotes[1].id);
+  const restored=app(a.storage.value,'#notebook');
+  assert.ok(restored.main.innerHTML.includes('未命名记录'));assert.ok(restored.main.innerHTML.includes('第一行\n&lt;script&gt;'));
+});
+
+test('empty content cannot become a record and leaves the draft available',()=>{
+  const a=app(null,'#notebook');
+  quickNoteInput(a,'title','只有标题');quickNoteInput(a,'body',' \n ');quickNoteSubmit(a);
+  const state=JSON.parse(a.storage.value);
+  assert.equal(state.quickNotes.length,0);assert.equal(state.quickNoteDraft.title,'只有标题');
+  assert.ok(a.elements.notice.textContent.includes('先写一点内容'));
+});
+
+test('editing survives navigation and reload then updates the same record with its original creation time',()=>{
+  const entry=quickNoteFixture();
+  const a=app(progress({currentLesson:15,quickNotes:[entry]}),'#notebook');
+  quickNoteClick(a,{quickNoteEdit:entry.id});quickNoteInput(a,'body','改为：Ça me va.');
+  a.context.location.hash='#route';a.context.events.hashchange({oldURL:'https://example.test/#notebook'});
+  assert.equal(JSON.parse(a.storage.value).currentLesson,15);
+  const restored=app(a.storage.value,'#notebook');
+  assert.ok(restored.main.innerHTML.includes('保存修改'));quickNoteSubmit(restored);
+  const state=JSON.parse(restored.storage.value);
+  assert.equal(state.quickNotes.length,1);assert.equal(state.quickNotes[0].id,entry.id);
+  assert.equal(state.quickNotes[0].createdAt,entry.createdAt);assert.equal(state.quickNotes[0].body,'改为：Ça me va.');
+  assert.equal(state.quickNoteDraft.editingId,null);
+});
+
+test('cancelled edit, draft reset and deletion preserve data; deletion clears only the selected record',()=>{
+  const first=quickNoteFixture(),second=quickNoteFixture({id:'note-2',title:'数字'});
+  const a=app(progress({quickNotes:[first,second]}),'#notebook');
+  quickNoteInput(a,'body','还没整理好的想法');const saved=a.storage.value;
+  a.context.confirm=()=>false;
+  quickNoteClick(a,{quickNoteEdit:first.id});quickNoteClick(a,{},'quick-note-reset');quickNoteClick(a,{quickNoteDelete:first.id});
+  assert.equal(a.storage.value,saved);
+  a.context.confirm=()=>true;
+  quickNoteClick(a,{quickNoteDelete:first.id});
+  let state=JSON.parse(a.storage.value);
+  assert.equal(state.quickNotes.length,1);assert.equal(state.quickNotes[0].id,second.id);assert.equal(state.quickNoteDraft.body,'还没整理好的想法');
+  quickNoteClick(a,{quickNoteEdit:second.id});quickNoteInput(a,'body','待保存修改');quickNoteClick(a,{quickNoteDelete:second.id});
+  state=JSON.parse(a.storage.value);assert.equal(state.quickNotes.length,0);assert.equal(state.quickNoteDraft.editingId,null);assert.equal(state.quickNoteDraft.body,'');
+});
+
+test('notebook search preserves drafts and global search links to saved records',()=>{
+  const a=app(progress({quickNotes:[quickNoteFixture(),quickNoteFixture({id:'note-2',title:'时间',body:'demain'})]}),'#notebook');
+  quickNoteInput(a,'body','正在写的草稿');
+  a.main.listeners.input({target:{id:'quick-note-search',value:'MARCHE',dataset:{}}});
+  assert.ok(a.elements['quick-note-list'].innerHTML.includes('note-1'));assert.ok(!a.elements['quick-note-list'].innerHTML.includes('note-2'));
+  a.elements.search.listeners.input({target:{value:'demain'}});
+  assert.ok(a.main.innerHTML.includes('#notebook/note-2'));assert.equal(JSON.parse(a.storage.value).quickNoteDraft.body,'正在写的草稿');
+  a.context.location.hash='#notebook/note-2';a.context.events.hashchange({oldURL:'https://example.test/#notebook'});
+  assert.ok(a.main.innerHTML.includes('quick-note-note-2'));assert.equal(a.elements['quick-note-note-2'].scrolled,true);
+});
+
+test('learning backup exports and imports quick notes plus drafts and remains compatible with older backups',async()=>{
+  const a=app(progress({quickNotes:[quickNoteFixture()],quickNoteDraft:{title:'明天',body:'待继续',editingId:null},notes:{'lesson-14':'旧笔记'}}),'#settings','paper');
+  let exported;
+  a.context.Blob=class {constructor(parts){exported=JSON.parse(parts[0]);}};
+  a.context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};
+  quickNoteClick(a,{},'export');
+  assert.equal(exported.quickNotes[0].body,'Ça marche !\n好的，没问题。');assert.equal(exported.quickNoteDraft.body,'待继续');
+  const backup=JSON.stringify(exported),other=app(null,'#notebook');
+  await other.main.listeners.change({target:{id:'import',files:[{size:backup.length,text:async()=>backup}]}});
+  assert.equal(JSON.parse(other.storage.value).quickNotes[0].id,'note-1');assert.equal(JSON.parse(other.storage.value).quickNoteDraft.body,'待继续');
+  const old=progress({completed:[14],notes:{'lesson-14':'更早的备份'}});
+  await a.main.listeners.change({target:{id:'import',files:[{size:old.length,text:async()=>old}]}});
+  assert.equal(a.storage.theme,'paper');assert.equal(JSON.parse(a.storage.value).quickNotes.length,0);assert.equal(JSON.parse(a.storage.value).notes['lesson-14'],'更早的备份');
+});
+
+test('malformed quick-note backups are rejected without replacing personal data',async()=>{
+  const a=app(progress({quickNotes:[quickNoteFixture()]}),'#notebook');const saved=a.storage.value;
+  for(const invalid of [
+    {quickNotes:{}},{quickNotes:[null]},
+    {quickNotes:[quickNoteFixture({id:'" onclick="x'})]},
+    {quickNotes:[quickNoteFixture(),quickNoteFixture()]},
+    {quickNotes:[quickNoteFixture({body:5})]},
+    {quickNotes:[quickNoteFixture({body:' '})]},
+    {quickNotes:[quickNoteFixture({updatedAt:'not a date'})]},
+    {quickNoteDraft:{title:'a',body:'b',editingId:'missing'}},
+    {quickNoteDraft:null}
+  ]) {
+    const backup=progress(invalid);
+    await a.main.listeners.change({target:{id:'import',files:[{size:backup.length,text:async()=>backup}]}});
+    assert.equal(a.storage.value,saved);assert.ok(a.elements.notice.textContent.includes('有效'));
+  }
+});
+
+test('storage failures retain the draft and existing records until saving succeeds',()=>{
+  const a=app(progress({quickNotes:[quickNoteFixture()]}),'#notebook');
+  quickNoteInput(a,'body','不能丢失的草稿');const saved=a.storage.value;
+  a.storage.failSave=true;quickNoteSubmit(a);
+  assert.equal(a.storage.value,saved);assert.ok(a.main.innerHTML.includes('记一笔'));
+  assert.ok(a.elements['quick-note-status'].textContent.includes('未能保存'));
+  a.storage.failSave=false;quickNoteSubmit(a);
+  assert.equal(JSON.parse(a.storage.value).quickNotes.length,2);assert.equal(JSON.parse(a.storage.value).quickNotes[0].body,'不能丢失的草稿');
+});
+
+test('failed backup persistence does not replace existing quick notes or claim a successful import',async()=>{
+  const a=app(progress({quickNotes:[quickNoteFixture()]}),'#notebook');const saved=a.storage.value;
+  a.storage.failSave=true;
+  const backup=progress({quickNotes:[quickNoteFixture({id:'imported-1',body:'导入的记录'})]});
+  await a.main.listeners.change({target:{id:'import',files:[{size:backup.length,text:async()=>backup}]}});
+  assert.equal(a.storage.value,saved);assert.ok(!a.elements.notice.textContent.includes('已导入'));
+  a.storage.failSave=false;quickNoteInput(a,'body','保留现有数据');quickNoteSubmit(a);
+  const state=JSON.parse(a.storage.value);
+  assert.equal(state.quickNotes.length,2);assert.ok(state.quickNotes.some(n=>n.id==='note-1'));
+  assert.ok(!state.quickNotes.some(n=>n.id==='imported-1'));
 });
