@@ -1,5 +1,16 @@
 // 本站补充讲解和练习为原创，教材音频通过出版方页面访问。
 window.COURSE_CONTENT = {
+  units: [
+    'Rencontres',
+    'Portraits',
+    'Ça se trouve où ?',
+    'Au rythme du temps',
+    'La vie de tous les jours',
+    'Vivre avec les autres',
+    'Un peu, beaucoup, passionnément…',
+    'Tout le monde en parle',
+    'On verra bien !'
+  ],
   vocabulary: [
     ['un informaticien / une informaticienne','信息技术从业者','Je suis informaticienne.'],
     ['un acteur / une actrice','演员','Mon frère est acteur.'],
