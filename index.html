@@ -8,11 +8,11 @@
   <script>
     try { document.documentElement.dataset.theme = localStorage.getItem('bonjour-francais-theme-v1') === 'paper' ? 'paper' : 'glass'; } catch {}
   </script>
-  <link rel="stylesheet" href="styles.css?v=9e170971fb58">
+  <link rel="stylesheet" href="styles.css?v=540f2a5e6fd3">
   <script src="content.js?v=7f27164b9bb1" defer></script>
   <script src="course.js?v=6be24dbad7c8" defer></script>
   <script src="lesson14.js?v=0a583bdbc7a6" defer></script>
-  <script src="app.js?v=88853ae0d394" defer></script>
+  <script src="app.js?v=a500639b4de5" defer></script>
 </head>
 <body>
   <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
@@ -30,8 +30,8 @@
     <symbol id="icon-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1-4 2 2 0 0 1 1-4h2a4 4 0 0 0 4-4c0-4-5-6-9-6Z"/><circle cx="7.5" cy="9" r=".6"/><circle cx="11" cy="6.5" r=".6"/><circle cx="15.5" cy="7.5" r=".6"/><circle cx="6.5" cy="13" r=".6"/></symbol>
   </svg>
   <a class="skip" href="#main">跳到主要内容</a>
-  <aside class="sidebar">
-    <a class="brand" href="#route"><span class="logo" aria-hidden="true">B.</span><span>你好法语<small>Bonjour Français</small></span></a>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header"><a class="brand" href="#route"><span class="logo" aria-hidden="true">B.</span><span>你好法语<small>Bonjour Français</small></span></a><button type="button" class="button secondary mobile-nav-toggle" id="navigation-toggle" aria-expanded="false" aria-controls="navigation">分类菜单</button></div>
     <nav id="navigation" aria-label="网站分类"></nav>
     <div class="sidebar-bottom"><span class="level">A1</span><p>Le Nouveau Taxi! 1<br><strong>按教材路线学习</strong></p><a href="#settings">学习记录与备份 →</a></div>
   </aside>
@@ -44,7 +44,8 @@
         <button type="button" class="button secondary theme-toggle" id="theme-toggle" aria-label="切换配色，当前为液态玻璃"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-palette"></use></svg><span id="theme-label" aria-live="polite">配色：液态玻璃</span></button>
       </div>
     </header>
-    <main id="main" tabindex="-1"></main>
+    <main id="main" tabindex="-1"><div id="page-content"></div><div id="search-results" hidden></div></main>
+    <nav id="reading-tools" class="reading-tools" aria-label="讲义快捷导航" hidden><a class="button secondary" id="reading-toc" href="#route">回到目录 ↑</a><button type="button" class="button secondary" id="reading-top">顶部 ↑</button></nav>
     <footer>Bonjour Français · 中文讲解，法语练习 <span>学习记录保存在当前浏览器</span></footer>
   </div>
   <div id="notice" role="status" aria-live="polite"></div>

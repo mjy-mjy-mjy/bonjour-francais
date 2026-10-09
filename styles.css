@@ -1,3 +1,4 @@
+[hidden] { display: none !important; }
 :root {
   color-scheme: light dark;
   --ink: light-dark(#1d293d, #edf3ff);
@@ -252,11 +253,31 @@ footer { width: 100%; padding: 18px var(--page-gutter); border-top: 1px solid va
 @media (max-width: 380px) { .hero { display: block; padding: 19px; } .hero-number { display: none; } .hero-actions { gap: 6px; } .hero-actions .button { padding: 8px 12px; font-size: 13px; } .skill-grid { grid-template-columns: 1fr; } .chapter-card { padding: 12px; } .chapter-status { font-size: 11px; } .course-directory>summary .source-note { display: block; margin-left: 20px; } }
 @media (pointer: coarse) { .button, .unit-button, .nav-link, .lesson-link { min-height: 44px; } input, textarea, select, .search input, .learning-choice select { font-size: 16px; } }
 @media (max-width: 640px) { body { display: flex; flex-direction: column; } .workspace { min-height: 0; flex: 1; } }
+
+.sidebar-header { min-width: 0; }
+.mobile-nav-toggle { display: none; }
+.lesson-toc { scroll-margin-top: 110px; }
+.reading-tools { position: fixed; right: 24px; bottom: 72px; z-index: 10; display: flex; gap: 8px; padding: 6px; border: 1px solid var(--line); border-radius: 16px; background: var(--chrome); box-shadow: var(--shadow); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+.reading-tools .button { font-size: 13px; }
+.note-recovery { margin: 24px 0; padding: 16px 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--soft); }
+.note-recovery p { margin: 0; }
+.note-recovery .toolbar { margin: 12px 0 0; }
+#search-back { margin-bottom: 16px; }
+@media (max-width: 640px) {
+  .sidebar { padding: 12px 16px; }
+  .sidebar-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .sidebar-header .brand { min-width: 0; margin: 0; }
+  .mobile-nav-toggle { display: inline-flex; flex-shrink: 0; padding: 8px 12px; font-size: 12px; min-height: 44px; }
+  .sidebar:not(.navigation-open) #navigation { display: none; }
+  .reading-tools { right: 12px; bottom: 72px; }
+  .lesson-toc { scroll-margin-top: 20px; }
+}
+
 @page { size: A4; margin: 16mm 14mm; }
 @media print {
   :root { color-scheme: light; --ink: #111; --muted: #444; --line: #bbb; --paper: #fff; --card: #fff; --soft: #fff; --accent: #111; --shadow: none; background: #fff; color: #111; font-size: 11pt; line-height: 1.6; }
   body { display: block; min-height: 0; background: #fff; color: #111; }
-  .sidebar, .topbar, footer, .skip, #notice, .toolbar, .hero-actions, .learning-choice, .lesson-toc, .answer-options+button, .section>.grid, textarea, .source-note { display: none !important; }
+  .sidebar, .topbar, footer, .skip, #notice, .reading-tools, .note-recovery, #search-back, .toolbar, .hero-actions, .learning-choice, .lesson-toc, .answer-options+button, .section>.grid, textarea, .source-note { display: none !important; }
   .workspace { display: block; margin: 0; min-height: 0; }
   .notebook-layout { display: block; }
   .notebook-editor, .notebook-filter { display: none; }

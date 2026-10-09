@@ -12,6 +12,7 @@ function app(saved, hash = '#route', theme = null) {
   function element(id) {
     return elements[id] ||= {innerHTML: '', value: '', textContent: '', listeners: {}, attributes: {},
       classList: {add() {}, remove() {}},
+      getAttribute(name) {return this.attributes[name];}, focus() {this.focused=true;},
       setAttribute(name, value) {this.attributes[name] = value;},
       scrollIntoView() {this.scrolled = true;}, querySelector() {return null;}, querySelectorAll() {return [];},
       addEventListener(name, callback) {this.listeners[name] = callback;},
@@ -19,7 +20,7 @@ function app(saved, hash = '#route', theme = null) {
   }
   const context = vm.createContext({
     console, location: {hash},
-    document: {documentElement: {dataset: {}}, getElementById: element, createElement: () => ({click() {}})},
+    document: {documentElement: {dataset: {}}, getElementById: element, querySelector: () => element('skip'), createElement: () => ({click() {}})},
     localStorage: {getItem: key => key === 'bonjour-francais-theme-v1' ? storage.theme : storage.value,
       setItem: (key, value) => {if(key === 'bonjour-francais-theme-v1') {if(storage.failTheme)throw Error('theme storage unavailable');storage.theme = value;}else {if(storage.failSave)throw Error('progress storage unavailable');storage.value = value;}}},
     setTimeout: () => 1, clearTimeout() {},
@@ -36,7 +37,7 @@ function app(saved, hash = '#route', theme = null) {
   vm.runInContext(fs.readFileSync(path.join(root, 'course.js'), 'utf8'), context);
   vm.runInContext(fs.readFileSync(path.join(root, 'lesson14.js'), 'utf8'), context);
   vm.runInContext(fs.readFileSync(path.join(root, 'app.js'), 'utf8'), context);
-  return {context, elements, storage, main: element('main')};
+  return {context, elements, storage, main: element('page-content')};
 }
 
 test('every learning page renders; invalid lesson numbers are rejected', () => {
@@ -137,8 +138,8 @@ test('category pages use full reference content, including phonetics and written
 test('search finds detailed knowledge and links to the correct lesson section', () => {
   const a = app();
   a.elements.search.listeners.input({target: {value: 'commençons'}});
-  assert.ok(a.main.innerHTML.includes('#lesson/14/verbs'));
-  assert.ok(a.main.innerHTML.includes('commençons'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/14/verbs'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('commençons'));
 });
 
 test('print expands reference answers and restores each original panel state', () => {
@@ -201,7 +202,7 @@ test('lesson-specific category pages and search preserve the selected lesson', (
   }
   const a = app();
   a.elements.search.listeners.input({target:{value:'Qui est-ce'}});
-  assert.ok(a.main.innerHTML.includes('#lesson/1/questions'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/1/questions'));
   assert.ok(!app(null, '#lesson/16').main.innerHTML.includes('即时小测'));
 });
 
@@ -251,7 +252,7 @@ test('lesson 2 covers articles, agreement, places, identity and syllables with p
     assert.ok(page.elements.navigation.innerHTML.includes('#grammar/2'),kind);
   }
   a.elements.search.listeners.input({target:{value:'Mexique'}});
-  assert.ok(a.main.innerHTML.includes('#lesson/2/places'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/2/places'));
 });
 
 test('lesson 3 covers wellbeing, age, contact details, determiners, numbers and rhythm', () => {
@@ -264,7 +265,7 @@ test('lesson 3 covers wellbeing, age, contact details, determiners, numbers and 
     assert.ok(page.elements.navigation.innerHTML.includes('#grammar/3'),kind);
   }
   a.elements.search.listeners.input({target:{value:'mon adresse'}});
-  assert.ok(a.main.innerHTML.includes('#lesson/3/possessives'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/3/possessives'));
 });
 
 test('lesson 4 integrates profile reading, likes, questions and message production', () => {
@@ -277,7 +278,7 @@ test('lesson 4 integrates profile reading, likes, questions and message producti
     assert.ok(page.elements.navigation.innerHTML.includes('#grammar/4'),kind);
   }
   a.elements.search.listeners.input({target:{value:'correspondante'}});
-  assert.ok(a.main.innerHTML.includes('#lesson/4/words'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/4/words'));
   const stored={version:1,completed:[4],wrong:['l04-q24'],favorites:[4],notes:{'lesson-4':'笔友留言'},attempts:{'l04-q24':false}};
   const restored=app(JSON.stringify(stored),'#review');
   assert.ok(restored.main.innerHTML.includes('correspond@nce.com'));
@@ -318,9 +319,9 @@ test('route includes lesson 15 and new knowledge search links reach the authored
   assert.ok(a.main.innerHTML.includes('前 15 课 · 教材路线'));
   for(const n of [13,14,15])assert.ok(a.main.innerHTML.includes('#lesson/'+n));
   a.elements.search.listeners.input({target:{value:'partons'}});
-  assert.ok(a.main.innerHTML.includes('#lesson/13/partir'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/13/partir'));
   a.elements.search.listeners.input({target:{value:'levons'}});
-  assert.ok(a.main.innerHTML.includes('#lesson/15/reflexive'));
+  assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/15/reflexive'));
   const detailed=app(null,'#lesson/15');
   assert.ok(detailed.main.innerHTML.includes('Le dimanche matin'));
   assert.ok(!detailed.main.innerHTML.includes('正文正在补充'));
@@ -559,7 +560,7 @@ test('notebook search preserves drafts and global search links to saved records'
   a.main.listeners.input({target:{id:'quick-note-search',value:'MARCHE',dataset:{}}});
   assert.ok(a.elements['quick-note-list'].innerHTML.includes('note-1'));assert.ok(!a.elements['quick-note-list'].innerHTML.includes('note-2'));
   a.elements.search.listeners.input({target:{value:'demain'}});
-  assert.ok(a.main.innerHTML.includes('#notebook/note-2'));assert.equal(JSON.parse(a.storage.value).quickNoteDraft.body,'正在写的草稿');
+  assert.ok(a.elements['search-results'].innerHTML.includes('#notebook/note-2'));assert.equal(JSON.parse(a.storage.value).quickNoteDraft.body,'正在写的草稿');
   a.context.location.hash='#notebook/note-2';a.context.events.hashchange({oldURL:'https://example.test/#notebook'});
   assert.ok(a.main.innerHTML.includes('quick-note-note-2'));assert.equal(a.elements['quick-note-note-2'].scrolled,true);
 });
@@ -617,4 +618,79 @@ test('failed backup persistence does not replace existing quick notes or claim a
   const state=JSON.parse(a.storage.value);
   assert.equal(state.quickNotes.length,2);assert.ok(state.quickNotes.some(n=>n.id==='note-1'));
   assert.ok(!state.quickNotes.some(n=>n.id==='imported-1'));
+});
+
+test('clearing or escaping search restores the original page without replacing its DOM',()=>{
+  const a=app(null,'#lesson/14'),original=a.main.innerHTML,label=a.elements['page-location'].textContent;
+  a.context.scrollY=2800;
+  a.elements.search.listeners.input({target:{value:'faire'}});
+  assert.equal(a.main.innerHTML,original);assert.equal(a.main.hidden,true);assert.equal(a.elements['search-results'].hidden,false);
+  a.elements.search.listeners.input({target:{value:''}});
+  assert.equal(a.main.hidden,false);assert.equal(a.main.innerHTML,original);assert.equal(a.elements['search-results'].hidden,true);
+  assert.equal(a.elements['page-location'].textContent,label);
+  a.elements.search.listeners.input({target:{value:'faire'}});
+  a.elements.search.listeners.keydown({key:'Escape',preventDefault(){}});
+  assert.equal(a.main.hidden,false);assert.equal(a.main.innerHTML,original);
+});
+
+test('same-lesson search result navigation preserves the page and reveals the selected section',()=>{
+  const a=app(null,'#lesson/14'),original=a.main.innerHTML;
+  a.elements.search.listeners.input({target:{value:'faire'}});
+  a.context.location.hash='#lesson/14/faire';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14'});
+  assert.equal(a.main.innerHTML,original);assert.equal(a.main.hidden,false);assert.equal(a.elements['lesson14-faire'].scrolled,true);
+  a.elements.search.listeners.input({target:{value:'faire'}});
+  a.elements['search-results'].listeners.click({preventDefault(){},target:{closest:selector=>selector==='a'?{getAttribute:()=>a.context.location.hash}:null}});
+  assert.equal(a.main.innerHTML,original);assert.equal(a.main.hidden,false);
+});
+
+test('reading controls appear only in long lessons and directory navigation preserves page state',()=>{
+  const a=app(null,'#lesson/14'),original=a.main.innerHTML;
+  assert.equal(a.elements['reading-tools'].hidden,true);
+  a.context.scrollY=2000;a.context.events.scroll();assert.equal(a.elements['reading-tools'].hidden,false);
+  assert.equal(a.elements['reading-toc'].attributes.href,'#lesson/14/toc');
+  a.context.location.hash='#lesson/14/toc';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14'});
+  assert.equal(a.main.innerHTML,original);assert.equal(a.elements['lesson14-toc'].scrolled,true);assert.equal(a.elements['lesson14-toc'].focused,true);
+  a.elements.search.listeners.input({target:{value:'faire'}});assert.equal(a.elements['reading-tools'].hidden,true);
+  const placeholder=app(null,'#lesson/16');placeholder.context.scrollY=2000;placeholder.context.events.scroll();assert.equal(placeholder.elements['reading-tools'].hidden,true);
+});
+
+test('mobile menu exposes its expansion state and closes with navigation or Escape',()=>{
+  const a=app();assert.equal(a.elements['navigation-toggle'].attributes['aria-expanded'],'false');
+  a.elements['navigation-toggle'].listeners.click();assert.equal(a.elements['navigation-toggle'].attributes['aria-expanded'],'true');
+  a.elements.navigation.listeners.click({target:{closest:()=>({})}});assert.equal(a.elements['navigation-toggle'].attributes['aria-expanded'],'false');
+  a.elements['navigation-toggle'].listeners.click();a.elements.sidebar.listeners.keydown({key:'Escape'});
+  assert.equal(a.elements['navigation-toggle'].attributes['aria-expanded'],'false');assert.equal(a.elements['navigation-toggle'].focused,true);
+});
+function undoQuickNote(a) {a.main.listeners.click({target:{closest:()=>({dataset:{},hasAttribute:name=>name==='data-quick-note-undo'})}});}
+
+test('undo restores a deleted record while retaining other notes and the current draft',()=>{
+  const entry=quickNoteFixture({title:'<script>test</script>'}),a=app(progress({quickNotes:[entry,quickNoteFixture({id:'note-2'})]}),'#notebook');
+  quickNoteClick(a,{quickNoteDelete:entry.id});assert.ok(a.main.innerHTML.includes('data-quick-note-undo'));assert.ok(a.main.innerHTML.includes('&lt;script&gt;test&lt;/script&gt;'));
+  quickNoteInput(a,'body','删除后继续写的新草稿');undoQuickNote(a);
+  const saved=JSON.parse(a.storage.value);assert.equal(saved.quickNotes.length,2);assert.deepEqual(saved.quickNotes.find(n=>n.id===entry.id),entry);
+  assert.equal(saved.quickNoteDraft.body,'删除后继续写的新草稿');assert.ok(!a.main.innerHTML.includes('data-quick-note-undo'));
+  assert.equal(JSON.parse(app(a.storage.value,'#notebook').storage.value).quickNotes.length,2);
+});
+
+test('undo recovers unsaved edits of the deleted record and retries after a storage failure',()=>{
+  const entry=quickNoteFixture(),a=app(progress({quickNotes:[entry]}),'#notebook');
+  quickNoteClick(a,{quickNoteEdit:entry.id});quickNoteInput(a,'body','这份修改还未保存');quickNoteClick(a,{quickNoteDelete:entry.id});
+  a.storage.failSave=true;undoQuickNote(a);assert.equal(JSON.parse(a.storage.value).quickNotes.length,0);assert.ok(a.main.innerHTML.includes('data-quick-note-undo'));
+  a.storage.failSave=false;undoQuickNote(a);const saved=JSON.parse(a.storage.value);
+  assert.equal(saved.quickNotes[0].body,entry.body);assert.equal(saved.quickNoteDraft.editingId,entry.id);assert.equal(saved.quickNoteDraft.body,'这份修改还未保存');
+});
+
+test('a successful backup import clears deletion recovery from the previous notebook',async()=>{
+  const a=app(progress({quickNotes:[quickNoteFixture()]}),'#notebook');quickNoteClick(a,{quickNoteDelete:'note-1'});
+  const replacement=progress({quickNotes:[quickNoteFixture({id:'imported'})]});
+  await a.main.listeners.change({target:{id:'import',files:[{size:replacement.length,text:async()=>replacement}]}});
+  undoQuickNote(a);assert.equal(JSON.parse(a.storage.value).quickNotes.length,1);assert.equal(JSON.parse(a.storage.value).quickNotes[0].id,'imported');
+});
+
+test('selecting or completing a chapter resets the browsed unit to match the current chapter',async()=>{
+  const a=app(progress({currentLesson:14}));quickNoteClick(a,{unit:'9'});
+  await a.main.listeners.change({target:{id:'learning-course',value:'15'}});
+  assert.ok(a.main.innerHTML.includes('data-unit="4" aria-pressed="true"'));assert.ok(a.main.innerHTML.includes('href="#lesson/15" class="chapter-card current'));
+  quickNoteClick(a,{unit:'9'});clickComplete(a,15);
+  assert.ok(a.main.innerHTML.includes('data-unit="4" aria-pressed="true"'));assert.ok(a.main.innerHTML.includes('href="#lesson/16" class="chapter-card current'));
 });
