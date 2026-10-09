@@ -301,7 +301,7 @@ const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/ca
 for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
   const a=app(null,'#lesson/'+n);
   for(const text of authoredCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
-  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,30);
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,n===15?42:30);
   assert.equal((a.main.innerHTML.match(/<details>/g)||[]).length,10);
   for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']){
     const page=app(null,`#${kind}/${n}`);assert.ok(page.main.innerHTML.includes(`#lesson/${n}`),kind);assert.ok(page.elements.navigation.innerHTML.includes(`#grammar/${n}`),kind);
@@ -703,4 +703,52 @@ test('searching the current lesson title and returning to its base route retains
   a.context.location.hash='#lesson/14/toc';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14'});
   a.context.location.hash='#lesson/14';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14/toc'});
   assert.equal(a.main.innerHTML,original);
+});
+
+test('lesson 15 explicitly teaches the three communicative goals in full and skill pages',()=>{
+  const a=app(null,'#lesson/15');
+  const targets=['询问正在进行的活动','询问习惯性活动','说出所从事的运动'];
+  for(const kind of ['lesson','grammar','speaking','writing']){
+    const page=app(null,`#${kind}/15`);
+    for(const goal of targets)assert.ok(page.main.innerHTML.includes(goal),`${kind}: ${goal}`);
+  }
+  assert.ok(a.main.innerHTML.includes('#lesson/15/communicate'));
+  for(const [term,href] of [['询问正在进行的活动','#lesson/15/communicate'],['réveillons','#lesson/15/reflexive'],['s’appellent','#lesson/15/reflexive']]){
+    a.elements.search.listeners.input({target:{value:term}});assert.ok(a.elements['search-results'].innerHTML.includes(href),term);
+  }
+});
+
+test('lesson 15 contains six present-tense persons for all seven verb pairs and the critical spellings',()=>{
+  const a=app(null,'#lesson/15');
+  const html=a.main.innerHTML;
+  const critical={laver:['je lave','nous nous lavons'],reposer:['tu reposes','vous vous reposez'],réveiller:['je me réveille','nous nous réveillons','ils / elles se réveillent'],habiller:['j’habille','je m’habille','vous vous habillez'],coucher:['je me couche','nous nous couchons'],appeler:['j’appelle','tu t’appelles','nous appelons','vous vous appelez','ils / elles s’appellent'],lever:['je me lève','nous nous levons','vous vous levez','ils / elles se lèvent']};
+  for(const [verb,forms] of Object.entries(critical)){
+    const table=html.match(new RegExp(`<table data-conjugation="${verb}">([\\s\\S]*?)</table>`))?.[1];assert.ok(table,verb);
+    assert.equal((table.match(/<tbody>([\s\S]*?)<\/tbody>/)[1].match(/<tr>/g)||[]).length,6,verb);
+    for(const form of forms)assert.ok(table.includes(form),`${verb}: ${form}`);
+  }
+  assert.ok(app(null,'#vocabulary/15').main.innerHTML.includes('data-conjugation="réveiller"'));
+  assert.ok(app(null,'#speaking/15').main.innerHTML.includes('data-conjugation="appeler"'));
+});
+
+test('lesson 15 extends practice with matched answers and retains the existing quiz identifiers',()=>{
+  const a=app(null,'#lesson/15'),course=a.context.COURSE_LIBRARY.lessons.find(c=>c.number===15);
+  assert.equal(course.sections.length,13);assert.equal(course.quickQuestions.length,42);
+  assert.deepEqual(Array.from(course.quickQuestions.slice(0,30),q=>q.id),Array.from({length:30},(_,i)=>'l15-q'+String(i+1).padStart(2,'0')));
+  let count=0;
+  for(const exercise of course.exercises){const [question,answer]=exercise.html.split('<details>');const n=(question.match(/<li>/g)||[]).length;assert.equal((answer.match(/<li>/g)||[]).length,n,exercise.id);count+=n;}
+  assert.equal(count,103);assert.equal(course.exercises.length,10);
+});
+
+test('new lesson 15 quizzes persist in review alongside older progress and explain all three goals',()=>{
+  const a=app(progress({completed:[1],wrong:['l15-q01'],favorites:[15],notes:{'lesson-15':'原有笔记'}}),'#lesson/15');
+  for(const id of ['l15-q31','l15-q33','l15-q38','l15-q39','l15-q40']){
+    const q=a.context.COURSE_LIBRARY.lessons.find(c=>c.number===15).quickQuestions.find(q=>q.id===id);
+    const feedback={};const form={dataset:{question:id},answer:String((q.answer+1)%q.options.length),querySelector:()=>feedback};
+    a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
+    assert.ok(JSON.parse(a.storage.value).wrong.includes(id));assert.ok(feedback.textContent.includes(q.explanation));
+    const restored=app(a.storage.value,'#review');assert.ok(restored.main.innerHTML.includes(`data-question="${id}"`));
+    form.answer=String(q.answer);a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});assert.ok(!JSON.parse(a.storage.value).wrong.includes(id));
+  }
+  const saved=JSON.parse(a.storage.value);assert.ok(saved.wrong.includes('l15-q01'));assert.equal(saved.notes['lesson-15'],'原有笔记');assert.ok(saved.favorites.includes(15));assert.deepEqual(saved.completed,[1]);
 });
