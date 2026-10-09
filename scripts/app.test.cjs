@@ -55,7 +55,8 @@ test('the homepage without a fragment defaults to the learning route', () => {
   const a = app(null, '#lesson/8');
   a.context.location.hash = '';
   a.context.events.hashchange({oldURL: 'https://example.test/#lesson/8'});
-  assert.equal(a.main.innerHTML, expected.main.innerHTML);
+  assert.equal(a.main.innerHTML, app(a.storage.value, '#route').main.innerHTML);
+  assert.ok(a.main.innerHTML.includes('继续第 8 课'));
   assert.ok(app(null, '#unknown').main.innerHTML.includes('找不到这个页面'));
 });
 
@@ -124,11 +125,11 @@ test('deep links scroll to knowledge sections and preserve answers on in-lesson 
 });
 
 test('category pages use full reference content, including phonetics and written exercises', () => {
-  assert.ok(app(null, '#pronunciation').main.innerHTML.includes('informaticienne /'));
-  assert.ok(app(null, '#vocabulary').main.innerHTML.includes('un ingénieur'));
-  assert.ok(app(null, '#grammar').main.innerHTML.includes('rentre-t-elle'));
-  assert.ok(app(null, '#reading').main.innerHTML.includes('Claire est informaticienne'));
-  assert.ok(app(null, '#writing').main.innerHTML.includes('F. 翻译'));
+  assert.ok(app(null, '#pronunciation/14').main.innerHTML.includes('informaticienne /'));
+  assert.ok(app(null, '#vocabulary/14').main.innerHTML.includes('un ingénieur'));
+  assert.ok(app(null, '#grammar/14').main.innerHTML.includes('rentre-t-elle'));
+  assert.ok(app(null, '#reading/14').main.innerHTML.includes('Claire est informaticienne'));
+  assert.ok(app(null, '#writing/14').main.innerHTML.includes('F. 翻译'));
 });
 
 test('search finds detailed knowledge and links to the correct lesson section', () => {
@@ -321,4 +322,88 @@ test('route includes lesson 15 and new knowledge search links reach the authored
   const detailed=app(null,'#lesson/15');
   assert.ok(detailed.main.innerHTML.includes('Le dimanche matin'));
   assert.ok(!detailed.main.innerHTML.includes('正文正在补充'));
+});
+
+
+function progress(overrides={}) {
+  return JSON.stringify({version:1,completed:[],wrong:[],favorites:[],notes:{},attempts:{},...overrides});
+}
+function homeHero(a) {return a.main.innerHTML.match(/<section class="hero">([\s\S]*?)<\/section>/)[1];}
+function clickComplete(a,n) {
+  a.main.listeners.click({target:{closest:()=>({dataset:{complete:String(n)},hasAttribute:()=>false})}});
+}
+test('new visitors can choose their actual chapter without a fixed lesson 14 recommendation',()=>{
+  const a=app();
+  assert.ok(a.main.innerHTML.includes('<h1>从第 1 课开始。</h1>'));
+  assert.ok(homeHero(a).includes('#lesson/1'));
+  assert.ok(homeHero(a).includes('Bienvenue !'));
+  assert.ok(a.elements.navigation.innerHTML.includes('#grammar/1'));
+  assert.equal(a.storage.value,null);
+});
+test('opening an unfinished lesson remembers it across reloads without marking it complete',()=>{
+  const a=app(null,'#lesson/13');
+  const stored=JSON.parse(a.storage.value);
+  assert.equal(stored.currentLesson,13);assert.deepEqual(stored.completed,[]);
+  const home=app(a.storage.value,'');
+  assert.ok(home.main.innerHTML.includes('<h1>继续第 13 课。</h1>'));
+  assert.ok(homeHero(home).includes('Un aller simple'));
+  assert.ok(homeHero(home).includes('#lesson/13'));
+  assert.ok(home.elements.navigation.innerHTML.includes('#reading/13'));
+  assert.ok(app(a.storage.value,'#grammar').main.innerHTML.includes('Un aller simple'));
+});
+test('completed lesson reviews and non-learning pages preserve the active chapter',()=>{
+  const saved=progress({currentLesson:15,completed:[1,2,3,8,14],notes:{'lesson-14':'已有笔记'}});
+  for(const hash of ['#lesson/8','#reading/14','#review','#resources','#settings']){
+    const a=app(saved,hash);
+    assert.equal(JSON.parse(a.storage.value).currentLesson,15,hash);
+    assert.ok(homeHero(app(a.storage.value)).includes('#lesson/15'));
+    assert.equal(JSON.parse(a.storage.value).notes['lesson-14'],'已有笔记');
+  }
+});
+test('completion advances past finished chapters and undo restores the selected lesson',()=>{
+  const a=app(progress({currentLesson:14,completed:[...Array.from({length:13},(_,i)=>i+1),15]}),'#lesson/14');
+  clickComplete(a,14);
+  assert.equal(JSON.parse(a.storage.value).currentLesson,16);
+  assert.ok(a.main.innerHTML.includes('已完成 ✓'));
+  assert.ok(homeHero(app(a.storage.value)).includes('#lesson/16'));
+  clickComplete(a,14);
+  assert.equal(JSON.parse(a.storage.value).currentLesson,14);
+  assert.ok(!JSON.parse(a.storage.value).completed.includes(14));
+});
+test('old backups without the new field retain progress and recommend the following chapter',async()=>{
+  const saved=progress({completed:[14],notes:{'lesson-14':'旧笔记'},wrong:['q2']});
+  const a=app(saved);
+  assert.ok(homeHero(a).includes('#lesson/15'));
+  assert.deepEqual(JSON.parse(a.storage.value).wrong,['q2']);
+  await a.main.listeners.change({target:{id:'import',files:[{size:saved.length,text:async()=>saved}]}});
+  assert.equal(JSON.parse(a.storage.value).currentLesson,null);
+  assert.equal(JSON.parse(a.storage.value).notes['lesson-14'],'旧笔记');
+  assert.ok(homeHero(a).includes('#lesson/15'));
+});
+test('manual chapter selection persists and invalid imported chapters do not replace progress',async()=>{
+  const a=app(progress({completed:[1],currentLesson:2}));
+  await a.main.listeners.change({target:{id:'learning-course',value:'15'}});
+  const saved=a.storage.value;
+  assert.equal(JSON.parse(saved).currentLesson,15);
+  assert.deepEqual(JSON.parse(saved).completed,[1]);
+  assert.ok(homeHero(app(saved)).includes('Le dimanche matin'));
+  for(const n of [0,37,'15']){
+    const invalid=progress({currentLesson:n});
+    await a.main.listeners.change({target:{id:'import',files:[{size:invalid.length,text:async()=>invalid}]}});
+    assert.equal(a.storage.value,saved);
+  }
+});
+test('all completed chapters offer review without inventing lesson 37',()=>{
+  const a=app(progress({completed:Array.from({length:36},(_,i)=>i+1),currentLesson:36}));
+  assert.ok(a.main.innerHTML.includes('A1课次已全部标记完成'));
+  assert.ok(homeHero(a).includes('#lesson/36'));
+  assert.ok(homeHero(a).includes('回顾本课'));
+  assert.ok(!a.main.innerHTML.includes('#lesson/37'));
+});
+test('unfinished textbook chapters are labelled honestly and default skills use an available course',()=>{
+  const a=app(progress({currentLesson:16,completed:[15]}));
+  assert.ok(homeHero(a).includes('教材笔记'));
+  assert.ok(homeHero(a).includes('详细讲义待补充'));
+  assert.ok(a.elements.navigation.innerHTML.includes('#grammar/15'));
+  assert.ok(app(a.storage.value,'#grammar').main.innerHTML.includes('Le dimanche matin'));
 });
