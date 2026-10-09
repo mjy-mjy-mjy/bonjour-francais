@@ -6,20 +6,22 @@ const vm = require('node:vm');
 const root = path.join(__dirname, '..');
 const snapshot = JSON.parse(fs.readFileSync(path.join(root, 'data/draws.json'), 'utf8'));
 
-function app(saved, hash = '#route') {
+function app(saved, hash = '#route', theme = null) {
   const elements = {};
-  const storage = {value: saved || null};
+  const storage = {value: saved || null, theme};
   function element(id) {
-    return elements[id] ||= {innerHTML: '', value: '', textContent: '', listeners: {},
+    return elements[id] ||= {innerHTML: '', value: '', textContent: '', listeners: {}, attributes: {},
       classList: {add() {}, remove() {}},
+      setAttribute(name, value) {this.attributes[name] = value;},
       scrollIntoView() {this.scrolled = true;}, querySelector() {return null;}, querySelectorAll() {return [];},
       addEventListener(name, callback) {this.listeners[name] = callback;},
       insertAdjacentHTML(_, text) {this.innerHTML = text + this.innerHTML;}};
   }
   const context = vm.createContext({
     console, location: {hash},
-    document: {getElementById: element, createElement: () => ({click() {}})},
-    localStorage: {getItem: () => storage.value, setItem: (_, value) => {storage.value = value;}},
+    document: {documentElement: {dataset: {}}, getElementById: element, createElement: () => ({click() {}})},
+    localStorage: {getItem: key => key === 'bonjour-francais-theme-v1' ? storage.theme : storage.value,
+      setItem: (key, value) => {if(key === 'bonjour-francais-theme-v1') {if(storage.failTheme)throw Error('theme storage unavailable');storage.theme = value;}else storage.value = value;}},
     setTimeout: () => 1, clearTimeout() {},
     fetch: async () => ({ok: true, json: async () => snapshot}),
     FormData: class {constructor(form) {this.form = form;} get() {return this.form.answer;}},
@@ -406,4 +408,68 @@ test('unfinished textbook chapters are labelled honestly and default skills use 
   assert.ok(homeHero(a).includes('详细讲义待补充'));
   assert.ok(a.elements.navigation.innerHTML.includes('#grammar/15'));
   assert.ok(app(a.storage.value,'#grammar').main.innerHTML.includes('Le dimanche matin'));
+});
+
+test('the selected palette restores independently of progress and unknown palettes use glass',()=>{
+  const saved=progress({currentLesson:14,notes:{'lesson-14':'保留原有笔记'}});
+  for(const [preference,expected] of [[null,'glass'],['paper','paper'],['unknown','glass']]) {
+    const a=app(saved,'#route',preference);
+    assert.equal(a.context.document.documentElement.dataset.theme,expected);
+    assert.equal(a.storage.value,saved);
+    assert.equal(a.storage.theme,preference);
+    assert.ok(a.elements['theme-label'].textContent.includes(expected==='paper'?'纸感书房':'液态玻璃'));
+  }
+});
+
+test('changing palette preserves rendered lesson content, answers, progress and reload preference',()=>{
+  const saved=progress({currentLesson:14,completed:[1,2],wrong:['q2'],favorites:[14],notes:{'lesson-14':'我的笔记'}});
+  const a=app(saved,'#lesson/14');
+  const before=a.main.innerHTML;
+  a.elements['theme-toggle'].listeners.click();
+  assert.equal(a.context.document.documentElement.dataset.theme,'paper');
+  assert.equal(a.storage.theme,'paper');
+  assert.equal(a.storage.value,saved);
+  assert.equal(a.main.innerHTML,before);
+  assert.equal(a.elements['theme-toggle'].attributes['aria-label'],'切换配色，当前为纸感书房');
+  const restored=app(a.storage.value,'#lesson/14',a.storage.theme);
+  assert.equal(restored.context.document.documentElement.dataset.theme,'paper');
+  assert.equal(restored.main.innerHTML,before);
+  restored.elements['theme-toggle'].listeners.click();
+  assert.equal(restored.storage.theme,'glass');
+  assert.equal(restored.storage.value,saved);
+});
+
+test('importing a learning backup keeps the independently selected palette',async()=>{
+  const a=app(progress({currentLesson:14}),'#route','paper');
+  const imported=progress({currentLesson:4,completed:[1,2,3],notes:{'lesson-4':'导入的笔记'}});
+  await a.main.listeners.change({target:{id:'import',files:[{size:imported.length,text:async()=>imported}]}});
+  assert.equal(a.storage.theme,'paper');
+  assert.equal(a.context.document.documentElement.dataset.theme,'paper');
+  assert.equal(JSON.parse(a.storage.value).notes['lesson-4'],'导入的笔记');
+});
+
+test('palette storage failures retain progress and still allow the current page to change color',()=>{
+  const saved=progress({currentLesson:14,completed:[1],notes:{'lesson-14':'重要笔记'}});
+  const a=app(saved);
+  a.storage.failTheme=true;
+  a.elements['theme-toggle'].listeners.click();
+  assert.equal(a.context.document.documentElement.dataset.theme,'paper');
+  assert.equal(a.storage.value,saved);
+  assert.equal(a.storage.theme,null);
+  assert.ok(a.elements.notice.textContent.includes('无法保存配色偏好'));
+});
+
+test('browsing textbook units does not advance the current lesson or mark chapters complete',()=>{
+  const saved=progress({currentLesson:14,completed:[1,2]});
+  const a=app(saved);
+  a.main.listeners.click({target:{closest:()=>({dataset:{unit:'9'},hasAttribute:()=>false})}});
+  assert.equal(a.storage.value,saved);
+  assert.ok(a.main.innerHTML.includes('data-unit="9" aria-pressed="true"'));
+  assert.ok(a.main.innerHTML.match(/<div class="chapter-grid">([\s\S]*?)<\/div>/)[1].includes('#lesson/33'));
+  a.context.location.hash='#lesson/8';
+  a.context.events.hashchange({oldURL:'https://example.test/#route'});
+  a.context.location.hash='#route';
+  a.context.events.hashchange({oldURL:'https://example.test/#lesson/8'});
+  assert.ok(a.main.innerHTML.includes('data-unit="2" aria-pressed="true"'));
+  assert.ok(a.main.innerHTML.includes('<h1>继续第 8 课。</h1>'));
 });

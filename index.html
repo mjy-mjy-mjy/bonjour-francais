@@ -1,26 +1,48 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="glass">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中文讲解的法语学习路线、个人复习与加拿大 Express Entry 官方邀请记录。">
   <title>Bonjour Français · 你好法语</title>
-  <link rel="stylesheet" href="styles.css?v=a009d0fcd045">
+  <script>
+    try { document.documentElement.dataset.theme = localStorage.getItem('bonjour-francais-theme-v1') === 'paper' ? 'paper' : 'glass'; } catch {}
+  </script>
+  <link rel="stylesheet" href="styles.css?v=e4c2f843479b">
   <script src="content.js?v=28f437980e88" defer></script>
   <script src="course.js?v=6be24dbad7c8" defer></script>
   <script src="lesson14.js?v=0a583bdbc7a6" defer></script>
-  <script src="app.js?v=d6024798dc51" defer></script>
+  <script src="app.js?v=01027586222d" defer></script>
 </head>
 <body>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-route" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="19" r="2"/><path d="M8 5h7a4 4 0 0 1 0 8H9a3 3 0 0 0 0 6h7"/></symbol>
+    <symbol id="icon-pronunciation" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 4a5 5 0 0 1 0 6m3-9a9 9 0 0 1 0 12"/></symbol>
+    <symbol id="icon-vocabulary" viewBox="0 0 24 24"><path d="M12 6v15M3 4h5a4 4 0 0 1 4 3 4 4 0 0 1 4-3h5v15h-5a4 4 0 0 0-4 2 4 4 0 0 0-4-2H3V4Z"/></symbol>
+    <symbol id="icon-grammar" viewBox="0 0 24 24"><path d="M6 3h13v18H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Zm0 0v18m4-13h5m-5 4h5m-5 4h3"/></symbol>
+    <symbol id="icon-listening" viewBox="0 0 24 24"><path d="M4 13v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></symbol>
+    <symbol id="icon-speaking" viewBox="0 0 24 24"><path d="M3 3h14v11H8l-5 4V3Zm8 11v5h5l5 3V9h-4"/></symbol>
+    <symbol id="icon-reading" viewBox="0 0 24 24"><path d="M5 3h14v18H5V3Zm4 5h6m-6 4h6m-6 4h4"/></symbol>
+    <symbol id="icon-writing" viewBox="0 0 24 24"><path d="m4 16 12-12 4 4L8 20H4v-4Zm9-9 4 4M13 20h8"/></symbol>
+    <symbol id="icon-review" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 0 6M4 4v6h6m2-3v5l3 2"/></symbol>
+    <symbol id="icon-resources" viewBox="0 0 24 24"><path d="M14 3h7v7m0-7L11 13M9 5H4v15h15v-5"/></symbol>
+    <symbol id="icon-draws" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18m-13 4h2m4 0h2"/></symbol>
+    <symbol id="icon-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1-4 2 2 0 0 1 1-4h2a4 4 0 0 0 4-4c0-4-5-6-9-6Z"/><circle cx="7.5" cy="9" r=".6"/><circle cx="11" cy="6.5" r=".6"/><circle cx="15.5" cy="7.5" r=".6"/><circle cx="6.5" cy="13" r=".6"/></symbol>
+  </svg>
   <a class="skip" href="#main">跳到主要内容</a>
   <aside class="sidebar">
     <a class="brand" href="#route"><span class="logo" aria-hidden="true">B.</span><span>你好法语<small>Bonjour Français</small></span></a>
-    <p class="nav-label">我的学习</p>
     <nav id="navigation" aria-label="网站分类"></nav>
     <div class="sidebar-bottom"><span class="level">A1</span><p>Le Nouveau Taxi! 1<br><strong>按教材路线学习</strong></p><a href="#settings">学习记录与备份 →</a></div>
   </aside>
   <div class="workspace">
-    <header class="topbar"><span>一点一点，把法语用起来。</span><label class="search"><span>查找</span><input id="search" type="search" placeholder="搜索词汇、语法或资源" aria-label="搜索学习内容"></label></header>
+    <header class="topbar">
+      <span class="page-location" id="page-location">A1 / 教材学习路线</span>
+      <div class="topbar-actions">
+        <label class="search"><span class="search-label">查找</span><input id="search" type="search" placeholder="词汇、语法或资源" aria-label="搜索学习内容"></label>
+        <button type="button" class="button secondary theme-toggle" id="theme-toggle" aria-label="切换配色，当前为液态玻璃"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-palette"></use></svg><span id="theme-label" aria-live="polite">配色：液态玻璃</span></button>
+      </div>
+    </header>
     <main id="main" tabindex="-1"></main>
     <footer>Bonjour Français · 中文讲解，法语练习 <span>学习记录保存在当前浏览器</span></footer>
   </div>
