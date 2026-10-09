@@ -45,6 +45,20 @@ test('every learning page renders; invalid lesson numbers are rejected', () => {
   assert.ok(app(null, '#lesson/99').main.innerHTML.includes('找不到'));
 });
 
+test('the homepage without a fragment defaults to the learning route', () => {
+  const expected = app(null, '#route');
+  for (const hash of ['', '#']) {
+    const a = app(null, hash);
+    assert.equal(a.main.innerHTML, expected.main.innerHTML, hash || 'no fragment');
+    assert.equal(a.elements.navigation.innerHTML, expected.elements.navigation.innerHTML);
+  }
+  const a = app(null, '#lesson/8');
+  a.context.location.hash = '';
+  a.context.events.hashchange({oldURL: 'https://example.test/#lesson/8'});
+  assert.equal(a.main.innerHTML, expected.main.innerHTML);
+  assert.ok(app(null, '#unknown').main.innerHTML.includes('找不到这个页面'));
+});
+
 test('wrong answers persist and a later correct answer clears the review item', () => {
   const a = app(null, '#lesson/14');
   const feedback = {};
