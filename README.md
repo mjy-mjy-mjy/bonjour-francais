@@ -1,5 +1,7 @@
 # Bonjour Français · 你好法语
 
+网站 / 博客链接：[https://mjy-mjy-mjy.github.io/bonjour-francais/](https://mjy-mjy-mjy.github.io/bonjour-francais/)
+
 面向中文母语者的法语自学网站，以《Le Nouveau Taxi! 1 / 你好！法语》A1 教材的学习顺序为起点，逐步补充听、说、读、写训练，围绕 NCLC 7 目标扩展学习路线。
 
 ## 第一版功能
