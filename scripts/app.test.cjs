@@ -199,7 +199,7 @@ test('lesson-specific category pages and search preserve the selected lesson', (
   const a = app();
   a.elements.search.listeners.input({target:{value:'Qui est-ce'}});
   assert.ok(a.main.innerHTML.includes('#lesson/1/questions'));
-  assert.ok(!app(null, '#lesson/15').main.innerHTML.includes('即时小测'));
+  assert.ok(!app(null, '#lesson/16').main.innerHTML.includes('即时小测'));
 });
 
 test('question IDs across courses are unique and new lesson mistakes survive reload', () => {
@@ -289,9 +289,11 @@ const authoredCoverage={
   9:['eux','elles','chez nous','habitez','Où','rez-de-chaussée','m²','/y/','圆唇'],
   10:['Prenez','prenons','Allez','au','aux','y','enchaînement','交通'],
   11:['C’est','On','on','禁止连读','en Martinique','conseil','旅游'],
-  12:['Marseille','住房','旅游','未提及','港口','路线','资料']
+  12:['Marseille','住房','旅游','未提及','港口','路线','资料'],
+  13:['partons','partez','partent','premier','janvier','moins le quart','demie','aller-retour','/z/'],
+  15:['lisons','écrivons','nous nous levons','s’habille','ne me','de la natation','au tennis','Le dimanche','/ʁ/']
 };
-const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=12&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
+const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=15&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
 for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
   const a=app(null,'#lesson/'+n);
   for(const text of authoredCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
@@ -305,4 +307,18 @@ for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, s
   a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
   const review=app(a.storage.value,'#review');assert.ok(review.main.innerHTML.includes(`data-question="${q.id}"`));assert.ok(review.main.innerHTML.includes(`第 ${n} 课`));
   form.answer=String(q.answer);a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});assert.deepEqual(JSON.parse(a.storage.value).wrong,[]);
+});
+
+
+test('route includes lesson 15 and new knowledge search links reach the authored sections',()=>{
+  const a=app();
+  assert.ok(a.main.innerHTML.includes('前 15 课 · 教材路线'));
+  for(const n of [13,14,15])assert.ok(a.main.innerHTML.includes('#lesson/'+n));
+  a.elements.search.listeners.input({target:{value:'partons'}});
+  assert.ok(a.main.innerHTML.includes('#lesson/13/partir'));
+  a.elements.search.listeners.input({target:{value:'levons'}});
+  assert.ok(a.main.innerHTML.includes('#lesson/15/reflexive'));
+  const detailed=app(null,'#lesson/15');
+  assert.ok(detailed.main.innerHTML.includes('Le dimanche matin'));
+  assert.ok(!detailed.main.innerHTML.includes('正文正在补充'));
 });

@@ -1,0 +1,458 @@
+{
+  "number": 13,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标与范围",
+      "html": "<h2>1. 学习目标与范围</h2><p>第13课 <strong>Un aller simple（一张单程票）</strong>，教材第46—47页，开启第四单元“时间节奏”。核心是询问与报出钟点、日期，使用partir现在时，礼貌购买车票，并准确听辨数字和/s/、/z/。以下讲解、班次、对话与练习均为原创，班次和价格为虚构教学资料。</p><div class=\"table-scroll\"><table><thead><tr><th>层次</th><th>内容</th><th>完成目标</th></tr></thead><tbody><tr><td>教材核心</td><td>quelle heure / quand；partir；礼貌请求；数字发音</td><td>能问现在几点、何时出发，用完整句确认票种、日期、班次。</td></tr><tr><td>复习</td><td>城市介词、prendre、est-ce que、否定、数字</td><td>说清出发地和目的地，区分购票与搭车。</td></tr><tr><td>补充</td><td>24小时制转换；完整日历词汇；时刻与时长辨析</td><td>从虚构时刻表选可用班次，不把到达时间当出发时间。</td></tr></tbody></table></div><p>学习路线：报时→日期→动词→提问→购票→阅读时刻表→对话与听辨→A—J→小测。把“现在几点”与“动作在几点发生”分开：<em>Il est neuf heures.</em>／<em>Je pars à neuf heures.</em></p>"
+    },
+    {
+      "id": "hours",
+      "title": "2. 报时：整点、分钟与24小时制",
+      "html": "<h2>2. 报时：整点、分钟与24小时制</h2><div class=\"table-scroll\"><table><thead><tr><th>时间</th><th>正式／直接读法</th><th>常见12小时制表达</th></tr></thead><tbody><tr><td>01:00</td><td>Il est une heure.</td><td>heure单数，une而非un。</td></tr><tr><td>08:10</td><td>Il est huit heures dix.</td><td>不用et dix。</td></tr><tr><td>08:15</td><td>Il est huit heures quinze.</td><td>Il est huit heures et quart.</td></tr><tr><td>08:30</td><td>Il est huit heures trente.</td><td>Il est huit heures et demie.</td></tr><tr><td>08:40</td><td>Il est huit heures quarante.</td><td>Il est neuf heures moins vingt.</td></tr><tr><td>08:45</td><td>Il est huit heures quarante-cinq.</td><td>Il est neuf heures moins le quart.</td></tr><tr><td>08:55</td><td>Il est huit heures cinquante-cinq.</td><td>Il est neuf heures moins cinq.</td></tr><tr><td>12:00</td><td>Il est midi.</td><td>中午；也可报douze heures。</td></tr><tr><td>00:00</td><td>Il est minuit.</td><td>午夜，日历日期在此转换。</td></tr><tr><td>12:30</td><td>Il est douze heures trente.</td><td>Il est midi et demi.</td></tr><tr><td>00:30</td><td>Il est zéro heure trente.</td><td>Il est minuit et demi.</td></tr><tr><td>17:30</td><td>Il est dix-sept heures trente.</td><td>Il est cinq heures et demie de l’après-midi.</td></tr><tr><td>21:15</td><td>Il est vingt et une heures quinze.</td><td>Il est neuf heures et quart du soir.</td></tr></tbody></table></div><h3>三条容易混淆的规则</h3><ol><li><strong>moins向下一整点倒数：</strong>8:45是9点差一刻，不是8点差一刻；<em>huit heures moins le quart</em>是7:45。</li><li><strong>et quart / et demie用于12小时制：</strong>时刻表17:30读dix-sept heures trente；日常可换cinq heures et demie，不写dix-sept heures et demie作为本课标准答案。</li><li><strong>demie与demi：</strong>heure阴性→une heure et demie；midi、minuit阳性→midi et demi、minuit et demi。quart不配阴阳性；moins le quart保留le。</li></ol><p><strong>书写：</strong>本课时刻表用<em>8 h 10</em>、<em>11 h 15</em>；数字界面可见08:10。h是符号，不加s；写全词则une heure／deux heures。表示动作时刻要加à：<em>Le train part à onze heures quinze.</em> 时间本身不加：<em>Il est onze heures quinze.</em> 模糊时间用<em>vers onze heures</em>＝十一点左右。</p><p><strong>时刻与时长：</strong>à dix heures＝十点时；deux heures＝两小时（须看上下文）；de huit heures à dix heures＝八点到十点。<em>Le trajet dure deux heures.</em>（行程历时两小时）为补充表达，不能读成“车在两点开”。书写规则可核对<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/21516/la-typographie/nombres/ecriture-des-heures\" target=\"_blank\" rel=\"noopener\">OQLF时间表示</a>。</p>"
+    },
+    {
+      "id": "dates",
+      "title": "3. 星期、月份和日期",
+      "html": "<h2>3. 星期、月份和日期</h2><div class=\"table-scroll\"><table><thead><tr><th>星期</th><th>中文</th><th>用法</th></tr></thead><tbody><tr><td>lundi</td><td>星期一</td><td>Nous partons lundi. 具体周一出发。</td></tr><tr><td>mardi</td><td>星期二</td><td>mardi prochain＝下周二／下一个周二，需结合对话日期确认。</td></tr><tr><td>mercredi</td><td>星期三</td><td>le mercredi＝每逢周三，表示习惯。</td></tr><tr><td>jeudi</td><td>星期四</td><td>jeudi matin＝周四早上。</td></tr><tr><td>vendredi</td><td>星期五</td><td>vendredi soir＝周五晚上。</td></tr><tr><td>samedi</td><td>星期六</td><td>le samedi／tous les samedis＝每周六。</td></tr><tr><td>dimanche</td><td>星期日</td><td>dimanche après-midi＝周日下午。</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th>月份</th><th>中文</th><th>月份</th><th>中文</th></tr></thead><tbody><tr><td>janvier</td><td>一月</td><td>juillet</td><td>七月</td></tr><tr><td>février</td><td>二月</td><td>août</td><td>八月</td></tr><tr><td>mars</td><td>三月</td><td>septembre</td><td>九月</td></tr><tr><td>avril</td><td>四月</td><td>octobre</td><td>十月</td></tr><tr><td>mai</td><td>五月</td><td>novembre</td><td>十一月</td></tr><tr><td>juin</td><td>六月</td><td>décembre</td><td>十二月</td></tr></tbody></table></div><p><strong>日期结构：</strong><em>le＋日数＋月份（＋年份）</em>。1日特殊：<em>le premier mai</em>，书写<em>le 1er mai</em>；2日起用基数：<em>le deux mai</em>、<em>le quinze juin</em>，不是le deuxième mai。<em>le 5 mai 2027</em>读le cinq mai deux mille vingt-sept。日、月名一般小写，句首除外。</p><div class=\"table-scroll\"><table><thead><tr><th>你要问／说什么</th><th>表达</th><th>辨析</th></tr></thead><tbody><tr><td>今天星期几？</td><td>Quel jour sommes-nous ? — Nous sommes mercredi.</td><td>固定问句可先整体记；quel配阳性jour。</td></tr><tr><td>今天几月几号？</td><td>Quelle est la date aujourd’hui ? — Nous sommes le 5 mai.</td><td>quelle配阴性date；日期不加à。</td></tr><tr><td>具体哪天出发？</td><td>Vous partez quel jour ? — Je pars mercredi.</td><td>上下文确定的某个周三；不是每周三。</td></tr><tr><td>明确日期</td><td>Je pars le 5 mai à onze heures quinze.</td><td>日期前le，钟点前à。</td></tr><tr><td>说明月份</td><td>Je pars en mai.</td><td>单说月份用en，不用à mai。</td></tr><tr><td>当天与隔天</td><td>aujourd’hui；demain；après-demain</td><td>今天／明天／后天；时间词不自动改变动词形式。</td></tr></tbody></table></div><p><strong>阅读票面：</strong>若出现05/06，须确认日月顺序；本站用完整月份或YYYY-MM-DD避免歧义。数字日期的格式为补充阅读知识，完整书写可核对<a href=\"https://nos-langues.canada.ca/fr/cles-de-la-redaction/date-regles-decriture\" target=\"_blank\" rel=\"noopener\">加拿大语言门户的日期规则</a>。练习中的日期固定为2027年5月5日，不能把它当网站当前日期。</p>"
+    },
+    {
+      "id": "partir",
+      "title": "4. partir现在时：完整变位与搭配",
+      "html": "<h2>4. partir现在时：完整变位与搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>partir</th><th>完整例句</th></tr></thead><tbody><tr><td>je</td><td>pars</td><td>Je pars à huit heures dix.</td></tr><tr><td>tu</td><td>pars</td><td>Tu pars mercredi ?</td></tr><tr><td>il / elle / on</td><td>part</td><td>Le train part de Paris. On part pour Lyon.</td></tr><tr><td>nous</td><td>partons</td><td>Nous partons le 5 mai.</td></tr><tr><td>vous</td><td>partez</td><td>Vous partez à quelle heure ?</td></tr><tr><td>ils / elles</td><td>partent</td><td>Elles partent en train.</td></tr></tbody></table></div><p>partir是不规则-ir动词，不套finir一类的-is/-issons：不能写nous partissons。单数je pars、tu pars、il part通常都读/paʁ/；复数partons、partez、partent中/t/听得见，ils partent读/paʁt/，词尾-ent本身不读。</p><div class=\"table-scroll\"><table><thead><tr><th>功能</th><th>表达</th><th>对照</th></tr></thead><tbody><tr><td>离开出发地</td><td>partir de＋地点：Le train part de Paris.</td><td>de Paris不是à Paris。</td></tr><tr><td>动身前往</td><td>partir pour＋目的地：Je pars pour Lyon.</td><td>pour标去向；说到某地用aller à：Je vais à Lyon。</td></tr><tr><td>出发时刻</td><td>partir à＋钟点：Nous partons à onze heures quinze.</td><td>partir后不直接接时刻而漏à。</td></tr><tr><td>交通方式</td><td>partir en train：Ils partent en train.</td><td>prendre后直接接le train，不写prendre en train。</td></tr><tr><td>否定</td><td>Je ne pars pas aujourd’hui. On ne part pas à midi.</td><td>ne…pas包变位动词；on仍配part。</td></tr></tbody></table></div><p>完整组合：<em>Nous partons de Paris pour Lyon le 5 mai à onze heures quinze.</em> 先主语＋动词，再出发地／目的地，最后日期与钟点；语序可调整但功能词不能漏。这里的现在时可表达已安排的出行，本课不要求将来时变位。变位核对：<a href=\"https://www.laits.utexas.edu/tex/gr/vir3.html\" target=\"_blank\" rel=\"noopener\">得州大学不规则-ir动词</a>。</p>"
+    },
+    {
+      "id": "questions",
+      "title": "5. 提问：quelle heure、quand、quel jour",
+      "html": "<h2>5. 提问：quelle heure、quand、quel jour</h2><div class=\"table-scroll\"><table><thead><tr><th>问题</th><th>答案</th><th>问的是什么</th></tr></thead><tbody><tr><td>Quelle heure est-il ?</td><td>Il est dix heures.</td><td>现在几点，答案il est。</td></tr><tr><td>Vous avez l’heure, s’il vous plaît ?</td><td>Oui, il est dix heures.</td><td>礼貌问钟点，可作为完整表达。</td></tr><tr><td>À quelle heure part le train ?</td><td>Il part à onze heures quinze.</td><td>某动作在几点发生，à不能漏。</td></tr><tr><td>Vous partez à quelle heure ?</td><td>Je pars à onze heures quinze.</td><td>口语疑问词放末尾；保留陈述语序。</td></tr><tr><td>Quand est-ce que vous partez ?</td><td>Je pars mercredi / le 5 mai / demain.</td><td>何时：可回答日期、时刻或时间段。</td></tr><tr><td>Quel jour est-ce que vous partez ?</td><td>Je pars mercredi.</td><td>限定问哪一天。</td></tr><tr><td>Quelle est la date ?</td><td>Nous sommes le 5 mai.</td><td>date阴性；quelle不是quel。</td></tr><tr><td>Est-ce que vous partez demain ?</td><td>Oui, je pars demain. / Non, je ne pars pas demain.</td><td>是否问题，先oui/non再补信息。</td></tr></tbody></table></div><p><strong>不要混拼语序：</strong><em>À quelle heure est-ce que vous partez ?</em> 正确；不写<em>À quelle heure est-ce que partez-vous ?</em>，因为est-ce que后保留主语＋动词。<em>À quelle heure partez-vous ?</em>是另外一种倒装问法，作为识别拓展；主要练熟口语或est-ce que一种即可。</p><p>把问题与回答对应起来：<em>Il est huit heures.</em>回答现在钟点；<em>Je pars à huit heures.</em>回答出发时刻；<em>Nous sommes mercredi.</em>回答星期；<em>Je pars mercredi.</em>回答行动日期。quand并非只能问日期，它的范围比à quelle heure宽。</p>"
+    },
+    {
+      "id": "tickets",
+      "title": "6. 礼貌购票与遇到售罄的回应",
+      "html": "<h2>6. 礼貌购票与遇到售罄的回应</h2><div class=\"table-scroll\"><table><thead><tr><th>购票步骤</th><th>法语表达</th><th>中文与结构</th></tr></thead><tbody><tr><td>开场</td><td>Bonjour. Je voudrais un billet pour Lyon, s’il vous plaît.</td><td>你好。我想要一张去里昂的票。voudrais作为礼貌固定表达，不要求完整条件式。</td></tr><tr><td>票种</td><td>Un aller simple ou un aller-retour ? — Un aller simple.</td><td>单程还是往返？一张单程票。</td></tr><tr><td>日期</td><td>Pour quel jour ? — Pour le 5 mai.</td><td>哪天用？5月5日。日期回答与partir le 5 mai的介词范围不同。</td></tr><tr><td>时刻</td><td>À quelle heure est-ce que vous voulez partir ?</td><td>您想几点出发？vous voulez作为补充问句。</td></tr><tr><td>车厢等级</td><td>En première ou en deuxième classe ? — En deuxième classe.</td><td>一等还是二等？二等。</td></tr><tr><td>售罄</td><td>Désolé, ce train est complet.</td><td>抱歉，这班车满员／售罄。complet在此不是“课程完整”。</td></tr><tr><td>备选</td><td>Et le train de onze heures quinze ?</td><td>那11:15的班次呢？de表示哪一时刻的车。</td></tr><tr><td>确认</td><td>Un aller simple pour Lyon, le 5 mai, à onze heures quinze. C’est bien ça ?</td><td>复述票种＋目的地＋日期＋时刻；请对方确认。</td></tr><tr><td>金额</td><td>Ça fait soixante-quatre euros.</td><td>共64欧元。本站金额只属于虚构资料。</td></tr><tr><td>没听清</td><td>Pardon ? Vous pouvez répéter, s’il vous plaît ?</td><td>请重复。pouvez作为功能表达补充。</td></tr></tbody></table></div><p><strong>aller simple</strong>只有去程；<strong>aller-retour</strong>含去返两段，但具体日期、条件要另看票面，不能从名称推出随时可改票。<em>un billet pour Lyon</em>中pour表示目的地；<em>Je vais à Lyon</em>的à是aller搭配。表达<em>Je voudrais…</em>比生硬要求<em>Je veux…</em>更适合柜台情境。</p><p>教材中的历史车票信息与今天的服务可能不同。本课保留语言学习目标，用虚构班次练购票，不把旧版教材中的选项作为现行铁路规定。</p>"
+    },
+    {
+      "id": "words",
+      "title": "7. 车站、车票与时间词汇",
+      "html": "<h2>7. 车站、车票与时间词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词汇</th><th>词性／性别与中文</th><th>例句或搭配</th></tr></thead><tbody><tr><td>un billet → des billets</td><td>阳性，车票</td><td>un billet de train；un billet pour Lyon。</td></tr><tr><td>un aller simple</td><td>阳性，单程票／单程</td><td>Je voudrais un aller simple.</td></tr><tr><td>un aller-retour</td><td>阳性，往返票／往返</td><td>Un aller-retour, s’il vous plaît.</td></tr><tr><td>une gare → des gares</td><td>阴性，火车站</td><td>Je suis à la gare.</td></tr><tr><td>un train → des trains</td><td>阳性，火车</td><td>Le train part à dix heures.</td></tr><tr><td>un départ / une arrivée</td><td>阳性出发／阴性到达</td><td>départ 11 h 15；arrivée 13 h 15。</td></tr><tr><td>une destination</td><td>阴性，目的地</td><td>Destination : Lyon.</td></tr><tr><td>un horaire → des horaires</td><td>阳性，时间安排／时刻表</td><td>Les horaires des trains。</td></tr><tr><td>une voie → des voies</td><td>阴性，股道</td><td>voie 4：4号股道；不是第4节车厢。</td></tr><tr><td>un quai → des quais</td><td>阳性，站台</td><td>Le train est à quai. quai与voie概念不同。</td></tr><tr><td>la première / deuxième classe</td><td>阴性，头等／二等</td><td>en deuxième classe；deuxième为第二。</td></tr><tr><td>une place disponible</td><td>阴性，有空位</td><td>disponible＝可用；complet＝满员。</td></tr><tr><td>complet / complète</td><td>形容词，满的／满员的</td><td>un train complet；une voiture complète。</td></tr><tr><td>désolé / désolée</td><td>形容词，抱歉的</td><td>Désolé, ce train est complet. 说话者女性可写désolée。</td></tr><tr><td>un renseignement</td><td>阳性，一条信息／咨询</td><td>Je voudrais un renseignement.</td></tr><tr><td>une heure / une minute</td><td>阴性，小时／分钟</td><td>une heure et demie；dix minutes。</td></tr><tr><td>un matin / un après-midi / un soir</td><td>阳性，上午／下午／晚上</td><td>demain matin；cet après-midi；ce soir。après-midi也有阴性用法，本课统一阳性。</td></tr><tr><td>une date / un jour</td><td>阴性日期／阳性天</td><td>Quelle date ? Quel jour ?</td></tr><tr><td>midi / minuit</td><td>阳性，中午／午夜</td><td>à midi；à minuit；midi et demi。</td></tr><tr><td>aujourd’hui / demain / après-demain</td><td>副词，今天／明天／后天</td><td>Je pars demain.</td></tr><tr><td>prochain / prochaine</td><td>形容词，下一个的</td><td>lundi prochain；la semaine prochaine。</td></tr><tr><td>à / vers / de…à…</td><td>准时点／大约／从……到……</td><td>à 10 h；vers 10 h；de 8 h à 10 h。</td></tr></tbody></table></div><p><strong>价格、时刻、编号分别读：</strong>64€＝soixante-quatre euros；11 h 15＝onze heures quinze；voie 4＝voie quatre。不能因为同一份资料都含数字，就只记数字而忘记单位。</p>"
+    },
+    {
+      "id": "reading",
+      "title": "8. 原创时刻表与票面阅读",
+      "html": "<h2>8. 原创时刻表与票面阅读</h2><p>资料T：2027年5月5日，Paris→Lyon，均为单程二等票，每位乘客的虚构价格。所有到达时刻与出发时刻为同一天，时区相同；没有标车厢座位或改退条件。</p><div class=\"table-scroll\"><table><thead><tr><th>班次</th><th>出发</th><th>到达</th><th>股道</th><th>价格／人</th><th>状态</th></tr></thead><tbody><tr><td>T1</td><td>8 h 10</td><td>10 h 10</td><td>2</td><td>59 €</td><td>disponible</td></tr><tr><td>T2</td><td>9 h 45</td><td>11 h 35</td><td>5</td><td>55 €</td><td>complet</td></tr><tr><td>T3</td><td>11 h 15</td><td>13 h 15</td><td>4</td><td>64 €</td><td>disponible</td></tr></tbody></table></div><h3>读表的四项核对</h3><ol><li>你问“几点走”看départ；“几点到”看arrivée。T3不是13:15出发。</li><li>有时刻不等于可以买：T2售罄，不能只因为符合时间偏好就选择它。</li><li>如果要9点以后、12点以前出发且有空位，只能选T3；T1太早，T2售罄。</li><li>补充计算：T2用时1小时50分；T1和T3各2小时。只有在本资料明确同日同一时区时才做直接时间差。</li></ol><h3>资料B：Lina的虚构票面</h3><blockquote>Voyageuse : Lina<br>Date : 5 mai 2027<br>Départ : Paris — 11 h 15<br>Arrivée : Lyon — 13 h 15<br>Train : T3 — Voie : 4<br>Type : aller simple — Classe : deuxième<br>Prix : 64 €</blockquote><p>Lina持T3单程二等票，11:15从Paris出发，13:15到Lyon，4号股道；票面没有回程、车厢和座位编号。<em>Elle part de Paris pour Lyon.</em> 不能因voie 4推断4号座位；价格是本练习设定，不是实际铁路报价。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "9. 完整对话与听说读写",
+      "html": "<h2>9. 完整对话与听说读写</h2><h3>原创柜台对话：售罄后改选班次</h3><blockquote><p>Lina : Bonjour. Je voudrais un aller simple pour Lyon, s’il vous plaît.<br>Employé : Pour quel jour ?<br>Lina : Pour le 5 mai, en deuxième classe.<br>Employé : Vous partez à quelle heure ?<br>Lina : À neuf heures quarante-cinq.<br>Employé : Désolé, ce train est complet. Le train de onze heures quinze est disponible.<br>Lina : D’accord. Il arrive à quelle heure ?<br>Employé : À treize heures quinze. Ça fait soixante-quatre euros.<br>Lina : Donc, le 5 mai, à onze heures quinze, un aller simple pour Lyon ?<br>Employé : Oui, c’est bien ça. Le train part voie quatre.<br>Lina : Merci, au revoir.<br>Employé : Au revoir.</p></blockquote><p>译读：Lina要5月5日去Lyon的二等单程票，原想9:45出发。该班次售罄后，改选11:15出发的T3，并确认13:15到达、价格64€和4号股道。原请求与最终确认不同，阅读和听力要记录最终选择。<em>arrive</em>为arriver现在时，作为词汇补充。</p><h3>四项任务</h3><ol><li><strong>听：</strong>从教材出版方资源查找你所用版本第13课配套音轨。第一次识别目的地、单程／往返；第二次写日期、最终出发时刻、到达时刻与股道；第三次对照教材确认。本站原创对话不是教材录音逐字稿。</li><li><strong>说：</strong>两人分角色；一人按T表购票，一人报售罄及备选。录45—60秒，购票者至少复述日期、目的地与出发时刻。</li><li><strong>读：</strong>不看对话，只按票面B口头回答谁、何日、从哪到哪、何时出发／到达、票种、等级、股道。</li><li><strong>写：</strong>用5—7句告诉朋友你的行程，包含partir、日期和à＋钟点，再写一个票面未给信息的问题。</li></ol><p>没听清11:15时，问<em>Onze heures quinze, c’est bien ça ?</em>；不要因13:15听得更清楚就把它当出发时间。先确认，再复述。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "10. 数字发音与/s/、/z/对比",
+      "html": "<h2>10. 数字发音与/s/、/z/对比</h2><p>/s/和/z/舌位接近，关键在声带：/s/为清音，/z/为浊音。把手轻放喉部读ssss／zzzz，/z/应有振动。不要在它们后面加汉语“丝／兹”的完整元音。</p><div class=\"table-scroll\"><table><thead><tr><th>词或短语</th><th>目标音</th><th>规律与练法</th></tr></thead><tbody><tr><td>six（单独）／dix（单独）</td><td>/sis/／/dis/</td><td>停顿处常发/s/；不是所有x都发/ks/。</td></tr><tr><td>six billets／dix billets</td><td>/si bijɛ/／/di bijɛ/</td><td>作数词限定词接辅音开头名词时，末尾不读/s/。</td></tr><tr><td>six heures／dix heures</td><td>/siz œʁ/／/diz œʁ/</td><td>heure为哑音h，接元音；连接辅音变/z/。</td></tr><tr><td>deux heures／trois heures</td><td>/døz œʁ/／/tʁwaz œʁ/</td><td>报时中的/z/连读；不要按字母读成/ks/。</td></tr><tr><td>neuf billets／neuf heures</td><td>/nœf bijɛ/／/nœv œʁ/</td><td>neuf常读/f/；在heures、ans等词前常变/v/，不能将所有数字都套成/z/。</td></tr><tr><td>sept heures</td><td>/sɛt œʁ/</td><td>sept通常发/t/；不能由词尾p推断发/p/。</td></tr><tr><td>huit heures／huit billets</td><td>/ɥit œʁ/／/ɥi bijɛ/</td><td>huit接元音与接辅音的常见区别。</td></tr><tr><td>poisson／poison</td><td>/pwasɔ̃/／/pwazɔ̃/</td><td>鱼／毒药，为/s z/最小对比拓展。</td></tr><tr><td>classe／rose</td><td>/klas/／/ʁoz/</td><td>classe的ss为/s/；rose元音间单s为/z/，不代表所有单s都读/z/。</td></tr></tbody></table></div><p><strong>听辨流程：</strong>先读six、six billets、six heures，再换dix三组；随后读<em>Le train part à six heures.</em>、<em>Je voudrais dix billets.</em>，把发音放回语境。目标是听懂数字与单位，不是把所有数字结尾机械加同一个辅音。</p><p>本表只讲这些常见搭配，日期／编号与复合数字可能有另外的读法。资料核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23137/la-prononciation/prononciation-des-nombres/prononciation-de-six-et-dix\" target=\"_blank\" rel=\"noopener\">OQLF six与dix</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23136/la-prononciation/prononciation-des-nombres/prononciation-de-sept-et-neuf\" target=\"_blank\" rel=\"noopener\">sept与neuf</a>。</p>"
+    },
+    {
+      "id": "practice",
+      "title": "11. 分层练习A—J与解析",
+      "html": "<h2>11. 分层练习A—J与解析</h2><p>先独立作答，再展开答案；T与B指正文的虚构时刻表和票面。开放题允许其他准确表达。</p><h3>A. 报出钟点：先用直接读法</h3><ol><li>01:00</li><li>08:10</li><li>08:15（再写et quart形式）</li><li>08:30（再写et demie形式）</li><li>08:45（再写moins形式）</li><li>12:00</li><li>00:30</li><li>21:15</li></ol><details><summary>展开答案与解析</summary><ol><li>Il est une heure. heure单数。</li><li>Il est huit heures dix. 不加et。</li><li>Il est huit heures quinze. / Il est huit heures et quart.</li><li>Il est huit heures trente. / Il est huit heures et demie.</li><li>Il est huit heures quarante-cinq. / Il est neuf heures moins le quart.</li><li>Il est midi. / Il est douze heures.</li><li>Il est zéro heure trente. / Il est minuit et demi.</li><li>Il est vingt et une heures quinze. / Il est neuf heures et quart du soir.</li></ol></details><h3>B. 日期、星期与月份</h3><ol><li>把1月1日写成法语日期。</li><li>把5月2日写成法语日期。</li><li>把6月15日写成法语日期。</li><li>填quel或quelle：____ est la date ?</li><li>把星期四、星期六写成法语。</li><li>七月、八月、十二月分别怎么写？</li><li>Je pars ____ mai.（仅说月份）</li><li>区别Je pars lundi与Je pars le lundi。</li></ol><details><summary>展开答案与解析</summary><ol><li>le 1er janvier／le premier janvier：首日用premier。</li><li>le 2 mai／le deux mai：2日起用基数，不用deuxième。</li><li>le 15 juin／le quinze juin。</li><li>Quelle：date阴性。</li><li>jeudi；samedi。日名一般小写。</li><li>juillet；août；décembre。保留重音符号。</li><li>en mai；单说月份用en。</li><li>前者上下文中的某个周一，后者每周一的习惯。</li></ol></details><h3>C. partir完整变位</h3><ol><li>Je ____ à dix heures.</li><li>Tu ____ demain.</li><li>Le train ____ de Paris.</li><li>Nous ____ le 5 mai.</li><li>Vous ____ à quelle heure ?</li><li>Elles ____ en train.</li><li>On ____ pour Lyon.</li><li>把Je pars aujourd’hui改为否定。</li></ol><details><summary>展开答案与解析</summary><ol><li>pars；je＋pars。</li><li>pars；tu＋pars。</li><li>part；第三人称单数。</li><li>partons；不写partissons。</li><li>partez；vous形式。</li><li>partent；复数词尾-ent不独立发音。</li><li>part；on与il同形。</li><li>Je ne pars pas aujourd’hui. ne…pas包pars。</li></ol></details><h3>D. 问题与答案对应</h3><ol><li>现在几点？写问题。</li><li>火车几点出发？用À quelle heure…写问题。</li><li>你什么时候出发？用quand est-ce que。</li><li>根据Je pars mercredi询问“哪一天”。</li><li>根据Nous sommes le 5 mai询问日期。</li><li>用est-ce que问“你明天出发吗”。</li></ol><details><summary>展开答案与解析</summary><ol><li>Quelle heure est-il ? 问当前时间。</li><li>À quelle heure part le train ? / À quelle heure est-ce que le train part ?</li><li>Quand est-ce que tu pars ? / Quand est-ce que vous partez ? 称呼任选但动词匹配。</li><li>Quel jour est-ce que tu pars ? / Vous partez quel jour ?</li><li>Quelle est la date ? / Quelle est la date aujourd’hui ?</li><li>Est-ce que tu pars demain ? / Est-ce que vous partez demain ?</li></ol></details><h3>E. 礼貌购票</h3><ol><li>礼貌请求一张去Lyon的单程票。</li><li>如何回答Un aller simple ou un aller-retour ?（要往返）</li><li>用法语说“二等座”。</li><li>听到Ce train est complet，是什么意思？</li><li>问对方重复刚才的话。</li><li>复述5月5日11:15去Lyon的单程票，请对方确认。</li></ol><details><summary>展开答案与解析</summary><ol><li>Je voudrais un aller simple pour Lyon, s’il vous plaît. 以voudrais表达礼貌。</li><li>Un aller-retour, s’il vous plaît. 包含去返。</li><li>En deuxième classe. 不用à deuxième classe。</li><li>该班次满员／售罄；不表示它准点或票已确认。</li><li>Vous pouvez répéter, s’il vous plaît ? / Pardon ? 功能表达。</li><li>Un aller simple pour Lyon, le 5 mai, à onze heures quinze. C’est bien ça ? 包含票种、目的地、日期、出发时刻。</li></ol></details><h3>F. T时刻表与B票面</h3><ol><li>T3从哪里到哪里？</li><li>T3出发和到达时刻分别是什么？</li><li>T2还可以买到资料设定的票吗？</li><li>想9点后、12点前出发且有空位，选哪班？</li><li>Lina的票是单程还是往返？什么等级？</li><li>Lina在几号股道？这是不是座位号？</li><li>按本资料T2历时多久？（补充计算）</li><li>B能说明车票允许免费改签吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>De Paris à Lyon；完整句Le train part de Paris pour Lyon。</li><li>11 h 15出发，13 h 15到达；不能颠倒。</li><li>不能；T2是complet。</li><li>T3。T1过早，T2满员。</li><li>Un aller simple，en deuxième classe。</li><li>Voie 4：4号股道，不是座位号。</li><li>1小时50分钟。9:45到11:35，同日同一时区。</li><li>不能，改签条件未提及。</li></ol></details><h3>G. 翻译与结构辨析</h3><ol><li>现在是九点半。</li><li>我九点半出发。</li><li>我们5月5日从Paris出发去Lyon。</li><li>他们坐火车去Lyon。（用aller）</li><li>我乘坐火车。（用prendre）</li><li>把Vous partez à quelle heure ?改为est-ce que问法。</li></ol><details><summary>展开答案与解析</summary><ol><li>Il est neuf heures et demie. / Il est neuf heures trente.</li><li>Je pars à neuf heures et demie. / Je pars à neuf heures trente. 保留à。</li><li>Nous partons de Paris pour Lyon le 5 mai.</li><li>Ils vont à Lyon en train. aller＋à城市＋en交通。</li><li>Je prends le train. prendre直接接le train。</li><li>À quelle heure est-ce que vous partez ? 不在est-ce que后再倒装。</li></ol></details><h3>H. 发音：标出目标音</h3><ol><li>six单独与six billets结尾有何区别？</li><li>six heures连接处是/s/还是/z/？</li><li>dix单独与dix heures的末尾有何区别？</li><li>neuf heures中常见/f/还是/v/？</li><li>sept heures是否读出/p/？</li><li>poisson与poison的中间分别读什么？</li></ol><details><summary>展开答案与解析</summary><ol><li>单独six常/sis/；six billets中数词限定词接辅音，/si bijɛ/，不读末尾/s/。</li><li>/z/：/siz œʁ/。heure为哑音h。</li><li>单独/dis/；dix heures连接为/diz œʁ/。</li><li>常见/v/：/nœv œʁ/；neuf billets仍常/f/。</li><li>不读/p/；sept通常/sɛt/，sept heures中的/t/发音。</li><li>poisson中/s/；poison中/z/。保持元音一致再比较声带振动。</li></ol></details><h3>I. 纠错</h3><ol><li>Il est un heure.</li><li>Il est huit heures et dix.</li><li>Il est midi et demie.</li><li>8:45＝huit heures moins le quart。</li><li>Nous partissons demain.</li><li>Je pars à le 5 mai.</li><li>À quelle heure est-ce que partez-vous ?</li><li>T3在13:15出发，因为票面写arrivée 13 h 15。</li></ol><details><summary>展开答案与解析</summary><ol><li>Il est une heure. heure阴性单数。</li><li>Il est huit heures dix. 普通分钟不加et。</li><li>Il est midi et demi. midi阳性。</li><li>8:45＝neuf heures moins le quart；huit heures moins le quart为7:45。</li><li>Nous partons demain. partir不按规则finir变位。</li><li>Je pars le 5 mai. 日期前le，无à；钟点才à＋时刻。</li><li>À quelle heure est-ce que vous partez ? / À quelle heure partez-vous ? 两种结构分开。</li><li>T3是11:15出发，13:15到达；arrivée不是départ。</li></ol></details><h3>J. 听说读写综合输出</h3><ol><li>按T表演一段6—10轮购票对话：先请求T2，遇到售罄后改T3，确认全部核心信息。</li><li>写5—7句告诉朋友Lina的行程，另问一个票面未给的信息。</li><li>录45—60秒报时和日期：01:00、08:45、17:30、00:30及5月5日；用完整句。</li><li>不看参考答案，把B票面整理成出发地、目的地、日期、出发、到达、票种、等级、股道、金额九项，再自查。</li></ol><details><summary>展开答案与解析</summary><ol><li>示范：Bonjour, je voudrais un aller simple pour Lyon le 5 mai. — À quelle heure ? — À neuf heures quarante-cinq, en deuxième classe. — Désolé, ce train est complet. Le train de onze heures quinze est disponible. — Il arrive à quelle heure ? — À treize heures quinze. Ça fait soixante-quatre euros. — Le 5 mai, à onze heures quinze, c’est bien ça ? — Oui. Voie quatre. 核对最终改选T3，称呼一致；不能仍报T2。</li><li>示范6句：Lina part de Paris pour Lyon le 5 mai. Elle part à onze heures quinze. Elle arrive à treize heures quinze. Elle prend un aller simple en deuxième classe. Son train part voie quatre. Quel est le numéro de sa place ? 最后问句为补充表达，座位号未给。</li><li>参考：Il est une heure. Il est neuf heures moins le quart. Il est dix-sept heures trente. Il est minuit et demi. Nous sommes le cinq mai. 核对时间换算、heure单复数、demi/demie；日期按本题设定而非当前日期。</li><li>Paris；Lyon；5 mai 2027；11 h 15；13 h 15；aller simple；deuxième classe；voie 4；64€。九项各有票面依据，未给的信息保留为空。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12. 复习卡与间隔复习",
+      "html": "<h2>12. 复习卡与间隔复习</h2><ul><li>我能区分Il est…与Je pars à…，报出整点、普通分钟、et quart、et demie和moins le quart。</li><li>我能把17:30转换成5:30下午，正确处理midi et demi。</li><li>我会七个星期与十二个月，用le premier表示1日、其他日期用基数。</li><li>我能完整写出pars、pars、part、partons、partez、partent。</li><li>我能区分partir de／pour、aller à与prendre le train。</li><li>我能用quelle heure、à quelle heure、quand、quel jour提出对应问题。</li><li>我能礼貌购票，遇售罄问备选，复述最终日期、目的地、票种与时刻。</li><li>我能分清départ／arrivée、voie／座位编号及单程／往返。</li><li>我能正确读six/dix的三种常见环境和neuf heures的/v/。</li><li>我已完成A—J、小测、录音与行程短文，并在错题页说明错误原因。</li></ul><p>复习安排：当天做A—F；次日遮住变位表重做C、G、I；三天后只看T表录购票对话；一周后换一个虚构日期和班次再写行程。下一课第14课将时间放入职业与工作安排，第15课进一步描述日常习惯。</p><p>范围来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener\">出版方教学指南第13课目标</a>。本站例句和练习原创，不复制教材对话和答案。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "Nous ____ demain.（partir）",
+      "options": [
+        "partons",
+        "partissons",
+        "pars"
+      ],
+      "answer": 0,
+      "explanation": "partir是不规则-ir动词，nous partons。",
+      "group": "grammar",
+      "id": "l13-q01"
+    },
+    {
+      "question": "On ____ pour Lyon.",
+      "options": [
+        "partons",
+        "part",
+        "partent"
+      ],
+      "answer": 1,
+      "explanation": "on＋第三人称单数part。",
+      "group": "grammar",
+      "id": "l13-q02"
+    },
+    {
+      "question": "Elles ____ en train.",
+      "options": [
+        "part",
+        "partez",
+        "partent"
+      ],
+      "answer": 2,
+      "explanation": "elles＋partent；词尾-ent不独立发音。",
+      "group": "grammar",
+      "id": "l13-q03"
+    },
+    {
+      "question": "现在是1点：Il est ____.",
+      "options": [
+        "une heure",
+        "un heure",
+        "une heures"
+      ],
+      "answer": 0,
+      "explanation": "heure阴性；1点用une heure单数。",
+      "group": "grammar",
+      "id": "l13-q04"
+    },
+    {
+      "question": "08:10的直接读法：",
+      "options": [
+        "huit heures et dix",
+        "huit heures dix",
+        "neuf heures dix"
+      ],
+      "answer": 1,
+      "explanation": "普通分钟直接接数字，不用et。",
+      "group": "grammar",
+      "id": "l13-q05"
+    },
+    {
+      "question": "08:45等于：",
+      "options": [
+        "huit heures moins le quart",
+        "neuf heures et quart",
+        "neuf heures moins le quart"
+      ],
+      "answer": 2,
+      "explanation": "8:45距离下一整点9点差15分钟。",
+      "group": "grammar",
+      "id": "l13-q06"
+    },
+    {
+      "question": "12:30的日常表达：",
+      "options": [
+        "midi et demi",
+        "midi et demie",
+        "midi et quart"
+      ],
+      "answer": 0,
+      "explanation": "midi阳性，用demi；半小时不是quart。",
+      "group": "grammar",
+      "id": "l13-q07"
+    },
+    {
+      "question": "17:30在时刻表中的读法：",
+      "options": [
+        "dix-sept heures et demie",
+        "dix-sept heures trente",
+        "sept heures trente"
+      ],
+      "answer": 1,
+      "explanation": "24小时制用直接分钟；口语可换cinq heures et demie。",
+      "group": "grammar",
+      "id": "l13-q08"
+    },
+    {
+      "question": "问“现在几点”：",
+      "options": [
+        "À quelle heure pars-tu ?",
+        "Quel jour est-ce ?",
+        "Quelle heure est-il ?"
+      ],
+      "answer": 2,
+      "explanation": "问当前时刻用Quelle heure est-il，行动时刻用à quelle heure。",
+      "group": "grammar",
+      "id": "l13-q09"
+    },
+    {
+      "question": "我9点出发：Je pars ____ neuf heures.",
+      "options": [
+        "à",
+        "le",
+        "en"
+      ],
+      "answer": 0,
+      "explanation": "动作时刻用à＋钟点。",
+      "group": "grammar",
+      "id": "l13-q10"
+    },
+    {
+      "question": "1月1日读作：",
+      "options": [
+        "le un janvier",
+        "le premier janvier",
+        "le première janvier"
+      ],
+      "answer": 1,
+      "explanation": "月份首日用le premier＋月名。",
+      "group": "grammar",
+      "id": "l13-q11"
+    },
+    {
+      "question": "6月2日读作：",
+      "options": [
+        "le deuxième juin",
+        "à deux juin",
+        "le deux juin"
+      ],
+      "answer": 2,
+      "explanation": "2日起通常用基数日数，日期前le。",
+      "group": "grammar",
+      "id": "l13-q12"
+    },
+    {
+      "question": "____ est la date ?",
+      "options": [
+        "Quelle",
+        "Quel",
+        "Quels"
+      ],
+      "answer": 0,
+      "explanation": "date阴性单数，quelle。",
+      "group": "grammar",
+      "id": "l13-q13"
+    },
+    {
+      "question": "Je pars ____ mai.（五月）",
+      "options": [
+        "à",
+        "en",
+        "au"
+      ],
+      "answer": 1,
+      "explanation": "单说月份用en mai。",
+      "group": "grammar",
+      "id": "l13-q14"
+    },
+    {
+      "question": "Je pars le lundi的意思通常是：",
+      "options": [
+        "下一个周一仅一次",
+        "在星期日出发",
+        "每逢周一出发"
+      ],
+      "answer": 2,
+      "explanation": "le＋星期表示习惯；具体某周一常不用le。",
+      "group": "grammar",
+      "id": "l13-q15"
+    },
+    {
+      "question": "“从Paris出发”用：",
+      "options": [
+        "partir de Paris",
+        "partir pour Paris",
+        "partir Paris"
+      ],
+      "answer": 0,
+      "explanation": "de标出发地；pour标去向。",
+      "group": "grammar",
+      "id": "l13-q16"
+    },
+    {
+      "question": "“动身去Lyon”用：",
+      "options": [
+        "partir de Lyon",
+        "partir pour Lyon",
+        "partir le Lyon"
+      ],
+      "answer": 1,
+      "explanation": "partir pour＋目的地。",
+      "group": "grammar",
+      "id": "l13-q17"
+    },
+    {
+      "question": "礼貌请求一张去Lyon的票：",
+      "options": [
+        "Je veux Lyon.",
+        "Je pars billet.",
+        "Je voudrais un billet pour Lyon."
+      ],
+      "answer": 2,
+      "explanation": "Je voudrais…为礼貌请求，pour引目的地。",
+      "group": "speaking",
+      "id": "l13-q18"
+    },
+    {
+      "question": "un aller simple表示：",
+      "options": [
+        "单程票",
+        "往返票",
+        "车票等级"
+      ],
+      "answer": 0,
+      "explanation": "aller simple仅去程；aller-retour为往返。",
+      "group": "vocabulary",
+      "id": "l13-q19"
+    },
+    {
+      "question": "Ce train est complet表示：",
+      "options": [
+        "这班车准点",
+        "这班车满员／售罄",
+        "车票有回程"
+      ],
+      "answer": 1,
+      "explanation": "complet在购票语境表示满员或售罄。",
+      "group": "vocabulary",
+      "id": "l13-q20"
+    },
+    {
+      "question": "按T表：9点以后12点以前出发且有空位，选：",
+      "options": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "answer": 2,
+      "explanation": "T1早于9点；T2虽时间符合但售罄；T3为11:15且可用。",
+      "group": "reading",
+      "id": "l13-q21"
+    },
+    {
+      "question": "Lina最终出发时刻是：",
+      "options": [
+        "11 h 15",
+        "9 h 45",
+        "13 h 15"
+      ],
+      "answer": 0,
+      "explanation": "原想T2，最终改为T3，11:15出发。",
+      "group": "reading",
+      "id": "l13-q22"
+    },
+    {
+      "question": "票面B的voie 4表示：",
+      "options": [
+        "4号座位",
+        "4号股道",
+        "4号车厢"
+      ],
+      "answer": 1,
+      "explanation": "voie是股道，座位和车厢未给。",
+      "group": "reading",
+      "id": "l13-q23"
+    },
+    {
+      "question": "T2在同日同一时区9:45到11:35，用时：",
+      "options": [
+        "2小时",
+        "1小时35分钟",
+        "1小时50分钟"
+      ],
+      "answer": 2,
+      "explanation": "11:35－9:45＝1:50，属于补充时间差计算。",
+      "group": "reading",
+      "id": "l13-q24"
+    },
+    {
+      "question": "正确的est-ce que问法：",
+      "options": [
+        "À quelle heure est-ce que vous partez ?",
+        "À quelle heure est-ce que partez-vous ?",
+        "Quelle heure vous partons ?"
+      ],
+      "answer": 0,
+      "explanation": "est-ce que后保留主语＋动词，不再倒装。",
+      "group": "grammar",
+      "id": "l13-q25"
+    },
+    {
+      "question": "six heures连接辅音为：",
+      "options": [
+        "/s/",
+        "/z/",
+        "/ks/"
+      ],
+      "answer": 1,
+      "explanation": "数词six接哑音h的heures，常/siz œʁ/。",
+      "group": "pronunciation",
+      "id": "l13-q26"
+    },
+    {
+      "question": "dix billets中的dix常读：",
+      "options": [
+        "/dis/",
+        "/diz/",
+        "/di/"
+      ],
+      "answer": 2,
+      "explanation": "数词限定词接辅音开头billets时不读末尾辅音。",
+      "group": "pronunciation",
+      "id": "l13-q27"
+    },
+    {
+      "question": "neuf heures中的f常读：",
+      "options": [
+        "/v/",
+        "/z/",
+        "/p/"
+      ],
+      "answer": 0,
+      "explanation": "neuf在heures、ans等词前常由/f/变/v/。",
+      "group": "pronunciation",
+      "id": "l13-q28"
+    },
+    {
+      "question": "poisson与poison中间的音分别是：",
+      "options": [
+        "/z/、/s/",
+        "/s/、/z/",
+        "均为/ks/"
+      ],
+      "answer": 1,
+      "explanation": "poisson双ss为/s/；poison元音间单s为/z/。",
+      "group": "pronunciation",
+      "id": "l13-q29"
+    },
+    {
+      "question": "按B票面写行程，哪句准确？",
+      "options": [
+        "Elle part de Lyon à 13 h 15.",
+        "Elle prend un aller-retour.",
+        "Elle part de Paris à 11 h 15."
+      ],
+      "answer": 2,
+      "explanation": "B为Paris出发11:15，去Lyon单程。",
+      "group": "writing",
+      "id": "l13-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "hours",
+      "dates",
+      "partir",
+      "questions"
+    ],
+    "vocabulary": [
+      "words",
+      "tickets"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "dates",
+      "reading"
+    ],
+    "speaking": [
+      "questions",
+      "tickets",
+      "phrases"
+    ],
+    "writing": [
+      "hours",
+      "dates",
+      "partir",
+      "phrases"
+    ]
+  },
+  "listening": "第13课教材配套音轨：先辨目的地、票种，再记录日期、最终出发与到达时刻、股道，最后对照教材复听数字。本站T表和购票对话为原创虚构练习，不是教材逐字稿。"
+}

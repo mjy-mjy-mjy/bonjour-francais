@@ -186,6 +186,19 @@ window.COURSE_LIBRARY = {
         "工作与每周安排",
         "三个鼻化元音"
       ]
+    },
+    {
+      "number": 15,
+      "title": "Le dimanche matin",
+      "translation": "星期日早晨",
+      "pages": "50–51",
+      "core": [
+        "lire / écrire 现在时",
+        "代词式动词",
+        "faire de / jouer à 与运动",
+        "正在进行的活动与日常习惯",
+        "法语 r 音"
+      ]
     }
   ],
   "lessons": [
@@ -5795,6 +5808,945 @@ window.COURSE_LIBRARY = {
         ]
       },
       "listening": "教材第12课：先用教材确认配套音轨，辨认城市与旅游主题，再记地点、交通和活动，对照教材复听。本站A/B/C和Lina—Noé对话为原创阅读与口语训练，不是教材音轨逐字稿。"
+    },
+    {
+      "number": 13,
+      "title": "Un aller simple",
+      "translation": "一张单程票",
+      "pages": "46–47",
+      "core": [
+        "钟点与日期",
+        "quand / à quelle heure",
+        "partir 现在时",
+        "礼貌购票",
+        "数字读音",
+        "/s/ 与 /z/"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标与范围",
+          "html": "<h2>1. 学习目标与范围</h2><p>第13课 <strong>Un aller simple（一张单程票）</strong>，教材第46—47页，开启第四单元“时间节奏”。核心是询问与报出钟点、日期，使用partir现在时，礼貌购买车票，并准确听辨数字和/s/、/z/。以下讲解、班次、对话与练习均为原创，班次和价格为虚构教学资料。</p><div class=\"table-scroll\"><table><thead><tr><th>层次</th><th>内容</th><th>完成目标</th></tr></thead><tbody><tr><td>教材核心</td><td>quelle heure / quand；partir；礼貌请求；数字发音</td><td>能问现在几点、何时出发，用完整句确认票种、日期、班次。</td></tr><tr><td>复习</td><td>城市介词、prendre、est-ce que、否定、数字</td><td>说清出发地和目的地，区分购票与搭车。</td></tr><tr><td>补充</td><td>24小时制转换；完整日历词汇；时刻与时长辨析</td><td>从虚构时刻表选可用班次，不把到达时间当出发时间。</td></tr></tbody></table></div><p>学习路线：报时→日期→动词→提问→购票→阅读时刻表→对话与听辨→A—J→小测。把“现在几点”与“动作在几点发生”分开：<em>Il est neuf heures.</em>／<em>Je pars à neuf heures.</em></p>"
+        },
+        {
+          "id": "hours",
+          "title": "2. 报时：整点、分钟与24小时制",
+          "html": "<h2>2. 报时：整点、分钟与24小时制</h2><div class=\"table-scroll\"><table><thead><tr><th>时间</th><th>正式／直接读法</th><th>常见12小时制表达</th></tr></thead><tbody><tr><td>01:00</td><td>Il est une heure.</td><td>heure单数，une而非un。</td></tr><tr><td>08:10</td><td>Il est huit heures dix.</td><td>不用et dix。</td></tr><tr><td>08:15</td><td>Il est huit heures quinze.</td><td>Il est huit heures et quart.</td></tr><tr><td>08:30</td><td>Il est huit heures trente.</td><td>Il est huit heures et demie.</td></tr><tr><td>08:40</td><td>Il est huit heures quarante.</td><td>Il est neuf heures moins vingt.</td></tr><tr><td>08:45</td><td>Il est huit heures quarante-cinq.</td><td>Il est neuf heures moins le quart.</td></tr><tr><td>08:55</td><td>Il est huit heures cinquante-cinq.</td><td>Il est neuf heures moins cinq.</td></tr><tr><td>12:00</td><td>Il est midi.</td><td>中午；也可报douze heures。</td></tr><tr><td>00:00</td><td>Il est minuit.</td><td>午夜，日历日期在此转换。</td></tr><tr><td>12:30</td><td>Il est douze heures trente.</td><td>Il est midi et demi.</td></tr><tr><td>00:30</td><td>Il est zéro heure trente.</td><td>Il est minuit et demi.</td></tr><tr><td>17:30</td><td>Il est dix-sept heures trente.</td><td>Il est cinq heures et demie de l’après-midi.</td></tr><tr><td>21:15</td><td>Il est vingt et une heures quinze.</td><td>Il est neuf heures et quart du soir.</td></tr></tbody></table></div><h3>三条容易混淆的规则</h3><ol><li><strong>moins向下一整点倒数：</strong>8:45是9点差一刻，不是8点差一刻；<em>huit heures moins le quart</em>是7:45。</li><li><strong>et quart / et demie用于12小时制：</strong>时刻表17:30读dix-sept heures trente；日常可换cinq heures et demie，不写dix-sept heures et demie作为本课标准答案。</li><li><strong>demie与demi：</strong>heure阴性→une heure et demie；midi、minuit阳性→midi et demi、minuit et demi。quart不配阴阳性；moins le quart保留le。</li></ol><p><strong>书写：</strong>本课时刻表用<em>8 h 10</em>、<em>11 h 15</em>；数字界面可见08:10。h是符号，不加s；写全词则une heure／deux heures。表示动作时刻要加à：<em>Le train part à onze heures quinze.</em> 时间本身不加：<em>Il est onze heures quinze.</em> 模糊时间用<em>vers onze heures</em>＝十一点左右。</p><p><strong>时刻与时长：</strong>à dix heures＝十点时；deux heures＝两小时（须看上下文）；de huit heures à dix heures＝八点到十点。<em>Le trajet dure deux heures.</em>（行程历时两小时）为补充表达，不能读成“车在两点开”。书写规则可核对<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/21516/la-typographie/nombres/ecriture-des-heures\" target=\"_blank\" rel=\"noopener\">OQLF时间表示</a>。</p>"
+        },
+        {
+          "id": "dates",
+          "title": "3. 星期、月份和日期",
+          "html": "<h2>3. 星期、月份和日期</h2><div class=\"table-scroll\"><table><thead><tr><th>星期</th><th>中文</th><th>用法</th></tr></thead><tbody><tr><td>lundi</td><td>星期一</td><td>Nous partons lundi. 具体周一出发。</td></tr><tr><td>mardi</td><td>星期二</td><td>mardi prochain＝下周二／下一个周二，需结合对话日期确认。</td></tr><tr><td>mercredi</td><td>星期三</td><td>le mercredi＝每逢周三，表示习惯。</td></tr><tr><td>jeudi</td><td>星期四</td><td>jeudi matin＝周四早上。</td></tr><tr><td>vendredi</td><td>星期五</td><td>vendredi soir＝周五晚上。</td></tr><tr><td>samedi</td><td>星期六</td><td>le samedi／tous les samedis＝每周六。</td></tr><tr><td>dimanche</td><td>星期日</td><td>dimanche après-midi＝周日下午。</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th>月份</th><th>中文</th><th>月份</th><th>中文</th></tr></thead><tbody><tr><td>janvier</td><td>一月</td><td>juillet</td><td>七月</td></tr><tr><td>février</td><td>二月</td><td>août</td><td>八月</td></tr><tr><td>mars</td><td>三月</td><td>septembre</td><td>九月</td></tr><tr><td>avril</td><td>四月</td><td>octobre</td><td>十月</td></tr><tr><td>mai</td><td>五月</td><td>novembre</td><td>十一月</td></tr><tr><td>juin</td><td>六月</td><td>décembre</td><td>十二月</td></tr></tbody></table></div><p><strong>日期结构：</strong><em>le＋日数＋月份（＋年份）</em>。1日特殊：<em>le premier mai</em>，书写<em>le 1er mai</em>；2日起用基数：<em>le deux mai</em>、<em>le quinze juin</em>，不是le deuxième mai。<em>le 5 mai 2027</em>读le cinq mai deux mille vingt-sept。日、月名一般小写，句首除外。</p><div class=\"table-scroll\"><table><thead><tr><th>你要问／说什么</th><th>表达</th><th>辨析</th></tr></thead><tbody><tr><td>今天星期几？</td><td>Quel jour sommes-nous ? — Nous sommes mercredi.</td><td>固定问句可先整体记；quel配阳性jour。</td></tr><tr><td>今天几月几号？</td><td>Quelle est la date aujourd’hui ? — Nous sommes le 5 mai.</td><td>quelle配阴性date；日期不加à。</td></tr><tr><td>具体哪天出发？</td><td>Vous partez quel jour ? — Je pars mercredi.</td><td>上下文确定的某个周三；不是每周三。</td></tr><tr><td>明确日期</td><td>Je pars le 5 mai à onze heures quinze.</td><td>日期前le，钟点前à。</td></tr><tr><td>说明月份</td><td>Je pars en mai.</td><td>单说月份用en，不用à mai。</td></tr><tr><td>当天与隔天</td><td>aujourd’hui；demain；après-demain</td><td>今天／明天／后天；时间词不自动改变动词形式。</td></tr></tbody></table></div><p><strong>阅读票面：</strong>若出现05/06，须确认日月顺序；本站用完整月份或YYYY-MM-DD避免歧义。数字日期的格式为补充阅读知识，完整书写可核对<a href=\"https://nos-langues.canada.ca/fr/cles-de-la-redaction/date-regles-decriture\" target=\"_blank\" rel=\"noopener\">加拿大语言门户的日期规则</a>。练习中的日期固定为2027年5月5日，不能把它当网站当前日期。</p>"
+        },
+        {
+          "id": "partir",
+          "title": "4. partir现在时：完整变位与搭配",
+          "html": "<h2>4. partir现在时：完整变位与搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>partir</th><th>完整例句</th></tr></thead><tbody><tr><td>je</td><td>pars</td><td>Je pars à huit heures dix.</td></tr><tr><td>tu</td><td>pars</td><td>Tu pars mercredi ?</td></tr><tr><td>il / elle / on</td><td>part</td><td>Le train part de Paris. On part pour Lyon.</td></tr><tr><td>nous</td><td>partons</td><td>Nous partons le 5 mai.</td></tr><tr><td>vous</td><td>partez</td><td>Vous partez à quelle heure ?</td></tr><tr><td>ils / elles</td><td>partent</td><td>Elles partent en train.</td></tr></tbody></table></div><p>partir是不规则-ir动词，不套finir一类的-is/-issons：不能写nous partissons。单数je pars、tu pars、il part通常都读/paʁ/；复数partons、partez、partent中/t/听得见，ils partent读/paʁt/，词尾-ent本身不读。</p><div class=\"table-scroll\"><table><thead><tr><th>功能</th><th>表达</th><th>对照</th></tr></thead><tbody><tr><td>离开出发地</td><td>partir de＋地点：Le train part de Paris.</td><td>de Paris不是à Paris。</td></tr><tr><td>动身前往</td><td>partir pour＋目的地：Je pars pour Lyon.</td><td>pour标去向；说到某地用aller à：Je vais à Lyon。</td></tr><tr><td>出发时刻</td><td>partir à＋钟点：Nous partons à onze heures quinze.</td><td>partir后不直接接时刻而漏à。</td></tr><tr><td>交通方式</td><td>partir en train：Ils partent en train.</td><td>prendre后直接接le train，不写prendre en train。</td></tr><tr><td>否定</td><td>Je ne pars pas aujourd’hui. On ne part pas à midi.</td><td>ne…pas包变位动词；on仍配part。</td></tr></tbody></table></div><p>完整组合：<em>Nous partons de Paris pour Lyon le 5 mai à onze heures quinze.</em> 先主语＋动词，再出发地／目的地，最后日期与钟点；语序可调整但功能词不能漏。这里的现在时可表达已安排的出行，本课不要求将来时变位。变位核对：<a href=\"https://www.laits.utexas.edu/tex/gr/vir3.html\" target=\"_blank\" rel=\"noopener\">得州大学不规则-ir动词</a>。</p>"
+        },
+        {
+          "id": "questions",
+          "title": "5. 提问：quelle heure、quand、quel jour",
+          "html": "<h2>5. 提问：quelle heure、quand、quel jour</h2><div class=\"table-scroll\"><table><thead><tr><th>问题</th><th>答案</th><th>问的是什么</th></tr></thead><tbody><tr><td>Quelle heure est-il ?</td><td>Il est dix heures.</td><td>现在几点，答案il est。</td></tr><tr><td>Vous avez l’heure, s’il vous plaît ?</td><td>Oui, il est dix heures.</td><td>礼貌问钟点，可作为完整表达。</td></tr><tr><td>À quelle heure part le train ?</td><td>Il part à onze heures quinze.</td><td>某动作在几点发生，à不能漏。</td></tr><tr><td>Vous partez à quelle heure ?</td><td>Je pars à onze heures quinze.</td><td>口语疑问词放末尾；保留陈述语序。</td></tr><tr><td>Quand est-ce que vous partez ?</td><td>Je pars mercredi / le 5 mai / demain.</td><td>何时：可回答日期、时刻或时间段。</td></tr><tr><td>Quel jour est-ce que vous partez ?</td><td>Je pars mercredi.</td><td>限定问哪一天。</td></tr><tr><td>Quelle est la date ?</td><td>Nous sommes le 5 mai.</td><td>date阴性；quelle不是quel。</td></tr><tr><td>Est-ce que vous partez demain ?</td><td>Oui, je pars demain. / Non, je ne pars pas demain.</td><td>是否问题，先oui/non再补信息。</td></tr></tbody></table></div><p><strong>不要混拼语序：</strong><em>À quelle heure est-ce que vous partez ?</em> 正确；不写<em>À quelle heure est-ce que partez-vous ?</em>，因为est-ce que后保留主语＋动词。<em>À quelle heure partez-vous ?</em>是另外一种倒装问法，作为识别拓展；主要练熟口语或est-ce que一种即可。</p><p>把问题与回答对应起来：<em>Il est huit heures.</em>回答现在钟点；<em>Je pars à huit heures.</em>回答出发时刻；<em>Nous sommes mercredi.</em>回答星期；<em>Je pars mercredi.</em>回答行动日期。quand并非只能问日期，它的范围比à quelle heure宽。</p>"
+        },
+        {
+          "id": "tickets",
+          "title": "6. 礼貌购票与遇到售罄的回应",
+          "html": "<h2>6. 礼貌购票与遇到售罄的回应</h2><div class=\"table-scroll\"><table><thead><tr><th>购票步骤</th><th>法语表达</th><th>中文与结构</th></tr></thead><tbody><tr><td>开场</td><td>Bonjour. Je voudrais un billet pour Lyon, s’il vous plaît.</td><td>你好。我想要一张去里昂的票。voudrais作为礼貌固定表达，不要求完整条件式。</td></tr><tr><td>票种</td><td>Un aller simple ou un aller-retour ? — Un aller simple.</td><td>单程还是往返？一张单程票。</td></tr><tr><td>日期</td><td>Pour quel jour ? — Pour le 5 mai.</td><td>哪天用？5月5日。日期回答与partir le 5 mai的介词范围不同。</td></tr><tr><td>时刻</td><td>À quelle heure est-ce que vous voulez partir ?</td><td>您想几点出发？vous voulez作为补充问句。</td></tr><tr><td>车厢等级</td><td>En première ou en deuxième classe ? — En deuxième classe.</td><td>一等还是二等？二等。</td></tr><tr><td>售罄</td><td>Désolé, ce train est complet.</td><td>抱歉，这班车满员／售罄。complet在此不是“课程完整”。</td></tr><tr><td>备选</td><td>Et le train de onze heures quinze ?</td><td>那11:15的班次呢？de表示哪一时刻的车。</td></tr><tr><td>确认</td><td>Un aller simple pour Lyon, le 5 mai, à onze heures quinze. C’est bien ça ?</td><td>复述票种＋目的地＋日期＋时刻；请对方确认。</td></tr><tr><td>金额</td><td>Ça fait soixante-quatre euros.</td><td>共64欧元。本站金额只属于虚构资料。</td></tr><tr><td>没听清</td><td>Pardon ? Vous pouvez répéter, s’il vous plaît ?</td><td>请重复。pouvez作为功能表达补充。</td></tr></tbody></table></div><p><strong>aller simple</strong>只有去程；<strong>aller-retour</strong>含去返两段，但具体日期、条件要另看票面，不能从名称推出随时可改票。<em>un billet pour Lyon</em>中pour表示目的地；<em>Je vais à Lyon</em>的à是aller搭配。表达<em>Je voudrais…</em>比生硬要求<em>Je veux…</em>更适合柜台情境。</p><p>教材中的历史车票信息与今天的服务可能不同。本课保留语言学习目标，用虚构班次练购票，不把旧版教材中的选项作为现行铁路规定。</p>"
+        },
+        {
+          "id": "words",
+          "title": "7. 车站、车票与时间词汇",
+          "html": "<h2>7. 车站、车票与时间词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词汇</th><th>词性／性别与中文</th><th>例句或搭配</th></tr></thead><tbody><tr><td>un billet → des billets</td><td>阳性，车票</td><td>un billet de train；un billet pour Lyon。</td></tr><tr><td>un aller simple</td><td>阳性，单程票／单程</td><td>Je voudrais un aller simple.</td></tr><tr><td>un aller-retour</td><td>阳性，往返票／往返</td><td>Un aller-retour, s’il vous plaît.</td></tr><tr><td>une gare → des gares</td><td>阴性，火车站</td><td>Je suis à la gare.</td></tr><tr><td>un train → des trains</td><td>阳性，火车</td><td>Le train part à dix heures.</td></tr><tr><td>un départ / une arrivée</td><td>阳性出发／阴性到达</td><td>départ 11 h 15；arrivée 13 h 15。</td></tr><tr><td>une destination</td><td>阴性，目的地</td><td>Destination : Lyon.</td></tr><tr><td>un horaire → des horaires</td><td>阳性，时间安排／时刻表</td><td>Les horaires des trains。</td></tr><tr><td>une voie → des voies</td><td>阴性，股道</td><td>voie 4：4号股道；不是第4节车厢。</td></tr><tr><td>un quai → des quais</td><td>阳性，站台</td><td>Le train est à quai. quai与voie概念不同。</td></tr><tr><td>la première / deuxième classe</td><td>阴性，头等／二等</td><td>en deuxième classe；deuxième为第二。</td></tr><tr><td>une place disponible</td><td>阴性，有空位</td><td>disponible＝可用；complet＝满员。</td></tr><tr><td>complet / complète</td><td>形容词，满的／满员的</td><td>un train complet；une voiture complète。</td></tr><tr><td>désolé / désolée</td><td>形容词，抱歉的</td><td>Désolé, ce train est complet. 说话者女性可写désolée。</td></tr><tr><td>un renseignement</td><td>阳性，一条信息／咨询</td><td>Je voudrais un renseignement.</td></tr><tr><td>une heure / une minute</td><td>阴性，小时／分钟</td><td>une heure et demie；dix minutes。</td></tr><tr><td>un matin / un après-midi / un soir</td><td>阳性，上午／下午／晚上</td><td>demain matin；cet après-midi；ce soir。après-midi也有阴性用法，本课统一阳性。</td></tr><tr><td>une date / un jour</td><td>阴性日期／阳性天</td><td>Quelle date ? Quel jour ?</td></tr><tr><td>midi / minuit</td><td>阳性，中午／午夜</td><td>à midi；à minuit；midi et demi。</td></tr><tr><td>aujourd’hui / demain / après-demain</td><td>副词，今天／明天／后天</td><td>Je pars demain.</td></tr><tr><td>prochain / prochaine</td><td>形容词，下一个的</td><td>lundi prochain；la semaine prochaine。</td></tr><tr><td>à / vers / de…à…</td><td>准时点／大约／从……到……</td><td>à 10 h；vers 10 h；de 8 h à 10 h。</td></tr></tbody></table></div><p><strong>价格、时刻、编号分别读：</strong>64€＝soixante-quatre euros；11 h 15＝onze heures quinze；voie 4＝voie quatre。不能因为同一份资料都含数字，就只记数字而忘记单位。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "8. 原创时刻表与票面阅读",
+          "html": "<h2>8. 原创时刻表与票面阅读</h2><p>资料T：2027年5月5日，Paris→Lyon，均为单程二等票，每位乘客的虚构价格。所有到达时刻与出发时刻为同一天，时区相同；没有标车厢座位或改退条件。</p><div class=\"table-scroll\"><table><thead><tr><th>班次</th><th>出发</th><th>到达</th><th>股道</th><th>价格／人</th><th>状态</th></tr></thead><tbody><tr><td>T1</td><td>8 h 10</td><td>10 h 10</td><td>2</td><td>59 €</td><td>disponible</td></tr><tr><td>T2</td><td>9 h 45</td><td>11 h 35</td><td>5</td><td>55 €</td><td>complet</td></tr><tr><td>T3</td><td>11 h 15</td><td>13 h 15</td><td>4</td><td>64 €</td><td>disponible</td></tr></tbody></table></div><h3>读表的四项核对</h3><ol><li>你问“几点走”看départ；“几点到”看arrivée。T3不是13:15出发。</li><li>有时刻不等于可以买：T2售罄，不能只因为符合时间偏好就选择它。</li><li>如果要9点以后、12点以前出发且有空位，只能选T3；T1太早，T2售罄。</li><li>补充计算：T2用时1小时50分；T1和T3各2小时。只有在本资料明确同日同一时区时才做直接时间差。</li></ol><h3>资料B：Lina的虚构票面</h3><blockquote>Voyageuse : Lina<br>Date : 5 mai 2027<br>Départ : Paris — 11 h 15<br>Arrivée : Lyon — 13 h 15<br>Train : T3 — Voie : 4<br>Type : aller simple — Classe : deuxième<br>Prix : 64 €</blockquote><p>Lina持T3单程二等票，11:15从Paris出发，13:15到Lyon，4号股道；票面没有回程、车厢和座位编号。<em>Elle part de Paris pour Lyon.</em> 不能因voie 4推断4号座位；价格是本练习设定，不是实际铁路报价。</p>"
+        },
+        {
+          "id": "phrases",
+          "title": "9. 完整对话与听说读写",
+          "html": "<h2>9. 完整对话与听说读写</h2><h3>原创柜台对话：售罄后改选班次</h3><blockquote><p>Lina : Bonjour. Je voudrais un aller simple pour Lyon, s’il vous plaît.<br>Employé : Pour quel jour ?<br>Lina : Pour le 5 mai, en deuxième classe.<br>Employé : Vous partez à quelle heure ?<br>Lina : À neuf heures quarante-cinq.<br>Employé : Désolé, ce train est complet. Le train de onze heures quinze est disponible.<br>Lina : D’accord. Il arrive à quelle heure ?<br>Employé : À treize heures quinze. Ça fait soixante-quatre euros.<br>Lina : Donc, le 5 mai, à onze heures quinze, un aller simple pour Lyon ?<br>Employé : Oui, c’est bien ça. Le train part voie quatre.<br>Lina : Merci, au revoir.<br>Employé : Au revoir.</p></blockquote><p>译读：Lina要5月5日去Lyon的二等单程票，原想9:45出发。该班次售罄后，改选11:15出发的T3，并确认13:15到达、价格64€和4号股道。原请求与最终确认不同，阅读和听力要记录最终选择。<em>arrive</em>为arriver现在时，作为词汇补充。</p><h3>四项任务</h3><ol><li><strong>听：</strong>从教材出版方资源查找你所用版本第13课配套音轨。第一次识别目的地、单程／往返；第二次写日期、最终出发时刻、到达时刻与股道；第三次对照教材确认。本站原创对话不是教材录音逐字稿。</li><li><strong>说：</strong>两人分角色；一人按T表购票，一人报售罄及备选。录45—60秒，购票者至少复述日期、目的地与出发时刻。</li><li><strong>读：</strong>不看对话，只按票面B口头回答谁、何日、从哪到哪、何时出发／到达、票种、等级、股道。</li><li><strong>写：</strong>用5—7句告诉朋友你的行程，包含partir、日期和à＋钟点，再写一个票面未给信息的问题。</li></ol><p>没听清11:15时，问<em>Onze heures quinze, c’est bien ça ?</em>；不要因13:15听得更清楚就把它当出发时间。先确认，再复述。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "10. 数字发音与/s/、/z/对比",
+          "html": "<h2>10. 数字发音与/s/、/z/对比</h2><p>/s/和/z/舌位接近，关键在声带：/s/为清音，/z/为浊音。把手轻放喉部读ssss／zzzz，/z/应有振动。不要在它们后面加汉语“丝／兹”的完整元音。</p><div class=\"table-scroll\"><table><thead><tr><th>词或短语</th><th>目标音</th><th>规律与练法</th></tr></thead><tbody><tr><td>six（单独）／dix（单独）</td><td>/sis/／/dis/</td><td>停顿处常发/s/；不是所有x都发/ks/。</td></tr><tr><td>six billets／dix billets</td><td>/si bijɛ/／/di bijɛ/</td><td>作数词限定词接辅音开头名词时，末尾不读/s/。</td></tr><tr><td>six heures／dix heures</td><td>/siz œʁ/／/diz œʁ/</td><td>heure为哑音h，接元音；连接辅音变/z/。</td></tr><tr><td>deux heures／trois heures</td><td>/døz œʁ/／/tʁwaz œʁ/</td><td>报时中的/z/连读；不要按字母读成/ks/。</td></tr><tr><td>neuf billets／neuf heures</td><td>/nœf bijɛ/／/nœv œʁ/</td><td>neuf常读/f/；在heures、ans等词前常变/v/，不能将所有数字都套成/z/。</td></tr><tr><td>sept heures</td><td>/sɛt œʁ/</td><td>sept通常发/t/；不能由词尾p推断发/p/。</td></tr><tr><td>huit heures／huit billets</td><td>/ɥit œʁ/／/ɥi bijɛ/</td><td>huit接元音与接辅音的常见区别。</td></tr><tr><td>poisson／poison</td><td>/pwasɔ̃/／/pwazɔ̃/</td><td>鱼／毒药，为/s z/最小对比拓展。</td></tr><tr><td>classe／rose</td><td>/klas/／/ʁoz/</td><td>classe的ss为/s/；rose元音间单s为/z/，不代表所有单s都读/z/。</td></tr></tbody></table></div><p><strong>听辨流程：</strong>先读six、six billets、six heures，再换dix三组；随后读<em>Le train part à six heures.</em>、<em>Je voudrais dix billets.</em>，把发音放回语境。目标是听懂数字与单位，不是把所有数字结尾机械加同一个辅音。</p><p>本表只讲这些常见搭配，日期／编号与复合数字可能有另外的读法。资料核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23137/la-prononciation/prononciation-des-nombres/prononciation-de-six-et-dix\" target=\"_blank\" rel=\"noopener\">OQLF six与dix</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/23136/la-prononciation/prononciation-des-nombres/prononciation-de-sept-et-neuf\" target=\"_blank\" rel=\"noopener\">sept与neuf</a>。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "11. 分层练习A—J与解析",
+          "html": "<h2>11. 分层练习A—J与解析</h2><p>先独立作答，再展开答案；T与B指正文的虚构时刻表和票面。开放题允许其他准确表达。</p><h3>A. 报出钟点：先用直接读法</h3><ol><li>01:00</li><li>08:10</li><li>08:15（再写et quart形式）</li><li>08:30（再写et demie形式）</li><li>08:45（再写moins形式）</li><li>12:00</li><li>00:30</li><li>21:15</li></ol><details><summary>展开答案与解析</summary><ol><li>Il est une heure. heure单数。</li><li>Il est huit heures dix. 不加et。</li><li>Il est huit heures quinze. / Il est huit heures et quart.</li><li>Il est huit heures trente. / Il est huit heures et demie.</li><li>Il est huit heures quarante-cinq. / Il est neuf heures moins le quart.</li><li>Il est midi. / Il est douze heures.</li><li>Il est zéro heure trente. / Il est minuit et demi.</li><li>Il est vingt et une heures quinze. / Il est neuf heures et quart du soir.</li></ol></details><h3>B. 日期、星期与月份</h3><ol><li>把1月1日写成法语日期。</li><li>把5月2日写成法语日期。</li><li>把6月15日写成法语日期。</li><li>填quel或quelle：____ est la date ?</li><li>把星期四、星期六写成法语。</li><li>七月、八月、十二月分别怎么写？</li><li>Je pars ____ mai.（仅说月份）</li><li>区别Je pars lundi与Je pars le lundi。</li></ol><details><summary>展开答案与解析</summary><ol><li>le 1er janvier／le premier janvier：首日用premier。</li><li>le 2 mai／le deux mai：2日起用基数，不用deuxième。</li><li>le 15 juin／le quinze juin。</li><li>Quelle：date阴性。</li><li>jeudi；samedi。日名一般小写。</li><li>juillet；août；décembre。保留重音符号。</li><li>en mai；单说月份用en。</li><li>前者上下文中的某个周一，后者每周一的习惯。</li></ol></details><h3>C. partir完整变位</h3><ol><li>Je ____ à dix heures.</li><li>Tu ____ demain.</li><li>Le train ____ de Paris.</li><li>Nous ____ le 5 mai.</li><li>Vous ____ à quelle heure ?</li><li>Elles ____ en train.</li><li>On ____ pour Lyon.</li><li>把Je pars aujourd’hui改为否定。</li></ol><details><summary>展开答案与解析</summary><ol><li>pars；je＋pars。</li><li>pars；tu＋pars。</li><li>part；第三人称单数。</li><li>partons；不写partissons。</li><li>partez；vous形式。</li><li>partent；复数词尾-ent不独立发音。</li><li>part；on与il同形。</li><li>Je ne pars pas aujourd’hui. ne…pas包pars。</li></ol></details><h3>D. 问题与答案对应</h3><ol><li>现在几点？写问题。</li><li>火车几点出发？用À quelle heure…写问题。</li><li>你什么时候出发？用quand est-ce que。</li><li>根据Je pars mercredi询问“哪一天”。</li><li>根据Nous sommes le 5 mai询问日期。</li><li>用est-ce que问“你明天出发吗”。</li></ol><details><summary>展开答案与解析</summary><ol><li>Quelle heure est-il ? 问当前时间。</li><li>À quelle heure part le train ? / À quelle heure est-ce que le train part ?</li><li>Quand est-ce que tu pars ? / Quand est-ce que vous partez ? 称呼任选但动词匹配。</li><li>Quel jour est-ce que tu pars ? / Vous partez quel jour ?</li><li>Quelle est la date ? / Quelle est la date aujourd’hui ?</li><li>Est-ce que tu pars demain ? / Est-ce que vous partez demain ?</li></ol></details><h3>E. 礼貌购票</h3><ol><li>礼貌请求一张去Lyon的单程票。</li><li>如何回答Un aller simple ou un aller-retour ?（要往返）</li><li>用法语说“二等座”。</li><li>听到Ce train est complet，是什么意思？</li><li>问对方重复刚才的话。</li><li>复述5月5日11:15去Lyon的单程票，请对方确认。</li></ol><details><summary>展开答案与解析</summary><ol><li>Je voudrais un aller simple pour Lyon, s’il vous plaît. 以voudrais表达礼貌。</li><li>Un aller-retour, s’il vous plaît. 包含去返。</li><li>En deuxième classe. 不用à deuxième classe。</li><li>该班次满员／售罄；不表示它准点或票已确认。</li><li>Vous pouvez répéter, s’il vous plaît ? / Pardon ? 功能表达。</li><li>Un aller simple pour Lyon, le 5 mai, à onze heures quinze. C’est bien ça ? 包含票种、目的地、日期、出发时刻。</li></ol></details><h3>F. T时刻表与B票面</h3><ol><li>T3从哪里到哪里？</li><li>T3出发和到达时刻分别是什么？</li><li>T2还可以买到资料设定的票吗？</li><li>想9点后、12点前出发且有空位，选哪班？</li><li>Lina的票是单程还是往返？什么等级？</li><li>Lina在几号股道？这是不是座位号？</li><li>按本资料T2历时多久？（补充计算）</li><li>B能说明车票允许免费改签吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>De Paris à Lyon；完整句Le train part de Paris pour Lyon。</li><li>11 h 15出发，13 h 15到达；不能颠倒。</li><li>不能；T2是complet。</li><li>T3。T1过早，T2满员。</li><li>Un aller simple，en deuxième classe。</li><li>Voie 4：4号股道，不是座位号。</li><li>1小时50分钟。9:45到11:35，同日同一时区。</li><li>不能，改签条件未提及。</li></ol></details><h3>G. 翻译与结构辨析</h3><ol><li>现在是九点半。</li><li>我九点半出发。</li><li>我们5月5日从Paris出发去Lyon。</li><li>他们坐火车去Lyon。（用aller）</li><li>我乘坐火车。（用prendre）</li><li>把Vous partez à quelle heure ?改为est-ce que问法。</li></ol><details><summary>展开答案与解析</summary><ol><li>Il est neuf heures et demie. / Il est neuf heures trente.</li><li>Je pars à neuf heures et demie. / Je pars à neuf heures trente. 保留à。</li><li>Nous partons de Paris pour Lyon le 5 mai.</li><li>Ils vont à Lyon en train. aller＋à城市＋en交通。</li><li>Je prends le train. prendre直接接le train。</li><li>À quelle heure est-ce que vous partez ? 不在est-ce que后再倒装。</li></ol></details><h3>H. 发音：标出目标音</h3><ol><li>six单独与six billets结尾有何区别？</li><li>six heures连接处是/s/还是/z/？</li><li>dix单独与dix heures的末尾有何区别？</li><li>neuf heures中常见/f/还是/v/？</li><li>sept heures是否读出/p/？</li><li>poisson与poison的中间分别读什么？</li></ol><details><summary>展开答案与解析</summary><ol><li>单独six常/sis/；six billets中数词限定词接辅音，/si bijɛ/，不读末尾/s/。</li><li>/z/：/siz œʁ/。heure为哑音h。</li><li>单独/dis/；dix heures连接为/diz œʁ/。</li><li>常见/v/：/nœv œʁ/；neuf billets仍常/f/。</li><li>不读/p/；sept通常/sɛt/，sept heures中的/t/发音。</li><li>poisson中/s/；poison中/z/。保持元音一致再比较声带振动。</li></ol></details><h3>I. 纠错</h3><ol><li>Il est un heure.</li><li>Il est huit heures et dix.</li><li>Il est midi et demie.</li><li>8:45＝huit heures moins le quart。</li><li>Nous partissons demain.</li><li>Je pars à le 5 mai.</li><li>À quelle heure est-ce que partez-vous ?</li><li>T3在13:15出发，因为票面写arrivée 13 h 15。</li></ol><details><summary>展开答案与解析</summary><ol><li>Il est une heure. heure阴性单数。</li><li>Il est huit heures dix. 普通分钟不加et。</li><li>Il est midi et demi. midi阳性。</li><li>8:45＝neuf heures moins le quart；huit heures moins le quart为7:45。</li><li>Nous partons demain. partir不按规则finir变位。</li><li>Je pars le 5 mai. 日期前le，无à；钟点才à＋时刻。</li><li>À quelle heure est-ce que vous partez ? / À quelle heure partez-vous ? 两种结构分开。</li><li>T3是11:15出发，13:15到达；arrivée不是départ。</li></ol></details><h3>J. 听说读写综合输出</h3><ol><li>按T表演一段6—10轮购票对话：先请求T2，遇到售罄后改T3，确认全部核心信息。</li><li>写5—7句告诉朋友Lina的行程，另问一个票面未给的信息。</li><li>录45—60秒报时和日期：01:00、08:45、17:30、00:30及5月5日；用完整句。</li><li>不看参考答案，把B票面整理成出发地、目的地、日期、出发、到达、票种、等级、股道、金额九项，再自查。</li></ol><details><summary>展开答案与解析</summary><ol><li>示范：Bonjour, je voudrais un aller simple pour Lyon le 5 mai. — À quelle heure ? — À neuf heures quarante-cinq, en deuxième classe. — Désolé, ce train est complet. Le train de onze heures quinze est disponible. — Il arrive à quelle heure ? — À treize heures quinze. Ça fait soixante-quatre euros. — Le 5 mai, à onze heures quinze, c’est bien ça ? — Oui. Voie quatre. 核对最终改选T3，称呼一致；不能仍报T2。</li><li>示范6句：Lina part de Paris pour Lyon le 5 mai. Elle part à onze heures quinze. Elle arrive à treize heures quinze. Elle prend un aller simple en deuxième classe. Son train part voie quatre. Quel est le numéro de sa place ? 最后问句为补充表达，座位号未给。</li><li>参考：Il est une heure. Il est neuf heures moins le quart. Il est dix-sept heures trente. Il est minuit et demi. Nous sommes le cinq mai. 核对时间换算、heure单复数、demi/demie；日期按本题设定而非当前日期。</li><li>Paris；Lyon；5 mai 2027；11 h 15；13 h 15；aller simple；deuxième classe；voie 4；64€。九项各有票面依据，未给的信息保留为空。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "12. 复习卡与间隔复习",
+          "html": "<h2>12. 复习卡与间隔复习</h2><ul><li>我能区分Il est…与Je pars à…，报出整点、普通分钟、et quart、et demie和moins le quart。</li><li>我能把17:30转换成5:30下午，正确处理midi et demi。</li><li>我会七个星期与十二个月，用le premier表示1日、其他日期用基数。</li><li>我能完整写出pars、pars、part、partons、partez、partent。</li><li>我能区分partir de／pour、aller à与prendre le train。</li><li>我能用quelle heure、à quelle heure、quand、quel jour提出对应问题。</li><li>我能礼貌购票，遇售罄问备选，复述最终日期、目的地、票种与时刻。</li><li>我能分清départ／arrivée、voie／座位编号及单程／往返。</li><li>我能正确读six/dix的三种常见环境和neuf heures的/v/。</li><li>我已完成A—J、小测、录音与行程短文，并在错题页说明错误原因。</li></ul><p>复习安排：当天做A—F；次日遮住变位表重做C、G、I；三天后只看T表录购票对话；一周后换一个虚构日期和班次再写行程。下一课第14课将时间放入职业与工作安排，第15课进一步描述日常习惯。</p><p>范围来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener\">出版方教学指南第13课目标</a>。本站例句和练习原创，不复制教材对话和答案。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "question": "Nous ____ demain.（partir）",
+          "options": [
+            "partons",
+            "partissons",
+            "pars"
+          ],
+          "answer": 0,
+          "explanation": "partir是不规则-ir动词，nous partons。",
+          "group": "grammar",
+          "id": "l13-q01"
+        },
+        {
+          "question": "On ____ pour Lyon.",
+          "options": [
+            "partons",
+            "part",
+            "partent"
+          ],
+          "answer": 1,
+          "explanation": "on＋第三人称单数part。",
+          "group": "grammar",
+          "id": "l13-q02"
+        },
+        {
+          "question": "Elles ____ en train.",
+          "options": [
+            "part",
+            "partez",
+            "partent"
+          ],
+          "answer": 2,
+          "explanation": "elles＋partent；词尾-ent不独立发音。",
+          "group": "grammar",
+          "id": "l13-q03"
+        },
+        {
+          "question": "现在是1点：Il est ____.",
+          "options": [
+            "une heure",
+            "un heure",
+            "une heures"
+          ],
+          "answer": 0,
+          "explanation": "heure阴性；1点用une heure单数。",
+          "group": "grammar",
+          "id": "l13-q04"
+        },
+        {
+          "question": "08:10的直接读法：",
+          "options": [
+            "huit heures et dix",
+            "huit heures dix",
+            "neuf heures dix"
+          ],
+          "answer": 1,
+          "explanation": "普通分钟直接接数字，不用et。",
+          "group": "grammar",
+          "id": "l13-q05"
+        },
+        {
+          "question": "08:45等于：",
+          "options": [
+            "huit heures moins le quart",
+            "neuf heures et quart",
+            "neuf heures moins le quart"
+          ],
+          "answer": 2,
+          "explanation": "8:45距离下一整点9点差15分钟。",
+          "group": "grammar",
+          "id": "l13-q06"
+        },
+        {
+          "question": "12:30的日常表达：",
+          "options": [
+            "midi et demi",
+            "midi et demie",
+            "midi et quart"
+          ],
+          "answer": 0,
+          "explanation": "midi阳性，用demi；半小时不是quart。",
+          "group": "grammar",
+          "id": "l13-q07"
+        },
+        {
+          "question": "17:30在时刻表中的读法：",
+          "options": [
+            "dix-sept heures et demie",
+            "dix-sept heures trente",
+            "sept heures trente"
+          ],
+          "answer": 1,
+          "explanation": "24小时制用直接分钟；口语可换cinq heures et demie。",
+          "group": "grammar",
+          "id": "l13-q08"
+        },
+        {
+          "question": "问“现在几点”：",
+          "options": [
+            "À quelle heure pars-tu ?",
+            "Quel jour est-ce ?",
+            "Quelle heure est-il ?"
+          ],
+          "answer": 2,
+          "explanation": "问当前时刻用Quelle heure est-il，行动时刻用à quelle heure。",
+          "group": "grammar",
+          "id": "l13-q09"
+        },
+        {
+          "question": "我9点出发：Je pars ____ neuf heures.",
+          "options": [
+            "à",
+            "le",
+            "en"
+          ],
+          "answer": 0,
+          "explanation": "动作时刻用à＋钟点。",
+          "group": "grammar",
+          "id": "l13-q10"
+        },
+        {
+          "question": "1月1日读作：",
+          "options": [
+            "le un janvier",
+            "le premier janvier",
+            "le première janvier"
+          ],
+          "answer": 1,
+          "explanation": "月份首日用le premier＋月名。",
+          "group": "grammar",
+          "id": "l13-q11"
+        },
+        {
+          "question": "6月2日读作：",
+          "options": [
+            "le deuxième juin",
+            "à deux juin",
+            "le deux juin"
+          ],
+          "answer": 2,
+          "explanation": "2日起通常用基数日数，日期前le。",
+          "group": "grammar",
+          "id": "l13-q12"
+        },
+        {
+          "question": "____ est la date ?",
+          "options": [
+            "Quelle",
+            "Quel",
+            "Quels"
+          ],
+          "answer": 0,
+          "explanation": "date阴性单数，quelle。",
+          "group": "grammar",
+          "id": "l13-q13"
+        },
+        {
+          "question": "Je pars ____ mai.（五月）",
+          "options": [
+            "à",
+            "en",
+            "au"
+          ],
+          "answer": 1,
+          "explanation": "单说月份用en mai。",
+          "group": "grammar",
+          "id": "l13-q14"
+        },
+        {
+          "question": "Je pars le lundi的意思通常是：",
+          "options": [
+            "下一个周一仅一次",
+            "在星期日出发",
+            "每逢周一出发"
+          ],
+          "answer": 2,
+          "explanation": "le＋星期表示习惯；具体某周一常不用le。",
+          "group": "grammar",
+          "id": "l13-q15"
+        },
+        {
+          "question": "“从Paris出发”用：",
+          "options": [
+            "partir de Paris",
+            "partir pour Paris",
+            "partir Paris"
+          ],
+          "answer": 0,
+          "explanation": "de标出发地；pour标去向。",
+          "group": "grammar",
+          "id": "l13-q16"
+        },
+        {
+          "question": "“动身去Lyon”用：",
+          "options": [
+            "partir de Lyon",
+            "partir pour Lyon",
+            "partir le Lyon"
+          ],
+          "answer": 1,
+          "explanation": "partir pour＋目的地。",
+          "group": "grammar",
+          "id": "l13-q17"
+        },
+        {
+          "question": "礼貌请求一张去Lyon的票：",
+          "options": [
+            "Je veux Lyon.",
+            "Je pars billet.",
+            "Je voudrais un billet pour Lyon."
+          ],
+          "answer": 2,
+          "explanation": "Je voudrais…为礼貌请求，pour引目的地。",
+          "group": "speaking",
+          "id": "l13-q18"
+        },
+        {
+          "question": "un aller simple表示：",
+          "options": [
+            "单程票",
+            "往返票",
+            "车票等级"
+          ],
+          "answer": 0,
+          "explanation": "aller simple仅去程；aller-retour为往返。",
+          "group": "vocabulary",
+          "id": "l13-q19"
+        },
+        {
+          "question": "Ce train est complet表示：",
+          "options": [
+            "这班车准点",
+            "这班车满员／售罄",
+            "车票有回程"
+          ],
+          "answer": 1,
+          "explanation": "complet在购票语境表示满员或售罄。",
+          "group": "vocabulary",
+          "id": "l13-q20"
+        },
+        {
+          "question": "按T表：9点以后12点以前出发且有空位，选：",
+          "options": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "answer": 2,
+          "explanation": "T1早于9点；T2虽时间符合但售罄；T3为11:15且可用。",
+          "group": "reading",
+          "id": "l13-q21"
+        },
+        {
+          "question": "Lina最终出发时刻是：",
+          "options": [
+            "11 h 15",
+            "9 h 45",
+            "13 h 15"
+          ],
+          "answer": 0,
+          "explanation": "原想T2，最终改为T3，11:15出发。",
+          "group": "reading",
+          "id": "l13-q22"
+        },
+        {
+          "question": "票面B的voie 4表示：",
+          "options": [
+            "4号座位",
+            "4号股道",
+            "4号车厢"
+          ],
+          "answer": 1,
+          "explanation": "voie是股道，座位和车厢未给。",
+          "group": "reading",
+          "id": "l13-q23"
+        },
+        {
+          "question": "T2在同日同一时区9:45到11:35，用时：",
+          "options": [
+            "2小时",
+            "1小时35分钟",
+            "1小时50分钟"
+          ],
+          "answer": 2,
+          "explanation": "11:35－9:45＝1:50，属于补充时间差计算。",
+          "group": "reading",
+          "id": "l13-q24"
+        },
+        {
+          "question": "正确的est-ce que问法：",
+          "options": [
+            "À quelle heure est-ce que vous partez ?",
+            "À quelle heure est-ce que partez-vous ?",
+            "Quelle heure vous partons ?"
+          ],
+          "answer": 0,
+          "explanation": "est-ce que后保留主语＋动词，不再倒装。",
+          "group": "grammar",
+          "id": "l13-q25"
+        },
+        {
+          "question": "six heures连接辅音为：",
+          "options": [
+            "/s/",
+            "/z/",
+            "/ks/"
+          ],
+          "answer": 1,
+          "explanation": "数词six接哑音h的heures，常/siz œʁ/。",
+          "group": "pronunciation",
+          "id": "l13-q26"
+        },
+        {
+          "question": "dix billets中的dix常读：",
+          "options": [
+            "/dis/",
+            "/diz/",
+            "/di/"
+          ],
+          "answer": 2,
+          "explanation": "数词限定词接辅音开头billets时不读末尾辅音。",
+          "group": "pronunciation",
+          "id": "l13-q27"
+        },
+        {
+          "question": "neuf heures中的f常读：",
+          "options": [
+            "/v/",
+            "/z/",
+            "/p/"
+          ],
+          "answer": 0,
+          "explanation": "neuf在heures、ans等词前常由/f/变/v/。",
+          "group": "pronunciation",
+          "id": "l13-q28"
+        },
+        {
+          "question": "poisson与poison中间的音分别是：",
+          "options": [
+            "/z/、/s/",
+            "/s/、/z/",
+            "均为/ks/"
+          ],
+          "answer": 1,
+          "explanation": "poisson双ss为/s/；poison元音间单s为/z/。",
+          "group": "pronunciation",
+          "id": "l13-q29"
+        },
+        {
+          "question": "按B票面写行程，哪句准确？",
+          "options": [
+            "Elle part de Lyon à 13 h 15.",
+            "Elle prend un aller-retour.",
+            "Elle part de Paris à 11 h 15."
+          ],
+          "answer": 2,
+          "explanation": "B为Paris出发11:15，去Lyon单程。",
+          "group": "writing",
+          "id": "l13-q30"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "hours",
+          "dates",
+          "partir",
+          "questions"
+        ],
+        "vocabulary": [
+          "words",
+          "tickets"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "dates",
+          "reading"
+        ],
+        "speaking": [
+          "questions",
+          "tickets",
+          "phrases"
+        ],
+        "writing": [
+          "hours",
+          "dates",
+          "partir",
+          "phrases"
+        ]
+      },
+      "listening": "第13课教材配套音轨：先辨目的地、票种，再记录日期、最终出发与到达时刻、股道，最后对照教材复听数字。本站T表和购票对话为原创虚构练习，不是教材逐字稿。"
+    },
+    {
+      "number": 15,
+      "title": "Le dimanche matin",
+      "translation": "星期日早晨",
+      "pages": "50–51",
+      "core": [
+        "lire / écrire 现在时",
+        "代词式动词",
+        "faire de / jouer à 与运动",
+        "正在进行的活动与日常习惯",
+        "法语 r 音"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标与范围",
+          "html": "<h2>1. 学习目标与范围</h2><p>第15课 <strong>Le dimanche matin（星期日早晨）</strong>，教材第50—51页，核心是询问正在做什么和日常习惯、说明参加的运动。语法重点：lire与écrire现在时、代词式动词、faire de／jouer à＋运动；语音重点是法语r音。第13课的钟点、第14课的faire和疑问句会在本课反复使用。</p><div class=\"table-scroll\"><table><thead><tr><th>层次</th><th>内容</th><th>学完后的表现</th></tr></thead><tbody><tr><td>教材核心</td><td>lire／écrire六人称；代词式动词；运动搭配；r音</td><td>用6—10句介绍周日习惯，问别人几点起床、做什么、参加什么运动。</td></tr><tr><td>复习</td><td>faire、est-ce que、ne…pas、时间、频率</td><td>把动作按时间排序，区分具体这周日与每周日。</td></tr><tr><td>补充</td><td>dormir完整变位；身体部位定冠词；不定式代词匹配</td><td>看懂dors／dormons；改写人称和否定时不漏反身代词。</td></tr></tbody></table></div><p>讲解、人物资料、对话与练习均为本站原创。先学变位与结构，再读三个周日安排，完成A—J和小测，最后录音、写自己的真实习惯。现在时能表达“正在做”或“经常做”，要看语境；不必为每个“正在”都增加另一套时态。</p>"
+        },
+        {
+          "id": "readwrite",
+          "title": "2. lire与écrire：完整变位、词干与搭配",
+          "html": "<h2>2. lire与écrire：完整变位、词干与搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>lire（读）</th><th>écrire（写）</th><th>例句</th></tr></thead><tbody><tr><td>je</td><td>lis</td><td>écris（j’écris）</td><td>Je lis un livre. J’écris une lettre.</td></tr><tr><td>tu</td><td>lis</td><td>écris</td><td>Tu lis le journal ? Tu écris à Lina ?</td></tr><tr><td>il / elle / on</td><td>lit</td><td>écrit</td><td>Elle lit un roman. On écrit à des amis.</td></tr><tr><td>nous</td><td>lisons</td><td>écrivons</td><td>Nous lisons des livres. Nous écrivons des messages.</td></tr><tr><td>vous</td><td>lisez</td><td>écrivez</td><td>Vous lisez quoi ? Vous écrivez souvent ?</td></tr><tr><td>ils / elles</td><td>lisent</td><td>écrivent</td><td>Ils lisent le journal. Elles écrivent à leurs amis.</td></tr></tbody></table></div><p><strong>词干变化：</strong>lire单数li-，复数lis-；écrire单数écri-，复数écriv-。不能从je lis直接造nous lions，不能写nous écrions。单数lis／lit读/li/，écris／écrit读/ekʁi/；复数ils lisent读/liz/，ils écrivent读/ekʁiv/，-ent不单独发音，但词干辅音可听见。</p><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>完整示范</th><th>辨析</th></tr></thead><tbody><tr><td>lire＋读物</td><td>Je lis le journal. Elle lit un livre.</td><td>直接接读物，不加à：不是lire à un livre。</td></tr><tr><td>écrire＋内容</td><td>J’écris une lettre / un message / une carte postale.</td><td>写什么直接接内容。</td></tr><tr><td>écrire à＋收件人</td><td>J’écris à un ami. Nous écrivons à nos amis.</td><td>写给谁用à；可同时有内容：J’écris une lettre à Lina。</td></tr><tr><td>否定</td><td>Je ne lis pas le journal. Je n’écris pas aujourd’hui.</td><td>écris以元音开头，ne省音n’。</td></tr><tr><td>on与nous</td><td>On lit / on écrit；nous lisons / nous écrivons</td><td>口语on代我们时动词仍第三人称单数。</td></tr></tbody></table></div><p>与faire复习并列：<em>Je fais les courses, je lis un livre et j’écris à un ami.</em> 三个动词都随je；<em>Nous faisons les courses, nous lisons et nous écrivons.</em> 三个都随nous，不能只换第一个主语。变位可核对<a href=\"https://www.laits.utexas.edu/tex/gr/virr11.html\" target=\"_blank\" rel=\"noopener\">得州大学lire／écrire资料</a>。</p>"
+        },
+        {
+          "id": "reflexive",
+          "title": "3. 代词式动词：两处都随主语变化",
+          "html": "<h2>3. 代词式动词：两处都随主语变化</h2><p><strong>代词式动词（verbes pronominaux）</strong>在不定式中带se：se laver（洗漱）、s’habiller（穿衣）、se lever（起床）、se reposer（休息）。本课主要是动作与自己有关的日常表达；并非所有带se的动词都能机械译成“自己做自己”。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>对应代词</th><th>se laver完整句</th><th>s’habiller完整句</th></tr></thead><tbody><tr><td>je</td><td>me / m’</td><td>Je me lave.</td><td>Je m’habille.</td></tr><tr><td>tu</td><td>te / t’</td><td>Tu te laves.</td><td>Tu t’habilles.</td></tr><tr><td>il / elle / on</td><td>se / s’</td><td>Elle se lave. On se lave.</td><td>Il s’habille. On s’habille.</td></tr><tr><td>nous</td><td>nous</td><td>Nous nous lavons.</td><td>Nous nous habillons.</td></tr><tr><td>vous</td><td>vous</td><td>Vous vous lavez.</td><td>Vous vous habillez.</td></tr><tr><td>ils / elles</td><td>se / s’</td><td>Ils se lavent.</td><td>Elles s’habillent.</td></tr></tbody></table></div><p>换人称要同时换<strong>主语＋代词＋动词</strong>。<em>Je me lave → Nous nous lavons</em>，不是Nous me lave。nous nous、vous vous不是多写一次：前一个为主语，后一个为动词对应的代词。me／te／se在元音或哑音h前省音；habiller为哑音h，故m’habille／t’habilles／s’habille，而不是me habille。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>se lever</th><th>se reposer</th></tr></thead><tbody><tr><td>je</td><td>Je me lève.</td><td>Je me repose.</td></tr><tr><td>tu</td><td>Tu te lèves.</td><td>Tu te reposes.</td></tr><tr><td>il / elle / on</td><td>Elle se lève. On se lève.</td><td>Il se repose. On se repose.</td></tr><tr><td>nous</td><td>Nous nous levons.</td><td>Nous nous reposons.</td></tr><tr><td>vous</td><td>Vous vous levez.</td><td>Vous vous reposez.</td></tr><tr><td>ils / elles</td><td>Ils se lèvent.</td><td>Elles se reposent.</td></tr></tbody></table></div><p><strong>lever的重音变化：</strong>je／tu／il／ils词干为lèv-；nous／vous为lev-：<em>je me lève</em>，但<em>nous nous levons</em>。不能写nous nous lèvons。动词重音符号与反身代词是两项独立检查。</p><p><strong>动作对象的区别：</strong><em>Je me lave.</em>＝我洗漱／洗自己；<em>Je lave la voiture.</em>＝我洗车，laver的对象是车，因此不加me。补充：<em>Je me lave les mains.</em>用定冠词les，通常不写mes mains，因为me已说明动作关联自己的身体。</p>"
+        },
+        {
+          "id": "patterns",
+          "title": "4. 否定、提问与不定式中的代词位置",
+          "html": "<h2>4. 否定、提问与不定式中的代词位置</h2><div class=\"table-scroll\"><table><thead><tr><th>功能</th><th>正确句子</th><th>位置说明</th></tr></thead><tbody><tr><td>肯定</td><td>Je me lève à huit heures.</td><td>主语＋代词＋变位动词＋时间。</td></tr><tr><td>否定</td><td>Je ne me lève pas à huit heures.</td><td>ne在代词前；pas在变位动词后。</td></tr><tr><td>元音动词否定</td><td>Elle ne s’habille pas maintenant.</td><td>ne后接s’，不写Elle n’s’habille；se在habille前省音。</td></tr><tr><td>on否定</td><td>On ne se repose pas le matin.</td><td>on配se与第三人称单数repose。</td></tr><tr><td>是否问题</td><td>Est-ce que vous vous levez tôt ?</td><td>est-ce que后保留vous vous levez，不倒装。</td></tr><tr><td>动作问题</td><td>Qu’est-ce que tu fais le dimanche matin ?</td><td>问活动；回答动词和活动。</td></tr><tr><td>钟点问题</td><td>À quelle heure est-ce que tu te lèves ?</td><td>à quelle heure问起床时刻；te必须保留。</td></tr><tr><td>口语问题</td><td>Tu t’habilles à quelle heure ?</td><td>疑问词可放末尾；保持tu、t’、habilles对应。</td></tr><tr><td>不定式补充</td><td>J’aime me reposer. Nous aimons nous reposer.</td><td>aimer先变位，后接不定式；代词仍与动作主语对应。</td></tr><tr><td>代词式不定式省音</td><td>J’aime m’habiller.</td><td>m’在不定式habiller前，不放到aime前。</td></tr></tbody></table></div><p>错误位置辨析：<em>Je me ne lève pas</em>→<em>Je ne me lève pas</em>；<em>Est-ce que vous levez ?</em>→<em>Est-ce que vous vous levez ?</em>；<em>J’aime se reposer</em>→<em>J’aime me reposer</em>（我喜欢休息）。不定式结构为补充训练，本课不要求代词式命令式或复合过去时。</p><h3>dormir：词汇出现时的补充变位</h3><div class=\"table-scroll\"><table><thead><tr><th>je</th><th>tu</th><th>il / elle / on</th><th>nous</th><th>vous</th><th>ils / elles</th></tr></thead><tbody><tr><td>dors</td><td>dors</td><td>dort</td><td>dormons</td><td>dormez</td><td>dorment</td></tr></tbody></table></div><p><em>Je dors</em>＝我睡觉，<em>je me lève</em>＝我起床；dormir本身不带se，不能因日常动作就统一加me。<em>Je dors à huit heures</em>与<em>Je me lève à huit heures</em>信息不同。单数dors／dort常/dɔʁ/，ils dorment为/dɔʁm/。</p><p>结构核对：<a href=\"https://www.laits.utexas.edu/tex/gr/vpr1.html\" target=\"_blank\" rel=\"noopener\">得州大学代词式动词</a>。先掌握当前的日常用法，再在后续课扩展其他语态与时态。</p>"
+        },
+        {
+          "id": "sports",
+          "title": "5. faire de与jouer à：运动搭配",
+          "html": "<h2>5. faire de与jouer à：运动搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>想说的活动</th><th>faire de结构</th><th>jouer à或其他说法</th></tr></thead><tbody><tr><td>骑自行车</td><td>faire du vélo</td><td>de＋le vélo→du vélo；不写jouer au vélo。</td></tr><tr><td>游泳</td><td>faire de la natation</td><td>也可nager（游泳），作为词汇补充。</td></tr><tr><td>田径</td><td>faire de l’athlétisme</td><td>元音前用l’，不缩成du。</td></tr><tr><td>体操</td><td>faire de la gymnastique</td><td>gymnastique阴性，de la。</td></tr><tr><td>滑雪</td><td>faire du ski</td><td>也可skier；不是jouer au ski。</td></tr><tr><td>足球</td><td>faire du football / du foot</td><td>jouer au football / au foot；两种都可说，不能把faire du foot判错。</td></tr><tr><td>网球</td><td>faire du tennis</td><td>jouer au tennis；à＋le→au。</td></tr><tr><td>篮球</td><td>faire du basket</td><td>jouer au basket，球类常用jouer à。</td></tr><tr><td>跑步／慢跑</td><td>faire un footing</td><td>un footing为活动量／一次慢跑；也可faire du footing，不能断言只有一种。</td></tr><tr><td>下棋（补充游戏）</td><td>此处练jouer的搭配</td><td>jouer aux échecs，à＋les→aux，不是au échecs。</td></tr></tbody></table></div><h3>三个结构分开学</h3><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>例句</th><th>说明</th></tr></thead><tbody><tr><td>faire＋de＋运动名</td><td>Je fais du vélo. Elle fait de la natation.</td><td>de随冠词成为du／de la／de l’；同时faire随主语变位。</td></tr><tr><td>jouer＋à＋运动／游戏</td><td>Nous jouons au tennis. Ils jouent aux échecs.</td><td>à＋le→au；à＋les→aux。</td></tr><tr><td>jouer＋de＋乐器（拓展对照）</td><td>Elle joue du piano.</td><td>piano乐器不是运动；本课只作介词辨析，不扩展乐器课程。</td></tr></tbody></table></div><p><strong>jouer规则-er变位：</strong>je joue、tu joues、il/elle/on joue、nous jouons、vous jouez、ils/elles jouent。完整句：<em>Vous jouez au tennis ? — Oui, nous jouons au tennis.</em>，不是nous jouer。<strong>faire复习：</strong>je fais、tu fais、il fait、nous faisons、vous faites、ils font；<em>On fait du vélo.</em>不写on faisons。</p><p><strong>对应问题：</strong><em>Quel sport est-ce que tu fais ? — Je fais de la natation.</em>；<em>À quoi est-ce que vous jouez ? — Nous jouons au tennis.</em>（你们玩什么运动／游戏？）。补充否定：<em>Je ne fais pas de vélo.</em>中du变de；<em>Je ne joue pas au tennis.</em>中的au保留，因为它来自jouer à＋le，不是部分冠词。</p>"
+        },
+        {
+          "id": "habits",
+          "title": "6. 正在做、经常做与活动顺序",
+          "html": "<h2>6. 正在做、经常做与活动顺序</h2><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>例句</th><th>意思</th></tr></thead><tbody><tr><td>en ce moment／maintenant</td><td>En ce moment, je lis un message.</td><td>现在正在读；法语现在时即可。</td></tr><tr><td>le dimanche</td><td>Le dimanche, je fais du vélo.</td><td>每逢周日的习惯。</td></tr><tr><td>dimanche（prochain）</td><td>Dimanche prochain, je joue au tennis.</td><td>下一次周日的安排；仍可用现在时表达安排。</td></tr><tr><td>tous les dimanches</td><td>Tous les dimanches, nous écrivons à nos amis.</td><td>每周日；tous＋les＋复数日名。</td></tr><tr><td>en général／d’habitude</td><td>En général, je me lève à huit heures.</td><td>通常／习惯上。</td></tr><tr><td>souvent</td><td>Je lis souvent le soir.</td><td>经常；时间副词常放变位动词后。</td></tr><tr><td>parfois</td><td>Parfois, je joue au tennis.</td><td>有时，可放句首。</td></tr><tr><td>toujours</td><td>Je me lève toujours tôt.</td><td>总是；放完整变位动词后，不插在me与lève之间。</td></tr><tr><td>à／vers</td><td>à neuf heures；vers neuf heures</td><td>九点／九点左右。</td></tr><tr><td>d’abord → ensuite → puis → après</td><td>D’abord, je me lave. Ensuite, je m’habille. Puis, je lis.</td><td>先→接着→然后→之后。可选，不必每句都堆连接词。</td></tr></tbody></table></div><p><strong>时间段：</strong><em>le matin</em>早上、<em>l’après-midi</em>下午、<em>le soir</em>晚上；<em>ce matin</em>今天早上。<em>une journée</em>强调白天的一段活动：<em>Je passe la journée à la maison.</em>为补充例句；<em>un jour</em>也可表示日历中的一天。不要把“周日上午”直接译成à dimanche matin。</p><p>同一个现在时形式可用不同时间线：<em>Je lis.</em>可能是现在正在读，也可能在介绍习惯。问清语境：<em>Qu’est-ce que tu fais maintenant ?</em>与<em>Qu’est-ce que tu fais le dimanche ?</em>不是同一个问题。没有频率信息时，不能从某一次活动推断“每天都做”。</p>"
+        },
+        {
+          "id": "words",
+          "title": "7. 日常活动与休闲词汇",
+          "html": "<h2>7. 日常活动与休闲词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词汇</th><th>词性／性别与意思</th><th>搭配与例句</th></tr></thead><tbody><tr><td>se lever</td><td>代词式动词，起床</td><td>Je me lève tôt. 注意lève／levons。</td></tr><tr><td>se laver</td><td>代词式动词，洗漱</td><td>Tu te laves. 不等于laver la voiture洗车。</td></tr><tr><td>s’habiller</td><td>代词式动词，穿衣</td><td>Elle s’habille. habiller哑音h可省音。</td></tr><tr><td>se reposer</td><td>代词式动词，休息</td><td>Nous nous reposons l’après-midi.</td></tr><tr><td>dormir</td><td>动词，睡觉</td><td>Je dors；nous dormons。不带se。</td></tr><tr><td>lire / écrire</td><td>动词，读／写</td><td>lire un livre；écrire une lettre à un ami。</td></tr><tr><td>un livre / un roman</td><td>阳性，书／小说</td><td>Elle lit un roman.</td></tr><tr><td>un journal → des journaux</td><td>阳性，报纸</td><td>Je lis le journal. 复数journaux。</td></tr><tr><td>une lettre / une carte postale</td><td>阴性，信／明信片</td><td>J’écris une carte postale.</td></tr><tr><td>un message</td><td>阳性，消息</td><td>Nous écrivons des messages.</td></tr><tr><td>un ami / une amie</td><td>阳性／阴性，朋友</td><td>écrire à des amis；jouer avec une amie。</td></tr><tr><td>le petit déjeuner</td><td>阳性，早餐</td><td>prendre le petit déjeuner，通常不能按汉语漏冠词。</td></tr><tr><td>déjeuner</td><td>动词，吃午餐</td><td>Nous déjeunons à midi.</td></tr><tr><td>faire les courses</td><td>动词短语，采购／买日用品</td><td>Je fais les courses au marché. 不是上课。</td></tr><tr><td>faire le ménage</td><td>动词短语，做家务／打扫</td><td>Elle fait le ménage. 与faire les courses分开。</td></tr><tr><td>un marché</td><td>阳性，集市／市场</td><td>aller au marché；à＋le→au。</td></tr><tr><td>la campagne</td><td>阴性，乡村</td><td>aller à la campagne；不是le campagne。</td></tr><tr><td>un parc</td><td>阳性，公园</td><td>faire du vélo dans le parc。</td></tr><tr><td>une piscine</td><td>阴性，游泳池</td><td>aller à la piscine，faire de la natation。</td></tr><tr><td>le tennis / le foot / le vélo</td><td>阳性，网球／足球／自行车</td><td>jouer au tennis、au foot；faire du vélo。</td></tr><tr><td>la natation / la gymnastique</td><td>阴性，游泳／体操</td><td>faire de la natation／de la gymnastique。</td></tr><tr><td>l’athlétisme (m.) / le ski</td><td>阳性，田径／滑雪</td><td>faire de l’athlétisme／du ski。</td></tr><tr><td>la musique / écouter</td><td>阴性名词音乐／动词听</td><td>écouter de la musique；无需écouter à。</td></tr><tr><td>rentrer / tôt / tard</td><td>动词回家／副词早／晚</td><td>Je rentre tard. 与se lever起床不同。</td></tr><tr><td>le matin / l’après-midi / le soir</td><td>时间段，早／下午／晚</td><td>le dimanche matin；l’après-midi。</td></tr><tr><td>d’abord / ensuite / puis</td><td>副词，先／随后／然后</td><td>D’abord, je me lave. Ensuite, je m’habille.</td></tr></tbody></table></div><p><strong>三组不要混：</strong>faire les courses（采购）／prendre des cours（上课，补充对照）；se reposer（休息）／dormir（睡觉）；écrire un message（写消息）／écrire à une amie（写给朋友）。阴阳性要连冠词一起记，练习时同时检查de／à的缩合。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "8. 原创人物资料：谁、几点、做什么",
+          "html": "<h2>8. 原创人物资料：谁、几点、做什么</h2><p>以下三份资料都是人物通常的周日安排，不是当前正在发生的直播记录。</p><h3>A · Lina</h3><blockquote>Le dimanche, je me lève à huit heures et demie. Je me lave et je m’habille. À neuf heures, je prends mon petit déjeuner et je lis le journal. À dix heures, je fais de la natation à la piscine. L’après-midi, j’écris une lettre à une amie.</blockquote><p>译文：周日我8:30起床，洗漱、穿衣。9点吃早餐并读报。10点去泳池游泳。下午给一位女性朋友写信。资料未说明游泳时长和午餐安排。</p><h3>B · Marc</h3><blockquote>En général, le dimanche, je me lève à neuf heures. Je prends un café. À dix heures, je joue au tennis avec des amis. L’après-midi, je me repose et je lis un roman. Je ne fais pas les courses le dimanche.</blockquote><p>译文：通常周日我9点起床，喝咖啡。10点和朋友打网球。下午休息并读小说。周日不采购。资料没说他完全不吃早餐，只写了咖啡；没有写给谁发信。</p><h3>C · Claire et Noé</h3><blockquote>Nous nous levons à sept heures quarante-cinq. Le dimanche, nous faisons du vélo à neuf heures. À onze heures, nous allons au marché et nous faisons les courses. Nous déjeunons à midi. Ensuite, nous écrivons à nos amis.</blockquote><p>译文：我们7:45起床。周日9点骑车，11点去市场采购，中午吃午餐。随后给朋友写信／写消息。具体写的是信、邮件还是消息未说明，不能从écrivons à…自行选定载体。</p><div class=\"table-scroll\"><table><thead><tr><th>人物</th><th>起床</th><th>运动</th><th>其他活动</th></tr></thead><tbody><tr><td>Lina</td><td>8 h 30</td><td>10 h：natation</td><td>9 h早餐＋读报；下午写信给une amie。</td></tr><tr><td>Marc</td><td>9 h</td><td>10 h：tennis</td><td>下午休息＋读小说；明确周日不采购。</td></tr><tr><td>Claire et Noé</td><td>7 h 45</td><td>9 h：vélo</td><td>11 h市场采购；midi午餐；随后写给nos amis。</td></tr></tbody></table></div><p><strong>人称改写示范：</strong>Lina第一人称<em>Je me lève… j’écris à une amie</em>→<em>Elle se lève… elle écrit à une amie</em>。Claire et Noé的<em>Nous nous levons… nos amis</em>→<em>Ils se lèvent… leurs amis</em>。只把nous换ils而留下nous levons或nos amis，会改变或破坏表达。</p><p>判断阅读结论时，先找时间词和否定：Marc“不采购”有证据；Marc“不吃早餐”证据不足；Lina“每天游泳”证据不足，因为原文仅说le dimanche。不能把“周日习惯”扩大为“所有日子”。</p>"
+        },
+        {
+          "id": "phrases",
+          "title": "9. 完整对话与听说读写任务",
+          "html": "<h2>9. 完整对话与听说读写任务</h2><h3>原创朋友对话：问习惯，也问当前活动</h3><blockquote><p>Mei : Qu’est-ce que tu fais le dimanche matin ?<br>Alex : D’abord, je me lève vers huit heures. Ensuite, je me lave et je m’habille.<br>Mei : Tu lis le journal ?<br>Alex : Oui, je lis souvent le journal après le petit déjeuner.<br>Mei : Et tu fais quel sport ?<br>Alex : Je fais du vélo. Parfois, je joue au tennis avec des amis.<br>Mei : Moi, je fais de la natation. À quelle heure est-ce que tu te reposes ?<br>Alex : L’après-midi, en général. Et toi, tu écris à tes amis ?<br>Mei : Oui, j’écris souvent des messages. Maintenant, j’écris à Lina.<br>Alex : D’accord. En ce moment, moi, je lis une lettre.</p></blockquote><p>译读：两人先谈周日习惯，再询问读报与运动。Alex的起床时刻是8点左右，运动频率有“有时”；最后Mei“现在写给Lina”、Alex“现在读信”，转到当前活动。全文称呼保持tu；问À quelle heure时，Alex只给下午这一宽泛时间，可以补问<em>À deux heures ou à trois heures ?</em>，不能替他填一个确切钟点。</p><h3>四项训练</h3><ol><li><strong>听：</strong>确认你所用教材版本第15课配套音轨；第一遍识别人和主题，第二遍记动作、钟点、运动和频率，第三遍对照教材，第四遍模仿r音。本站对话是原创，不是教材音轨逐字稿。</li><li><strong>说：</strong>录60—90秒描述自己周日，包含一个代词式动词、lire、écrire、一个运动搭配和两个时间表达；再问同伴两个问题。</li><li><strong>读：</strong>先不看中文，按A/B/C完成“人物—时间—动作—是否有否定”的表，再标两条未提及的信息。</li><li><strong>写：</strong>写8—10句周日习惯，按d’abord／ensuite／puis组织；再把其中4句je改成elle，检查代词与变位。</li></ol><p>对自己习惯没有的活动可用否定：<em>Je ne joue pas au tennis.</em>；写给谁用<em>J’écris à un ami.</em>；不能为了凑结构编成与自己不符的习惯。参考范文只用于语言结构对照。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "10. 法语r音：从轻摩擦到完整句",
+          "html": "<h2>10. 法语r音：从轻摩擦到完整句</h2><p>法语r在常见标准发音中可用音标/ʁ/表示，发音位置靠口腔后部。舌尖保持放松，不把它卷成普通话r，也不要求像某些语言一样舌尖连续打颤。先让气流轻轻通过舌后部附近，产生轻摩擦；不要用力咳嗽或夹紧喉咙。不同地区有变体，本课练一个稳定、清楚的常见发音即可。</p><div class=\"table-scroll\"><table><thead><tr><th>步骤</th><th>材料</th><th>自查</th></tr></thead><tbody><tr><td>1. 元音带r</td><td>/aʁ/、/iʁ/、/uʁ/</td><td>保持元音，后部轻摩擦；不在r后补一个额外元音。</td></tr><tr><td>2. 单个词</td><td>lire /liʁ/；repos /ʁəpo/；rue /ʁy/</td><td>读lire不要变成“li-re”两个完整元音；rue保留/y/圆唇。</td></tr><tr><td>3. 辅音组合</td><td>écrire /ekʁiʁ/；prendre /pʁɑ̃dʁ/</td><td>cr／pr顺滑连接，不插入“ke-re／pe-re”。</td></tr><tr><td>4. 本来发音的词尾</td><td>dormir /dɔʁmiʁ/；partir /paʁtiʁ/</td><td>本课这两个-ir不定式末尾r发音。</td></tr><tr><td>5. 别把所有词尾r都读出</td><td>jouer /ʒwe/；lever /ləve/；habiller /abije/</td><td>规则-er不定式词尾-er常读/e/，不加/ʁ/。habiller中的ill此处读/j/。</td></tr><tr><td>6. 词组</td><td>Je lis un roman. J’écris une lettre. Je me repose.</td><td>roman、écris、lettre、repose带r；速度先慢后自然。</td></tr></tbody></table></div><p><strong>录音任务：</strong>慢读<em>lire — écrire — se reposer — partir — jouer</em>，再读<em>Le dimanche, je lis un roman et j’écris à un ami.</em>。用教材或<a href=\"https://laits.utexas.edu/fi/html/pho/04.html\" target=\"_blank\" rel=\"noopener\">得州大学r音音频</a>比较轻摩擦、连贯与词尾。音标为学习用近似标记，不是强制唯一地区口音。</p><p><strong>本课其他发音复习：</strong>lis／lit单数不读末尾s/t，lisent的词干/s/实际为/z/；écrit单数不读t，écrivent有/v/；nous nous levons两个nous都要留，不能为省力丢掉反身代词。读课文时先听主体与动作，而不只逐个字母读。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "11. 分层练习A—J与参考解析",
+          "html": "<h2>11. 分层练习A—J与参考解析</h2><p>先独立完成；A/B/C指正文三个原创人物资料。标为补充的题目不代表教材额外新语法。开放题可有多种正确答案。</p><h3>A. lire与écrire完整变位</h3><ol><li>Je ____ le journal.（lire）</li><li>Tu ____ un roman.（lire）</li><li>Elle ____ un livre.（lire）</li><li>Nous ____ des livres.（lire）</li><li>Vous ____ à vos amis.（écrire）</li><li>Ils ____ des lettres.（écrire）</li><li>Je ____ un message à Lina.（écrire）</li><li>On ____ à des amis.（écrire）</li></ol><details><summary>展开答案与解析</summary><ol><li>lis：je lis。</li><li>lis：tu lis。</li><li>lit：elle lit，单数t不读。</li><li>lisons：复数词干lis-，不写lions。</li><li>écrivez：vous＋écriv-＋ez。</li><li>écrivent：ils第三人称复数，不是écrit。</li><li>écris：写J’écris，je省音。</li><li>écrit：on配第三人称单数。</li></ol></details><h3>B. 反身代词与动词一起变</h3><ol><li>Je ____ lave.</li><li>Tu ____ habilles.（注意省音）</li><li>Elle ____ repose.</li><li>Nous ____ levons.</li><li>Vous ____ lavez.</li><li>Ils ____ habillent.（注意省音）</li><li>把Je me lève改成nous完整句。</li><li>把Nous nous reposons改成elles完整句。</li></ol><details><summary>展开答案与解析</summary><ol><li>me：Je me lave。</li><li>t’：Tu t’habilles；habiller哑音h。</li><li>se：Elle se repose。</li><li>nous：Nous nous levons，两个nous功能不同。</li><li>vous：Vous vous lavez。</li><li>s’：Ils s’habillent。</li><li>Nous nous levons. lève变levons，me变nous。</li><li>Elles se reposent. nous变se，reposons变reposent。</li></ol></details><h3>C. 否定与疑问</h3><ol><li>把Je me lève tôt改为否定。</li><li>把Elle s’habille改为否定。</li><li>用est-ce que问“你几点起床”（tu）。</li><li>用est-ce que问“你们起得早吗”（vous）。</li><li>把Je lis le journal改为否定。</li><li>把J’écris aujourd’hui改为否定。</li><li>补充：J’aime ____ reposer.</li><li>补充：Nous aimons ____ reposer.</li></ol><details><summary>展开答案与解析</summary><ol><li>Je ne me lève pas tôt. ne在me前，pas在动词后。</li><li>Elle ne s’habille pas. ne不省成n’，se在habille前省成s’。</li><li>À quelle heure est-ce que tu te lèves ? te不能漏。</li><li>Est-ce que vous vous levez tôt ? 两个vous要保留。</li><li>Je ne lis pas le journal. 已指特定报纸，保留le。</li><li>Je n’écris pas aujourd’hui. ne在écris前省音n’。</li><li>me：J’aime me reposer. 动作主语是je。</li><li>nous：Nous aimons nous reposer. 第二动词仍不定式。</li></ol></details><h3>D. 运动与介词</h3><ol><li>Je fais ____ vélo.</li><li>Elle fait ____ natation.</li><li>Nous faisons ____ athlétisme.</li><li>Vous jouez ____ tennis.</li><li>Ils jouent ____ foot.</li><li>补充：On joue ____ échecs.</li><li>“Je fais du tennis”与“Je joue au tennis”哪句可以？</li><li>否定：Je ne joue pas ____ tennis.</li></ol><details><summary>展开答案与解析</summary><ol><li>du：de＋le vélo。</li><li>de la：natation阴性。</li><li>de l’：athlétisme元音开头，保留l’。</li><li>au：à＋le tennis。</li><li>au：à＋le foot。</li><li>aux：à＋les échecs。</li><li>两句都可以。faire de强调从事运动，jouer à用于打球／游戏；不把合法表达误判。</li><li>au保留：jouer à的缩合冠词不因否定变de。</li></ol></details><h3>E. 当前活动、习惯与频率</h3><ol><li>le dimanche与dimanche prochain有何区别？</li><li>“现在我正在读一条消息”用现在时写句子。</li><li>把“每周日我们骑车”写成tous les…句子。</li><li>Alex说vers huit heures，是否准确等于08:00？</li><li>用souvent写“我经常读书”。</li><li>用d’abord、ensuite串联“洗漱、穿衣”。</li></ol><details><summary>展开答案与解析</summary><ol><li>le dimanche通常每周日习惯；dimanche prochain是下一次周日。</li><li>En ce moment, je lis un message. 现在时即可表达当前活动。</li><li>Tous les dimanches, nous faisons du vélo. 日名复数，faire配faisons。</li><li>不是，vers表示大约。</li><li>Je lis souvent des livres. souvent常放变位动词后。</li><li>D’abord, je me lave. Ensuite, je m’habille. 两句主语、代词、变位都匹配。</li></ol></details><h3>F. A/B/C阅读与信息界限</h3><ol><li>Lina几点起床？几点游泳？</li><li>谁10点打网球，与谁一起？</li><li>谁11点采购？谁明确周日不采购？</li><li>Claire et Noé几点吃午餐？</li><li>C能说明他们一定写电子邮件吗？</li><li>A能说明Lina每天都游泳吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>8 h 30起床，10 h游泳；不要交换时刻。</li><li>Marc，avec des amis。</li><li>Claire et Noé11 h采购；Marc明确不采购。</li><li>À midi，12 h。</li><li>不能，只写écrivons à nos amis，载体未提及。</li><li>不能，资料范围是le dimanche，不是每天。</li></ol></details><h3>G. 翻译与人称改写</h3><ol><li>我给一位朋友写信。</li><li>我们读报纸。</li><li>她八点半起床。</li><li>你们洗漱后穿衣。（两句）</li><li>他们下午休息。</li><li>我们周日不打网球。</li><li>把Je me lève et je lis改成elle。</li><li>把Nous nous levons et nous écrivons à nos amis改成ils。</li></ol><details><summary>展开答案与解析</summary><ol><li>J’écris une lettre à un ami / à une amie. 内容直接接，收件人用à。</li><li>Nous lisons le journal. lire配lisons。</li><li>Elle se lève à huit heures et demie. 时刻前à。</li><li>Vous vous lavez. Ensuite, vous vous habillez. 每个代词式动词都有vous。</li><li>Ils se reposent l’après-midi. 主语ils配se reposent。</li><li>Nous ne jouons pas au tennis le dimanche. au保持。</li><li>Elle se lève et elle lit. me变se；lis变lit。</li><li>Ils se lèvent et ils écrivent à leurs amis. 人称、重音、变位、物主词都更新。</li></ol></details><h3>H. r音与词尾</h3><ol><li>lire与jouer的词尾都必须读/ʁ/吗？</li><li>rue的元音应是/y/还是/u/？</li><li>écrire的cr组合是否应插入额外元音？</li><li>ils lisent的-ent是否单独读出来？实际词干辅音是什么？</li><li>je dors与ils dorment能听到什么主要辅音区别？</li><li>录J’écris une lettre，再说明哪些词含r。</li></ol><details><summary>展开答案与解析</summary><ol><li>不是。lire /liʁ/末尾r读；jouer /ʒwe/规则-er末尾通常为/e/，不加r。</li><li>/y/：/ʁy/，圆唇配前舌位。</li><li>不插元音，/kʁ/直接衔接。</li><li>-ent不独立发音；lisent读/liz/，可听/z/。</li><li>dors /dɔʁ/；dorment /dɔʁm/有/m/，不是把-ent逐字读。</li><li>écris /ekʁi/与lettre /lɛtʁ/含r。避免在lettre末尾加完整额外元音。</li></ol></details><h3>I. 纠错与合法表达判断</h3><ol><li>Nous me levons.</li><li>Nous nous lèvons.</li><li>Je me ne lave pas.</li><li>Elle me habille.（她给自己穿衣）</li><li>Nous écrions à nos amis.</li><li>Je joue du tennis.（打网球）</li><li>Je fais au vélo.</li><li>Marc ne mange rien le matin，依据只是他喝咖啡。</li></ol><details><summary>展开答案与解析</summary><ol><li>Nous nous levons. 反身代词匹配nous。</li><li>Nous nous levons. nous词干lev-，不是lèv-。</li><li>Je ne me lave pas. 否定包代词＋动词。</li><li>Elle s’habille. 主语elle配se，元音／哑音h前省音。</li><li>Nous écrivons à nos amis. 复数词干écriv-。</li><li>Je joue au tennis. 或Je fais du tennis；不要误判后者。</li><li>Je fais du vélo. faire de＋le vélo→du。</li><li>资料不足。B只说Je prends un café，未否定其他早餐食物。不能从未写推出什么也不吃。</li></ol></details><h3>J. 听说读写综合</h3><ol><li>写8—10句自己的周日习惯：含起床、洗漱／穿衣、读、写、运动、两个时间和两处顺序词；真实习惯不同可用否定。</li><li>选4句je句改为elle，检查反身代词、动词和形容词／物主词（若有）。</li><li>录60—90秒与同伴问答，区分通常周日与现在活动，至少问钟点和运动两类问题。</li><li>不看中文，整理A/B/C的起床、运动、采购、读写四项，保留未提及的信息；再朗读含r的两句。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考8句：Le dimanche, je me lève à huit heures. D’abord, je me lave. Ensuite, je m’habille. Je prends mon petit déjeuner à huit heures et demie. Je lis le journal. À dix heures, je fais du vélo. L’après-midi, j’écris une lettre à un ami. Puis, je me repose. 自查称呼、时间、变位与运动介词；可以换活动，不要求照抄生活内容。</li><li>示例：Je me lève→Elle se lève；je m’habille→elle s’habille；je lis le journal→elle lit le journal；j’écris à mes amis→elle écrit à ses amis。动词原形、名词阴阳性不因主语随意改变。</li><li>示例：À quelle heure est-ce que tu te lèves le dimanche ? — Vers huit heures. Quel sport est-ce que tu fais ? — Je fais de la natation. Et maintenant, qu’est-ce que tu fais ? — J’écris un message. 现在／习惯的范围要明确；反身代词与tu/je匹配。</li><li>A8:30起床、10 h游泳、9 h读报、下午写信，采购未提及；B9 h起床、10 h网球、下午读小说、不采购，写未提及；C7:45起床、9 h骑车、11 h采购、午餐后写给朋友，读未提及。朗读Je lis un roman. J’écris une lettre. 核对r与lis/écris词尾。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "12. 易错速查与复习清单",
+          "html": "<h2>12. 易错速查与复习清单</h2><div class=\"table-scroll\"><table><thead><tr><th>重点错误</th><th>正确表达</th><th>检查项</th></tr></thead><tbody><tr><td>je lire／nous écrions</td><td>je lis／nous écrivons</td><td>变位和复数词干。</td></tr><tr><td>je se lave</td><td>je me lave</td><td>反身代词与主语对应。</td></tr><tr><td>vous habillez（自己穿衣）</td><td>vous vous habillez</td><td>第二个vous不能漏。</td></tr><tr><td>nous nous lèvons</td><td>nous nous levons</td><td>nous/vous词干无è。</td></tr><tr><td>elle n’s’habille pas</td><td>elle ne s’habille pas</td><td>ne后是辅音s，ne不省音。</td></tr><tr><td>je me ne repose pas</td><td>je ne me repose pas</td><td>ne在反身代词前。</td></tr><tr><td>on nous reposons</td><td>on se repose</td><td>on用se＋第三人称单数。</td></tr><tr><td>jouer du foot</td><td>jouer au foot／faire du foot</td><td>运动jouer à；faire de也可。</td></tr><tr><td>faire du natation</td><td>faire de la natation</td><td>阴性冠词。</td></tr><tr><td>je dorms／je me dors</td><td>je dors</td><td>dormir单数词干dor-，非代词式。</td></tr><tr><td>le dimanche→只有下个周日</td><td>习惯性的每周日</td><td>与dimanche prochain分开。</td></tr><tr><td>没写读书→明确不读</td><td>未提及</td><td>信息判断与语法判断分开。</td></tr></tbody></table></div><ul><li>我能完整变位lire、écrire，正确用écrire＋内容＋à＋人。</li><li>我能换人称同时改主语、反身代词和动词，记住nous nous／vous vous。</li><li>我能区分lève／levons、m’habille／nous nous habillons。</li><li>我能写代词式动词的否定与est-ce que问句。</li><li>我能使用faire du／de la／de l’与jouer au／aux，并接受faire du tennis这一合法表达。</li><li>我能区分正在做与习惯、le dimanche与dimanche prochain、à与vers。</li><li>我能读A/B/C，不把“未写”判为“明确否定”。</li><li>我能练r音、辅音组合与-er／-ir词尾，不用力挤喉。</li><li>我完成A—J与小测，写出自己的8—10句习惯并录音。</li></ul><p>复习：当天做A—F；次日把自己的4句je改成nous和elle；三天后重录对话并查代词；一周后遮住表写完整变位。接下来的日常活动综合课会继续使用这些结构。</p><p>教材范围核对：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener\">出版方教学指南第15课目标</a>。本站例句、人物与练习为原创。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "question": "Nous ____ le journal.（lire）",
+          "options": [
+            "lisons",
+            "lions",
+            "lit"
+          ],
+          "answer": 0,
+          "explanation": "nous lisons，复数词干lis-。",
+          "group": "grammar",
+          "id": "l15-q01"
+        },
+        {
+          "question": "Elles ____ à leurs amis.（écrire）",
+          "options": [
+            "écrit",
+            "écrivent",
+            "écris"
+          ],
+          "answer": 1,
+          "explanation": "elles écrivent，复数词干écriv-。",
+          "group": "grammar",
+          "id": "l15-q02"
+        },
+        {
+          "question": "On ____ une lettre.（écrire）",
+          "options": [
+            "écrivons",
+            "écrivez",
+            "écrit"
+          ],
+          "answer": 2,
+          "explanation": "on＋第三人称单数écrit。",
+          "group": "grammar",
+          "id": "l15-q03"
+        },
+        {
+          "question": "我给Lina写信：",
+          "options": [
+            "J’écris une lettre à Lina.",
+            "J’écris à une lettre Lina.",
+            "Je écrit une lettre Lina."
+          ],
+          "answer": 0,
+          "explanation": "内容直接接une lettre，收件人用à；je省音j’écris。",
+          "group": "grammar",
+          "id": "l15-q04"
+        },
+        {
+          "question": "Elle ____ un roman.（lire）",
+          "options": [
+            "lis",
+            "lit",
+            "lisent"
+          ],
+          "answer": 1,
+          "explanation": "elle lit，第三人称单数t不读。",
+          "group": "grammar",
+          "id": "l15-q05"
+        },
+        {
+          "question": "Vous ____ des messages.（écrire）",
+          "options": [
+            "écrions",
+            "écrivez-vous",
+            "écrivez"
+          ],
+          "answer": 2,
+          "explanation": "陈述句vous écrivez，不能把已有主语再倒装重复。",
+          "group": "grammar",
+          "id": "l15-q06"
+        },
+        {
+          "question": "Je ____ lave.",
+          "options": [
+            "me",
+            "se",
+            "nous"
+          ],
+          "answer": 0,
+          "explanation": "je配反身代词me。",
+          "group": "grammar",
+          "id": "l15-q07"
+        },
+        {
+          "question": "Tu ____ habilles.",
+          "options": [
+            "me",
+            "t’",
+            "se"
+          ],
+          "answer": 1,
+          "explanation": "tu配te，habiller哑音h，省音t’habilles。",
+          "group": "grammar",
+          "id": "l15-q08"
+        },
+        {
+          "question": "Nous ____ levons.",
+          "options": [
+            "se",
+            "me",
+            "nous"
+          ],
+          "answer": 2,
+          "explanation": "Nous nous levons，第二个nous为反身代词。",
+          "group": "grammar",
+          "id": "l15-q09"
+        },
+        {
+          "question": "Ils ____ reposent.",
+          "options": [
+            "se",
+            "nous",
+            "me"
+          ],
+          "answer": 0,
+          "explanation": "ils配se，与reposent对应。",
+          "group": "grammar",
+          "id": "l15-q10"
+        },
+        {
+          "question": "nous形式正确的是：",
+          "options": [
+            "Nous nous lèvons.",
+            "Nous nous levons.",
+            "Nous se levons."
+          ],
+          "answer": 1,
+          "explanation": "lever的nous词干lev-无è；反身代词nous。",
+          "group": "grammar",
+          "id": "l15-q11"
+        },
+        {
+          "question": "elle自己穿衣用：",
+          "options": [
+            "Elle me habille.",
+            "Elle se habille.",
+            "Elle s’habille."
+          ],
+          "answer": 2,
+          "explanation": "elle配se，元音／哑音h前省音s’。",
+          "group": "grammar",
+          "id": "l15-q12"
+        },
+        {
+          "question": "Je me lève的否定：",
+          "options": [
+            "Je ne me lève pas.",
+            "Je me ne lève pas.",
+            "Je ne lève me pas."
+          ],
+          "answer": 0,
+          "explanation": "ne在反身代词前，pas在变位动词后。",
+          "group": "grammar",
+          "id": "l15-q13"
+        },
+        {
+          "question": "Elle s’habille的否定：",
+          "options": [
+            "Elle n’s’habille pas.",
+            "Elle ne s’habille pas.",
+            "Elle se ne habille pas."
+          ],
+          "answer": 1,
+          "explanation": "ne后接s’的辅音s，不省成n’；se在habille前省音。",
+          "group": "grammar",
+          "id": "l15-q14"
+        },
+        {
+          "question": "正确的起床问句是：",
+          "options": [
+            "À quelle heure tu se lèves ?",
+            "Est-ce que vous levez-vous ?",
+            "À quelle heure est-ce que tu te lèves ?"
+          ],
+          "answer": 2,
+          "explanation": "tu配te lèves；est-ce que后不再倒装。",
+          "group": "grammar",
+          "id": "l15-q15"
+        },
+        {
+          "question": "补充：J’aime ____ reposer.",
+          "options": [
+            "me",
+            "se",
+            "nous"
+          ],
+          "answer": 0,
+          "explanation": "不定式反身代词与动作主语je匹配，me reposer。",
+          "group": "grammar",
+          "id": "l15-q16"
+        },
+        {
+          "question": "Je fais ____ vélo.",
+          "options": [
+            "au",
+            "du",
+            "de la"
+          ],
+          "answer": 1,
+          "explanation": "faire de＋le vélo→du vélo。",
+          "group": "grammar",
+          "id": "l15-q17"
+        },
+        {
+          "question": "Elle fait ____ natation.",
+          "options": [
+            "du",
+            "au",
+            "de la"
+          ],
+          "answer": 2,
+          "explanation": "natation阴性：faire de la natation。",
+          "group": "grammar",
+          "id": "l15-q18"
+        },
+        {
+          "question": "Nous jouons ____ tennis.",
+          "options": [
+            "au",
+            "du",
+            "à le"
+          ],
+          "answer": 0,
+          "explanation": "jouer à＋le tennis→au tennis。",
+          "group": "grammar",
+          "id": "l15-q19"
+        },
+        {
+          "question": "关于网球表达哪项正确？",
+          "options": [
+            "只有Je joue au tennis正确",
+            "Je joue au tennis和Je fais du tennis都可",
+            "只有Je fais du tennis正确"
+          ],
+          "answer": 1,
+          "explanation": "从事运动可faire de；打球可jouer à，两个表达都合法。",
+          "group": "grammar",
+          "id": "l15-q20"
+        },
+        {
+          "question": "补充游戏：On joue ____ échecs.",
+          "options": [
+            "au",
+            "des",
+            "aux"
+          ],
+          "answer": 2,
+          "explanation": "jouer à＋les échecs→aux échecs。",
+          "group": "grammar",
+          "id": "l15-q21"
+        },
+        {
+          "question": "否定“我不打网球”：",
+          "options": [
+            "Je ne joue pas au tennis.",
+            "Je ne joue pas de tennis.",
+            "Je ne joue pas du tennis."
+          ],
+          "answer": 0,
+          "explanation": "au来自jouer à＋le，不因否定变de。",
+          "group": "grammar",
+          "id": "l15-q22"
+        },
+        {
+          "question": "le dimanche通常表示：",
+          "options": [
+            "仅下个周日",
+            "每逢周日的习惯",
+            "现在几点"
+          ],
+          "answer": 1,
+          "explanation": "le＋星期用于习惯；dimanche prochain表示下次周日。",
+          "group": "grammar",
+          "id": "l15-q23"
+        },
+        {
+          "question": "vers huit heures表示：",
+          "options": [
+            "严格08:00",
+            "一定09:00",
+            "八点左右"
+          ],
+          "answer": 2,
+          "explanation": "vers是大约，不是精确钟点。",
+          "group": "vocabulary",
+          "id": "l15-q24"
+        },
+        {
+          "question": "A资料Lina10点做什么？",
+          "options": [
+            "faire de la natation",
+            "jouer au tennis",
+            "faire les courses"
+          ],
+          "answer": 0,
+          "explanation": "A10 h游泳；Marc10 h才打网球。",
+          "group": "reading",
+          "id": "l15-q25"
+        },
+        {
+          "question": "谁在C资料11点采购？",
+          "options": [
+            "Lina",
+            "Claire et Noé",
+            "Marc"
+          ],
+          "answer": 1,
+          "explanation": "C十一点去市场采购；B明确Marc周日不采购。",
+          "group": "reading",
+          "id": "l15-q26"
+        },
+        {
+          "question": "C中Nous écrivons à nos amis能证明写的是邮件吗？",
+          "options": [
+            "能，肯定邮件",
+            "能，肯定明信片",
+            "不能，载体未提及"
+          ],
+          "answer": 2,
+          "explanation": "écrire à说明写给谁，没说明信件、邮件还是消息。",
+          "group": "reading",
+          "id": "l15-q27"
+        },
+        {
+          "question": "lire与jouer词尾的常见读法：",
+          "options": [
+            "lire读/ʁ/，jouer词尾-er读/e/",
+            "两词末尾r都不读",
+            "两词末尾r都读"
+          ],
+          "answer": 0,
+          "explanation": "lire /liʁ/；规则-er不定式jouer /ʒwe/。",
+          "group": "pronunciation",
+          "id": "l15-q28"
+        },
+        {
+          "question": "écrire中的/kʁ/组合应：",
+          "options": [
+            "插入完整元音",
+            "直接连贯发音",
+            "省掉r"
+          ],
+          "answer": 1,
+          "explanation": "保持/kʁ/连贯，不插额外元音，r轻摩擦。",
+          "group": "pronunciation",
+          "id": "l15-q29"
+        },
+        {
+          "question": "把je me lève et je lis改成elle：",
+          "options": [
+            "Elle me lève et elle lis.",
+            "Elle se lève et elle lisent.",
+            "Elle se lève et elle lit."
+          ],
+          "answer": 2,
+          "explanation": "人称改写同时更新me→se、lis→lit，主语elle一致。",
+          "group": "writing",
+          "id": "l15-q30"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "readwrite",
+          "reflexive",
+          "patterns",
+          "sports",
+          "habits"
+        ],
+        "vocabulary": [
+          "words",
+          "sports"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading",
+          "habits"
+        ],
+        "speaking": [
+          "sports",
+          "habits",
+          "phrases"
+        ],
+        "writing": [
+          "readwrite",
+          "reflexive",
+          "patterns",
+          "habits",
+          "phrases"
+        ]
+      },
+      "listening": "第15课教材音轨：识别人，再记录日常动作、钟点、运动和频率；对照教材后模仿r音。本站A/B/C与Mei—Alex对话均为原创，不是教材录音逐字稿。"
     }
   ]
 };

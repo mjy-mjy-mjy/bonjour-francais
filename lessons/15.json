@@ -1,0 +1,460 @@
+{
+  "number": 15,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标与范围",
+      "html": "<h2>1. 学习目标与范围</h2><p>第15课 <strong>Le dimanche matin（星期日早晨）</strong>，教材第50—51页，核心是询问正在做什么和日常习惯、说明参加的运动。语法重点：lire与écrire现在时、代词式动词、faire de／jouer à＋运动；语音重点是法语r音。第13课的钟点、第14课的faire和疑问句会在本课反复使用。</p><div class=\"table-scroll\"><table><thead><tr><th>层次</th><th>内容</th><th>学完后的表现</th></tr></thead><tbody><tr><td>教材核心</td><td>lire／écrire六人称；代词式动词；运动搭配；r音</td><td>用6—10句介绍周日习惯，问别人几点起床、做什么、参加什么运动。</td></tr><tr><td>复习</td><td>faire、est-ce que、ne…pas、时间、频率</td><td>把动作按时间排序，区分具体这周日与每周日。</td></tr><tr><td>补充</td><td>dormir完整变位；身体部位定冠词；不定式代词匹配</td><td>看懂dors／dormons；改写人称和否定时不漏反身代词。</td></tr></tbody></table></div><p>讲解、人物资料、对话与练习均为本站原创。先学变位与结构，再读三个周日安排，完成A—J和小测，最后录音、写自己的真实习惯。现在时能表达“正在做”或“经常做”，要看语境；不必为每个“正在”都增加另一套时态。</p>"
+    },
+    {
+      "id": "readwrite",
+      "title": "2. lire与écrire：完整变位、词干与搭配",
+      "html": "<h2>2. lire与écrire：完整变位、词干与搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>lire（读）</th><th>écrire（写）</th><th>例句</th></tr></thead><tbody><tr><td>je</td><td>lis</td><td>écris（j’écris）</td><td>Je lis un livre. J’écris une lettre.</td></tr><tr><td>tu</td><td>lis</td><td>écris</td><td>Tu lis le journal ? Tu écris à Lina ?</td></tr><tr><td>il / elle / on</td><td>lit</td><td>écrit</td><td>Elle lit un roman. On écrit à des amis.</td></tr><tr><td>nous</td><td>lisons</td><td>écrivons</td><td>Nous lisons des livres. Nous écrivons des messages.</td></tr><tr><td>vous</td><td>lisez</td><td>écrivez</td><td>Vous lisez quoi ? Vous écrivez souvent ?</td></tr><tr><td>ils / elles</td><td>lisent</td><td>écrivent</td><td>Ils lisent le journal. Elles écrivent à leurs amis.</td></tr></tbody></table></div><p><strong>词干变化：</strong>lire单数li-，复数lis-；écrire单数écri-，复数écriv-。不能从je lis直接造nous lions，不能写nous écrions。单数lis／lit读/li/，écris／écrit读/ekʁi/；复数ils lisent读/liz/，ils écrivent读/ekʁiv/，-ent不单独发音，但词干辅音可听见。</p><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>完整示范</th><th>辨析</th></tr></thead><tbody><tr><td>lire＋读物</td><td>Je lis le journal. Elle lit un livre.</td><td>直接接读物，不加à：不是lire à un livre。</td></tr><tr><td>écrire＋内容</td><td>J’écris une lettre / un message / une carte postale.</td><td>写什么直接接内容。</td></tr><tr><td>écrire à＋收件人</td><td>J’écris à un ami. Nous écrivons à nos amis.</td><td>写给谁用à；可同时有内容：J’écris une lettre à Lina。</td></tr><tr><td>否定</td><td>Je ne lis pas le journal. Je n’écris pas aujourd’hui.</td><td>écris以元音开头，ne省音n’。</td></tr><tr><td>on与nous</td><td>On lit / on écrit；nous lisons / nous écrivons</td><td>口语on代我们时动词仍第三人称单数。</td></tr></tbody></table></div><p>与faire复习并列：<em>Je fais les courses, je lis un livre et j’écris à un ami.</em> 三个动词都随je；<em>Nous faisons les courses, nous lisons et nous écrivons.</em> 三个都随nous，不能只换第一个主语。变位可核对<a href=\"https://www.laits.utexas.edu/tex/gr/virr11.html\" target=\"_blank\" rel=\"noopener\">得州大学lire／écrire资料</a>。</p>"
+    },
+    {
+      "id": "reflexive",
+      "title": "3. 代词式动词：两处都随主语变化",
+      "html": "<h2>3. 代词式动词：两处都随主语变化</h2><p><strong>代词式动词（verbes pronominaux）</strong>在不定式中带se：se laver（洗漱）、s’habiller（穿衣）、se lever（起床）、se reposer（休息）。本课主要是动作与自己有关的日常表达；并非所有带se的动词都能机械译成“自己做自己”。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>对应代词</th><th>se laver完整句</th><th>s’habiller完整句</th></tr></thead><tbody><tr><td>je</td><td>me / m’</td><td>Je me lave.</td><td>Je m’habille.</td></tr><tr><td>tu</td><td>te / t’</td><td>Tu te laves.</td><td>Tu t’habilles.</td></tr><tr><td>il / elle / on</td><td>se / s’</td><td>Elle se lave. On se lave.</td><td>Il s’habille. On s’habille.</td></tr><tr><td>nous</td><td>nous</td><td>Nous nous lavons.</td><td>Nous nous habillons.</td></tr><tr><td>vous</td><td>vous</td><td>Vous vous lavez.</td><td>Vous vous habillez.</td></tr><tr><td>ils / elles</td><td>se / s’</td><td>Ils se lavent.</td><td>Elles s’habillent.</td></tr></tbody></table></div><p>换人称要同时换<strong>主语＋代词＋动词</strong>。<em>Je me lave → Nous nous lavons</em>，不是Nous me lave。nous nous、vous vous不是多写一次：前一个为主语，后一个为动词对应的代词。me／te／se在元音或哑音h前省音；habiller为哑音h，故m’habille／t’habilles／s’habille，而不是me habille。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>se lever</th><th>se reposer</th></tr></thead><tbody><tr><td>je</td><td>Je me lève.</td><td>Je me repose.</td></tr><tr><td>tu</td><td>Tu te lèves.</td><td>Tu te reposes.</td></tr><tr><td>il / elle / on</td><td>Elle se lève. On se lève.</td><td>Il se repose. On se repose.</td></tr><tr><td>nous</td><td>Nous nous levons.</td><td>Nous nous reposons.</td></tr><tr><td>vous</td><td>Vous vous levez.</td><td>Vous vous reposez.</td></tr><tr><td>ils / elles</td><td>Ils se lèvent.</td><td>Elles se reposent.</td></tr></tbody></table></div><p><strong>lever的重音变化：</strong>je／tu／il／ils词干为lèv-；nous／vous为lev-：<em>je me lève</em>，但<em>nous nous levons</em>。不能写nous nous lèvons。动词重音符号与反身代词是两项独立检查。</p><p><strong>动作对象的区别：</strong><em>Je me lave.</em>＝我洗漱／洗自己；<em>Je lave la voiture.</em>＝我洗车，laver的对象是车，因此不加me。补充：<em>Je me lave les mains.</em>用定冠词les，通常不写mes mains，因为me已说明动作关联自己的身体。</p>"
+    },
+    {
+      "id": "patterns",
+      "title": "4. 否定、提问与不定式中的代词位置",
+      "html": "<h2>4. 否定、提问与不定式中的代词位置</h2><div class=\"table-scroll\"><table><thead><tr><th>功能</th><th>正确句子</th><th>位置说明</th></tr></thead><tbody><tr><td>肯定</td><td>Je me lève à huit heures.</td><td>主语＋代词＋变位动词＋时间。</td></tr><tr><td>否定</td><td>Je ne me lève pas à huit heures.</td><td>ne在代词前；pas在变位动词后。</td></tr><tr><td>元音动词否定</td><td>Elle ne s’habille pas maintenant.</td><td>ne后接s’，不写Elle n’s’habille；se在habille前省音。</td></tr><tr><td>on否定</td><td>On ne se repose pas le matin.</td><td>on配se与第三人称单数repose。</td></tr><tr><td>是否问题</td><td>Est-ce que vous vous levez tôt ?</td><td>est-ce que后保留vous vous levez，不倒装。</td></tr><tr><td>动作问题</td><td>Qu’est-ce que tu fais le dimanche matin ?</td><td>问活动；回答动词和活动。</td></tr><tr><td>钟点问题</td><td>À quelle heure est-ce que tu te lèves ?</td><td>à quelle heure问起床时刻；te必须保留。</td></tr><tr><td>口语问题</td><td>Tu t’habilles à quelle heure ?</td><td>疑问词可放末尾；保持tu、t’、habilles对应。</td></tr><tr><td>不定式补充</td><td>J’aime me reposer. Nous aimons nous reposer.</td><td>aimer先变位，后接不定式；代词仍与动作主语对应。</td></tr><tr><td>代词式不定式省音</td><td>J’aime m’habiller.</td><td>m’在不定式habiller前，不放到aime前。</td></tr></tbody></table></div><p>错误位置辨析：<em>Je me ne lève pas</em>→<em>Je ne me lève pas</em>；<em>Est-ce que vous levez ?</em>→<em>Est-ce que vous vous levez ?</em>；<em>J’aime se reposer</em>→<em>J’aime me reposer</em>（我喜欢休息）。不定式结构为补充训练，本课不要求代词式命令式或复合过去时。</p><h3>dormir：词汇出现时的补充变位</h3><div class=\"table-scroll\"><table><thead><tr><th>je</th><th>tu</th><th>il / elle / on</th><th>nous</th><th>vous</th><th>ils / elles</th></tr></thead><tbody><tr><td>dors</td><td>dors</td><td>dort</td><td>dormons</td><td>dormez</td><td>dorment</td></tr></tbody></table></div><p><em>Je dors</em>＝我睡觉，<em>je me lève</em>＝我起床；dormir本身不带se，不能因日常动作就统一加me。<em>Je dors à huit heures</em>与<em>Je me lève à huit heures</em>信息不同。单数dors／dort常/dɔʁ/，ils dorment为/dɔʁm/。</p><p>结构核对：<a href=\"https://www.laits.utexas.edu/tex/gr/vpr1.html\" target=\"_blank\" rel=\"noopener\">得州大学代词式动词</a>。先掌握当前的日常用法，再在后续课扩展其他语态与时态。</p>"
+    },
+    {
+      "id": "sports",
+      "title": "5. faire de与jouer à：运动搭配",
+      "html": "<h2>5. faire de与jouer à：运动搭配</h2><div class=\"table-scroll\"><table><thead><tr><th>想说的活动</th><th>faire de结构</th><th>jouer à或其他说法</th></tr></thead><tbody><tr><td>骑自行车</td><td>faire du vélo</td><td>de＋le vélo→du vélo；不写jouer au vélo。</td></tr><tr><td>游泳</td><td>faire de la natation</td><td>也可nager（游泳），作为词汇补充。</td></tr><tr><td>田径</td><td>faire de l’athlétisme</td><td>元音前用l’，不缩成du。</td></tr><tr><td>体操</td><td>faire de la gymnastique</td><td>gymnastique阴性，de la。</td></tr><tr><td>滑雪</td><td>faire du ski</td><td>也可skier；不是jouer au ski。</td></tr><tr><td>足球</td><td>faire du football / du foot</td><td>jouer au football / au foot；两种都可说，不能把faire du foot判错。</td></tr><tr><td>网球</td><td>faire du tennis</td><td>jouer au tennis；à＋le→au。</td></tr><tr><td>篮球</td><td>faire du basket</td><td>jouer au basket，球类常用jouer à。</td></tr><tr><td>跑步／慢跑</td><td>faire un footing</td><td>un footing为活动量／一次慢跑；也可faire du footing，不能断言只有一种。</td></tr><tr><td>下棋（补充游戏）</td><td>此处练jouer的搭配</td><td>jouer aux échecs，à＋les→aux，不是au échecs。</td></tr></tbody></table></div><h3>三个结构分开学</h3><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>例句</th><th>说明</th></tr></thead><tbody><tr><td>faire＋de＋运动名</td><td>Je fais du vélo. Elle fait de la natation.</td><td>de随冠词成为du／de la／de l’；同时faire随主语变位。</td></tr><tr><td>jouer＋à＋运动／游戏</td><td>Nous jouons au tennis. Ils jouent aux échecs.</td><td>à＋le→au；à＋les→aux。</td></tr><tr><td>jouer＋de＋乐器（拓展对照）</td><td>Elle joue du piano.</td><td>piano乐器不是运动；本课只作介词辨析，不扩展乐器课程。</td></tr></tbody></table></div><p><strong>jouer规则-er变位：</strong>je joue、tu joues、il/elle/on joue、nous jouons、vous jouez、ils/elles jouent。完整句：<em>Vous jouez au tennis ? — Oui, nous jouons au tennis.</em>，不是nous jouer。<strong>faire复习：</strong>je fais、tu fais、il fait、nous faisons、vous faites、ils font；<em>On fait du vélo.</em>不写on faisons。</p><p><strong>对应问题：</strong><em>Quel sport est-ce que tu fais ? — Je fais de la natation.</em>；<em>À quoi est-ce que vous jouez ? — Nous jouons au tennis.</em>（你们玩什么运动／游戏？）。补充否定：<em>Je ne fais pas de vélo.</em>中du变de；<em>Je ne joue pas au tennis.</em>中的au保留，因为它来自jouer à＋le，不是部分冠词。</p>"
+    },
+    {
+      "id": "habits",
+      "title": "6. 正在做、经常做与活动顺序",
+      "html": "<h2>6. 正在做、经常做与活动顺序</h2><div class=\"table-scroll\"><table><thead><tr><th>表达</th><th>例句</th><th>意思</th></tr></thead><tbody><tr><td>en ce moment／maintenant</td><td>En ce moment, je lis un message.</td><td>现在正在读；法语现在时即可。</td></tr><tr><td>le dimanche</td><td>Le dimanche, je fais du vélo.</td><td>每逢周日的习惯。</td></tr><tr><td>dimanche（prochain）</td><td>Dimanche prochain, je joue au tennis.</td><td>下一次周日的安排；仍可用现在时表达安排。</td></tr><tr><td>tous les dimanches</td><td>Tous les dimanches, nous écrivons à nos amis.</td><td>每周日；tous＋les＋复数日名。</td></tr><tr><td>en général／d’habitude</td><td>En général, je me lève à huit heures.</td><td>通常／习惯上。</td></tr><tr><td>souvent</td><td>Je lis souvent le soir.</td><td>经常；时间副词常放变位动词后。</td></tr><tr><td>parfois</td><td>Parfois, je joue au tennis.</td><td>有时，可放句首。</td></tr><tr><td>toujours</td><td>Je me lève toujours tôt.</td><td>总是；放完整变位动词后，不插在me与lève之间。</td></tr><tr><td>à／vers</td><td>à neuf heures；vers neuf heures</td><td>九点／九点左右。</td></tr><tr><td>d’abord → ensuite → puis → après</td><td>D’abord, je me lave. Ensuite, je m’habille. Puis, je lis.</td><td>先→接着→然后→之后。可选，不必每句都堆连接词。</td></tr></tbody></table></div><p><strong>时间段：</strong><em>le matin</em>早上、<em>l’après-midi</em>下午、<em>le soir</em>晚上；<em>ce matin</em>今天早上。<em>une journée</em>强调白天的一段活动：<em>Je passe la journée à la maison.</em>为补充例句；<em>un jour</em>也可表示日历中的一天。不要把“周日上午”直接译成à dimanche matin。</p><p>同一个现在时形式可用不同时间线：<em>Je lis.</em>可能是现在正在读，也可能在介绍习惯。问清语境：<em>Qu’est-ce que tu fais maintenant ?</em>与<em>Qu’est-ce que tu fais le dimanche ?</em>不是同一个问题。没有频率信息时，不能从某一次活动推断“每天都做”。</p>"
+    },
+    {
+      "id": "words",
+      "title": "7. 日常活动与休闲词汇",
+      "html": "<h2>7. 日常活动与休闲词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词汇</th><th>词性／性别与意思</th><th>搭配与例句</th></tr></thead><tbody><tr><td>se lever</td><td>代词式动词，起床</td><td>Je me lève tôt. 注意lève／levons。</td></tr><tr><td>se laver</td><td>代词式动词，洗漱</td><td>Tu te laves. 不等于laver la voiture洗车。</td></tr><tr><td>s’habiller</td><td>代词式动词，穿衣</td><td>Elle s’habille. habiller哑音h可省音。</td></tr><tr><td>se reposer</td><td>代词式动词，休息</td><td>Nous nous reposons l’après-midi.</td></tr><tr><td>dormir</td><td>动词，睡觉</td><td>Je dors；nous dormons。不带se。</td></tr><tr><td>lire / écrire</td><td>动词，读／写</td><td>lire un livre；écrire une lettre à un ami。</td></tr><tr><td>un livre / un roman</td><td>阳性，书／小说</td><td>Elle lit un roman.</td></tr><tr><td>un journal → des journaux</td><td>阳性，报纸</td><td>Je lis le journal. 复数journaux。</td></tr><tr><td>une lettre / une carte postale</td><td>阴性，信／明信片</td><td>J’écris une carte postale.</td></tr><tr><td>un message</td><td>阳性，消息</td><td>Nous écrivons des messages.</td></tr><tr><td>un ami / une amie</td><td>阳性／阴性，朋友</td><td>écrire à des amis；jouer avec une amie。</td></tr><tr><td>le petit déjeuner</td><td>阳性，早餐</td><td>prendre le petit déjeuner，通常不能按汉语漏冠词。</td></tr><tr><td>déjeuner</td><td>动词，吃午餐</td><td>Nous déjeunons à midi.</td></tr><tr><td>faire les courses</td><td>动词短语，采购／买日用品</td><td>Je fais les courses au marché. 不是上课。</td></tr><tr><td>faire le ménage</td><td>动词短语，做家务／打扫</td><td>Elle fait le ménage. 与faire les courses分开。</td></tr><tr><td>un marché</td><td>阳性，集市／市场</td><td>aller au marché；à＋le→au。</td></tr><tr><td>la campagne</td><td>阴性，乡村</td><td>aller à la campagne；不是le campagne。</td></tr><tr><td>un parc</td><td>阳性，公园</td><td>faire du vélo dans le parc。</td></tr><tr><td>une piscine</td><td>阴性，游泳池</td><td>aller à la piscine，faire de la natation。</td></tr><tr><td>le tennis / le foot / le vélo</td><td>阳性，网球／足球／自行车</td><td>jouer au tennis、au foot；faire du vélo。</td></tr><tr><td>la natation / la gymnastique</td><td>阴性，游泳／体操</td><td>faire de la natation／de la gymnastique。</td></tr><tr><td>l’athlétisme (m.) / le ski</td><td>阳性，田径／滑雪</td><td>faire de l’athlétisme／du ski。</td></tr><tr><td>la musique / écouter</td><td>阴性名词音乐／动词听</td><td>écouter de la musique；无需écouter à。</td></tr><tr><td>rentrer / tôt / tard</td><td>动词回家／副词早／晚</td><td>Je rentre tard. 与se lever起床不同。</td></tr><tr><td>le matin / l’après-midi / le soir</td><td>时间段，早／下午／晚</td><td>le dimanche matin；l’après-midi。</td></tr><tr><td>d’abord / ensuite / puis</td><td>副词，先／随后／然后</td><td>D’abord, je me lave. Ensuite, je m’habille.</td></tr></tbody></table></div><p><strong>三组不要混：</strong>faire les courses（采购）／prendre des cours（上课，补充对照）；se reposer（休息）／dormir（睡觉）；écrire un message（写消息）／écrire à une amie（写给朋友）。阴阳性要连冠词一起记，练习时同时检查de／à的缩合。</p>"
+    },
+    {
+      "id": "reading",
+      "title": "8. 原创人物资料：谁、几点、做什么",
+      "html": "<h2>8. 原创人物资料：谁、几点、做什么</h2><p>以下三份资料都是人物通常的周日安排，不是当前正在发生的直播记录。</p><h3>A · Lina</h3><blockquote>Le dimanche, je me lève à huit heures et demie. Je me lave et je m’habille. À neuf heures, je prends mon petit déjeuner et je lis le journal. À dix heures, je fais de la natation à la piscine. L’après-midi, j’écris une lettre à une amie.</blockquote><p>译文：周日我8:30起床，洗漱、穿衣。9点吃早餐并读报。10点去泳池游泳。下午给一位女性朋友写信。资料未说明游泳时长和午餐安排。</p><h3>B · Marc</h3><blockquote>En général, le dimanche, je me lève à neuf heures. Je prends un café. À dix heures, je joue au tennis avec des amis. L’après-midi, je me repose et je lis un roman. Je ne fais pas les courses le dimanche.</blockquote><p>译文：通常周日我9点起床，喝咖啡。10点和朋友打网球。下午休息并读小说。周日不采购。资料没说他完全不吃早餐，只写了咖啡；没有写给谁发信。</p><h3>C · Claire et Noé</h3><blockquote>Nous nous levons à sept heures quarante-cinq. Le dimanche, nous faisons du vélo à neuf heures. À onze heures, nous allons au marché et nous faisons les courses. Nous déjeunons à midi. Ensuite, nous écrivons à nos amis.</blockquote><p>译文：我们7:45起床。周日9点骑车，11点去市场采购，中午吃午餐。随后给朋友写信／写消息。具体写的是信、邮件还是消息未说明，不能从écrivons à…自行选定载体。</p><div class=\"table-scroll\"><table><thead><tr><th>人物</th><th>起床</th><th>运动</th><th>其他活动</th></tr></thead><tbody><tr><td>Lina</td><td>8 h 30</td><td>10 h：natation</td><td>9 h早餐＋读报；下午写信给une amie。</td></tr><tr><td>Marc</td><td>9 h</td><td>10 h：tennis</td><td>下午休息＋读小说；明确周日不采购。</td></tr><tr><td>Claire et Noé</td><td>7 h 45</td><td>9 h：vélo</td><td>11 h市场采购；midi午餐；随后写给nos amis。</td></tr></tbody></table></div><p><strong>人称改写示范：</strong>Lina第一人称<em>Je me lève… j’écris à une amie</em>→<em>Elle se lève… elle écrit à une amie</em>。Claire et Noé的<em>Nous nous levons… nos amis</em>→<em>Ils se lèvent… leurs amis</em>。只把nous换ils而留下nous levons或nos amis，会改变或破坏表达。</p><p>判断阅读结论时，先找时间词和否定：Marc“不采购”有证据；Marc“不吃早餐”证据不足；Lina“每天游泳”证据不足，因为原文仅说le dimanche。不能把“周日习惯”扩大为“所有日子”。</p>"
+    },
+    {
+      "id": "phrases",
+      "title": "9. 完整对话与听说读写任务",
+      "html": "<h2>9. 完整对话与听说读写任务</h2><h3>原创朋友对话：问习惯，也问当前活动</h3><blockquote><p>Mei : Qu’est-ce que tu fais le dimanche matin ?<br>Alex : D’abord, je me lève vers huit heures. Ensuite, je me lave et je m’habille.<br>Mei : Tu lis le journal ?<br>Alex : Oui, je lis souvent le journal après le petit déjeuner.<br>Mei : Et tu fais quel sport ?<br>Alex : Je fais du vélo. Parfois, je joue au tennis avec des amis.<br>Mei : Moi, je fais de la natation. À quelle heure est-ce que tu te reposes ?<br>Alex : L’après-midi, en général. Et toi, tu écris à tes amis ?<br>Mei : Oui, j’écris souvent des messages. Maintenant, j’écris à Lina.<br>Alex : D’accord. En ce moment, moi, je lis une lettre.</p></blockquote><p>译读：两人先谈周日习惯，再询问读报与运动。Alex的起床时刻是8点左右，运动频率有“有时”；最后Mei“现在写给Lina”、Alex“现在读信”，转到当前活动。全文称呼保持tu；问À quelle heure时，Alex只给下午这一宽泛时间，可以补问<em>À deux heures ou à trois heures ?</em>，不能替他填一个确切钟点。</p><h3>四项训练</h3><ol><li><strong>听：</strong>确认你所用教材版本第15课配套音轨；第一遍识别人和主题，第二遍记动作、钟点、运动和频率，第三遍对照教材，第四遍模仿r音。本站对话是原创，不是教材音轨逐字稿。</li><li><strong>说：</strong>录60—90秒描述自己周日，包含一个代词式动词、lire、écrire、一个运动搭配和两个时间表达；再问同伴两个问题。</li><li><strong>读：</strong>先不看中文，按A/B/C完成“人物—时间—动作—是否有否定”的表，再标两条未提及的信息。</li><li><strong>写：</strong>写8—10句周日习惯，按d’abord／ensuite／puis组织；再把其中4句je改成elle，检查代词与变位。</li></ol><p>对自己习惯没有的活动可用否定：<em>Je ne joue pas au tennis.</em>；写给谁用<em>J’écris à un ami.</em>；不能为了凑结构编成与自己不符的习惯。参考范文只用于语言结构对照。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "10. 法语r音：从轻摩擦到完整句",
+      "html": "<h2>10. 法语r音：从轻摩擦到完整句</h2><p>法语r在常见标准发音中可用音标/ʁ/表示，发音位置靠口腔后部。舌尖保持放松，不把它卷成普通话r，也不要求像某些语言一样舌尖连续打颤。先让气流轻轻通过舌后部附近，产生轻摩擦；不要用力咳嗽或夹紧喉咙。不同地区有变体，本课练一个稳定、清楚的常见发音即可。</p><div class=\"table-scroll\"><table><thead><tr><th>步骤</th><th>材料</th><th>自查</th></tr></thead><tbody><tr><td>1. 元音带r</td><td>/aʁ/、/iʁ/、/uʁ/</td><td>保持元音，后部轻摩擦；不在r后补一个额外元音。</td></tr><tr><td>2. 单个词</td><td>lire /liʁ/；repos /ʁəpo/；rue /ʁy/</td><td>读lire不要变成“li-re”两个完整元音；rue保留/y/圆唇。</td></tr><tr><td>3. 辅音组合</td><td>écrire /ekʁiʁ/；prendre /pʁɑ̃dʁ/</td><td>cr／pr顺滑连接，不插入“ke-re／pe-re”。</td></tr><tr><td>4. 本来发音的词尾</td><td>dormir /dɔʁmiʁ/；partir /paʁtiʁ/</td><td>本课这两个-ir不定式末尾r发音。</td></tr><tr><td>5. 别把所有词尾r都读出</td><td>jouer /ʒwe/；lever /ləve/；habiller /abije/</td><td>规则-er不定式词尾-er常读/e/，不加/ʁ/。habiller中的ill此处读/j/。</td></tr><tr><td>6. 词组</td><td>Je lis un roman. J’écris une lettre. Je me repose.</td><td>roman、écris、lettre、repose带r；速度先慢后自然。</td></tr></tbody></table></div><p><strong>录音任务：</strong>慢读<em>lire — écrire — se reposer — partir — jouer</em>，再读<em>Le dimanche, je lis un roman et j’écris à un ami.</em>。用教材或<a href=\"https://laits.utexas.edu/fi/html/pho/04.html\" target=\"_blank\" rel=\"noopener\">得州大学r音音频</a>比较轻摩擦、连贯与词尾。音标为学习用近似标记，不是强制唯一地区口音。</p><p><strong>本课其他发音复习：</strong>lis／lit单数不读末尾s/t，lisent的词干/s/实际为/z/；écrit单数不读t，écrivent有/v/；nous nous levons两个nous都要留，不能为省力丢掉反身代词。读课文时先听主体与动作，而不只逐个字母读。</p>"
+    },
+    {
+      "id": "practice",
+      "title": "11. 分层练习A—J与参考解析",
+      "html": "<h2>11. 分层练习A—J与参考解析</h2><p>先独立完成；A/B/C指正文三个原创人物资料。标为补充的题目不代表教材额外新语法。开放题可有多种正确答案。</p><h3>A. lire与écrire完整变位</h3><ol><li>Je ____ le journal.（lire）</li><li>Tu ____ un roman.（lire）</li><li>Elle ____ un livre.（lire）</li><li>Nous ____ des livres.（lire）</li><li>Vous ____ à vos amis.（écrire）</li><li>Ils ____ des lettres.（écrire）</li><li>Je ____ un message à Lina.（écrire）</li><li>On ____ à des amis.（écrire）</li></ol><details><summary>展开答案与解析</summary><ol><li>lis：je lis。</li><li>lis：tu lis。</li><li>lit：elle lit，单数t不读。</li><li>lisons：复数词干lis-，不写lions。</li><li>écrivez：vous＋écriv-＋ez。</li><li>écrivent：ils第三人称复数，不是écrit。</li><li>écris：写J’écris，je省音。</li><li>écrit：on配第三人称单数。</li></ol></details><h3>B. 反身代词与动词一起变</h3><ol><li>Je ____ lave.</li><li>Tu ____ habilles.（注意省音）</li><li>Elle ____ repose.</li><li>Nous ____ levons.</li><li>Vous ____ lavez.</li><li>Ils ____ habillent.（注意省音）</li><li>把Je me lève改成nous完整句。</li><li>把Nous nous reposons改成elles完整句。</li></ol><details><summary>展开答案与解析</summary><ol><li>me：Je me lave。</li><li>t’：Tu t’habilles；habiller哑音h。</li><li>se：Elle se repose。</li><li>nous：Nous nous levons，两个nous功能不同。</li><li>vous：Vous vous lavez。</li><li>s’：Ils s’habillent。</li><li>Nous nous levons. lève变levons，me变nous。</li><li>Elles se reposent. nous变se，reposons变reposent。</li></ol></details><h3>C. 否定与疑问</h3><ol><li>把Je me lève tôt改为否定。</li><li>把Elle s’habille改为否定。</li><li>用est-ce que问“你几点起床”（tu）。</li><li>用est-ce que问“你们起得早吗”（vous）。</li><li>把Je lis le journal改为否定。</li><li>把J’écris aujourd’hui改为否定。</li><li>补充：J’aime ____ reposer.</li><li>补充：Nous aimons ____ reposer.</li></ol><details><summary>展开答案与解析</summary><ol><li>Je ne me lève pas tôt. ne在me前，pas在动词后。</li><li>Elle ne s’habille pas. ne不省成n’，se在habille前省成s’。</li><li>À quelle heure est-ce que tu te lèves ? te不能漏。</li><li>Est-ce que vous vous levez tôt ? 两个vous要保留。</li><li>Je ne lis pas le journal. 已指特定报纸，保留le。</li><li>Je n’écris pas aujourd’hui. ne在écris前省音n’。</li><li>me：J’aime me reposer. 动作主语是je。</li><li>nous：Nous aimons nous reposer. 第二动词仍不定式。</li></ol></details><h3>D. 运动与介词</h3><ol><li>Je fais ____ vélo.</li><li>Elle fait ____ natation.</li><li>Nous faisons ____ athlétisme.</li><li>Vous jouez ____ tennis.</li><li>Ils jouent ____ foot.</li><li>补充：On joue ____ échecs.</li><li>“Je fais du tennis”与“Je joue au tennis”哪句可以？</li><li>否定：Je ne joue pas ____ tennis.</li></ol><details><summary>展开答案与解析</summary><ol><li>du：de＋le vélo。</li><li>de la：natation阴性。</li><li>de l’：athlétisme元音开头，保留l’。</li><li>au：à＋le tennis。</li><li>au：à＋le foot。</li><li>aux：à＋les échecs。</li><li>两句都可以。faire de强调从事运动，jouer à用于打球／游戏；不把合法表达误判。</li><li>au保留：jouer à的缩合冠词不因否定变de。</li></ol></details><h3>E. 当前活动、习惯与频率</h3><ol><li>le dimanche与dimanche prochain有何区别？</li><li>“现在我正在读一条消息”用现在时写句子。</li><li>把“每周日我们骑车”写成tous les…句子。</li><li>Alex说vers huit heures，是否准确等于08:00？</li><li>用souvent写“我经常读书”。</li><li>用d’abord、ensuite串联“洗漱、穿衣”。</li></ol><details><summary>展开答案与解析</summary><ol><li>le dimanche通常每周日习惯；dimanche prochain是下一次周日。</li><li>En ce moment, je lis un message. 现在时即可表达当前活动。</li><li>Tous les dimanches, nous faisons du vélo. 日名复数，faire配faisons。</li><li>不是，vers表示大约。</li><li>Je lis souvent des livres. souvent常放变位动词后。</li><li>D’abord, je me lave. Ensuite, je m’habille. 两句主语、代词、变位都匹配。</li></ol></details><h3>F. A/B/C阅读与信息界限</h3><ol><li>Lina几点起床？几点游泳？</li><li>谁10点打网球，与谁一起？</li><li>谁11点采购？谁明确周日不采购？</li><li>Claire et Noé几点吃午餐？</li><li>C能说明他们一定写电子邮件吗？</li><li>A能说明Lina每天都游泳吗？</li></ol><details><summary>展开答案与解析</summary><ol><li>8 h 30起床，10 h游泳；不要交换时刻。</li><li>Marc，avec des amis。</li><li>Claire et Noé11 h采购；Marc明确不采购。</li><li>À midi，12 h。</li><li>不能，只写écrivons à nos amis，载体未提及。</li><li>不能，资料范围是le dimanche，不是每天。</li></ol></details><h3>G. 翻译与人称改写</h3><ol><li>我给一位朋友写信。</li><li>我们读报纸。</li><li>她八点半起床。</li><li>你们洗漱后穿衣。（两句）</li><li>他们下午休息。</li><li>我们周日不打网球。</li><li>把Je me lève et je lis改成elle。</li><li>把Nous nous levons et nous écrivons à nos amis改成ils。</li></ol><details><summary>展开答案与解析</summary><ol><li>J’écris une lettre à un ami / à une amie. 内容直接接，收件人用à。</li><li>Nous lisons le journal. lire配lisons。</li><li>Elle se lève à huit heures et demie. 时刻前à。</li><li>Vous vous lavez. Ensuite, vous vous habillez. 每个代词式动词都有vous。</li><li>Ils se reposent l’après-midi. 主语ils配se reposent。</li><li>Nous ne jouons pas au tennis le dimanche. au保持。</li><li>Elle se lève et elle lit. me变se；lis变lit。</li><li>Ils se lèvent et ils écrivent à leurs amis. 人称、重音、变位、物主词都更新。</li></ol></details><h3>H. r音与词尾</h3><ol><li>lire与jouer的词尾都必须读/ʁ/吗？</li><li>rue的元音应是/y/还是/u/？</li><li>écrire的cr组合是否应插入额外元音？</li><li>ils lisent的-ent是否单独读出来？实际词干辅音是什么？</li><li>je dors与ils dorment能听到什么主要辅音区别？</li><li>录J’écris une lettre，再说明哪些词含r。</li></ol><details><summary>展开答案与解析</summary><ol><li>不是。lire /liʁ/末尾r读；jouer /ʒwe/规则-er末尾通常为/e/，不加r。</li><li>/y/：/ʁy/，圆唇配前舌位。</li><li>不插元音，/kʁ/直接衔接。</li><li>-ent不独立发音；lisent读/liz/，可听/z/。</li><li>dors /dɔʁ/；dorment /dɔʁm/有/m/，不是把-ent逐字读。</li><li>écris /ekʁi/与lettre /lɛtʁ/含r。避免在lettre末尾加完整额外元音。</li></ol></details><h3>I. 纠错与合法表达判断</h3><ol><li>Nous me levons.</li><li>Nous nous lèvons.</li><li>Je me ne lave pas.</li><li>Elle me habille.（她给自己穿衣）</li><li>Nous écrions à nos amis.</li><li>Je joue du tennis.（打网球）</li><li>Je fais au vélo.</li><li>Marc ne mange rien le matin，依据只是他喝咖啡。</li></ol><details><summary>展开答案与解析</summary><ol><li>Nous nous levons. 反身代词匹配nous。</li><li>Nous nous levons. nous词干lev-，不是lèv-。</li><li>Je ne me lave pas. 否定包代词＋动词。</li><li>Elle s’habille. 主语elle配se，元音／哑音h前省音。</li><li>Nous écrivons à nos amis. 复数词干écriv-。</li><li>Je joue au tennis. 或Je fais du tennis；不要误判后者。</li><li>Je fais du vélo. faire de＋le vélo→du。</li><li>资料不足。B只说Je prends un café，未否定其他早餐食物。不能从未写推出什么也不吃。</li></ol></details><h3>J. 听说读写综合</h3><ol><li>写8—10句自己的周日习惯：含起床、洗漱／穿衣、读、写、运动、两个时间和两处顺序词；真实习惯不同可用否定。</li><li>选4句je句改为elle，检查反身代词、动词和形容词／物主词（若有）。</li><li>录60—90秒与同伴问答，区分通常周日与现在活动，至少问钟点和运动两类问题。</li><li>不看中文，整理A/B/C的起床、运动、采购、读写四项，保留未提及的信息；再朗读含r的两句。</li></ol><details><summary>展开答案与解析</summary><ol><li>参考8句：Le dimanche, je me lève à huit heures. D’abord, je me lave. Ensuite, je m’habille. Je prends mon petit déjeuner à huit heures et demie. Je lis le journal. À dix heures, je fais du vélo. L’après-midi, j’écris une lettre à un ami. Puis, je me repose. 自查称呼、时间、变位与运动介词；可以换活动，不要求照抄生活内容。</li><li>示例：Je me lève→Elle se lève；je m’habille→elle s’habille；je lis le journal→elle lit le journal；j’écris à mes amis→elle écrit à ses amis。动词原形、名词阴阳性不因主语随意改变。</li><li>示例：À quelle heure est-ce que tu te lèves le dimanche ? — Vers huit heures. Quel sport est-ce que tu fais ? — Je fais de la natation. Et maintenant, qu’est-ce que tu fais ? — J’écris un message. 现在／习惯的范围要明确；反身代词与tu/je匹配。</li><li>A8:30起床、10 h游泳、9 h读报、下午写信，采购未提及；B9 h起床、10 h网球、下午读小说、不采购，写未提及；C7:45起床、9 h骑车、11 h采购、午餐后写给朋友，读未提及。朗读Je lis un roman. J’écris une lettre. 核对r与lis/écris词尾。</li></ol></details>"
+    },
+    {
+      "id": "review",
+      "title": "12. 易错速查与复习清单",
+      "html": "<h2>12. 易错速查与复习清单</h2><div class=\"table-scroll\"><table><thead><tr><th>重点错误</th><th>正确表达</th><th>检查项</th></tr></thead><tbody><tr><td>je lire／nous écrions</td><td>je lis／nous écrivons</td><td>变位和复数词干。</td></tr><tr><td>je se lave</td><td>je me lave</td><td>反身代词与主语对应。</td></tr><tr><td>vous habillez（自己穿衣）</td><td>vous vous habillez</td><td>第二个vous不能漏。</td></tr><tr><td>nous nous lèvons</td><td>nous nous levons</td><td>nous/vous词干无è。</td></tr><tr><td>elle n’s’habille pas</td><td>elle ne s’habille pas</td><td>ne后是辅音s，ne不省音。</td></tr><tr><td>je me ne repose pas</td><td>je ne me repose pas</td><td>ne在反身代词前。</td></tr><tr><td>on nous reposons</td><td>on se repose</td><td>on用se＋第三人称单数。</td></tr><tr><td>jouer du foot</td><td>jouer au foot／faire du foot</td><td>运动jouer à；faire de也可。</td></tr><tr><td>faire du natation</td><td>faire de la natation</td><td>阴性冠词。</td></tr><tr><td>je dorms／je me dors</td><td>je dors</td><td>dormir单数词干dor-，非代词式。</td></tr><tr><td>le dimanche→只有下个周日</td><td>习惯性的每周日</td><td>与dimanche prochain分开。</td></tr><tr><td>没写读书→明确不读</td><td>未提及</td><td>信息判断与语法判断分开。</td></tr></tbody></table></div><ul><li>我能完整变位lire、écrire，正确用écrire＋内容＋à＋人。</li><li>我能换人称同时改主语、反身代词和动词，记住nous nous／vous vous。</li><li>我能区分lève／levons、m’habille／nous nous habillons。</li><li>我能写代词式动词的否定与est-ce que问句。</li><li>我能使用faire du／de la／de l’与jouer au／aux，并接受faire du tennis这一合法表达。</li><li>我能区分正在做与习惯、le dimanche与dimanche prochain、à与vers。</li><li>我能读A/B/C，不把“未写”判为“明确否定”。</li><li>我能练r音、辅音组合与-er／-ir词尾，不用力挤喉。</li><li>我完成A—J与小测，写出自己的8—10句习惯并录音。</li></ul><p>复习：当天做A—F；次日把自己的4句je改成nous和elle；三天后重录对话并查代词；一周后遮住表写完整变位。接下来的日常活动综合课会继续使用这些结构。</p><p>教材范围核对：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener\">出版方教学指南第15课目标</a>。本站例句、人物与练习为原创。</p>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "question": "Nous ____ le journal.（lire）",
+      "options": [
+        "lisons",
+        "lions",
+        "lit"
+      ],
+      "answer": 0,
+      "explanation": "nous lisons，复数词干lis-。",
+      "group": "grammar",
+      "id": "l15-q01"
+    },
+    {
+      "question": "Elles ____ à leurs amis.（écrire）",
+      "options": [
+        "écrit",
+        "écrivent",
+        "écris"
+      ],
+      "answer": 1,
+      "explanation": "elles écrivent，复数词干écriv-。",
+      "group": "grammar",
+      "id": "l15-q02"
+    },
+    {
+      "question": "On ____ une lettre.（écrire）",
+      "options": [
+        "écrivons",
+        "écrivez",
+        "écrit"
+      ],
+      "answer": 2,
+      "explanation": "on＋第三人称单数écrit。",
+      "group": "grammar",
+      "id": "l15-q03"
+    },
+    {
+      "question": "我给Lina写信：",
+      "options": [
+        "J’écris une lettre à Lina.",
+        "J’écris à une lettre Lina.",
+        "Je écrit une lettre Lina."
+      ],
+      "answer": 0,
+      "explanation": "内容直接接une lettre，收件人用à；je省音j’écris。",
+      "group": "grammar",
+      "id": "l15-q04"
+    },
+    {
+      "question": "Elle ____ un roman.（lire）",
+      "options": [
+        "lis",
+        "lit",
+        "lisent"
+      ],
+      "answer": 1,
+      "explanation": "elle lit，第三人称单数t不读。",
+      "group": "grammar",
+      "id": "l15-q05"
+    },
+    {
+      "question": "Vous ____ des messages.（écrire）",
+      "options": [
+        "écrions",
+        "écrivez-vous",
+        "écrivez"
+      ],
+      "answer": 2,
+      "explanation": "陈述句vous écrivez，不能把已有主语再倒装重复。",
+      "group": "grammar",
+      "id": "l15-q06"
+    },
+    {
+      "question": "Je ____ lave.",
+      "options": [
+        "me",
+        "se",
+        "nous"
+      ],
+      "answer": 0,
+      "explanation": "je配反身代词me。",
+      "group": "grammar",
+      "id": "l15-q07"
+    },
+    {
+      "question": "Tu ____ habilles.",
+      "options": [
+        "me",
+        "t’",
+        "se"
+      ],
+      "answer": 1,
+      "explanation": "tu配te，habiller哑音h，省音t’habilles。",
+      "group": "grammar",
+      "id": "l15-q08"
+    },
+    {
+      "question": "Nous ____ levons.",
+      "options": [
+        "se",
+        "me",
+        "nous"
+      ],
+      "answer": 2,
+      "explanation": "Nous nous levons，第二个nous为反身代词。",
+      "group": "grammar",
+      "id": "l15-q09"
+    },
+    {
+      "question": "Ils ____ reposent.",
+      "options": [
+        "se",
+        "nous",
+        "me"
+      ],
+      "answer": 0,
+      "explanation": "ils配se，与reposent对应。",
+      "group": "grammar",
+      "id": "l15-q10"
+    },
+    {
+      "question": "nous形式正确的是：",
+      "options": [
+        "Nous nous lèvons.",
+        "Nous nous levons.",
+        "Nous se levons."
+      ],
+      "answer": 1,
+      "explanation": "lever的nous词干lev-无è；反身代词nous。",
+      "group": "grammar",
+      "id": "l15-q11"
+    },
+    {
+      "question": "elle自己穿衣用：",
+      "options": [
+        "Elle me habille.",
+        "Elle se habille.",
+        "Elle s’habille."
+      ],
+      "answer": 2,
+      "explanation": "elle配se，元音／哑音h前省音s’。",
+      "group": "grammar",
+      "id": "l15-q12"
+    },
+    {
+      "question": "Je me lève的否定：",
+      "options": [
+        "Je ne me lève pas.",
+        "Je me ne lève pas.",
+        "Je ne lève me pas."
+      ],
+      "answer": 0,
+      "explanation": "ne在反身代词前，pas在变位动词后。",
+      "group": "grammar",
+      "id": "l15-q13"
+    },
+    {
+      "question": "Elle s’habille的否定：",
+      "options": [
+        "Elle n’s’habille pas.",
+        "Elle ne s’habille pas.",
+        "Elle se ne habille pas."
+      ],
+      "answer": 1,
+      "explanation": "ne后接s’的辅音s，不省成n’；se在habille前省音。",
+      "group": "grammar",
+      "id": "l15-q14"
+    },
+    {
+      "question": "正确的起床问句是：",
+      "options": [
+        "À quelle heure tu se lèves ?",
+        "Est-ce que vous levez-vous ?",
+        "À quelle heure est-ce que tu te lèves ?"
+      ],
+      "answer": 2,
+      "explanation": "tu配te lèves；est-ce que后不再倒装。",
+      "group": "grammar",
+      "id": "l15-q15"
+    },
+    {
+      "question": "补充：J’aime ____ reposer.",
+      "options": [
+        "me",
+        "se",
+        "nous"
+      ],
+      "answer": 0,
+      "explanation": "不定式反身代词与动作主语je匹配，me reposer。",
+      "group": "grammar",
+      "id": "l15-q16"
+    },
+    {
+      "question": "Je fais ____ vélo.",
+      "options": [
+        "au",
+        "du",
+        "de la"
+      ],
+      "answer": 1,
+      "explanation": "faire de＋le vélo→du vélo。",
+      "group": "grammar",
+      "id": "l15-q17"
+    },
+    {
+      "question": "Elle fait ____ natation.",
+      "options": [
+        "du",
+        "au",
+        "de la"
+      ],
+      "answer": 2,
+      "explanation": "natation阴性：faire de la natation。",
+      "group": "grammar",
+      "id": "l15-q18"
+    },
+    {
+      "question": "Nous jouons ____ tennis.",
+      "options": [
+        "au",
+        "du",
+        "à le"
+      ],
+      "answer": 0,
+      "explanation": "jouer à＋le tennis→au tennis。",
+      "group": "grammar",
+      "id": "l15-q19"
+    },
+    {
+      "question": "关于网球表达哪项正确？",
+      "options": [
+        "只有Je joue au tennis正确",
+        "Je joue au tennis和Je fais du tennis都可",
+        "只有Je fais du tennis正确"
+      ],
+      "answer": 1,
+      "explanation": "从事运动可faire de；打球可jouer à，两个表达都合法。",
+      "group": "grammar",
+      "id": "l15-q20"
+    },
+    {
+      "question": "补充游戏：On joue ____ échecs.",
+      "options": [
+        "au",
+        "des",
+        "aux"
+      ],
+      "answer": 2,
+      "explanation": "jouer à＋les échecs→aux échecs。",
+      "group": "grammar",
+      "id": "l15-q21"
+    },
+    {
+      "question": "否定“我不打网球”：",
+      "options": [
+        "Je ne joue pas au tennis.",
+        "Je ne joue pas de tennis.",
+        "Je ne joue pas du tennis."
+      ],
+      "answer": 0,
+      "explanation": "au来自jouer à＋le，不因否定变de。",
+      "group": "grammar",
+      "id": "l15-q22"
+    },
+    {
+      "question": "le dimanche通常表示：",
+      "options": [
+        "仅下个周日",
+        "每逢周日的习惯",
+        "现在几点"
+      ],
+      "answer": 1,
+      "explanation": "le＋星期用于习惯；dimanche prochain表示下次周日。",
+      "group": "grammar",
+      "id": "l15-q23"
+    },
+    {
+      "question": "vers huit heures表示：",
+      "options": [
+        "严格08:00",
+        "一定09:00",
+        "八点左右"
+      ],
+      "answer": 2,
+      "explanation": "vers是大约，不是精确钟点。",
+      "group": "vocabulary",
+      "id": "l15-q24"
+    },
+    {
+      "question": "A资料Lina10点做什么？",
+      "options": [
+        "faire de la natation",
+        "jouer au tennis",
+        "faire les courses"
+      ],
+      "answer": 0,
+      "explanation": "A10 h游泳；Marc10 h才打网球。",
+      "group": "reading",
+      "id": "l15-q25"
+    },
+    {
+      "question": "谁在C资料11点采购？",
+      "options": [
+        "Lina",
+        "Claire et Noé",
+        "Marc"
+      ],
+      "answer": 1,
+      "explanation": "C十一点去市场采购；B明确Marc周日不采购。",
+      "group": "reading",
+      "id": "l15-q26"
+    },
+    {
+      "question": "C中Nous écrivons à nos amis能证明写的是邮件吗？",
+      "options": [
+        "能，肯定邮件",
+        "能，肯定明信片",
+        "不能，载体未提及"
+      ],
+      "answer": 2,
+      "explanation": "écrire à说明写给谁，没说明信件、邮件还是消息。",
+      "group": "reading",
+      "id": "l15-q27"
+    },
+    {
+      "question": "lire与jouer词尾的常见读法：",
+      "options": [
+        "lire读/ʁ/，jouer词尾-er读/e/",
+        "两词末尾r都不读",
+        "两词末尾r都读"
+      ],
+      "answer": 0,
+      "explanation": "lire /liʁ/；规则-er不定式jouer /ʒwe/。",
+      "group": "pronunciation",
+      "id": "l15-q28"
+    },
+    {
+      "question": "écrire中的/kʁ/组合应：",
+      "options": [
+        "插入完整元音",
+        "直接连贯发音",
+        "省掉r"
+      ],
+      "answer": 1,
+      "explanation": "保持/kʁ/连贯，不插额外元音，r轻摩擦。",
+      "group": "pronunciation",
+      "id": "l15-q29"
+    },
+    {
+      "question": "把je me lève et je lis改成elle：",
+      "options": [
+        "Elle me lève et elle lis.",
+        "Elle se lève et elle lisent.",
+        "Elle se lève et elle lit."
+      ],
+      "answer": 2,
+      "explanation": "人称改写同时更新me→se、lis→lit，主语elle一致。",
+      "group": "writing",
+      "id": "l15-q30"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "readwrite",
+      "reflexive",
+      "patterns",
+      "sports",
+      "habits"
+    ],
+    "vocabulary": [
+      "words",
+      "sports"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "reading",
+      "habits"
+    ],
+    "speaking": [
+      "sports",
+      "habits",
+      "phrases"
+    ],
+    "writing": [
+      "readwrite",
+      "reflexive",
+      "patterns",
+      "habits",
+      "phrases"
+    ]
+  },
+  "listening": "第15课教材音轨：识别人，再记录日常动作、钟点、运动和频率；对照教材后模仿r音。本站A/B/C与Mei—Alex对话均为原创，不是教材录音逐字稿。"
+}
