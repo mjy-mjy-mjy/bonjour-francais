@@ -39,6 +39,10 @@
 
 “当前学习课次”保留原生下拉选择操作，箭头与右侧边框保持固定留白，长课名保留箭头空间。
 
+导航与正文采用统一的20px栏间距，顶部工具栏、正文及页脚的起始位置对齐；较窄桌面使用180px导航，手机保留上下布局。右侧留白采用16—32px的响应式范围，避免把导航预留空隙与正文左边距叠加。
+
+字体通过`--font-body`与`--font-display`统一维护：正文、例句、变位表、练习及笔记继承系统拉丁字体栈（Apple系统字体、Segoe UI、Roboto、Noto Sans、Helvetica Neue、Arial），中文由PingFang SC或Microsoft YaHei等回退；课程标题和展示性文字使用Georgia，回退到Times New Roman／Noto Serif及中文字体。无需外部字体下载，同一字号下实际字形随设备可用字体变化；字体不能声称是唯一的“最优法语字体”。选型参考[Bootstrap系统字体栈](https://getbootstrap.com/docs/5.3/content/reboot/#native-font-stack)、[Microsoft Segoe UI说明](https://learn.microsoft.com/en-us/typography/font-list/segoe-ui)与[Georgia说明](https://learn.microsoft.com/en-us/typography/font-list/georgia)。
+
 页面背景连续铺满窗口，顶部不留异色色带。首页、课程、分类和记录页随可用宽度伸展，页脚与正文对齐；宽屏使用均匀的左右留白，手机上自动调整导航与分栏，较宽的表格在自身区域内横向滚动。内容较少时，页脚仍位于窗口底部。
 
 切换配色不会重新加载课程，也不会清除已选答案、已展开解析或学习记录。配色偏好与学习进度分开保存，学习备份只包含进度、收藏、错题和笔记；导入备份不会覆盖配色偏好。
@@ -142,4 +146,5 @@ node --test scripts/app.test.cjs
 教材配套音频通过出版方资源页访问；本站尚未集成音轨播放器、自动口语或写作评分。
 
 第1—13课及第15—16课的内容源放在 `lessons/NN.json`，目录放在 `lessons/catalog.json`。运行 `scripts/build-course.py` 生成 `course.js`；不要直接编辑生成文件。每课完成后保存知识覆盖与功能核对记录，再开始下一课。
+
 
