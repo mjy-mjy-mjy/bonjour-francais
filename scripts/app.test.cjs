@@ -203,7 +203,7 @@ test('lesson-specific category pages and search preserve the selected lesson', (
   const a = app();
   a.elements.search.listeners.input({target:{value:'Qui est-ce'}});
   assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/1/questions'));
-  assert.ok(!app(null, '#lesson/17').main.innerHTML.includes('即时小测'));
+  assert.ok(!app(null, '#lesson/19').main.innerHTML.includes('即时小测'));
 });
 
 test('question IDs across courses are unique and new lesson mistakes survive reload', () => {
@@ -296,9 +296,11 @@ const authoredCoverage={
   12:['Marseille','住房','旅游','未提及','港口','路线','资料'],
   13:['partons','partez','partent','premier','janvier','moins le quart','demie','aller-retour','/z/'],
   15:['lisons','écrivons','nous nous levons','s’habille','ne me','de la natation','au tennis','Le dimanche','/ʁ/'],
-  16:['reprenons','prennent','nous nageons','recommençons','se détend','jusqu’à','未提及','采访','报刊','/ʁ/']
+  16:['reprenons','prennent','nous nageons','recommençons','se détend','jusqu’à','未提及','采访','报刊','/ʁ/'],
+  17:['buvons','buvez','boivent','j’achète','nous mangeons','de l’eau','un litre de lait','部分冠词','/œ/','/ø/'],
+  18:['j’ai acheté','nous avons mangé','vous avez pris','elles ont bu','过去分词','un bel hôtel','belles','强调重音']
 };
-const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=16&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
+const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=18&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
 for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
   const a=app(null,'#lesson/'+n);
   for(const text of authoredCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
@@ -315,10 +317,10 @@ for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, s
 });
 
 
-test('route includes lesson 15 and new knowledge search links reach the authored sections',()=>{
+test('route includes authored lessons through 18 and knowledge search links reach their sections',()=>{
   const a=app();
-  assert.ok(a.main.innerHTML.includes('前 16 课 · 教材路线'));
-  for(const n of [13,14,15,16])assert.ok(a.main.innerHTML.includes('#lesson/'+n));
+  assert.ok(a.main.innerHTML.includes('前 18 课 · 教材路线'));
+  for(const n of [13,14,15,16,17,18])assert.ok(a.main.innerHTML.includes('#lesson/'+n));
   a.elements.search.listeners.input({target:{value:'partons'}});
   assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/13/partir'));
   a.elements.search.listeners.input({target:{value:'levons'}});
@@ -405,11 +407,11 @@ test('all completed chapters offer review without inventing lesson 37',()=>{
   assert.ok(!a.main.innerHTML.includes('#lesson/37'));
 });
 test('unfinished textbook chapters are labelled honestly and default skills use an available course',()=>{
-  const a=app(progress({currentLesson:17,completed:[16]}));
+  const a=app(progress({currentLesson:19,completed:[18]}));
   assert.ok(homeHero(a).includes('教材笔记'));
   assert.ok(homeHero(a).includes('详细讲义待补充'));
-  assert.ok(a.elements.navigation.innerHTML.includes('#grammar/16'));
-  assert.ok(app(a.storage.value,'#grammar').main.innerHTML.includes('Une journée avec Laure Manaudou'));
+  assert.ok(a.elements.navigation.innerHTML.includes('#grammar/18'));
+  assert.ok(app(a.storage.value,'#grammar').main.innerHTML.includes('Il est comment ?'));
 });
 
 test('the selected palette restores independently of progress and unknown palettes use glass',()=>{
@@ -652,7 +654,7 @@ test('reading controls appear only in long lessons and directory navigation pres
   a.context.location.hash='#lesson/14/toc';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14'});
   assert.equal(a.main.innerHTML,original);assert.equal(a.elements['lesson14-toc'].scrolled,true);assert.equal(a.elements['lesson14-toc'].focused,true);
   a.elements.search.listeners.input({target:{value:'faire'}});assert.equal(a.elements['reading-tools'].hidden,true);
-  const placeholder=app(null,'#lesson/17');placeholder.context.scrollY=2000;placeholder.context.events.scroll();assert.equal(placeholder.elements['reading-tools'].hidden,true);
+  const placeholder=app(null,'#lesson/19');placeholder.context.scrollY=2000;placeholder.context.events.scroll();assert.equal(placeholder.elements['reading-tools'].hidden,true);
 });
 
 test('mobile menu exposes its expansion state and closes with navigation or Escape',()=>{
@@ -780,7 +782,7 @@ test('lesson 16 routes, search and practice preserve meaning across all skills',
   const a=app(progress({currentLesson:16}));
   assert.ok(homeHero(a).includes('Une journée avec Laure Manaudou'));
   assert.ok(!a.main.innerHTML.includes('本单元未提供详细讲义'));
-  assert.ok(a.main.innerHTML.includes('第1—16课已提供详细讲义'));
+  assert.ok(a.main.innerHTML.includes('第1—18课已提供详细讲义'));
   a.elements.search.listeners.input({target:{value:'recommençons'}});
   assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/16/verbs'));
   const c=a.context.COURSE_LIBRARY.lessons.find(c=>c.number===16);
@@ -802,6 +804,26 @@ test('lesson 16 replaces its notebook placeholder without losing notes or earlie
   a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
   const review=app(a.storage.value,'#review');assert.ok(review.main.innerHTML.includes('data-question="l16-q09"'));assert.ok(review.main.innerHTML.includes('data-question="l15-q01"'));
   const restored=JSON.parse(review.storage.value);assert.equal(restored.notes['lesson-16'],'补充前写的教材笔记');assert.deepEqual(restored.favorites,[16]);assert.deepEqual(restored.completed,[15]);
+  form.answer=String(q.answer);a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
+  assert.deepEqual(JSON.parse(a.storage.value).wrong,['l15-q01']);
+});
+
+for(const [n,term,anchor] of [[17,'buvons','verbs'],[18,'j’ai acheté','verbs']])test(`lesson ${n} replaces notebook content while retaining earlier mistakes, notes and completion`,()=>{
+  const saved=progress({currentLesson:n,completed:[16],favorites:[n],notes:{[`lesson-${n}`]:'原有教材笔记','lesson-15':'早期笔记'},wrong:['l15-q01'],attempts:{'l15-q01':false}});
+  const a=app(saved,'#lesson/'+n);
+  assert.ok(a.main.innerHTML.includes('原有教材笔记'));
+  assert.ok(!a.main.innerHTML.includes('本课详细讲义正在补充'));
+  const course=a.context.COURSE_LIBRARY.lessons.find(c=>c.number===n);
+  const q=course.quickQuestions[0];
+  const form={dataset:{question:q.id},answer:String((q.answer+1)%q.options.length),querySelector:()=>({})};
+  a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
+  const review=app(a.storage.value,'#review');
+  for(const id of [q.id,'l15-q01'])assert.ok(review.main.innerHTML.includes(`data-question="${id}"`));
+  const restored=JSON.parse(review.storage.value);
+  assert.equal(restored.notes[`lesson-${n}`],'原有教材笔记');assert.equal(restored.notes['lesson-15'],'早期笔记');
+  assert.deepEqual(restored.favorites,[n]);assert.deepEqual(restored.completed,[16]);
+  a.elements.search.listeners.input({target:{value:term}});
+  assert.ok(a.elements['search-results'].innerHTML.includes(`#lesson/${n}/${anchor}`));
   form.answer=String(q.answer);a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
   assert.deepEqual(JSON.parse(a.storage.value).wrong,['l15-q01']);
 });

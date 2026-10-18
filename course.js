@@ -214,6 +214,34 @@ window.COURSE_LIBRARY = {
         "采访、记录与介绍日程",
         "第4单元综合运用"
       ]
+    },
+    {
+      "number": 17,
+      "title": "On fait des crêpes ?",
+      "translation": "我们做可丽饼吧？",
+      "pages": "56–57",
+      "core": [
+        "表达需要与饮食习惯",
+        "部分冠词du／de la／de l’／des",
+        "数量、单位与否定后的de",
+        "boire／acheter／manger现在时",
+        "购物清单",
+        "/œ/／/ɔ/／/ø/"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Il est comment ?",
+      "translation": "它怎么样？",
+      "pages": "58–59",
+      "core": [
+        "叙述过去活动与表达评价",
+        "avoir复合过去时",
+        "规则与不规则过去分词",
+        "否定、疑问与时间线",
+        "beau／bel／belle及性数配合",
+        "强调重音"
+      ]
     }
   ],
   "lessons": [
@@ -7540,6 +7568,1245 @@ window.COURSE_LIBRARY = {
         ]
       },
       "listening": "第16课为报刊阅读与日常活动综合课。请按自己的教材版本在出版方资源中查找本课或本单元对应音轨／视频；若第16课没有独立录音，可复听第13—15课的钟点、问句与日常活动。第一遍抓人物、时段和活动，第二遍记à／vers／jusqu’à、否定与频率；对照教材核查，再复述两句话。本站Nora／Yan文章与采访均为原创，没有对应教材录音，不作为音频逐字稿。"
+    },
+    {
+      "number": 17,
+      "title": "On fait des crêpes ?",
+      "translation": "我们做可丽饼吧？",
+      "pages": "56–57",
+      "core": [
+        "表达需要与饮食习惯",
+        "部分冠词du／de la／de l’／des",
+        "数量、单位与否定后的de",
+        "boire／acheter／manger现在时",
+        "购物清单",
+        "/œ/／/ɔ/／/ø/"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标与范围",
+          "html": "<h2>1. 学习目标与范围</h2><p>第17课 <strong lang=\"fr\">On fait des crêpes ?（我们做可丽饼吧？）</strong>，第5单元，教材第56—57页。目标是提出需要、询问饮食习惯、说明数量，并能列一张购物清单。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">范围</th><th scope=\"col\">知识</th><th scope=\"col\">产出</th></tr></thead><tbody><tr><td>教材核心</td><td>部分冠词；boire、acheter、manger现在时；食物、数量；/œ/、/ɔ/、/ø/</td><td>说清要买什么、买多少、平时吃喝什么</td></tr><tr><td>复习</td><td>定冠词、不定冠词、否定句、钟点、faire与prendre</td><td>区分喜好和摄入量，回答习惯性问题</td></tr><tr><td>补充辨析</td><td>il faut；量词后de；否定的例外；du的两种功能</td><td>避免把所有du都解释成同一种冠词</td></tr></tbody></table></div><p>本文对话、食谱练习和阅读材料均为原创，不是教材原文或录音逐字稿。教材范围核对<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方教学指南</a>第17课（PDF第59—61页，书内页65—67）。每个模块可单独复习。</p>"
+        },
+        {
+          "id": "communicate",
+          "title": "2. 学会说：需要、习惯与购物",
+          "html": "<h2>2. 学会说：需要、习惯与购物</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">任务</th><th scope=\"col\">提问</th><th scope=\"col\">回答与说明</th></tr></thead><tbody><tr><td>提出共同活动</td><td>On fait des crêpes ce soir ?</td><td>Bonne idée !（好主意！）on用第三人称单数：on fait</td></tr><tr><td>问需要什么</td><td>Qu’est-ce qu’il faut acheter ?</td><td>Il faut acheter de la farine.（需要买面粉。）</td></tr><tr><td>问数量</td><td>Combien de lait est-ce qu’il faut ?</td><td>Il faut un demi-litre de lait.（需要半升牛奶。）</td></tr><tr><td>问食物数量</td><td>Combien d’œufs est-ce qu’il faut ?</td><td>Il faut trois œufs.（需要三个鸡蛋。）</td></tr><tr><td>问饮食习惯</td><td>Qu’est-ce que tu manges le matin ?</td><td>Je mange du pain et je bois du thé.</td></tr><tr><td>确认库存</td><td>Est-ce qu’on a assez de sucre ?</td><td>Oui, on a assez de sucre. / Non, il faut du sucre.</td></tr><tr><td>礼貌购买</td><td>Je voudrais une bouteille d’eau, s’il vous plaît.</td><td>Voilà !（给您！）voudrais作礼貌固定表达复习</td></tr></tbody></table></div><p><strong>原创短对话：</strong><br><span lang=\"fr\">— On prépare le dîner ensemble ?<br>— Oui. Qu’est-ce qu’il faut acheter ?<br>— Du riz, des légumes et une bouteille d’eau.<br>— Combien de riz ?<br>— Deux cents grammes. On a déjà du poisson.<br>— D’accord. Je fais les courses.</span></p><p>先替换食物，再替换数量；不要只回答一个名词。习惯用le matin、le lundi、souvent等标明，某一次的购物用ce soir等语境。</p>"
+        },
+        {
+          "id": "partitive",
+          "title": "3. 部分冠词：du、de la、de l’、des",
+          "html": "<h2>3. 部分冠词：du、de la、de l’、des</h2><p>部分冠词表示未明确数量的一部分。中文常常不翻译“些”，法语名词前仍需限定词。先判断语境中的“可数／不可数”，再选性数和元音前形式。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">形式</th><th scope=\"col\">条件</th><th scope=\"col\">原创例句</th></tr></thead><tbody><tr><td>du</td><td>阳性单数，辅音起首</td><td>Je mange du fromage. 我吃一些奶酪。</td></tr><tr><td>de la</td><td>阴性单数，辅音起首</td><td>On achète de la farine. 我们买面粉。</td></tr><tr><td>de l’</td><td>单数，元音或哑音h起首，不分阴阳性</td><td>Je bois de l’eau. 水eau是阴性；de l’huile中的huile也是阴性。</td></tr><tr><td>des</td><td>教材将其与部分冠词并列；常用于未定数量的复数食物</td><td>J’achète des légumes. 我买些蔬菜。可数复数的des也常归入不定冠词。</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">想表达什么</th><th scope=\"col\">例句</th><th scope=\"col\">区别</th></tr></thead><tbody><tr><td>一份／一个可数单位</td><td>J’achète un gâteau.</td><td>买一个完整蛋糕</td></tr><tr><td>未定量的部分</td><td>Je mange du gâteau.</td><td>吃一些蛋糕</td></tr><tr><td>总体喜好</td><td>J’aime le gâteau au chocolat.</td><td>喜欢巧克力蛋糕这一类</td></tr><tr><td>特定整体</td><td>Je prends le gâteau sur la table.</td><td>拿桌上那个蛋糕</td></tr></tbody></table></div><p>des œufs表示几个未说明数目的鸡蛋；trois œufs明确三个。不能看到食物就一律用du。le、la、les在aimer、adorer、préférer表示总体喜好时常保留。</p><p><strong>du不是只有一种功能：</strong>Je mange du pain中的du是部分冠词；Je parle du pain de cette boulangerie中的du是介词de＋定冠词le的缩合。de la不缩合，de les缩合成des，à le缩合成au。要看前面的动词或结构是否要求介词。</p>"
+        },
+        {
+          "id": "quantities",
+          "title": "4. 数量、单位与否定后的de",
+          "html": "<h2>4. 数量、单位与否定后的de</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">结构</th><th scope=\"col\">例子</th><th scope=\"col\">提示</th></tr></thead><tbody><tr><td>单位＋de／d’＋名词</td><td>un kilo de riz；un litre de lait；une bouteille d’eau</td><td>不用un litre du lait来泛指一升牛奶</td></tr><tr><td>分量</td><td>un demi-litre de lait；une demi-livre de beurre</td><td>demi-在名词前不变；本课livre为500克，非书本</td></tr><tr><td>克、千克、升</td><td>cent grammes de farine；deux kilos de pommes de terre</td><td>数字后单位复数通常加s；1 kg＝1 000 g</td></tr><tr><td>程度数量＋de</td><td>beaucoup de légumes；assez de sucre；un peu de sel</td><td>beaucoup des…表示特定整体中的许多，是后续辨析</td></tr><tr><td>combien de／d’</td><td>Combien de farine ? Combien d’œufs ?</td><td>de不随名词的性数变化</td></tr><tr><td>直接数字＋可数名词</td><td>six œufs；deux pommes</td><td>不用six des œufs表示普通数量</td></tr></tbody></table></div><p><strong>普通全否定：</strong>Je bois du lait → Je ne bois pas de lait. J’achète des œufs → Je n’achète pas d’œufs. n’放在元音起首的动词前，d’放在元音起首的名词前。</p><p><strong>边界：</strong>J’aime le café → Je n’aime pas le café，定冠词不因否定变成de。Ce n’est pas du lait在être后通常保留冠词；对比“不是牛奶而是水”也不机械删除。数量规则先掌握常见购物语境，不把它扩成“de后永远不能有冠词”。</p><p>练习顺序：du lait → un litre de lait → pas de lait；des œufs → trois œufs → pas d’œufs。每次同时说完整动词形式。</p>"
+        },
+        {
+          "id": "verbs",
+          "title": "5. 三个核心动词：现在时完整变位",
+          "html": "<h2>5. 三个核心动词：现在时完整变位</h2><h3>boire</h3><div class=\"table-scroll\"><table data-conjugation=\"boire\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>je bois</td></tr><tr><td>tu</td><td>tu bois</td></tr><tr><td>il / elle / on</td><td>il / elle / on boit</td></tr><tr><td>nous</td><td>nous buvons</td></tr><tr><td>vous</td><td>vous buvez</td></tr><tr><td>ils / elles</td><td>ils / elles boivent</td></tr></tbody></table></div><p>喝：单数boi-，nous／vous为buv-，第三人称复数boiv-。je bois和il boit的动词都读/bwa/，nous buvons /by.vɔ̃/，ils boivent /bwav/。Je bois de l’eau. Nous buvons du thé.</p><h3>acheter</h3><div class=\"table-scroll\"><table data-conjugation=\"acheter\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>j’achète</td></tr><tr><td>tu</td><td>tu achètes</td></tr><tr><td>il / elle / on</td><td>il / elle / on achète</td></tr><tr><td>nous</td><td>nous achetons</td></tr><tr><td>vous</td><td>vous achetez</td></tr><tr><td>ils / elles</td><td>ils / elles achètent</td></tr></tbody></table></div><p>买：除nous／vous外，词干e变è；现在时词尾仍是-e、-es、-e、-ons、-ez、-ent。J’achète du pain. Vous achetez des fruits. 注意j’省音和è重音。</p><h3>manger</h3><div class=\"table-scroll\"><table data-conjugation=\"manger\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>je mange</td></tr><tr><td>tu</td><td>tu manges</td></tr><tr><td>il / elle / on</td><td>il / elle / on mange</td></tr><tr><td>nous</td><td>nous mangeons</td></tr><tr><td>vous</td><td>vous mangez</td></tr><tr><td>ils / elles</td><td>ils / elles mangent</td></tr></tbody></table></div><p>吃：nous mangeons在o前保留e，让g继续读/ʒ/；不能写nous mangons或nous mangions（后者不是本课现在时）。Nous mangeons du riz. Elles mangent des légumes.</p><p><strong>固定表达il faut：</strong>来自falloir，本课只学无人称il faut，不造je faut／nous fallons。il faut＋名词：Il faut du pain；il faut＋不定式：Il faut acheter du pain。Il ne faut pas acheter de lait表示“不需要／不要买牛奶”，须按语境理解。</p><p>faire／prendre复习见<a href=\"#lesson/14/faire\">第14课faire</a>与<a href=\"#lesson/16/verbs\">第16课prendre</a>。J’ai besoin de…是补充搭配，不用把它同il faut的结构混写。</p>"
+        },
+        {
+          "id": "words",
+          "title": "6. 食物与购物词汇：性数和搭配",
+          "html": "<h2>6. 食物与购物词汇：性数和搭配</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">词语</th><th scope=\"col\">词性／性数与中文</th><th scope=\"col\">搭配</th></tr></thead><tbody><tr><td>la farine</td><td>阴性名词：面粉</td><td>de la farine；un kilo de farine</td></tr><tr><td>le lait</td><td>阳性名词：牛奶</td><td>du lait；boire du lait</td></tr><tr><td>le beurre</td><td>阳性名词：黄油</td><td>du beurre；cent grammes de beurre</td></tr><tr><td>le sucre / le sel</td><td>阳性名词：糖／盐</td><td>du sucre；un peu de sel</td></tr><tr><td>un œuf / des œufs</td><td>阳性名词：鸡蛋</td><td>un œuf；trois œufs</td></tr><tr><td>le pain / le riz</td><td>阳性名词：面包／米饭</td><td>du pain；du riz</td></tr><tr><td>la viande / le poisson</td><td>阴性／阳性：肉／鱼</td><td>manger de la viande；du poisson</td></tr><tr><td>le fromage / la confiture</td><td>阳性／阴性：奶酪／果酱</td><td>du fromage；de la confiture</td></tr><tr><td>un légume / des légumes</td><td>阳性名词：蔬菜</td><td>acheter des légumes</td></tr><tr><td>une pomme de terre</td><td>阴性可数名词：土豆</td><td>des pommes de terre；un kilo de pommes de terre</td></tr><tr><td>l’eau / l’huile</td><td>均为阴性名词：水／油</td><td>de l’eau；de l’huile</td></tr><tr><td>le thé / le café / le vin / le cidre</td><td>阳性名词：茶／咖啡／葡萄酒／苹果酒</td><td>boire du thé；une bouteille de cidre</td></tr><tr><td>une crêpe</td><td>阴性可数名词：可丽饼</td><td>faire des crêpes</td></tr><tr><td>un repas</td><td>阳性名词：一餐；复数repas不变</td><td>préparer un repas</td></tr><tr><td>le petit déjeuner / le déjeuner / le dîner</td><td>阳性名词：早餐／午餐／晚餐</td><td>prendre le petit déjeuner；préparer le dîner</td></tr><tr><td>une liste de courses</td><td>阴性名词短语：购物清单</td><td>faire les courses；写清品项和数量</td></tr><tr><td>un gramme / un kilo / un litre / une livre</td><td>克／千克／升／法式斤</td><td>une livre＝500 grammes；un livre另为一本书</td></tr><tr><td>assez / déjà / encore</td><td>副词：足够／已经／还、再</td><td>assez de farine；on a déjà du lait</td></tr></tbody></table></div><p>faire les courses通常指买日用品；faire les magasins偏逛商店。主食、餐名和一份饮料的用法由语境决定：un café可以表示“一杯咖啡”，不与du café矛盾。</p>"
+        },
+        {
+          "id": "patterns",
+          "title": "7. 饮食习惯与相似表达辨析",
+          "html": "<h2>7. 饮食习惯与相似表达辨析</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">对照</th><th scope=\"col\">例句</th><th scope=\"col\">如何判断</th></tr></thead><tbody><tr><td>boire / prendre</td><td>Je bois du thé. / Je prends un thé.</td><td>喝茶与点／喝一杯茶；prendre的意义更广</td></tr><tr><td>besoin / nécessité</td><td>J’ai besoin de farine. / Il faut de la farine.</td><td>avoir besoin de＋名词；il faut直接接名词或不定式</td></tr><tr><td>喜好 / 习惯</td><td>J’aime le lait. / Je bois du lait le matin.</td><td>喜欢不等于每天都喝</td></tr><tr><td>习惯 / 一次</td><td>Le matin, je mange du pain. / Ce matin, je mange une crêpe.</td><td>le matin泛指习惯；ce matin是今天早晨</td></tr><tr><td>库存 / 购物</td><td>On a des œufs. / On achète des œufs.</td><td>有什么和买什么不是同一信息</td></tr><tr><td>足够 / 许多</td><td>On a assez de sucre. / On a beaucoup de sucre.</td><td>assez相对于需要足够；beaucoup表示多</td></tr></tbody></table></div><p>原创替换链：Le matin, je bois du café → Nous buvons du café → Nous ne buvons pas de café → Nous buvons du thé. 一次只改主语、食物或肯否，保留其他部分。</p><p>on作“我们”时，动词仍用第三人称单数；On mange不写on mangeons。早餐时段和食物可以因人而异，回答自己的习惯即可。</p><h3>文化补充：可丽饼与Chandeleur</h3><p>法国的Chandeleur（圣烛节）在每年2月2日，常与分享可丽饼的习俗相连。不要把它和日期浮动的Mardi gras（忏悔星期二）或其后的圣灰星期三混为一天。日期与习俗核对<a href=\"https://agriculture.gouv.fr/il-est-lheure-de-la-chandeleur\" target=\"_blank\" rel=\"noopener noreferrer\">法国农业部介绍</a>；个别旧版教学材料的日期说明有误，文化信息以核对后的资料为准。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "8. 语音：/œ/、/ɔ/、/ø/与œuf",
+          "html": "<h2>8. 语音：/œ/、/ɔ/、/ø/与œuf</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">音</th><th scope=\"col\">口型提示</th><th scope=\"col\">例词</th></tr></thead><tbody><tr><td>/œ/</td><td>舌位靠前，嘴唇圆，开口较/ø/大</td><td>beurre /bœʁ/；sœur /sœʁ/；un œuf /œ̃.nœf/</td></tr><tr><td>/ɔ/</td><td>舌位较后，圆唇、开口</td><td>pomme /pɔm/；porte /pɔʁt/</td></tr><tr><td>/ø/</td><td>舌位靠前，圆唇、较闭</td><td>deux /dø/；feu /fø/；des œufs /de.zø/</td></tr></tbody></table></div><p>先比较deux／beurre中的前部圆唇元音，再比较beurre／porte的舌位。不要用汉字谐音固定读音；听出版方音频、暂停、模仿、录下再比对。</p><p><strong>鸡蛋的单复数：</strong>œuf单独读/œf/，œufs在常见复数短语des œufs中读/ø/，f和s不发音；des与œufs间/z/连读。six œufs读/si.zø/。这里不能套“复数就是单数发音加s”。</p><p>词形复习：je mange、tu manges、ils mangent中的动词读音相同；买的achète与achetons词干元音不同。朗读完整意群：<span lang=\"fr\">une bouteille d’eau / deux cents grammes de farine / nous achetons des œufs</span>。本站没有新增真人音轨，听力任务使用出版方资源。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "9. 原创阅读：从库存写出购物清单",
+          "html": "<h2>9. 原创阅读：从库存写出购物清单</h2><p><strong>原创留言：</strong><br><span lang=\"fr\">Salut Lina ! Ce soir, nous préparons des crêpes à la maison. Pour notre recette d’exercice, il faut 250 grammes de farine, trois œufs, un demi-litre de lait, 30 grammes de beurre et un peu de sucre. Nous avons déjà un kilo de farine et quatre œufs. Il n’y a pas de lait et il n’y a pas de beurre. Nous avons assez de sucre. Pour les boissons, il faut aussi une bouteille d’eau. À tout à l’heure ! — Marc</span></p><p>中文：今晚在家做可丽饼。这份练习食谱需要250克面粉、3个鸡蛋、半升牛奶、30克黄油和少许糖。已有1千克面粉、4个鸡蛋；没有牛奶和黄油；糖足够。饮料还需要一瓶水。练习数量用于语言任务，不是烹饪标准。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">信息</th><th scope=\"col\">根据留言确定</th><th scope=\"col\">依据</th></tr></thead><tbody><tr><td>需要</td><td>250 g面粉、3个鸡蛋、0.5 L牛奶、30 g黄油、少许糖、一瓶水</td><td>il faut与pour les boissons</td></tr><tr><td>已有且足够</td><td>面粉、鸡蛋、糖</td><td>1 kg大于250 g；4个大于3个；assez de sucre</td></tr><tr><td>明确缺少</td><td>牛奶、黄油</td><td>il n’y a pas de…</td></tr><tr><td>须买或确认</td><td>牛奶0.5 L、黄油30 g；水的库存未说明，出门前确认</td><td>需要水不等于已说明家中没有水</td></tr><tr><td>未提及</td><td>具体几点开饭、谁去购物、Lina是否喜欢牛奶</td><td>不能以常识补答案</td></tr></tbody></table></div><p>阅读方法：分别圈出“需要／已有／没有／未提及”，再列清单。库存不足与完全没有要分开；不要照抄全部配料为必买清单。</p>"
+        },
+        {
+          "id": "writing",
+          "title": "10. 听说读写任务与参考范文",
+          "html": "<h2>10. 听说读写任务与参考范文</h2><ul><li>听：找到教材第17课音轨，第一遍抓食物，第二遍记录数量，第三遍区分已有与要买，对照教材核查；不把本站留言当成录音文字。</li><li>说：用tu／vous各问一次饮食习惯，再与同伴完成8轮购物对话，必须出现一个否定、一个明确数量、两个不同动词人称。</li><li>读：不看中文重读Marc留言，按“证据句→结论”说明缺什么，并指出一项未提及的信息。</li><li>写：用6—8句介绍自己的早餐和本周一次购物；写一份含单位的清单。检查冠词、de／d’、动词和名词的性数。</li></ul><p><strong>原创范文：</strong><span lang=\"fr\">Le matin, je mange du pain et je bois du thé. Je ne bois pas de café. Le samedi, nous faisons les courses. Nous achetons des légumes et du riz. Pour ce soir, il faut une bouteille d’eau et un kilo de pommes de terre. Nous avons déjà du poisson. Nous n’achetons pas de sucre. Nous préparons le dîner ensemble.</span></p><p>开放题答案按表达是否清楚、结构是否正确检查，不必与范文的食物相同。做完后把最容易写错的三句放入本课笔记。</p>"
+        },
+        {
+          "id": "errors",
+          "title": "11. 易错速查：先诊断，再改写",
+          "html": "<h2>11. 易错速查：先诊断，再改写</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">误写</th><th scope=\"col\">改写</th><th scope=\"col\">理由</th></tr></thead><tbody><tr><td>nous boivons</td><td>nous buvons</td><td>nous／vous用buv-</td></tr><tr><td>nous achetons → j’achete</td><td>j’achète</td><td>词干e→è，重音不能漏</td></tr><tr><td>nous mangons</td><td>nous mangeons</td><td>保留e维持/ʒ/</td></tr><tr><td>un litre du lait</td><td>un litre de lait</td><td>普通数量单位后de</td></tr><tr><td>je ne bois pas du lait（全否定）</td><td>je ne bois pas de lait</td><td>普通全否定用de</td></tr><tr><td>je n’aime pas de café</td><td>je n’aime pas le café</td><td>喜好中的定冠词保留</td></tr><tr><td>six des œufs（普通数量）</td><td>six œufs</td><td>数字直接接可数名词</td></tr><tr><td>il faut achète</td><td>il faut acheter</td><td>il faut之后接不定式</td></tr><tr><td>de la eau</td><td>de l’eau</td><td>元音起首省音</td></tr><tr><td>on mangeons</td><td>on mange</td><td>on仍是第三人称单数</td></tr></tbody></table></div><p>部分冠词与缩合冠词拼写相同，并不意味着功能相同。碰到du／des，先看句法和语境；需要时回看<a href=\"#lesson/10/articles\">第10课</a>相关讲解。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "12. 分层练习A—J与参考解析",
+          "html": "<h2>12. 分层练习A—J与参考解析</h2><h3>A. 现在时变位</h3><ol><li>Je ____ de l’eau.（boire）</li><li>Tu ____ du thé.（boire）</li><li>On ____ du lait.（boire）</li><li>Nous ____ du café.（boire）</li><li>Vous ____ de l’eau.（boire）</li><li>Elles ____ du jus.（boire）</li><li>Nous ____ du riz.（manger）</li><li>Vous ____ des fruits.（acheter）</li></ol><details><summary>参考答案与解析</summary><ol><li>bois：je bois。</li><li>bois：单数第一、二人称同形。</li><li>boit：on用第三人称单数。</li><li>buvons：nous词干buv-。</li><li>buvez：vous词干buv-。</li><li>boivent：第三人称复数boiv-。</li><li>mangeons：保留e。</li><li>achetez：vous不加è。</li></ol></details><h3>B. 冠词与数量结构</h3><ol><li>补冠词：____ farine</li><li>补冠词：____ lait</li><li>补冠词：____ eau</li><li>未定数量的鸡蛋：____ œufs</li><li>un kilo ____ riz</li><li>trois ____（鸡蛋，写名词）</li><li>J’aime ____ pain.</li><li>Combien ____ huile ?</li></ol><details><summary>参考答案与解析</summary><ol><li>de la farine：阴性单数。</li><li>du lait：阳性单数。</li><li>de l’eau：元音起首。</li><li>des œufs：可数复数。</li><li>de：单位后de。</li><li>œufs：three直接接名词，不加des。</li><li>le：总体喜好。</li><li>d’huile：de在元音前省音。</li></ol></details><h3>C. 词汇与搭配</h3><ol><li>写“黄油”的定冠词和名词。</li><li>写“果酱”的定冠词和名词。</li><li>把une pomme de terre变复数。</li><li>区分un livre与une livre。</li><li>写“购物清单”。</li><li>写“买日用品”。</li><li>写“半升牛奶”。</li><li>写“足够的糖”。</li></ol><details><summary>参考答案与解析</summary><ol><li>le beurre：阳性。</li><li>la confiture：阴性。</li><li>des pommes de terre：pomme变复数。</li><li>un livre一本书；une livre本课为500克。</li><li>une liste de courses。</li><li>faire les courses。</li><li>un demi-litre de lait。</li><li>assez de sucre。</li></ol></details><h3>D. 否定与结构转换</h3><ol><li>全否定：Je bois du lait.</li><li>全否定：J’achète des œufs.</li><li>否定：J’aime le café.</li><li>否定：C’est du beurre.</li><li>du sucre→100克糖</li><li>des œufs→2个鸡蛋</li><li>把Je改成Nous：J’achète du pain.</li><li>用il faut＋不定式改写“需要买水”。</li></ol><details><summary>参考答案与解析</summary><ol><li>Je ne bois pas de lait. 部分冠词变de。</li><li>Je n’achète pas d’œufs. ne与de各自省音。</li><li>Je n’aime pas le café. 定冠词保留。</li><li>Ce n’est pas du beurre. être后保留。</li><li>cent grammes de sucre：量词后de。</li><li>deux œufs：数字后不加des。</li><li>Nous achetons du pain. 主语和词干同时改变。</li><li>Il faut acheter de l’eau. acheter不变位。</li></ol></details><h3>E. 口语问答</h3><ol><li>问同伴早晨吃什么。</li><li>礼貌问对方早晨喝什么。</li><li>问做晚饭需要买什么。</li><li>问需要多少面粉。</li><li>回答需要三个鸡蛋。</li><li>确认是否有足够的糖。</li><li>提议今晚做可丽饼。</li><li>礼貌买一瓶水。</li></ol><details><summary>参考答案与解析</summary><ol><li>Qu’est-ce que tu manges le matin ? 回答需有食物。</li><li>Qu’est-ce que vous buvez le matin ? vous buvez。</li><li>Qu’est-ce qu’il faut acheter pour le dîner ?</li><li>Combien de farine est-ce qu’il faut ?</li><li>Il faut trois œufs. 数字直接接名词。</li><li>Est-ce qu’on a assez de sucre ?</li><li>On fait des crêpes ce soir ? on fait。</li><li>Je voudrais une bouteille d’eau, s’il vous plaît. 礼貌固定表达。</li></ol></details><h3>F. 写作与翻译</h3><ol><li>写“我们喝茶，不喝咖啡”。</li><li>写“我买些蔬菜”。</li><li>写“我们吃米饭”。</li><li>写“需要一千克土豆”。</li><li>写“家里已经有牛奶”。</li><li>写“我们没有鸡蛋”。</li><li>写两句自己的早餐习惯。</li><li>写一份含三项数量的清单。</li></ol><details><summary>参考答案与解析</summary><ol><li>Nous buvons du thé. Nous ne buvons pas de café.</li><li>J’achète des légumes. 注意è。</li><li>Nous mangeons du riz. 注意ge。</li><li>Il faut un kilo de pommes de terre.</li><li>On a déjà du lait à la maison.</li><li>Nous n’avons pas d’œufs.</li><li>示例：Le matin, je mange du pain et je bois du thé. Je ne bois pas de café. 可换食物。</li><li>示例：un litre de lait；trois œufs；un kilo de riz。数量、单位和de正确即可。</li></ol></details><h3>G. 阅读与证据</h3><ol><li>Marc留言计划在哪里做饭？</li><li>需要多少面粉？</li><li>已有多少鸡蛋？</li><li>需要再买鸡蛋吗？</li><li>明确缺少哪两种配料？</li><li>糖够不够？</li><li>能确定家里完全没有水吗？</li><li>谁去购物？</li></ol><details><summary>参考答案与解析</summary><ol><li>À la maison：明确写在家。</li><li>250 grammes：按il faut。</li><li>Quatre œufs：按nous avons déjà。</li><li>不需要：已有4个，需要3个。</li><li>牛奶和黄油：il n’y a pas de…</li><li>够：assez de sucre。</li><li>不能：只说需要一瓶水，未给水的库存。</li><li>未提及，不能猜Marc或Lina。</li></ol></details><h3>H. 语音与朗读</h3><ol><li>写出beurre的核心元音。</li><li>写出pomme的核心元音。</li><li>写出deux的元音。</li><li>œuf单独读音。</li><li>des œufs读音与连读。</li><li>six œufs中的连读辅音是什么？</li><li>je mange和ils mangent动词词尾读音是否不同？</li><li>把une bouteille d’eau分成有意义的短语并朗读。</li></ol><details><summary>参考答案与解析</summary><ol><li>/œ/：前部、圆唇、较开。</li><li>/ɔ/：较后、圆唇、较开。</li><li>/ø/：前部、圆唇、较闭。</li><li>/œf/：f发音。</li><li>/de.zø/：z连读，œufs的f与s不发音。</li><li>/z/；整体/si.zø/。</li><li>动词部分都读/mɑ̃ʒ/，不要读出-ent。</li><li>整个名词组连贯读，不在d’与eau间停顿。</li></ol></details><h3>I. 综合改错</h3><ol><li>Nous boivons du lait.</li><li>J’achete du pain.</li><li>Nous mangons du riz.</li><li>Il faut achète du lait.</li><li>Je bois de la eau.</li><li>un litre du lait（普通数量）</li><li>On mangeons des légumes.</li><li>Je n’aime pas de fromage.（不喜欢奶酪）</li></ol><details><summary>参考答案与解析</summary><ol><li>Nous buvons du lait. nous用buv-。</li><li>J’achète du pain. 加è。</li><li>Nous mangeons du riz. 加e。</li><li>Il faut acheter du lait. 不定式。</li><li>Je bois de l’eau. 省音。</li><li>un litre de lait。</li><li>On mange des légumes. on为第三人称单数。</li><li>Je n’aime pas le fromage. 喜好保留定冠词。</li></ol></details><h3>J. 交际输出与复习</h3><ol><li>做一次至少六轮购物对话。</li><li>用nous介绍两项饮食习惯。</li><li>用一个肯定和一个否定表达库存。</li><li>解释du pain与du marché的du。</li><li>解释aimer le与manger du的区别。</li><li>不看表说出boire六人称。</li><li>写出自己最容易错的两句并说明原因。</li><li>用20秒复述Marc留言。</li></ol><details><summary>参考答案与解析</summary><ol><li>核对：提出需要→问数量→给数量→确认库存→列清单→结束；可参考第2模块替换。</li><li>示例：Nous mangeons des légumes. Nous buvons de l’eau. 注意两个词干。</li><li>示例：On a du riz. On n’a pas de lait.</li><li>前者可为部分冠词；Je viens du marché中的du＝de＋le，介词缩合。</li><li>J’aime le pain谈总体喜好；Je mange du pain谈未定量的食用。</li><li>je bois；tu bois；il boit；nous buvons；vous buvez；ils boivent。</li><li>示例：Nous mangeons du riz（保留e）；un litre de lait（单位后de）。答案可变。</li><li>应包含做什么、需要数量、已有与明确缺少；水库存和购物人选不能擅自补全。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "13. 复习清单与来源",
+          "html": "<h2>13. 复习清单与来源</h2><ul><li>能用du、de la、de l’并解释des在食物语境中的用法。</li><li>能比较un gâteau／du gâteau／le gâteau，区分总体喜好与数量。</li><li>能把du lait改成un litre de lait、pas de lait，并保留否定喜好中的le。</li><li>能不看表说出boire、acheter、manger六人称，写对buvons、achète、mangeons。</li><li>能询问需要、数量和饮食习惯，读清库存，写出购物清单。</li><li>能听辨并尝试模仿/œ/、/ɔ/、/ø/及un œuf／des œufs。</li></ul><p>来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方指南</a>用于核对教材范围；语法交叉核对<a href=\"https://www.laits.utexas.edu/tex/gr/det5.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学部分冠词</a>、<a href=\"https://www.laits.utexas.edu/tex/gr/det4.html\" target=\"_blank\" rel=\"noopener noreferrer\">不定冠词</a>与<a href=\"https://www.laits.utexas.edu/tex/gr/ver2.html\" target=\"_blank\" rel=\"noopener noreferrer\">词干变化动词</a>。讲解、例句、题目与答案为本站原创。</p><p>boire完整变位另见<a href=\"https://www.dictionnaire-academie.fr/conjuguer/A9B1462\" target=\"_blank\" rel=\"noopener noreferrer\">法兰西学院词典</a>。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "id": "l17-q01",
+          "question": "Nous ____ de l’eau.",
+          "options": [
+            "buvons",
+            "boivons",
+            "boivent"
+          ],
+          "answer": 0,
+          "explanation": "boire的nous词干是buv-。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q02",
+          "question": "Vous ____ du thé.",
+          "options": [
+            "boit",
+            "buvez",
+            "boivez"
+          ],
+          "answer": 1,
+          "explanation": "vous buvez。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q03",
+          "question": "Elles ____ du café.",
+          "options": [
+            "buvont",
+            "boit",
+            "boivent"
+          ],
+          "answer": 2,
+          "explanation": "第三人称复数boivent。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q04",
+          "question": "On ____ du lait.",
+          "options": [
+            "boit",
+            "bois",
+            "buvons"
+          ],
+          "answer": 0,
+          "explanation": "on对应第三人称单数。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q05",
+          "question": "Je ____ de l’eau.",
+          "options": [
+            "boive",
+            "bois",
+            "boit"
+          ],
+          "answer": 1,
+          "explanation": "je bois。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q06",
+          "question": "Nous ____ du riz.",
+          "options": [
+            "mangons",
+            "mangent",
+            "mangeons"
+          ],
+          "answer": 2,
+          "explanation": "nous mangeons保留e。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q07",
+          "question": "J’____ du pain.",
+          "options": [
+            "achète",
+            "achete",
+            "achetons"
+          ],
+          "answer": 0,
+          "explanation": "j’achète有è。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q08",
+          "question": "Nous ____ des fruits.",
+          "options": [
+            "achètent",
+            "achetons",
+            "achètons"
+          ],
+          "answer": 1,
+          "explanation": "nous不用è。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q09",
+          "question": "Elles ____ des légumes.",
+          "options": [
+            "achetent",
+            "achetez",
+            "achètent"
+          ],
+          "answer": 2,
+          "explanation": "elles词干achèt-。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q10",
+          "question": "未定量的面粉：____ farine",
+          "options": [
+            "de la",
+            "du",
+            "des"
+          ],
+          "answer": 0,
+          "explanation": "farine是阴性单数。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q11",
+          "question": "未定量的牛奶：____ lait",
+          "options": [
+            "des",
+            "du",
+            "de la"
+          ],
+          "answer": 1,
+          "explanation": "lait为阳性单数。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q12",
+          "question": "一些水：____ eau",
+          "options": [
+            "de la",
+            "du",
+            "de l’"
+          ],
+          "answer": 2,
+          "explanation": "元音前用de l’。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q13",
+          "question": "未说明数量的鸡蛋：____ œufs",
+          "options": [
+            "des",
+            "du",
+            "de la"
+          ],
+          "answer": 0,
+          "explanation": "鸡蛋在此为复数可数名词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q14",
+          "question": "un litre ____ lait",
+          "options": [
+            "de la",
+            "de",
+            "du"
+          ],
+          "answer": 1,
+          "explanation": "普通数量单位后用de。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q15",
+          "question": "trois ____",
+          "options": [
+            "des œufs",
+            "de œufs",
+            "œufs"
+          ],
+          "answer": 2,
+          "explanation": "数字直接接可数名词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q16",
+          "question": "全否定：Je ne bois pas ____ café.",
+          "options": [
+            "de",
+            "du",
+            "le"
+          ],
+          "answer": 0,
+          "explanation": "未定量摄入的全否定用de。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q17",
+          "question": "不喜欢咖啡：Je n’aime pas ____ café.",
+          "options": [
+            "du",
+            "le",
+            "de"
+          ],
+          "answer": 1,
+          "explanation": "总体喜好中的定冠词保留。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q18",
+          "question": "Ce n’est pas ____ lait.",
+          "options": [
+            "de",
+            "des",
+            "du"
+          ],
+          "answer": 2,
+          "explanation": "être后一般保留冠词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q19",
+          "question": "Il faut ____ du pain.",
+          "options": [
+            "acheter",
+            "achète",
+            "achetez"
+          ],
+          "answer": 0,
+          "explanation": "il faut之后接不定式。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q20",
+          "question": "Combien ____ œufs ?",
+          "options": [
+            "du",
+            "d’",
+            "des"
+          ],
+          "answer": 1,
+          "explanation": "combien de在元音前省音。",
+          "group": "grammar"
+        },
+        {
+          "id": "l17-q21",
+          "question": "“黄油”的正确性别是？",
+          "options": [
+            "la beurre",
+            "les beurre",
+            "le beurre"
+          ],
+          "answer": 2,
+          "explanation": "beurre阳性。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l17-q22",
+          "question": "“果酱”怎么写？",
+          "options": [
+            "la confiture",
+            "le confiture",
+            "la farine"
+          ],
+          "answer": 0,
+          "explanation": "confiture为阴性。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l17-q23",
+          "question": "本课une livre表示多重？",
+          "options": [
+            "100克",
+            "500克",
+            "1千克"
+          ],
+          "answer": 1,
+          "explanation": "法国购物数量语境中une livre为500g。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l17-q24",
+          "question": "une pomme de terre的复数是？",
+          "options": [
+            "des pomme de terres",
+            "des pommes des terres",
+            "des pommes de terre"
+          ],
+          "answer": 2,
+          "explanation": "只把中心名词pomme变复数。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l17-q25",
+          "question": "“足够的糖”是？",
+          "options": [
+            "assez de sucre",
+            "assez du sucre",
+            "assez des sucres"
+          ],
+          "answer": 0,
+          "explanation": "assez de。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l17-q26",
+          "question": "“半升牛奶”是？",
+          "options": [
+            "un demi litre du lait",
+            "un demi-litre de lait",
+            "une demie-litre du lait"
+          ],
+          "answer": 1,
+          "explanation": "litre阳性，demi-在前不变，后用de。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l17-q27",
+          "question": "Marc的练习食谱需要几个鸡蛋？",
+          "options": [
+            "四个",
+            "六个",
+            "三个"
+          ],
+          "answer": 2,
+          "explanation": "il faut trois œufs；四个是库存。",
+          "group": "reading"
+        },
+        {
+          "id": "l17-q28",
+          "question": "Marc家是否需要再买面粉？",
+          "options": [
+            "不需要，库存足够",
+            "需要再买一千克",
+            "留言没有写面粉库存"
+          ],
+          "answer": 0,
+          "explanation": "已有1kg，需250g。",
+          "group": "reading"
+        },
+        {
+          "id": "l17-q29",
+          "question": "留言明确说家里没有什么？",
+          "options": [
+            "水和鸡蛋",
+            "牛奶和黄油",
+            "糖和面粉"
+          ],
+          "answer": 1,
+          "explanation": "il n’y a pas de lait…pas de beurre。",
+          "group": "reading"
+        },
+        {
+          "id": "l17-q30",
+          "question": "留言说明了谁去购物吗？",
+          "options": [
+            "明确是Lina",
+            "明确是Marc",
+            "未提及"
+          ],
+          "answer": 2,
+          "explanation": "不能把收信人等同购物人。",
+          "group": "reading"
+        },
+        {
+          "id": "l17-q31",
+          "question": "是否明确说明水的库存？",
+          "options": [
+            "没有，出门前需确认",
+            "明确完全没有",
+            "明确有两瓶"
+          ],
+          "answer": 0,
+          "explanation": "只写需要一瓶水。",
+          "group": "reading"
+        },
+        {
+          "id": "l17-q32",
+          "question": "询问饮食习惯最合适的是？",
+          "options": [
+            "Qui mange le matin de ?",
+            "Qu’est-ce que tu manges le matin ?",
+            "Où est le matin ?"
+          ],
+          "answer": 1,
+          "explanation": "qu’est-ce que问吃什么；le matin标习惯。",
+          "group": "speaking"
+        },
+        {
+          "id": "l17-q33",
+          "question": "问需要多少牛奶：",
+          "options": [
+            "Quel lait il combien ?",
+            "Combien du lait faut ?",
+            "Combien de lait est-ce qu’il faut ?"
+          ],
+          "answer": 2,
+          "explanation": "combien de＋名词。",
+          "group": "speaking"
+        },
+        {
+          "id": "l17-q34",
+          "question": "提议一起做可丽饼：",
+          "options": [
+            "On fait des crêpes ?",
+            "On faisons des crêpes ?",
+            "Nous fait des crêpes ?"
+          ],
+          "answer": 0,
+          "explanation": "on fait。",
+          "group": "speaking"
+        },
+        {
+          "id": "l17-q35",
+          "question": "礼貌买一瓶水：",
+          "options": [
+            "Tu faut une eau bouteille.",
+            "Je voudrais une bouteille d’eau, s’il vous plaît.",
+            "Je voudrait bouteille du eau."
+          ],
+          "answer": 1,
+          "explanation": "使用完整礼貌表达。",
+          "group": "speaking"
+        },
+        {
+          "id": "l17-q36",
+          "question": "“我们不买鸡蛋”正确的是？",
+          "options": [
+            "Nous ne achètons pas des œufs.",
+            "Nous n’achète pas d’œufs.",
+            "Nous n’achetons pas d’œufs."
+          ],
+          "answer": 2,
+          "explanation": "nous achetons；n’和d’省音。",
+          "group": "writing"
+        },
+        {
+          "id": "l17-q37",
+          "question": "“我们吃蔬菜”正确的是？",
+          "options": [
+            "Nous mangeons des légumes.",
+            "Nous mangons des légumes.",
+            "Nous mangez du légumes."
+          ],
+          "answer": 0,
+          "explanation": "mangeons与复数des légumes。",
+          "group": "writing"
+        },
+        {
+          "id": "l17-q38",
+          "question": "把du riz改为一千克米：",
+          "options": [
+            "un kilo des riz",
+            "un kilo de riz",
+            "un kilo du riz"
+          ],
+          "answer": 1,
+          "explanation": "量词后de。",
+          "group": "writing"
+        },
+        {
+          "id": "l17-q39",
+          "question": "des œufs中œufs的常见读音是？",
+          "options": [
+            "/œf/",
+            "/øfs/",
+            "/ø/"
+          ],
+          "answer": 2,
+          "explanation": "此复数短语中的f和s不读。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l17-q40",
+          "question": "beurre的元音是？",
+          "options": [
+            "/œ/",
+            "/ɔ/",
+            "/ø/"
+          ],
+          "answer": 0,
+          "explanation": "beurre /bœʁ/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l17-q41",
+          "question": "pomme的元音是？",
+          "options": [
+            "/y/",
+            "/ɔ/",
+            "/ø/"
+          ],
+          "answer": 1,
+          "explanation": "pomme /pɔm/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l17-q42",
+          "question": "des œufs之间的连读辅音是？",
+          "options": [
+            "/t/",
+            "/f/",
+            "/z/"
+          ],
+          "answer": 2,
+          "explanation": "des œufs /de.zø/。",
+          "group": "pronunciation"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "partitive",
+          "quantities",
+          "verbs",
+          "patterns",
+          "errors"
+        ],
+        "vocabulary": [
+          "words",
+          "quantities",
+          "verbs"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading"
+        ],
+        "speaking": [
+          "communicate",
+          "patterns",
+          "writing"
+        ],
+        "writing": [
+          "quantities",
+          "patterns",
+          "writing",
+          "errors"
+        ]
+      },
+      "listening": "听教材第17课的饮食、配料和购物录音：第一遍圈出食物；第二遍写数量与单位；第三遍分清已有、缺少和打算购买，再核对boire／acheter／manger、冠词和œuf／œufs发音。对照自己的教材音轨，不把本站Marc留言或食谱当成教材逐字稿。"
+    },
+    {
+      "number": 18,
+      "title": "Il est comment ?",
+      "translation": "它怎么样？",
+      "pages": "58–59",
+      "core": [
+        "叙述过去活动与表达评价",
+        "avoir复合过去时",
+        "规则与不规则过去分词",
+        "否定、疑问与时间线",
+        "beau／bel／belle及性数配合",
+        "强调重音"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标与范围",
+          "html": "<h2>1. 学习目标与范围</h2><p>第18课 <strong lang=\"fr\">Il est comment ?（它怎么样？）</strong>，第5单元，教材第58—59页。核心任务是叙述过去发生的事，并对食物、衣物或场所表达评价。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">范围</th><th scope=\"col\">知识</th><th scope=\"col\">可完成的任务</th></tr></thead><tbody><tr><td>教材核心</td><td>avoir作助动词的复合过去时；过去分词；beau变化；强调重音</td><td>讲昨天做了什么，追问细节，表达评价</td></tr><tr><td>复习</td><td>avoir现在时、购物词汇、疑问句、否定、时间线</td><td>正确写出助动词、数量和先后顺序</td></tr><tr><td>补充边界</td><td>规则-ir／-re分词样例、已有动词的不规则分词、配合规则边界</td><td>避免把所有动词都机械套用avoir或-er→-é</td></tr></tbody></table></div><p>先学“发生了什么”，再学“觉得怎么样”。本课的il可以回指阳性单数物品或地点；评价阴性对象用elle，复数用ils／elles。本文对话、人物、阅读和练习均为原创，范围核对<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方教学指南</a>第18课（PDF第62—64页，书内页68—70）。</p>"
+        },
+        {
+          "id": "communicate",
+          "title": "2. 学会说：昨天做了什么、觉得怎么样",
+          "html": "<h2>2. 学会说：昨天做了什么、觉得怎么样</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">任务</th><th scope=\"col\">提问</th><th scope=\"col\">回答</th></tr></thead><tbody><tr><td>问过去活动</td><td>Qu’est-ce que tu as fait hier ?</td><td>J’ai travaillé le matin.（我上午工作了。）</td></tr><tr><td>礼貌追问地点</td><td>Où est-ce que vous avez déjeuné ?</td><td>J’ai déjeuné dans un petit restaurant.</td></tr><tr><td>问钟点</td><td>À quelle heure est-ce que tu as dîné ?</td><td>J’ai dîné à vingt heures.</td></tr><tr><td>问同伴</td><td>Avec qui est-ce que tu as mangé ?</td><td>J’ai mangé avec une amie.</td></tr><tr><td>问是否发生</td><td>Est-ce que vous avez pris un dessert ?</td><td>Non, nous n’avons pas pris de dessert.</td></tr><tr><td>问外观／评价</td><td>Il est comment, ton manteau ?</td><td>Il est beau et chaud.</td></tr><tr><td>问口味</td><td>Comment est la soupe ?</td><td>Elle est très bonne.</td></tr><tr><td>表达不同看法</td><td>Tu trouves ce pull joli ?</td><td>Oui, il est joli, mais il est cher.</td></tr></tbody></table></div><p><strong>原创对话：</strong><br><span lang=\"fr\">— Qu’est-ce que tu as fait hier ?<br>— J’ai travaillé, puis j’ai fait les magasins.<br>— Tu as acheté quelque chose ?<br>— Oui, j’ai acheté un manteau.<br>— Il est comment ?<br>— Il est beau et très chaud. Le soir, j’ai dîné avec Léa.<br>— Vous avez bien mangé ?<br>— Oui, nous avons mangé du poisson. Nous n’avons pas pris de dessert.</span></p><p>quelque chose为“某样东西”的补充表达。提问时过去时间应由助动词＋过去分词表达，不能只给现在时句子加hier。评价仍可用现在时：J’ai acheté un manteau. Il est beau.</p>"
+        },
+        {
+          "id": "tense",
+          "title": "3. 复合过去时：avoir＋过去分词",
+          "html": "<h2>3. 复合过去时：avoir＋过去分词</h2><p><strong>结构：主语＋avoir的现在时＋过去分词（participe passé）。</strong>复合表示由两个动词形式组成，不是“一句话有两个互不相关的时态”。本课用于叙述已经发生的活动。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">avoir现在时</th><th scope=\"col\">复合过去时例句</th></tr></thead><tbody><tr><td>je</td><td>j’ai</td><td>j’ai mangé</td></tr><tr><td>tu</td><td>tu as</td><td>tu as mangé</td></tr><tr><td>il / elle / on</td><td>il / elle / on a</td><td>il / elle / on a mangé</td></tr><tr><td>nous</td><td>nous avons</td><td>nous avons mangé</td></tr><tr><td>vous</td><td>vous avez</td><td>vous avez mangé</td></tr><tr><td>ils / elles</td><td>ils / elles ont</td><td>ils / elles ont mangé</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">时间关系</th><th scope=\"col\">句子</th><th scope=\"col\">解读</th></tr></thead><tbody><tr><td>现在／习惯</td><td>Je mange au restaurant le lundi.</td><td>我每周一在餐馆吃饭。</td></tr><tr><td>已发生</td><td>Hier, j’ai mangé au restaurant.</td><td>昨天我在餐馆吃了饭。</td></tr><tr><td>有时长的已发生活动</td><td>Hier, j’ai travaillé pendant deux heures.</td><td>昨天工作了两小时；并非只有瞬间动作才用复合过去时。</td></tr></tbody></table></div><p>人称变化主要体现在助动词：elle a acheté、elles ont acheté。本课例句中宾语在动词之后或没有前置直接宾语，过去分词不随主语加e／s。不能因为elles是阴性复数就写elles ont achetées un manteau。</p><p><strong>边界：</strong>复合过去时也有用être的情况，第19课再系统学习；代词式动词也不能照抄avoir。不要写j’ai allé、j’ai arrivé。这里先掌握本课已给出的avoir动词。过去分词与前置直接宾语的配合留后续学习，本课不把“不配合”说成永远不变。</p>"
+        },
+        {
+          "id": "participles",
+          "title": "4. 过去分词：规则与不规则",
+          "html": "<h2>4. 过去分词：规则与不规则</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">类型</th><th scope=\"col\">如何形成</th><th scope=\"col\">本课例子</th></tr></thead><tbody><tr><td>第一组-er</td><td>去-er，加-é</td><td>acheter→acheté；manger→mangé；dîner→dîné；travailler→travaillé</td></tr><tr><td>第二组规则-ir（补充）</td><td>去-ir，加-i</td><td>finir→fini；不能推广到所有-ir动词</td></tr><tr><td>一部分-re（补充）</td><td>一部分去-re，加-u</td><td>vendre→vendu；prendre不在这条规则中</td></tr><tr><td>常见不规则</td><td>逐个记忆，配完整句子</td><td>faire→fait；prendre→pris；boire→bu</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">原形</th><th scope=\"col\">过去分词</th><th scope=\"col\">完整搭配</th></tr></thead><tbody><tr><td>acheter / manger</td><td>acheté / mangé</td><td>J’ai acheté du pain. Nous avons mangé.</td></tr><tr><td>travailler / dîner / déjeuner</td><td>travaillé / dîné / déjeuné</td><td>Elle a travaillé. Ils ont dîné.</td></tr><tr><td>passer / visiter / téléphoner</td><td>passé / visité / téléphoné</td><td>On a passé une bonne soirée. J’ai téléphoné à Paul.</td></tr><tr><td>faire</td><td>fait</td><td>Nous avons fait les courses.</td></tr><tr><td>prendre / reprendre</td><td>pris / repris</td><td>Tu as pris un café. Elle a repris le travail.</td></tr><tr><td>boire</td><td>bu</td><td>Ils ont bu de l’eau.</td></tr><tr><td>lire / écrire（已学动词的补充）</td><td>lu / écrit</td><td>J’ai lu un message. Vous avez écrit un texte.</td></tr><tr><td>voir（补充）</td><td>vu</td><td>J’ai vu mon frère.</td></tr><tr><td>avoir / être（补充识别）</td><td>eu / été</td><td>J’ai eu une idée. Elle a été malade. être作主要动词时，其复合过去时用avoir。</td></tr></tbody></table></div><p><strong>辨认三件事：</strong>acheter是不定式；achète是现在时单数；acheté是过去分词。J’ai acheté不写j’ai acheter或j’ai achète。-er与-é常同音，写作必须靠结构判断，不能只靠听音。</p><p>faire不是faité，prendre不是prendu，boire不是boiré。先连同助动词读j’ai fait／j’ai pris／j’ai bu，再换nous／elles；避免只背中文与孤立词尾。</p>"
+        },
+        {
+          "id": "verbs",
+          "title": "5. 六人称完整表：从现在时进入过去时",
+          "html": "<h2>5. 六人称完整表：从现在时进入过去时</h2><h3>acheter · passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"acheter · passé composé\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>j’ai acheté</td></tr><tr><td>tu</td><td>tu as acheté</td></tr><tr><td>il / elle / on</td><td>il / elle / on a acheté</td></tr><tr><td>nous</td><td>nous avons acheté</td></tr><tr><td>vous</td><td>vous avez acheté</td></tr><tr><td>ils / elles</td><td>ils / elles ont acheté</td></tr></tbody></table></div><p>买了：现在时j’achète与过去分词acheté的重音位置不同；分词不沿用现在时è。J’ai acheté une veste. Elles ont acheté du pain.</p><h3>manger · passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"manger · passé composé\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>j’ai mangé</td></tr><tr><td>tu</td><td>tu as mangé</td></tr><tr><td>il / elle / on</td><td>il / elle / on a mangé</td></tr><tr><td>nous</td><td>nous avons mangé</td></tr><tr><td>vous</td><td>vous avez mangé</td></tr><tr><td>ils / elles</td><td>ils / elles ont mangé</td></tr></tbody></table></div><p>吃了：过去分词mangé固定；nous mangeons的e是现在时拼写问题，不迁移成mangeé。Nous avons mangé du riz.</p><h3>faire · passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"faire · passé composé\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>j’ai fait</td></tr><tr><td>tu</td><td>tu as fait</td></tr><tr><td>il / elle / on</td><td>il / elle / on a fait</td></tr><tr><td>nous</td><td>nous avons fait</td></tr><tr><td>vous</td><td>vous avez fait</td></tr><tr><td>ils / elles</td><td>ils / elles ont fait</td></tr></tbody></table></div><p>做了：fait结尾t通常不发音。Nous avons fait les magasins. 和现在时nous faisons区分。</p><h3>prendre · passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"prendre · passé composé\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>j’ai pris</td></tr><tr><td>tu</td><td>tu as pris</td></tr><tr><td>il / elle / on</td><td>il / elle / on a pris</td></tr><tr><td>nous</td><td>nous avons pris</td></tr><tr><td>vous</td><td>vous avez pris</td></tr><tr><td>ils / elles</td><td>ils / elles ont pris</td></tr></tbody></table></div><p>吃／喝／拿／乘坐了：分词pris，末尾s通常不发音。Vous avez pris un café. Elles ont pris le métro.</p><h3>boire · passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"boire · passé composé\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">完整形式</th></tr></thead><tbody><tr><td>je</td><td>j’ai bu</td></tr><tr><td>tu</td><td>tu as bu</td></tr><tr><td>il / elle / on</td><td>il / elle / on a bu</td></tr><tr><td>nous</td><td>nous avons bu</td></tr><tr><td>vous</td><td>vous avez bu</td></tr><tr><td>ils / elles</td><td>ils / elles ont bu</td></tr></tbody></table></div><p>喝了：bu读/by/，嘴唇圆而舌位靠前，不读成/bu/。Tu as bu de l’eau. 现在时nous buvons中的v不保留在分词中。</p>"
+        },
+        {
+          "id": "patterns",
+          "title": "6. 否定、疑问与时间顺序",
+          "html": "<h2>6. 否定、疑问与时间顺序</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">功能</th><th scope=\"col\">结构与例句</th><th scope=\"col\">说明</th></tr></thead><tbody><tr><td>否定</td><td>Je n’ai pas acheté de pain.</td><td>ne／n’＋助动词＋pas＋过去分词；pas不放在acheté后</td></tr><tr><td>复数否定</td><td>Elles n’ont pas bu de café.</td><td>elles→ont；元音前ne变n’</td></tr><tr><td>语调提问</td><td>Tu as travaillé hier ?</td><td>保留过去时两个部分</td></tr><tr><td>est-ce que</td><td>Est-ce que vous avez dîné ici ?</td><td>est-ce que之后按陈述语序</td></tr><tr><td>提问内容</td><td>Qu’est-ce que tu as acheté ?</td><td>不是qu’est-ce que tu acheté</td></tr><tr><td>提问时间</td><td>Quand est-ce qu’il a téléphoné ?</td><td>quand问何时；à quelle heure更精确</td></tr><tr><td>否定数量</td><td>Nous n’avons pas pris de dessert.</td><td>普通全否定的不定／部分冠词仍变de</td></tr><tr><td>特定宾语的否定</td><td>Je n’ai pas acheté le pull rouge.</td><td>特指“那件红毛衣”，le保留</td></tr></tbody></table></div><p><strong>顺序：</strong>Hier matin → à midi → l’après-midi → le soir；d’abord → puis／ensuite → enfin。例：<span lang=\"fr\">Hier, j’ai d’abord travaillé. Ensuite, j’ai fait les courses. Enfin, j’ai préparé le dîner.</span> 同一天的顺序不能与钟点矛盾。</p><p>on a mangé对应口语“我们吃了”；nous avons mangé更清楚。询问结束后可确认：Donc, vous avez dîné à huit heures ?（所以您是8点吃的晚饭？）不确定的细节要追问，不凭常识补全。倒装疑问属于可选复习，如Avez-vous dîné ?，先熟练est-ce que即可。</p>"
+        },
+        {
+          "id": "beau",
+          "title": "7. beau、bel、belle：外观与味道",
+          "html": "<h2>7. beau、bel、belle：外观与味道</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">对象</th><th scope=\"col\">形式</th><th scope=\"col\">例子</th></tr></thead><tbody><tr><td>阳性单数，辅音／嘘音h前</td><td>beau</td><td>un beau manteau；un beau héros</td></tr><tr><td>阳性单数，元音／哑音h前，放名词前</td><td>bel</td><td>un bel appartement；un bel hôtel</td></tr><tr><td>阴性单数</td><td>belle</td><td>une belle veste；une belle histoire</td></tr><tr><td>阳性复数</td><td>beaux</td><td>des manteaux très beaux</td></tr><tr><td>阴性复数</td><td>belles</td><td>des vestes très belles</td></tr></tbody></table></div><p>bel的条件要一起看：阳性、单数、位于元音或哑音h起首名词之前。hôtel是哑音h；héros是嘘音h，需要查词典。表语仍用beau：Cet appartement est beau，不写est bel。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">评价重点</th><th scope=\"col\">常用词</th><th scope=\"col\">原创例句</th></tr></thead><tbody><tr><td>外观漂亮</td><td>beau／belle；joli／jolie</td><td>Cette robe est belle.</td></tr><tr><td>味道／质量好</td><td>bon／bonne；excellent／excellente</td><td>La soupe est bonne.</td></tr><tr><td>方式做得好</td><td>bien（副词）</td><td>Nous avons bien mangé.</td></tr><tr><td>价格</td><td>cher／chère；pas cher</td><td>Ces chaussures sont chères.</td></tr><tr><td>保暖与温度</td><td>chaud／chaude</td><td>Ce manteau est chaud.</td></tr><tr><td>比较委婉的保留</td><td>mais…；pas très…</td><td>Il est beau, mais il est cher.</td></tr></tbody></table></div><p>C’est bon评价味道；C’est beau评价外观；C’est bien可作整体肯定。不能用elle est bon去评价阴性la soupe。beau→beaux的x和bon→bonne的双n都要写对。复数名词前的beaux还涉及des→de的书面规则，补充例：de beaux manteaux；本课先熟练表语结构。</p>"
+        },
+        {
+          "id": "words",
+          "title": "8. 主题词汇：购物、餐馆与过去时间",
+          "html": "<h2>8. 主题词汇：购物、餐馆与过去时间</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">词语</th><th scope=\"col\">词性／中文</th><th scope=\"col\">常见搭配</th></tr></thead><tbody><tr><td>hier / avant-hier</td><td>时间副词：昨天／前天</td><td>hier matin；hier soir</td></tr><tr><td>une journée / une soirée</td><td>阴性名词：一天／一个晚上</td><td>passer une bonne journée／soirée</td></tr><tr><td>un manteau / un pull / une veste</td><td>阳性／阳性／阴性：大衣／毛衣／外套</td><td>acheter un manteau；une belle veste</td></tr><tr><td>une chaussure / des chaussures</td><td>阴性名词：鞋／一双或多只鞋</td><td>acheter des chaussures</td></tr><tr><td>un restaurant / un repas</td><td>阳性名词：餐馆／一餐</td><td>dîner au restaurant</td></tr><tr><td>la cuisine</td><td>阴性名词：烹饪风格；厨房</td><td>la cuisine italienne，语境不是厨房房间</td></tr><tr><td>un dessert / des pâtes</td><td>阳性名词／阴性复数：甜点／意面</td><td>prendre un dessert；manger des pâtes</td></tr><tr><td>un verre</td><td>阳性名词：杯；一杯饮料</td><td>prendre un verre，不一定说明具体饮品</td></tr><tr><td>seul / seule</td><td>形容词：独自的</td><td>J’ai dîné seul／seule：根据说话人配合</td></tr><tr><td>bon / bonne；excellent / excellente</td><td>形容词：好的；极好的</td><td>une bonne soupe；un excellent repas</td></tr><tr><td>beau / bel / belle</td><td>形容词：漂亮的</td><td>un beau pull；un bel hôtel</td></tr><tr><td>chaud / chaude；cher / chère</td><td>形容词：暖的；贵的</td><td>une veste chaude；des chaussures chères</td></tr><tr><td>simple / intéressant / intéressante</td><td>形容词：简单的；有趣的</td><td>une cuisine simple；un film intéressant</td></tr><tr><td>un inspecteur / une inspectrice</td><td>名词：调查员／警官</td><td>角色练习中礼貌用vous</td></tr></tbody></table></div><p>faire les magasins（逛商店）不保证买了东西；acheter才明确购买。prendre un verre不自动等于喝了酒；seul不等于“单身”。理解阅读材料时尊重这些信息边界。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "9. 语音：强调重音与过去时听辨",
+          "html": "<h2>9. 语音：强调重音与过去时听辨</h2><p>法语意群末尾的节奏重音仍然保留；强调重音可以额外突出重要信息，表达评价、纠正或惊讶。不是把每个词都读得同样重，也不是只提高音量。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">想突出什么</th><th scope=\"col\">原创句子</th><th scope=\"col\">练习方式</th></tr></thead><tbody><tr><td>强烈赞赏</td><td>Il est <strong>VRAIMENT</strong> beau !</td><td>适当延长／突出vraiment，再读完整意群</td></tr><tr><td>更正时间</td><td>J’ai dîné à <strong>HUIT</strong> heures, pas à neuf heures.</td><td>让听者能辨认被更正的数字</td></tr><tr><td>强调否定对象</td><td>Je n’ai pas acheté de <strong>CAFÉ</strong>.</td><td>突出café，仍读清n’ai pas</td></tr><tr><td>让步与对比</td><td>Elle est <strong>BELLE</strong>, mais elle est <strong>CHÈRE</strong>.</td><td>保留分句节奏，在两个评价词上作对照</td></tr></tbody></table></div><p>听过去时先找助动词ai／as／a／avons／avez／ont，再识别分词。j’ai mangé中-ai与-é都读/e/；manger和mangé同音，但拼写功能不同。bu /by/和vous /vu/元音不同。fait常读/fɛ/，pris常读/pʁi/。</p><p>复习必要连读：nous avons /nu.za.vɔ̃/、vous avez /vu.za.ve/、ils ont /il.zɔ̃/；不要把on a与on n’a pas只听成相同肯定句，要继续听pas。跟读教材第18课时先模仿音频，再自己更换强调词；本站未新增音频。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "10. 原创阅读：昨天的购物与晚餐",
+          "html": "<h2>10. 原创阅读：昨天的购物与晚餐</h2><p><strong>原创消息：</strong><br><span lang=\"fr\">Salut Mei ! Hier matin, j’ai travaillé à la maison jusqu’à onze heures. À midi, j’ai déjeuné avec mon frère. L’après-midi, nous avons fait les magasins. J’ai acheté une veste bleue. Elle est belle, mais elle est un peu chère. Mon frère n’a pas acheté de vêtements. À dix-neuf heures, nous avons dîné dans un petit restaurant près de la gare. J’ai mangé du poisson et mon frère a pris des pâtes. Nous avons bu de l’eau. Nous n’avons pas pris de dessert. Le repas a coûté quarante euros pour nous deux. — Nora</span></p><p>中文：Nora昨天上午在家工作到11点，中午和兄弟吃午饭，下午一起逛商店。她买了一件蓝外套，漂亮但有点贵；兄弟没有买衣服。19点两人在车站附近的小餐馆吃饭，她吃鱼，兄弟吃意面，喝水，没有甜点；两人餐费共40欧元。frère只说明兄弟，不给年龄。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">要点</th><th scope=\"col\">可确定</th><th scope=\"col\">不能推出</th></tr></thead><tbody><tr><td>工作</td><td>上午，在家，到11点</td><td>开始时间、工作总时长</td></tr><tr><td>购物</td><td>Nora买蓝外套；兄弟未买衣服</td><td>外套价格；兄弟完全没有买任何其他东西</td></tr><tr><td>晚餐</td><td>19点、车站附近、两人</td><td>餐馆具体名称或星级</td></tr><tr><td>饮食</td><td>鱼、意面、水；无甜点</td><td>是否喜欢所有菜品；是否只喝了一杯水</td></tr><tr><td>费用</td><td>两人共40欧元</td><td>每个人各花40欧元</td></tr></tbody></table></div><p>a coûté是coûter的规则复合过去时，意为“花费了”。先标出助动词和分词，再按时间线复述；评价外套的elle指une veste，不是人物Nora。阅读中未出现过去的être／代词式形式，不为完整故事强加未学语法。</p>"
+        },
+        {
+          "id": "writing",
+          "title": "11. 输出任务：从采访到昨天的小短文",
+          "html": "<h2>11. 输出任务：从采访到昨天的小短文</h2><ul><li>听：找教材第18课录音，第一遍抓昨天的活动，第二遍写地点、时间、同伴和评价，第三遍核对助动词、分词、否定与强调词。</li><li>说：两人采访，至少问活动、地点、时间和同伴四项。用vous进行一次询问，再用tu复述；回答只使用本课已知的avoir过去时动词。</li><li>读：按Nora消息写出五格时间线，每项提供证据；把“未提及”同“否定发生”分开。</li><li>写：用8句介绍昨天，至少四个不同过去分词、一个否定、两个时间标记和一个评价。先检查助动词，再检查分词拼写。</li></ul><p><strong>原创范文：</strong><span lang=\"fr\">Hier, j’ai travaillé le matin. À midi, j’ai déjeuné à la maison. L’après-midi, j’ai fait les courses avec une amie. Nous avons acheté du pain et des légumes. Ensuite, j’ai préparé le dîner. Nous avons mangé à vingt heures. Nous n’avons pas bu de café. J’ai passé une bonne soirée.</span></p><p>检查顺序：①昨天的事情是否用了完整过去时；②主语是否匹配ai／as／a／avons／avez／ont；③分词是否写成原形；④ne…pas是否包住助动词；⑤冠词与形容词是否正确；⑥时间线是否连贯。范文是参考，开放答案允许不同生活内容。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "12. 分层练习A—J与参考解析",
+          "html": "<h2>12. 分层练习A—J与参考解析</h2><h3>A. 复合过去时与人称</h3><ol><li>Je＋manger：写完整过去时。</li><li>Tu＋acheter：写完整过去时。</li><li>Elle＋faire：写完整过去时。</li><li>Nous＋prendre：写完整过去时。</li><li>Vous＋boire：写完整过去时。</li><li>Ils＋travailler：写完整过去时。</li><li>On＋dîner：写完整过去时。</li><li>Elles＋manger＋du riz：写完整句。</li></ol><details><summary>参考答案与解析</summary><ol><li>j’ai mangé：avoir＋分词。</li><li>tu as acheté：tu as。</li><li>elle a fait：分词fait。</li><li>nous avons pris：分词pris。</li><li>vous avez bu：分词bu。</li><li>ils ont travaillé：ils ont。</li><li>on a dîné：on a。</li><li>Elles ont mangé du riz. 此例不随elles给分词加-es。</li></ol></details><h3>B. 过去分词与辨析</h3><ol><li>acheter的过去分词。</li><li>manger的过去分词。</li><li>faire的过去分词。</li><li>prendre的过去分词。</li><li>boire的过去分词。</li><li>lire与écrire的过去分词（补充）。</li><li>finir的规则分词（补充）。</li><li>解释acheter／achète／acheté。</li></ol><details><summary>参考答案与解析</summary><ol><li>acheté：-er→-é。</li><li>mangé：不是mangeé。</li><li>fait：不规则。</li><li>pris：不规则。</li><li>bu：不规则。</li><li>lu／écrit：不能用-liré／écrivé。</li><li>fini：规则第二组-ir→-i。</li><li>不定式／现在时单数形式／过去分词；j’ai之后选acheté。</li></ol></details><h3>C. 词汇与评价</h3><ol><li>“昨天晚上”怎么写？</li><li>“度过愉快的一天”怎么写？</li><li>把la cuisine italienne译成中文。</li><li>prendre un verre一定说明喝酒吗？</li><li>写“独自一人”的阳性和阴性。</li><li>评价阴性la soupe好吃。</li><li>评价阳性le manteau漂亮但贵。</li><li>faire les magasins保证买了东西吗？</li></ol><details><summary>参考答案与解析</summary><ol><li>hier soir，不加le。</li><li>passer une bonne journée。</li><li>意大利菜／意式烹饪风格，此处非“意大利的厨房”。</li><li>不一定，只说明喝一杯，具体饮品需要语境。</li><li>seul／seule。</li><li>Elle est bonne. bonne配合阴性。</li><li>Il est beau, mais il est cher.</li><li>不保证；逛商店不等于完成购买。</li></ol></details><h3>D. 否定、疑问与beau</h3><ol><li>否定：J’ai acheté du pain.</li><li>否定：Nous avons pris un dessert.</li><li>用est-ce que提问：Vous avez travaillé hier.</li><li>询问对方昨天买了什么。</li><li>补全：un ____ hôtel（beau）</li><li>补全：une ____ veste（beau）</li><li>补全：Ces manteaux sont ____.（beau）</li><li>补全：Cet hôtel est ____.（beau）</li></ol><details><summary>参考答案与解析</summary><ol><li>Je n’ai pas acheté de pain. 否定包住ai。</li><li>Nous n’avons pas pris de dessert.</li><li>Est-ce que vous avez travaillé hier ?</li><li>Qu’est-ce que tu as acheté hier ?</li><li>bel：阳性单数、哑音h前、名词前。</li><li>belle：阴性单数。</li><li>beaux：阳性复数。</li><li>beau：表语位置不用bel。</li></ol></details><h3>E. 采访与回应</h3><ol><li>问对方昨天做了什么，用tu。</li><li>礼貌问午饭在哪里吃。</li><li>问几点吃了晚饭。</li><li>问和谁吃饭。</li><li>回答没有吃甜点。</li><li>追问大衣怎么样。</li><li>表达外套漂亮但有点贵。</li><li>确认对方是否8点吃饭。</li></ol><details><summary>参考答案与解析</summary><ol><li>Qu’est-ce que tu as fait hier ?</li><li>Où est-ce que vous avez déjeuné ?</li><li>À quelle heure est-ce que tu as dîné ?</li><li>Avec qui est-ce que tu as mangé ?</li><li>Je n’ai pas pris de dessert.</li><li>Il est comment, ton manteau ?</li><li>Elle est belle, mais elle est un peu chère. 指une veste。</li><li>Est-ce que tu as dîné à huit heures ?</li></ol></details><h3>F. 写作与翻译</h3><ol><li>写“我昨天工作了”。</li><li>写“我们喝了水”。</li><li>写“她买了一件外套”。</li><li>写“他们没有吃甜点”。</li><li>写“我先工作，然后购物”。</li><li>写“我们度过愉快的晚上”。</li><li>用两句写已发生购物及现在评价。</li><li>写8句昨天经历，含一个否定。</li></ol><details><summary>参考答案与解析</summary><ol><li>J’ai travaillé hier.</li><li>Nous avons bu de l’eau.</li><li>Elle a acheté une veste.</li><li>Ils n’ont pas pris de dessert.</li><li>J’ai d’abord travaillé. Ensuite, j’ai fait les courses.</li><li>Nous avons passé une bonne soirée.</li><li>示例：J’ai acheté un manteau. Il est beau et chaud.</li><li>可参考第11模块；检查至少四个分词、两处时间标记、一个评价；开放答案。</li></ol></details><h3>G. 阅读与信息边界</h3><ol><li>Nora上午在哪里工作？</li><li>她工作到几点？</li><li>能计算她上午共工作多久吗？</li><li>谁买了蓝外套？</li><li>兄弟是否买了衣服？</li><li>能否确定兄弟什么都没有买？</li><li>他们几点吃晚饭，在哪里？</li><li>40欧元是每人还是两人？</li></ol><details><summary>参考答案与解析</summary><ol><li>À la maison：在家。</li><li>Jusqu’à onze heures：到11点。</li><li>不能，开始时间未提及。</li><li>Nora；j’ai acheté une veste bleue。</li><li>没有；mon frère n’a pas acheté de vêtements。</li><li>不能，只否定买衣服。</li><li>19点，车站附近的小餐馆。</li><li>两人总共，pour nous deux。</li></ol></details><h3>H. 语音与强调</h3><ol><li>manger和mangé结尾通常读音是否相同？</li><li>bu的元音是什么？</li><li>fait中t通常是否发音？</li><li>pris中s通常是否发音？</li><li>nous avons的连读辅音是什么？</li><li>ils ont与ils sont如何区分？</li><li>读“八点，不是九点”并突出更正信息。</li><li>强调重音是否取消意群节奏重音？</li></ol><details><summary>参考答案与解析</summary><ol><li>相同，均为/e/；写作靠结构判断。</li><li>/y/：不读成/u/。</li><li>不发音；fait读/fɛ/。</li><li>不发音；pris读/pʁi/。</li><li>/z/；/nu.za.vɔ̃/。</li><li>/il.zɔ̃/与/il.sɔ̃/；注意/z/和/s/。</li><li>J’ai dîné à HUIT heures, pas à neuf heures. 强调HUIT。</li><li>不取消，是额外突出信息；仍保留意群节奏。</li></ol></details><h3>I. 综合改错</h3><ol><li>J’ai acheter une veste.</li><li>Nous ont mangé du riz.</li><li>Elle a achetée un manteau.</li><li>Je n’ai mangé pas.</li><li>Ils ont prendu un café.</li><li>Nous avons boiré de l’eau.</li><li>C’est un beau hôtel.</li><li>La soupe est bon.</li></ol><details><summary>参考答案与解析</summary><ol><li>J’ai acheté une veste. 用过去分词。</li><li>Nous avons mangé du riz. nous avons。</li><li>Elle a acheté un manteau. 本例分词不随主语配合。</li><li>Je n’ai pas mangé. pas在助动词后。</li><li>Ils ont pris un café. prendre→pris。</li><li>Nous avons bu de l’eau. boire→bu。</li><li>C’est un bel hôtel. 哑音h前用bel。</li><li>La soupe est bonne. 阴性配合。</li></ol></details><h3>J. 综合口语与复述</h3><ol><li>不看表说acheter的六人称过去时。</li><li>用30秒复述Nora昨天。</li><li>与同伴完成六轮昨天经历采访。</li><li>用一肯定一否定说明昨天饮食。</li><li>解释为什么elles ont mangé不加-es。</li><li>解释un bel hôtel与cet hôtel est beau。</li><li>用beau、bon、bien各造一句。</li><li>记录一个过去时错误和改进办法。</li></ol><details><summary>参考答案与解析</summary><ol><li>j’ai acheté；tu as acheté；il a acheté；nous avons acheté；vous avez acheté；ils ont acheté。</li><li>应包含工作、午饭、购物、19点晚餐及一项否定；不编工作起点或外套价格。</li><li>至少问活动、时间、地点、同伴；回答含完整过去时；tu／vous人称一致。</li><li>示例：J’ai mangé du poisson. Je n’ai pas bu de café.</li><li>本课没有前置直接宾语；avoir的分词不随主语配合，不应推广成永远不配合。</li><li>前者bel在名词前且元音／哑音h起首；后者表语用beau。</li><li>示例：Le manteau est beau. Le repas est bon. Nous avons bien mangé. 分别外观、质量、方式。</li><li>示例：把j’ai prendu改为j’ai pris；把ai／as／a／avons／avez／ont与pris连读复习。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "13. 易错速查、复习清单与来源",
+          "html": "<h2>13. 易错速查、复习清单与来源</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">常见误写</th><th scope=\"col\">正确表达</th><th scope=\"col\">原因</th></tr></thead><tbody><tr><td>j’ai acheter</td><td>j’ai acheté</td><td>过去分词-é</td></tr><tr><td>nous ont mangé</td><td>nous avons mangé</td><td>助动词随主语变</td></tr><tr><td>elle a achetée une veste</td><td>elle a acheté une veste</td><td>本课宾语后置，不随主语配合</td></tr><tr><td>je n’ai mangé pas</td><td>je n’ai pas mangé</td><td>否定包住助动词</td></tr><tr><td>j’ai prendu／faité／boiré</td><td>j’ai pris／fait／bu</td><td>不规则过去分词</td></tr><tr><td>un beau hôtel</td><td>un bel hôtel</td><td>阳性单数，哑音h前，名词前</td></tr><tr><td>cet hôtel est bel</td><td>cet hôtel est beau</td><td>表语用beau</td></tr><tr><td>la soupe est bon</td><td>la soupe est bonne</td><td>阴性配合</td></tr><tr><td>j’ai allé（按avoir机械套用）</td><td>aller的复合过去时用être，详见第19课</td><td>本课不把avoir推广到所有动词</td></tr></tbody></table></div><ul><li>能解释复合过去时的两个部分，按六人称写完整。</li><li>能区分acheter／achète／acheté，记住fait、pris、bu并识别lu、écrit。</li><li>能用否定和est-ce que提问，按时间线讲昨天。</li><li>能解释beau／bel／belle／beaux／belles，区分外观、味道和方式。</li><li>能读懂Nora的消息，给出证据并识别未提及信息。</li><li>能录一段约30—60秒的昨天经历，并用强调词突出一个评价。</li></ul><p>来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方指南</a>核对课程范围；语法交叉核对<a href=\"https://www.laits.utexas.edu/tex/gr/tap2.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学avoir复合过去时</a>；beau的教材范围和名词前bel形式依出版方指南核对。规则、例句、对话、阅读和练习为本站原创。</p><p>beau／bel／belle与复数形式另核对<a href=\"https://www.laits.utexas.edu/tex/gr/adj3.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学名词前形容词</a>。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "id": "l18-q01",
+          "question": "复合过去时本课结构是？",
+          "options": [
+            "avoir现在时＋过去分词",
+            "avoir不定式＋现在时",
+            "主语＋过去分词即可"
+          ],
+          "answer": 0,
+          "explanation": "要写两个动词形式。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q02",
+          "question": "Nous ____ mangé.",
+          "options": [
+            "avez",
+            "avons",
+            "ont"
+          ],
+          "answer": 1,
+          "explanation": "nous avons。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q03",
+          "question": "Elles ____ acheté une veste.",
+          "options": [
+            "avons",
+            "a",
+            "ont"
+          ],
+          "answer": 2,
+          "explanation": "elles ont。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q04",
+          "question": "On ____ dîné.",
+          "options": [
+            "a",
+            "ont",
+            "avons"
+          ],
+          "answer": 0,
+          "explanation": "on a。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q05",
+          "question": "Tu ____ travaillé hier.",
+          "options": [
+            "ai",
+            "as",
+            "a"
+          ],
+          "answer": 1,
+          "explanation": "tu as。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q06",
+          "question": "J’ai ____ du pain.",
+          "options": [
+            "acheter",
+            "achète",
+            "acheté"
+          ],
+          "answer": 2,
+          "explanation": "助动词后用过去分词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q07",
+          "question": "manger的过去分词是？",
+          "options": [
+            "mangé",
+            "mangeé",
+            "mangeons"
+          ],
+          "answer": 0,
+          "explanation": "-er→-é，mangé。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q08",
+          "question": "faire的过去分词是？",
+          "options": [
+            "fais",
+            "fait",
+            "faité"
+          ],
+          "answer": 1,
+          "explanation": "不规则fait。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q09",
+          "question": "prendre的过去分词是？",
+          "options": [
+            "prendu",
+            "prendé",
+            "pris"
+          ],
+          "answer": 2,
+          "explanation": "不规则pris。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q10",
+          "question": "boire的过去分词是？",
+          "options": [
+            "bu",
+            "boiré",
+            "boit"
+          ],
+          "answer": 0,
+          "explanation": "不规则bu。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q11",
+          "question": "lire的过去分词（补充）是？",
+          "options": [
+            "lit",
+            "lu",
+            "liré"
+          ],
+          "answer": 1,
+          "explanation": "lire→lu。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q12",
+          "question": "écrire的过去分词（补充）是？",
+          "options": [
+            "écrivé",
+            "écrite toujours",
+            "écrit"
+          ],
+          "answer": 2,
+          "explanation": "écrire→écrit；这里不加主语配合。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q13",
+          "question": "否定“我没有吃饭”：",
+          "options": [
+            "Je n’ai pas mangé.",
+            "Je n’ai mangé pas.",
+            "Je pas ai mangé."
+          ],
+          "answer": 0,
+          "explanation": "ne…pas包住助动词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q14",
+          "question": "“她买了一件外套”选正确句：",
+          "options": [
+            "Elle a acheter une veste.",
+            "Elle a acheté une veste.",
+            "Elle a achetée une veste."
+          ],
+          "answer": 1,
+          "explanation": "本例avoir分词不随主语配合。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q15",
+          "question": "un ____ hôtel（beau）",
+          "options": [
+            "beau",
+            "belle",
+            "bel"
+          ],
+          "answer": 2,
+          "explanation": "阳性单数，哑音h起首，名词前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q16",
+          "question": "Cet hôtel est ____.",
+          "options": [
+            "beau",
+            "bel",
+            "belle"
+          ],
+          "answer": 0,
+          "explanation": "表语不用bel。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q17",
+          "question": "une ____ veste",
+          "options": [
+            "beaux",
+            "belle",
+            "bel"
+          ],
+          "answer": 1,
+          "explanation": "阴性单数belle。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q18",
+          "question": "Ces manteaux sont ____.",
+          "options": [
+            "beaus",
+            "belles",
+            "beaux"
+          ],
+          "answer": 2,
+          "explanation": "阳性复数beaux。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q19",
+          "question": "Ces vestes sont ____.",
+          "options": [
+            "belles",
+            "beaux",
+            "bel"
+          ],
+          "answer": 0,
+          "explanation": "阴性复数belles。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q20",
+          "question": "所有动词的复合过去时都用avoir吗？",
+          "options": [
+            "只有复数用être",
+            "不是，部分用être",
+            "是，任何动词都如此"
+          ],
+          "answer": 1,
+          "explanation": "第19课继续学être，不能机械推广。",
+          "group": "grammar"
+        },
+        {
+          "id": "l18-q21",
+          "question": "hier soir表示？",
+          "options": [
+            "每天晚上",
+            "明天晚上",
+            "昨天晚上"
+          ],
+          "answer": 2,
+          "explanation": "hier为昨天。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l18-q22",
+          "question": "la cuisine italienne在餐馆语境是？",
+          "options": [
+            "意大利菜／烹饪风格",
+            "意大利厨房家具",
+            "意大利账单"
+          ],
+          "answer": 0,
+          "explanation": "cuisine可指烹饪风格。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l18-q23",
+          "question": "外套“漂亮但贵”：",
+          "options": [
+            "Elle est bien, mais il est chère.",
+            "Elle est belle, mais elle est chère.",
+            "Elle est bel, mais cher."
+          ],
+          "answer": 1,
+          "explanation": "veste阴性，belle／chère。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l18-q24",
+          "question": "评价汤好喝：La soupe est ____.",
+          "options": [
+            "beau",
+            "bien mangé",
+            "bonne"
+          ],
+          "answer": 2,
+          "explanation": "bon的阴性为bonne。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l18-q25",
+          "question": "“我们吃得不错”是？",
+          "options": [
+            "Nous avons bien mangé.",
+            "Nous avons bon mangé.",
+            "Nous avons beau mangé."
+          ],
+          "answer": 0,
+          "explanation": "bien修饰mangé。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l18-q26",
+          "question": "faire les magasins能确定什么？",
+          "options": [
+            "一定没买任何东西",
+            "逛了商店，未必购买",
+            "一定买了衣服"
+          ],
+          "answer": 1,
+          "explanation": "购物活动与购买结果分开。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l18-q27",
+          "question": "Nora上午工作到几点？",
+          "options": [
+            "12点",
+            "19点",
+            "11点"
+          ],
+          "answer": 2,
+          "explanation": "jusqu’à onze heures。",
+          "group": "reading"
+        },
+        {
+          "id": "l18-q28",
+          "question": "Nora工作开始时间？",
+          "options": [
+            "未提及",
+            "8点",
+            "9点"
+          ],
+          "answer": 0,
+          "explanation": "文中只给结束时间。",
+          "group": "reading"
+        },
+        {
+          "id": "l18-q29",
+          "question": "Nora买的衣服是什么颜色？",
+          "options": [
+            "白色",
+            "蓝色",
+            "红色"
+          ],
+          "answer": 1,
+          "explanation": "une veste bleue。",
+          "group": "reading"
+        },
+        {
+          "id": "l18-q30",
+          "question": "Nora兄弟没有买什么？",
+          "options": [
+            "任何物品",
+            "鱼",
+            "衣服"
+          ],
+          "answer": 2,
+          "explanation": "只写vêtements，不能泛化为任何物品。",
+          "group": "reading"
+        },
+        {
+          "id": "l18-q31",
+          "question": "晚餐40欧元指？",
+          "options": [
+            "两人合计",
+            "每人40欧元",
+            "只有甜点的价格"
+          ],
+          "answer": 0,
+          "explanation": "pour nous deux表示两人总额。",
+          "group": "reading"
+        },
+        {
+          "id": "l18-q32",
+          "question": "问对方昨天做了什么：",
+          "options": [
+            "Qu’est-ce que tu as faire hier ?",
+            "Qu’est-ce que tu as fait hier ?",
+            "Qu’est-ce que tu fait hier ?"
+          ],
+          "answer": 1,
+          "explanation": "tu as＋fait。",
+          "group": "speaking"
+        },
+        {
+          "id": "l18-q33",
+          "question": "礼貌问对方午餐地点：",
+          "options": [
+            "Où vous déjeuner hier ?",
+            "Qui vous avez déjeuné ?",
+            "Où est-ce que vous avez déjeuné ?"
+          ],
+          "answer": 2,
+          "explanation": "où问地点，vous avez déjeuné。",
+          "group": "speaking"
+        },
+        {
+          "id": "l18-q34",
+          "question": "问昨天和谁吃饭：",
+          "options": [
+            "Avec qui est-ce que tu as mangé ?",
+            "Combien est-ce que tu as mangé ?",
+            "À quelle heure tu as mangé ?"
+          ],
+          "answer": 0,
+          "explanation": "avec qui问同伴。",
+          "group": "speaking"
+        },
+        {
+          "id": "l18-q35",
+          "question": "询问大衣怎么样：",
+          "options": [
+            "Ils ont comment, ton manteau ?",
+            "Il est comment, ton manteau ?",
+            "Elle est combien, ton manteau ?"
+          ],
+          "answer": 1,
+          "explanation": "manteau阳性单数，用il。",
+          "group": "speaking"
+        },
+        {
+          "id": "l18-q36",
+          "question": "“我们没有吃甜点”正确的是？",
+          "options": [
+            "Nous n’avons pris pas un dessert.",
+            "Nous avons ne pas prendu dessert.",
+            "Nous n’avons pas pris de dessert."
+          ],
+          "answer": 2,
+          "explanation": "ne…pas包住avons，普通否定用de。",
+          "group": "writing"
+        },
+        {
+          "id": "l18-q37",
+          "question": "昨天先工作再购物的顺序词是？",
+          "options": [
+            "d’abord…ensuite…",
+            "demain…hier…",
+            "jamais…toujours…"
+          ],
+          "answer": 0,
+          "explanation": "d’abord先，ensuite接着。",
+          "group": "writing"
+        },
+        {
+          "id": "l18-q38",
+          "question": "“她喝了水”的正确句子：",
+          "options": [
+            "Elle a boire de l’eau.",
+            "Elle a bu de l’eau.",
+            "Elle a bue de l’eau."
+          ],
+          "answer": 1,
+          "explanation": "bu在本例不随主语加e。",
+          "group": "writing"
+        },
+        {
+          "id": "l18-q39",
+          "question": "bu中u的音是？",
+          "options": [
+            "/u/",
+            "/ø/",
+            "/y/"
+          ],
+          "answer": 2,
+          "explanation": "bu /by/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l18-q40",
+          "question": "manger与mangé的词尾通常怎样？",
+          "options": [
+            "同读/e/，拼写由语法区分",
+            "前者必读/ɛʁ/",
+            "后者必读/ɑ̃/"
+          ],
+          "answer": 0,
+          "explanation": "不能只靠听音判断-er／-é。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l18-q41",
+          "question": "ils ont中的连读是？",
+          "options": [
+            "/t/",
+            "/z/",
+            "/s/"
+          ],
+          "answer": 1,
+          "explanation": "ils ont /il.zɔ̃/，区别ils sont。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l18-q42",
+          "question": "强调重音的作用是？",
+          "options": [
+            "取消所有意群重音",
+            "每个词都同样大声",
+            "额外突出评价或更正信息"
+          ],
+          "answer": 2,
+          "explanation": "仍保留正常节奏。",
+          "group": "pronunciation"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "tense",
+          "participles",
+          "verbs",
+          "patterns",
+          "beau",
+          "review"
+        ],
+        "vocabulary": [
+          "words",
+          "participles",
+          "beau"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading"
+        ],
+        "speaking": [
+          "communicate",
+          "patterns",
+          "writing"
+        ],
+        "writing": [
+          "tense",
+          "patterns",
+          "beau",
+          "writing"
+        ]
+      },
+      "listening": "听教材第18课的过去经历与评价录音：先抓谁在讲昨天的什么事，再记时间、地点、同伴、购物和餐馆评价；复听时标avoir助动词、过去分词和ne…pas，最后模仿强调重音并复述30—60秒。本站Nora消息是原创阅读材料，不是教材音轨逐字稿。"
     }
   ]
 };
