@@ -146,7 +146,7 @@ node --test scripts/app.test.cjs
 - [第17课 On fait des crêpes ? · 我们做可丽饼吧？](https://mjy-mjy-mjy.github.io/bonjour-francais/#lesson/17)：部分冠词、数量与否定、boire／acheter／manger六人称现在时、饮食习惯与购物清单、/œ/／/ɔ/／/ø/及Chandeleur文化补充。
 - [第18课 Il est comment ? · 它怎么样？](https://mjy-mjy-mjy.github.io/bonjour-francais/#lesson/18)：avoir复合过去时、规则与不规则过去分词、五张六人称过去时表、否定疑问、时间线、beau／bel／belle、评价与强调重音；明确être过去时留第19课。
 - 每课13模块、10组80项书面任务及解析、42道小测，合计160项书面任务与84道小测。七个分类、搜索、打印、错题与旧笔记使用现有机制；核对记录见`lessons/audits/17.md`和`18.md`。
-- 76项功能测试、构建、内容及JS语法检查通过。用户最新学习位置已记录到`docs/PROGRESS.md`，浏览器中的个人完成记录仍由本人确认。
+- 76项功能测试、构建、内容及JS语法检查通过；主站两课与七类页面在375／1280px、两套配色共64种组合下无横向溢出，并核对搜索及答案展开。用户最新学习位置已记录到`docs/PROGRESS.md`，浏览器中的个人完成记录仍由本人确认。
 
 第19课及以后的详细内容尚待编写，提供教材学习记录与笔记入口；目录中的课题或课次入口不代表正文已经完成。A2及中级、考试专项内容将在后续扩充。
 
