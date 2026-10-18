@@ -4,7 +4,7 @@
     {
       "id": "scope",
       "title": "1. 学习目标与范围",
-      "html": "<h2>1. 学习目标与范围</h2><p>第18课 <strong lang=\"fr\">Il est comment ?（它怎么样？）</strong>，第5单元，教材第58—59页。核心任务是叙述过去发生的事，并对食物、衣物或场所表达评价。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">范围</th><th scope=\"col\">知识</th><th scope=\"col\">可完成的任务</th></tr></thead><tbody><tr><td>教材核心</td><td>avoir作助动词的复合过去时；过去分词；beau变化；强调重音</td><td>讲昨天做了什么，追问细节，表达评价</td></tr><tr><td>复习</td><td>avoir现在时、购物词汇、疑问句、否定、时间线</td><td>正确写出助动词、数量和先后顺序</td></tr><tr><td>补充边界</td><td>规则-ir／-re分词样例、已有动词的不规则分词、配合规则边界</td><td>避免把所有动词都机械套用avoir或-er→-é</td></tr></tbody></table></div><p>先学“发生了什么”，再学“觉得怎么样”。本课的il可以回指阳性单数物品或地点；评价阴性对象用elle，复数用ils／elles。本文对话、人物、阅读和练习均为原创，范围核对<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方教学指南</a>第18课（PDF第62—64页，书内页68—70）。</p>"
+      "html": "<h2>1. 学习目标与范围</h2><p>第18课 <strong lang=\"fr\">Il est comment ?（它怎么样？）</strong>，第5单元，教材第58—59页。核心任务是叙述过去发生的事，并对食物、衣物或场所表达评价。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">范围</th><th scope=\"col\">知识</th><th scope=\"col\">可完成的任务</th></tr></thead><tbody><tr><td>教材核心</td><td>avoir作助动词的复合过去时；过去分词；beau变化；强调重音</td><td>讲昨天做了什么，追问细节，表达评价</td></tr><tr><td>复习</td><td>avoir现在时、购物词汇、复合过去时否定、三种问法与倒装、时间线</td><td>正确写出助动词、数量和先后顺序</td></tr><tr><td>补充边界</td><td>规则-ir／-re分词样例、已有动词的不规则分词、配合规则边界</td><td>避免把所有动词都机械套用avoir或-er→-é</td></tr></tbody></table></div><p>先学“发生了什么”，再学“觉得怎么样”。本课的il可以回指阳性单数物品或地点；评价阴性对象用elle，复数用ils／elles。本文对话、人物、阅读和练习均为原创，范围核对<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方教学指南</a>第18课（PDF第62—64页，书内页68—70）。</p>"
     },
     {
       "id": "communicate",
@@ -28,8 +28,8 @@
     },
     {
       "id": "patterns",
-      "title": "6. 否定、疑问与时间顺序",
-      "html": "<h2>6. 否定、疑问与时间顺序</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">功能</th><th scope=\"col\">结构与例句</th><th scope=\"col\">说明</th></tr></thead><tbody><tr><td>否定</td><td>Je n’ai pas acheté de pain.</td><td>ne／n’＋助动词＋pas＋过去分词；pas不放在acheté后</td></tr><tr><td>复数否定</td><td>Elles n’ont pas bu de café.</td><td>elles→ont；元音前ne变n’</td></tr><tr><td>语调提问</td><td>Tu as travaillé hier ?</td><td>保留过去时两个部分</td></tr><tr><td>est-ce que</td><td>Est-ce que vous avez dîné ici ?</td><td>est-ce que之后按陈述语序</td></tr><tr><td>提问内容</td><td>Qu’est-ce que tu as acheté ?</td><td>不是qu’est-ce que tu acheté</td></tr><tr><td>提问时间</td><td>Quand est-ce qu’il a téléphoné ?</td><td>quand问何时；à quelle heure更精确</td></tr><tr><td>否定数量</td><td>Nous n’avons pas pris de dessert.</td><td>普通全否定的不定／部分冠词仍变de</td></tr><tr><td>特定宾语的否定</td><td>Je n’ai pas acheté le pull rouge.</td><td>特指“那件红毛衣”，le保留</td></tr></tbody></table></div><p><strong>顺序：</strong>Hier matin → à midi → l’après-midi → le soir；d’abord → puis／ensuite → enfin。例：<span lang=\"fr\">Hier, j’ai d’abord travaillé. Ensuite, j’ai fait les courses. Enfin, j’ai préparé le dîner.</span> 同一天的顺序不能与钟点矛盾。</p><p>on a mangé对应口语“我们吃了”；nous avons mangé更清楚。询问结束后可确认：Donc, vous avez dîné à huit heures ?（所以您是8点吃的晚饭？）不确定的细节要追问，不凭常识补全。倒装疑问属于可选复习，如Avez-vous dîné ?，先熟练est-ce que即可。</p>"
+      "title": "6. 复合过去时：否定、倒装与时间顺序",
+      "html": "<h2>6. 复合过去时：否定、倒装与时间顺序</h2><p>先认出助动词，再变化句型。本节继续使用本课的<strong>avoir＋过去分词</strong>；否定和提问不会把过去分词变回不定式。主线是“肯定 → 否定 → 倒装疑问 → 否定倒装”。</p><h3>6.1 否定：ne…pas包住助动词</h3><p><strong>结构：主语＋ne／n’＋avoir现在时＋pas＋过去分词＋其他成分。</strong>avoir的这些现在时形式都以元音起首，紧邻助动词的ne省音为n’。je在ne前不省音，因此写<strong>Je n’ai pas mangé.</strong>；pas放在助动词后、过去分词前。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">肯定</th><th scope=\"col\">否定</th><th scope=\"col\">观察</th></tr></thead><tbody><tr><td>J’ai mangé.</td><td>Je n’ai pas mangé.</td><td>我吃了。→ 我没有吃。</td></tr><tr><td>Tu as travaillé hier.</td><td>Tu n’as pas travaillé hier.</td><td>你昨天工作了。→ 你昨天没工作。</td></tr><tr><td>Nous avons pris un dessert.</td><td>Nous n’avons pas pris de dessert.</td><td>否定包住avons；普通全否定中un变de。</td></tr><tr><td>Elles ont bu du café.</td><td>Elles n’ont pas bu de café.</td><td>普通全否定中du变de。</td></tr><tr><td>J’ai acheté le pull rouge.</td><td>Je n’ai pas acheté le pull rouge.</td><td>特指“那件红毛衣”，定冠词le保留。</td></tr></tbody></table></div><p>普通全否定中的不定冠词un／une／des和部分冠词通常变为de／d’：<span lang=\"fr\">Je n’ai pas acheté d’eau.</span>（我没买水。）这不是“所有冠词都变de”；特指、对比或être等其他语境另作判断。口语可能省略ne／n’，但本课书面练习保留完整否定。</p><p><strong>补充识别：</strong>ne…jamais（从未）和ne…plus（不再）在这些句子中位置类似：<span lang=\"fr\">Je n’ai jamais mangé de crêpes.</span>（我从未吃过可丽饼。）不要再加pas。其他否定结构的位置不全部相同，不把这条规则推广给所有否定词。</p><h3>6.2 同一个问题的三种问法</h3><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">方式</th><th scope=\"col\">例句</th><th scope=\"col\">语序与使用</th></tr></thead><tbody><tr><td>语调疑问</td><td>Tu as dîné ?</td><td>主语＋助动词＋过去分词；日常口语常见。</td></tr><tr><td>est-ce que</td><td>Est-ce que tu as dîné ?</td><td>est-ce que之后保留陈述语序，通用且容易掌握。</td></tr><tr><td>主谓倒装</td><td>As-tu dîné ?</td><td>助动词与主语代词倒装；较正式，书面语常见。</td></tr></tbody></table></div><p>三句都问“你吃过晚饭了吗？”。不能把两套句型叠加成<strong>Est-ce que as-tu dîné ?</strong>。est-ce que后接主语；倒装句直接以助动词开头。</p><h3>6.3 倒装：交换助动词与主语代词</h3><p><strong>结构：avoir现在时－主语代词＋过去分词＋其他成分＋？</strong>只有助动词与主语代词交换位置，两者之间写连字符；过去分词仍在后面。这里的主语指tu、vous、il等主语代词，名词主语见6.7补充。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">陈述句</th><th scope=\"col\">倒装疑问句</th></tr></thead><tbody><tr><td>Tu as mangé.</td><td>As-tu mangé ?</td></tr><tr><td>Il a mangé.</td><td>A-t-il mangé ?</td></tr><tr><td>Elle a mangé.</td><td>A-t-elle mangé ?</td></tr><tr><td>On a mangé.</td><td>A-t-on mangé ?</td></tr><tr><td>Nous avons mangé.</td><td>Avons-nous mangé ?</td></tr><tr><td>Vous avez mangé.</td><td>Avez-vous mangé ?</td></tr><tr><td>Ils ont mangé.</td><td>Ont-ils mangé ?</td></tr><tr><td>Elles ont mangé.</td><td>Ont-elles mangé ?</td></tr></tbody></table></div><p>换动词也遵循同一规律：<span lang=\"fr\">As-tu fait les courses ?</span>（你买过东西了吗？）<span lang=\"fr\">Avez-vous pris un café ?</span>（您喝过咖啡了吗？）不要写As mangé-tu ?，也不要写As-tu manger ?。</p><p><strong>je的补充识别：</strong><span lang=\"fr\">Ai-je bien compris ?</span>（我理解对了吗？）其中写ai-je，不写j’ai-je。A1日常表达可先使用<span lang=\"fr\">Est-ce que j’ai bien compris ?</span>，不机械套用现在时其他动词的je倒装。</p><h3>6.4 连字符与补音-t-：a-t-il，不能写a-t’il</h3><p>在本课avoir复合过去时中，<strong>a与il／elle／on倒装时插入-t-</strong>：a-t-il、a-t-elle、a-t-on。这个t只帮助发音，不是主语，也不是过去分词的一部分；t前后各一个连字符，不用撇号。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">正确形式</th><th scope=\"col\">为什么</th><th scope=\"col\">避免误写</th></tr></thead><tbody><tr><td>A-t-il dîné ?</td><td>a＋il，中间补-t-。</td><td>A-il…／A-t’il…</td></tr><tr><td>N’a-t-elle pas dîné ?</td><td>n’是ne的省音；-t-两侧仍用连字符。</td><td>N’a-t’elle…</td></tr><tr><td>As-tu dîné ?</td><td>tu前不添加额外的t。</td><td>As-t-tu…</td></tr><tr><td>Avez-vous dîné ?</td><td>vous前不加-t-。</td><td>Avez-t-vous…</td></tr><tr><td>Ont-ils dîné ?</td><td>ont已以t结尾，不重复添加。</td><td>Ont-t-ils…</td></tr></tbody></table></div><p>不要只看“后面是不是元音”就随意加t。先确认倒装双方和助动词形式；本课记牢a-t-il／elle／on与ont-ils／elles的对照。</p><h3>6.5 否定倒装：pas放在主语代词之后</h3><p><strong>结构：ne／n’＋助动词－主语代词＋pas＋过去分词＋其他成分＋？</strong>先把助动词和主语代词看成一组，n’在它前面，pas在整组后面。a-t-il／elle／on的补音t继续保留。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">否定陈述</th><th scope=\"col\">否定倒装疑问</th><th scope=\"col\">意思</th></tr></thead><tbody><tr><td>Tu n’as pas mangé.</td><td>N’as-tu pas mangé ?</td><td>你没吃过吗？</td></tr><tr><td>Il n’a pas dîné.</td><td>N’a-t-il pas dîné ?</td><td>他没吃过晚饭吗？</td></tr><tr><td>Vous n’avez pas travaillé hier.</td><td>N’avez-vous pas travaillé hier ?</td><td>您昨天没工作吗？</td></tr><tr><td>Elles n’ont pas pris de dessert.</td><td>N’ont-elles pas pris de dessert ?</td><td>她们没吃甜点吗？</td></tr></tbody></table></div><p>不要写N’as pas-tu mangé ?或N’as-tu mangé pas ?。补充：<span lang=\"fr\">N’as-tu jamais mangé de crêpes ?</span>（你从未吃过可丽饼吗？）同样把jamais放在tu后、mangé前。否定问句可能带有惊讶或确认的语气，具体要看语境。</p><h3>6.6 疑问词也可以搭配倒装</h3><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">想问什么</th><th scope=\"col\">est-ce que问法</th><th scope=\"col\">倒装问法</th></tr></thead><tbody><tr><td>买了什么</td><td>Qu’est-ce que tu as acheté ?</td><td>Qu’as-tu acheté ?</td></tr><tr><td>在哪里吃午饭</td><td>Où est-ce que vous avez déjeuné ?</td><td>Où avez-vous déjeuné ?</td></tr><tr><td>何时打过电话</td><td>Quand est-ce qu’il a téléphoné ?</td><td>Quand a-t-il téléphoné ?</td></tr><tr><td>几点吃过晚饭</td><td>À quelle heure est-ce que tu as dîné ?</td><td>À quelle heure as-tu dîné ?</td></tr><tr><td>和谁吃饭</td><td>Avec qui est-ce que tu as mangé ?</td><td>Avec qui as-tu mangé ?</td></tr><tr><td>为什么没吃</td><td>Pourquoi est-ce que tu n’as pas mangé ?</td><td>Pourquoi n’as-tu pas mangé ?</td></tr></tbody></table></div><p>一般结构是“疑问词＋倒装句”；que在as前省音成qu’，所以是<strong>Qu’as-tu fait hier ?</strong>（你昨天做了什么？）这里学习的是上表这些问法；qui／qu’est-ce qui作主语等结构另有语序，不在本节机械推广。</p><h3>6.7 回答否定问句：Si与Non；名词主语补充</h3><p>对<span lang=\"fr\">N’as-tu pas mangé ?</span>，按实际情况回答：<strong>Si, j’ai mangé.</strong>（不，我吃过了：反驳问题中的否定。）或<strong>Non, je n’ai pas mangé.</strong>（是的，我没吃：确认否定。）对普通肯定问句As-tu mangé ?，肯定回答用Oui, j’ai mangé.，否定仍用Non, je n’ai pas mangé.。</p><p><strong>名词主语的正式是非问句（补充）：</strong>保留前面的名词，再在助动词后加对应代词：<span lang=\"fr\">Paul a dîné. → Paul a-t-il dîné ?</span>；<span lang=\"fr\">Marie n’a pas mangé. → Marie n’a-t-elle pas mangé ?</span>。这里不是把Paul直接搬到a后；当前可先熟练代词主语。</p><h3>6.8 四种形式速查与时间顺序</h3><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">形式</th><th scope=\"col\">完整例句</th></tr></thead><tbody><tr><td>肯定</td><td>Tu as mangé.</td></tr><tr><td>否定</td><td>Tu n’as pas mangé.</td></tr><tr><td>倒装疑问</td><td>As-tu mangé ?</td></tr><tr><td>否定倒装疑问</td><td>N’as-tu pas mangé ?</td></tr></tbody></table></div><p><strong>时间顺序：</strong>Hier matin → à midi → l’après-midi → le soir；d’abord → puis／ensuite → enfin。例：<span lang=\"fr\">Hier, j’ai d’abord travaillé. Ensuite, j’ai fait les courses. Enfin, j’ai préparé le dîner.</span> 同一天的顺序不能与钟点矛盾。on a mangé可对应口语“我们吃了”；nous avons mangé更清楚。</p><p><strong>核对资料：</strong><a href=\"https://www.laits.utexas.edu/tex/gr/neg2.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学：否定与复合时态</a>、<a href=\"https://www.laits.utexas.edu/tex/gr/int3.html\" target=\"_blank\" rel=\"noopener noreferrer\">倒装、复合时态与否定倒装</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/22513/la-prononciation/prononciation-de-certaines-lettres/emploi-du-t-euphonique\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF：补音t及连字符</a>、<a href=\"https://www.laits.utexas.edu/tex/gr/int2.html\" target=\"_blank\" rel=\"noopener noreferrer\">否定问句的Si回答</a>。本节按本课语法结构补充，例句与练习为原创；名词主语、je、jamais及Si明确作为补充识别。</p>"
     },
     {
       "id": "beau",
@@ -54,17 +54,17 @@
     {
       "id": "writing",
       "title": "11. 输出任务：从采访到昨天的小短文",
-      "html": "<h2>11. 输出任务：从采访到昨天的小短文</h2><ul><li>听：找教材第18课录音，第一遍抓昨天的活动，第二遍写地点、时间、同伴和评价，第三遍核对助动词、分词、否定与强调词。</li><li>说：两人采访，至少问活动、地点、时间和同伴四项。用vous进行一次询问，再用tu复述；回答只使用本课已知的avoir过去时动词。</li><li>读：按Nora消息写出五格时间线，每项提供证据；把“未提及”同“否定发生”分开。</li><li>写：用8句介绍昨天，至少四个不同过去分词、一个否定、两个时间标记和一个评价。先检查助动词，再检查分词拼写。</li></ul><p><strong>原创范文：</strong><span lang=\"fr\">Hier, j’ai travaillé le matin. À midi, j’ai déjeuné à la maison. L’après-midi, j’ai fait les courses avec une amie. Nous avons acheté du pain et des légumes. Ensuite, j’ai préparé le dîner. Nous avons mangé à vingt heures. Nous n’avons pas bu de café. J’ai passé une bonne soirée.</span></p><p>检查顺序：①昨天的事情是否用了完整过去时；②主语是否匹配ai／as／a／avons／avez／ont；③分词是否写成原形；④ne…pas是否包住助动词；⑤冠词与形容词是否正确；⑥时间线是否连贯。范文是参考，开放答案允许不同生活内容。</p>"
+      "html": "<h2>11. 输出任务：从采访到昨天的小短文</h2><ul><li>听：找教材第18课录音，第一遍抓昨天的活动，第二遍写地点、时间、同伴和评价，第三遍核对助动词、分词、否定与强调词。</li><li>说：两人采访，至少问活动、地点、时间和同伴四项。用vous进行一次询问，再用tu复述；回答只使用本课已知的avoir过去时动词；再把其中一个问题改成倒装疑问，一个改成否定倒装，并按实际情况回答。</li><li>读：按Nora消息写出五格时间线，每项提供证据；把“未提及”同“否定发生”分开。</li><li>写：用8句介绍昨天，至少四个不同过去分词、一个否定、两个时间标记和一个评价。先检查助动词，再检查分词拼写。</li></ul><p><strong>原创范文：</strong><span lang=\"fr\">Hier, j’ai travaillé le matin. À midi, j’ai déjeuné à la maison. L’après-midi, j’ai fait les courses avec une amie. Nous avons acheté du pain et des légumes. Ensuite, j’ai préparé le dîner. Nous avons mangé à vingt heures. Nous n’avons pas bu de café. J’ai passé une bonne soirée.</span></p><p>检查顺序：①昨天的事情是否用了完整过去时；②主语是否匹配ai／as／a／avons／avez／ont；③分词是否写成原形；④ne…pas是否包住助动词；⑤冠词与形容词是否正确；⑥时间线是否连贯；⑦倒装是否只交换助动词与主语代词、写对连字符，否定倒装中pas是否在代词后。范文是参考，开放答案允许不同生活内容。</p>"
     },
     {
       "id": "practice",
       "title": "12. 分层练习A—J与参考解析",
-      "html": "<h2>12. 分层练习A—J与参考解析</h2><h3>A. 复合过去时与人称</h3><ol><li>Je＋manger：写完整过去时。</li><li>Tu＋acheter：写完整过去时。</li><li>Elle＋faire：写完整过去时。</li><li>Nous＋prendre：写完整过去时。</li><li>Vous＋boire：写完整过去时。</li><li>Ils＋travailler：写完整过去时。</li><li>On＋dîner：写完整过去时。</li><li>Elles＋manger＋du riz：写完整句。</li></ol><details><summary>参考答案与解析</summary><ol><li>j’ai mangé：avoir＋分词。</li><li>tu as acheté：tu as。</li><li>elle a fait：分词fait。</li><li>nous avons pris：分词pris。</li><li>vous avez bu：分词bu。</li><li>ils ont travaillé：ils ont。</li><li>on a dîné：on a。</li><li>Elles ont mangé du riz. 此例不随elles给分词加-es。</li></ol></details><h3>B. 过去分词与辨析</h3><ol><li>acheter的过去分词。</li><li>manger的过去分词。</li><li>faire的过去分词。</li><li>prendre的过去分词。</li><li>boire的过去分词。</li><li>lire与écrire的过去分词（补充）。</li><li>finir的规则分词（补充）。</li><li>解释acheter／achète／acheté。</li></ol><details><summary>参考答案与解析</summary><ol><li>acheté：-er→-é。</li><li>mangé：不是mangeé。</li><li>fait：不规则。</li><li>pris：不规则。</li><li>bu：不规则。</li><li>lu／écrit：不能用-liré／écrivé。</li><li>fini：规则第二组-ir→-i。</li><li>不定式／现在时单数形式／过去分词；j’ai之后选acheté。</li></ol></details><h3>C. 词汇与评价</h3><ol><li>“昨天晚上”怎么写？</li><li>“度过愉快的一天”怎么写？</li><li>把la cuisine italienne译成中文。</li><li>prendre un verre一定说明喝酒吗？</li><li>写“独自一人”的阳性和阴性。</li><li>评价阴性la soupe好吃。</li><li>评价阳性le manteau漂亮但贵。</li><li>faire les magasins保证买了东西吗？</li></ol><details><summary>参考答案与解析</summary><ol><li>hier soir，不加le。</li><li>passer une bonne journée。</li><li>意大利菜／意式烹饪风格，此处非“意大利的厨房”。</li><li>不一定，只说明喝一杯，具体饮品需要语境。</li><li>seul／seule。</li><li>Elle est bonne. bonne配合阴性。</li><li>Il est beau, mais il est cher.</li><li>不保证；逛商店不等于完成购买。</li></ol></details><h3>D. 否定、疑问与beau</h3><ol><li>否定：J’ai acheté du pain.</li><li>否定：Nous avons pris un dessert.</li><li>用est-ce que提问：Vous avez travaillé hier.</li><li>询问对方昨天买了什么。</li><li>补全：un ____ hôtel（beau）</li><li>补全：une ____ veste（beau）</li><li>补全：Ces manteaux sont ____.（beau）</li><li>补全：Cet hôtel est ____.（beau）</li></ol><details><summary>参考答案与解析</summary><ol><li>Je n’ai pas acheté de pain. 否定包住ai。</li><li>Nous n’avons pas pris de dessert.</li><li>Est-ce que vous avez travaillé hier ?</li><li>Qu’est-ce que tu as acheté hier ?</li><li>bel：阳性单数、哑音h前、名词前。</li><li>belle：阴性单数。</li><li>beaux：阳性复数。</li><li>beau：表语位置不用bel。</li></ol></details><h3>E. 采访与回应</h3><ol><li>问对方昨天做了什么，用tu。</li><li>礼貌问午饭在哪里吃。</li><li>问几点吃了晚饭。</li><li>问和谁吃饭。</li><li>回答没有吃甜点。</li><li>追问大衣怎么样。</li><li>表达外套漂亮但有点贵。</li><li>确认对方是否8点吃饭。</li></ol><details><summary>参考答案与解析</summary><ol><li>Qu’est-ce que tu as fait hier ?</li><li>Où est-ce que vous avez déjeuné ?</li><li>À quelle heure est-ce que tu as dîné ?</li><li>Avec qui est-ce que tu as mangé ?</li><li>Je n’ai pas pris de dessert.</li><li>Il est comment, ton manteau ?</li><li>Elle est belle, mais elle est un peu chère. 指une veste。</li><li>Est-ce que tu as dîné à huit heures ?</li></ol></details><h3>F. 写作与翻译</h3><ol><li>写“我昨天工作了”。</li><li>写“我们喝了水”。</li><li>写“她买了一件外套”。</li><li>写“他们没有吃甜点”。</li><li>写“我先工作，然后购物”。</li><li>写“我们度过愉快的晚上”。</li><li>用两句写已发生购物及现在评价。</li><li>写8句昨天经历，含一个否定。</li></ol><details><summary>参考答案与解析</summary><ol><li>J’ai travaillé hier.</li><li>Nous avons bu de l’eau.</li><li>Elle a acheté une veste.</li><li>Ils n’ont pas pris de dessert.</li><li>J’ai d’abord travaillé. Ensuite, j’ai fait les courses.</li><li>Nous avons passé une bonne soirée.</li><li>示例：J’ai acheté un manteau. Il est beau et chaud.</li><li>可参考第11模块；检查至少四个分词、两处时间标记、一个评价；开放答案。</li></ol></details><h3>G. 阅读与信息边界</h3><ol><li>Nora上午在哪里工作？</li><li>她工作到几点？</li><li>能计算她上午共工作多久吗？</li><li>谁买了蓝外套？</li><li>兄弟是否买了衣服？</li><li>能否确定兄弟什么都没有买？</li><li>他们几点吃晚饭，在哪里？</li><li>40欧元是每人还是两人？</li></ol><details><summary>参考答案与解析</summary><ol><li>À la maison：在家。</li><li>Jusqu’à onze heures：到11点。</li><li>不能，开始时间未提及。</li><li>Nora；j’ai acheté une veste bleue。</li><li>没有；mon frère n’a pas acheté de vêtements。</li><li>不能，只否定买衣服。</li><li>19点，车站附近的小餐馆。</li><li>两人总共，pour nous deux。</li></ol></details><h3>H. 语音与强调</h3><ol><li>manger和mangé结尾通常读音是否相同？</li><li>bu的元音是什么？</li><li>fait中t通常是否发音？</li><li>pris中s通常是否发音？</li><li>nous avons的连读辅音是什么？</li><li>ils ont与ils sont如何区分？</li><li>读“八点，不是九点”并突出更正信息。</li><li>强调重音是否取消意群节奏重音？</li></ol><details><summary>参考答案与解析</summary><ol><li>相同，均为/e/；写作靠结构判断。</li><li>/y/：不读成/u/。</li><li>不发音；fait读/fɛ/。</li><li>不发音；pris读/pʁi/。</li><li>/z/；/nu.za.vɔ̃/。</li><li>/il.zɔ̃/与/il.sɔ̃/；注意/z/和/s/。</li><li>J’ai dîné à HUIT heures, pas à neuf heures. 强调HUIT。</li><li>不取消，是额外突出信息；仍保留意群节奏。</li></ol></details><h3>I. 综合改错</h3><ol><li>J’ai acheter une veste.</li><li>Nous ont mangé du riz.</li><li>Elle a achetée un manteau.</li><li>Je n’ai mangé pas.</li><li>Ils ont prendu un café.</li><li>Nous avons boiré de l’eau.</li><li>C’est un beau hôtel.</li><li>La soupe est bon.</li></ol><details><summary>参考答案与解析</summary><ol><li>J’ai acheté une veste. 用过去分词。</li><li>Nous avons mangé du riz. nous avons。</li><li>Elle a acheté un manteau. 本例分词不随主语配合。</li><li>Je n’ai pas mangé. pas在助动词后。</li><li>Ils ont pris un café. prendre→pris。</li><li>Nous avons bu de l’eau. boire→bu。</li><li>C’est un bel hôtel. 哑音h前用bel。</li><li>La soupe est bonne. 阴性配合。</li></ol></details><h3>J. 综合口语与复述</h3><ol><li>不看表说acheter的六人称过去时。</li><li>用30秒复述Nora昨天。</li><li>与同伴完成六轮昨天经历采访。</li><li>用一肯定一否定说明昨天饮食。</li><li>解释为什么elles ont mangé不加-es。</li><li>解释un bel hôtel与cet hôtel est beau。</li><li>用beau、bon、bien各造一句。</li><li>记录一个过去时错误和改进办法。</li></ol><details><summary>参考答案与解析</summary><ol><li>j’ai acheté；tu as acheté；il a acheté；nous avons acheté；vous avez acheté；ils ont acheté。</li><li>应包含工作、午饭、购物、19点晚餐及一项否定；不编工作起点或外套价格。</li><li>至少问活动、时间、地点、同伴；回答含完整过去时；tu／vous人称一致。</li><li>示例：J’ai mangé du poisson. Je n’ai pas bu de café.</li><li>本课没有前置直接宾语；avoir的分词不随主语配合，不应推广成永远不配合。</li><li>前者bel在名词前且元音／哑音h起首；后者表语用beau。</li><li>示例：Le manteau est beau. Le repas est bon. Nous avons bien mangé. 分别外观、质量、方式。</li><li>示例：把j’ai prendu改为j’ai pris；把ai／as／a／avons／avez／ont与pris连读复习。</li></ol></details>"
+      "html": "<h2>12. 分层练习A—J与参考解析</h2><h3>A. 复合过去时与人称</h3><ol><li>Je＋manger：写完整过去时。</li><li>Tu＋acheter：写完整过去时。</li><li>Elle＋faire：写完整过去时。</li><li>Nous＋prendre：写完整过去时。</li><li>Vous＋boire：写完整过去时。</li><li>Ils＋travailler：写完整过去时。</li><li>On＋dîner：写完整过去时。</li><li>Elles＋manger＋du riz：写完整句。</li></ol><details><summary>参考答案与解析</summary><ol><li>j’ai mangé：avoir＋分词。</li><li>tu as acheté：tu as。</li><li>elle a fait：分词fait。</li><li>nous avons pris：分词pris。</li><li>vous avez bu：分词bu。</li><li>ils ont travaillé：ils ont。</li><li>on a dîné：on a。</li><li>Elles ont mangé du riz. 此例不随elles给分词加-es。</li></ol></details><h3>B. 过去分词与辨析</h3><ol><li>acheter的过去分词。</li><li>manger的过去分词。</li><li>faire的过去分词。</li><li>prendre的过去分词。</li><li>boire的过去分词。</li><li>lire与écrire的过去分词（补充）。</li><li>finir的规则分词（补充）。</li><li>解释acheter／achète／acheté。</li></ol><details><summary>参考答案与解析</summary><ol><li>acheté：-er→-é。</li><li>mangé：不是mangeé。</li><li>fait：不规则。</li><li>pris：不规则。</li><li>bu：不规则。</li><li>lu／écrit：不能用-liré／écrivé。</li><li>fini：规则第二组-ir→-i。</li><li>不定式／现在时单数形式／过去分词；j’ai之后选acheté。</li></ol></details><h3>C. 词汇与评价</h3><ol><li>“昨天晚上”怎么写？</li><li>“度过愉快的一天”怎么写？</li><li>把la cuisine italienne译成中文。</li><li>prendre un verre一定说明喝酒吗？</li><li>写“独自一人”的阳性和阴性。</li><li>评价阴性la soupe好吃。</li><li>评价阳性le manteau漂亮但贵。</li><li>faire les magasins保证买了东西吗？</li></ol><details><summary>参考答案与解析</summary><ol><li>hier soir，不加le。</li><li>passer une bonne journée。</li><li>意大利菜／意式烹饪风格，此处非“意大利的厨房”。</li><li>不一定，只说明喝一杯，具体饮品需要语境。</li><li>seul／seule。</li><li>Elle est bonne. bonne配合阴性。</li><li>Il est beau, mais il est cher.</li><li>不保证；逛商店不等于完成购买。</li></ol></details><h3>D. 否定、倒装疑问与beau</h3><ol><li>否定：J’ai acheté du pain.</li><li>否定：Nous avons pris un dessert.</li><li>用est-ce que提问：Vous avez travaillé hier.</li><li>询问对方昨天买了什么。</li><li>补全：un ____ hôtel（beau）</li><li>补全：une ____ veste（beau）</li><li>补全：Ces manteaux sont ____.（beau）</li><li>补全：Cet hôtel est ____.（beau）</li><li>用倒装提问：Tu as mangé.</li><li>用倒装提问：Vous avez pris un café.</li><li>用倒装提问：Il a dîné.</li><li>用倒装提问：Elle a acheté une veste.</li><li>用倒装提问：On a bien mangé.</li><li>用倒装提问：Ils ont travaillé hier.</li><li>把Tu n’as pas mangé改成否定倒装疑问。</li><li>把Elle n’a pas dîné改成否定倒装疑问。</li><li>把Vous n’avez pas pris de dessert改成否定倒装疑问。</li><li>把Qu’est-ce que tu as fait hier改成倒装问法。</li><li>用倒装问“您在哪里吃过午饭？”。</li><li>用倒装问“你为什么没吃？”。</li><li>改成否定：J’ai acheté de l’eau.</li><li>对N’as-tu pas mangé ?回答“我其实吃过了”。</li><li>对N’as-tu pas mangé ?回答“我确实没吃”。</li><li>补充：把Paul a dîné改成正式是非问句。</li></ol><details><summary>参考答案与解析</summary><ol><li>Je n’ai pas acheté de pain. 否定包住ai。</li><li>Nous n’avons pas pris de dessert.</li><li>Est-ce que vous avez travaillé hier ?</li><li>Qu’est-ce que tu as acheté hier ?</li><li>bel：阳性单数、哑音h前、名词前。</li><li>belle：阴性单数。</li><li>beaux：阳性复数。</li><li>beau：表语位置不用bel。</li><li>As-tu mangé ? 交换as与tu，保留mangé。</li><li>Avez-vous pris un café ? 助动词与vous之间写连字符。</li><li>A-t-il dîné ? a与il之间补-t-。</li><li>A-t-elle acheté une veste ? 分词仍是acheté。</li><li>A-t-on bien mangé ? on与a倒装。</li><li>Ont-ils travaillé hier ? ont已有t，不加额外-t-。</li><li>N’as-tu pas mangé ? pas在主语代词tu后。</li><li>N’a-t-elle pas dîné ? 保留补音-t-。</li><li>N’avez-vous pas pris de dessert ? pas在vous之后。</li><li>Qu’as-tu fait hier ? que在as前省音为qu’。</li><li>Où avez-vous déjeuné ? 疑问词在倒装前。</li><li>Pourquoi n’as-tu pas mangé ? 同时保留疑问词和否定。</li><li>Je n’ai pas acheté d’eau. 普通全否定用de，e在eau前省音。</li><li>Si, j’ai mangé. Si反驳否定。</li><li>Non, je n’ai pas mangé. Non确认否定。</li><li>Paul a-t-il dîné ? 保留名词主语，增加对应代词il。</li></ol></details><h3>E. 采访与回应</h3><ol><li>问对方昨天做了什么，用tu。</li><li>礼貌问午饭在哪里吃。</li><li>问几点吃了晚饭。</li><li>问和谁吃饭。</li><li>回答没有吃甜点。</li><li>追问大衣怎么样。</li><li>表达外套漂亮但有点贵。</li><li>确认对方是否8点吃饭。</li><li>用倒装礼貌询问对方昨天是否工作过。</li><li>用否定倒装确认对方是否没喝咖啡。</li><li>对上一问说明自己喝过咖啡。</li><li>用倒装问“她几点吃过晚饭？”。</li></ol><details><summary>参考答案与解析</summary><ol><li>Qu’est-ce que tu as fait hier ?</li><li>Où est-ce que vous avez déjeuné ?</li><li>À quelle heure est-ce que tu as dîné ?</li><li>Avec qui est-ce que tu as mangé ?</li><li>Je n’ai pas pris de dessert.</li><li>Il est comment, ton manteau ?</li><li>Elle est belle, mais elle est un peu chère. 指une veste。</li><li>Est-ce que tu as dîné à huit heures ?</li><li>Avez-vous travaillé hier ? vous与avez倒装。</li><li>N’as-tu pas bu de café ? 否定数量用de。</li><li>Si, j’ai bu du café. 回到肯定陈述后恢复du。</li><li>À quelle heure a-t-elle dîné ? 保留疑问词和补音-t-。</li></ol></details><h3>F. 写作与翻译</h3><ol><li>写“我昨天工作了”。</li><li>写“我们喝了水”。</li><li>写“她买了一件外套”。</li><li>写“他们没有吃甜点”。</li><li>写“我先工作，然后购物”。</li><li>写“我们度过愉快的晚上”。</li><li>用两句写已发生购物及现在评价。</li><li>写8句昨天经历，含一个否定。</li></ol><details><summary>参考答案与解析</summary><ol><li>J’ai travaillé hier.</li><li>Nous avons bu de l’eau.</li><li>Elle a acheté une veste.</li><li>Ils n’ont pas pris de dessert.</li><li>J’ai d’abord travaillé. Ensuite, j’ai fait les courses.</li><li>Nous avons passé une bonne soirée.</li><li>示例：J’ai acheté un manteau. Il est beau et chaud.</li><li>可参考第11模块；检查至少四个分词、两处时间标记、一个评价；开放答案。</li></ol></details><h3>G. 阅读与信息边界</h3><ol><li>Nora上午在哪里工作？</li><li>她工作到几点？</li><li>能计算她上午共工作多久吗？</li><li>谁买了蓝外套？</li><li>兄弟是否买了衣服？</li><li>能否确定兄弟什么都没有买？</li><li>他们几点吃晚饭，在哪里？</li><li>40欧元是每人还是两人？</li></ol><details><summary>参考答案与解析</summary><ol><li>À la maison：在家。</li><li>Jusqu’à onze heures：到11点。</li><li>不能，开始时间未提及。</li><li>Nora；j’ai acheté une veste bleue。</li><li>没有；mon frère n’a pas acheté de vêtements。</li><li>不能，只否定买衣服。</li><li>19点，车站附近的小餐馆。</li><li>两人总共，pour nous deux。</li></ol></details><h3>H. 语音与强调</h3><ol><li>manger和mangé结尾通常读音是否相同？</li><li>bu的元音是什么？</li><li>fait中t通常是否发音？</li><li>pris中s通常是否发音？</li><li>nous avons的连读辅音是什么？</li><li>ils ont与ils sont如何区分？</li><li>读“八点，不是九点”并突出更正信息。</li><li>强调重音是否取消意群节奏重音？</li></ol><details><summary>参考答案与解析</summary><ol><li>相同，均为/e/；写作靠结构判断。</li><li>/y/：不读成/u/。</li><li>不发音；fait读/fɛ/。</li><li>不发音；pris读/pʁi/。</li><li>/z/；/nu.za.vɔ̃/。</li><li>/il.zɔ̃/与/il.sɔ̃/；注意/z/和/s/。</li><li>J’ai dîné à HUIT heures, pas à neuf heures. 强调HUIT。</li><li>不取消，是额外突出信息；仍保留意群节奏。</li></ol></details><h3>I. 综合改错</h3><ol><li>J’ai acheter une veste.</li><li>Nous ont mangé du riz.</li><li>Elle a achetée un manteau.</li><li>Je n’ai mangé pas.</li><li>Ils ont prendu un café.</li><li>Nous avons boiré de l’eau.</li><li>C’est un beau hôtel.</li><li>La soupe est bon.</li><li>As mangé-tu ?</li><li>A-t’il mangé ?</li><li>Ont-t-ils dîné ?</li><li>N’as pas-tu mangé ?</li><li>N’a-t-elle dîné pas ?</li><li>Est-ce que avez-vous mangé ?</li></ol><details><summary>参考答案与解析</summary><ol><li>J’ai acheté une veste. 用过去分词。</li><li>Nous avons mangé du riz. nous avons。</li><li>Elle a acheté un manteau. 本例分词不随主语配合。</li><li>Je n’ai pas mangé. pas在助动词后。</li><li>Ils ont pris un café. prendre→pris。</li><li>Nous avons bu de l’eau. boire→bu。</li><li>C’est un bel hôtel. 哑音h前用bel。</li><li>La soupe est bonne. 阴性配合。</li><li>As-tu mangé ? 倒装的是助动词，不是过去分词。</li><li>A-t-il mangé ? 补音t前后都是连字符，不是撇号。</li><li>Ont-ils dîné ? ont已经以t结尾。</li><li>N’as-tu pas mangé ? pas在tu之后。</li><li>N’a-t-elle pas dîné ? pas在elle后、分词前。</li><li>Est-ce que vous avez mangé ? 或Avez-vous mangé ? 选一种结构。</li></ol></details><h3>J. 综合口语与复述</h3><ol><li>不看表说acheter的六人称过去时。</li><li>用30秒复述Nora昨天。</li><li>与同伴完成六轮昨天经历采访。</li><li>用一肯定一否定说明昨天饮食。</li><li>解释为什么elles ont mangé不加-es。</li><li>解释un bel hôtel与cet hôtel est beau。</li><li>用beau、bon、bien各造一句。</li><li>记录一个过去时错误和改进办法。</li><li>用manger口述tu的肯定、否定、倒装、否定倒装四种形式。</li><li>将采访中的一个问题改为倒装，再作肯定与否定两种回答。</li></ol><details><summary>参考答案与解析</summary><ol><li>j’ai acheté；tu as acheté；il a acheté；nous avons acheté；vous avez acheté；ils ont acheté。</li><li>应包含工作、午饭、购物、19点晚餐及一项否定；不编工作起点或外套价格。</li><li>至少问活动、时间、地点、同伴；回答含完整过去时；tu／vous人称一致。</li><li>示例：J’ai mangé du poisson. Je n’ai pas bu de café.</li><li>本课没有前置直接宾语；avoir的分词不随主语配合，不应推广成永远不配合。</li><li>前者bel在名词前且元音／哑音h起首；后者表语用beau。</li><li>示例：Le manteau est beau. Le repas est bon. Nous avons bien mangé. 分别外观、质量、方式。</li><li>示例：把j’ai prendu改为j’ai pris；把ai／as／a／avons／avez／ont与pris连读复习。</li><li>Tu as mangé. Tu n’as pas mangé. As-tu mangé ? N’as-tu pas mangé ?</li><li>示例：Avez-vous dîné ? Oui, j’ai dîné. Non, je n’ai pas dîné. 人称匹配采访对象。</li></ol></details>"
     },
     {
       "id": "review",
       "title": "13. 易错速查、复习清单与来源",
-      "html": "<h2>13. 易错速查、复习清单与来源</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">常见误写</th><th scope=\"col\">正确表达</th><th scope=\"col\">原因</th></tr></thead><tbody><tr><td>j’ai acheter</td><td>j’ai acheté</td><td>过去分词-é</td></tr><tr><td>nous ont mangé</td><td>nous avons mangé</td><td>助动词随主语变</td></tr><tr><td>elle a achetée une veste</td><td>elle a acheté une veste</td><td>本课宾语后置，不随主语配合</td></tr><tr><td>je n’ai mangé pas</td><td>je n’ai pas mangé</td><td>否定包住助动词</td></tr><tr><td>j’ai prendu／faité／boiré</td><td>j’ai pris／fait／bu</td><td>不规则过去分词</td></tr><tr><td>un beau hôtel</td><td>un bel hôtel</td><td>阳性单数，哑音h前，名词前</td></tr><tr><td>cet hôtel est bel</td><td>cet hôtel est beau</td><td>表语用beau</td></tr><tr><td>la soupe est bon</td><td>la soupe est bonne</td><td>阴性配合</td></tr><tr><td>j’ai allé（按avoir机械套用）</td><td>aller的复合过去时用être，详见第19课</td><td>本课不把avoir推广到所有动词</td></tr></tbody></table></div><ul><li>能解释复合过去时的两个部分，按六人称写完整。</li><li>能区分acheter／achète／acheté，记住fait、pris、bu并识别lu、écrit。</li><li>能用否定和est-ce que提问，按时间线讲昨天。</li><li>能解释beau／bel／belle／beaux／belles，区分外观、味道和方式。</li><li>能读懂Nora的消息，给出证据并识别未提及信息。</li><li>能录一段约30—60秒的昨天经历，并用强调词突出一个评价。</li></ul><p>来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方指南</a>核对课程范围；语法交叉核对<a href=\"https://www.laits.utexas.edu/tex/gr/tap2.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学avoir复合过去时</a>；beau的教材范围和名词前bel形式依出版方指南核对。规则、例句、对话、阅读和练习为本站原创。</p><p>beau／bel／belle与复数形式另核对<a href=\"https://www.laits.utexas.edu/tex/gr/adj3.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学名词前形容词</a>。</p>"
+      "html": "<h2>13. 易错速查、复习清单与来源</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">常见误写</th><th scope=\"col\">正确表达</th><th scope=\"col\">原因</th></tr></thead><tbody><tr><td>j’ai acheter</td><td>j’ai acheté</td><td>过去分词-é</td></tr><tr><td>nous ont mangé</td><td>nous avons mangé</td><td>助动词随主语变</td></tr><tr><td>elle a achetée une veste</td><td>elle a acheté une veste</td><td>本课宾语后置，不随主语配合</td></tr><tr><td>je n’ai mangé pas</td><td>je n’ai pas mangé</td><td>否定包住助动词</td></tr><tr><td>j’ai prendu／faité／boiré</td><td>j’ai pris／fait／bu</td><td>不规则过去分词</td></tr><tr><td>un beau hôtel</td><td>un bel hôtel</td><td>阳性单数，哑音h前，名词前</td></tr><tr><td>cet hôtel est bel</td><td>cet hôtel est beau</td><td>表语用beau</td></tr><tr><td>la soupe est bon</td><td>la soupe est bonne</td><td>阴性配合</td></tr><tr><td>j’ai allé（按avoir机械套用）</td><td>aller的复合过去时用être，详见第19课</td><td>本课不把avoir推广到所有动词</td></tr><tr><td>as mangé-tu</td><td>as-tu mangé ?</td><td>只把助动词与主语代词倒装。</td></tr><tr><td>a-t’il dîné</td><td>a-t-il dîné ?</td><td>补音t两侧各写一个连字符。</td></tr><tr><td>ont-t-ils mangé</td><td>ont-ils mangé ?</td><td>ont已含t，不重复添加。</td></tr><tr><td>n’as pas-tu mangé</td><td>n’as-tu pas mangé ?</td><td>否定倒装中pas在主语代词之后。</td></tr><tr><td>est-ce que as-tu mangé</td><td>est-ce que tu as mangé ?／as-tu mangé ?</td><td>两种问法不混用。</td></tr></tbody></table></div><ul><li>能解释复合过去时的两个部分，按六人称写完整。</li><li>能区分acheter／achète／acheté，记住fait、pris、bu并识别lu、écrit。</li><li>能对照肯定、否定、倒装和否定倒装；区分est-ce que语序、a-t-il与ont-ils，用疑问词追问并用Si／Non回应否定问句。</li><li>能解释beau／bel／belle／beaux／belles，区分外观、味道和方式。</li><li>能读懂Nora的消息，给出证据并识别未提及信息。</li><li>能录一段约30—60秒的昨天经历，并用强调词突出一个评价。</li></ul><p>来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方指南</a>核对课程范围；语法交叉核对<a href=\"https://www.laits.utexas.edu/tex/gr/tap2.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学avoir复合过去时</a>；beau的教材范围和名词前bel形式依出版方指南核对。规则、例句、对话、阅读和练习为本站原创。</p><p>beau／bel／belle与复数形式另核对<a href=\"https://www.laits.utexas.edu/tex/gr/adj3.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学名词前形容词</a>。</p><p>否定与倒装的详细来源及补充边界见第6模块；练习D、E、I、J新增28项句型转换、回答与改错，小测新增12题。原题目ID保持不变。</p>"
     }
   ],
   "quickQuestions": [
@@ -571,6 +571,150 @@
       "answer": 2,
       "explanation": "仍保留正常节奏。",
       "group": "pronunciation"
+    },
+    {
+      "id": "l18-q43",
+      "question": "Tu as mangé.的倒装疑问句是？",
+      "options": [
+        "As mangé-tu ?",
+        "As-tu mangé ?",
+        "As-tu manger ?"
+      ],
+      "answer": 1,
+      "explanation": "助动词as与tu倒装，用连字符连接；过去分词mangé留在后面。",
+      "group": "grammar"
+    },
+    {
+      "id": "l18-q44",
+      "question": "Il a dîné.的倒装疑问句是？",
+      "options": [
+        "A-il dîné ?",
+        "A-t’il dîné ?",
+        "A-t-il dîné ?"
+      ],
+      "answer": 2,
+      "explanation": "a与il之间补-t-；t前后用连字符，不用撇号。",
+      "group": "grammar"
+    },
+    {
+      "id": "l18-q45",
+      "question": "Ils ont travaillé.的倒装疑问句是？",
+      "options": [
+        "Ont-ils travaillé ?",
+        "Ont-t-ils travaillé ?",
+        "Ont travaillé-ils ?"
+      ],
+      "answer": 0,
+      "explanation": "ont已有t，直接连主语代词ils。",
+      "group": "grammar"
+    },
+    {
+      "id": "l18-q46",
+      "question": "Tu n’as pas mangé.的否定倒装疑问句是？",
+      "options": [
+        "N’as pas-tu mangé ?",
+        "N’as-tu mangé pas ?",
+        "N’as-tu pas mangé ?"
+      ],
+      "answer": 2,
+      "explanation": "n’在as-tu前，pas在主语代词tu后、过去分词前。",
+      "group": "grammar"
+    },
+    {
+      "id": "l18-q47",
+      "question": "“她没吃过晚饭吗？”正确的是？",
+      "options": [
+        "N’a-elle pas dîné ?",
+        "N’a-t-elle pas dîné ?",
+        "N’a-t’elle dîné pas ?"
+      ],
+      "answer": 1,
+      "explanation": "否定倒装保留a-t-elle，pas放在elle之后。",
+      "group": "grammar"
+    },
+    {
+      "id": "l18-q48",
+      "question": "Qu’est-ce que tu as acheté ?对应的倒装问法是？",
+      "options": [
+        "Qu’as-tu acheté ?",
+        "Qu’est-ce que as-tu acheté ?",
+        "Que tu acheté ?"
+      ],
+      "answer": 0,
+      "explanation": "que省音为qu’，后接as-tu＋过去分词；不叠加est-ce que。",
+      "group": "grammar"
+    },
+    {
+      "id": "l18-q49",
+      "question": "礼貌地用倒装问“您在哪里吃过午饭？”",
+      "options": [
+        "Où vous déjeuné ?",
+        "Où est-ce que avez-vous déjeuné ?",
+        "Où avez-vous déjeuné ?"
+      ],
+      "answer": 2,
+      "explanation": "Où之后使用avez-vous，过去分词déjeuné留在后面。",
+      "group": "speaking"
+    },
+    {
+      "id": "l18-q50",
+      "question": "对N’as-tu pas mangé ?说明“我其实吃过了”，应说：",
+      "options": [
+        "Oui, je n’ai pas mangé.",
+        "Si, j’ai mangé.",
+        "Non, j’ai mangé."
+      ],
+      "answer": 1,
+      "explanation": "Si反驳问句中的否定；给出肯定事实j’ai mangé。",
+      "group": "speaking"
+    },
+    {
+      "id": "l18-q51",
+      "question": "对N’as-tu pas mangé ?说明“我确实没吃”，应说：",
+      "options": [
+        "Non, je n’ai pas mangé.",
+        "Si, je n’ai pas mangé.",
+        "Oui, j’ai mangé."
+      ],
+      "answer": 0,
+      "explanation": "Non确认否定，并用完整否定句说明事实。",
+      "group": "speaking"
+    },
+    {
+      "id": "l18-q52",
+      "question": "J’ai acheté de l’eau.改成普通全否定：",
+      "options": [
+        "Je n’ai acheté pas de l’eau.",
+        "Je n’ai pas acheté de l’eau.",
+        "Je n’ai pas acheté d’eau."
+      ],
+      "answer": 2,
+      "explanation": "本题普通全否定中的部分冠词变de，e在eau前省音；pas在ai之后。",
+      "group": "writing"
+    },
+    {
+      "id": "l18-q53",
+      "question": "补充：Paul a dîné.的正式是非问句是？",
+      "options": [
+        "A Paul dîné ?",
+        "Paul a-t-il dîné ?",
+        "Paul a dîné-il ?"
+      ],
+      "answer": 1,
+      "explanation": "保留名词Paul，并在助动词后加对应代词il；a与il之间补-t-。",
+      "group": "grammar"
+    },
+    {
+      "id": "l18-q54",
+      "question": "以下哪一句把est-ce que与倒装错误叠加了？",
+      "options": [
+        "Est-ce que avez-vous mangé ?",
+        "Est-ce que vous avez mangé ?",
+        "Avez-vous mangé ?"
+      ],
+      "answer": 0,
+      "explanation": "est-ce que之后应保留主语在助动词前；后两句都正确。",
+      "group": "writing"
     }
   ],
   "categorySections": {
