@@ -203,7 +203,7 @@ test('lesson-specific category pages and search preserve the selected lesson', (
   const a = app();
   a.elements.search.listeners.input({target:{value:'Qui est-ce'}});
   assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/1/questions'));
-  assert.ok(!app(null, '#lesson/19').main.innerHTML.includes('即时小测'));
+  assert.ok(!app(null, '#lesson/20').main.innerHTML.includes('即时小测'));
 });
 
 test('question IDs across courses are unique and new lesson mistakes survive reload', () => {
@@ -298,13 +298,14 @@ const authoredCoverage={
   15:['lisons','écrivons','nous nous levons','s’habille','ne me','de la natation','au tennis','Le dimanche','/ʁ/'],
   16:['reprenons','prennent','nous nageons','recommençons','se détend','jusqu’à','未提及','采访','报刊','/ʁ/'],
   17:['buvons','buvez','boivent','j’achète','nous mangeons','de l’eau','un litre de lait','部分冠词','/œ/','/ø/'],
-  18:['j’ai acheté','nous avons mangé','vous avez pris','elles ont bu','过去分词','un bel hôtel','belles','强调重音']
+  18:['j’ai acheté','nous avons mangé','vous avez pris','elles ont bu','过去分词','un bel hôtel','belles','强调重音'],
+  19:['je suis arrivé(e)','elles sont venues','nous sommes rentrées','pour trois jours','dans trois jours','Est-elle partie','节奏组','明信片']
 };
-const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=18&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
+const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=19&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
 for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
   const a=app(null,'#lesson/'+n);
   for(const text of authoredCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
-  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,n===18?62:n>=15?42:30);
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,n===19?48:n===18?62:n>=15?42:30);
   assert.equal((a.main.innerHTML.match(/<details>/g)||[]).length,10);
   for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']){
     const page=app(null,`#${kind}/${n}`);assert.ok(page.main.innerHTML.includes(`#lesson/${n}`),kind);assert.ok(page.elements.navigation.innerHTML.includes(`#grammar/${n}`),kind);
@@ -317,10 +318,10 @@ for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, s
 });
 
 
-test('route includes authored lessons through 18 and knowledge search links reach their sections',()=>{
+test('route includes authored lessons through 19 and knowledge search links reach their sections',()=>{
   const a=app();
-  assert.ok(a.main.innerHTML.includes('前 18 课 · 教材路线'));
-  for(const n of [13,14,15,16,17,18])assert.ok(a.main.innerHTML.includes('#lesson/'+n));
+  assert.ok(a.main.innerHTML.includes('前 19 课 · 教材路线'));
+  for(const n of [13,14,15,16,17,18,19])assert.ok(a.main.innerHTML.includes('#lesson/'+n));
   a.elements.search.listeners.input({target:{value:'partons'}});
   assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/13/partir'));
   a.elements.search.listeners.input({target:{value:'levons'}});
@@ -407,11 +408,11 @@ test('all completed chapters offer review without inventing lesson 37',()=>{
   assert.ok(!a.main.innerHTML.includes('#lesson/37'));
 });
 test('unfinished textbook chapters are labelled honestly and default skills use an available course',()=>{
-  const a=app(progress({currentLesson:19,completed:[18]}));
+  const a=app(progress({currentLesson:20,completed:[19]}));
   assert.ok(homeHero(a).includes('教材笔记'));
   assert.ok(homeHero(a).includes('详细讲义待补充'));
-  assert.ok(a.elements.navigation.innerHTML.includes('#grammar/18'));
-  assert.ok(app(a.storage.value,'#grammar').main.innerHTML.includes('Il est comment ?'));
+  assert.ok(a.elements.navigation.innerHTML.includes('#grammar/19'));
+  assert.ok(app(a.storage.value,'#grammar').main.innerHTML.includes('Chère Léa…'));
 });
 
 test('the selected palette restores independently of progress and unknown palettes use glass',()=>{
@@ -654,7 +655,7 @@ test('reading controls appear only in long lessons and directory navigation pres
   a.context.location.hash='#lesson/14/toc';a.context.events.hashchange({oldURL:'https://example.test/#lesson/14'});
   assert.equal(a.main.innerHTML,original);assert.equal(a.elements['lesson14-toc'].scrolled,true);assert.equal(a.elements['lesson14-toc'].focused,true);
   a.elements.search.listeners.input({target:{value:'faire'}});assert.equal(a.elements['reading-tools'].hidden,true);
-  const placeholder=app(null,'#lesson/19');placeholder.context.scrollY=2000;placeholder.context.events.scroll();assert.equal(placeholder.elements['reading-tools'].hidden,true);
+  const placeholder=app(null,'#lesson/20');placeholder.context.scrollY=2000;placeholder.context.events.scroll();assert.equal(placeholder.elements['reading-tools'].hidden,true);
 });
 
 test('mobile menu exposes its expansion state and closes with navigation or Escape',()=>{
@@ -782,7 +783,7 @@ test('lesson 16 routes, search and practice preserve meaning across all skills',
   const a=app(progress({currentLesson:16}));
   assert.ok(homeHero(a).includes('Une journée avec Laure Manaudou'));
   assert.ok(!a.main.innerHTML.includes('本单元未提供详细讲义'));
-  assert.ok(a.main.innerHTML.includes('第1—18课已提供详细讲义'));
+  assert.ok(a.main.innerHTML.includes('第1—19课已提供详细讲义'));
   a.elements.search.listeners.input({target:{value:'recommençons'}});
   assert.ok(a.elements['search-results'].innerHTML.includes('#lesson/16/verbs'));
   const c=a.context.COURSE_LIBRARY.lessons.find(c=>c.number===16);
@@ -808,7 +809,7 @@ test('lesson 16 replaces its notebook placeholder without losing notes or earlie
   assert.deepEqual(JSON.parse(a.storage.value).wrong,['l15-q01']);
 });
 
-for(const [n,term,anchor] of [[17,'buvons','verbs'],[18,'j’ai acheté','verbs']])test(`lesson ${n} replaces notebook content while retaining earlier mistakes, notes and completion`,()=>{
+for(const [n,term,anchor] of [[17,'buvons','verbs'],[18,'j’ai acheté','verbs'],[19,'revenues','verbs']])test(`lesson ${n} replaces notebook content while retaining earlier mistakes, notes and completion`,()=>{
   const saved=progress({currentLesson:n,completed:[16],favorites:[n],notes:{[`lesson-${n}`]:'原有教材笔记','lesson-15':'早期笔记'},wrong:['l15-q01'],attempts:{'l15-q01':false}});
   const a=app(saved,'#lesson/'+n);
   assert.ok(a.main.innerHTML.includes('原有教材笔记'));

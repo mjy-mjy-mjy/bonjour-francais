@@ -242,6 +242,21 @@ window.COURSE_LIBRARY = {
         "beau／bel／belle及性数配合",
         "强调重音"
       ]
+    },
+    {
+      "number": 19,
+      "title": "Chère Léa…",
+      "translation": "亲爱的蕾娅……",
+      "pages": "60–61",
+      "core": [
+        "être复合过去时",
+        "过去分词与主语性数配合",
+        "助动词选择与常见分词",
+        "pour／dans＋时长",
+        "询问过去事件、时间与时长",
+        "明信片写作",
+        "节奏组、联诵与连音"
+      ]
     }
   ],
   "lessons": [
@@ -9047,6 +9062,706 @@ window.COURSE_LIBRARY = {
         ]
       },
       "listening": "听教材第18课的过去经历与评价录音：先抓谁在讲昨天的什么事，再记时间、地点、同伴、购物和餐馆评价；复听时标avoir助动词、过去分词和ne…pas，最后模仿强调重音并复述30—60秒。本站Nora消息是原创阅读材料，不是教材音轨逐字稿。"
+    },
+    {
+      "number": 19,
+      "title": "Chère Léa…",
+      "translation": "亲爱的蕾娅……",
+      "pages": "60–61",
+      "core": [
+        "être复合过去时",
+        "过去分词与主语性数配合",
+        "助动词选择与常见分词",
+        "pour／dans＋时长",
+        "询问过去事件、时间与时长",
+        "明信片写作",
+        "节奏组、联诵与连音"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标、核心与补充边界",
+          "html": "<h2>1. 学习目标、核心与补充边界</h2><p>第19课 <strong lang=\"fr\">Chère Léa…（亲爱的蕾娅……）</strong>，第5单元，教材第60—61页。从第18课的avoir复合过去时进入être复合过去时，用明信片叙述旅行经历、询问时间和时长。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">层次</th><th scope=\"col\">知识</th><th scope=\"col\">学完本页可练习的任务</th></tr></thead><tbody><tr><td>教材核心</td><td>être复合过去时；过去分词与主语配合；pour／dans＋未来时长；节奏组、联诵与连音</td><td>说何时到达、去哪里、待多久、多久后回来，并写旅行明信片。</td></tr><tr><td>复习衔接</td><td>avoir过去时、时间标记、否定、三种问法与倒装、常见副词位置</td><td>在同一段经历中正确切换être和avoir。</td></tr><tr><td>补充辨析</td><td>双助动词用法、on／礼貌vous配合、代词式过去时边界、pendant／depuis／il y a</td><td>防止把所有移动动词或所有带être的分词都机械套成同一规则。</td></tr></tbody></table></div><p>范围核对<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方教学指南</a>第19课：PDF第65—67页，书内第71—73页。本站的解释、人物、对话、明信片和练习均为原创；不提供教材原文或录音逐字稿。教材页码是法文版页码，中文版本排版可能不同。</p>"
+        },
+        {
+          "id": "communicate",
+          "title": "2. 学会说：旅行经历、时间与时长",
+          "html": "<h2>2. 学会说：旅行经历、时间与时长</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">交际目的</th><th scope=\"col\">问句</th><th scope=\"col\">原创回答</th></tr></thead><tbody><tr><td>问过去做什么</td><td>Qu’est-ce que tu as fait le week-end dernier ?</td><td>Je suis allée à Lyon.（女说话人：我去了里昂。）</td></tr><tr><td>问出发时间</td><td>Quand est-ce que vous êtes partis ?</td><td>Nous sommes partis vendredi matin.（男性或混合群体。）</td></tr><tr><td>问具体钟点</td><td>À quelle heure es-tu arrivée ?</td><td>Je suis arrivée à dix heures.（问女性。）</td></tr><tr><td>问实际停留</td><td>Combien de temps êtes-vous restées ?</td><td>Nous sommes restées trois jours.（两位女性。）</td></tr><tr><td>问计划停留</td><td>Tu pars pour combien de temps ?</td><td>Je pars pour une semaine.（计划去一周。）</td></tr><tr><td>问多久后回来</td><td>Dans combien de temps est-ce que tu rentres ?</td><td>Je rentre dans deux jours.（两天后回来。）</td></tr><tr><td>问交通方式</td><td>Comment êtes-vous allés à Lyon ?</td><td>Nous sommes allés à Lyon en train.</td></tr><tr><td>问经历与感受</td><td>Est-ce que tu as aimé le voyage ?</td><td>Oui, j’ai beaucoup aimé ce voyage.</td></tr></tbody></table></div><p><strong>原创对话（Lina与Mei，均为女性）：</strong><br><span lang=\"fr\">— Tu es partie le week-end dernier ?<br>— Oui, je suis allée à Lyon avec Nora.<br>— Vous êtes arrivées quand ?<br>— Vendredi matin. Nous sommes restées trois jours.<br>— Qu’est-ce que vous avez fait ?<br>— Nous avons visité un musée et nous avons beaucoup marché.<br>— Et la prochaine fois ?<br>— Je pars à Nice dans deux semaines, pour quatre jours.</span></p><p>时间先分成三格：<strong>何时发生</strong>（vendredi）、<strong>持续多久</strong>（trois jours）、<strong>多久以后</strong>（dans deux semaines）。别把“什么时候”和“待多久”都译成同一句quand。</p>"
+        },
+        {
+          "id": "tense",
+          "title": "3. être复合过去时：两个部分缺一不可",
+          "html": "<h2>3. être复合过去时：两个部分缺一不可</h2><p><strong>主语＋être的现在时＋过去分词。</strong>助动词随主语变位；本课这些非代词式être动词的过去分词同时与主语作性数配合。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">être现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je suis</td><td>je suis arrivé(e)</td></tr><tr><td>tu</td><td>tu es</td><td>tu es arrivé(e)</td></tr><tr><td>il／elle／on</td><td>il／elle／on est</td><td>il est arrivé；elle est arrivée；on est arrivé（泛指时）</td></tr><tr><td>nous</td><td>nous sommes</td><td>nous sommes arrivés／arrivées</td></tr><tr><td>vous</td><td>vous êtes</td><td>vous êtes arrivé／arrivée／arrivés／arrivées</td></tr><tr><td>ils／elles</td><td>ils／elles sont</td><td>ils sont arrivés；elles sont arrivées</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">现在／状态</th><th scope=\"col\">已发生的活动</th><th scope=\"col\">观察</th></tr></thead><tbody><tr><td>Je vais à Lyon.</td><td>Je suis allé(e) à Lyon.</td><td>我去里昂／我去了里昂；aller用être。</td></tr><tr><td>Elle arrive à dix heures.</td><td>Elle est arrivée à dix heures.</td><td>arrivée有é和阴性e。</td></tr><tr><td>Nous rentrons à la maison.</td><td>Nous sommes rentrés à la maison.</td><td>混合群体用rentrés。</td></tr><tr><td>Elle est à Paris.</td><td>Elle a été à Paris.</td><td>主要动词être的过去时仍是avoir＋été，不写elle est été。</td></tr></tbody></table></div><p>法语复合过去时不能只写je allé，也不写je suis aller。<strong>J’ai marché／j’ai voyagé／j’ai visité</strong>仍用avoir；“有移动含义”不是选择être的充分条件。与<a href=\"#lesson/18/tense\">第18课avoir结构</a>对照学习。</p>"
+        },
+        {
+          "id": "agreement",
+          "title": "4. 过去分词的性数配合与人称判断",
+          "html": "<h2>4. 过去分词的性数配合与人称判断</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">主语</th><th scope=\"col\">形式</th><th scope=\"col\">示例</th></tr></thead><tbody><tr><td>阳性单数</td><td>过去分词基本形</td><td>Paul est parti.</td></tr><tr><td>阴性单数</td><td>基本形＋e</td><td>Lina est partie.</td></tr><tr><td>阳性复数／混合群体</td><td>基本形＋s</td><td>Paul et Lina sont partis.</td></tr><tr><td>阴性复数</td><td>基本形＋es</td><td>Lina et Nora sont parties.</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">四种拼写</th><th scope=\"col\">形式</th></tr></thead><tbody><tr><td>aller</td><td>allé／allée／allés／allées</td></tr><tr><td>venir</td><td>venu／venue／venus／venues</td></tr><tr><td>naître</td><td>né／née／nés／nées</td></tr><tr><td>mourir</td><td>mort／morte／morts／mortes</td></tr></tbody></table></div><p><strong>分清两步：</strong>先选正确助动词形式，再给分词配合。Elle <strong>est</strong> partie；Elles <strong>sont</strong> parties。不是只加-es就解决人称问题。je、tu表示男性还是女性要看实际人物；展示表中的(e)表示“按情况选择”，正式写自己的句子时应选定形式。</p><p><strong>vous有四种可能：</strong>Paul, vous êtes arrivé.（您：一位男性）；Lina, vous êtes arrivée.（您：一位女性）；Paul et Lina, vous êtes arrivés.；Lina et Nora, vous êtes arrivées.。礼貌vous在动词上仍用êtes，但分词不因此自动变成复数。</p><p><strong>on的补充：</strong>on的助动词总是est；泛指时通常用阳性单数。口语on明确指“我们”时，分词可按实际群体配合：Paul和Lina说On est partis.；Lina和Nora说On est parties.。不能写on sommes。初学者书面输出可先用nous表达复数。</p><p>多数-é／-i／-u结尾分词的四种拼写在这里读音相同，如allé／allée／allés／allées；不能靠听音省略书面配合。mort／morte等可能有读音变化，不把“四形同音”推广到所有分词。</p><p>补充配合核对：<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/21705/la-grammaire/ladjectif/accord-de-ladjectif/accord-de-ladjectif-qui-qualifie-un-pronom-personnel/accord-de-ladjectif-avec-un-vous-de-politesse\" target=\"_blank\" rel=\"noopener noreferrer\">OQLF：礼貌vous的性数</a>、<a href=\"https://vitrinelinguistique.oqlf.gouv.qc.ca/21708/la-grammaire/ladjectif/accord-de-ladjectif/accord-de-ladjectif-qui-qualifie-un-pronom-personnel/accord-de-ladjectif-avec-le-pronom-on\" target=\"_blank\" rel=\"noopener noreferrer\">on的实际指代与配合</a>。</p>"
+        },
+        {
+          "id": "verbs",
+          "title": "5. 八组动词六人称：现在时与复合过去时",
+          "html": "<h2>5. 八组动词六人称：现在时与复合过去时</h2><p>每表并排给出现在时和复合过去时。je前的省音只发生在现在时的元音起首动词；复合过去时是je suis。分词中的(e)、(s)用于展示可选配合，作答时按人物确定。on的实际配合见上一模块。</p><h3>aller · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"aller\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je vais</td><td>je suis allé(e)</td></tr><tr><td>tu</td><td>tu vas</td><td>tu es allé(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on va</td><td>il est allé ; elle est allée ; on est allé(e)(s)</td></tr><tr><td>nous</td><td>nous allons</td><td>nous sommes allé(e)s</td></tr><tr><td>vous</td><td>vous allez</td><td>vous êtes allé(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles vont</td><td>ils sont allés ; elles sont allées</td></tr></tbody></table></div><p>去；Elle est allée au musée.</p><h3>arriver · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"arriver\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>j’arrive</td><td>je suis arrivé(e)</td></tr><tr><td>tu</td><td>tu arrives</td><td>tu es arrivé(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on arrive</td><td>il est arrivé ; elle est arrivée ; on est arrivé(e)(s)</td></tr><tr><td>nous</td><td>nous arrivons</td><td>nous sommes arrivé(e)s</td></tr><tr><td>vous</td><td>vous arrivez</td><td>vous êtes arrivé(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles arrivent</td><td>ils sont arrivés ; elles sont arrivées</td></tr></tbody></table></div><p>到达；Nous sommes arrivés à dix heures.</p><h3>partir · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"partir\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je pars</td><td>je suis parti(e)</td></tr><tr><td>tu</td><td>tu pars</td><td>tu es parti(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on part</td><td>il est parti ; elle est partie ; on est parti(e)(s)</td></tr><tr><td>nous</td><td>nous partons</td><td>nous sommes parti(e)s</td></tr><tr><td>vous</td><td>vous partez</td><td>vous êtes parti(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles partent</td><td>ils sont partis ; elles sont parties</td></tr></tbody></table></div><p>出发、离开；Elles sont parties vendredi.</p><h3>rentrer · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"rentrer\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je rentre</td><td>je suis rentré(e)</td></tr><tr><td>tu</td><td>tu rentres</td><td>tu es rentré(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on rentre</td><td>il est rentré ; elle est rentrée ; on est rentré(e)(s)</td></tr><tr><td>nous</td><td>nous rentrons</td><td>nous sommes rentré(e)s</td></tr><tr><td>vous</td><td>vous rentrez</td><td>vous êtes rentré(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles rentrent</td><td>ils sont rentrés ; elles sont rentrées</td></tr></tbody></table></div><p>回家、返回；Il est rentré à la maison.</p><h3>rester · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"rester\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je reste</td><td>je suis resté(e)</td></tr><tr><td>tu</td><td>tu restes</td><td>tu es resté(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on reste</td><td>il est resté ; elle est restée ; on est resté(e)(s)</td></tr><tr><td>nous</td><td>nous restons</td><td>nous sommes resté(e)s</td></tr><tr><td>vous</td><td>vous restez</td><td>vous êtes resté(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles restent</td><td>ils sont restés ; elles sont restées</td></tr></tbody></table></div><p>停留；Nous sommes restées trois jours（女性群体）。</p><h3>venir · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"venir\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je viens</td><td>je suis venu(e)</td></tr><tr><td>tu</td><td>tu viens</td><td>tu es venu(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on vient</td><td>il est venu ; elle est venue ; on est venu(e)(s)</td></tr><tr><td>nous</td><td>nous venons</td><td>nous sommes venu(e)s</td></tr><tr><td>vous</td><td>vous venez</td><td>vous êtes venu(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles viennent</td><td>ils sont venus ; elles sont venues</td></tr></tbody></table></div><p>来；Elle est venue chez moi. venir→venu，不是veni。</p><h3>revenir · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"revenir\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je reviens</td><td>je suis revenu(e)</td></tr><tr><td>tu</td><td>tu reviens</td><td>tu es revenu(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on revient</td><td>il est revenu ; elle est revenue ; on est revenu(e)(s)</td></tr><tr><td>nous</td><td>nous revenons</td><td>nous sommes revenu(e)s</td></tr><tr><td>vous</td><td>vous revenez</td><td>vous êtes revenu(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles reviennent</td><td>ils sont revenus ; elles sont revenues</td></tr></tbody></table></div><p>回来；Elles sont revenues à midi. reviens／revenons的词干不同。</p><h3>retourner · présent / passé composé</h3><div class=\"table-scroll\"><table data-conjugation=\"retourner\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je retourne</td><td>je suis retourné(e)</td></tr><tr><td>tu</td><td>tu retournes</td><td>tu es retourné(e)</td></tr><tr><td>il / elle / on</td><td>il / elle / on retourne</td><td>il est retourné ; elle est retournée ; on est retourné(e)(s)</td></tr><tr><td>nous</td><td>nous retournons</td><td>nous sommes retourné(e)s</td></tr><tr><td>vous</td><td>vous retournez</td><td>vous êtes retourné(e)(s)</td></tr><tr><td>ils / elles</td><td>ils / elles retournent</td><td>ils sont retournés ; elles sont retournées</td></tr></tbody></table></div><p>回到某地；Je suis retourné(e) à Lyon. 此处是自身返回的用法。</p>"
+        },
+        {
+          "id": "auxiliaries",
+          "title": "6. 助动词选择、常见分词与用法边界",
+          "html": "<h2>6. 助动词选择、常见分词与用法边界</h2><p>下面是本课常用及相关词汇补充的<strong>16项非代词式动词</strong>，列出这里采用的自身移动、停留或状态变化用法；不是所有法语être动词的完整清单。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">原形</th><th scope=\"col\">过去分词基本形</th><th scope=\"col\">例句／含义</th></tr></thead><tbody><tr><td>aller</td><td>allé</td><td>Elle est allée à Lyon. 去</td></tr><tr><td>venir</td><td>venu</td><td>Il est venu chez nous. 来</td></tr><tr><td>arriver</td><td>arrivé</td><td>Elles sont arrivées. 到达</td></tr><tr><td>partir</td><td>parti</td><td>Ils sont partis. 出发</td></tr><tr><td>entrer</td><td>entré</td><td>Elle est entrée dans le musée. 进入</td></tr><tr><td>sortir</td><td>sorti</td><td>Il est sorti du musée. 出去</td></tr><tr><td>monter</td><td>monté</td><td>Elle est montée au premier étage. 上去</td></tr><tr><td>descendre</td><td>descendu</td><td>Il est descendu au rez-de-chaussée. 下去</td></tr><tr><td>rentrer</td><td>rentré</td><td>Elle est rentrée à la maison. 回家</td></tr><tr><td>retourner</td><td>retourné</td><td>Il est retourné à Lyon. 回到原处</td></tr><tr><td>revenir</td><td>revenu</td><td>Elles sont revenues. 回来</td></tr><tr><td>rester</td><td>resté</td><td>Ils sont restés ici. 停留</td></tr><tr><td>tomber</td><td>tombé</td><td>Elle est tombée. 跌倒</td></tr><tr><td>naître</td><td>né</td><td>Elle est née à Paris. 出生</td></tr><tr><td>mourir</td><td>mort</td><td>Il est mort en 1900. 去世（历史例句）</td></tr><tr><td>devenir</td><td>devenu</td><td>Elle est devenue médecin. 变成、成为</td></tr></tbody></table></div><p><strong>不能用“移动＝être”判断：</strong>marcher、courir、voyager、nager通常用avoir：Elle a marché. Ils ont voyagé. Nous avons nagé. rester虽然不表示移动，仍用être。助动词要连同动词的实际用法一起记。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">自身移动／状态：être</th><th scope=\"col\">带直接宾语的另一种用法：avoir</th></tr></thead><tbody><tr><td>Elle est sortie. 她出去了。</td><td>Elle a sorti la valise. 她把行李箱拿出去了。</td></tr><tr><td>Il est monté au premier étage. 他上楼了。</td><td>Il a monté la valise. 他把行李箱搬上去了。</td></tr><tr><td>Elle est descendue. 她下去了。</td><td>Elle a descendu la valise. 她把行李箱搬下去了。</td></tr><tr><td>Il est rentré. 他回来了。</td><td>Il a rentré les chaises. 他把椅子搬进来了。</td></tr><tr><td>Elle est retournée à Lyon. 她返回里昂。</td><td>Elle a retourné la carte. 她把卡片翻过来了。</td></tr><tr><td>Elle est passée chez Paul. 她去Paul家顺道拜访。</td><td>Elle a passé trois jours à Lyon. 她在里昂度过三天。</td></tr></tbody></table></div><p>这张表是<strong>补充辨析</strong>，不是要求所有动词只看有没有宾语就能判断。尤其passer：passer du temps用avoir；本课常说Nous avons passé un bon week-end.。</p><p><strong>代词式动词的补充边界：</strong>其复合过去时用être，反身代词在助动词前：Elle s’est levée.／Elle ne s’est pas levée.。但配合并非永远跟主语：Elle s’est lavé les mains.中les mains是后置直接宾语，lavé不加e。先识别结构，完整代词式配合留后续专题；不把本课非代词式动词的简单规则无条件推广。</p>"
+        },
+        {
+          "id": "patterns",
+          "title": "7. 否定、倒装疑问与副词：延续第18课",
+          "html": "<h2>7. 否定、倒装疑问与副词：延续第18课</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">形式</th><th scope=\"col\">结构／原创例句</th><th scope=\"col\">要点</th></tr></thead><tbody><tr><td>否定</td><td>Elle n’est pas partie.</td><td>ne／n’＋être＋pas＋分词；partie仍与elle配合。</td></tr><tr><td>否定</td><td>Nous ne sommes pas rentrées.</td><td>sommes前是ne，不省音；女性群体rentrées。</td></tr><tr><td>语调疑问</td><td>Tu es arrivée ?</td><td>保留陈述语序，靠语调提问。</td></tr><tr><td>est-ce que</td><td>Est-ce que tu es arrivée ?</td><td>est-ce que后不再倒装。</td></tr><tr><td>倒装疑问</td><td>Es-tu arrivée ?</td><td>être与主语代词倒装，分词留在后面。</td></tr><tr><td>第三人称倒装</td><td>Est-elle partie ?／Sont-ils arrivés ?</td><td>est／sont本身已有t，不能写est-t-elle。</td></tr><tr><td>否定倒装</td><td>N’es-tu pas arrivée ?</td><td>n’＋es-tu＋pas＋arrivée。</td></tr><tr><td>疑问词＋倒装</td><td>Quand êtes-vous partis ?／Où est-elle allée ?</td><td>疑问词保留；分词仍配合。</td></tr><tr><td>名词主语（复习补充）</td><td>Lina est-elle rentrée ?</td><td>保留Lina，再用对应代词elle倒装。</td></tr></tbody></table></div><p><strong>副词位置：</strong>Elle est déjà partie.／Elle n’est pas encore partie.／Est-elle déjà partie ?／N’est-elle pas encore partie ?。普通短副词通常在助动词与分词之间；倒装中先保留est-elle，再放déjà。pas encore是“还没”，不是把déjà直接机械改成否定。时间地点仍可在外侧：Elle est arrivée ici hier.。</p><p><strong>否定问句回答：</strong>N’es-tu pas rentrée ? → Si, je suis rentrée.（反驳否定：我回来了。）／Non, je ne suis pas rentrée.（确认否定：我没回来。）je与tu的性别按实际人物配合；je的倒装识别为Suis-je arrivé(e) ?，日常可优先用Est-ce que je suis arrivé(e) ?。</p><p>助动词改变了，规则主线没有变：<strong>否定包住助动词；倒装交换助动词与代词；不丢分词，也不丢配合。</strong>复习<a href=\"#lesson/18/patterns\">第18课完整句型与副词讲解</a>。</p>"
+        },
+        {
+          "id": "duration",
+          "title": "8. 何时、多久、多久以后：pour与dans",
+          "html": "<h2>8. 何时、多久、多久以后：pour与dans</h2><p><strong>pour＋时长</strong>常说明计划、预定或预计持续多久；<strong>dans＋时长</strong>说明从现在（或语境中的参照点）起，过多久发生。这两个表达都可以配合有将来意义的现在时，不必先学完整简单将来时。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">你想表达</th><th scope=\"col\">法语</th><th scope=\"col\">时间关系</th></tr></thead><tbody><tr><td>计划离开三天</td><td>Je pars pour trois jours.</td><td>离开的预定时长＝三天；不是“三天后出发”。</td></tr><tr><td>三天后出发</td><td>Je pars dans trois jours.</td><td>从现在等三天，才出发。</td></tr><tr><td>两天后出发，计划待一周</td><td>Je pars dans deux jours pour une semaine.</td><td>dans管出发的延迟；pour管预定持续时间。</td></tr><tr><td>问预定停留</td><td>Pour combien de temps pars-tu ?</td><td>Je pars pour quatre jours.</td></tr><tr><td>问多久以后回来</td><td>Dans combien de temps reviens-tu ?</td><td>Je reviens dans deux jours.</td></tr><tr><td>问已经停留多久</td><td>Combien de temps es-tu restée ?</td><td>Je suis restée trois jours.（女说话人。）</td></tr><tr><td>问何时出发</td><td>Quand es-tu parti ?</td><td>Je suis parti lundi matin.（男说话人。）</td></tr><tr><td>问到达钟点</td><td>À quelle heure êtes-vous arrivées ?</td><td>Nous sommes arrivées à dix heures.（女性群体。）</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">复习／补充表达</th><th scope=\"col\">意思</th><th scope=\"col\">例句与边界</th></tr></thead><tbody><tr><td>pendant＋时长</td><td>动作持续多久</td><td>Je suis restée pendant trois jours. 实际停留三天；也可直接说restée trois jours。</td></tr><tr><td>il y a＋时长</td><td>距参照的现在多久以前</td><td>Je suis arrivée il y a deux jours. 两天前到达，不能换成dans。</td></tr><tr><td>depuis＋时长</td><td>从过去开始，持续到参照点</td><td>J’habite ici depuis deux ans. 我在这里住了两年且仍住着；本例用现在时，不自动换过去时。</td></tr><tr><td>en＋时长</td><td>完成一件事所需时间（补充）</td><td>J’ai fait le trajet en deux heures. 两小时完成路程，不能当成“两个小时后”。</td></tr></tbody></table></div><p>本课重点是pour／dans，其他表达用于辨析。不要把“pour＝将来时专用”当作硬性规则；例如Je suis parti pour trois jours.也可以叙述过去出发时预定离开三天。since／for等英语对应只能辅助理解，仍要看“起点、延迟、持续时间、完成用时”是哪一种。</p>"
+        },
+        {
+          "id": "words",
+          "title": "9. 旅行与明信片词汇：词性、性数与搭配",
+          "html": "<h2>9. 旅行与明信片词汇：词性、性数与搭配</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">词语</th><th scope=\"col\">词性／中文</th><th scope=\"col\">搭配或辨析</th></tr></thead><tbody><tr><td>une carte postale</td><td>阴性名词；明信片</td><td>écrire／envoyer une carte postale</td></tr><tr><td>un voyage／un séjour</td><td>阳性名词；旅行／停留</td><td>faire un voyage；un séjour de trois jours</td></tr><tr><td>un départ／une arrivée／un retour</td><td>阳／阴／阳性名词；出发／到达／返回</td><td>l’heure du départ；à l’arrivée；le retour</td></tr><tr><td>un musée／un parc</td><td>阳性名词；博物馆／公园</td><td>visiter un musée；aller au parc</td></tr><tr><td>un cadeau／des cadeaux</td><td>阳性名词；礼物</td><td>acheter un cadeau；复数-x</td></tr><tr><td>un bisou／des bisous</td><td>阳性名词；亲吻，亲密问候</td><td>Bisous ! 用于亲近的人，不用于正式事务信。</td></tr><tr><td>une journée／une soirée／une année</td><td>阴性名词；一天／一个晚上／一年</td><td>passer une bonne journée；une année entière</td></tr><tr><td>une minute／une heure／une semaine</td><td>阴性名词；分钟／小时／周</td><td>dans dix minutes；pour une semaine</td></tr><tr><td>un jour／un mois／un an</td><td>阳性名词；天／月／年</td><td>trois jours；deux mois（mois单复数同形）</td></tr><tr><td>cher／chère</td><td>形容词；亲爱的；也可意为贵的</td><td>Cher Paul,／Chère Lina,；这里按收信人配合。</td></tr><tr><td>magnifique</td><td>形容词；极美的</td><td>un parc magnifique／une ville magnifique；单数阴阳同形</td></tr><tr><td>là-bas／ici</td><td>地点副词；那里／这里</td><td>Elles sont allées là-bas.；不随人称变化</td></tr><tr><td>revenir／rentrer／retourner</td><td>动词；回来／回家或返回／回到某处</td><td>revenir强调回到参照处；rentrer常指回家；retourner à Lyon回到里昂。</td></tr><tr><td>marcher／visiter／passer</td><td>动词；步行／参观／度过</td><td>avoir：j’ai marché／visité un musée／passé une bonne soirée</td></tr></tbody></table></div><p><strong>常用时间搭配：</strong>hier、avant-hier、la semaine dernière、le mois dernier、demain、après-demain、la semaine prochaine。dernier／dernière和prochain／prochaine按所修饰名词配合。<strong>à Lyon／en France／en train／à pied／chez une amie</strong>中的介词也要跟着整体记。</p><p>venir de＋地点可以说明来自哪里：Elle est venue de Lyon.；不要与venir de＋不定式（刚刚做某事，后续语法）混为一谈。venir与devenir也不同：Elle est venue. 她来了；Elle est devenue médecin. 她成为医生了。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "10. 语音：节奏组、联诵、连音与配合听辨",
+          "html": "<h2>10. 语音：节奏组、联诵、连音与配合听辨</h2><p>把句子按意义分组，每组末尾保留节奏重音；不要在助动词与分词之间随意停顿。以下竖线只是练习分组，不是法语标点。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">原创练习句</th><th scope=\"col\">关注点</th></tr></thead><tbody><tr><td>Nous sommes arrivés ｜ à dix heures.</td><td>sommes的/m/本来就发音，接元音是辅音连音；不是新添一个/z/。</td></tr><tr><td>Vous êtes parties ｜ pour trois jours.</td><td>vous êtes的/z/联诵；parties的书面-es通常不额外读出。</td></tr><tr><td>Elles sont allées ｜ au musée.</td><td>sont allées可联诵/t/；allées au保持元音相接，不凭空加/z/。</td></tr><tr><td>Sont-elles rentrées ｜ à midi ?</td><td>倒装sont-elles中的/t/要读出；不能混成elles sont的/s/。</td></tr><tr><td>Nous avons visité ｜ un musée.</td><td>nous avons为/z/联诵；visité un中元音连续，不加隐藏辅音。</td></tr></tbody></table></div><p><strong>联诵与连音：</strong>联诵是原本不发音的词尾辅音在一定环境下读出；辅音连音是已经发音的辅音接到后面的元音；元音连音保持两个元音的连贯。不是所有相邻词都允许联诵，节奏组也不等于随意断气。先模仿出版方音频，不把每个词尾-s都读成/z/。</p><p>allé／allée／allés／allées通常同音，parti／partie／partis／parties也通常同音；书写根据人物恢复配合。分辨elles sont与elles ont的/s/／/z/有助于听助动词；否定仍需继续听pas，不只凭第一段声音判断。本站未新增录音；录音入口与跟读任务沿用出版方资源。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "11. 原创明信片：按证据读旅行时间线",
+          "html": "<h2>11. 原创明信片：按证据读旅行时间线</h2><p><strong>原创材料，非教材原文。设定：Lina与Nora均为女性；这张卡片写于周日晚上。</strong><br><span lang=\"fr\">Lyon, dimanche soir<br>Chère Mei,<br>Je suis arrivée à Lyon vendredi matin avec Nora. Nous sommes venues en train. Vendredi après-midi, nous avons visité un musée. Samedi, nous sommes allées dans un parc et nous avons beaucoup marché. Le soir, nous sommes rentrées à l’hôtel à vingt et une heures. Aujourd’hui, nous sommes restées dans le centre-ville. Je n’ai pas acheté de cadeau. Demain, nous rentrons à Paris. Le mois prochain, je pars à Nice pour quatre jours. Je t’écris bientôt.<br>Bisous,<br>Lina</span></p><p>中文：Lina与Nora周五上午坐火车到里昂；下午参观一座博物馆。周六去公园、走了很多路，晚上21点回旅馆。周日待在市中心；Lina没有买礼物。周一返回巴黎；下月Lina计划去尼斯四天。Je t’écris bientôt.是结尾补充表达“我很快再给你写信”，不要求在本课系统学习宾语代词。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">时间</th><th scope=\"col\">确定的信息</th><th scope=\"col\">证据／不能推出</th></tr></thead><tbody><tr><td>周五上午</td><td>两位女性到达里昂，乘火车</td><td>suis arrivée／sommes venues；出发钟点未提及。</td></tr><tr><td>周五下午</td><td>参观一座博物馆</td><td>un musée；不能猜博物馆名称。</td></tr><tr><td>周六</td><td>去公园，走很多路；21点回旅馆</td><td>allées／avons marché／sommes rentrées；走路用avoir。</td></tr><tr><td>周日</td><td>写卡片；在市中心活动</td><td>今天的日期以卡片叙事为准，不是网站访问日期。</td></tr><tr><td>未买礼物</td><td>Lina没有买礼物</td><td>Je n’ai pas acheté…；不能推出Nora也没买。</td></tr><tr><td>周一／下月</td><td>计划回巴黎／去尼斯四天</td><td>计划不是已发生；尼斯不是四天后出发。</td></tr></tbody></table></div><p>提取信息时分别标记<strong>过去经历、当前情况、未来安排</strong>。原文没有具体月份、票价、博物馆名称或两人是否住同一间房；不要根据旅游常识填空。卡片只说下月去尼斯，不能算出准确还要等多少天。</p>"
+        },
+        {
+          "id": "writing",
+          "title": "12. 明信片写作与听说读写输出",
+          "html": "<h2>12. 明信片写作与听说读写输出</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">明信片位置</th><th scope=\"col\">可用表达</th><th scope=\"col\">注意</th></tr></thead><tbody><tr><td>地点、日期</td><td>Lyon, dimanche soir</td><td>让读者知道叙述的参照时间。</td></tr><tr><td>称呼</td><td>Cher Paul,／Chère Mei,</td><td>cher按收信人的性别变化，不按写信人。</td></tr><tr><td>到达与交通</td><td>Je suis arrivé(e)…／Nous sommes venu(e)s en train.</td><td>助动词与分词配合同时检查。</td></tr><tr><td>经历与评价</td><td>Nous avons visité…／C’est magnifique !</td><td>不是旅行句子都用être。</td></tr><tr><td>返回或下次计划</td><td>Je rentre dans deux jours.／Je pars pour une semaine.</td><td>dans与pour各管不同的时间信息。</td></tr><tr><td>结尾</td><td>À bientôt !／Amitiés,／Bisous,</td><td>按关系选择语气，不把亲密表达用于正式事务。</td></tr></tbody></table></div><p><strong>原创短范文（男说话人）：</strong><br><span lang=\"fr\">Nice, lundi<br>Chère Lina,<br>Je suis arrivé à Nice hier avec Paul. Nous sommes venus en train. Nous avons visité le centre-ville. Aujourd’hui, nous sommes allés au musée. Nous avons bien mangé. Je rentre dans deux jours. Le mois prochain, je pars pour une semaine.<br>À bientôt !<br>Yan</span></p><ul><li>听：找教材第19课音频，第一遍抓人物、地点；第二遍记出发、到达、停留和返回；第三遍标être／avoir、否定与联诵。录音内容须以教材核对，不用本站卡片替代。</li><li>说：完成六轮旅行采访，必须分别问quand、à quelle heure、combien de temps、pour combien de temps、dans combien de temps和交通方式。用一个倒装句，再复述同伴经历。</li><li>读：重读Lina明信片，用证据说明旅行时间线，并找一项不能确定的信息。</li><li>写：写60—80词左右的原创明信片，含称呼、至少三个être过去时、两个avoir过去时、一个否定和一项未来安排。字数是本站练习建议，不是考试评分标准。</li></ul><p>自查顺序：①实际主语是谁；②助动词选对了吗；③六人称对吗；④être分词的-e／-s／-es是否正确；⑤否定、倒装、副词是否放对；⑥pour／dans是否混用；⑦称呼配合、时间线与事实是否清楚。写入本课笔记再核对，不要求生活经历与范文一致。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "13. 分层练习A—J与逐项解析",
+          "html": "<h2>13. 分层练习A—J与逐项解析</h2><h3>A. 助动词、现在时与过去分词</h3><ol><li>elle＋aller，写完整复合过去时。</li><li>ils＋venir，写完整复合过去时。</li><li>nous（两位女性）＋arriver。</li><li>vous（一位女性）＋rentrer。</li><li>把Je reviens改成复合过去时，女说话人。</li><li>elle＋marcher，写复合过去时。</li><li>elles＋visiter un musée。</li><li>nous＋passer une bonne soirée。</li><li>naître／mourir／devenir的过去分词基本形。</li><li>写venir现在时的nous、vous、ils形式。</li></ol><details><summary>参考答案与解析</summary><ol><li>Elle est allée. aller用être，阴性加e。</li><li>Ils sont venus. venir→venu，复数加s。</li><li>Nous sommes arrivées. 助动词sommes，分词-es。</li><li>Vous êtes rentrée. 礼貌vous仍用êtes，分词阴性单数。</li><li>Je suis revenue. revenir→revenu，再加e。</li><li>Elle a marché. marcher通常用avoir。</li><li>Elles ont visité un musée. 这里分词不随elles加-es。</li><li>Nous avons passé une bonne soirée. passer du temps用avoir。</li><li>né／mort／devenu；属于不规则词形。</li><li>nous venons；vous venez；ils viennent。</li></ol></details><h3>B. 性数配合与人称</h3><ol><li>补全：Paul est parti，改主语为Lina。</li><li>Paul et Lina sont ____（aller）。</li><li>Lina et Nora sont ____（venir）。</li><li>Lina, vous êtes ____（arriver）。</li><li>Paul, vous êtes ____（rester）。</li><li>Lina et Nora, vous êtes ____（rentrer）。</li><li>写aller的四种过去分词配合形式。</li><li>把Elle est née à Lyon改成Elles。</li><li>补充：Lina和Nora用on表示“我们回来了”。</li><li>为什么Elles ont marché与Elles sont parties的词尾不同？</li></ol><details><summary>参考答案与解析</summary><ol><li>Lina est partie. 阴性单数加e。</li><li>allés：男性与女性混合群体用阳性复数。</li><li>venues：两位女性，venu＋es。</li><li>arrivée：一位女性的礼貌vous。</li><li>resté：一位男性的礼貌vous。</li><li>rentrées：女性复数。</li><li>allé／allée／allés／allées。</li><li>Elles sont nées à Lyon. est→sont，née→nées。</li><li>On est rentrées. 助动词仍为est，分词按两位女性配合。</li><li>marcher用avoir，本例分词不随主语配合；partir用être，parties随elles配合。</li></ol></details><h3>C. 词汇、搭配与助动词辨析</h3><ol><li>写“明信片”的法语和阴阳性。</li><li>un cadeau的复数。</li><li>给女收信人Mei写开头称呼。</li><li>“步行旅行”有移动含义，marcher是否用être？</li><li>翻译Je suis rentré à la maison.。</li><li>翻译Elle est devenue médecin.。</li><li>选择：Elle est／a sorti la valise.。</li><li>翻译Elle est sortie du musée.并说明助动词。</li><li>翻译Il a retourné la carte.。</li><li>补充：Elle s’est lavé les mains.中为什么不写lavée？</li></ol><details><summary>参考答案与解析</summary><ol><li>une carte postale，阴性。</li><li>des cadeaux，结尾加x。</li><li>Chère Mei, chère与收信人Mei配合。</li><li>不是；本课表达为J’ai marché.。</li><li>男说话人：我回家了。</li><li>她成为医生了。不是“她来了”。</li><li>Elle a sorti la valise. 本句sortir带直接宾语。</li><li>她走出了博物馆；自身出去的用法用être。</li><li>他把卡片翻过来了；不是“他回来了”。</li><li>les mains是后置直接宾语，这种代词式配合不能机械随主语加e。</li></ol></details><h3>D. 否定、疑问、倒装与副词</h3><ol><li>否定：Elle est partie.。</li><li>否定：Nous sommes rentrées.。</li><li>用est-ce que提问：Tu es arrivée.。</li><li>用倒装提问：Tu es arrivée.。</li><li>用倒装提问：Elle est partie.。</li><li>把Vous n’êtes pas rentrées改成倒装疑问。</li><li>用déjà表达“她已经走了”。</li><li>用pas encore表达“她还没有走”。</li><li>把Tu es déjà arrivé改成倒装。</li><li>对N’es-tu pas rentrée ?反驳否定，说明自己回来了。</li></ol><details><summary>参考答案与解析</summary><ol><li>Elle n’est pas partie. 否定包住est，配合不变。</li><li>Nous ne sommes pas rentrées. sommes前ne不省音。</li><li>Est-ce que tu es arrivée ? 不再倒装。</li><li>Es-tu arrivée ? 只交换助动词与代词。</li><li>Est-elle partie ? est已有t，不写est-t-elle。</li><li>N’êtes-vous pas rentrées ? pas在vous后。</li><li>Elle est déjà partie. déjà在est与partie之间。</li><li>Elle n’est pas encore partie. pas encore在分词前。</li><li>Es-tu déjà arrivé ? 保持es-tu相邻。</li><li>Si, je suis rentrée. 反驳否定用Si。</li></ol></details><h3>E. 时间与时长的采访</h3><ol><li>“我三天后出发。”</li><li>“我计划离开三天。”</li><li>补全：Je pars ____ deux jours ____ une semaine.（两天后出发，计划一周。）</li><li>用倒装问男同伴什么时候出发了。</li><li>问两位女性几点到达。</li><li>问女性同伴已经停留多久。</li><li>问对方计划离开多久。</li><li>问对方多久以后回来。</li><li>“我两天前到达。”女说话人。</li><li>补充：仍住在里昂，如何表达“我在里昂住了两年”？</li></ol><details><summary>参考答案与解析</summary><ol><li>Je pars dans trois jours. dans表示延迟多久。</li><li>Je pars pour trois jours. pour表示预定持续时间。</li><li>dans／pour：先延迟，后预定时长。</li><li>Quand es-tu parti ? quand问发生时间。</li><li>À quelle heure êtes-vous arrivées ? 时间问句并保留配合。</li><li>Combien de temps es-tu restée ? 不是dans combien de temps。</li><li>Pour combien de temps pars-tu ? 或Tu pars pour combien de temps ?</li><li>Dans combien de temps reviens-tu ?</li><li>Je suis arrivée il y a deux jours. il y a指以前，不是dans。</li><li>J’habite à Lyon depuis deux ans. 持续到现在，本例用现在时。</li></ol></details><h3>F. 明信片写作与句子组织</h3><ol><li>给男收信人Paul写开头，女说话人。</li><li>两位女性表达“我们坐火车来的”。</li><li>“她参观了公园，然后回到旅馆。”</li><li>“我没买礼物。”</li><li>“我两天后回家。”</li><li>“下月我去尼斯，计划待四天。”</li><li>补充：写“我们停留了三天”，只用女性群体。</li><li>用一个句子评价旅行。</li><li>给亲近朋友写一个合适结尾。</li><li>写60—80词旅行明信片，含过去和未来。</li></ol><details><summary>参考答案与解析</summary><ol><li>Cher Paul, 称呼按Paul配合，与写信人的性别无关。</li><li>Nous sommes venues en train. venir→venu，女性复数-es。</li><li>Elle a visité le parc, puis elle est rentrée à l’hôtel. 两个动词助动词不同。</li><li>Je n’ai pas acheté de cadeau. 普通全否定用de。</li><li>Je rentre dans deux jours. 当前安排可用现在时。</li><li>Le mois prochain, je pars à Nice pour quatre jours. pour不是四天后。</li><li>Nous sommes restées trois jours. 或Nous sommes restées pendant trois jours.</li><li>示例：J’ai beaucoup aimé ce voyage. 或C’est magnifique ! 开放答案。</li><li>À bientôt !／Amitiés,／Bisous, 按关系选择，非正式语气不随便用于事务信。</li><li>按第12模块检查称呼、三个être和两个avoir过去时、否定、未来计划及配合；这是本站练习要求，不是考试评分表。</li></ol></details><h3>G. 原创卡片的证据与信息边界</h3><ol><li>Lina在哪里，何时写卡片？</li><li>Lina与谁同行？</li><li>何时、以什么方式到里昂？</li><li>周五下午做了什么？</li><li>周六去了哪里，做了什么？</li><li>她们什么时候回旅馆？</li><li>Nora有没有买礼物？</li><li>什么时候返回巴黎？</li><li>Lina去尼斯的预定时长是多少？</li><li>能否知道去尼斯的精确出发日期及票价？</li></ol><details><summary>参考答案与解析</summary><ol><li>在里昂，周日晚上；Lyon, dimanche soir。</li><li>Nora；avec Nora，材料设定两人均为女性。</li><li>周五上午，乘火车；vendredi matin／en train。</li><li>参观一座博物馆；名称未提及。</li><li>去了公园，走了很多路。</li><li>周六晚上21点；à vingt et une heures。</li><li>无法确定；卡片只否定Lina买礼物。</li><li>卡片中明天＝周一；这是未来安排。</li><li>四天；pour quatre jours，不是四天后出发。</li><li>不能；只知下个月，票价未提及。</li></ol></details><h3>H. 节奏、联诵与拼写听辨</h3><ol><li>allé／allée／allés／allées在本课通常是否同音？</li><li>vous êtes中联诵辅音是什么？</li><li>sont-elles中间的辅音是什么？</li><li>nous sommes arrivés里sommes的/m/是新增联诵辅音吗？</li><li>elles sont与elles ont要注意哪两个辅音？</li><li>为什么不要在sommes与arrivées间随意停顿？</li><li>读Elles sont allées au musée，sont allées可有什么联诵？</li><li>mort与morte是否必须像allé／allée一样同音？</li><li>为什么听否定时不能只听est／n’est？</li><li>给Nous sommes arrivées à midi作意义分组并跟读。</li></ol><details><summary>参考答案与解析</summary><ol><li>通常同音；书面配合根据主语，不能靠听音省略。</li><li>/z/，来自vous的词尾s。</li><li>/t/，倒装连接时读出，不再写额外-t-。</li><li>不是；/m/本来就发音，这里是辅音连音。</li><li>/s/与/z/，帮助辨认être与avoir。</li><li>助动词和分词共同构成过去时，朗读先按意义和节奏成组。</li><li>/t/；allées au则保持元音连贯，不凭空加/z/。</li><li>不是；morte可读出/t/，不能把常见同音规则推广到所有分词。</li><li>需继续听pas等否定标记，不能仅凭开头判断肯定否定。</li><li>示例：Nous sommes arrivées ｜ à midi. 分组不表示断气，参照教材录音核对。</li></ol></details><h3>I. 综合改错与理由</h3><ol><li>J’ai allé à Lyon.</li><li>Elle est parti.</li><li>Elles sont arrivée.</li><li>Nous sont restés.</li><li>女说话人：Je suis venir.</li><li>Elles sont marché.</li><li>Je ne suis rentré pas.</li><li>Est-t-elle partie ?</li><li>表示两天后出发：Je pars pour deux jours.</li><li>表示度过三天：Elle est passée trois jours à Lyon.</li></ol><details><summary>参考答案与解析</summary><ol><li>Je suis allé(e) à Lyon. aller用être。</li><li>Elle est partie. 阴性单数加e。</li><li>Elles sont arrivées. 阴性复数-es。</li><li>Nous sommes restés. 助动词随nous。</li><li>Je suis venue. 用venu并按女性加e。</li><li>Elles ont marché. marcher用avoir。</li><li>Je ne suis pas rentré. pas在助动词后。</li><li>Est-elle partie ? est已有t，不补-t-。</li><li>Je pars dans deux jours. pour deux jours说的是预定离开时长。</li><li>Elle a passé trois jours à Lyon. passer du temps用avoir。</li></ol></details><h3>J. 口语、复述与自查</h3><ol><li>不看表说aller的六人称过去时。</li><li>与同伴完成六轮旅行采访。</li><li>用30—60秒复述Lina明信片。</li><li>用肯定、否定、倒装各说一次“她回来了”。</li><li>对照Je pars pour trois jours与Je pars dans trois jours。</li><li>解释为什么“步行”用avoir而“停留”用être。</li><li>为一位女性和两位女性各说一句礼貌到达问句。</li><li>补充：说一个sortir用être和一个用avoir的句子。</li><li>朗读明信片时标三处联诵或连音。</li><li>写下本课自己最易错的一条规则及改进句。</li></ol><details><summary>参考答案与解析</summary><ol><li>je suis allé(e)；tu es allé(e)；il est allé／elle est allée；nous sommes allé(e)s；vous êtes allé(e)(s)；ils sont allés／elles sont allées；根据人物选定配合。</li><li>需覆盖活动、时间、钟点、实际时长、预定时长、多久以后及交通；至少一个倒装，双方交替提问。</li><li>保留周五到达、周六公园与21点返回、周日市中心、周一回巴黎、下月尼斯四天；不编票价或博物馆名称。</li><li>Elle est rentrée. Elle n’est pas rentrée. Est-elle rentrée ?</li><li>前者计划离开三天；后者三天后才出发。</li><li>助动词依动词实际用法，不能仅用是否移动判断。</li><li>Lina, êtes-vous arrivée ? Lina et Nora, êtes-vous arrivées ?</li><li>Elle est sortie. Elle a sorti la valise. 自身出去／把物品拿出去。</li><li>可用sommes venues、sommes allées、nous avons等，说明本来发音还是联诵；以教材录音核对。</li><li>开放答案，如J’ai allé→Je suis allé(e)；记录理由与正确例句，不把看过讲义当作已经掌握。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "14. 易错速查、复习清单与来源",
+          "html": "<h2>14. 易错速查、复习清单与来源</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">易错点</th><th scope=\"col\">正确表达／判断</th><th scope=\"col\">为什么</th></tr></thead><tbody><tr><td>j’ai allé</td><td>je suis allé(e)</td><td>aller用être。</td></tr><tr><td>elle est parti</td><td>elle est partie</td><td>本课非代词式être动词按主语配合。</td></tr><tr><td>elles sont marché</td><td>elles ont marché</td><td>并非移动动词都用être。</td></tr><tr><td>je suis été</td><td>j’ai été</td><td>être作主要动词用avoir。</td></tr><tr><td>est-t-elle</td><td>est-elle</td><td>已有t不重复添加。</td></tr><tr><td>elle n’est rentrée pas</td><td>elle n’est pas rentrée</td><td>否定包住助动词est，pas在分词前。</td></tr><tr><td>所有vous分词都加s</td><td>按实际收信人／听话人的性数配合</td><td>礼貌vous也可指一个人。</td></tr><tr><td>pour trois jours＝三天后</td><td>pour：预定持续三天；dans：三天以后</td><td>持续时间与延迟不同。</td></tr><tr><td>elle est passée trois jours</td><td>elle a passé trois jours</td><td>度过时长用avoir。</td></tr><tr><td>听不见-e／-s就不写</td><td>根据人物写allée／allés／allées</td><td>许多配合只体现在书写。</td></tr></tbody></table></div><ul><li>能用être现在时＋分词写完整过去时，区分être与avoir。</li><li>能给je、tu、nous、vous和on确定人物并作适当配合。</li><li>能写aller／venir等常用分词，辨认né、mort、devenu。</li><li>能写否定、est-ce que、倒装及常见副词语序，不误加-t-。</li><li>能区分pour／dans与实际停留，分别问时间、钟点和时长。</li><li>能用证据读明信片，区分已发生、未提及与计划；写自己的短明信片。</li></ul><p>建议复习：先看主语，再选助动词，再写分词和配合，最后核对语序与时间信息。学习完成度与掌握程度分开记录；浏览本课不自动表示做完练习。</p><p>范围：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方第19课教学指南</a>；语法：<a href=\"https://www.laits.utexas.edu/tex/gr/tap3.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学être复合过去时</a>、<a href=\"https://www.laits.utexas.edu/tex/gr/tap4.html\" target=\"_blank\" rel=\"noopener noreferrer\">代词式过去时与配合边界</a>、<a href=\"https://www.laits.utexas.edu/tex/gr/int3.html\" target=\"_blank\" rel=\"noopener noreferrer\">倒装</a>、<a href=\"https://www.laits.utexas.edu/tex/gr/adv3.html\" target=\"_blank\" rel=\"noopener noreferrer\">副词位置</a>；补充时间表达核对<a href=\"https://apprendre.tv5monde.com/fr/aides/grammaire-indiquer-le-temps-dans-le-passe\" target=\"_blank\" rel=\"noopener noreferrer\">TV5MONDE时间表达</a>。例句、阅读、对话与练习均为本站原创，来源仅用于核对规则与课程范围。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "id": "l19-q01",
+          "question": "本课être复合过去时的结构是？",
+          "options": [
+            "être现在时＋过去分词",
+            "être不定式＋过去分词",
+            "主语＋过去分词即可"
+          ],
+          "answer": 0,
+          "explanation": "复合过去时由变位的助动词与过去分词组成。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q02",
+          "question": "“她去了里昂”应写：",
+          "options": [
+            "Elle a allé à Lyon.",
+            "Elle est allée à Lyon.",
+            "Elle est aller à Lyon."
+          ],
+          "answer": 1,
+          "explanation": "aller用être，过去分词按elle加e。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q03",
+          "question": "Elles ____ arrivées.",
+          "options": [
+            "est",
+            "ont",
+            "sont"
+          ],
+          "answer": 2,
+          "explanation": "elles对应être现在时sont。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q04",
+          "question": "Nous（两位女性）sommes ____（venir）。",
+          "options": [
+            "venues",
+            "venu",
+            "venus"
+          ],
+          "answer": 0,
+          "explanation": "venir→venu，女性复数加-es。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q05",
+          "question": "Lina, vous êtes ____（rentrer）。Lina是一位女性。",
+          "options": [
+            "rentrés",
+            "rentrée",
+            "rentrées"
+          ],
+          "answer": 1,
+          "explanation": "礼貌vous的动词用êtes，分词仍是阴性单数。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q06",
+          "question": "Paul et Lina sont ____（partir）。",
+          "options": [
+            "parties",
+            "parti",
+            "partis"
+          ],
+          "answer": 2,
+          "explanation": "混合群体按阳性复数配合。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q07",
+          "question": "“她步行了”正确的是？",
+          "options": [
+            "Elle a marché.",
+            "Elle est marché.",
+            "Elle est marchée."
+          ],
+          "answer": 0,
+          "explanation": "marcher通常用avoir，不能以移动判断être。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q08",
+          "question": "“她在里昂度过三天”正确的是？",
+          "options": [
+            "Elle est passée trois jours à Lyon.",
+            "Elle a passé trois jours à Lyon.",
+            "Elle est passé trois jours à Lyon."
+          ],
+          "answer": 1,
+          "explanation": "passer du temps用avoir。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q09",
+          "question": "venir的过去分词基本形是？",
+          "options": [
+            "veni",
+            "vené",
+            "venu"
+          ],
+          "answer": 2,
+          "explanation": "venu不规则；阴性venue、复数venus／venues。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q10",
+          "question": "naître／mourir的过去分词基本形是？",
+          "options": [
+            "né／mort",
+            "naîtu／mouri",
+            "né／mouru"
+          ],
+          "answer": 0,
+          "explanation": "né与mort要记忆，阴性née／morte。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q11",
+          "question": "Elle est devenue médecin.表示？",
+          "options": [
+            "她从医生那里来了。",
+            "她成为医生了。",
+            "她刚刚看了医生。"
+          ],
+          "answer": 1,
+          "explanation": "devenir是“成为”，不要与venir混淆。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q12",
+          "question": "表示“她把行李箱拿出去了”应选：",
+          "options": [
+            "Elle est sortie la valise.",
+            "Elle est sorti la valise.",
+            "Elle a sorti la valise."
+          ],
+          "answer": 2,
+          "explanation": "sortir带直接宾语la valise时用avoir。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q13",
+          "question": "Elle est partie.的否定是？",
+          "options": [
+            "Elle n’est pas partie.",
+            "Elle n’est partie pas.",
+            "Elle ne partie pas."
+          ],
+          "answer": 0,
+          "explanation": "ne…pas包住助动词est，配合保留。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q14",
+          "question": "Nous sommes rentrées.的否定是？",
+          "options": [
+            "Nous n’sommes pas rentrées.",
+            "Nous ne sommes pas rentrées.",
+            "Nous ne sommes rentrées pas."
+          ],
+          "answer": 1,
+          "explanation": "sommes前ne不省音，pas位于助动词后。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q15",
+          "question": "Tu es arrivée.的倒装问句是？",
+          "options": [
+            "Es arrivée-tu ?",
+            "Es-tu arriver ?",
+            "Es-tu arrivée ?"
+          ],
+          "answer": 2,
+          "explanation": "倒装助动词与主语代词，过去分词留后面。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q16",
+          "question": "“她出发了吗？”正确倒装是？",
+          "options": [
+            "Est-elle partie ?",
+            "Est-t-elle partie ?",
+            "Est partie-elle ?"
+          ],
+          "answer": 0,
+          "explanation": "est已有t，不添加额外-t-。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q17",
+          "question": "“您还没回来吗？”（对一位男性）",
+          "options": [
+            "N’êtes pas-vous rentré ?",
+            "N’êtes-vous pas rentré ?",
+            "N’êtes-vous rentré pas ?"
+          ],
+          "answer": 1,
+          "explanation": "否定倒装中pas在vous后，分词按一位男性写rentré。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q18",
+          "question": "“她已经走了”常用语序是？",
+          "options": [
+            "Elle est partie déjà toujours.",
+            "Elle déjà est partie.",
+            "Elle est déjà partie."
+          ],
+          "answer": 2,
+          "explanation": "déjà通常放在助动词后、分词前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q19",
+          "question": "“你还没到吗？”（对一位女性）",
+          "options": [
+            "N’es-tu pas encore arrivée ?",
+            "N’es-encore-tu pas arrivée ?",
+            "N’es-tu arrivée pas encore ?"
+          ],
+          "answer": 0,
+          "explanation": "保留es-tu，再接pas encore和arrivée。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q20",
+          "question": "对N’es-tu pas rentrée ?说明“我回来了”：",
+          "options": [
+            "Non, je suis rentrée.",
+            "Si, je suis rentrée.",
+            "Si, je ne suis pas rentrée."
+          ],
+          "answer": 1,
+          "explanation": "Si反驳否定，后接肯定事实。",
+          "group": "speaking"
+        },
+        {
+          "id": "l19-q21",
+          "question": "Je pars dans trois jours.表示？",
+          "options": [
+            "我计划离开三天。",
+            "我三天前出发了。",
+            "我三天后出发。"
+          ],
+          "answer": 2,
+          "explanation": "dans＋时长表示过多久发生。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q22",
+          "question": "Je pars pour trois jours.表示？",
+          "options": [
+            "我计划离开三天。",
+            "我三天后出发。",
+            "我每三天出发一次。"
+          ],
+          "answer": 0,
+          "explanation": "pour＋时长在此说明预定持续多久。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q23",
+          "question": "两天后出发，计划去一周：Je pars ____ deux jours ____ une semaine.",
+          "options": [
+            "pour／dans",
+            "dans／pour",
+            "pendant／depuis"
+          ],
+          "answer": 1,
+          "explanation": "延迟用dans，预定时长用pour。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q24",
+          "question": "问女同伴已经停留多久：",
+          "options": [
+            "Dans combien de temps es-tu restée ?",
+            "Quand es-tu restée combien ?",
+            "Combien de temps es-tu restée ?"
+          ],
+          "answer": 2,
+          "explanation": "已经发生的停留问combien de temps。",
+          "group": "speaking"
+        },
+        {
+          "id": "l19-q25",
+          "question": "问多久以后回来：",
+          "options": [
+            "Dans combien de temps reviens-tu ?",
+            "Pour combien de temps reviens-tu ici dans ?",
+            "Combien d’euros reviens-tu ?"
+          ],
+          "answer": 0,
+          "explanation": "dans combien de temps问未来延迟。",
+          "group": "speaking"
+        },
+        {
+          "id": "l19-q26",
+          "question": "问计划离开多久：",
+          "options": [
+            "À quelle heure combien pars-tu ?",
+            "Pour combien de temps pars-tu ?",
+            "Il y a combien pars-tu ?"
+          ],
+          "answer": 1,
+          "explanation": "pour combien de temps问预定时长。",
+          "group": "speaking"
+        },
+        {
+          "id": "l19-q27",
+          "question": "“她两天前到达”正确的是？",
+          "options": [
+            "Elle est arrivée dans deux jours.",
+            "Elle est arrivée pour deux jours avant.",
+            "Elle est arrivée il y a deux jours."
+          ],
+          "answer": 2,
+          "explanation": "il y a＋时长表示多久以前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q28",
+          "question": "补充：一直住到现在，“我在这里住了两年”。",
+          "options": [
+            "J’habite ici depuis deux ans.",
+            "J’ai habité ici dans deux ans.",
+            "Je suis habité ici pour deux ans."
+          ],
+          "answer": 0,
+          "explanation": "本例depuis表示持续到现在，用现在时。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q29",
+          "question": "“明信片”及其性别是？",
+          "options": [
+            "un carte postal，阳性",
+            "une carte postale，阴性",
+            "une carte postal，阴性"
+          ],
+          "answer": 1,
+          "explanation": "carte是阴性，postale随名词配合。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l19-q30",
+          "question": "un cadeau的复数是？",
+          "options": [
+            "des cadeaus",
+            "des cadeau",
+            "des cadeaux"
+          ],
+          "answer": 2,
+          "explanation": "cadeau复数加x。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l19-q31",
+          "question": "给女性Mei写称呼：",
+          "options": [
+            "Chère Mei,",
+            "Cher Mei,",
+            "Chères Mei,"
+          ],
+          "answer": 0,
+          "explanation": "按女性单数收信人写Chère。",
+          "group": "writing"
+        },
+        {
+          "id": "l19-q32",
+          "question": "女写信人给男性Paul写称呼：",
+          "options": [
+            "Chère Paul,",
+            "Cher Paul,",
+            "Chers Paul,"
+          ],
+          "answer": 1,
+          "explanation": "称呼看收信人Paul，不看写信人的性别。",
+          "group": "writing"
+        },
+        {
+          "id": "l19-q33",
+          "question": "rentrer à la maison在旅行叙述中通常是？",
+          "options": [
+            "寄明信片",
+            "参观市中心",
+            "回家"
+          ],
+          "answer": 2,
+          "explanation": "rentrer常表示返回家或原来所在处。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l19-q34",
+          "question": "là-bas是？",
+          "options": [
+            "地点副词，那里",
+            "阴性名词，楼梯",
+            "动词，倒下"
+          ],
+          "answer": 0,
+          "explanation": "地点副词不按主语变形；Elles sont allées là-bas.",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l19-q35",
+          "question": "原创卡片的写作时间是？",
+          "options": [
+            "周五上午",
+            "周日晚上",
+            "下个月"
+          ],
+          "answer": 1,
+          "explanation": "标题是Lyon, dimanche soir；按卡片时间参照。",
+          "group": "reading"
+        },
+        {
+          "id": "l19-q36",
+          "question": "Lina与Nora如何到达里昂？",
+          "options": [
+            "乘飞机",
+            "材料未说明",
+            "乘火车"
+          ],
+          "answer": 2,
+          "explanation": "Nous sommes venues en train.",
+          "group": "reading"
+        },
+        {
+          "id": "l19-q37",
+          "question": "她们周五下午做了什么？",
+          "options": [
+            "参观一座博物馆",
+            "去了尼斯",
+            "买了火车"
+          ],
+          "answer": 0,
+          "explanation": "Nous avons visité un musée. 名称未给出。",
+          "group": "reading"
+        },
+        {
+          "id": "l19-q38",
+          "question": "她们周六晚上几点回旅馆？",
+          "options": [
+            "10点",
+            "21点",
+            "材料未说明"
+          ],
+          "answer": 1,
+          "explanation": "à vingt et une heures对应21点。",
+          "group": "reading"
+        },
+        {
+          "id": "l19-q39",
+          "question": "Nora是否买了礼物？",
+          "options": [
+            "确定没有买",
+            "确定买了",
+            "无法确定"
+          ],
+          "answer": 2,
+          "explanation": "Je n’ai pas acheté de cadeau.只说明写信人Lina。",
+          "group": "reading"
+        },
+        {
+          "id": "l19-q40",
+          "question": "下月去尼斯的计划是什么？",
+          "options": [
+            "待四天",
+            "四天后出发",
+            "已停留四天"
+          ],
+          "answer": 0,
+          "explanation": "pour quatre jours是计划时长，不能换成dans。",
+          "group": "reading"
+        },
+        {
+          "id": "l19-q41",
+          "question": "vous êtes中的联诵辅音是？",
+          "options": [
+            "/s/",
+            "/z/",
+            "/ʁ/"
+          ],
+          "answer": 1,
+          "explanation": "vous词尾s在这里联诵为/z/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l19-q42",
+          "question": "sont-elles中需要读出的连接辅音是？",
+          "options": [
+            "/z/",
+            "/v/",
+            "/t/"
+          ],
+          "answer": 2,
+          "explanation": "sont自身有t，倒装时读出，不再另加-t-。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l19-q43",
+          "question": "sommes arrivés中/m/属于？",
+          "options": [
+            "本来就发音的辅音连音",
+            "新添的联诵/z/",
+            "过去分词的复数标记"
+          ],
+          "answer": 0,
+          "explanation": "sommes的/m/本来发音，与后面的元音相连。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l19-q44",
+          "question": "allé／allée／allés／allées通常怎样读？",
+          "options": [
+            "每多一个e必须多一音节",
+            "通常同音，写作按主语配合",
+            "复数s必须单独读"
+          ],
+          "answer": 1,
+          "explanation": "许多性数标记只体现在书写，不靠听音确定。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l19-q45",
+          "question": "“她参观了博物馆，然后回家了”应选：",
+          "options": [
+            "Elle est visitée le musée, puis elle a rentré.",
+            "Elle a visiter le musée, puis elle est rentrer.",
+            "Elle a visité le musée, puis elle est rentrée."
+          ],
+          "answer": 2,
+          "explanation": "visiter用avoir，rentrer自身回家用être。",
+          "group": "writing"
+        },
+        {
+          "id": "l19-q46",
+          "question": "两位女性说“我们坐火车来的”：",
+          "options": [
+            "Nous sommes venues en train.",
+            "Nous sommes venu en train.",
+            "Nous avons venir en train."
+          ],
+          "answer": 0,
+          "explanation": "sommes＋venues，女性复数配合。",
+          "group": "writing"
+        },
+        {
+          "id": "l19-q47",
+          "question": "补充：Elle s’est lavé les mains.说明什么？",
+          "options": [
+            "只要助动词être就永远加e。",
+            "代词式配合不能无条件按主语加e。",
+            "les mains是主语。"
+          ],
+          "answer": 1,
+          "explanation": "后置直接宾语les mains影响配合，本课只作边界识别。",
+          "group": "grammar"
+        },
+        {
+          "id": "l19-q48",
+          "question": "本课明信片练习要求60—80词意味着？",
+          "options": [
+            "任何法语考试都强制这个字数。",
+            "写满字数就证明已达到NCLC7。",
+            "本站练习建议，不是考试评分标准。"
+          ],
+          "answer": 2,
+          "explanation": "教材和本站练习的完成度不等于语言或考试等级达标。",
+          "group": "writing"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "tense",
+          "agreement",
+          "verbs",
+          "auxiliaries",
+          "patterns",
+          "duration",
+          "review"
+        ],
+        "vocabulary": [
+          "words",
+          "verbs",
+          "auxiliaries"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading"
+        ],
+        "speaking": [
+          "communicate",
+          "patterns",
+          "duration",
+          "writing"
+        ],
+        "writing": [
+          "agreement",
+          "patterns",
+          "duration",
+          "writing"
+        ]
+      },
+      "listening": "听教材第19课旅行与返回对话：先抓人物、地点和交通方式，再分别记录出发／到达时刻、实际停留、预定时长和多久以后返回；第三遍标être与avoir、分词配合、否定和节奏联诵。对照教材核查，不把本站Lina明信片当成音轨逐字稿。最后按时间线复述30—60秒。"
     }
   ]
 };
