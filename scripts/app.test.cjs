@@ -299,13 +299,13 @@ const authoredCoverage={
   16:['reprenons','prennent','nous nageons','recommençons','se détend','jusqu’à','未提及','采访','报刊','/ʁ/'],
   17:['buvons','buvez','boivent','j’achète','nous mangeons','de l’eau','un litre de lait','部分冠词','/œ/','/ø/'],
   18:['j’ai acheté','nous avons mangé','vous avez pris','elles ont bu','过去分词','un bel hôtel','belles','强调重音'],
-  19:['je suis arrivé(e)','elles sont venues','nous sommes rentrées','pour trois jours','dans trois jours','Est-elle partie','节奏组','明信片']
+  19:['je suis arrivé(e)','elles sont venues','nous sommes rentrées','pour trois jours','dans trois jours','Est-elle partie','节奏组','明信片','parvenue','intervenue','reparties','J’y suis déjà allé.']
 };
 const authoredCourseChecks=JSON.parse(fs.readFileSync(path.join(root,'lessons/catalog.json'),'utf8')).filter(c=>c.number>=5&&c.number<=19&&fs.existsSync(path.join(root,'lessons',String(c.number).padStart(2,'0')+'.json')));
 for(const {number:n} of authoredCourseChecks)test(`lesson ${n}: verified core, skill routes and persistent review`,()=>{
   const a=app(null,'#lesson/'+n);
   for(const text of authoredCoverage[n])assert.ok(a.main.innerHTML.includes(text),text);
-  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,n===19?48:n===18?62:n>=15?42:30);
+  assert.equal((a.main.innerHTML.match(/data-question=/g)||[]).length,n===19?64:n===18?62:n>=15?42:30);
   assert.equal((a.main.innerHTML.match(/<details>/g)||[]).length,10);
   for(const kind of ['grammar','vocabulary','pronunciation','listening','speaking','reading','writing']){
     const page=app(null,`#${kind}/${n}`);assert.ok(page.main.innerHTML.includes(`#lesson/${n}`),kind);assert.ok(page.elements.navigation.innerHTML.includes(`#grammar/${n}`),kind);
@@ -809,13 +809,13 @@ test('lesson 16 replaces its notebook placeholder without losing notes or earlie
   assert.deepEqual(JSON.parse(a.storage.value).wrong,['l15-q01']);
 });
 
-for(const [n,term,anchor] of [[17,'buvons','verbs'],[18,'j’ai acheté','verbs'],[19,'revenues','verbs']])test(`lesson ${n} replaces notebook content while retaining earlier mistakes, notes and completion`,()=>{
+for(const [n,term,anchor] of [[17,'buvons','verbs'],[18,'j’ai acheté','verbs'],[19,'地点副代词y','y']])test(`lesson ${n} replaces notebook content while retaining earlier mistakes, notes and completion`,()=>{
   const saved=progress({currentLesson:n,completed:[16],favorites:[n],notes:{[`lesson-${n}`]:'原有教材笔记','lesson-15':'早期笔记'},wrong:['l15-q01'],attempts:{'l15-q01':false}});
   const a=app(saved,'#lesson/'+n);
   assert.ok(a.main.innerHTML.includes('原有教材笔记'));
   assert.ok(!a.main.innerHTML.includes('本课详细讲义正在补充'));
   const course=a.context.COURSE_LIBRARY.lessons.find(c=>c.number===n);
-  const q=course.quickQuestions[0];
+  const q=n===19?course.quickQuestions.find(q=>q.id==='l19-q55'):course.quickQuestions[0];
   const form={dataset:{question:q.id},answer:String((q.answer+1)%q.options.length),querySelector:()=>({})};
   a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
   const review=app(a.storage.value,'#review');

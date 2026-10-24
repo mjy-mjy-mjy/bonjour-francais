@@ -151,8 +151,9 @@ node --test scripts/app.test.cjs
 第19课补充（2026-10-24）：
 
 - [Chère Léa… · 亲爱的蕾娅……](https://mjy-mjy-mjy.github.io/bonjour-francais/#lesson/19)：être复合过去时、分词性数配合、助动词选择、否定／倒装／副词衔接、pour／dans与时间时长、旅行词汇、节奏组及联诵连音、原创明信片和听说读写任务。
-- aller、arriver、partir、rentrer、rester、venir、revenir、retourner共8张六人称现在时／过去时对照；on、礼貌vous、双助动词和代词式配合的边界分别标为补充，避免“移动动词都用être”等过度概括。
-- 14模块、10组100项书面任务和逐项解析、48道小测；七类学习入口、搜索、笔记、错题、收藏沿用原机制，原第1—18课内容及用户记录保留。构建、内容与脚本检查、78项功能测试通过；核对记录见`lessons/audits/19.md`，发布记录见`docs/PROGRESS.md`。本轮未进行浏览器视觉实测。
+- aller、arriver、partir、rentrer、rester、venir、revenir、retourner及拓展repartir、parvenir、intervenir共11张六人称现在时／过去时对照。repartir服务旅行表达，parvenir／intervenir先识别其含义、搭配与助动词；主表19条不是法语être动词总数。on、礼貌vous、双助动词和代词式配合的边界分别标为补充。
+- [地点副代词y独立章节](https://mjy-mjy-mjy.github.io/bonjour-francais/#lesson/19/y)：替代完整已知地点、être／avoir复合时态、否定与倒装、déjà等普通副词的位置、分词配合、来源en与人的指代边界；不定式和命令式位置作复习预览。
+- 当前15模块、10组132项书面任务和逐项解析、64道小测。本次新增32项任务及16道小测，原48题、原章节ID和笔记键保留。七类入口、搜索、笔记、错题和收藏沿用原机制；构建、内容与脚本检查、78项功能测试通过，核对记录见`lessons/audits/19.md`，发布记录见`docs/PROGRESS.md`。本轮未进行浏览器视觉实测。
 
 第20课及以后的详细内容尚待编写，提供教材学习记录与笔记入口；目录中的课题或课次入口不代表正文已经完成。A2及中级、考试专项内容将在后续扩充。
 
