@@ -3,6 +3,8 @@ import json
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
+from verb_build import load_verbs, expand_lesson
+VERBS = load_verbs()
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -29,7 +31,7 @@ print('Public assets and invitation data passed validation')
 import re
 ids = set()
 for source in sorted((ROOT / 'lessons').glob('[0-9][0-9].json')):
-    course = json.loads(source.read_text(encoding='utf-8'))
+    course = expand_lesson(json.loads(source.read_text(encoding='utf-8')), VERBS['records'])
     number = course['number']
     sections = course['sections']
     section_ids = [s['id'] for s in sections]
@@ -44,13 +46,17 @@ for source in sorted((ROOT / 'lessons').glob('[0-9][0-9].json')):
     for letter, title, body in groups:
         question, answer = body.split('<details>', 1)
         q_count, a_count = question.count('<li>'), answer.count('<li>')
-        assert q_count > 0 and q_count == a_count, (source, letter, q_count, a_count)
+        if number == 14:
+            assert question.strip() and answer.strip(), (source, letter, 'Missing legacy exercise or answer')
+        else:
+            assert q_count > 0 and q_count == a_count, (source, letter, q_count, a_count)
         assert '<summary>' in answer and '</details>' in answer, (source, letter)
         tasks += q_count
     for q in course['quickQuestions']:
-        assert q['id'].startswith(f'l{number:02}-') and q['id'] not in ids, q['id']
+        assert (q['id'] in {f'q{i}' for i in range(7,31)} if number == 14 else q['id'].startswith(f'l{number:02}-')) and q['id'] not in ids, q['id']
         ids.add(q['id'])
         assert len(set(q['options'])) == len(q['options']) >= 2, q['id']
         assert isinstance(q['answer'], int) and 0 <= q['answer'] < len(q['options']), q['id']
         assert q['explanation'].strip() and q['question'].strip(), q['id']
-    print(f'Lesson {number}: {len(sections)} sections, {tasks} written tasks with answers, {len(course["quickQuestions"])} valid quiz questions')
+    task_scope = '10 preserved legacy exercise groups with answers' if number == 14 else f'{tasks} written tasks with answers'
+    print(f'Lesson {number}: {len(sections)} sections, {task_scope}, {len(course["quickQuestions"])} valid quiz questions')

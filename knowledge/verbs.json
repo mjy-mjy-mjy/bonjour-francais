@@ -1,0 +1,2166 @@
+{
+  "version": 1,
+  "scope": {
+    "book": "taxi-1",
+    "stage": "A1",
+    "lessons": [
+      1,
+      16
+    ],
+    "tense": "present",
+    "description": "第1—16课已明确提供完整六人称的直陈式现在时；识别词、不完整表达与命令式另见盘点。"
+  },
+  "persons": [
+    "je",
+    "tu",
+    "il / elle / on",
+    "nous",
+    "vous",
+    "ils / elles"
+  ],
+  "records": [
+    {
+      "id": "present-etre",
+      "infinitive": "être",
+      "meaning": "是；处于某状态／位置",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "suis",
+        "es",
+        "est",
+        "sommes",
+        "êtes",
+        "sont"
+      ],
+      "notes": [
+        "suis／es／est／sommes／êtes／sont分别记忆；年龄通常用avoir。第1课复数部分为拓展，第5课系统复习。"
+      ],
+      "examples": [
+        {
+          "fr": "Je suis dans la chambre.",
+          "zh": "我在房间里。"
+        }
+      ],
+      "skillIds": [
+        "g-etre"
+      ],
+      "refs": [
+        {
+          "lesson": 1,
+          "section": "verbs",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "单数为本课核心，部分复数形式为查阅拓展。"
+        },
+        {
+          "lesson": 2,
+          "section": "identity",
+          "role": "review",
+          "table": 1,
+          "column": 1,
+          "kind": "column"
+        },
+        {
+          "lesson": 5,
+          "section": "etre",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        },
+        {
+          "lesson": 1,
+          "section": "pronouns",
+          "role": "review",
+          "kind": "pronouns",
+          "table": 0,
+          "column": 2
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 1,
+      "jeElision": false
+    },
+    {
+      "id": "present-s-appeler",
+      "infinitive": "s’appeler",
+      "meaning": "名叫；叫作",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "m’appelle",
+        "t’appelles",
+        "s’appelle",
+        "nous appelons",
+        "vous appelez",
+        "s’appellent"
+      ],
+      "notes": [
+        "普通appeler可表示叫某人或给某人打电话；代词式用于姓名。appelle双l，appelons／appelez单l。"
+      ],
+      "examples": [
+        {
+          "fr": "Je m’appelle Mei.",
+          "zh": "我叫梅。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 1,
+          "section": "verbs",
+          "role": "core",
+          "table": 1,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "单数为本课核心，部分复数形式为查阅拓展。"
+        },
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "review",
+          "table": 6,
+          "column": 2,
+          "kind": "column"
+        },
+        {
+          "lesson": 1,
+          "section": "pronouns",
+          "role": "review",
+          "kind": "pronouns",
+          "table": 0,
+          "column": 3
+        }
+      ],
+      "relatedIds": [
+        "present-appeler"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 1,
+      "jeElision": false
+    },
+    {
+      "id": "present-habiter",
+      "infinitive": "habiter",
+      "meaning": "居住",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "habite",
+        "habites",
+        "habite",
+        "habitons",
+        "habitez",
+        "habitent"
+      ],
+      "notes": [
+        "哑音h允许j’habite；城市à、国家按en／au等结构，不能由居住地推出国籍。"
+      ],
+      "examples": [
+        {
+          "fr": "J’habite à Lyon.",
+          "zh": "我住在里昂。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 2,
+          "section": "identity",
+          "role": "extension",
+          "table": 1,
+          "column": 2,
+          "kind": "column"
+        },
+        {
+          "lesson": 9,
+          "section": "habiter",
+          "role": "review",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 2,
+      "jeElision": true
+    },
+    {
+      "id": "present-parler",
+      "infinitive": "parler",
+      "meaning": "说；讲某种语言",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "parle",
+        "parles",
+        "parle",
+        "parlons",
+        "parlez",
+        "parlent"
+      ],
+      "notes": [
+        "parler＋语言名，如parler français；语言名不随说话者性别变化。"
+      ],
+      "examples": [
+        {
+          "fr": "Je parle français.",
+          "zh": "我说法语。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 2,
+          "section": "identity",
+          "role": "extension",
+          "table": 1,
+          "column": 3,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 2,
+      "jeElision": false
+    },
+    {
+      "id": "present-avoir",
+      "infinitive": "avoir",
+      "meaning": "有；表达年龄与身体特征",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "ai",
+        "as",
+        "a",
+        "avons",
+        "avez",
+        "ont"
+      ],
+      "notes": [
+        "j’ai省音；复数avons／avez／ont区别于être的sommes／êtes／sont。"
+      ],
+      "examples": [
+        {
+          "fr": "J’ai vingt ans.",
+          "zh": "我二十岁。"
+        }
+      ],
+      "skillIds": [
+        "g-avoir"
+      ],
+      "refs": [
+        {
+          "lesson": 3,
+          "section": "verbs",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "单数为本课核心，部分复数形式为查阅拓展。"
+        },
+        {
+          "lesson": 6,
+          "section": "avoir",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 3,
+      "jeElision": true
+    },
+    {
+      "id": "present-aller",
+      "infinitive": "aller",
+      "meaning": "去；近况如何",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "vais",
+        "vas",
+        "va",
+        "allons",
+        "allez",
+        "vont"
+      ],
+      "notes": [
+        "虽以-er结尾，仍是第三组；去某地与aller＋不定式要结合语境。"
+      ],
+      "examples": [
+        {
+          "fr": "Je vais à la gare.",
+          "zh": "我去火车站。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 3,
+          "section": "verbs",
+          "role": "core",
+          "table": 0,
+          "column": 2,
+          "kind": "column",
+          "roleNote": "单数为本课核心，部分复数形式为查阅拓展。"
+        },
+        {
+          "lesson": 10,
+          "section": "prendre",
+          "role": "review",
+          "table": 0,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 3,
+      "jeElision": false
+    },
+    {
+      "id": "present-aimer",
+      "infinitive": "aimer",
+      "meaning": "喜欢；爱",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "aime",
+        "aimes",
+        "aime",
+        "aimons",
+        "aimez",
+        "aiment"
+      ],
+      "notes": [
+        "喜欢一类事物常接定冠词；喜欢做某事接不定式。aime前je省音。"
+      ],
+      "examples": [
+        {
+          "fr": "J’aime le cinéma.",
+          "zh": "我喜欢电影。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 4,
+          "section": "verbs",
+          "role": "extension",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 4,
+      "jeElision": true
+    },
+    {
+      "id": "present-adorer",
+      "infinitive": "adorer",
+      "meaning": "很喜欢；喜爱",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "adore",
+        "adores",
+        "adore",
+        "adorons",
+        "adorez",
+        "adorent"
+      ],
+      "notes": [
+        "接名词或不定式；喜好强度看语境，不用固定百分比衡量。"
+      ],
+      "examples": [
+        {
+          "fr": "J’adore la musique.",
+          "zh": "我很喜欢音乐。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 4,
+          "section": "verbs",
+          "role": "extension",
+          "table": 0,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 4,
+      "jeElision": true
+    },
+    {
+      "id": "present-detester",
+      "infinitive": "détester",
+      "meaning": "讨厌；很不喜欢",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "déteste",
+        "détestes",
+        "déteste",
+        "détestons",
+        "détestez",
+        "détestent"
+      ],
+      "notes": [
+        "规则-er变位；保留é，不把词尾-ent读作鼻化元音。"
+      ],
+      "examples": [
+        {
+          "fr": "Je déteste le football.",
+          "zh": "我不喜欢足球。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 4,
+          "section": "verbs",
+          "role": "extension",
+          "table": 0,
+          "column": 3,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 4,
+      "jeElision": false
+    },
+    {
+      "id": "present-couter",
+      "infinitive": "coûter",
+      "meaning": "花费；价格为",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "coûte",
+        "coûtes",
+        "coûte",
+        "coûtons",
+        "coûtez",
+        "coûtent"
+      ],
+      "notes": [
+        "价格场景通常以商品作主语；单数coûte、复数coûtent。六人称是查阅形式，不强造每个人称的购物用法。"
+      ],
+      "examples": [
+        {
+          "fr": "Cette veste coûte vingt euros.",
+          "zh": "这件外套二十欧元。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 7,
+          "section": "prices",
+          "role": "extension",
+          "table": 0,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "价格句型为核心；完整六人称供查阅，通常以商品作主语。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 7,
+      "jeElision": false
+    },
+    {
+      "id": "present-prendre",
+      "infinitive": "prendre",
+      "meaning": "拿；乘坐；吃／喝",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "prends",
+        "prends",
+        "prend",
+        "prenons",
+        "prenez",
+        "prennent"
+      ],
+      "notes": [
+        "prenons／prenez单n，prennent双n；搭配prendre le bus／le petit-déjeuner。"
+      ],
+      "examples": [
+        {
+          "fr": "Je prends le bus.",
+          "zh": "我乘公交车。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 10,
+          "section": "prendre",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        },
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "review",
+          "table": 0,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 10,
+      "jeElision": false
+    },
+    {
+      "id": "present-partir",
+      "infinitive": "partir",
+      "meaning": "出发；离开",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "pars",
+        "pars",
+        "part",
+        "partons",
+        "partez",
+        "partent"
+      ],
+      "notes": [
+        "单数pars／part去掉词干t，复数partons／partez／partent保留t；出发时间用à／vers。"
+      ],
+      "examples": [
+        {
+          "fr": "Je pars à huit heures.",
+          "zh": "我八点出发。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 13,
+          "section": "partir",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 13,
+      "jeElision": false
+    },
+    {
+      "id": "present-faire",
+      "infinitive": "faire",
+      "meaning": "做；从事某活动",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "fais",
+        "fais",
+        "fait",
+        "faisons",
+        "faites",
+        "font"
+      ],
+      "notes": [
+        "vous faites、ils font不是规则推导；nous faisons中fai-常读/fə/。运动faire de，职业问句faire dans la vie。"
+      ],
+      "examples": [
+        {
+          "fr": "Nous faisons des photos.",
+          "zh": "我们拍照。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 14,
+          "section": "faire",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        },
+        {
+          "lesson": 15,
+          "section": "sports",
+          "role": "review",
+          "kind": "inline"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 14,
+      "jeElision": false
+    },
+    {
+      "id": "present-travailler",
+      "infinitive": "travailler",
+      "meaning": "工作",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "travaille",
+        "travailles",
+        "travaille",
+        "travaillons",
+        "travaillez",
+        "travaillent"
+      ],
+      "notes": [
+        "与habiter居住不同；travailler à＋城市、dans＋场所、chez＋人／机构。"
+      ],
+      "examples": [
+        {
+          "fr": "Je travaille à Paris.",
+          "zh": "我在巴黎工作。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 14,
+          "section": "verbs",
+          "role": "review",
+          "table": 2,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 14,
+      "jeElision": false
+    },
+    {
+      "id": "present-rentrer",
+      "infinitive": "rentrer",
+      "meaning": "回来；回家",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "rentre",
+        "rentres",
+        "rentre",
+        "rentrons",
+        "rentrez",
+        "rentrent"
+      ],
+      "notes": [
+        "rentrer à la maison／chez soi；回来得晚不等于迟到。"
+      ],
+      "examples": [
+        {
+          "fr": "Je rentre vers dix-neuf heures.",
+          "zh": "我十九点左右回家。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 14,
+          "section": "verbs",
+          "role": "review",
+          "table": 2,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 14,
+      "jeElision": false
+    },
+    {
+      "id": "present-commencer",
+      "infinitive": "commencer",
+      "meaning": "开始",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "commence",
+        "commences",
+        "commence",
+        "commençons",
+        "commencez",
+        "commencent"
+      ],
+      "notes": [
+        "nous commençons用ç保留/s/；其他本表形式为c。"
+      ],
+      "examples": [
+        {
+          "fr": "Nous commençons à neuf heures.",
+          "zh": "我们九点开始。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 14,
+          "section": "verbs",
+          "role": "review",
+          "table": 2,
+          "column": 3,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 14,
+      "jeElision": false
+    },
+    {
+      "id": "present-lire",
+      "infinitive": "lire",
+      "meaning": "读；阅读",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "lis",
+        "lis",
+        "lit",
+        "lisons",
+        "lisez",
+        "lisent"
+      ],
+      "notes": [
+        "lis／lit与lisons／lisez／lisent比较，第三人称复数有可听见的/z/。"
+      ],
+      "examples": [
+        {
+          "fr": "Je lis un livre.",
+          "zh": "我读一本书。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "readwrite",
+          "role": "core",
+          "table": 0,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-ecrire",
+      "infinitive": "écrire",
+      "meaning": "写",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "écris",
+        "écris",
+        "écrit",
+        "écrivons",
+        "écrivez",
+        "écrivent"
+      ],
+      "notes": [
+        "单数écris／écrit，复数écrivons／écrivez／écrivent有-v-；j’écris省音。"
+      ],
+      "examples": [
+        {
+          "fr": "J’écris une lettre.",
+          "zh": "我写一封信。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "readwrite",
+          "role": "core",
+          "table": 0,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": true
+    },
+    {
+      "id": "present-laver",
+      "infinitive": "laver",
+      "meaning": "洗……",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "lave",
+        "laves",
+        "lave",
+        "lavons",
+        "lavez",
+        "lavent"
+      ],
+      "notes": [
+        "普通形式直接接被洗的对象；洗漱se laver需配套代词。"
+      ],
+      "examples": [
+        {
+          "fr": "Elle lave les mains de son enfant.",
+          "zh": "她给孩子洗手。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 1,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-se-laver"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-se-laver",
+      "infinitive": "se laver",
+      "meaning": "洗漱；洗自己",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "me lave",
+        "te laves",
+        "se lave",
+        "nous lavons",
+        "vous lavez",
+        "se lavent"
+      ],
+      "notes": [
+        "代词随主语变化；身体部位常用定冠词，例如se laver les mains。"
+      ],
+      "examples": [
+        {
+          "fr": "Je me lave les mains.",
+          "zh": "我洗手。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 1,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-laver"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-reposer",
+      "infinitive": "reposer",
+      "meaning": "放回；使……休息",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "repose",
+        "reposes",
+        "repose",
+        "reposons",
+        "reposez",
+        "reposent"
+      ],
+      "notes": [
+        "普通形式与se reposer休息分开；解释需结合具体对象。"
+      ],
+      "examples": [
+        {
+          "fr": "Je repose le livre sur la table.",
+          "zh": "我把书放回桌上。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 2,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-se-reposer"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-se-reposer",
+      "infinitive": "se reposer",
+      "meaning": "休息",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "me repose",
+        "te reposes",
+        "se repose",
+        "nous reposons",
+        "vous reposez",
+        "se reposent"
+      ],
+      "notes": [
+        "代词式表达自己休息；与se détendre放松的意义可重叠。"
+      ],
+      "examples": [
+        {
+          "fr": "Nous nous reposons.",
+          "zh": "我们休息。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 2,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-reposer"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-reveiller",
+      "infinitive": "réveiller",
+      "meaning": "叫醒……",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "réveille",
+        "réveilles",
+        "réveille",
+        "réveillons",
+        "réveillez",
+        "réveillent"
+      ],
+      "notes": [
+        "普通形式接被叫醒的人；se réveiller表示自己醒来。"
+      ],
+      "examples": [
+        {
+          "fr": "Elle réveille son enfant.",
+          "zh": "她叫醒孩子。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 3,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-se-reveiller"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-se-reveiller",
+      "infinitive": "se réveiller",
+      "meaning": "醒来",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "me réveille",
+        "te réveilles",
+        "se réveille",
+        "nous réveillons",
+        "vous réveillez",
+        "se réveillent"
+      ],
+      "notes": [
+        "醒来不等于起床se lever；两个动作可以有不同时间。"
+      ],
+      "examples": [
+        {
+          "fr": "Je me réveille à six heures.",
+          "zh": "我六点醒来。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 3,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-reveiller"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-habiller",
+      "infinitive": "habiller",
+      "meaning": "给……穿衣",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "habille",
+        "habilles",
+        "habille",
+        "habillons",
+        "habillez",
+        "habillent"
+      ],
+      "notes": [
+        "哑音h允许j’habille；不带反身代词时说明给别人穿衣。"
+      ],
+      "examples": [
+        {
+          "fr": "Elle habille son enfant.",
+          "zh": "她给孩子穿衣。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 4,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-s-habiller"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": true
+    },
+    {
+      "id": "present-s-habiller",
+      "infinitive": "s’habiller",
+      "meaning": "自己穿衣",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "m’habille",
+        "t’habilles",
+        "s’habille",
+        "nous habillons",
+        "vous habillez",
+        "s’habillent"
+      ],
+      "notes": [
+        "代词me／te／se在habiller前省音；ne在代词前，不写n’s’habille。"
+      ],
+      "examples": [
+        {
+          "fr": "Je m’habille.",
+          "zh": "我穿衣服。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 4,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-habiller"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-coucher",
+      "infinitive": "coucher",
+      "meaning": "使……躺下；让……上床",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "couche",
+        "couches",
+        "couche",
+        "couchons",
+        "couchez",
+        "couchent"
+      ],
+      "notes": [
+        "普通形式的对象与代词式动作主语不同；这里用让孩子上床的用法。"
+      ],
+      "examples": [
+        {
+          "fr": "Elle couche son enfant.",
+          "zh": "她让孩子上床。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 5,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-se-coucher"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-se-coucher",
+      "infinitive": "se coucher",
+      "meaning": "上床；躺下",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "me couche",
+        "te couches",
+        "se couche",
+        "nous couchons",
+        "vous couchez",
+        "se couchent"
+      ],
+      "notes": [
+        "上床不代表已经睡着；dormir本身不带se。"
+      ],
+      "examples": [
+        {
+          "fr": "Je me couche à vingt-deux heures.",
+          "zh": "我二十二点上床。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 5,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-coucher"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-appeler",
+      "infinitive": "appeler",
+      "meaning": "叫；给……打电话",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "appelle",
+        "appelles",
+        "appelle",
+        "appelons",
+        "appelez",
+        "appellent"
+      ],
+      "notes": [
+        "appeler quelqu’un直接接人；téléphoner à quelqu’un才用à。appelle／appelons注意l。"
+      ],
+      "examples": [
+        {
+          "fr": "J’appelle mes amis.",
+          "zh": "我给朋友打电话。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 6,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-s-appeler"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": true
+    },
+    {
+      "id": "present-lever",
+      "infinitive": "lever",
+      "meaning": "举起；抬起",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "lève",
+        "lèves",
+        "lève",
+        "levons",
+        "levez",
+        "lèvent"
+      ],
+      "notes": [
+        "lève／lèves／lèvent变重音，levons／levez保持e；与se lever起床区分。"
+      ],
+      "examples": [
+        {
+          "fr": "Je lève la main.",
+          "zh": "我举手。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 7,
+          "column": 1,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-se-lever"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-se-lever",
+      "infinitive": "se lever",
+      "meaning": "起身；起床",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "me lève",
+        "te lèves",
+        "se lève",
+        "nous levons",
+        "vous levez",
+        "se lèvent"
+      ],
+      "notes": [
+        "重音规则与lever相同；两个nous／vous分别是主语和反身代词，不可删一个。"
+      ],
+      "examples": [
+        {
+          "fr": "Je me lève à huit heures.",
+          "zh": "我八点起床。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "reflexive",
+          "role": "core",
+          "table": 7,
+          "column": 2,
+          "kind": "column"
+        }
+      ],
+      "relatedIds": [
+        "present-lever"
+      ],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-reprendre",
+      "infinitive": "reprendre",
+      "meaning": "恢复；继续；再拿",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "reprends",
+        "reprends",
+        "reprend",
+        "reprenons",
+        "reprenez",
+        "reprennent"
+      ],
+      "notes": [
+        "变位参考prendre，但保留re-；不能把所有re-机械理解为再次。"
+      ],
+      "examples": [
+        {
+          "fr": "Je reprends le travail.",
+          "zh": "我恢复工作。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 1,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-sortir",
+      "infinitive": "sortir",
+      "meaning": "出门；外出",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "sors",
+        "sors",
+        "sort",
+        "sortons",
+        "sortez",
+        "sortent"
+      ],
+      "notes": [
+        "sors／sort对比sortons／sortez／sortent；本期只整理现在时。"
+      ],
+      "examples": [
+        {
+          "fr": "Je sors le dimanche.",
+          "zh": "我星期日外出。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 2,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-dormir",
+      "infinitive": "dormir",
+      "meaning": "睡觉",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": false,
+      "forms": [
+        "dors",
+        "dors",
+        "dort",
+        "dormons",
+        "dormez",
+        "dorment"
+      ],
+      "notes": [
+        "dors／dort对比dormons／dormez／dorment；没有反身代词，不等于se coucher。"
+      ],
+      "examples": [
+        {
+          "fr": "Je dors bien.",
+          "zh": "我睡得很好。"
+        }
+      ],
+      "skillIds": [
+        "g-irregular"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "review",
+          "table": 3,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        },
+        {
+          "lesson": 15,
+          "section": "patterns",
+          "role": "extension",
+          "table": 2,
+          "kind": "horizontal"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    },
+    {
+      "id": "present-nager",
+      "infinitive": "nager",
+      "meaning": "游泳",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "nage",
+        "nages",
+        "nage",
+        "nageons",
+        "nagez",
+        "nagent"
+      ],
+      "notes": [
+        "nous nageons保留e以维持/ʒ/；其余形式按本表。"
+      ],
+      "examples": [
+        {
+          "fr": "Nous nageons.",
+          "zh": "我们游泳。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 4,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-recommencer",
+      "infinitive": "recommencer",
+      "meaning": "重新开始",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "recommence",
+        "recommences",
+        "recommence",
+        "recommençons",
+        "recommencez",
+        "recommencent"
+      ],
+      "notes": [
+        "nous recommençons用ç；保留re-。"
+      ],
+      "examples": [
+        {
+          "fr": "Nous recommençons un exercice.",
+          "zh": "我们重新做一道练习。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 5,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-retourner",
+      "infinitive": "retourner",
+      "meaning": "返回",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "retourne",
+        "retournes",
+        "retourne",
+        "retournons",
+        "retournez",
+        "retournent"
+      ],
+      "notes": [
+        "本课按返回某处理解；现在时表不引入复合过去时的助动词选择。"
+      ],
+      "examples": [
+        {
+          "fr": "Je retourne à la piscine.",
+          "zh": "我返回游泳池。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 6,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-passer",
+      "infinitive": "passer",
+      "meaning": "度过；经过",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "passe",
+        "passes",
+        "passe",
+        "passons",
+        "passez",
+        "passent"
+      ],
+      "notes": [
+        "本课以passer＋时间为主；其他用法和过去时助动词需另看语境。"
+      ],
+      "examples": [
+        {
+          "fr": "Je passe une journée à Paris.",
+          "zh": "我在巴黎度过一天。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 7,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-s-entrainer",
+      "infinitive": "s’entraîner",
+      "meaning": "训练",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "m’entraîne",
+        "t’entraînes",
+        "s’entraîne",
+        "nous entraînons",
+        "vous entraînez",
+        "s’entraînent"
+      ],
+      "notes": [
+        "元音前m’／t’／s’；nous nous entraînons；保留当前讲义使用的î拼写。"
+      ],
+      "examples": [
+        {
+          "fr": "Je m’entraîne le matin.",
+          "zh": "我早晨训练。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 8,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-se-detendre",
+      "infinitive": "se détendre",
+      "meaning": "放松",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "3",
+      "pronominal": true,
+      "forms": [
+        "me détends",
+        "te détends",
+        "se détend",
+        "nous détendons",
+        "vous détendez",
+        "se détendent"
+      ],
+      "notes": [
+        "détends／détend与détendons／détendez／détendent；代词按人称变化。"
+      ],
+      "examples": [
+        {
+          "fr": "Je me détends avec de la musique.",
+          "zh": "我听音乐放松。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 9,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-se-terminer",
+      "infinitive": "se terminer",
+      "meaning": "结束",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": true,
+      "forms": [
+        "me termine",
+        "te termines",
+        "se termine",
+        "nous terminons",
+        "vous terminez",
+        "se terminent"
+      ],
+      "notes": [
+        "活动结束通常说le cours se termine等第三人称；完整表供查阅，不强造日常自述je me termine。"
+      ],
+      "examples": [
+        {
+          "fr": "Le cours se termine à midi.",
+          "zh": "课程中午结束。"
+        }
+      ],
+      "skillIds": [
+        "g-reflexive"
+      ],
+      "refs": [
+        {
+          "lesson": 16,
+          "section": "verbs",
+          "role": "extension",
+          "table": 10,
+          "column": 1,
+          "kind": "column",
+          "roleNote": "综合运用课中的词汇补充或单元复习，不是新增时态。"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 16,
+      "jeElision": false
+    },
+    {
+      "id": "present-jouer",
+      "infinitive": "jouer",
+      "meaning": "玩；参加运动；演奏",
+      "book": "taxi-1",
+      "stage": "A1",
+      "mood": "indicatif",
+      "tense": "present",
+      "group": "1",
+      "pronominal": false,
+      "forms": [
+        "joue",
+        "joues",
+        "joue",
+        "jouons",
+        "jouez",
+        "jouent"
+      ],
+      "notes": [
+        "运动／游戏jouer à，乐器jouer de；nous jouons，不是jouer。"
+      ],
+      "examples": [
+        {
+          "fr": "Nous jouons au tennis.",
+          "zh": "我们打网球。"
+        }
+      ],
+      "skillIds": [
+        "g-er"
+      ],
+      "refs": [
+        {
+          "lesson": 15,
+          "section": "sports",
+          "role": "core",
+          "kind": "inline"
+        }
+      ],
+      "relatedIds": [],
+      "review": {
+        "status": "checked-against-authored-lessons",
+        "note": "六人称逐项对照既有讲义；查阅说明与例句为本站整理，未宣称新增外部逐词审校。"
+      },
+      "firstLesson": 15,
+      "jeElision": false
+    }
+  ]
+}

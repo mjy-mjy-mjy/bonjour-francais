@@ -1,0 +1,6797 @@
+{
+  "1": {
+    "sections": [
+      "scope",
+      "greetings",
+      "pronouns",
+      "verbs",
+      "questions",
+      "spelling",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l01-q01",
+        "options": [
+          "suis",
+          "es",
+          "est"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q02",
+        "options": [
+          "suis",
+          "es",
+          "est"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q03",
+        "options": [
+          "es",
+          "suis",
+          "est"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q04",
+        "options": [
+          "Je m’appelle Wen.",
+          "Je appelle Wen.",
+          "Je s’appelle Wen."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q05",
+        "options": [
+          "s’appelle",
+          "t’appelles",
+          "m’appelle"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q06",
+        "options": [
+          "m’appelle",
+          "t’appelles",
+          "s’appelle"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q07",
+        "options": [
+          "Comment vous appelez-vous ?",
+          "Comment tu s’appelle ?",
+          "Comment vous vous appelez-vous ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q08",
+        "options": [
+          "appelles",
+          "appelez",
+          "appelle"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q09",
+        "options": [
+          "s’apelle",
+          "s’appeller",
+          "s’appeler"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q10",
+        "options": [
+          "Je m’appelle Wen. / J’appelle Wen.",
+          "J’appelle Wen. / Je m’appelle Wen.",
+          "Je suis Wen. / Je suis Wen."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q11",
+        "options": [
+          "Bonne nuit !",
+          "Bonjour !",
+          "À demain !"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q12",
+        "options": [
+          "Bonne soirée !",
+          "Bonne nuit !",
+          "Bonsoir !"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q13",
+        "options": [
+          "Bonne soirée !",
+          "Bonsoir !",
+          "Prénom !"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q14",
+        "options": [
+          "只用于正式申请信",
+          "熟人之间问候或告别",
+          "只用于睡前"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q15",
+        "options": [
+          "Elle est italien.",
+          "Elle est italiene.",
+          "Elle est italienne."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q16",
+        "options": [
+          "您或你们，需看语境",
+          "只能表示你们",
+          "只能表示你"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q17",
+        "options": [
+          "Bonjour le madame.",
+          "Bonjour, madame.",
+          "Bonjour la madame."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q18",
+        "options": [
+          "Oui.",
+          "Au revoir.",
+          "Je m’appelle Mei."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q19",
+        "options": [
+          "je suis Wen",
+          "vous est Wen",
+          "je m’appelle comment"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q20",
+        "options": [
+          "姓",
+          "名",
+          "国籍"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q21",
+        "options": [
+          "Elle est française.",
+          "Elle est français.",
+          "Elle français."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q22",
+        "options": [
+          "某件事物是什么",
+          "某个人是谁",
+          "别人几岁"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q23",
+        "options": [
+          "完全不同",
+          "常同为 /ɛ/，拼写不同",
+          "都读 /est/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q24",
+        "options": [
+          "/t/",
+          "/s/",
+          "/z/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q25",
+        "options": [
+          "不读；与 appelle 通常同音",
+          "读 /s/",
+          "读 /z/，任何位置都一样"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l01-q26",
+        "options": [
+          "是，绝无例外",
+          "不是，疑问词问句等可有收束语调",
+          "只有陈述句用升调"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q27",
+        "options": [
+          "Ce est Mei.",
+          "C’es Mei.",
+          "C’est Mei."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l01-q28",
+        "options": [
+          "说话者是女性",
+          "femme 是阴性名词",
+          "Ana 是说话者的朋友"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q29",
+        "options": [
+          "对方的地址",
+          "对方是否是 Hugo",
+          "对方的年龄"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l01-q30",
+        "options": [
+          "Bonne nuit，任何时候都合适",
+          "Qui est-ce ?",
+          "À demain !"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "2": {
+    "sections": [
+      "scope",
+      "identity",
+      "articles",
+      "gender",
+      "nationalities",
+      "places",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l02-q01",
+        "options": [
+          "C’est Mei.",
+          "J’habite Mei.",
+          "Elle parle Mei."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q02",
+        "options": [
+          "italien",
+          "italienne",
+          "Italie"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q03",
+        "options": [
+          "canadienne",
+          "Canada",
+          "canadien"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q04",
+        "options": [
+          "Je parle chinois.",
+          "Je parle chinoise.",
+          "Je suis Chine."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q05",
+        "options": [
+          "le",
+          "la",
+          "les，只能复数"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q06",
+        "options": [
+          "le étudiant",
+          "la étudiant",
+          "l’étudiant"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q07",
+        "options": [
+          "阴性",
+          "阳性",
+          "没有性别"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q08",
+        "options": [
+          "la",
+          "le",
+          "l’"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q09",
+        "options": [
+          "suisse → suissee",
+          "italien → italiene",
+          "canadien → canadienne"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q10",
+        "options": [
+          "à",
+          "en",
+          "au"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q11",
+        "options": [
+          "au",
+          "en",
+          "en la"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q12",
+        "options": [
+          "en",
+          "à le",
+          "au"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q13",
+        "options": [
+          "en",
+          "au",
+          "en l’"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q14",
+        "options": [
+          "en",
+          "au",
+          "à la"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q15",
+        "options": [
+          "au Iran",
+          "à l’Iran",
+          "en Iran"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q16",
+        "options": [
+          "aux",
+          "au",
+          "en les"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q17",
+        "options": [
+          "je habite",
+          "j’habite",
+          "je s’habite"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q18",
+        "options": [
+          "parle",
+          "parles",
+          "parlez"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q19",
+        "options": [
+          "habite",
+          "habites",
+          "habitent"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q20",
+        "options": [
+          "vous est chinoise",
+          "je suis chinoise",
+          "elle suis Chine"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q21",
+        "options": [
+          "所有法国公民",
+          "法语这门语言",
+          "讲法语的人／地区等"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q22",
+        "options": [
+          "Vous habitez où ?",
+          "Vous habitez ou ?",
+          "Qui habitez-vous nationalité ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q23",
+        "options": [
+          "Je suis Française.（作为普通形容词）",
+          "Je suis française.",
+          "Je suis la France."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q24",
+        "options": [
+          "1",
+          "3",
+          "2"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q25",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q26",
+        "options": [
+          "阴性必须新增一个完整 /ə/ 音节",
+          "阴性末尾常出现 /z/",
+          "把 f 改为 v"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q27",
+        "options": [
+          "中文送气音",
+          "从不发音词尾新添辅音的连读",
+          "本来发音的辅音参与联诵"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l02-q28",
+        "options": [
+          "Elle est chinoise. Elle habite au Canada.",
+          "Elle est canadienne，因为住加拿大。",
+          "Elle est Chine. Elle habite en Canada."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l02-q29",
+        "options": [
+          "能，由城市推断",
+          "不能，年龄未提供",
+          "都默认 20 岁"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l02-q30",
+        "options": [
+          "au France",
+          "en France",
+          "de France"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "3": {
+    "sections": [
+      "scope",
+      "greetings",
+      "verbs",
+      "possessives",
+      "articles",
+      "questions",
+      "numbers",
+      "words",
+      "phrases",
+      "sound",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l03-q01",
+        "options": [
+          "J’ai dix-neuf ans.",
+          "Je suis dix-neuf ans.",
+          "Je vais dix-neuf ans."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q02",
+        "options": [
+          "a",
+          "as",
+          "ai"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q03",
+        "options": [
+          "ai",
+          "as",
+          "a"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q04",
+        "options": [
+          "vais",
+          "vas",
+          "va"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q05",
+        "options": [
+          "vais",
+          "va",
+          "avez"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q06",
+        "options": [
+          "Comment avez-vous ?",
+          "Comment êtes-vous âge ?",
+          "Comment allez-vous ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q07",
+        "options": [
+          "Et toi ?",
+          "Et tu ?",
+          "Et ton ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q08",
+        "options": [
+          "mon",
+          "ma",
+          "mes"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q09",
+        "options": [
+          "ma",
+          "m’",
+          "mon"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q10",
+        "options": [
+          "numéro 阳性，拥有者男女需看语境",
+          "拥有者必为男性",
+          "号码有多个"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q11",
+        "options": [
+          "un’ adresse",
+          "une adresse",
+          "un adresse"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q12",
+        "options": [
+          "une numéro",
+          "l’une numéro",
+          "un numéro"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q13",
+        "options": [
+          "Quel",
+          "Quelle",
+          "Quelles"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q14",
+        "options": [
+          "Quel",
+          "Quelle",
+          "Quels"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q15",
+        "options": [
+          "Quel est ta adresse ?",
+          "Quelle est ta adresse ?",
+          "Quelle est ton adresse ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q16",
+        "options": [
+          "J’ai vingt ans.",
+          "Vous avez vingt ans.",
+          "Je vais vingt ans."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q17",
+        "options": [
+          "不知道号码",
+          "还不错",
+          "这是邮编"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q18",
+        "options": [
+          "门牌号",
+          "年龄",
+          "邮政编码"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q19",
+        "options": [
+          "保留开头 0",
+          "自动删成 6",
+          "改写为六岁"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q20",
+        "options": [
+          "vingt-un",
+          "vingt et un",
+          "vingt et une，所有位置都如此"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q21",
+        "options": [
+          "dix et neuf",
+          "neuf-dix",
+          "dix-neuf"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q22",
+        "options": [
+          "quatre-vingts",
+          "quatre-vingt et un",
+          "soixante-vingts"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q23",
+        "options": [
+          "每个词都必须独立强重音",
+          "bien",
+          "je 的字母 j"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q24",
+        "options": [
+          "/s/，始终不变",
+          "/t/",
+          "/z/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q25",
+        "options": [
+          "/z/",
+          "/k/",
+          "无论如何都必须停顿"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q26",
+        "options": [
+          "à 必须读成额外一个音节",
+          "常同音，主要看句法结构",
+          "a 一律写重音"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q27",
+        "options": [
+          "年龄",
+          "国籍",
+          "门牌号"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l03-q28",
+        "options": [
+          "不能，职业未提供",
+          "能，19岁必为学生",
+          "能，由电话前缀确定"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l03-q29",
+        "options": [
+          "补一个自己喜欢的数字",
+          "说 Pardon ? 并请对方重复核对",
+          "删掉不清楚的一组再用"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l03-q30",
+        "options": [
+          "Elle est une an.",
+          "Elle a une ans.",
+          "Elle a un an."
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "4": {
+    "sections": [
+      "scope",
+      "profiles",
+      "verbs",
+      "likes",
+      "identity",
+      "questions",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l04-q01",
+        "options": [
+          "aime",
+          "aimes",
+          "aimez"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q02",
+        "options": [
+          "aime",
+          "aimes",
+          "aimez"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q03",
+        "options": [
+          "aimes",
+          "aimez",
+          "aime"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q04",
+        "options": [
+          "J’aime danser.",
+          "J’aime danse.",
+          "J’aime le danser."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q05",
+        "options": [
+          "J’aime musique.",
+          "J’aime la musique.",
+          "J’aime un musique."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q06",
+        "options": [
+          "adore",
+          "adores",
+          "adorez"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q07",
+        "options": [
+          "更热情地喜爱",
+          "完全一样的精确数值",
+          "地址"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q08",
+        "options": [
+          "居住",
+          "讨厌",
+          "说法语"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q09",
+        "options": [
+          "两个国籍词",
+          "两个名词",
+          "名词和动词不定式"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q10",
+        "options": [
+          "Elle s’appelle Ana.",
+          "Elle m’appelle Ana.",
+          "Elle tu appelles Ana."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q11",
+        "options": [
+          "Elle suis vingt et un ans.",
+          "Elle a vingt et un ans.",
+          "Elle a vingt et une ans."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q12",
+        "options": [
+          "Je parle chinoise.",
+          "Je suis Chine.",
+          "Je parle chinois."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q13",
+        "options": [
+          "à Montréal, au Canada",
+          "en Montréal, en Canada",
+          "au Montréal, à le Canada"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q14",
+        "options": [
+          "能，所有说法语的人都是法国人",
+          "不能，语言与国籍分开",
+          "能，由词尾判断"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q15",
+        "options": [
+          "能，喜欢就是能力",
+          "能，等于考试等级",
+          "不能，偏好与能力不同"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q16",
+        "options": [
+          "电影和音乐",
+          "足球和职业",
+          "未提供的旅行目的地"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q17",
+        "options": [
+          "两人都讨厌",
+          "Marco 很喜欢，Mei 讨厌",
+          "两人都未提供"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q18",
+        "options": [
+          "française",
+          "suisse",
+          "chinoise"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q19",
+        "options": [
+          "法语",
+          "中文",
+          "德语"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q20",
+        "options": [
+          "能，活动相近",
+          "不能，唱歌未提及",
+          "必然不喜欢"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q21",
+        "options": [
+          "Qui est-ce âge ?",
+          "Vous êtes quel âge ?",
+          "Quel âge avez-vous ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q22",
+        "options": [
+          "Vous habitez où ?",
+          "Qui habitez-vous ?",
+          "Vous êtes numéro ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q23",
+        "options": [
+          "Et tu ?（独立反问）",
+          "Moi aussi.",
+          "Ma adresse."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q24",
+        "options": [
+          "只写一串电话号码",
+          "猜对方职业",
+          "简介自己，回应共同点，再问相关未知信息"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q25",
+        "options": [
+          "/ʒɛm/，省音后连续",
+          "独立 je 后强停顿再 aime",
+          "末 e 必须加成新音节"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q26",
+        "options": [
+          "/s/",
+          "/z/",
+          "/t/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q27",
+        "options": [
+          "新增的词尾 s 连读",
+          "永远不发音",
+          "elle 本已发音辅音的联诵"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l04-q28",
+        "options": [
+          "可同音，但书写须按人称",
+          "词尾都必须逐字读",
+          "aiment 必须读鼻化 ent"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l04-q29",
+        "options": [
+          "ma adresse",
+          "mon adresse",
+          "mon la adresse"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l04-q30",
+        "options": [
+          "由年龄猜学生",
+          "由喜好猜演员",
+          "写未提及"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "5": {
+    "sections": [
+      "scope",
+      "plural",
+      "etre",
+      "existence",
+      "questions",
+      "places",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l05-q01",
+        "options": [
+          "des livres",
+          "des livre",
+          "un livres"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q02",
+        "options": [
+          "la chaises",
+          "les chaises",
+          "les chaise"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q03",
+        "options": [
+          "des bureaus",
+          "des bureau",
+          "des bureaux"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q04",
+        "options": [
+          "les objets",
+          "l’s objets",
+          "le objets"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q05",
+        "options": [
+          "sont",
+          "sommes",
+          "êtes"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q06",
+        "options": [
+          "sommes",
+          "sont",
+          "êtes"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q07",
+        "options": [
+          "sont",
+          "est",
+          "sommes"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q08",
+        "options": [
+          "il",
+          "elle",
+          "ils"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q09",
+        "options": [
+          "il",
+          "ils",
+          "elles"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q10",
+        "options": [
+          "Il y a trois livres.",
+          "Il y ont trois livres.",
+          "Ils y a trois livres."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q11",
+        "options": [
+          "C’est des chaises.",
+          "Ce sont des chaises.",
+          "Ils y a des chaises."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q12",
+        "options": [
+          "Qui est-ce ?",
+          "Où est-ce livres ?",
+          "Qu’est-ce que c’est ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q13",
+        "options": [
+          "Qu’est-ce qu’il y a dans la chambre ?",
+          "Qu’est-ce que il y a dans la chambre ?",
+          "Qui y ont chambre ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q14",
+        "options": [
+          "Trois.",
+          "Ils sont sur la table.",
+          "Oui."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q15",
+        "options": [
+          "sur",
+          "devant",
+          "dans"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q16",
+        "options": [
+          "sous la chaise",
+          "sur la chaise",
+          "dans de la chaise"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q17",
+        "options": [
+          "à côté la table",
+          "à côté de la table",
+          "sur de la table"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q18",
+        "options": [
+          "près de le bureau",
+          "près le bureau",
+          "près du bureau"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q19",
+        "options": [
+          "entre la table et la chaise",
+          "entre la table ou la chaise",
+          "dans de deux table"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q20",
+        "options": [
+          "table的复数",
+          "画／板，按情景",
+          "所有家具"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q21",
+        "options": [
+          "/s/",
+          "/t/",
+          "/z/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q22",
+        "options": [
+          "可同音，不能只听末s判断",
+          "复数末s始终读/s/",
+          "复数必多一个音节"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q23",
+        "options": [
+          "每次读/z/",
+          "后接辅音时通常不独立读",
+          "读/t/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q24",
+        "options": [
+          "读/ks/",
+          "读/z/，任何位置一样",
+          "不独立读，书写仍保留"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q25",
+        "options": [
+          "sur la table",
+          "dans le sac",
+          "sous le lit"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q26",
+        "options": [
+          "sur le bureau",
+          "dans le sac",
+          "derrière la fenêtre"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q27",
+        "options": [
+          "一定一台",
+          "一定零台",
+          "没有，未提及"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l05-q28",
+        "options": [
+          "Le livre est sur la table.",
+          "Il y ont le livre sur table.",
+          "Le livre sont table."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l05-q29",
+        "options": [
+          "永远都表示一些",
+          "前者不定冠词，后者de+les缩合",
+          "二者都没有冠词"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l05-q30",
+        "options": [
+          "deux des livres",
+          "deux livre",
+          "deux livres"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "6": {
+    "sections": [
+      "scope",
+      "avoir",
+      "tonic",
+      "negative",
+      "agreement",
+      "colors",
+      "possessives",
+      "words",
+      "phrases",
+      "sound",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l06-q01",
+        "options": [
+          "avons",
+          "avez",
+          "ont"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q02",
+        "options": [
+          "avons",
+          "avez",
+          "ont"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q03",
+        "options": [
+          "sont",
+          "avons",
+          "ont"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q04",
+        "options": [
+          "Il n’a pas de sac.",
+          "Il n’a pas un sac.（无特别对比）",
+          "Il pas a sac."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q05",
+        "options": [
+          "Ce n’est pas de veste.",
+          "Ce n’est pas une veste.",
+          "Ce pas veste est."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q06",
+        "options": [
+          "J’n’aime pas de cinéma.",
+          "Je n’aime pas de cinéma.",
+          "Je n’aime pas le cinéma."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q07",
+        "options": [
+          "lui",
+          "il",
+          "son"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q08",
+        "options": [
+          "Et tu ?",
+          "Et toi ?",
+          "Et ton ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q09",
+        "options": [
+          "avec je",
+          "avec mon",
+          "avec moi"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q10",
+        "options": [
+          "Il a un sac.",
+          "Lui a un sac.",
+          "Lui ont un sac."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q11",
+        "options": [
+          "longues",
+          "longs",
+          "longue"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q12",
+        "options": [
+          "blanc",
+          "blancs",
+          "blanche"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q13",
+        "options": [
+          "noirs",
+          "noires",
+          "noire"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q14",
+        "options": [
+          "marrons",
+          "marron",
+          "marronne"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q15",
+        "options": [
+          "oranges",
+          "orangées（另一词义）",
+          "orange"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q16",
+        "options": [
+          "roses",
+          "rose，绝不变",
+          "ros"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q17",
+        "options": [
+          "sa sacs",
+          "ses sacs",
+          "son sacs"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q18",
+        "options": [
+          "leurs sac",
+          "ses sac",
+          "leur sac"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q19",
+        "options": [
+          "nos sacs",
+          "notre sacs",
+          "leurs sacs"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q20",
+        "options": [
+          "能",
+          "不能，son配合sac",
+          "能，由颜色证明"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q21",
+        "options": [
+          "œils",
+          "œiles",
+          "yeux"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q22",
+        "options": [
+          "des lunettes",
+          "une lunettes",
+          "un lunettes"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q23",
+        "options": [
+          "/s/",
+          "/z/",
+          "/t/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q24",
+        "options": [
+          "/z/",
+          "与ils ont完全同音",
+          "/s/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q25",
+        "options": [
+          "/z/",
+          "/s/",
+          "/t/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q26",
+        "options": [
+          "始终加",
+          "一般不，后接辅音",
+          "必须加/t/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q27",
+        "options": [
+          "Hugo",
+          "Mei",
+          "Ana"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l06-q28",
+        "options": [
+          "Mei",
+          "Hugo",
+          "Ana"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l06-q29",
+        "options": [
+          "能，由眼镜判断",
+          "不能，未提及",
+          "能，由身高判断"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l06-q30",
+        "options": [
+          "de，所有否定如此",
+          "sa，人物女性",
+          "ses，物主词不自动换de"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "7": {
+    "sections": [
+      "scope",
+      "demonstratives",
+      "quel",
+      "questions",
+      "prices",
+      "description",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l07-q01",
+        "options": [
+          "Ce",
+          "Cet",
+          "Cette"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q02",
+        "options": [
+          "Cet",
+          "Ce",
+          "Cette"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q03",
+        "options": [
+          "Ces",
+          "Cet",
+          "Cette"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q04",
+        "options": [
+          "ce le sac",
+          "ce sac",
+          "cet sac"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q05",
+        "options": [
+          "Ce",
+          "Cette",
+          "Cet"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q06",
+        "options": [
+          "Cette",
+          "Cet",
+          "Ce"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q07",
+        "options": [
+          "Quelle",
+          "Quels",
+          "Quel"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q08",
+        "options": [
+          "Quel",
+          "Quelles",
+          "Quels"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q09",
+        "options": [
+          "Quelle taille ?",
+          "Quel taille ?",
+          "Quelles taille ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q10",
+        "options": [
+          "Elle coûte combien ?",
+          "Elle est comment ?",
+          "Combien de vestes ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q11",
+        "options": [
+          "Comment est ce sac ?",
+          "Combien coûte ce sac ?",
+          "Combien de sacs est-ce qu’il y a ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q12",
+        "options": [
+          "coûtent",
+          "coûte",
+          "coûtez"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q13",
+        "options": [
+          "vingt-quatre euros cinq",
+          "vingt-quatre euros cinquante",
+          "vingt-quatre euros quinze"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q14",
+        "options": [
+          "huit euros cinquante centimes",
+          "huit euros quinze centimes",
+          "huit euros cinq centimes"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q15",
+        "options": [
+          "chère",
+          "cher",
+          "chers"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q16",
+        "options": [
+          "chère",
+          "chers",
+          "chères"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q17",
+        "options": [
+          "chères",
+          "chers",
+          "cher"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q18",
+        "options": [
+          "Je n’aime pas ces chaussures.",
+          "Je n’aime pas de chaussures.",
+          "Je n’ai pas de chaussures."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q19",
+        "options": [
+          "ces manteaus",
+          "ces manteaux",
+          "cette manteaux"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q20",
+        "options": [
+          "une pantalon",
+          "des pantalon",
+          "un pantalon"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q21",
+        "options": [
+          "/z/",
+          "/t/",
+          "没有衔接辅音"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q22",
+        "options": [
+          "从不发音",
+          "联诵 enchaînement",
+          "ces的/z/连读"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q23",
+        "options": [
+          "必须/t/",
+          "必须/z/",
+          "不作/t/连读"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q24",
+        "options": [
+          "同音，需要语境辨义",
+          "ces读/t/而ses读/s/",
+          "可以仅凭读音辨性别"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q25",
+        "options": [
+          "30 €",
+          "24,50 €",
+          "18 €"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q26",
+        "options": [
+          "le pull bleu",
+          "la veste rouge",
+          "les chaussures noires"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q27",
+        "options": [
+          "不能，资料未提及购买",
+          "能，因为她喜欢",
+          "能，因为她看见价签"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l07-q28",
+        "options": [
+          "Vingt euros.",
+          "Elle est courte et rouge.",
+          "Il y a deux vestes."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l07-q29",
+        "options": [
+          "Je suis trente euros.",
+          "Combien de prix ?",
+          "Pardon, combien ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l07-q30",
+        "options": [
+          "不改，保留指示词",
+          "改de",
+          "改成阳性cet"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "8": {
+    "sections": [
+      "scope",
+      "identity",
+      "portraits",
+      "location",
+      "possessions",
+      "reading-method",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l08-q01",
+        "options": [
+          "a",
+          "est",
+          "ont"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q02",
+        "options": [
+          "est",
+          "sont",
+          "a"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q03",
+        "options": [
+          "Ce sont deux artistes.",
+          "C’est deux artiste.",
+          "Il y ont deux artistes."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q04",
+        "options": [
+          "Cet",
+          "Cette",
+          "Ce"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q05",
+        "options": [
+          "Cette",
+          "Ce",
+          "Cet"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q06",
+        "options": [
+          "courts",
+          "courtes",
+          "courte"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q07",
+        "options": [
+          "marrons",
+          "marron",
+          "marronnes"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q08",
+        "options": [
+          "Ana n’est pas des lunettes.",
+          "Ana n’a pas des lunettes.",
+          "Ana n’a pas de lunettes."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q09",
+        "options": [
+          "Ce n’est pas une peintre.",
+          "Ce n’est pas de peintre.",
+          "Ce n’a pas une peintre."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q10",
+        "options": [
+          "sa",
+          "son",
+          "ses"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q11",
+        "options": [
+          "sur",
+          "sous",
+          "entre"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q12",
+        "options": [
+          "à côté du tableau",
+          "à côté de le tableau",
+          "à côté des tableau"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q13",
+        "options": [
+          "un tableau / une table",
+          "une table / un tableau",
+          "une tableau / un table"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q14",
+        "options": [
+          "une acteur",
+          "une actricee",
+          "une actrice"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q15",
+        "options": [
+          "une musicienne",
+          "un musicien",
+          "une musicien"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q16",
+        "options": [
+          "des tableaus",
+          "des tableaux",
+          "des tableau"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q17",
+        "options": [
+          "30岁",
+          "24岁",
+          "26岁"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q18",
+        "options": [
+          "Luc",
+          "Ana",
+          "Mei"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q19",
+        "options": [
+          "sur la table",
+          "sous la table",
+          "derrière Ana"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q20",
+        "options": [
+          "Vrai",
+          "Non indiqué",
+          "Faux"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q21",
+        "options": [
+          "Non indiqué",
+          "Vrai",
+          "Faux"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q22",
+        "options": [
+          "能，位置已足够",
+          "不能，作者资料未提及",
+          "能，因为所有画都归身旁的人"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q23",
+        "options": [
+          "Ana",
+          "Luc",
+          "le sac rouge"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q24",
+        "options": [
+          "不足，需发色、位置等其他线索",
+          "足够，一定是Ana",
+          "足够，一定是Mei"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q25",
+        "options": [
+          "/t/",
+          "/z/",
+          "/p/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q26",
+        "options": [
+          "完全同音",
+          "都发/il.tɔ̃/",
+          "前者有/z/衔接，后者有/s/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q27",
+        "options": [
+          "联诵 enchaînement",
+          "不发音",
+          "隐藏s的/z/连读"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l08-q28",
+        "options": [
+          "Non, elle a Ana.",
+          "Non, ce n’est pas Ana. C’est Mei.",
+          "Non, il y ont Mei."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l08-q29",
+        "options": [
+          "Elle est les cheveux longues.",
+          "Elle a les cheveux longues.",
+          "Elle a les cheveux longs."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l08-q30",
+        "options": [
+          "不能，这两句的指代可能含混",
+          "一定指Ana",
+          "一定指Mei"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "9": {
+    "sections": [
+      "scope",
+      "tonic",
+      "habiter",
+      "places",
+      "questions",
+      "words",
+      "advert",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l09-q01",
+        "options": [
+          "ils",
+          "eux",
+          "elles"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q02",
+        "options": [
+          "eux",
+          "ils",
+          "elles"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q03",
+        "options": [
+          "Nous.",
+          "Ils.",
+          "Je."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q04",
+        "options": [
+          "habitent",
+          "habitez",
+          "habite"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q05",
+        "options": [
+          "Je habite à Lyon.",
+          "J’habites à Lyon.",
+          "J’habite à Lyon."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q06",
+        "options": [
+          "chez eux",
+          "chez ils",
+          "chez leur"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q07",
+        "options": [
+          "près de le parc",
+          "près du parc",
+          "près des parc"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q08",
+        "options": [
+          "Ou est la gare ?",
+          "Où de est la gare ?",
+          "Où est la gare ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q09",
+        "options": [
+          "Vous habitez où ?",
+          "Vous habitez combien ?",
+          "Vous où habite ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q10",
+        "options": [
+          "pièce一定是chambre",
+          "pièce不一定是chambre",
+          "chambre只能指厨房"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q11",
+        "options": [
+          "45欧元每月",
+          "45间卧室",
+          "45平方米"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q12",
+        "options": [
+          "每月",
+          "每年",
+          "每周"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q13",
+        "options": [
+          "lumineux",
+          "lumineuse",
+          "lumineuses"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q14",
+        "options": [
+          "Eux habitons ici.",
+          "Ils habitez ici.",
+          "Ils habitent ici."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q15",
+        "options": [
+          "北边",
+          "南边",
+          "东边"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q16",
+        "options": [
+          "西边",
+          "东边",
+          "北边"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q17",
+        "options": [
+          "北边",
+          "西边",
+          "南边"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q18",
+        "options": [
+          "1间",
+          "2间",
+          "3间"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q19",
+        "options": [
+          "有电梯无阳台",
+          "无电梯有阳台",
+          "都有"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q20",
+        "options": [
+          "au premier étage",
+          "au deuxième étage",
+          "au rez-de-chaussée"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q21",
+        "options": [
+          "未说明",
+          "确认包含",
+          "确认不包含"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q22",
+        "options": [
+          "肯定有",
+          "未说明",
+          "肯定没有"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q23",
+        "options": [
+          "650欧元一年",
+          "面积650m²",
+          "每月租金650欧元"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q24",
+        "options": [
+          "/y/",
+          "/u/",
+          "/i/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q25",
+        "options": [
+          "/y/",
+          "/u/",
+          "/i/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q26",
+        "options": [
+          "把舌头移到最后",
+          "改成鼻音",
+          "保留前舌舌位并圆唇"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q27",
+        "options": [
+          "均/u/",
+          "前者/y/后者/u/",
+          "前者/i/后者/y/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l09-q28",
+        "options": [
+          "能，全部生活费用",
+          "不能，未列具体项目",
+          "能，只有电梯费"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l09-q29",
+        "options": [
+          "Où est la chambre ?",
+          "Quel est le loyer ?",
+          "Il y a combien de chambres ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l09-q30",
+        "options": [
+          "Elles habitent dans cet appartement.",
+          "Elles habite chez appartement.",
+          "Eux habite dans cette appartement."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "10": {
+    "sections": [
+      "scope",
+      "prendre",
+      "imperative",
+      "articles",
+      "y",
+      "directions",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l10-q01",
+        "options": [
+          "prendons",
+          "prenons",
+          "prennent"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q02",
+        "options": [
+          "prend",
+          "prenez",
+          "prennent"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q03",
+        "options": [
+          "Prenez le bus.",
+          "Prends le bus.",
+          "Vous prennent le bus."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q04",
+        "options": [
+          "Tournes à droite.",
+          "Tourne à droite.",
+          "Tu tourne à droite."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q05",
+        "options": [
+          "Prend cette rue.",
+          "Prendre cette rue.",
+          "Prends cette rue."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q06",
+        "options": [
+          "Prenons le train.",
+          "Prenez le train.",
+          "Prend le train."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q07",
+        "options": [
+          "Vous allez.",
+          "Allez.",
+          "Vont."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q08",
+        "options": [
+          "à le musée",
+          "à la musée",
+          "au musée"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q09",
+        "options": [
+          "aux toilettes",
+          "à les toilettes",
+          "au toilettes"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q10",
+        "options": [
+          "au parc",
+          "du parc",
+          "de le parc"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q11",
+        "options": [
+          "au école",
+          "à la école",
+          "à l’école"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q12",
+        "options": [
+          "J’y vais.",
+          "Je vais y.",
+          "Je y va."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q13",
+        "options": [
+          "Je y ne vais pas.",
+          "Je n’y vais pas.",
+          "Je ne vais y pas."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q14",
+        "options": [
+          "Va-y.",
+          "Y va.",
+          "Vas-y."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q15",
+        "options": [
+          "Allez-y.",
+          "Y allez.",
+          "Allez y."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q16",
+        "options": [
+          "en pied",
+          "à pied",
+          "au pied作为交通词块"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q17",
+        "options": [
+          "Je prends en métro.",
+          "Je prends à métro.",
+          "Je prends le métro."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q18",
+        "options": [
+          "aller à l’école à vélo",
+          "aller à l’école en pied",
+          "prendre à vélo"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q19",
+        "options": [
+          "都表示右转",
+          "直走与向右不同",
+          "都表示左转"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q20",
+        "options": [
+          "poste向西",
+          "gare向东",
+          "gare向北"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q21",
+        "options": [
+          "右转朝东",
+          "左转朝西",
+          "右转朝南"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q22",
+        "options": [
+          "place",
+          "appartement A",
+          "bibliothèque"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q23",
+        "options": [
+          "先去面包店",
+          "先去公园",
+          "右转朝东去图书馆"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q24",
+        "options": [
+          "不能，未给比例和速度",
+          "能，每格一分钟",
+          "能，三分钟固定"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q25",
+        "options": [
+          "/t/",
+          "/z/",
+          "/k/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q26",
+        "options": [
+          "隐藏s连读",
+          "不发音",
+          "联诵 enchaînement"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q27",
+        "options": [
+          "本来发音，/bys/",
+          "永远不发音",
+          "只有接元音才发音"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l10-q28",
+        "options": [
+          "Quel est le loyer ?",
+          "Pardon, à gauche ou à droite ?",
+          "Je prends y."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l10-q29",
+        "options": [
+          "Je tournez à droite.",
+          "Tourne je à droite.",
+          "Je tourne à droite."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l10-q30",
+        "options": [
+          "Nous y allons.",
+          "Nous allons y.",
+          "Nous y va."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "11": {
+    "sections": [
+      "scope",
+      "cest",
+      "on",
+      "places",
+      "advice",
+      "words",
+      "reading",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l11-q01",
+        "options": [
+          "visitons",
+          "visite",
+          "visitez"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q02",
+        "options": [
+          "allons",
+          "allez",
+          "va"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q03",
+        "options": [
+          "a",
+          "avons",
+          "ont"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q04",
+        "options": [
+          "On prenons le bus.",
+          "On prend le bus.",
+          "On prenez le bus."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q05",
+        "options": [
+          "C’est île.",
+          "C’est un île.",
+          "C’est une île."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q06",
+        "options": [
+          "C’est beau.",
+          "C’est belle.",
+          "Ce sont beau."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q07",
+        "options": [
+          "C’est",
+          "Elle est",
+          "Il est"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q08",
+        "options": [
+          "C’est en Fort-de-France.",
+          "C’est au Fort-de-France.",
+          "C’est à Fort-de-France."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q09",
+        "options": [
+          "en Martinique",
+          "en la Martinique",
+          "au Martinique"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q10",
+        "options": [
+          "Vous visite ce jardin.",
+          "Visitez ce jardin.",
+          "Visites ce jardin."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q11",
+        "options": [
+          "Allez-y.",
+          "Vous y va.",
+          "Allons-y."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q12",
+        "options": [
+          "On y va ?",
+          "On y allons ?",
+          "Y on va ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q13",
+        "options": [
+          "On sommes contentes.",
+          "On est contentes.",
+          "On êtes contents."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q14",
+        "options": [
+          "une beau plage",
+          "une beaux plage",
+          "une belle plage"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q15",
+        "options": [
+          "des lieux",
+          "des lieus",
+          "des lieu"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q16",
+        "options": [
+          "en vacance在本课标准词块",
+          "en vacances",
+          "au vacances"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q17",
+        "options": [
+          "北边",
+          "东边资料已给",
+          "南边"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q18",
+        "options": [
+          "北边",
+          "南边",
+          "资料说位于首都内"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q19",
+        "options": [
+          "一片海洋",
+          "城市",
+          "一座独立大陆"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q20",
+        "options": [
+          "au sud de la Martinique的海滩",
+          "Paris郊外",
+          "à Fort-de-France, au centre-ville"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q21",
+        "options": [
+          "jardin A",
+          "plage B",
+          "资料给的机场C"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q22",
+        "options": [
+          "à pied",
+          "en bus",
+          "en train"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q23",
+        "options": [
+          "有，因为有海",
+          "有，因为calme",
+          "没有，未提及"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q24",
+        "options": [
+          "不能，未给时间距离",
+          "能，固定五分钟",
+          "能，全部花园相同"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q25",
+        "options": [
+          "必须读",
+          "不作/t/连读",
+          "必须改/z/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q26",
+        "options": [
+          "必须读",
+          "读成/t/",
+          "不读，嘘音h阻止"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q27",
+        "options": [
+          "前者可/z/连读，后者不读",
+          "二者都禁读",
+          "二者都必须/t/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l11-q28",
+        "options": [
+          "必须连读",
+          "单数名词后不作此连读",
+          "必须改成/t/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l11-q29",
+        "options": [
+          "On sommes ici.",
+          "Quel est des carte ?",
+          "D’accord. On y va !"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l11-q30",
+        "options": [
+          "On n’y va pas.",
+          "On y ne va pas.",
+          "On ne va y pas."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "12": {
+    "sections": [
+      "scope",
+      "city",
+      "structures",
+      "evidence",
+      "words",
+      "housing",
+      "route",
+      "tourism",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l12-q01",
+        "options": [
+          "法国南部",
+          "加拿大北部",
+          "未提及国家"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q02",
+        "options": [
+          "一座城市",
+          "一个港口",
+          "一个国家"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q03",
+        "options": [
+          "步行五分钟",
+          "处于不同国家",
+          "Le Panier靠近Vieux-Port"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q04",
+        "options": [
+          "beau",
+          "belle",
+          "beaux"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q05",
+        "options": [
+          "beau",
+          "belle",
+          "beaux"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q06",
+        "options": [
+          "C’est",
+          "Il y ont",
+          "Ce sont"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q07",
+        "options": [
+          "Il y a",
+          "Il y ont",
+          "Ils ont"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q08",
+        "options": [
+          "visitons",
+          "visite",
+          "visitez"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q09",
+        "options": [
+          "prenons",
+          "prenez",
+          "prend"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q10",
+        "options": [
+          "j’habite",
+          "habite",
+          "nous habitons"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q11",
+        "options": [
+          "à le",
+          "au",
+          "du"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q12",
+        "options": [
+          "de le",
+          "au",
+          "du"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q13",
+        "options": [
+          "à",
+          "en",
+          "au"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q14",
+        "options": [
+          "en pied",
+          "à pied",
+          "au pied"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q15",
+        "options": [
+          "On va y.",
+          "On y allons.",
+          "On y va."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q16",
+        "options": [
+          "Allez-y !",
+          "Y allez !",
+          "Allez y !"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q17",
+        "options": [
+          "两间",
+          "一间",
+          "未提及"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q18",
+        "options": [
+          "二楼",
+          "premier étage",
+          "rez-de-chaussée"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q19",
+        "options": [
+          "未提及，需要询问",
+          "肯定包含",
+          "肯定不含"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q20",
+        "options": [
+          "南",
+          "北",
+          "东"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q21",
+        "options": [
+          "公寓门口",
+          "gare",
+          "poste"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q22",
+        "options": [
+          "向右转",
+          "向左转",
+          "继续向西"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q23",
+        "options": [
+          "Visitez la pharmacie.",
+          "Visitez le musée.",
+          "Visitez la gare."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q24",
+        "options": [
+          "Où est Marseille ?",
+          "C’est beau ?",
+          "Les charges sont comprises ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q25",
+        "options": [
+          "/y/",
+          "/u/",
+          "/i/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q26",
+        "options": [
+          "/z/",
+          "/n/",
+          "/t/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q27",
+        "options": [
+          "添加/t/",
+          "添加/z/",
+          "不添加隐藏/t/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l12-q28",
+        "options": [
+          "本来发音的联诵",
+          "新增隐藏/k/的连读",
+          "应完全不发音"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l12-q29",
+        "options": [
+          "Il y a deux chambres.",
+          "Il y a un salon et une chambre.",
+          "Il n’y a pas de balcon."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l12-q30",
+        "options": [
+          "Va-y",
+          "Allez y",
+          "Vas-y"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "13": {
+    "sections": [
+      "scope",
+      "hours",
+      "dates",
+      "partir",
+      "questions",
+      "tickets",
+      "words",
+      "reading",
+      "phrases",
+      "sound",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l13-q01",
+        "options": [
+          "partons",
+          "partissons",
+          "pars"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q02",
+        "options": [
+          "partons",
+          "part",
+          "partent"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q03",
+        "options": [
+          "part",
+          "partez",
+          "partent"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q04",
+        "options": [
+          "une heure",
+          "un heure",
+          "une heures"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q05",
+        "options": [
+          "huit heures et dix",
+          "huit heures dix",
+          "neuf heures dix"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q06",
+        "options": [
+          "huit heures moins le quart",
+          "neuf heures et quart",
+          "neuf heures moins le quart"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q07",
+        "options": [
+          "midi et demi",
+          "midi et demie",
+          "midi et quart"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q08",
+        "options": [
+          "dix-sept heures et demie",
+          "dix-sept heures trente",
+          "sept heures trente"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q09",
+        "options": [
+          "À quelle heure pars-tu ?",
+          "Quel jour est-ce ?",
+          "Quelle heure est-il ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q10",
+        "options": [
+          "à",
+          "le",
+          "en"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q11",
+        "options": [
+          "le un janvier",
+          "le premier janvier",
+          "le première janvier"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q12",
+        "options": [
+          "le deuxième juin",
+          "à deux juin",
+          "le deux juin"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q13",
+        "options": [
+          "Quelle",
+          "Quel",
+          "Quels"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q14",
+        "options": [
+          "à",
+          "en",
+          "au"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q15",
+        "options": [
+          "下一个周一仅一次",
+          "在星期日出发",
+          "每逢周一出发"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q16",
+        "options": [
+          "partir de Paris",
+          "partir pour Paris",
+          "partir Paris"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q17",
+        "options": [
+          "partir de Lyon",
+          "partir pour Lyon",
+          "partir le Lyon"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q18",
+        "options": [
+          "Je veux Lyon.",
+          "Je pars billet.",
+          "Je voudrais un billet pour Lyon."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q19",
+        "options": [
+          "单程票",
+          "往返票",
+          "车票等级"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q20",
+        "options": [
+          "这班车准点",
+          "这班车满员／售罄",
+          "车票有回程"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q21",
+        "options": [
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q22",
+        "options": [
+          "11 h 15",
+          "9 h 45",
+          "13 h 15"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q23",
+        "options": [
+          "4号座位",
+          "4号股道",
+          "4号车厢"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q24",
+        "options": [
+          "2小时",
+          "1小时35分钟",
+          "1小时50分钟"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q25",
+        "options": [
+          "À quelle heure est-ce que vous partez ?",
+          "À quelle heure est-ce que partez-vous ?",
+          "Quelle heure vous partons ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q26",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ks/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q27",
+        "options": [
+          "/dis/",
+          "/diz/",
+          "/di/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l13-q28",
+        "options": [
+          "/v/",
+          "/z/",
+          "/p/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l13-q29",
+        "options": [
+          "/z/、/s/",
+          "/s/、/z/",
+          "均为/ks/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l13-q30",
+        "options": [
+          "Elle part de Lyon à 13 h 15.",
+          "Elle prend un aller-retour.",
+          "Elle part de Paris à 11 h 15."
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "14": {
+    "sections": [
+      "scope",
+      "faire",
+      "questions",
+      "jobs",
+      "time",
+      "verbs",
+      "words",
+      "phrases",
+      "sound",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "q7",
+        "options": [
+          "faisons",
+          "faisez",
+          "font"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "q8",
+        "options": [
+          "font",
+          "fait",
+          "fais"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q9",
+        "options": [
+          "/nu fɛ.zɔ̃/",
+          "/nu fə.zɔ̃/",
+          "/nu fɛ.sɔn/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q10",
+        "options": [
+          "Est-ce que travaille-t-elle ici ?",
+          "Est-ce que elle travaille ici ?",
+          "Est-ce qu’elle travaille ici ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "q11",
+        "options": [
+          "Quoi est-ce que vous faites maintenant ?",
+          "Qu’est-ce que vous faites maintenant ?",
+          "Qu’est-ce que faites-vous maintenant ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q12",
+        "options": [
+          "À quelle heure est-ce que vous commencez ?",
+          "Où est-ce que vous commencez ?",
+          "Comment est-ce que vous commencez ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "q13",
+        "options": [
+          "Comment vas-tu ?",
+          "Où est-ce que tu habites ?",
+          "Comment est-ce que tu vas au travail ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "q14",
+        "options": [
+          "une acteuse",
+          "une actrice",
+          "une actrienne"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q15",
+        "options": [
+          "Elle est photographe.",
+          "Elle est la photographe.",
+          "C’est photographe."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "q16",
+        "options": [
+          "不填",
+          "un",
+          "une"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "q17",
+        "options": [
+          "Elles sont informaticiens.",
+          "Elles sont informaticiennes.",
+          "Elles sont informaticienne."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q18",
+        "options": [
+          "acteur / actrice",
+          "vendeur / vendeuse",
+          "photographe / photographe"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "q19",
+        "options": [
+          "Je vais au bureau le mardi et le jeudi.",
+          "Je vais au bureau du mardi au jeudi.",
+          "Je vais au bureau tous les jours."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "q20",
+        "options": [
+          "Je travaille du huit heures au midi.",
+          "Je travaille de huit heures à midi.",
+          "Je travaille vers huit heures et midi."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q21",
+        "options": [
+          "vers à",
+          "au",
+          "vers"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "q22",
+        "options": [
+          "les",
+          "des",
+          "不填"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "q23",
+        "options": [
+          "trois fois / trois jours par semaine",
+          "trois jours / trois fois par semaine",
+          "trois jours / trois jours par semaine"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q24",
+        "options": [
+          "vais",
+          "va",
+          "aller"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "q25",
+        "options": [
+          "commençons",
+          "commencons",
+          "commence"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "q26",
+        "options": [
+          "Je rentre à chez moi.",
+          "Je rentre chez moi.",
+          "Je rentre dans moi."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q27",
+        "options": [
+          "/ɑ̃/",
+          "/ɛ̃/",
+          "/ɔ̃/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "q28",
+        "options": [
+          "/sjɛ̃/ → /sjɛn/",
+          "/sjɛ̃/ → /sjɛ̃/",
+          "/sjɛn/ → /sjɛ̃/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "q29",
+        "options": [
+          "我迟到了。",
+          "我回来得晚。",
+          "我很早回家。"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "q30",
+        "options": [
+          "三天，周一至周三",
+          "五天，周一至周五",
+          "两天，周一和周三"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "15": {
+    "sections": [
+      "scope",
+      "communicate",
+      "readwrite",
+      "reflexive",
+      "patterns",
+      "sports",
+      "habits",
+      "words",
+      "reading",
+      "phrases",
+      "sound",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l15-q01",
+        "options": [
+          "lisons",
+          "lions",
+          "lit"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q02",
+        "options": [
+          "écrit",
+          "écrivent",
+          "écris"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q03",
+        "options": [
+          "écrivons",
+          "écrivez",
+          "écrit"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q04",
+        "options": [
+          "J’écris une lettre à Lina.",
+          "J’écris à une lettre Lina.",
+          "Je écrit une lettre Lina."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q05",
+        "options": [
+          "lis",
+          "lit",
+          "lisent"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q06",
+        "options": [
+          "écrions",
+          "écrivez-vous",
+          "écrivez"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q07",
+        "options": [
+          "me",
+          "se",
+          "nous"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q08",
+        "options": [
+          "me",
+          "t’",
+          "se"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q09",
+        "options": [
+          "se",
+          "me",
+          "nous"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q10",
+        "options": [
+          "se",
+          "nous",
+          "me"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q11",
+        "options": [
+          "Nous nous lèvons.",
+          "Nous nous levons.",
+          "Nous se levons."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q12",
+        "options": [
+          "Elle me habille.",
+          "Elle se habille.",
+          "Elle s’habille."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q13",
+        "options": [
+          "Je ne me lève pas.",
+          "Je me ne lève pas.",
+          "Je ne lève me pas."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q14",
+        "options": [
+          "Elle n’s’habille pas.",
+          "Elle ne s’habille pas.",
+          "Elle se ne habille pas."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q15",
+        "options": [
+          "À quelle heure tu se lèves ?",
+          "Est-ce que vous levez-vous ?",
+          "À quelle heure est-ce que tu te lèves ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q16",
+        "options": [
+          "me",
+          "se",
+          "nous"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q17",
+        "options": [
+          "au",
+          "du",
+          "de la"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q18",
+        "options": [
+          "du",
+          "au",
+          "de la"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q19",
+        "options": [
+          "au",
+          "du",
+          "à le"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q20",
+        "options": [
+          "只有Je joue au tennis正确",
+          "Je joue au tennis和Je fais du tennis都可",
+          "只有Je fais du tennis正确"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q21",
+        "options": [
+          "au",
+          "des",
+          "aux"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q22",
+        "options": [
+          "Je ne joue pas au tennis.",
+          "Je ne joue pas de tennis.",
+          "Je ne joue pas du tennis."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q23",
+        "options": [
+          "仅下个周日",
+          "每逢周日的习惯",
+          "现在几点"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q24",
+        "options": [
+          "严格08:00",
+          "一定09:00",
+          "八点左右"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q25",
+        "options": [
+          "faire de la natation",
+          "jouer au tennis",
+          "faire les courses"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q26",
+        "options": [
+          "Lina",
+          "Claire et Noé",
+          "Marc"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q27",
+        "options": [
+          "能，肯定邮件",
+          "能，肯定明信片",
+          "不能，载体未提及"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q28",
+        "options": [
+          "lire读/ʁ/，jouer词尾-er读/e/",
+          "两词末尾r都不读",
+          "两词末尾r都读"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q29",
+        "options": [
+          "插入完整元音",
+          "直接连贯发音",
+          "省掉r"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q30",
+        "options": [
+          "Elle me lève et elle lis.",
+          "Elle se lève et elle lisent.",
+          "Elle se lève et elle lit."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q31",
+        "options": [
+          "nous réveillons",
+          "se réveillons",
+          "nous reveillons"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q32",
+        "options": [
+          "se couche",
+          "vous couchez",
+          "vous coucher"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q33",
+        "options": [
+          "nous appellons",
+          "s’appellent",
+          "nous appelons"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q34",
+        "options": [
+          "J’appelle Lina.",
+          "Je m’appelle Lina.",
+          "J’appel Lina."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q35",
+        "options": [
+          "Je couche à onze heures.",
+          "Je me couche à onze heures.",
+          "Je me coucher à onze heures."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q36",
+        "options": [
+          "Elle se réveille son frère à sept heures.",
+          "Elle réveillent son frère à sept heures.",
+          "Elle réveille son frère à sept heures."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q37",
+        "options": [
+          "七点醒来，七点半起床",
+          "七点起床，七点半醒来",
+          "七点醒来并马上起床"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q38",
+        "options": [
+          "Qu’est-ce que vous faites le dimanche ?",
+          "Qu’est-ce que vous faites en ce moment ?",
+          "Quel sport est-ce que vous faites ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q39",
+        "options": [
+          "À quelle heure est-ce que tu te couches ?",
+          "Qu’est-ce que tu fais maintenant ?",
+          "Qu’est-ce que tu fais d’habitude le dimanche ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l15-q40",
+        "options": [
+          "Je fais de la natation.",
+          "Je fais au natation.",
+          "Je joue du natation."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l15-q41",
+        "options": [
+          "Elles s’appelent Lina et Mei.",
+          "Elles s’appellent Lina et Mei.",
+          "Elles nous appelons Lina et Mei."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l15-q42",
+        "options": [
+          "Nous nous appelons Lina.",
+          "Nous appellons Lina.",
+          "Nous appelons Lina."
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "16": {
+    "sections": [
+      "scope",
+      "communicate",
+      "time",
+      "verbs",
+      "patterns",
+      "words",
+      "readmethod",
+      "reading",
+      "interview",
+      "writing",
+      "sound",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l16-q01",
+        "options": [
+          "prenons",
+          "prendons",
+          "prennent"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q02",
+        "options": [
+          "prenent",
+          "prennent",
+          "prend"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q03",
+        "options": [
+          "reprendons",
+          "reprennent",
+          "reprenons"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q04",
+        "options": [
+          "reprennent",
+          "reprenent",
+          "reprends"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q05",
+        "options": [
+          "sort",
+          "sors",
+          "sortis"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q06",
+        "options": [
+          "sorons",
+          "sortissons",
+          "sortons"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q07",
+        "options": [
+          "dort",
+          "dors",
+          "dormit"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q08",
+        "options": [
+          "dorissez",
+          "dormez",
+          "dorez"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q09",
+        "options": [
+          "nagons",
+          "nagions",
+          "nageons"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q10",
+        "options": [
+          "recommençons",
+          "recommencons",
+          "recommençont"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q11",
+        "options": [
+          "s’entraîne",
+          "m’entraîne",
+          "me entraîne"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q12",
+        "options": [
+          "s’entraînons",
+          "entraînons",
+          "nous entraînons"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q13",
+        "options": [
+          "se détend",
+          "se détende",
+          "me détends"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q14",
+        "options": [
+          "me termine",
+          "se termine",
+          "se terminer"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q15",
+        "options": [
+          "Elle n’s’entraîne pas le dimanche.",
+          "Elle se ne entraîne pas le dimanche.",
+          "Elle ne s’entraîne pas le dimanche."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q16",
+        "options": [
+          "Je ne sors jamais le lundi soir.",
+          "Je ne sors pas jamais le lundi soir.",
+          "Je sors toujours le lundi soir."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q17",
+        "options": [
+          "Je me lève jusqu’à sept heures.",
+          "Je me lève vers sept heures.",
+          "Je me lève pendant sept heures."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q18",
+        "options": [
+          "Elle dort de midi.",
+          "Elle dort pendant midi.",
+          "Elle dort jusqu’à midi."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q19",
+        "options": [
+          "de huit heures à dix heures",
+          "vers huit heures",
+          "pendant dix heures"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q20",
+        "options": [
+          "demie",
+          "demi",
+          "demies"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q21",
+        "options": [
+          "Samedi, je sors.",
+          "Maintenant, je sors.",
+          "Le samedi, je sors."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q22",
+        "options": [
+          "un nouvel entraînement",
+          "un nouveau entraînement",
+          "une nouvel activité"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q23",
+        "options": [
+          "des emploi du temps",
+          "des emplois du temps",
+          "des emplois des temps"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q24",
+        "options": [
+          "journals",
+          "journales",
+          "journaux"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q25",
+        "options": [
+          "jouer aux cartes",
+          "jouer de cartes",
+          "faire au cartes"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q26",
+        "options": [
+          "appeler à ses amis",
+          "appeler ses amis",
+          "téléphoner ses amis"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q27",
+        "options": [
+          "做家庭作业",
+          "只表示女性上厕所",
+          "洗漱"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q28",
+        "options": [
+          "6:15",
+          "约6:30",
+          "8:30"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q29",
+        "options": [
+          "8:00",
+          "8:30",
+          "10:30"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q30",
+        "options": [
+          "真",
+          "未提及",
+          "假"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q31",
+        "options": [
+          "未提及",
+          "真",
+          "假"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q32",
+        "options": [
+          "真",
+          "未提及",
+          "假"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q33",
+        "options": [
+          "真",
+          "未提及",
+          "假"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q34",
+        "options": [
+          "未提及",
+          "真",
+          "假"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q35",
+        "options": [
+          "Où est-ce que tu te lèves ?",
+          "À quelle heure est-ce que tu te lèves ?",
+          "Avec qui est-ce que tu déjeunes ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q36",
+        "options": [
+          "Quand est-ce que tu t’entraînes ?",
+          "À quelle heure est-ce que tu te lèves ?",
+          "Où est-ce que tu t’entraînes ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q37",
+        "options": [
+          "Qu’est-ce que vous faites le matin ?",
+          "Qu’est-ce que vous fais le matin ?",
+          "Qu’est-ce que tu faites le matin ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q38",
+        "options": [
+          "Vous reprenez exactement à quinze heures ?",
+          "Vous reprenez vers quinze heures, c’est bien ça ?",
+          "Vous terminez à quinze heures, c’est bien ça ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q39",
+        "options": [
+          "Elle me détends.",
+          "Elle se détende.",
+          "Elle se détend."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l16-q40",
+        "options": [
+          "Je me lève vers sept heures.",
+          "Je me lève exactement à sept heures.",
+          "Je dors sept heures."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l16-q41",
+        "options": [
+          "/ɡ/",
+          "/ʒ/",
+          "/k/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l16-q42",
+        "options": [
+          "/k/",
+          "/ʃ/",
+          "/s/"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "17": {
+    "sections": [
+      "scope",
+      "communicate",
+      "partitive",
+      "quantities",
+      "verbs",
+      "words",
+      "patterns",
+      "sound",
+      "reading",
+      "writing",
+      "errors",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l17-q01",
+        "options": [
+          "buvons",
+          "boivons",
+          "boivent"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q02",
+        "options": [
+          "boit",
+          "buvez",
+          "boivez"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q03",
+        "options": [
+          "buvont",
+          "boit",
+          "boivent"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q04",
+        "options": [
+          "boit",
+          "bois",
+          "buvons"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q05",
+        "options": [
+          "boive",
+          "bois",
+          "boit"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q06",
+        "options": [
+          "mangons",
+          "mangent",
+          "mangeons"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q07",
+        "options": [
+          "achète",
+          "achete",
+          "achetons"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q08",
+        "options": [
+          "achètent",
+          "achetons",
+          "achètons"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q09",
+        "options": [
+          "achetent",
+          "achetez",
+          "achètent"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q10",
+        "options": [
+          "de la",
+          "du",
+          "des"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q11",
+        "options": [
+          "des",
+          "du",
+          "de la"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q12",
+        "options": [
+          "de la",
+          "du",
+          "de l’"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q13",
+        "options": [
+          "des",
+          "du",
+          "de la"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q14",
+        "options": [
+          "de la",
+          "de",
+          "du"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q15",
+        "options": [
+          "des œufs",
+          "de œufs",
+          "œufs"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q16",
+        "options": [
+          "de",
+          "du",
+          "le"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q17",
+        "options": [
+          "du",
+          "le",
+          "de"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q18",
+        "options": [
+          "de",
+          "des",
+          "du"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q19",
+        "options": [
+          "acheter",
+          "achète",
+          "achetez"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q20",
+        "options": [
+          "du",
+          "d’",
+          "des"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q21",
+        "options": [
+          "la beurre",
+          "les beurre",
+          "le beurre"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q22",
+        "options": [
+          "la confiture",
+          "le confiture",
+          "la farine"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q23",
+        "options": [
+          "100克",
+          "500克",
+          "1千克"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q24",
+        "options": [
+          "des pomme de terres",
+          "des pommes des terres",
+          "des pommes de terre"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q25",
+        "options": [
+          "assez de sucre",
+          "assez du sucre",
+          "assez des sucres"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q26",
+        "options": [
+          "un demi litre du lait",
+          "un demi-litre de lait",
+          "une demie-litre du lait"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q27",
+        "options": [
+          "四个",
+          "六个",
+          "三个"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q28",
+        "options": [
+          "不需要，库存足够",
+          "需要再买一千克",
+          "留言没有写面粉库存"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q29",
+        "options": [
+          "水和鸡蛋",
+          "牛奶和黄油",
+          "糖和面粉"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q30",
+        "options": [
+          "明确是Lina",
+          "明确是Marc",
+          "未提及"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q31",
+        "options": [
+          "没有，出门前需确认",
+          "明确完全没有",
+          "明确有两瓶"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q32",
+        "options": [
+          "Qui mange le matin de ?",
+          "Qu’est-ce que tu manges le matin ?",
+          "Où est le matin ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q33",
+        "options": [
+          "Quel lait il combien ?",
+          "Combien du lait faut ?",
+          "Combien de lait est-ce qu’il faut ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q34",
+        "options": [
+          "On fait des crêpes ?",
+          "On faisons des crêpes ?",
+          "Nous fait des crêpes ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q35",
+        "options": [
+          "Tu faut une eau bouteille.",
+          "Je voudrais une bouteille d’eau, s’il vous plaît.",
+          "Je voudrait bouteille du eau."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q36",
+        "options": [
+          "Nous ne achètons pas des œufs.",
+          "Nous n’achète pas d’œufs.",
+          "Nous n’achetons pas d’œufs."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q37",
+        "options": [
+          "Nous mangeons des légumes.",
+          "Nous mangons des légumes.",
+          "Nous mangez du légumes."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q38",
+        "options": [
+          "un kilo des riz",
+          "un kilo de riz",
+          "un kilo du riz"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q39",
+        "options": [
+          "/œf/",
+          "/øfs/",
+          "/ø/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l17-q40",
+        "options": [
+          "/œ/",
+          "/ɔ/",
+          "/ø/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l17-q41",
+        "options": [
+          "/y/",
+          "/ɔ/",
+          "/ø/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l17-q42",
+        "options": [
+          "/t/",
+          "/f/",
+          "/z/"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "18": {
+    "sections": [
+      "scope",
+      "communicate",
+      "tense",
+      "participles",
+      "verbs",
+      "patterns",
+      "beau",
+      "words",
+      "sound",
+      "reading",
+      "writing",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l18-q01",
+        "options": [
+          "avoir现在时＋过去分词",
+          "avoir不定式＋现在时",
+          "主语＋过去分词即可"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q02",
+        "options": [
+          "avez",
+          "avons",
+          "ont"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q03",
+        "options": [
+          "avons",
+          "a",
+          "ont"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q04",
+        "options": [
+          "a",
+          "ont",
+          "avons"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q05",
+        "options": [
+          "ai",
+          "as",
+          "a"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q06",
+        "options": [
+          "acheter",
+          "achète",
+          "acheté"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q07",
+        "options": [
+          "mangé",
+          "mangeé",
+          "mangeons"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q08",
+        "options": [
+          "fais",
+          "fait",
+          "faité"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q09",
+        "options": [
+          "prendu",
+          "prendé",
+          "pris"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q10",
+        "options": [
+          "bu",
+          "boiré",
+          "boit"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q11",
+        "options": [
+          "lit",
+          "lu",
+          "liré"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q12",
+        "options": [
+          "écrivé",
+          "écrite toujours",
+          "écrit"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q13",
+        "options": [
+          "Je n’ai pas mangé.",
+          "Je n’ai mangé pas.",
+          "Je pas ai mangé."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q14",
+        "options": [
+          "Elle a acheter une veste.",
+          "Elle a acheté une veste.",
+          "Elle a achetée une veste."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q15",
+        "options": [
+          "beau",
+          "belle",
+          "bel"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q16",
+        "options": [
+          "beau",
+          "bel",
+          "belle"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q17",
+        "options": [
+          "beaux",
+          "belle",
+          "bel"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q18",
+        "options": [
+          "beaus",
+          "belles",
+          "beaux"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q19",
+        "options": [
+          "belles",
+          "beaux",
+          "bel"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q20",
+        "options": [
+          "只有复数用être",
+          "不是，部分用être",
+          "是，任何动词都如此"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q21",
+        "options": [
+          "每天晚上",
+          "明天晚上",
+          "昨天晚上"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q22",
+        "options": [
+          "意大利菜／烹饪风格",
+          "意大利厨房家具",
+          "意大利账单"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q23",
+        "options": [
+          "Elle est bien, mais il est chère.",
+          "Elle est belle, mais elle est chère.",
+          "Elle est bel, mais cher."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q24",
+        "options": [
+          "beau",
+          "bien mangé",
+          "bonne"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q25",
+        "options": [
+          "Nous avons bien mangé.",
+          "Nous avons bon mangé.",
+          "Nous avons beau mangé."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q26",
+        "options": [
+          "一定没买任何东西",
+          "逛了商店，未必购买",
+          "一定买了衣服"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q27",
+        "options": [
+          "12点",
+          "19点",
+          "11点"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q28",
+        "options": [
+          "未提及",
+          "8点",
+          "9点"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q29",
+        "options": [
+          "白色",
+          "蓝色",
+          "红色"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q30",
+        "options": [
+          "任何物品",
+          "鱼",
+          "衣服"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q31",
+        "options": [
+          "两人合计",
+          "每人40欧元",
+          "只有甜点的价格"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q32",
+        "options": [
+          "Qu’est-ce que tu as faire hier ?",
+          "Qu’est-ce que tu as fait hier ?",
+          "Qu’est-ce que tu fait hier ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q33",
+        "options": [
+          "Où vous déjeuner hier ?",
+          "Qui vous avez déjeuné ?",
+          "Où est-ce que vous avez déjeuné ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q34",
+        "options": [
+          "Avec qui est-ce que tu as mangé ?",
+          "Combien est-ce que tu as mangé ?",
+          "À quelle heure tu as mangé ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q35",
+        "options": [
+          "Ils ont comment, ton manteau ?",
+          "Il est comment, ton manteau ?",
+          "Elle est combien, ton manteau ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q36",
+        "options": [
+          "Nous n’avons pris pas un dessert.",
+          "Nous avons ne pas prendu dessert.",
+          "Nous n’avons pas pris de dessert."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q37",
+        "options": [
+          "d’abord…ensuite…",
+          "demain…hier…",
+          "jamais…toujours…"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q38",
+        "options": [
+          "Elle a boire de l’eau.",
+          "Elle a bu de l’eau.",
+          "Elle a bue de l’eau."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q39",
+        "options": [
+          "/u/",
+          "/ø/",
+          "/y/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q40",
+        "options": [
+          "同读/e/，拼写由语法区分",
+          "前者必读/ɛʁ/",
+          "后者必读/ɑ̃/"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q41",
+        "options": [
+          "/t/",
+          "/z/",
+          "/s/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q42",
+        "options": [
+          "取消所有意群重音",
+          "每个词都同样大声",
+          "额外突出评价或更正信息"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q43",
+        "options": [
+          "As mangé-tu ?",
+          "As-tu mangé ?",
+          "As-tu manger ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q44",
+        "options": [
+          "A-il dîné ?",
+          "A-t’il dîné ?",
+          "A-t-il dîné ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q45",
+        "options": [
+          "Ont-ils travaillé ?",
+          "Ont-t-ils travaillé ?",
+          "Ont travaillé-ils ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q46",
+        "options": [
+          "N’as pas-tu mangé ?",
+          "N’as-tu mangé pas ?",
+          "N’as-tu pas mangé ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q47",
+        "options": [
+          "N’a-elle pas dîné ?",
+          "N’a-t-elle pas dîné ?",
+          "N’a-t’elle dîné pas ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q48",
+        "options": [
+          "Qu’as-tu acheté ?",
+          "Qu’est-ce que as-tu acheté ?",
+          "Que tu acheté ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q49",
+        "options": [
+          "Où vous déjeuné ?",
+          "Où est-ce que avez-vous déjeuné ?",
+          "Où avez-vous déjeuné ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q50",
+        "options": [
+          "Oui, je n’ai pas mangé.",
+          "Si, j’ai mangé.",
+          "Non, j’ai mangé."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q51",
+        "options": [
+          "Non, je n’ai pas mangé.",
+          "Si, je n’ai pas mangé.",
+          "Oui, j’ai mangé."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q52",
+        "options": [
+          "Je n’ai acheté pas de l’eau.",
+          "Je n’ai pas acheté de l’eau.",
+          "Je n’ai pas acheté d’eau."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q53",
+        "options": [
+          "A Paul dîné ?",
+          "Paul a-t-il dîné ?",
+          "Paul a dîné-il ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q54",
+        "options": [
+          "Est-ce que avez-vous mangé ?",
+          "Est-ce que vous avez mangé ?",
+          "Avez-vous mangé ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q55",
+        "options": [
+          "J’ai bien mangé.",
+          "J’ai mangé bien.",
+          "Je bien ai mangé."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q56",
+        "options": [
+          "Je n’ai bien pas dormi.",
+          "Je n’ai pas bien dormi.",
+          "Je n’ai pas dormi bien."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q57",
+        "options": [
+          "As-déjà-tu mangé ?",
+          "Déjà as mangé-tu ?",
+          "As-tu déjà mangé ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q58",
+        "options": [
+          "Je n’ai pas encore mangé.",
+          "Je n’ai encore mangé pas.",
+          "Je n’ai mangé pas encore."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q59",
+        "options": [
+          "J’ai hier travaillé.",
+          "Hier, j’ai travaillé.",
+          "Je hier ai travaillé."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l18-q60",
+        "options": [
+          "beaucoup de pain要整体移到ai后。",
+          "très要移到ai和acheté之间。",
+          "une très belle veste中très紧放在belle前。"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l18-q61",
+        "options": [
+          "有些可放在分词后，如J’ai mangé lentement.",
+          "所有-ment副词都必须放在分词后。",
+          "任何副词都只能放在助动词与分词之间。"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l18-q62",
+        "options": [
+          "J’ai travaillé beaucoup de.",
+          "J’ai beaucoup travaillé.",
+          "J’ai de beaucoup travaillé."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "19": {
+    "sections": [
+      "scope",
+      "communicate",
+      "tense",
+      "agreement",
+      "verbs",
+      "auxiliaries",
+      "patterns",
+      "y",
+      "duration",
+      "words",
+      "sound",
+      "reading",
+      "writing",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l19-q01",
+        "options": [
+          "être现在时＋过去分词",
+          "être不定式＋过去分词",
+          "主语＋过去分词即可"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q02",
+        "options": [
+          "Elle a allé à Lyon.",
+          "Elle est allée à Lyon.",
+          "Elle est aller à Lyon."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q03",
+        "options": [
+          "est",
+          "ont",
+          "sont"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q04",
+        "options": [
+          "venues",
+          "venu",
+          "venus"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q05",
+        "options": [
+          "rentrés",
+          "rentrée",
+          "rentrées"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q06",
+        "options": [
+          "parties",
+          "parti",
+          "partis"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q07",
+        "options": [
+          "Elle a marché.",
+          "Elle est marché.",
+          "Elle est marchée."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q08",
+        "options": [
+          "Elle est passée trois jours à Lyon.",
+          "Elle a passé trois jours à Lyon.",
+          "Elle est passé trois jours à Lyon."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q09",
+        "options": [
+          "veni",
+          "vené",
+          "venu"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q10",
+        "options": [
+          "né／mort",
+          "naîtu／mouri",
+          "né／mouru"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q11",
+        "options": [
+          "她从医生那里来了。",
+          "她成为医生了。",
+          "她刚刚看了医生。"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q12",
+        "options": [
+          "Elle est sortie la valise.",
+          "Elle est sorti la valise.",
+          "Elle a sorti la valise."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q13",
+        "options": [
+          "Elle n’est pas partie.",
+          "Elle n’est partie pas.",
+          "Elle ne partie pas."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q14",
+        "options": [
+          "Nous n’sommes pas rentrées.",
+          "Nous ne sommes pas rentrées.",
+          "Nous ne sommes rentrées pas."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q15",
+        "options": [
+          "Es arrivée-tu ?",
+          "Es-tu arriver ?",
+          "Es-tu arrivée ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q16",
+        "options": [
+          "Est-elle partie ?",
+          "Est-t-elle partie ?",
+          "Est partie-elle ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q17",
+        "options": [
+          "N’êtes pas-vous rentré ?",
+          "N’êtes-vous pas rentré ?",
+          "N’êtes-vous rentré pas ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q18",
+        "options": [
+          "Elle est partie déjà toujours.",
+          "Elle déjà est partie.",
+          "Elle est déjà partie."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q19",
+        "options": [
+          "N’es-tu pas encore arrivée ?",
+          "N’es-encore-tu pas arrivée ?",
+          "N’es-tu arrivée pas encore ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q20",
+        "options": [
+          "Non, je suis rentrée.",
+          "Si, je suis rentrée.",
+          "Si, je ne suis pas rentrée."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q21",
+        "options": [
+          "我计划离开三天。",
+          "我三天前出发了。",
+          "我三天后出发。"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q22",
+        "options": [
+          "我计划离开三天。",
+          "我三天后出发。",
+          "我每三天出发一次。"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q23",
+        "options": [
+          "pour／dans",
+          "dans／pour",
+          "pendant／depuis"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q24",
+        "options": [
+          "Dans combien de temps es-tu restée ?",
+          "Quand es-tu restée combien ?",
+          "Combien de temps es-tu restée ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q25",
+        "options": [
+          "Dans combien de temps reviens-tu ?",
+          "Pour combien de temps reviens-tu ici dans ?",
+          "Combien d’euros reviens-tu ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q26",
+        "options": [
+          "À quelle heure combien pars-tu ?",
+          "Pour combien de temps pars-tu ?",
+          "Il y a combien pars-tu ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q27",
+        "options": [
+          "Elle est arrivée dans deux jours.",
+          "Elle est arrivée pour deux jours avant.",
+          "Elle est arrivée il y a deux jours."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q28",
+        "options": [
+          "J’habite ici depuis deux ans.",
+          "J’ai habité ici dans deux ans.",
+          "Je suis habité ici pour deux ans."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q29",
+        "options": [
+          "un carte postal，阳性",
+          "une carte postale，阴性",
+          "une carte postal，阴性"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q30",
+        "options": [
+          "des cadeaus",
+          "des cadeau",
+          "des cadeaux"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q31",
+        "options": [
+          "Chère Mei,",
+          "Cher Mei,",
+          "Chères Mei,"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q32",
+        "options": [
+          "Chère Paul,",
+          "Cher Paul,",
+          "Chers Paul,"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q33",
+        "options": [
+          "寄明信片",
+          "参观市中心",
+          "回家"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q34",
+        "options": [
+          "地点副词，那里",
+          "阴性名词，楼梯",
+          "动词，倒下"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q35",
+        "options": [
+          "周五上午",
+          "周日晚上",
+          "下个月"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q36",
+        "options": [
+          "乘飞机",
+          "材料未说明",
+          "乘火车"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q37",
+        "options": [
+          "参观一座博物馆",
+          "去了尼斯",
+          "买了火车"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q38",
+        "options": [
+          "10点",
+          "21点",
+          "材料未说明"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q39",
+        "options": [
+          "确定没有买",
+          "确定买了",
+          "无法确定"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q40",
+        "options": [
+          "待四天",
+          "四天后出发",
+          "已停留四天"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q41",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ʁ/"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q42",
+        "options": [
+          "/z/",
+          "/v/",
+          "/t/"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q43",
+        "options": [
+          "本来就发音的辅音连音",
+          "新添的联诵/z/",
+          "过去分词的复数标记"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q44",
+        "options": [
+          "每多一个e必须多一音节",
+          "通常同音，写作按主语配合",
+          "复数s必须单独读"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q45",
+        "options": [
+          "Elle est visitée le musée, puis elle a rentré.",
+          "Elle a visiter le musée, puis elle est rentrer.",
+          "Elle a visité le musée, puis elle est rentrée."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q46",
+        "options": [
+          "Nous sommes venues en train.",
+          "Nous sommes venu en train.",
+          "Nous avons venir en train."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q47",
+        "options": [
+          "只要助动词être就永远加e。",
+          "代词式配合不能无条件按主语加e。",
+          "les mains是主语。"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q48",
+        "options": [
+          "任何法语考试都强制这个字数。",
+          "写满字数就证明已达到NCLC7。",
+          "本站练习建议，不是考试评分标准。"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q49",
+        "options": [
+          "Je suis parvenu(e).",
+          "J’ai parvenu.",
+          "Je suis parvenir."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q50",
+        "options": [
+          "a intervenu",
+          "est intervenue",
+          "est intervenus"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q51",
+        "options": [
+          "Elle a parvenue comprendre le texte.",
+          "Elle est parvenu de comprendre le texte.",
+          "Elle est parvenue à comprendre le texte."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q52",
+        "options": [
+          "Elles sont reparties lundi.",
+          "Elles ont reparti lundi.",
+          "Elles sont réparties lundi."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q53",
+        "options": [
+          "所有-venir动词都用être。",
+          "需要看实际动词；prévenir用avoir。",
+          "所有-venir动词都用avoir。"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q54",
+        "options": [
+          "分配物品",
+          "出生",
+          "再次出发"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q55",
+        "options": [
+          "J’y suis allé.",
+          "Je suis y allé.",
+          "Je suis allé y."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q56",
+        "options": [
+          "Elles sont y resté trois jours.",
+          "Elles y sont restées trois jours.",
+          "Elles y sont restées.（同时删去时长）"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q57",
+        "options": [
+          "Nous sommes y mangés.",
+          "Nous avons y mangé.",
+          "Nous y avons mangé."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q58",
+        "options": [
+          "Je n’y suis pas allé.",
+          "Je ne suis pas y allé.",
+          "J’y ne suis allé pas."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q59",
+        "options": [
+          "Es-y-tu allée ?",
+          "Y es-tu allée ?",
+          "Es-tu allée y ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q60",
+        "options": [
+          "N’es-tu y pas allée ?",
+          "Y n’es pas-tu allée ?",
+          "N’y es-tu pas allée ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q61",
+        "options": [
+          "Elle y est déjà allée.",
+          "Elle est y déjà allée.",
+          "Elle déjà y est allée."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l19-q62",
+        "options": [
+          "J’y reviens.（替换de Lyon）",
+          "J’en reviens.",
+          "Je reviens y de."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l19-q63",
+        "options": [
+          "Paul这个人，无论句子结构",
+          "suis这个助动词",
+          "chez Paul表示的住处"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l19-q64",
+        "options": [
+          "Je veux y aller.",
+          "J’y veux aller.",
+          "Je veux aller y."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "20": {
+    "sections": [
+      "scope",
+      "months",
+      "festivals",
+      "words",
+      "expressions",
+      "dernier",
+      "verbs",
+      "past",
+      "communicate",
+      "sound",
+      "reading",
+      "writing",
+      "practice",
+      "review"
+    ],
+    "questions": [
+      {
+        "id": "l20-q01",
+        "options": [
+          "février",
+          "fevrier",
+          "févriér"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q02",
+        "options": [
+          "juillet、juin",
+          "juin、juillet",
+          "juin、janvier"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q03",
+        "options": [
+          "à décembre",
+          "le décembre",
+          "en décembre"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q04",
+        "options": [
+          "le 1er mai",
+          "le un mai",
+          "en 1er mai"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q05",
+        "options": [
+          "2月14日的情人节",
+          "2月2日的圣烛节",
+          "6月21日的音乐节"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q06",
+        "options": [
+          "le 14 juillet",
+          "le 25 décembre",
+          "le 1er mai"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q07",
+        "options": [
+          "le 21 juin",
+          "le 2 février",
+          "le 31 décembre"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q08",
+        "options": [
+          "le 14 février",
+          "le 14 juillet",
+          "le 1er janvier"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q09",
+        "options": [
+          "Bonne année !",
+          "Bon anniversaire !",
+          "Joyeux Noël !"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q10",
+        "options": [
+          "l’Arc de triomphe",
+          "la tour Eiffel",
+          "un bateau"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q11",
+        "options": [
+          "des feus d’artifice",
+          "des feux d’artifice",
+          "des feu d’artifices"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q12",
+        "options": [
+          "年龄小的普通男孩",
+          "任何一位男性同事",
+          "男朋友"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q13",
+        "options": [
+          "可能为朋友或女朋友，需要语境",
+          "一定是妻子",
+          "一定是普通朋友"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q14",
+        "options": [
+          "两点开始的晚餐",
+          "两人共进的晚餐",
+          "两份早餐"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q15",
+        "options": [
+          "Nous sommes passés deux heures à cuisiner.",
+          "Nous avons passé deux heures de cuisiner.",
+          "Nous avons passé deux heures à cuisiner."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q16",
+        "options": [
+          "danser",
+          "danse",
+          "dansé"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q17",
+        "options": [
+          "offri",
+          "offert",
+          "offerté"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q18",
+        "options": [
+          "nous offrissons",
+          "nous offrent",
+          "nous offrons"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q19",
+        "options": [
+          "vous fêtez",
+          "vous fêtons",
+          "vous fêtent"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q20",
+        "options": [
+          "la semaine dernier",
+          "la semaine dernière",
+          "le semaine dernier"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q21",
+        "options": [
+          "l’année dernier",
+          "la an dernière",
+          "l’année dernière"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q22",
+        "options": [
+          "上个月",
+          "一年中的最后一个月",
+          "下个月"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q23",
+        "options": [
+          "janvier",
+          "décembre",
+          "mois dernier"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q24",
+        "options": [
+          "le mois dernière",
+          "la mois dernière",
+          "le mois dernier"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q25",
+        "options": [
+          "Elles ont passé deux heures à danser.",
+          "Elles ont passées deux heures à danser.",
+          "Elles sont passées deux heures à danser."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q26",
+        "options": [
+          "Elle n’a acheté pas de gâteau.",
+          "Elle n’a pas acheté de gâteau.",
+          "Elle n’est pas acheté de gâteau."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q27",
+        "options": [
+          "Offert-tu as des fleurs ?",
+          "A-tu offert des fleurs ?",
+          "As-tu offert des fleurs ?"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q28",
+        "options": [
+          "N’as-tu pas offert de fleurs ?",
+          "N’as-pas-tu offert de fleurs ?",
+          "As-tu offert pas de fleurs ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q29",
+        "options": [
+          "Elle est y allée.",
+          "Elle y est allée.",
+          "Elle y a allé."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q30",
+        "options": [
+          "Elle n’a y pas fêté Noël.",
+          "Elle y n’a fêté pas Noël.",
+          "Elle n’y a pas fêté Noël."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q31",
+        "options": [
+          "Où as-tu passé Noël l’année dernière ?",
+          "Quand est Noël ?",
+          "Avec qui fêtes-tu Noël ?"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q32",
+        "options": [
+          "Qu’est-ce que tu as fait hier ?",
+          "Qu’est-ce que tu fais pour Noël ?",
+          "En quel mois est Noël ?"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q33",
+        "options": [
+          "Le 14 juillet.",
+          "Pendant deux heures.",
+          "Avec des copains."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q34",
+        "options": [
+          "On voit quatre personnes et un gâteau.",
+          "Ce sont deux couples mariés.",
+          "C’est certainement Noël."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q35",
+        "options": [
+          "juillet",
+          "juin",
+          "两个都没有鼻化元音"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q36",
+        "options": [
+          "不发音",
+          "只有复数才发音",
+          "发音"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q37",
+        "options": [
+          "本来发音的辅音连音",
+          "新增的/z/联诵",
+          "应该完全省去的音"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q38",
+        "options": [
+          "l一定不读",
+          "相邻元音分开读",
+          "把整个词读成鼻化元音"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q39",
+        "options": [
+          "能，明确没买",
+          "能，明确买了",
+          "未提及"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q40",
+        "options": [
+          "做饭时长；停留时长",
+          "停留时长；做饭时长",
+          "乘车时长；电影时长"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q41",
+        "options": [
+          "餐厅",
+          "Zoé家里",
+          "电影院"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q42",
+        "options": [
+          "三人",
+          "两人",
+          "四人"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q43",
+        "options": [
+          "日期明确为6月21日，食物不唯一决定节日",
+          "可丽饼只能在6月21日吃",
+          "音乐节总是在2月2日"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q44",
+        "options": [
+          "L’année dernière, je manger chez Paul.",
+          "À Noël, je mange en famille. L’année dernière, j’ai mangé chez Paul.",
+          "À Noël, j’ai manger toujours."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q45",
+        "options": [
+          "Nous avons passé la soirée à dansons.",
+          "Nous sommes passé la soirée danser.",
+          "Nous avons passé la soirée à danser."
+        ],
+        "answer": 2
+      },
+      {
+        "id": "l20-q46",
+        "options": [
+          "Je suis arrivée.",
+          "Je suis arrivé.",
+          "J’ai arrivée."
+        ],
+        "answer": 0
+      },
+      {
+        "id": "l20-q47",
+        "options": [
+          "J’y suis resté.（同样保留所有信息）",
+          "J’y suis resté deux jours.",
+          "Je suis y resté deux jours."
+        ],
+        "answer": 1
+      },
+      {
+        "id": "l20-q48",
+        "options": [
+          "把所有农历节日固定写成同一个公历日",
+          "把本站人物经历当作自己的经历",
+          "说明实际日期和自己了解的习俗"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

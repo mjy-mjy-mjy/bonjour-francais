@@ -1,0 +1,27 @@
+{
+  "deploymentFiles": [
+    "index.html",
+    "styles.css",
+    "app.js",
+    "content.js",
+    "course.js",
+    "lesson14.js",
+    "knowledge-map.js",
+    "knowledge-map.css",
+    "skill-tree-data.js",
+    "skill-tree.js",
+    "skill-tree.css",
+    "verb-data.js",
+    "verb-knowledge.js",
+    "verb-knowledge.css"
+  ],
+  "subpath": "/bonjour-francais/",
+  "checks": [
+    "42 verb cards",
+    "lesson14 30 quiz items",
+    "skill preview six rows"
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "scope": "Local build of workflow copy list; no assertion of actual GitHub Pages deployment"
+}

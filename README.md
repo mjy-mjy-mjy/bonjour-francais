@@ -81,17 +81,16 @@ python3 -m http.server 8765 --bind 127.0.0.1
 ## 更新与检查
 
 ```sh
-python3 scripts/update-draws.py
 python3 scripts/build-course.py
 python3 scripts/check-site.py
-node --check app.js
-node --check content.js
-node --check lesson14.js
-node --check course.js
-node --test scripts/app.test.cjs
+python3 scripts/test_verb_build.py
+for asset in *.js; do node --check "$asset" || exit; done
+for suite in scripts/*.test.cjs; do node "$suite" || exit; done
 ```
 
-邀请数据来自 IRCC 公开 JSON，保存官方原始类别、时间和详情链接。91a、91b 等历史轮次编号按官方原样保留。调整 `content.js` 可维护单元名称、基础题目和资源链接；单元名称与范围参考[公开教材目录](https://m.yes24.com/Goods/Detail/3302218?reviewyn=y)。`lesson14.js` 是第 14 课详细讲义、书面练习和新增即时小测的统一内容来源，分类页引用同一份内容。
+官方数据刷新为独立维护命令 `python3 scripts/update-draws.py`，会更新公开快照，不必每次本地开发运行。
+
+邀请数据来自 IRCC 公开 JSON，保存官方原始类别、时间和详情链接。91a、91b 等历史轮次编号按官方原样保留。调整 `content.js` 可维护单元名称、基础题目和资源链接；单元名称与范围参考[公开教材目录](https://m.yes24.com/Goods/Detail/3302218?reviewyn=y)。第14课现由 `lessons/14.json` 维护；`lesson14.js` 是构建生成的兼容别名。`knowledge/verbs.json` 的共享变位同时编入课程和查阅手册，分类页继续引用原章节。
 
 ## 官方资源
 
@@ -166,7 +165,7 @@ node --test scripts/app.test.cjs
 
 教材配套音频通过出版方资源页访问；本站尚未集成音轨播放器、自动口语或写作评分。
 
-第1—13课及第15—20课的内容源放在 `lessons/NN.json`，目录放在 `lessons/catalog.json`。运行 `scripts/build-course.py` 生成 `course.js`；不要直接编辑生成文件。每课完成后保存知识覆盖与功能核对记录，再开始下一课。
+第1—20课的内容源统一放在 `lessons/NN.json`，目录放在 `lessons/catalog.json`。运行 `scripts/build-course.py` 生成 `course.js`；不要直接编辑生成文件。每课完成后保存知识覆盖与功能核对记录，再开始下一课。
 
 
 
@@ -192,3 +191,9 @@ node --test scripts/app.test.cjs
 
 技能记录随原学习备份一起导出／导入；旧备份兼容，当前无跨设备自动同步。源文件、生成流程与扩展约定见[技能索引维护](knowledge/README.md)，产品与后续范围见[技能树说明](docs/SKILL_TREE_PLAN.md)。
 
+
+## 动词变位手册
+
+从首页、侧栏或技能树进入 `#verbs`。首期收录第1—16课已有完整六人称的42条直陈式现在时，包含10种代词式用法。可连续查表，搜索原形／中文，按组别、普通／代词式、截至课次或某课完整表筛选；详情提供变化提示、例句、对应技能和课程出处。筛选与详情URL支持刷新、前进后退。
+
+技能节点如“être现在时”可直接看到共享表格；课程原表与手册从同一数据生成。第14课已进入统一课程源，原题号、笔记和备份格式保留。识别词、命令式、第17课以后新增动词及其他时态尚未纳入本期，收录数量不代表个人掌握程度。维护规则见[共享知识约定](knowledge/README.md)，范围见[逐课盘点](docs/VERB_INVENTORY_A1_U1_U4.md)。

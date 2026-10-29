@@ -10,7 +10,7 @@
 ## 实现约定
 
 - 保持静态托管、原生HTML/CSS/JavaScript和标准库脚本。框架迁移、账号、数据库、云同步不作为默认前提。
-- `lessons/NN.json` 是课程源，第14课仍由 `lesson14.js` 维护；`knowledge/skills.json` 是技能索引源。`course.js`、`skill-tree-data.js`由构建生成，不手工维护；构建还会更新index.html资源指纹。
+- `lessons/NN.json` 是课程源（已含第14课）；`knowledge/skills.json` 是技能索引源，`knowledge/verbs.json` 是共享变位源。`course.js`、`skill-tree-data.js`、`verb-data.js`与兼容别名 `lesson14.js` 由构建生成，不手工维护；课程占位符规则见knowledge/README.md，构建还会更新index.html资源指纹。
 - 保护课程路由、章节锚点、题目与知识稳定ID、笔记键和旧备份兼容。课程完成、章节自评与技能自评不能互相无条件推导，更不能换算NCLC达标。
 - 新增脚本／样式／资源时检查 `.github/workflows/pages.yml` 的发布文件清单、加载顺序、GitHub Pages子路径与缓存指纹。
 - 不复制多份需要手工同步的权威知识正文。技能树索引已实现不代表共享正文迁移完成。
@@ -18,7 +18,7 @@
 ## 验证与交接
 
 - 纯文档变更：检查本地链接、任务引用、当前状态一致性及 `git diff --check`，无需运行无关应用测试。
-- 内容／应用变更：按影响范围运行 `python3 scripts/build-course.py`、`python3 scripts/check-site.py`、根目录JS的 `node --check`，以及 `node scripts/app.test.cjs`、`node scripts/map.test.cjs`、`node scripts/skill-tree.test.cjs`。确认真实用例数和退出状态。仅评审或环境验证时用临时副本构建，避免意外改写产物。
+- 内容／应用变更：按影响范围运行 `python3 scripts/build-course.py`、`python3 scripts/check-site.py`、根目录JS的 `node --check`，以及 `node scripts/app.test.cjs`、`node scripts/map.test.cjs`、`node scripts/skill-tree.test.cjs`、`node scripts/verbs.test.cjs`，共享构建变更还运行 `python3 scripts/test_verb_build.py`。确认真实用例数和退出状态。仅评审或环境验证时用临时副本构建，避免意外改写产物。
 - 界面变更检查桌面和手机视口、相关交互及已有记录；嵌入视口不等于手机真机。无法验证的项目明确写未运行，不借用历史结果。
 - 多窗口工作按任务和文件范围分工，共享数据源／生成文件／总进度由整合窗口处理；独立分支或任务卡均不是自动锁。
 - 交接更新 `docs/PROGRESS.md` 和相关任务卡，详细证据按需归档。记录实际做过的检查、尚未完成项和可执行下一步；实现、验证、合并、发布分开记录。无对应部署及产物证据，不标记当前版本已上线。

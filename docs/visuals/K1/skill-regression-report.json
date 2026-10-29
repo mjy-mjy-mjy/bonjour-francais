@@ -1,0 +1,338 @@
+{
+  "viewports": [
+    {
+      "label": "2k",
+      "css": [
+        2560,
+        1440
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "branchChecks": [
+        {
+          "branch": "pronunciation",
+          "node": "p-rhythm",
+          "cards": 7,
+          "scale": "127%"
+        },
+        {
+          "branch": "vocabulary",
+          "node": "v-routine",
+          "cards": 9,
+          "scale": "134%"
+        },
+        {
+          "branch": "listening",
+          "node": "l-routine",
+          "cards": 5,
+          "scale": "127%"
+        },
+        {
+          "branch": "speaking",
+          "node": "s-routine",
+          "cards": 6,
+          "scale": "127%"
+        },
+        {
+          "branch": "reading",
+          "node": "r-article",
+          "cards": 5,
+          "scale": "127%"
+        },
+        {
+          "branch": "writing",
+          "node": "w-routine",
+          "cards": 5,
+          "scale": "127%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-agreement",
+          "cards": 6,
+          "scale": "127%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-y",
+          "cards": 10,
+          "scale": "127%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-past-etre",
+          "cards": 11,
+          "scale": "127%"
+        }
+      ]
+    },
+    {
+      "label": "4k",
+      "css": [
+        3840,
+        2160
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "branchChecks": [
+        {
+          "branch": "pronunciation",
+          "node": "p-rhythm",
+          "cards": 7,
+          "scale": "205%"
+        },
+        {
+          "branch": "vocabulary",
+          "node": "v-routine",
+          "cards": 9,
+          "scale": "205%"
+        },
+        {
+          "branch": "listening",
+          "node": "l-routine",
+          "cards": 5,
+          "scale": "205%"
+        },
+        {
+          "branch": "speaking",
+          "node": "s-routine",
+          "cards": 6,
+          "scale": "205%"
+        },
+        {
+          "branch": "reading",
+          "node": "r-article",
+          "cards": 5,
+          "scale": "205%"
+        },
+        {
+          "branch": "writing",
+          "node": "w-routine",
+          "cards": 5,
+          "scale": "205%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-agreement",
+          "cards": 6,
+          "scale": "205%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-y",
+          "cards": 10,
+          "scale": "205%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-past-etre",
+          "cards": 11,
+          "scale": "205%"
+        }
+      ]
+    },
+    {
+      "label": "4k-200",
+      "css": [
+        1920,
+        1080
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "branchChecks": [
+        {
+          "branch": "pronunciation",
+          "node": "p-rhythm",
+          "cards": 7,
+          "scale": "89%"
+        },
+        {
+          "branch": "vocabulary",
+          "node": "v-routine",
+          "cards": 9,
+          "scale": "89%"
+        },
+        {
+          "branch": "listening",
+          "node": "l-routine",
+          "cards": 5,
+          "scale": "89%"
+        },
+        {
+          "branch": "speaking",
+          "node": "s-routine",
+          "cards": 6,
+          "scale": "89%"
+        },
+        {
+          "branch": "reading",
+          "node": "r-article",
+          "cards": 5,
+          "scale": "89%"
+        },
+        {
+          "branch": "writing",
+          "node": "w-routine",
+          "cards": 5,
+          "scale": "89%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-agreement",
+          "cards": 6,
+          "scale": "88%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-y",
+          "cards": 10,
+          "scale": "88%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-past-etre",
+          "cards": 11,
+          "scale": "88%"
+        }
+      ]
+    },
+    {
+      "label": "2k-150",
+      "css": [
+        1707,
+        960
+      ],
+      "deviceScaleFactor": 1.5,
+      "browserZoom": "100%",
+      "branchChecks": [
+        {
+          "branch": "pronunciation",
+          "node": "p-rhythm",
+          "cards": 7,
+          "scale": "78%"
+        },
+        {
+          "branch": "vocabulary",
+          "node": "v-routine",
+          "cards": 9,
+          "scale": "78%"
+        },
+        {
+          "branch": "listening",
+          "node": "l-routine",
+          "cards": 5,
+          "scale": "78%"
+        },
+        {
+          "branch": "speaking",
+          "node": "s-routine",
+          "cards": 6,
+          "scale": "78%"
+        },
+        {
+          "branch": "reading",
+          "node": "r-article",
+          "cards": 5,
+          "scale": "78%"
+        },
+        {
+          "branch": "writing",
+          "node": "w-routine",
+          "cards": 5,
+          "scale": "78%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-agreement",
+          "cards": 6,
+          "scale": "78%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-y",
+          "cards": 10,
+          "scale": "78%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-past-etre",
+          "cards": 11,
+          "scale": "78%"
+        }
+      ]
+    },
+    {
+      "label": "2k-200",
+      "css": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "branchChecks": [
+        {
+          "branch": "pronunciation",
+          "node": "p-rhythm",
+          "cards": 7,
+          "scale": "78%"
+        },
+        {
+          "branch": "vocabulary",
+          "node": "v-routine",
+          "cards": 9,
+          "scale": "78%"
+        },
+        {
+          "branch": "listening",
+          "node": "l-routine",
+          "cards": 5,
+          "scale": "78%"
+        },
+        {
+          "branch": "speaking",
+          "node": "s-routine",
+          "cards": 6,
+          "scale": "78%"
+        },
+        {
+          "branch": "reading",
+          "node": "r-article",
+          "cards": 5,
+          "scale": "78%"
+        },
+        {
+          "branch": "writing",
+          "node": "w-routine",
+          "cards": 5,
+          "scale": "78%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-agreement",
+          "cards": 6,
+          "scale": "78%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-y",
+          "cards": 10,
+          "scale": "78%"
+        },
+        {
+          "branch": "grammar",
+          "node": "g-past-etre",
+          "cards": 11,
+          "scale": "78%"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    "List selection preserves broad 64-skill and 27-grammar scopes; selection survives graph/list switch and reload",
+    "Shared scoped search, accent normalization, URL query persistence, no results, clear and escaped query",
+    "Future stages remain accessible, explicitly planned, excluded from mastery and readonly",
+    "Course return, map return and history preserve list mode, selection, broad filter and scroll position",
+    "Bare overview URL and canonical URL share scroll restoration",
+    "Graph zoom/pan and detail scroll restored across map; mastery and notes shared with list and persist on refresh; 24h review remains protected"
+  ],
+  "errors": []
+}

@@ -1,0 +1,313 @@
+{
+  "viewports": [
+    {
+      "label": "2k",
+      "css": [
+        2560,
+        1440
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k",
+      "css": [
+        2560,
+        1440
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k",
+      "css": [
+        2560,
+        1440
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k",
+      "css": [
+        2560,
+        1440
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k",
+      "css": [
+        3840,
+        2160
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k",
+      "css": [
+        3840,
+        2160
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k",
+      "css": [
+        3840,
+        2160
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k",
+      "css": [
+        3840,
+        2160
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k-200",
+      "css": [
+        1920,
+        1080
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k-200",
+      "css": [
+        1920,
+        1080
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k-200",
+      "css": [
+        1920,
+        1080
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "4k-200",
+      "css": [
+        1920,
+        1080
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-150",
+      "css": [
+        1707,
+        960
+      ],
+      "deviceScaleFactor": 1.5,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-150",
+      "css": [
+        1707,
+        960
+      ],
+      "deviceScaleFactor": 1.5,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-150",
+      "css": [
+        1707,
+        960
+      ],
+      "deviceScaleFactor": 1.5,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-150",
+      "css": [
+        1707,
+        960
+      ],
+      "deviceScaleFactor": 1.5,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-200",
+      "css": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-200",
+      "css": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "glass",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-200",
+      "css": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "light",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    },
+    {
+      "label": "2k-200",
+      "css": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "theme": "paper",
+      "appearance": "dark",
+      "views": [
+        "42 tables",
+        "pronominal detail"
+      ]
+    }
+  ],
+  "interactions": [
+    "Accent and apostrophe normalization, Chinese search, shareable filtered details, reload, return and empty state",
+    "Group/use/range filters, exact lesson coverage and browser history; lookup does not change learning state",
+    "Course ↔ lookup links, stable lesson14/faire anchor, direct skill table and return to same skill; invalid ID handled",
+    "Old q1/q7 mistakes, lesson-14 note, favorites, completed lessons and skill mastery survive unified lesson14; 30 quiz items remain",
+    "Actual UI export includes old mistakes and note; importing legacy v1 backup restores edited note, completion and old q1/q7 IDs"
+  ],
+  "pageErrors": [],
+  "failedLocalRequests": []
+}

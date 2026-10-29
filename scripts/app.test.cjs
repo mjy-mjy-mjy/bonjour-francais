@@ -208,7 +208,7 @@ test('lesson-specific category pages and search preserve the selected lesson', (
 
 test('question IDs across courses are unique and new lesson mistakes survive reload', () => {
   const a = app(null, '#lesson/1');
-  const qs = [...a.context.COURSE_CONTENT.questions, ...a.context.LESSON14_CONTENT.quickQuestions, ...a.context.COURSE_LIBRARY.lessons.flatMap(c=>c.quickQuestions)];
+  const qs = vm.runInContext('questions',a.context); // Runtime list includes unified lesson 14 exactly once.
   assert.equal(new Set(qs.map(q=>q.id)).size, qs.length);
   const q = a.context.COURSE_LIBRARY.lessons[0].quickQuestions.find(q=>q.question.includes('Qui est-ce'));
   const feedback={};
@@ -296,6 +296,7 @@ const authoredCoverage={
   12:['Marseille','住房','旅游','未提及','港口','路线','资料'],
   13:['partons','partez','partent','premier','janvier','moins le quart','demie','aller-retour','/z/'],
   15:['lisons','écrivons','nous nous levons','s’habille','ne me','de la natation','au tennis','Le dimanche','/ʁ/'],
+  14:['vous faites','est-ce que','par semaine','faire'],
   16:['reprenons','prennent','nous nageons','recommençons','se détend','jusqu’à','未提及','采访','报刊','/ʁ/'],
   17:['buvons','buvez','boivent','j’achète','nous mangeons','de l’eau','un litre de lait','部分冠词','/œ/','/ø/'],
   18:['j’ai acheté','nous avons mangé','vous avez pris','elles ont bu','过去分词','un bel hôtel','belles','强调重音'],
@@ -759,7 +760,7 @@ test('new lesson 15 quizzes persist in review alongside older progress and expla
 });
 
 test('lesson 16 follows the journal and daily-schedule goals with full verb paradigms',()=>{
-  const c=JSON.parse(fs.readFileSync(path.join(root,'lessons/16.json'),'utf8'));
+  const c=app(null,'#lesson/16').context.COURSE_LIBRARY.lessons.find(c=>c.number===16);
   assert.equal(c.sections.length,13);
   const scope=c.sections.find(s=>s.id==='scope').html;
   for(const text of ['第52—53页','简单报刊文章','采访','历史语境','原创'])assert.ok(scope.includes(text),text);
