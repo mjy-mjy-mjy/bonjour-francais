@@ -19,8 +19,9 @@ import hashlib
 import re
 index = ROOT / 'index.html'
 page = index.read_text(encoding='utf-8')
-for asset in ['styles.css', 'content.js', 'course.js', 'lesson14.js', 'app.js']:
+for asset in ['styles.css', 'content.js', 'course.js', 'lesson14.js', 'app.js', 'knowledge-map.js', 'knowledge-map.css']:
     digest = hashlib.sha256((ROOT / asset).read_bytes()).hexdigest()[:12]
     page = re.sub(r'(["\'])' + re.escape(asset) + r'(?:\?v=[a-f0-9]+)?(["\'])',
                   lambda match: match[1] + asset + '?v=' + digest + match[2], page)
 index.write_text(page, encoding='utf-8')
+
