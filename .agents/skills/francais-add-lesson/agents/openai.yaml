@@ -1,0 +1,4 @@
+interface:
+  display_name: "法语项目：补充一课"
+  short_description: "补齐指定课程，并增量维护共享知识、技能关系与进度。"
+  default_prompt: "使用 $francais-add-lesson，补充我指定的一课，复用已有知识与技能ID，验证后按仓库约定交付。"

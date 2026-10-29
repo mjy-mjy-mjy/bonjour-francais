@@ -1,0 +1,4 @@
+interface:
+  display_name: "法语项目：单元整理"
+  short_description: "核对指定范围的跨课知识，修复重复、遗漏、来源与技能依赖。"
+  default_prompt: "使用 $francais-review-unit，整理我指定的单元或课次范围，复用稳定ID并修复有证据的问题，验证后按仓库约定交付。"

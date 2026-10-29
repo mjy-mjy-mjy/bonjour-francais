@@ -78,6 +78,17 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 工作流只发布 `index.html`、样式、课程脚本及 `data/` 中的公开数据，不发布个人备份文件。
 
+## 持续补课与知识整理
+
+仓库内提供两个维护Skill，详细规则见 [持续维护流程](docs/MAINTENANCE_WORKFLOW.md)：
+
+- `$francais-add-lesson`：补充指定一课，同步增量维护共享知识和技能关联。
+- `$francais-review-unit`：整理指定单元或课次范围，核对重复、遗漏、出处及技能依赖。
+
+例如：“使用 $francais-add-lesson 补充第21课，资料如下……”或“使用 $francais-review-unit 整理第17—20课”。建议逐课补充、每单元整理；两个操作都不会自动将用户标为已完成或已掌握。
+
+Skill位于 `.agents/skills/`，同步仓库后由支持的客户端发现。当前会话未刷新或其他模型不支持 `$` 调用时，直接要求读取对应目录的SKILL.md并执行；这不依赖账号全局安装。
+
 ## 更新与检查
 
 ```sh

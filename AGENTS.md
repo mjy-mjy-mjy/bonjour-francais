@@ -7,6 +7,12 @@
 3. 本轮用户指令优先于旧“下一步”。确认任务范围，复杂任务登记窗口标识、分支、基线与修改文件；明确哪些建议已被用户采纳，哪些仍是提案。
 4. 每个云任务已隔离，使用已有检出；除非用户明确要求，不创建Git worktree。不在共享工作区擅自切分支。用户未要求代理协作时，不自动启动子代理。
 
+## 可复用维护技能
+
+- 新增／完善指定一课时读取并执行 [francais-add-lesson](.agents/skills/francais-add-lesson/SKILL.md)。
+- 整理指定单元或课次范围的跨课知识时读取并执行 [francais-review-unit](.agents/skills/francais-review-unit/SKILL.md)。
+- 共用规则与跨客户端调用方式见 [持续维护流程](docs/MAINTENANCE_WORKFLOW.md)。Skill随仓库分发，不依赖上一会话记忆；未发现Skill选择器时直接读取相应SKILL.md。用户同时要求两类工作时先补课再整理，不自动扩大范围。
+
 ## 实现约定
 
 - 保持静态托管、原生HTML/CSS/JavaScript和标准库脚本。框架迁移、账号、数据库、云同步不作为默认前提。
