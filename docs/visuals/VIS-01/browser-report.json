@@ -1,0 +1,112 @@
+{
+  "viewports": [
+    {
+      "name": "2k",
+      "css": [
+        2560,
+        1440
+      ],
+      "dpr": 1,
+      "browser_zoom": "100%",
+      "bounds": {
+        "stage": {
+          "x": 0,
+          "y": 271.171875,
+          "width": 1990,
+          "height": 1113.828125
+        },
+        "outside": 0,
+        "font": "18px",
+        "scale": "127%"
+      }
+    },
+    {
+      "name": "4k",
+      "css": [
+        3840,
+        2160
+      ],
+      "dpr": 1,
+      "browser_zoom": "100%",
+      "bounds": {
+        "stage": {
+          "x": 0,
+          "y": 271.171875,
+          "width": 3270,
+          "height": 1833.828125
+        },
+        "outside": 0,
+        "font": "18px",
+        "scale": "205%"
+      }
+    },
+    {
+      "name": "4k-200",
+      "css": [
+        1920,
+        1080
+      ],
+      "dpr": 2,
+      "browser_zoom": "100%",
+      "bounds": {
+        "stage": {
+          "x": 0,
+          "y": 271.171875,
+          "width": 1478.40625,
+          "height": 754.828125
+        },
+        "outside": 0,
+        "font": "18px",
+        "scale": "88%"
+      }
+    },
+    {
+      "name": "2k-150",
+      "css": [
+        1707,
+        960
+      ],
+      "dpr": 1.5,
+      "browser_zoom": "100%",
+      "bounds": {
+        "stage": {
+          "x": 0,
+          "y": 271.171875,
+          "width": 1314.390625,
+          "height": 634.828125
+        },
+        "outside": 0,
+        "font": "18px",
+        "scale": "78%"
+      }
+    },
+    {
+      "name": "2k-200",
+      "css": [
+        1280,
+        720
+      ],
+      "dpr": 2,
+      "browser_zoom": "100%",
+      "bounds": {
+        "stage": {
+          "x": 0,
+          "y": 256.375,
+          "width": 900,
+          "height": 409.625
+        },
+        "outside": 7,
+        "font": "18px",
+        "scale": "78%"
+      }
+    }
+  ],
+  "interactions": [
+    "Deep link, mastery and note persist after reload; 24h review stays disabled",
+    "Export and import preserve skill state; legacy backup accepted; courses not marked complete",
+    "Search accent normalization, no results, result selection, history back/forward and Escape close",
+    "Cross-branch successor opens original speaking tree; original lesson and reverse skill link work",
+    "Keyboard zoom/pan/reset, pointer drag and wheel zoom, reduced motion, overview and visible sample entry"
+  ],
+  "errors": []
+}

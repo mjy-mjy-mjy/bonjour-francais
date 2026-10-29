@@ -159,3 +159,60 @@ body.skills-active{overflow:hidden}
 @media(max-width:750px){.st-header nav{font-size:11px;gap:10px}.st-header nav a{min-height:38px;display:flex;align-items:center}.st-close{width:40px;height:40px}.st-state-buttons button{min-height:40px}.st-zoom button{min-height:34px}.skill-tree select{min-height:34px}.skill-tree .st-search-label input{min-height:30px}.st-legend{font-size:9px}.st-search-label>span{font-size:20px}}
 
 @keyframes st-light{0%{box-shadow:0 0 8px #e3c08022}40%{box-shadow:0 0 35px #f1c57888}100%{box-shadow:0 0 12px #e3c08022}}.st-node.just-updated{animation:st-light .8s ease-out}@media(prefers-reduced-motion:reduce){.st-node.just-updated{animation:none}}
+
+/* VIS-01: the verb branch is a desktop sample; the other trees keep their layout. */
+.st-sample-entry{color:var(--st-gold)!important}
+.st-verbs{--st-before:#8cbccb;--st-gold:#e7c48a;background:radial-gradient(ellipse at 35% 50%,#17354455,transparent 65%),#0a131c}
+.st-verbs .st-stage{background:radial-gradient(ellipse at 45% 30%,#23445530,transparent 70%),radial-gradient(#9db4c314 .7px,transparent .7px);background-size:auto,30px 30px}
+.st-verb-board-title{position:absolute;top:18px;left:48px;border-left:2px solid #d2ad6e;padding:0 0 0 18px}
+.st-verb-board-title>span{font:10px/1.6 system-ui,sans-serif;letter-spacing:3px;color:#d9b77c}
+.st-verb-board-title p{font:27px/1.5 Georgia,'Songti SC',serif;letter-spacing:1px;color:#e9e7dc;margin:7px 0 5px}
+.st-verb-board-title small{font:12px/1.7 var(--font-body);color:#9cafba}
+.st-verb-zone{position:absolute;top:142px;bottom:70px;width:320px;background:linear-gradient(180deg,#243b4930,#192d3610);border:1px solid #91b0c115;border-radius:9px;pointer-events:none}
+.st-verb-zone-title{display:flex;gap:13px;align-items:center;padding:23px 20px;border-bottom:1px solid #93afbc18}
+.st-verb-zone-title>span{font:29px/1 Georgia,serif;color:#b69a66}
+.st-verb-zone-title h2{font:500 17px/1.5 var(--font-body);color:#d9e2e5;letter-spacing:1px;margin:0}
+.st-verb-zone-title p{font:11px/1.6 var(--font-body);color:#91a7b5;margin:5px 0 0}
+.st-verbs .st-verb-node{width:288px;min-height:136px;display:flex;flex-direction:column;align-items:stretch;gap:0;padding:16px 18px 13px;background:linear-gradient(130deg,#1c303d,#111e2a);border:1px solid #647d8f88;border-radius:5px;box-shadow:0 7px 18px #0002;transition:border-color .15s,background .15s,opacity .15s}
+.st-verb-node-meta{display:flex;justify-content:space-between;color:#91a6b5;font:10px/1.4 system-ui,sans-serif;letter-spacing:1px}
+.st-verb-node-meta>span:last-child{letter-spacing:0}
+.st-verb-node-title{display:flex;align-items:center;gap:12px;min-height:52px;margin:7px 0 10px}
+.st-verbs .st-verb-node-title strong{font:500 18px/1.5 var(--font-body);color:#e2e8e8;overflow-wrap:anywhere}
+.st-verb-symbol{display:grid;place-items:center;flex-shrink:0;width:33px;height:33px;border:1px solid #8aabbe55;border-radius:4px;background:#45677e15;color:#b1c6d1;font:20px Georgia,serif}
+.st-verb-node-state{display:flex;align-items:center;gap:7px;border-top:1px solid #8ca5b424;padding-top:10px;color:#a1b3bf;font:11px/1.4 var(--font-body)}
+.st-verb-node-state>span{margin-left:auto;font-size:16px;line-height:1}
+.st-verbs .st-verb-node:hover{border-color:#d6b67d;background:linear-gradient(130deg,#283c46,#182937)}
+.st-verbs .st-verb-node.is-selected{border-color:var(--st-gold);outline:1px solid #e7c48a77;outline-offset:4px;background:linear-gradient(130deg,#4a412d,#202b30 80%);box-shadow:0 0 36px #d0a45a20}
+.st-verbs .st-verb-node.is-selected strong,.st-verbs .st-verb-node.is-selected .st-verb-node-meta{color:#f4d69f}
+.st-verbs .st-verb-node.is-before{border-color:#8cbccb;background:linear-gradient(130deg,#233e4d,#142632)}
+.st-verbs .st-verb-node.is-before .st-verb-node-meta{color:var(--st-before)}
+.st-verbs .st-verb-node.is-after{border-color:#c4a06899}
+.st-verbs .st-verb-node.is-after .st-verb-node-meta{color:var(--st-gold)}
+.st-verbs .st-verb-node.is-muted{opacity:.58}
+.st-verbs .st-verb-node.is-muted:hover,.st-verbs .st-verb-node.is-muted:focus-visible{opacity:1}
+.st-verbs .st-verb-node.st-level-2,.st-verbs .st-verb-node.st-level-3{border-color:#e2bd7c}
+.st-verbs .st-verb-edges>path{stroke:#7d9cad66;stroke-width:1.5}
+.st-verbs .st-verb-edges>path.is-before{stroke:#8cbccb;stroke-width:2.5}
+.st-verbs .st-verb-edges>path.is-after{stroke:#e7c48a;stroke-width:2.5}
+.st-verbs .st-verb-edges>path.is-muted{opacity:.18}
+.st-verbs .st-verb-edges marker path{fill:none;stroke:#7d9cad;stroke-width:1.5}
+.st-verbs #st-verb-arrow-before path{stroke:#8cbccb}
+.st-verbs #st-verb-arrow-after path{stroke:#e7c48a}
+.st-verb-board-foot{position:absolute;bottom:14px;left:48px;margin:0;color:#a8b9c5;font:12px/1.8 var(--font-body);letter-spacing:.5px}
+.skill-tree .st-verb-read{display:block;padding:15px 17px;margin:20px 0 23px;background:linear-gradient(120deg,#b4934b1f,#162b3655);border:1px solid #c7a66f77;border-radius:4px}
+.st-verb-read>span{display:block;color:#b9aa8c;font-size:11px;margin-bottom:7px}
+.st-verb-read strong{display:flex;justify-content:space-between;font-size:14px;font-weight:500;color:#f1d69f}
+.st-verb-read:hover{border-color:#f1d69f}
+@media(min-width:751px){
+ .st-verbs .st-header{padding:9px 30px;min-height:56px}.st-verbs .st-brand small{display:none}.st-verbs .st-brand-mark{width:31px;height:31px;font-size:22px}.st-verbs .st-header nav{font-size:13px;gap:24px}
+ .st-verbs .st-hero{padding:16px 32px;gap:24px;align-items:center;position:relative}.st-verbs h1{font-size:30px;letter-spacing:2px}.st-verbs .st-hero .st-eyebrow{font-size:10px;letter-spacing:2px;margin-bottom:5px}.st-verbs .st-subtitle{display:block;font-size:12px;margin-top:5px}.st-verbs .st-next{position:absolute;right:32px;bottom:16px;font-size:12px;margin:0;max-width:320px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .st-verbs .st-goal{display:none}.st-verbs .st-stats{align-self:flex-start;gap:32px}.st-verbs .st-stats strong{font-size:29px}.st-verbs .st-stats span{font-size:11px;margin-top:3px}
+ .st-verbs .st-controls{padding:9px 32px;gap:20px}.st-verbs .st-controls nav a{font-size:13px}.st-verbs .st-branch-label,.st-verbs select{font-size:13px}.st-verbs .st-search-label{width:clamp(240px,20vw,420px)}.st-verbs .st-search-label input{width:100%;font-size:13px}
+ .st-verbs .st-path{padding:9px 32px;font-size:12px;min-height:43px}.st-verbs .st-path nav{font-size:12px;gap:9px}.st-verbs .st-path nav a{padding:3px 12px}.st-verbs .st-branch-progress{font-size:12px}
+ .st-verbs .st-detail{flex:0 0 clamp(380px,23vw,570px);width:clamp(380px,23vw,570px);padding:25px 30px;background:linear-gradient(155deg,#203440,#111f2b);font-size:clamp(14px,.48vw,18px)}
+ .st-verbs .st-detail .st-eyebrow{font-size:.65em}.st-verbs .st-detail-icon{width:42px;height:42px;margin:16px 0}.st-verbs .st-detail h2{font-size:1.85em;line-height:1.5;letter-spacing:.5px}.st-verbs .st-detail-goal{font-size:.95em;line-height:1.9;margin-bottom:18px}.st-verbs .st-detail-state{font-size:.85em;padding:12px 0}.st-verbs .st-detail-state>span{font-size:.75em}
+ .st-verbs .st-detail h3,.st-verbs .st-note-label{font-size:1em;margin-top:25px}.st-verbs .st-criteria{font-size:.92em;gap:10px}.st-verbs .st-state-buttons button{font-size:.85em;min-height:42px;padding:10px}.st-verbs .st-help{font-size:.78em}.st-verbs .st-prerequisites a{font-size:.8em;padding:7px 10px}.st-verbs .st-sources strong{font-size:.85em}.st-verbs .st-sources span{font-size:.7em}.st-verbs textarea{font-size:.9em;min-height:110px}.st-verbs .st-note-label small,.st-verbs .st-note-status{font-size:.75em}.st-verbs .st-close{width:36px;height:36px}.st-verbs .st-verb-read strong{font-size:1em}.st-verbs .st-verb-read>span{font-size:.78em}
+ .st-verbs .st-footer{padding:10px 30px}.st-verbs .st-legend{font-size:12px;gap:20px}.st-verbs .st-zoom button{font-size:12px;padding:7px 13px}.st-verbs .st-canvas-hint{font-size:11px}
+}
+@media(min-width:751px) and (max-width:1500px){.st-verbs .st-hero{padding:12px 25px}.st-verbs .st-stats{gap:20px}.st-verbs .st-next{bottom:12px;right:25px;font-size:11px}.st-verbs h1{font-size:26px}.st-verbs .st-subtitle{font-size:11px}.st-verbs .st-detail{padding:22px}}
+@media(prefers-reduced-motion:reduce){.st-verbs .st-verb-node{transition:none}}

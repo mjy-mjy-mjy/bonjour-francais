@@ -49,3 +49,21 @@ test('skill search finds criteria and accepts unaccented French input',()=>{
  assert.equal(tree.searchNodes('no-such-knowledge-123').length,0);
 });
 
+test('verb sample covers each authored verb skill once with readable, nonoverlapping card bounds',()=>{
+ const {data,tree}=model(),g=tree.verbLayout(),ids=data.nodes.filter(n=>n.group==='verbs'&&!n.planned).map(n=>n.id);
+ assert.deepEqual([...g.points.keys()].sort(),Array.from(ids).sort());
+ const points=[...g.points.values()];
+ for(const p of points){assert.ok(p.x-144>=0&&p.x+144<=g.width);assert.ok(p.y-78>=0&&p.y+78<=g.height);}
+ for(let i=0;i<points.length;i++)for(let j=i+1;j<points.length;j++){
+  assert.ok(Math.abs(points[i].x-points[j].x)>=308||Math.abs(points[i].y-points[j].y)>=156,'Cards overlap or lack spacing');
+ }
+});
+test('selection relations retain cross-branch prerequisites and only show direct successors',()=>{
+ const {tree}=model(),past=tree.skillRelations('g-past-etre');
+ assert.deepEqual(Array.from(past.before),['g-etre','g-past-avoir']);
+ assert.ok(past.after.includes('g-past-agreement'));
+ assert.ok(past.after.includes('s-past'),'Cross-branch speaking relationship must remain discoverable');
+ assert.ok(!past.after.includes('g-participles'));
+ assert.ok(tree.skillRelations('g-past-agreement').before.includes('g-agreement'));
+ assert.deepEqual(JSON.parse(JSON.stringify(tree.skillRelations('missing'))),{before:[],after:[]});
+});
