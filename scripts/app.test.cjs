@@ -843,3 +843,11 @@ test('malformed mastery records are rejected instead of entering a learning back
  assert.equal(vm.runInContext('validKnowledgeMastery({"999:articles":{level:2,updatedAt:"2026-10-29"}})',a.context),false);
  assert.equal(vm.runInContext('validKnowledgeMastery([])',a.context),false);
 });
+test('completion changes roll back on storage failure and reject invalid lesson numbers',()=>{
+ const a=app(progress({completed:[1],currentLesson:2}));a.storage.failSave=true;
+ assert.equal(vm.runInContext('toggleLessonComplete(2)',a.context),false);
+ assert.equal(vm.runInContext('JSON.stringify([state.completed,state.currentLesson])',a.context),'[[1],2]');
+ a.storage.failSave=false;assert.equal(vm.runInContext('toggleLessonComplete(2)',a.context),true);
+ assert.equal(JSON.parse(a.storage.value).currentLesson,3);
+ assert.equal(vm.runInContext('toggleLessonComplete(1.5)',a.context),false);
+});

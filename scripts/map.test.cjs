@@ -18,3 +18,16 @@ test('knowledge atlas deep links reach original sections and topic IDs are stabl
 test('map HTML is keyboard discoverable, has an asset fallback and starts without invented progress',()=>{
  const {c}=data();const html=c.KNOWLEDGE_MAP.render();assert.match(html,/tabindex="0"/);assert.match(html,/map-load-error/);assert.match(html,/知识图鉴/);assert.doesNotMatch(html,/已完成\d+%/);assert.ok(fs.existsSync(path.join(root,'assets/knowledge-continent.webp')));
 });
+test('viewport bounds retain a visible map after extreme pan and center undersized artwork',()=>{
+ const {c}=data(),clamp=c.KNOWLEDGE_MAP.constrainView;
+ for(const [width,height,scale] of [[1363,710,1],[390,300,.4],[320,220,.1]])for(const x of [-1e6,1e6])for(const y of [-1e6,1e6]){
+   const v=clamp({x,y,scale},width,height),w=2048*scale,h=1152*scale;
+   if(w<=width)assert.equal(v.x,(width-w)/2);else{assert.ok(v.x<=0);assert.ok(v.x+w>=width);}
+   if(h<=height)assert.equal(v.y,(height-h)/2);else{assert.ok(v.y<=0);assert.ok(v.y+h>=height);}
+ }
+});
+test('fractional, nonnumeric and out-of-range unit links use a valid fallback',()=>{
+ const {c}=data(),unit=c.KNOWLEDGE_MAP.unitNumber;
+ for(const bad of ['1.5','bogus','0','-1','99',undefined])assert.equal(unit(bad,4),4);
+ assert.equal(unit('9',4),9);
+});
