@@ -28,7 +28,7 @@
     return {number:n,title:meta?.title||'教材学习记录',translation:meta?.translation||'详细讲义待补充',core:meta?.core||[],available:courses.has(n),completed:state.completed.includes(n)};
   })}));}
   function render(){return `<section class="knowledge-map" id="knowledge-map" aria-label="法语知识学习大陆">
-    <header class="map-header"><a href="#route" class="map-brand">Bonjour Français<small>知识学习大陆</small></a><div class="map-actions"><button data-map="atlas">知识图鉴</button><button data-map="list" aria-label="打开单元与课程列表">课程目录</button><button data-map="fullscreen">全屏</button><a href="#route">返回书房</a></div></header>
+    <header class="map-header"><a href="#route" class="map-brand">Bonjour Français<small>知识学习大陆</small></a><div class="map-actions"><a href="#skills">知识技能树</a><button data-map="atlas">知识图鉴</button><button data-map="list" aria-label="打开单元与课程列表">课程目录</button><button data-map="fullscreen">全屏</button><a href="#route">返回书房</a></div></header>
     <nav class="map-breadcrumb" id="map-breadcrumb" aria-label="地图位置"></nav>
     <div class="map-body">
       <div class="map-stage" id="map-stage" tabindex="0" aria-label="学习地图，可用方向键移动，加减键缩放，0键回到全貌">

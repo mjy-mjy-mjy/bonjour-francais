@@ -24,6 +24,8 @@ jobs:
         run: |
           node --check app.js
           node --check knowledge-map.js
+          node --check skill-tree.js
+          node --check skill-tree-data.js
           node --check content.js
           python3 scripts/build-course.py
           node --check course.js
@@ -41,7 +43,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html styles.css app.js content.js course.js lesson14.js _site/
-          cp knowledge-map.js knowledge-map.css _site/
+          cp knowledge-map.js knowledge-map.css skill-tree-data.js skill-tree.js skill-tree.css _site/
           cp -R data assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:
