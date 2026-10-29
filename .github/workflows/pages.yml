@@ -23,12 +23,13 @@ jobs:
       - name: Check scripts
         run: |
           node --check app.js
+          node --check knowledge-map.js
           node --check content.js
           python3 scripts/build-course.py
           node --check course.js
           node --check lesson14.js
           python3 scripts/check-site.py
-          node --test scripts/app.test.cjs
+          node --test scripts/*.test.cjs
       - name: Refresh official invitation data
         id: refresh
         continue-on-error: true
@@ -40,10 +41,12 @@ jobs:
         run: |
           mkdir _site
           cp index.html styles.css app.js content.js course.js lesson14.js _site/
-          cp -R data _site/
+          cp knowledge-map.js knowledge-map.css _site/
+          cp -R data assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

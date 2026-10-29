@@ -828,3 +828,18 @@ for(const [n,term,anchor] of [[17,'buvons','verbs'],[18,'j’ai acheté','verbs'
   form.answer=String(q.answer);a.main.listeners.submit({preventDefault(){},target:{closest:()=>form}});
   assert.deepEqual(JSON.parse(a.storage.value).wrong,['l15-q01']);
 });
+
+
+test('knowledge mastery remains compatible with older backups and survives normal progress saves',()=>{
+ const value={level:3,updatedAt:'2026-10-29T00:00:00.000Z'};
+ const a=app(progress({knowledgeMastery:{'2:articles':value}}),'#lesson/2');
+ a.main.listeners.click({target:{closest:()=>({dataset:{complete:'2'},hasAttribute:()=>false})}});
+ const stored=JSON.parse(a.storage.value);assert.deepEqual(stored.knowledgeMastery['2:articles'],value);
+ assert.ok(app(a.storage.value,'#lesson/2').main.innerHTML.includes('Qui est-ce'));
+ assert.ok(app(progress({knowledgeMastery:undefined}),'#settings').main.innerHTML.includes('学习记录与备份'));
+});
+test('malformed mastery records are rejected instead of entering a learning backup',()=>{
+ const a=app();assert.equal(vm.runInContext('validKnowledgeMastery({"2:articles":{level:9,updatedAt:"2026-10-29"}})',a.context),false);
+ assert.equal(vm.runInContext('validKnowledgeMastery({"999:articles":{level:2,updatedAt:"2026-10-29"}})',a.context),false);
+ assert.equal(vm.runInContext('validKnowledgeMastery([])',a.context),false);
+});
