@@ -4,7 +4,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const vm=require('node:vm');
 const root=path.join(__dirname,'..');
-function model(){const c=vm.createContext({});c.window=c;for(const file of ['course.js','lesson14.js','skill-tree-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);return {c,data:c.FRENCH_SKILLS,tree:c.SKILL_TREE};}
+function model(){const c=vm.createContext({URLSearchParams});c.window=c;for(const file of ['course.js','lesson14.js','skill-tree-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);return {c,data:c.FRENCH_SKILLS,tree:c.SKILL_TREE};}
 test('curated scope has seven branches, 64 linked skills and 21 explicitly planned directions',()=>{
  const {data}=model();assert.equal(data.branches.length,7);assert.equal(data.nodes.filter(n=>!n.planned).length,64);assert.equal(data.nodes.filter(n=>n.planned).length,21);assert.equal(new Set(data.nodes.map(n=>n.id)).size,data.nodes.length);
  const source=JSON.parse(fs.readFileSync(path.join(root,'knowledge/skills.json'),'utf8'));assert.deepEqual(JSON.parse(JSON.stringify(data)),source);
@@ -66,4 +66,41 @@ test('selection relations retain cross-branch prerequisites and only show direct
  assert.ok(!past.after.includes('g-participles'));
  assert.ok(tree.skillRelations('g-past-agreement').before.includes('g-agreement'));
  assert.deepEqual(JSON.parse(JSON.stringify(tree.skillRelations('missing'))),{before:[],after:[]});
+});
+
+test('overview and list scopes expose actual skills, exclude plans and share search normalization',()=>{
+ const {tree}=model(),scope=tree.route('#skills');
+ assert.equal(tree.scopedNodes(scope).length,64);
+ assert.equal(tree.scopedNodes(tree.route('#skills/A2/all?view=list')).length,7);
+ const branch=tree.route('#skills/A1/grammar?view=list');
+ assert.equal(tree.scopedNodes(branch).length,27);
+ const found=tree.scopedNodes(tree.route('#skills/A1/grammar/verbs?q=etre'));
+ assert.ok(found.every(n=>n.group==='verbs'));assert.ok(found.some(n=>n.id==='g-etre'));assert.ok(found.some(n=>n.id==='g-past-etre'));assert.ok(!found.some(n=>n.id==='g-y'));
+ assert.equal(tree.scopedNodes(tree.route('#skills/all/all?view=list&q=zz-no-match')).length,0);
+});
+test('mode, query and selection round-trip without narrowing an explicitly broad list scope',()=>{
+ const {tree}=model();
+ const h=tree.href('all','all','g-past-etre',{mode:'list',query:'être & passé',allGroups:true});
+ const r=tree.route(h);assert.equal(r.node.id,'g-past-etre');assert.equal(r.mode,'list');assert.equal(r.query,'être & passé');
+ assert.equal(tree.scopedNodes({...r,query:''}).length,64);
+ const grammar=tree.route(tree.href('A1','grammar','g-etre',{mode:'list',allGroups:true}));
+ assert.equal(grammar.group,'');assert.equal(tree.scopedNodes(grammar).length,27);
+ assert.equal(tree.route('#skills/A1/grammar/g-etre?view=unknown').mode,'graph');
+ assert.equal(tree.route('#skills/invalid/all/g-etre?view=list').node,null);
+ assert.equal(tree.route('#skills/A1/writing/g-etre').node,null);
+ assert.equal(tree.route('#skills/A1/grammar/verbs?q='+ 'x'.repeat(400)).query.length,200);
+});
+test('shared branch layouts keep every card separate and dependencies pointing forward',()=>{
+ const {data,tree}=model();
+ for(const branch of data.branches){
+  const scopes=branch.id==='grammar'?['verbs','nominals','structure']:[''];
+  for(const group of scopes){
+   const nodes=data.nodes.filter(n=>!n.planned&&n.branch===branch.id&&(!group||n.group===group)),g=group==='verbs'?tree.verbLayout():tree.graphLayout(nodes);
+   assert.equal(g.points.size,nodes.length);
+   const points=[...g.points.values()];
+   for(const p of points){assert.ok(p.x>=144&&p.x+144<=g.width);assert.ok(p.y>=78&&p.y+78<=g.height);}
+   for(let i=0;i<points.length;i++)for(let j=i+1;j<points.length;j++)assert.ok(Math.abs(points[i].x-points[j].x)>=308||Math.abs(points[i].y-points[j].y)>=156,`${branch.id}/${group}: overlap`);
+   for(const n of nodes)for(const req of n.requires){const a=g.points.get(req),b=g.points.get(n.id);if(a)assert.ok(b.x>a.x||(b.x===a.x&&b.y>a.y),`${req} -> ${n.id}`);}
+  }
+ }
 });

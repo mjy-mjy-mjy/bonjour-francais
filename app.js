@@ -164,7 +164,7 @@ function writtenPractice(letters,course=lesson14) {return `<section class="lesso
 function quickCheck(list,n=14) {const qs=list||questions.filter(q=>q.lesson===n);return `<section class="section" id="lesson${n}-quick-check"><h2>即时小测 · ${qs.length} 题</h2><p class="subtle">提交后查看解析，答错的题会自动进入“错题与收藏”。开放任务请按参考答案和自查标准检查。</p>${quiz(qs)}</section>`;}
 function lessonSkillLinks(n){
   const nodes=window.FRENCH_SKILLS?.nodes.filter(s=>!s.planned&&s.refs.some(r=>r.lesson===n))||[];
-  return nodes.length?`<nav class="lesson-skills" aria-label="本课关联技能"><span>关联技能</span>${nodes.map(node=>`<a href="#skills/${node.stage}/${node.branch}/${node.id}">${escapeHtml(node.title)}${state.skillMastery[node.id]?.level>=2?' ✓':''}</a>`).join('')}</nav>`:'';
+  return nodes.length?`<nav class="lesson-skills" aria-label="本课关联技能"><span>关联技能</span>${window.SKILL_TREE?.resumeHref?.()&&window.SKILL_TREE.resumeHref()!=='#skills'?`<a class="skill-return" href="${escapeHtml(window.SKILL_TREE.resumeHref())}">↩ 返回知识视图</a>`:''}${nodes.map(node=>`<a href="#skills/${node.stage}/${node.branch}/${node.id}">${escapeHtml(node.title)}${state.skillMastery[node.id]?.level>=2?' ✓':''}</a>`).join('')}</nav>`:'';
 }
 function lesson(n) {
   const course=courses.get(n),meta=catalog.find(c=>c.number===n),done=state.completed.includes(n),favorite=state.favorites.includes(n);

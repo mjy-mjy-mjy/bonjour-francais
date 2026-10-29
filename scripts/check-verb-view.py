@@ -66,7 +66,7 @@ with sync_playwright() as p:
  # Search and no results, escaping returns to branch.
  page.locator('#st-search').fill('zzzz-no-match');expect(page.locator('#st-detail-body')).to_contain_text('没有匹配')
  page.locator('#st-search').fill('etre');expect(page.locator('.st-search-results a')).not_to_have_count(0)
- page.locator('.st-search-results a[href$="g-etre"]').click()
+ page.locator('.st-search-results a[href*="/g-etre?"]').click()
  expect(page.locator('#st-detail h2')).to_have_text('être 现在时')
  page.go_back();expect(page.locator('#st-detail h2')).to_have_text('être 复合过去时')
  page.go_forward();expect(page.locator('#st-detail h2')).to_have_text('être 现在时')
