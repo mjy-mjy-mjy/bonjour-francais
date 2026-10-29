@@ -258,6 +258,22 @@ window.COURSE_LIBRARY = {
         "节奏组、联诵与连音",
         "地点副代词y与复合过去时衔接（复习）"
       ]
+    },
+    {
+      "number": 20,
+      "title": "Les fêtes",
+      "translation": "节日",
+      "pages": "62–63",
+      "core": [
+        "十二个月份与日期",
+        "七个节日与习俗",
+        "朋友与恋人称呼",
+        "passer…à faire",
+        "dernier／dernière",
+        "fêter／passer／offrir变位",
+        "理解四段节日回忆",
+        "第5单元综合运用"
+      ]
     }
   ],
   "lessons": [
@@ -9964,6 +9980,707 @@ window.COURSE_LIBRARY = {
         ]
       },
       "listening": "听教材第19课旅行与返回对话：先抓人物、地点和交通方式，再分别记录出发／到达时刻、实际停留、预定时长和多久以后返回；第三遍标être与avoir、分词配合、否定和节奏联诵。对照教材核查，不把本站Lina明信片当成音轨逐字稿。最后按时间线复述30—60秒。 追加复习：听到y时先找它回指的地点，再识别y后面的être／avoir；区别y与déjà的位置，保留时间和时长信息。"
+    },
+    {
+      "number": 20,
+      "title": "Les fêtes",
+      "translation": "节日",
+      "pages": "62–63",
+      "core": [
+        "十二个月份与日期",
+        "七个节日与习俗",
+        "朋友与恋人称呼",
+        "passer…à faire",
+        "dernier／dernière",
+        "fêter／passer／offrir变位",
+        "理解四段节日回忆",
+        "第5单元综合运用"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标：理解节日回忆，介绍传统节日",
+          "html": "<h2>1. 学习目标：理解节日回忆，介绍传统节日</h2><p>第20课 <strong lang=\"fr\">Les fêtes（节日）</strong>，第5单元综合课，法文版教材第62—63页。用前面学过的现在时和复合过去时，读懂节日经历，再介绍自己的节日习惯与一次回忆。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">范围</th><th scope=\"col\">知识与任务</th></tr></thead><tbody><tr><td>教材核心</td><td>理解四段节日回忆；把人物、节日、活动与照片对应；描述节日场景；介绍自己国家的节日。</td></tr><tr><td>结合你的笔记补齐</td><td>十二个月份与日期；七个节日；copain／copine与恋人称呼；un dîner à deux；passer＋时间＋à＋不定式；dernier／dernière。</td></tr><tr><td>单元复习</td><td>avoir／être复合过去时、主语配合、否定与疑问、地点y、部分冠词、时间先后。</td></tr><tr><td>词汇拓展</td><td>fêter／passer／offrir六人称对照；exister与souhaiter常用句；语音复习和四段原创阅读。</td></tr></tbody></table></div><p>本课没有单列一套新的时态或语音规则；变位与结构讲解服务于综合运用。先会说“什么时候、和谁、在哪里、做什么”，再练习说清一个过去的节日。</p><p>范围核对<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方第20课教学指南</a>（PDF第68—69页，书内第74—75页）。以下讲解、例句、短文与练习为本站原创；教材四段原文请对照手边教材阅读。</p>"
+        },
+        {
+          "id": "months",
+          "title": "2. 十二个月份、日期与介词",
+          "html": "<h2>2. 十二个月份、日期与介词</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">月</th><th scope=\"col\">法语</th><th scope=\"col\">读音提示</th><th scope=\"col\">中文</th></tr></thead><tbody><tr><td>1</td><td>janvier</td><td>/ʒɑ̃.vje/</td><td>一月</td></tr><tr><td>2</td><td>février</td><td>/fe.vʁi.je/</td><td>二月</td></tr><tr><td>3</td><td>mars</td><td>/maʁs/</td><td>三月</td></tr><tr><td>4</td><td>avril</td><td>/a.vʁil/</td><td>四月</td></tr><tr><td>5</td><td>mai</td><td>/mɛ/</td><td>五月</td></tr><tr><td>6</td><td>juin</td><td>/ʒɥɛ̃/</td><td>六月</td></tr><tr><td>7</td><td>juillet</td><td>/ʒɥi.jɛ/</td><td>七月</td></tr><tr><td>8</td><td>août</td><td>/ut/，也可读/u/</td><td>八月</td></tr><tr><td>9</td><td>septembre</td><td>/sɛp.tɑ̃bʁ/</td><td>九月</td></tr><tr><td>10</td><td>octobre</td><td>/ɔk.tɔbʁ/</td><td>十月</td></tr><tr><td>11</td><td>novembre</td><td>/nɔ.vɑ̃bʁ/</td><td>十一月</td></tr><tr><td>12</td><td>décembre</td><td>/de.sɑ̃bʁ/</td><td>十二月</td></tr></tbody></table></div><p>月份名通常小写；句首才大写。重点写准<strong>février、août、décembre</strong>。août的传统拼写在u上保留长音符，写作<strong>û</strong>；1990拼写建议也接受aout，本页统一用août。读音有地区差异，先听熟你课程中的版本。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">要表达</th><th scope=\"col\">结构与例句</th><th scope=\"col\">注意</th></tr></thead><tbody><tr><td>在某月</td><td>en février；au mois de février</td><td>不用à février，也不加le。</td></tr><tr><td>在某一天</td><td>le 14 février；le 25 décembre</td><td>日期前用le；月份前不再加介词。</td></tr><tr><td>每月1日</td><td>le 1er mai = le premier mai</td><td>只有1日用premier；2日等用基数词。</td></tr><tr><td>从某月到某月</td><td>de juin à août</td><td>月份范围，不是具体日期。</td></tr><tr><td>问月份</td><td>En quel mois est Noël ? — En décembre.</td><td>问月份用en quel mois。</td></tr><tr><td>问日期</td><td>Quelle est la date de la fête du Travail ? — Le 1er mai.</td><td>还可问C’est quand ?／C’est quelle date ?。</td></tr></tbody></table></div><p lang=\"fr\">La Saint-Valentin est le 14 février. Nous faisons une fête en juillet. Le 1er janvier, je téléphone à mes amis.</p><p>对应中文：情人节是2月14日；我们七月办聚会；1月1日我给朋友打电话。日期读法复习<a href=\"#lesson/13\">第13课</a>。</p>"
+        },
+        {
+          "id": "festivals",
+          "title": "3. 七个节日：名称、日期、活动和祝福",
+          "html": "<h2>3. 七个节日：名称、日期、活动和祝福</h2><p>你的笔记列了六个节日，这里加上本课涉及的音乐节。先记“节日＋日期＋一个活动”，不必一次背完所有文化背景。下列是常见习俗，不能推断每个人都这样过节。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">名称</th><th scope=\"col\">日期</th><th scope=\"col\">文化线索</th><th scope=\"col\">常用搭配</th></tr></thead><tbody><tr><td>le jour de l’an／le Nouvel An</td><td>1月1日 · le 1er janvier</td><td>新年；前夜12月31日为la Saint-Sylvestre，可有un réveillon（跨年夜聚餐）</td><td>souhaiter une bonne année；faire la fête</td></tr><tr><td>la Chandeleur</td><td>2月2日 · le 2 février</td><td>圣烛节；常见习俗是做可丽饼</td><td>faire／manger des crêpes</td></tr><tr><td>la Saint-Valentin</td><td>2月14日 · le 14 février</td><td>情人节；恋人间的庆祝方式因人而异</td><td>offrir des fleurs；un dîner à deux</td></tr><tr><td>la fête du Travail</td><td>5月1日 · le 1er mai</td><td>劳动节；铃兰le muguet是常见文化联想</td><td>offrir du muguet</td></tr><tr><td>la Fête de la musique</td><td>6月21日 · le 21 juin</td><td>音乐节；认识教材中的街头音乐场景</td><td>écouter des groupes；jouer de la musique</td></tr><tr><td>la fête nationale／le 14 Juillet</td><td>7月14日 · le 14 juillet</td><td>法国国庆；烟花、游行等属常见节庆场景</td><td>regarder un feu d’artifice；voir un défilé</td></tr><tr><td>Noël</td><td>12月25日 · le 25 décembre</td><td>圣诞节；12月24日晚可有le réveillon de Noël</td><td>passer Noël en famille；offrir des cadeaux</td></tr></tbody></table></div><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">场景</th><th scope=\"col\">常用表达</th><th scope=\"col\">中文</th></tr></thead><tbody><tr><td>新年</td><td>Bonne année !</td><td>新年快乐！</td></tr><tr><td>圣诞节</td><td>Joyeux Noël !</td><td>圣诞快乐！</td></tr><tr><td>一般节庆</td><td>Bonnes fêtes !</td><td>节日快乐！</td></tr><tr><td>提问</td><td>Qu’est-ce qu’on fait pour la Chandeleur ?</td><td>圣烛节通常做什么？</td></tr></tbody></table></div><p>普通句子说<strong>à Noël、au Nouvel An、à la Saint-Valentin、à la Chandeleur</strong>；强调“为庆祝某节日”可用<strong>pour</strong>：<span lang=\"fr\">Pour Noël, nous préparons un repas.</span> 日期则说<span lang=\"fr\">le 25 décembre</span>。Noël在这些常用时间短语中不加冠词。Nouvel An是节日名，une nouvelle année是“新的一年”；有些教材将nouvel an写作小写。</p><p>文化核对：<a href=\"https://www.france.fr/fr/article/5-minutes-pour-tout-savoir-sur-les-crepes-bretonnes/\" target=\"_blank\" rel=\"noopener noreferrer\">France.fr：2月2日与可丽饼</a>；<a href=\"https://www.culture.gouv.fr/regions/drac-centre-val-de-loire/nos-secteurs-d-activite/spectacle-vivant-musique-danse-theatre-pole-creation/fete-de-la-musique\" target=\"_blank\" rel=\"noopener noreferrer\">法国文化部：6月21日音乐节</a>。这些日期用于学习表达；具体当年的活动时间和地点需另查公告。</p>"
+        },
+        {
+          "id": "words",
+          "title": "4. 本课词汇：性数、搭配与凯旋门",
+          "html": "<h2>4. 本课词汇：性数、搭配与凯旋门</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">词语</th><th scope=\"col\">词性</th><th scope=\"col\">含义</th><th scope=\"col\">搭配与辨析</th></tr></thead><tbody><tr><td>une fête／des fêtes</td><td>阴性名词</td><td>节日；庆祝活动；聚会</td><td>organiser une fête（组织聚会）</td></tr><tr><td>un souvenir／des souvenirs</td><td>阳性名词</td><td>回忆；也可指纪念品</td><td>un souvenir de fête；在上下文中判断</td></tr><tr><td>une enquête</td><td>阴性名词</td><td>调查</td><td>une enquête sur les fêtes</td></tr><tr><td>un témoignage</td><td>阳性名词 · 阅读补充</td><td>个人讲述、见证</td><td>lire quatre témoignages</td></tr><tr><td>un feu d’artifice／des feux d’artifice</td><td>阳性名词</td><td>烟花；烟火表演</td><td>regarder un feu d’artifice；feu复数feux</td></tr><tr><td>un groupe de musiciens</td><td>阳性名词词组</td><td>一组音乐人；乐队</td><td>écouter un groupe</td></tr><tr><td>un mariage</td><td>阳性名词</td><td>婚礼；婚姻</td><td>aller à un mariage；不等于每年固定节日</td></tr><tr><td>un gâteau／des gâteaux</td><td>阳性名词</td><td>蛋糕</td><td>acheter un gâteau；复数gâteaux</td></tr><tr><td>une pâtisserie</td><td>阴性名词</td><td>糕点；糕点店</td><td>acheter des pâtisseries／aller à la pâtisserie</td></tr><tr><td>le muguet</td><td>阳性名词</td><td>铃兰</td><td>offrir du muguet；offrir un brin de muguet（一枝）</td></tr><tr><td>un cadeau／des cadeaux</td><td>阳性名词 · 复习</td><td>礼物</td><td>offrir un cadeau à quelqu’un</td></tr><tr><td>un repas／des repas</td><td>阳性名词 · 复习</td><td>一餐</td><td>préparer un repas；单复数拼写相同</td></tr><tr><td>un dîner</td><td>阳性名词</td><td>晚餐</td><td>un dîner à deux；dîner也可作“吃晚饭”的动词</td></tr><tr><td>un bateau／des bateaux</td><td>阳性名词</td><td>船</td><td>sur un bateau；prendre le bateau</td></tr><tr><td>une boîte de nuit</td><td>阴性名词词组</td><td>夜总会；舞厅</td><td>aller en boîte（口语）</td></tr><tr><td>un moment</td><td>阳性名词</td><td>时刻；片刻</td><td>passer un bon moment（度过愉快时光）</td></tr><tr><td>romantique</td><td>形容词，阴阳同形</td><td>浪漫的</td><td>un dîner romantique；une soirée romantique；复数romantiques</td></tr><tr><td>exister</td><td>动词</td><td>存在</td><td>Cette tradition existe.；Ces fêtes existent.</td></tr><tr><td>l’Arc de triomphe</td><td>阳性专名</td><td>凯旋门</td><td>près de l’Arc de triomphe；visiter l’Arc de triomphe</td></tr><tr><td>les Champs-Élysées</td><td>复数专名</td><td>香榭丽舍大街</td><td>sur les Champs-Élysées；和凯旋门共同作为巴黎地点线索</td></tr></tbody></table></div><p>凯旋门是<strong lang=\"fr\">l’Arc de triomphe</strong>。不要把“凯旋门”与“埃菲尔铁塔”混为同一个地标。照片描述可以说：<span lang=\"fr\">Sur la photo, on voit l’Arc de triomphe. Il y a des gens dans la rue.</span> 第二句只在照片确实出现行人时使用。</p><p>记忆单位尽量带冠词和搭配：un souvenir、une fête、du muguet、des feux d’artifice。教材词汇与为理解照片、完成输出增加的词组分别注明；这不是教材全部词形的逐词转录。</p>"
+        },
+        {
+          "id": "expressions",
+          "title": "5. 朋友、恋人、双人晚餐与passer…à faire",
+          "html": "<h2>5. 朋友、恋人、双人晚餐与passer…à faire</h2><h3>5.1 un copain／une copine与恋人称呼</h3><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">表达</th><th scope=\"col\">通常理解</th><th scope=\"col\">语境提醒</th></tr></thead><tbody><tr><td>un copain／une copine</td><td>一个朋友、同伴；口语</td><td>des copains往往指朋友们；词本身不规定恋爱关系。</td></tr><tr><td>mon copain／ma copine</td><td>我的朋友；也常指男朋友／女朋友</td><td>要看人物关系和上下文；不能只凭copine断言是恋人。</td></tr><tr><td>un petit ami／une petite amie</td><td>男朋友／女朋友</td><td>通常明确表示恋人；不是把“小”逐字理解为年龄小。</td></tr><tr><td>un ami／une amie</td><td>朋友</td><td>une amie也不提供年龄、婚姻等额外信息。</td></tr><tr><td>un dîner à deux</td><td>两个人共进的一顿晚餐</td><td>在情人节语境常有浪漫意味，表达本身只说明两个人。</td></tr></tbody></table></div><p lang=\"fr\">Je passe la soirée avec des copains. → 我和朋友们一起过这个晚上。<br>Elle a dîné avec son petit ami. → 她和男朋友吃了晚饭。<br>Nous avons préparé un dîner à deux. → 我们准备了一顿双人晚餐。</p><h3>5.2 passer＋时间＋à＋动词原形</h3><p><strong>主语＋passer（变位）＋时间或时段＋à＋不定式</strong>：花／用一段时间做某事。à保留重音；后面的动作动词用原形，不再随主语变位。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">例句</th><th scope=\"col\">结构拆分</th><th scope=\"col\">中文</th></tr></thead><tbody><tr><td>Je passe deux heures à préparer le repas.</td><td>passe＋deux heures＋à préparer</td><td>我花两小时准备饭菜。</td></tr><tr><td>Nous avons passé la soirée à danser.</td><td>avons passé＋la soirée＋à danser</td><td>我们整个晚上都在跳舞。</td></tr><tr><td>Elle a passé du temps à choisir un cadeau.</td><td>a passé＋du temps＋à choisir</td><td>她花时间挑选礼物。</td></tr><tr><td>Ils ont passé une heure à écouter un groupe.</td><td>ont passé＋une heure＋à écouter</td><td>他们听乐队演奏听了一个小时。</td></tr></tbody></table></div><p>passer Noël en famille／passer la soirée avec des amis只说明“在哪里／和谁度过”，不必补à faire；passer un bon moment是“过得愉快”。<strong>se passer</strong>是另一用法：<span lang=\"fr\">Qu’est-ce qui se passe ?</span>（发生什么事？），不要随意加入se。</p><p>复合过去时这里用<strong>avoir＋passé</strong>：<span lang=\"fr\">Elle a passé deux heures à cuisiner.</span> 与第19课“顺路去某处”的<span lang=\"fr\">Elle est passée chez Paul.</span>对照。不能因为passer有移动用法就一律选être。</p><p>笔记缩写qch／qqch表示quelque chose；faire qch是“做某事”。它提示可替换的内容，不是完整句子里要朗读的词。</p>"
+        },
+        {
+          "id": "dernier",
+          "title": "6. dernier／dernière：性数、位置与过去时间",
+          "html": "<h2>6. dernier／dernière：性数、位置与过去时间</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">阳性</th><th scope=\"col\">阴性</th></tr></thead><tbody><tr><td>单数</td><td>dernier</td><td>dernière</td></tr><tr><td>复数</td><td>derniers</td><td>dernières</td></tr></tbody></table></div><p>正确拼写是<strong>dernier／dernière</strong>。它是形容词，随所修饰名词配合，和说话者性别没有关系：男性说话者也说la semaine dernière；女性说话者也说le mois dernier。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">表达</th><th scope=\"col\">意思</th><th scope=\"col\">记忆点</th></tr></thead><tbody><tr><td>le mois dernier</td><td>上个月</td><td>mois阳性单数；末尾s不等于复数。</td></tr><tr><td>la semaine dernière</td><td>上周</td><td>semaine阴性单数。</td></tr><tr><td>l’année dernière／l’an dernier</td><td>去年</td><td>année阴性，an阳性。</td></tr><tr><td>lundi dernier</td><td>刚过去的那个星期一／上周一</td><td>通常不用le；依说话时点判断。</td></tr><tr><td>le dernier mois de l’année</td><td>一年中的最后一个月</td><td>限定序列中的最后一个；这里是十二月。</td></tr><tr><td>la dernière semaine du cours</td><td>课程的最后一周</td><td>有特定范围，不等于上周。</td></tr><tr><td>les derniers jours／les dernières vacances</td><td>最后几天／最近一次假期等</td><td>复数词组的具体含义仍需上下文。</td></tr></tbody></table></div><p><strong>名词＋dernier</strong>在le mois dernier这类日历时间表达中，常指刚过去的时期；<strong>dernier＋名词</strong>可指一个范围内最后的部分。不要把它扩展为所有名词都只靠前后位置一条规则判义。</p><p lang=\"fr\">L’année dernière, nous avons passé Noël à Lyon. Le dernier jour des vacances, nous sommes rentrés à Paris.</p><p>去年我们在里昂过圣诞节。假期最后一天我们回到了巴黎。对照现在与未来：<span lang=\"fr\">cette année</span>（今年）、<span lang=\"fr\">l’année prochaine</span>（明年）。</p>"
+        },
+        {
+          "id": "verbs",
+          "title": "7. 三组动词六人称：fêter、passer、offrir",
+          "html": "<h2>7. 三组动词六人称：fêter、passer、offrir</h2><p>这三张表是本课词汇运用补充／复习。先会用je、on、nous，再核对全人称。过去时表中的avoir搭配后置直接宾语，不因主语阴阳性改变分词；前置直接宾语的规则留待后续。</p><h3>fêter · 庆祝，第一组；规则分词fêté</h3><div class=\"table-scroll\"><table data-conjugation=\"fêter\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je fête</td><td>j’ai fêté</td></tr><tr><td>tu</td><td>tu fêtes</td><td>tu as fêté</td></tr><tr><td>il / elle / on</td><td>il / elle / on fête</td><td>il / elle / on a fêté</td></tr><tr><td>nous</td><td>nous fêtons</td><td>nous avons fêté</td></tr><tr><td>vous</td><td>vous fêtez</td><td>vous avez fêté</td></tr><tr><td>ils / elles</td><td>ils / elles fêtent</td><td>ils / elles ont fêté</td></tr></tbody></table></div><p lang=\"fr\">Nous fêtons Noël en famille.</p><p>fêter＋节日／人：fêter Noël；fêter un anniversaire。</p><h3>passer · 度过／花时间，第一组；本表限此义</h3><div class=\"table-scroll\"><table data-conjugation=\"passer\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>je passe</td><td>j’ai passé</td></tr><tr><td>tu</td><td>tu passes</td><td>tu as passé</td></tr><tr><td>il / elle / on</td><td>il / elle / on passe</td><td>il / elle / on a passé</td></tr><tr><td>nous</td><td>nous passons</td><td>nous avons passé</td></tr><tr><td>vous</td><td>vous passez</td><td>vous avez passé</td></tr><tr><td>ils / elles</td><td>ils / elles passent</td><td>ils / elles ont passé</td></tr></tbody></table></div><p lang=\"fr\">Nous avons passé deux heures à préparer le dîner.</p><p>此义用avoir；经过／顺路去的être用法见第19课。</p><h3>offrir · 赠送，第三组；过去分词offert</h3><div class=\"table-scroll\"><table data-conjugation=\"offrir\"><thead><tr><th scope=\"col\">人称</th><th scope=\"col\">现在时</th><th scope=\"col\">复合过去时</th></tr></thead><tbody><tr><td>je</td><td>j’offre</td><td>j’ai offert</td></tr><tr><td>tu</td><td>tu offres</td><td>tu as offert</td></tr><tr><td>il / elle / on</td><td>il / elle / on offre</td><td>il / elle / on a offert</td></tr><tr><td>nous</td><td>nous offrons</td><td>nous avons offert</td></tr><tr><td>vous</td><td>vous offrez</td><td>vous avez offert</td></tr><tr><td>ils / elles</td><td>ils / elles offrent</td><td>ils / elles ont offert</td></tr></tbody></table></div><p lang=\"fr\">Elle a offert des fleurs à sa mère.</p><p>offrir quelque chose à quelqu’un；-ir结尾但现在时词尾像第一组，不写offrissons。</p><p>其他常用词组：<strong>faire la fête</strong>（庆祝／热闹地玩，fait）；<strong>préparer un repas</strong>（准备饭菜，préparé）；<strong>souhaiter une bonne année à quelqu’un</strong>（向某人祝贺新年，souhaité）；<strong>exister</strong>（存在，existe／existent，existé）。souhaiter使用完整名词词组，独立祝福则直接说Bonne année !</p><p>拼写：fêter保留ê；offrir的过去分词是offert，不是offri。<span lang=\"fr\">Cette fête existe.</span>单数动词existe；<span lang=\"fr\">Ces fêtes existent.</span>复数写existent，两者通常同音。</p>"
+        },
+        {
+          "id": "past",
+          "title": "8. 用已学时态讲节日：习惯、一次经历与y",
+          "html": "<h2>8. 用已学时态讲节日：习惯、一次经历与y</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">交际目的</th><th scope=\"col\">示例</th><th scope=\"col\">判断</th></tr></thead><tbody><tr><td>通常怎样过节</td><td>À Noël, nous mangeons en famille.</td><td>现在时表示习惯。</td></tr><tr><td>一次已结束的活动</td><td>L’année dernière, nous avons mangé chez ma sœur.</td><td>avoir＋分词；不要遗漏助动词。</td></tr><tr><td>去、到达、返回</td><td>Lina est allée à Paris. Ses amies sont arrivées à midi.</td><td>aller／arriver用être，配合人物性数。</td></tr><tr><td>花时间做活动</td><td>Lina a passé deux heures à cuisiner.</td><td>此义passer用avoir，后面的cuisiner仍是原形。</td></tr><tr><td>否定过去活动</td><td>Elle n’a pas acheté de gâteau.</td><td>ne／n’…pas包助动词；不定冠词否定后通常de。</td></tr><tr><td>已知地点替换</td><td>Elle est allée à Lyon. Elle y a fêté Noël.</td><td>y置于avoir前；这里fêter仍用avoir。</td></tr><tr><td>地点＋être过去时</td><td>Elle y est allée avec ses amies.</td><td>y置于être前；allée按elle配合。</td></tr><tr><td>询问过去活动</td><td>Qu’est-ce que tu as fait ?／Où avez-vous passé Noël ?</td><td>先选正确助动词，再组成疑问句。</td></tr><tr><td>副词与倒装复习</td><td>Y es-tu déjà allé ?／N’as-tu pas offert de fleurs ?</td><td>y前置，déjà在助动词和分词之间；pas在倒装代词之后。</td></tr></tbody></table></div><p>用<strong>d’abord、ensuite、puis、enfin</strong>标先后；用<strong>avec</strong>说同行者、<strong>chez</strong>说在某人家、<strong>pendant</strong>说持续时长。例：<span lang=\"fr\">D’abord, nous avons préparé le repas. Puis, nous avons mangé chez Nora. Enfin, nous sommes rentrés.</span></p><p>阅读时不把全部过去背景都当作本课新授时态。若教材出现尚未学过的背景形式，先凭语境理解，不要求用本页讲义系统掌握未完成过去时。复习链接：<a href=\"#lesson/18/patterns\">第18课否定与倒装</a>、<a href=\"#lesson/19/agreement\">第19课配合</a>、<a href=\"#lesson/19/y\">地点y</a>。</p>"
+        },
+        {
+          "id": "communicate",
+          "title": "9. 学会说：日期、习俗、回忆与照片",
+          "html": "<h2>9. 学会说：日期、习俗、回忆与照片</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">任务</th><th scope=\"col\">问句</th><th scope=\"col\">完整回答</th></tr></thead><tbody><tr><td>问节日时间</td><td>C’est quand, la Chandeleur ?</td><td>C’est le 2 février.</td></tr><tr><td>问月份</td><td>En quel mois est la fête nationale ?</td><td>Elle est en juillet.</td></tr><tr><td>问节日习惯</td><td>Qu’est-ce que vous faites pour Noël ?</td><td>Nous préparons un repas et nous mangeons en famille.</td></tr><tr><td>问去年的地点</td><td>Où as-tu passé Noël l’année dernière ?</td><td>J’ai passé Noël chez mes parents.</td></tr><tr><td>问同行者</td><td>Avec qui as-tu fait la fête ?</td><td>J’ai fait la fête avec des copains.</td></tr><tr><td>问活动与感受</td><td>Qu’est-ce que tu as fait ? C’était comment ?</td><td>J’ai écouté un groupe. C’était très sympa !</td></tr><tr><td>看图定位</td><td>Qu’est-ce qu’on voit sur la photo ?</td><td>On voit un gâteau. Il y a quatre personnes autour de la table.</td></tr></tbody></table></div><p>C’était…作为第18课已见评价语块复用，不在本课展开完整未完成过去时变位。看图先说<strong>Sur la photo, on voit…／Il y a…／Les personnes…</strong>，再说可见活动；节日、日期和人物关系只有证据支持时才确定。</p><h3>原创对话：从习惯问到回忆</h3><p lang=\"fr\">— Qu’est-ce que vous faites pour la Chandeleur ?<br>— En général, nous faisons des crêpes.<br>— Et l’année dernière ?<br>— J’ai préparé des crêpes chez ma sœur.<br>— Tu y es allé avec des amis ?<br>— Non, j’y suis allé seul. Nous avons passé la soirée à discuter.</p><p>说话者这里为男性，所以allé、seul。chez ma sœur → y；“一般做什么”与“去年做了什么”用不同的时间标记。替换训练：Chandeleur → Noël；crêpes → un repas；chez ma sœur → chez mes parents；discuter → jouer。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "10. 语音复习：月份、重音、连音和祝福",
+          "html": "<h2>10. 语音复习：月份、重音、连音和祝福</h2><p>第20课指南没有独立的新语音专题；本节复习月份与节庆词的读法，避免按英语或汉字音直接替代法语。表中的音标为常见读法提示，仍以教材音频为听读依据。</p><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">项目</th><th scope=\"col\">读法／例词</th><th scope=\"col\">要点</th></tr></thead><tbody><tr><td>六月与七月</td><td>juin /ʒɥɛ̃/；juillet /ʒɥi.jɛ/</td><td>juin为鼻化元音结尾；juillet不是同一个词。</td></tr><tr><td>月份尾音</td><td>mars /maʁs/；avril /a.vʁil/</td><td>mars的s、avril的l发音；juillet末尾t不读。</td></tr><tr><td>重音符号</td><td>février、décembre；fête、dîner、Noël</td><td>é／ê／î／ë不是可随意省略的装饰；Noël的分音符提示元音分开，常读/nɔ.ɛl/。</td></tr><tr><td>阴阳性读音</td><td>dernier /dɛʁ.nje/；dernière /dɛʁ.njɛʁ/</td><td>阴性变化不只体现在书写，末尾/r/可以听见。</td></tr><tr><td>辅音连音</td><td>bonne année /bɔ.na.ne/</td><td>bonne的/n/本来就发音，连到année；不是额外增加一个联诵音。</td></tr><tr><td>必需的联诵</td><td>des amis、deux heures</td><td>限定词与元音开头的名词通常联诵/z/；h在heures中不阻止联诵。</td></tr><tr><td>无声词尾</td><td>ils offrent、ces fêtes existent</td><td>-ent不读；不能靠词尾声音确认主语数。</td></tr><tr><td>节奏组</td><td>Le quatorze juillet / nous avons écouté un groupe / avec des amis.</td><td>斜线为语义分组，不是每个词后都停顿。</td></tr></tbody></table></div><p>练法：先逐月听读，再随机听写月份；最后连读完整日期le quatorze février、le premier mai、le vingt et un juin、le vingt-cinq décembre。对照自己录音，检查juin／juillet、Noël和dernier／dernière。本站未提供教材音轨或自动发音评分。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "11. 教材四段阅读提纲与四段原创节日回忆",
+          "html": "<h2>11. 教材四段阅读提纲与四段原创节日回忆</h2><h3>11.1 对照教材的四段描述，先抓六类信息</h3><p>用你手边的教材做四行表：<strong>谁｜什么节日｜时间｜地点／同行者｜做过什么｜感受／特别回忆</strong>。先看标题和图片预测，再在四段文字中画出证据；最后把人物与照片匹配。没有说到的信息写“未提及”，不要补造。</p><p>四段回忆的教学主题覆盖国庆、圣诞、情人节、音乐节；可丽饼、劳动节、新年等还出现在整页节日活动中。将“原文明确说的”和“凭常识推测的”分开。这里不复刻教材四段原文，也不把下面的人物当作教材人物。</p><h3>11.2 四段原创短文：完成可核对的同主题训练</h3><p>以下人物、地点、活动细节全部为本站原创。先不看提示，分别记录日期、人物、活动、否定信息和时间长度，再完成练习G。</p><h3>A · Lina，女性 · 国庆回忆</h3><p lang=\"fr\">Le 14 juillet dernier, je suis allée à Paris avec ma sœur. Nous avons pris des photos près de l’Arc de triomphe. Ensuite, nous avons écouté un groupe dans la rue. Je n’ai pas acheté de souvenir. Nous sommes rentrées à onze heures.</p><p class=\"source-note\">核对提示：人物：Lina与姐妹；地点：巴黎、凯旋门附近；活动：拍照、听乐队；否定：Lina没买纪念品；返回：十一点。两位女性用rentrées；不能推断姐妹也没买东西。</p><h3>B · Karim，男性 · 圣诞回忆</h3><p lang=\"fr\">L’année dernière, j’ai passé Noël chez mes parents à Lille. J’ai préparé un gâteau avec mon père. Nous avons passé deux heures à cuisiner. Après le dîner, nous avons ouvert les cadeaux. Je suis resté deux jours chez mes parents.</p><p class=\"source-note\">核对提示：地点：里尔父母家；活动：与父亲做蛋糕；做饭持续两小时；晚饭后拆礼物；停留两天。ouvrir → ouvert（补充识别）；父母人数不用于猜测其他亲属是否参加。</p><h3>C · Zoé，女性 · 情人节回忆</h3><p lang=\"fr\">Le 14 février dernier, mon petit ami et moi avons préparé un dîner à deux chez moi. Il a offert des fleurs et j’ai acheté deux pâtisseries. Après le repas, nous avons regardé un film. Nous ne sommes pas sortis.</p><p class=\"source-note\">核对提示：地点：Zoé家；同行者：男朋友；活动：做双人晚餐、送花、买糕点、看电影；未外出。混合两人用sortis；没有提供餐厅、电影名、礼物价格。</p><h3>D · Hugo，男性 · 音乐节回忆</h3><p lang=\"fr\">Le 21 juin dernier, j’ai fait la fête avec trois copains à Nantes. Nous avons écouté deux groupes sur une place. Nous avons passé une heure à danser. Puis, nous avons mangé des crêpes. Je suis rentré à minuit.</p><p class=\"source-note\">核对提示：地点：南特的一处广场；Hugo加三位朋友共四人；活动：听两个乐队、跳舞一小时、吃可丽饼；Hugo午夜回家。吃可丽饼不能单独证明那天是圣烛节。</p><h3>11.3 四段对照与证据边界</h3><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">短文</th><th scope=\"col\">节日／时间</th><th scope=\"col\">关键结构</th><th scope=\"col\">不能推出</th></tr></thead><tbody><tr><td>A</td><td>le 14 juillet dernier</td><td>est allée；sommes rentrées；n’ai pas acheté</td><td>烟花地点、全体人的购物情况。</td></tr><tr><td>B</td><td>Noël，去年</td><td>a passé；à cuisiner；est resté</td><td>实际花费、所有在场亲属。</td></tr><tr><td>C</td><td>le 14 février dernier</td><td>petit ami；dîner à deux；ne sommes pas sortis</td><td>电影名字或去餐厅吃饭。</td></tr><tr><td>D</td><td>le 21 juin dernier</td><td>trois copains；deux groupes；une heure</td><td>吃可丽饼就一定是2月2日。</td></tr></tbody></table></div><p>答题分三类：<strong>真</strong>＝有证据支持；<strong>假</strong>＝与明确信息相反；<strong>未提及</strong>＝没有足够信息。复述只保留已知内容，第二遍再尝试把明确地点替换成y。</p>"
+        },
+        {
+          "id": "writing",
+          "title": "12. 听说读写：从节日卡片到个人回忆",
+          "html": "<h2>12. 听说读写：从节日卡片到个人回忆</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">技能</th><th scope=\"col\">步骤</th><th scope=\"col\">自查</th></tr></thead><tbody><tr><td>听</td><td>听本课配套材料；第一遍判断节日，第二遍记录人物、日期和活动，第三遍核对助动词、否定和时间。</td><td>教材材料若为阅读配音也按实际音轨听；本站四段短文不是原音频逐字稿。</td></tr><tr><td>说</td><td>用30—60秒介绍一个节日：名称、日期、通常活动；再用四至六句讲最近一次经历。</td><td>现在时说习惯，复合过去时说具体回忆；不把文化习俗说成每个人都必须做的事。</td></tr><tr><td>读</td><td>给四段文字各填六栏信息卡，并为判断题划证据；没有信息时保留“未提及”。</td><td>copine不自动等于恋人；过去分词配合与时间长度不遗漏。</td></tr><tr><td>写</td><td>写60—90词的原创节日回忆；含时间、地点、同行者、三项活动、一个否定句和一句感受。</td><td>字数为练习建议；不作为考试标准或NCLC达标证明。</td></tr></tbody></table></div><h3>写作框架</h3><p lang=\"fr\">L’année dernière, j’ai passé… à／chez… avec…<br>D’abord, nous avons… Ensuite, nous sommes…<br>Nous avons passé… à…<br>Je n’ai pas… Enfin, nous sommes rentré(e)s…<br>C’était…</p><h3>原创范文：Émilie（女性）的圣烛节</h3><p lang=\"fr\">Le 2 février dernier, j’ai passé la Chandeleur chez ma sœur à Rennes. Je suis arrivée à quatre heures. Nous avons préparé des crêpes avec deux amies. Nous avons passé une heure à cuisiner. Ensuite, nous avons mangé et nous avons écouté de la musique. Je n’ai pas acheté de gâteau. J’y suis restée jusqu’à dix heures. Enfin, je suis rentrée chez moi. C’était une très bonne soirée !</p><p>先圈出arrivée／restée／rentrée与女性主语的配合，再找到a／avons后不随主语变化的分词。y回指chez ma sœur，不替换jusqu’à dix heures。另做一张自己国家节日卡片：中文名、可用的法语名、日期、两项习俗；农历节日按实际年份标日期，不硬套固定公历日。</p><p>完成后检查：①月份重音与小写；②le＋日期、en＋月份；③dernier的性数；④passer后时间与à＋原形；⑤助动词与分词；⑥否定和y的位置；⑦人物关系、事实和照片证据。更换人物、地点与活动后独立写，避免只抄范文。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "13. 分层练习A—J：100项任务与逐项解析",
+          "html": "<h2>13. 分层练习A—J：100项任务与逐项解析</h2><p>先做A—E核对词汇和结构，再做F—I综合运用，最后完成J的个人输出。开放题给出参考方向，允许符合语法和事实的其他答案。</p><h3>A. 月份、日期与拼写</h3><ol><li>按顺序写1—3月。</li><li>按顺序写4—6月。</li><li>按顺序写7—9月。</li><li>按顺序写10—12月。</li><li>把“在二月”写成法语。</li><li>把“5月1日”写成法语并写出1日读法。</li><li>把“12月25日”写成法语。</li><li>改错：La fête est à juillet.</li><li>把“从六月到八月”写成法语。</li><li>用法语问“圣诞节在几月”，并回答。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>janvier、février、mars；février保留é。</li><li>avril、mai、juin；juin为六月。</li><li>juillet、août、septembre；不要混淆juin与juillet。</li><li>octobre、novembre、décembre；décembre保留é。</li><li>en février；月份前用en。</li><li>le 1er mai；le premier mai。</li><li>le 25 décembre；日后直接跟月份。</li><li>La fête est en juillet.；只指月份用en。</li><li>de juin à août；范围用de…à…。</li><li>En quel mois est Noël ? — En décembre.；问月份而非日期。</li></ol></details><h3>B. 节日、活动与祝福</h3><ol><li>la Chandeleur是几月几日？写一个常见活动。</li><li>la Saint-Valentin是几月几日？写一个活动。</li><li>la fête du Travail是几月几日？相关花卉是什么？</li><li>la Fête de la musique是几月几日？</li><li>法国la fête nationale是几月几日？</li><li>Noël是几月几日？写一个家庭活动。</li><li>le jour de l’an是几月几日？</li><li>新年和圣诞分别怎样祝福？</li><li>解释le réveillon de Noël与Noël日期的关系。</li><li>说一句节日习俗，避免把它说成所有人必做。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Le 2 février；faire des crêpes。</li><li>Le 14 février；offrir des fleurs等合理答案。</li><li>Le 1er mai；le muguet（铃兰）。</li><li>Le 21 juin；音乐节。</li><li>Le 14 juillet；写日期时月份小写。</li><li>Le 25 décembre；manger en famille等。</li><li>Le 1er janvier；与12月31日的跨年夜区别。</li><li>Bonne année !／Joyeux Noël !；année为阴性。</li><li>前者可指12月24日晚的聚餐；圣诞节日期是12月25日，不把两者当同一天。</li><li>例如：À la Chandeleur, on fait souvent des crêpes.；souvent表示常见习惯。</li></ol></details><h3>C. 词汇、人物关系与照片</h3><ol><li>“凯旋门”用法语怎么写？</li><li>写出un feu d’artifice的复数。</li><li>写出un gâteau与un cadeau的复数。</li><li>解释une pâtisserie的两个常见含义。</li><li>写出“一个男性朋友／一个女性朋友”。</li><li>写出“男朋友／女朋友”的较明确说法。</li><li>能否只凭ma copine断定是女朋友？说明。</li><li>把“一顿双人晚餐”写成法语。</li><li>把“我们在照片上看见一条船”写成法语。</li><li>用exister写“这个节日存在／这些节日存在”。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>l’Arc de triomphe；地点专名。</li><li>des feux d’artifice；feu → feux。</li><li>des gâteaux、des cadeaux；-eau常加x。</li><li>糕点；糕点店。看acheter des pâtisseries与aller à la pâtisserie的语境。</li><li>un copain／une copine；口语中的朋友或同伴。</li><li>un petit ami／une petite amie；通常指恋爱关系。</li><li>不能；可指朋友，也常指女朋友，要结合关系语境。</li><li>un dîner à deux；deux拼写不能漏x。</li><li>Sur la photo, on voit un bateau.；只描述已知可见内容。</li><li>Cette fête existe.／Ces fêtes existent.；主语单复数影响书写。</li></ol></details><h3>D. passer…à faire与动词六人称</h3><ol><li>填空：Nous ___ Noël en famille.（fêter现在时）</li><li>填空：Vous ___ un cadeau.（offrir现在时）</li><li>填空：Elles ___ des fleurs.（offrir现在时）</li><li>填空：Nous ___ deux heures à cuisiner.（passer复合过去时）</li><li>把“她花一个小时准备晚餐”写成法语现在时。</li><li>把上一句改成复合过去时。</li><li>改错：J’ai passé la soirée de danser.</li><li>改错：Elle est passée deux heures à lire.</li><li>把“他们送了花给Nora”写成法语。</li><li>解释J’ai passé Noël chez Paul与Je suis passé chez Paul的区别（男性说话者）。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>fêtons；nous词尾-ons，保留ê。</li><li>offrez；不用offrissez。</li><li>offrent；-ent不发音。</li><li>avons passé；度过时间用avoir。</li><li>Elle passe une heure à préparer le dîner.；à后用原形。</li><li>Elle a passé une heure à préparer le dîner.；变passer，不变préparer。</li><li>J’ai passé la soirée à danser.；搭配为à＋不定式。</li><li>Elle a passé deux heures à lire.；花时间用avoir。</li><li>Ils ont offert des fleurs à Nora.；offrir → offert。</li><li>前句是在Paul家过圣诞节，时间作宾语，用avoir；后句是顺路去Paul家，用être。</li></ol></details><h3>E. 交际问答与否定疑问</h3><ol><li>回答：C’est quand, la Saint-Valentin ?</li><li>用法语问“你通常圣诞节做什么”。</li><li>用法语问“你去年在哪里过圣诞节”。</li><li>回答：Avec qui as-tu fait la fête ?（和朋友们）</li><li>把Elle a acheté un gâteau改成否定。</li><li>把Tu as offert des fleurs改成倒装疑问。</li><li>把上一题改成否定倒装。</li><li>把Elle est allée chez sa sœur改用y。</li><li>把Elle y a fêté Noël改成否定。</li><li>用“习惯一句＋去年经历一句”说同一个节日。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>C’est le 14 février.；问节日日期。</li><li>Qu’est-ce que tu fais pour Noël ?；习惯用现在时。</li><li>Où as-tu passé Noël l’année dernière ?；passer此义用avoir。</li><li>J’ai fait la fête avec des copains.；avec说同行者。</li><li>Elle n’a pas acheté de gâteau.；n’…pas包助动词，un通常变de。</li><li>As-tu offert des fleurs ?；只倒装助动词与主语。</li><li>N’as-tu pas offert de fleurs ?；pas置tu之后。</li><li>Elle y est allée.；y置于助动词前，allée保留阴性。</li><li>Elle n’y a pas fêté Noël.；n’＋y＋a＋pas。</li><li>例：À Noël, je mange en famille. L’année dernière, j’ai mangé chez mes parents.；两种时间语境分清。</li></ol></details><h3>F. 时间表达与节日写作</h3><ol><li>填空：le mois ___。</li><li>填空：la semaine ___。</li><li>填空：l’année ___。</li><li>填空：l’an ___。</li><li>填空：les ___ jours du voyage。</li><li>填空：les ___ semaines du cours。</li><li>解释le mois dernier与le dernier mois de l’année。</li><li>女性说话者能否说le mois dernier？</li><li>把“去年我们在里昂过圣诞节”写成法语。</li><li>把“假期最后一天她回家了”写成法语。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>dernier；mois是阳性单数。</li><li>dernière；与semaine阴性配合。</li><li>dernière；année阴性。</li><li>dernier；an阳性。</li><li>derniers；阳性复数，指旅行的最后几天。</li><li>dernières；阴性复数。</li><li>上个月；一年中的最后一个月（十二月）。位置与限定范围共同决定意义。</li><li>能；配合mois而非说话者性别。</li><li>L’année dernière, nous avons passé Noël à Lyon.；过去标记加复合过去时。</li><li>Le dernier jour des vacances, elle est rentrée chez elle.；最后一天不等于昨天。</li></ol></details><h3>G. 四段原创阅读：真、假、未提及与证据</h3><ol><li>A：Lina和一位女性亲属去了巴黎。判断并找证据。</li><li>A：Lina的姐妹没有买任何纪念品。判断。</li><li>A：两人在午夜返回。判断。</li><li>B：Karim和父亲一起准备蛋糕。判断。</li><li>B：做饭花了两天。判断。</li><li>B：Karim买礼物花了50欧元。判断。</li><li>C：两人去餐厅吃晚餐。判断。</li><li>C：谁送花，谁买糕点？</li><li>D：有几人同行？跳舞多久？</li><li>D：吃可丽饼证明那天是Chandeleur。判断。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>真；avec ma sœur。sœur不说明姐姐还是妹妹。</li><li>未提及；Je n’ai pas acheté只明确Lina本人。</li><li>假；à onze heures是十一点。</li><li>真；avec mon père明确参与者。</li><li>假；做饭deux heures，停留deux jours，不能混淆。</li><li>未提及；没有提供金额。</li><li>假；chez moi，且ne sommes pas sortis明确未外出。</li><li>男朋友送花，Zoé买糕点；Il与je分别定位。</li><li>Hugo加trois copains共四人；une heure（一小时）。</li><li>假；日期明确21 juin，为音乐节回忆；食物不唯一决定节日。</li></ol></details><h3>H. 语音与听读</h3><ol><li>区分juin与juillet：分别是几月，哪个词以鼻化元音结尾？</li><li>mars的末尾s读不读？</li><li>juillet的末尾t读不读？</li><li>avril的末尾l读不读？</li><li>Noël的ë提醒什么？</li><li>比较dernier与dernière的词尾读音。</li><li>bonne année中的/n/属于新增联诵音吗？</li><li>des amis中连接的辅音通常是什么？</li><li>ils offrent的-ent读不读？</li><li>为Le 21 juin, nous avons écouté un groupe avec des amis划节奏组并朗读。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>六月／七月；juin /ʒɥɛ̃/以鼻化元音结尾。</li><li>读；常见读法/maʁs/。</li><li>不读；常见读法/ʒɥi.jɛ/。</li><li>读；/a.vʁil/。</li><li>两个相邻元音分开读，常见/nɔ.ɛl/；不是把Noël当作单个复合元音。</li><li>/dɛʁ.nje/与/dɛʁ.njɛʁ/；后者末尾/r/可听见。</li><li>不是；bonne的/n/本来就发音，是辅音连音。</li><li>/z/；限定词与元音开头名词联诵。</li><li>不读；不能读成额外音节。</li><li>可分Le vingt et un juin / nous avons écouté un groupe / avec des amis；按意义分组，des amis联诵。</li></ol></details><h3>I. 改错与易混辨析</h3><ol><li>改错：La Saint-Valentin est le 14 fevrier.</li><li>改错：Je voyage en Décembre.（非句首月份）</li><li>改错：Nous organisons un diner a duex.</li><li>改错：La semaine dierniere, j’ai travaillé.</li><li>改错：Elle a offerté un cadeau.</li><li>改错：Elles ont passées deux heures à danser.</li><li>改错：Elle a passé deux heures à prépare le repas.</li><li>改错：Nous sommes allés à Lille et nous avons y fêté Noël.（男性或混合群体）</li><li>“我的女性朋友”一定写ma petite amie吗？</li><li>把“每个人都在音乐节演奏”改成不夸大的法语表达。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>La Saint-Valentin est le 14 février.；février保留é。</li><li>Je voyage en décembre.；月份通常小写。</li><li>Nous organisons un dîner à deux.；改重音和deux拼写。</li><li>La semaine dernière, j’ai travaillé.；正确词形dernière。</li><li>Elle a offert un cadeau.；offrir分词offert。</li><li>Elles ont passé deux heures à danser.；avoir＋后置宾语，不随elles加es。</li><li>Elle a passé deux heures à préparer le repas.；à后不定式。</li><li>Nous sommes allés à Lille et nous y avons fêté Noël.；y放在助动词前。</li><li>不一定且可能误解；ma petite amie通常指女朋友。普通朋友可说une amie／une copine，再说明语境。</li><li>例如：Pour la Fête de la musique, des musiciens jouent dans la rue.；只说明一些音乐人，不用tout le monde。</li></ol></details><h3>J. 综合输出与复习自查</h3><ol><li>任选三个节日，各写法语名、日期、一个活动。</li><li>写两句：通常怎样过节；去年在哪里过节。</li><li>用passer＋时间＋à＋原形写一次节日活动。</li><li>用dernier／dernière写一个过去时间标记和一句经历。</li><li>把原创B的chez mes parents改成y，保留停留时长。</li><li>用四句复述原创C，不增加原文没有的事实。</li><li>给一个中国节日做法语介绍卡。</li><li>写一段60—90词节日回忆，含三项活动和一个否定句。</li><li>口述一张节庆照片，区分可见信息与推测。</li><li>合上讲义，列出自己仍需复习的三点，并回到对应章节纠正。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>例如Noël—le 25 décembre—manger en famille；Chandeleur—le 2 février—faire des crêpes；fête du Travail—le 1er mai—offrir du muguet。</li><li>例：À Noël, nous mangeons en famille. L’année dernière, nous avons passé Noël à Lille.；现在／过去分清。</li><li>例：Nous avons passé deux heures à préparer des crêpes.；时间后à，动作原形。</li><li>例：La semaine dernière, j’ai offert un cadeau à mon père.；dernière配合semaine。</li><li>J’y suis resté deux jours.；Karim男性，resté，时间信息不被替换。</li><li>例：Zoé a préparé un dîner avec son petit ami. Il a offert des fleurs. Elle a acheté deux pâtisseries. Ils ne sont pas sortis.；第三人称与混合群体配合。</li><li>答案开放；如le Nouvel An chinois，说明相应年份日期与两项自己的实际习俗；不把农历节日写成固定公历日期。</li><li>开放；按第12节框架检查时间、地点、同行者、avoir／être、配合与否定。不要把本站范文当个人真实经历。</li><li>例：Sur la photo, on voit quatre personnes et un gâteau. Elles sont autour de la table. C’est peut-être un anniversaire.；peut-être标推测，不凭照片断言婚姻关系。</li><li>答案因人而异；例如février重音、offert分词、y前置。能查表改正不等于已熟练，另安排口头复述检验。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "14. 易错速查、复习清单与核对来源",
+          "html": "<h2>14. 易错速查、复习清单与核对来源</h2><div class=\"table-scroll\"><table><thead><tr><th scope=\"col\">容易写错／误解</th><th scope=\"col\">应掌握</th></tr></thead><tbody><tr><td>fevrier／decembre</td><td>février／décembre；月份通常小写。</td></tr><tr><td>diernier／dierniere</td><td>dernier／dernière；配合名词。</td></tr><tr><td>a duex</td><td>à deux；不要把介词à和avoir的a混淆。</td></tr><tr><td>所有copine都指恋人</td><td>看语境；petite amie通常明确指女朋友。</td></tr><tr><td>passer后随意接de</td><td>passer＋时间＋à＋不定式；度过节日可接地点或同行者。</td></tr><tr><td>offrir → offri</td><td>offrir → offert；现在时nous offrons。</td></tr><tr><td>passer一律用être</td><td>花／度过时间用avoir；顺路经过的用法另辨。</td></tr><tr><td>过去句子只写分词</td><td>写完整助动词＋分词，并核对être配合。</td></tr><tr><td>y放在分词前即可</td><td>复合时态放在助动词前；不替换时长。</td></tr><tr><td>图片常识代替文本证据</td><td>分清真、假与未提及；没有交代的关系、费用、事件地点不补造。</td></tr></tbody></table></div><p>复习清单：能按顺序并随机说十二个月；能用en＋月份、le＋日期；能说七个节日的日期和一个活动；能区分朋友与恋人称呼；能用passer…à faire和dernier时间词组；能查用三张六人称表；能从四段阅读提取证据；能写并口述一次节日回忆。只把自己实际完成并能独立运用的项目标为掌握。</p><p>先查词汇和知识点，再做少量小测；题目用于反馈，不替代听说读写。教材学完、网站练习完成和语言掌握是三个不同状态。</p><p>核对来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener noreferrer\">出版方：第20课范围与综合任务</a>；<a href=\"https://www.larousse.fr/dictionnaires/francais/passer/58494\" target=\"_blank\" rel=\"noopener noreferrer\">Larousse：passer用法</a>；<a href=\"https://www.larousse.fr/dictionnaires/francais/dernier/24071\" target=\"_blank\" rel=\"noopener noreferrer\">Larousse：dernier位置与意义</a>；<a href=\"https://www.larousse.com/conjugaison/francais/offrir/6420\" target=\"_blank\" rel=\"noopener noreferrer\">Larousse：offrir变位</a>；<a href=\"https://www.france.fr/fr/article/5-minutes-pour-tout-savoir-sur-les-crepes-bretonnes/\" target=\"_blank\" rel=\"noopener noreferrer\">France.fr：圣烛节</a>；<a href=\"https://www.culture.gouv.fr/regions/drac-centre-val-de-loire/nos-secteurs-d-activite/spectacle-vivant-musique-danse-theatre-pole-creation/fete-de-la-musique\" target=\"_blank\" rel=\"noopener noreferrer\">文化部：音乐节</a>。复合过去时、y与语音复习还可返回第18—19课来源。</p><p>拼写与词义补充核对：<a href=\"https://www.dictionnaire-academie.fr/article/A9A2062\" target=\"_blank\" rel=\"noopener noreferrer\">Académie française：août／aout与读音</a>；<a href=\"https://www.larousse.fr/dictionnaires/francais/copain/19081\" target=\"_blank\" rel=\"noopener noreferrer\">Larousse：copain／copine</a>；<a href=\"https://www.dictionnaire-academie.fr/conjuguer/A9F0579\" target=\"_blank\" rel=\"noopener noreferrer\">Académie française：fêter</a>；<a href=\"https://laits.utexas.edu/tex/gr/det2.html\" target=\"_blank\" rel=\"noopener noreferrer\">得州大学：月份与冠词、限定词联诵</a>。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "id": "l20-q01",
+          "question": "“二月”的标准拼写是？",
+          "options": [
+            "février",
+            "fevrier",
+            "févriér"
+          ],
+          "answer": 0,
+          "explanation": "é的位置要写准。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q02",
+          "question": "六月和七月依次是？",
+          "options": [
+            "juillet、juin",
+            "juin、juillet",
+            "juin、janvier"
+          ],
+          "answer": 1,
+          "explanation": "juin六月，juillet七月。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q03",
+          "question": "“在十二月”怎么说？",
+          "options": [
+            "à décembre",
+            "le décembre",
+            "en décembre"
+          ],
+          "answer": 2,
+          "explanation": "只有月份时用en。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q04",
+          "question": "“5月1日”怎么写？",
+          "options": [
+            "le 1er mai",
+            "le un mai",
+            "en 1er mai"
+          ],
+          "answer": 0,
+          "explanation": "每月1日用premier，写1er。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q05",
+          "question": "la Chandeleur是？",
+          "options": [
+            "2月14日的情人节",
+            "2月2日的圣烛节",
+            "6月21日的音乐节"
+          ],
+          "answer": 1,
+          "explanation": "常见活动是做可丽饼，日期固定2月2日。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q06",
+          "question": "la fête du Travail对应？",
+          "options": [
+            "le 14 juillet",
+            "le 25 décembre",
+            "le 1er mai"
+          ],
+          "answer": 2,
+          "explanation": "劳动节为5月1日；国庆与圣诞分别为另两个日期。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q07",
+          "question": "la Fête de la musique对应？",
+          "options": [
+            "le 21 juin",
+            "le 2 février",
+            "le 31 décembre"
+          ],
+          "answer": 0,
+          "explanation": "音乐节为6月21日。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q08",
+          "question": "法国国庆节日期是？",
+          "options": [
+            "le 14 février",
+            "le 14 juillet",
+            "le 1er janvier"
+          ],
+          "answer": 1,
+          "explanation": "7月14日；2月14日为情人节。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q09",
+          "question": "下列哪个常用于圣诞节祝福？",
+          "options": [
+            "Bonne année !",
+            "Bon anniversaire !",
+            "Joyeux Noël !"
+          ],
+          "answer": 2,
+          "explanation": "另外两句分别为新年与生日祝福。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q10",
+          "question": "凯旋门是？",
+          "options": [
+            "l’Arc de triomphe",
+            "la tour Eiffel",
+            "un bateau"
+          ],
+          "answer": 0,
+          "explanation": "凯旋门与埃菲尔铁塔是不同地标。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q11",
+          "question": "un feu d’artifice的复数是？",
+          "options": [
+            "des feus d’artifice",
+            "des feux d’artifice",
+            "des feu d’artifices"
+          ],
+          "answer": 1,
+          "explanation": "feu复数feux，固定词组的artifice保持单数。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q12",
+          "question": "un petit ami通常表示？",
+          "options": [
+            "年龄小的普通男孩",
+            "任何一位男性同事",
+            "男朋友"
+          ],
+          "answer": 2,
+          "explanation": "petit ami通常明确恋人关系，不能逐字硬译。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q13",
+          "question": "仅看到ma copine，最稳妥的理解是？",
+          "options": [
+            "可能为朋友或女朋友，需要语境",
+            "一定是妻子",
+            "一定是普通朋友"
+          ],
+          "answer": 0,
+          "explanation": "copine的关系含义依上下文而定。",
+          "group": "reading"
+        },
+        {
+          "id": "l20-q14",
+          "question": "un dîner à deux指？",
+          "options": [
+            "两点开始的晚餐",
+            "两人共进的晚餐",
+            "两份早餐"
+          ],
+          "answer": 1,
+          "explanation": "à deux说明人数，à deux heures才是两点。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l20-q15",
+          "question": "“我们花两小时做饭”应选？",
+          "options": [
+            "Nous sommes passés deux heures à cuisiner.",
+            "Nous avons passé deux heures de cuisiner.",
+            "Nous avons passé deux heures à cuisiner."
+          ],
+          "answer": 2,
+          "explanation": "花时间用avoir，时间后接à＋不定式。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q16",
+          "question": "Elle a passé la soirée à ___。",
+          "options": [
+            "danser",
+            "danse",
+            "dansé"
+          ],
+          "answer": 0,
+          "explanation": "à后接动作原形danser。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q17",
+          "question": "offrir的过去分词是？",
+          "options": [
+            "offri",
+            "offert",
+            "offerté"
+          ],
+          "answer": 1,
+          "explanation": "不规则分词offert，用avoir。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q18",
+          "question": "nous＋offrir现在时是？",
+          "options": [
+            "nous offrissons",
+            "nous offrent",
+            "nous offrons"
+          ],
+          "answer": 2,
+          "explanation": "offrir虽为第三组，但现在时词尾类似第一组。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q19",
+          "question": "vous＋fêter现在时是？",
+          "options": [
+            "vous fêtez",
+            "vous fêtons",
+            "vous fêtent"
+          ],
+          "answer": 0,
+          "explanation": "vous用-ez，保留ê。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q20",
+          "question": "“上周”应选？",
+          "options": [
+            "la semaine dernier",
+            "la semaine dernière",
+            "le semaine dernier"
+          ],
+          "answer": 1,
+          "explanation": "semaine阴性单数，dernière。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q21",
+          "question": "“去年”的正确说法是？",
+          "options": [
+            "l’année dernier",
+            "la an dernière",
+            "l’année dernière"
+          ],
+          "answer": 2,
+          "explanation": "année阴性；也可以说l’an dernier。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q22",
+          "question": "le mois dernier指？",
+          "options": [
+            "上个月",
+            "一年中的最后一个月",
+            "下个月"
+          ],
+          "answer": 0,
+          "explanation": "与le dernier mois de l’année区别。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q23",
+          "question": "le dernier mois de l’année是哪一月？",
+          "options": [
+            "janvier",
+            "décembre",
+            "mois dernier"
+          ],
+          "answer": 1,
+          "explanation": "在一年这个范围里，最后一月为十二月。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q24",
+          "question": "女性说话者表达“上个月”应选？",
+          "options": [
+            "le mois dernière",
+            "la mois dernière",
+            "le mois dernier"
+          ],
+          "answer": 2,
+          "explanation": "dernier配合阳性名词mois，和说话者性别无关。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q25",
+          "question": "“她们花了两小时跳舞”应选？",
+          "options": [
+            "Elles ont passé deux heures à danser.",
+            "Elles ont passées deux heures à danser.",
+            "Elles sont passées deux heures à danser."
+          ],
+          "answer": 0,
+          "explanation": "这里passer用avoir，后置宾语，不按elles加es。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q26",
+          "question": "Elle a acheté un gâteau的否定是？",
+          "options": [
+            "Elle n’a acheté pas de gâteau.",
+            "Elle n’a pas acheté de gâteau.",
+            "Elle n’est pas acheté de gâteau."
+          ],
+          "answer": 1,
+          "explanation": "ne…pas包助动词，不定冠词通常变de。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q27",
+          "question": "“你送花了吗”的倒装形式是？",
+          "options": [
+            "Offert-tu as des fleurs ?",
+            "A-tu offert des fleurs ?",
+            "As-tu offert des fleurs ?"
+          ],
+          "answer": 2,
+          "explanation": "tu对应as，倒装只移动助动词和代词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q28",
+          "question": "“你没送花吗”的倒装形式是？",
+          "options": [
+            "N’as-tu pas offert de fleurs ?",
+            "N’as-pas-tu offert de fleurs ?",
+            "As-tu offert pas de fleurs ?"
+          ],
+          "answer": 0,
+          "explanation": "n’在助动词前，pas在tu后。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q29",
+          "question": "Elle est allée à Lyon改用y：",
+          "options": [
+            "Elle est y allée.",
+            "Elle y est allée.",
+            "Elle y a allé."
+          ],
+          "answer": 1,
+          "explanation": "y置于助动词前；aller仍用être且保留阴性。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q30",
+          "question": "Elle y a fêté Noël的否定是？",
+          "options": [
+            "Elle n’a y pas fêté Noël.",
+            "Elle y n’a fêté pas Noël.",
+            "Elle n’y a pas fêté Noël."
+          ],
+          "answer": 2,
+          "explanation": "n’＋y＋助动词＋pas＋分词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l20-q31",
+          "question": "问“你去年在哪里过圣诞节”应选？",
+          "options": [
+            "Où as-tu passé Noël l’année dernière ?",
+            "Quand est Noël ?",
+            "Avec qui fêtes-tu Noël ?"
+          ],
+          "answer": 0,
+          "explanation": "où问地点，过去经历用as passé。",
+          "group": "speaking"
+        },
+        {
+          "id": "l20-q32",
+          "question": "问“你通常圣诞节做什么”最合适的是？",
+          "options": [
+            "Qu’est-ce que tu as fait hier ?",
+            "Qu’est-ce que tu fais pour Noël ?",
+            "En quel mois est Noël ?"
+          ],
+          "answer": 1,
+          "explanation": "习惯与一次过去活动、日期问题区分。",
+          "group": "speaking"
+        },
+        {
+          "id": "l20-q33",
+          "question": "回答Avec qui as-tu fait la fête ?应选？",
+          "options": [
+            "Le 14 juillet.",
+            "Pendant deux heures.",
+            "Avec des copains."
+          ],
+          "answer": 2,
+          "explanation": "avec qui问同行者，不问日期或时长。",
+          "group": "speaking"
+        },
+        {
+          "id": "l20-q34",
+          "question": "照片只显示四个人和蛋糕，哪句话有直接依据？",
+          "options": [
+            "On voit quatre personnes et un gâteau.",
+            "Ce sont deux couples mariés.",
+            "C’est certainement Noël."
+          ],
+          "answer": 0,
+          "explanation": "看图先描述可见事实，不能断言人物关系或节日。",
+          "group": "speaking"
+        },
+        {
+          "id": "l20-q35",
+          "question": "juin与juillet中，哪个以鼻化元音结尾？",
+          "options": [
+            "juillet",
+            "juin",
+            "两个都没有鼻化元音"
+          ],
+          "answer": 1,
+          "explanation": "juin常读/ʒɥɛ̃/；juillet常读/ʒɥi.jɛ/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l20-q36",
+          "question": "mars的末尾s通常如何处理？",
+          "options": [
+            "不发音",
+            "只有复数才发音",
+            "发音"
+          ],
+          "answer": 2,
+          "explanation": "常见读法/maʁs/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l20-q37",
+          "question": "bonne année中的/n/属于？",
+          "options": [
+            "本来发音的辅音连音",
+            "新增的/z/联诵",
+            "应该完全省去的音"
+          ],
+          "answer": 0,
+          "explanation": "bonne的/n/本来就读，接到后面的元音。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l20-q38",
+          "question": "Noël中的ë主要提醒？",
+          "options": [
+            "l一定不读",
+            "相邻元音分开读",
+            "把整个词读成鼻化元音"
+          ],
+          "answer": 1,
+          "explanation": "常见/nɔ.ɛl/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l20-q39",
+          "question": "原创A：能否确定Lina的姐妹也没买纪念品？",
+          "options": [
+            "能，明确没买",
+            "能，明确买了",
+            "未提及"
+          ],
+          "answer": 2,
+          "explanation": "否定主语是je，只说明Lina本人。",
+          "group": "reading"
+        },
+        {
+          "id": "l20-q40",
+          "question": "原创B：两小时与两天分别指？",
+          "options": [
+            "做饭时长；停留时长",
+            "停留时长；做饭时长",
+            "乘车时长；电影时长"
+          ],
+          "answer": 0,
+          "explanation": "à cuisiner对应两小时，resté对应两天。",
+          "group": "reading"
+        },
+        {
+          "id": "l20-q41",
+          "question": "原创C：两人在哪里吃双人晚餐？",
+          "options": [
+            "餐厅",
+            "Zoé家里",
+            "电影院"
+          ],
+          "answer": 1,
+          "explanation": "chez moi与未外出共同提供证据。",
+          "group": "reading"
+        },
+        {
+          "id": "l20-q42",
+          "question": "原创D：Hugo与trois copains共有几人？",
+          "options": [
+            "三人",
+            "两人",
+            "四人"
+          ],
+          "answer": 2,
+          "explanation": "说话者自己加三个朋友。",
+          "group": "reading"
+        },
+        {
+          "id": "l20-q43",
+          "question": "原创D吃了可丽饼，为什么仍是音乐节回忆？",
+          "options": [
+            "日期明确为6月21日，食物不唯一决定节日",
+            "可丽饼只能在6月21日吃",
+            "音乐节总是在2月2日"
+          ],
+          "answer": 0,
+          "explanation": "要结合明确日期与活动证据。",
+          "group": "reading"
+        },
+        {
+          "id": "l20-q44",
+          "question": "哪组最清楚地区分习惯与一次回忆？",
+          "options": [
+            "L’année dernière, je manger chez Paul.",
+            "À Noël, je mange en famille. L’année dernière, j’ai mangé chez Paul.",
+            "À Noël, j’ai manger toujours."
+          ],
+          "answer": 1,
+          "explanation": "现在时说习惯，复合过去时说具体过去活动。",
+          "group": "writing"
+        },
+        {
+          "id": "l20-q45",
+          "question": "“我们整个晚上跳舞”正确写法是？",
+          "options": [
+            "Nous avons passé la soirée à dansons.",
+            "Nous sommes passé la soirée danser.",
+            "Nous avons passé la soirée à danser."
+          ],
+          "answer": 2,
+          "explanation": "passer＋时间＋à＋原形，用avoir。",
+          "group": "writing"
+        },
+        {
+          "id": "l20-q46",
+          "question": "女性Émilie写“我到达了”，正确是？",
+          "options": [
+            "Je suis arrivée.",
+            "Je suis arrivé.",
+            "J’ai arrivée."
+          ],
+          "answer": 0,
+          "explanation": "arriver用être，女性单数加e。",
+          "group": "writing"
+        },
+        {
+          "id": "l20-q47",
+          "question": "用y替换地点后，哪句保留两天时长？",
+          "options": [
+            "J’y suis resté.（同样保留所有信息）",
+            "J’y suis resté deux jours.",
+            "Je suis y resté deux jours."
+          ],
+          "answer": 1,
+          "explanation": "y替换地点，不替换时长，也不能放助动词后。",
+          "group": "writing"
+        },
+        {
+          "id": "l20-q48",
+          "question": "介绍自己国家节日时，最恰当的做法是？",
+          "options": [
+            "把所有农历节日固定写成同一个公历日",
+            "把本站人物经历当作自己的经历",
+            "说明实际日期和自己了解的习俗"
+          ],
+          "answer": 2,
+          "explanation": "保持日期和个人事实准确，开放题允许多种答案。",
+          "group": "writing"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "months",
+          "expressions",
+          "dernier",
+          "verbs",
+          "past",
+          "review"
+        ],
+        "vocabulary": [
+          "months",
+          "festivals",
+          "words",
+          "expressions",
+          "verbs"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading"
+        ],
+        "speaking": [
+          "communicate",
+          "festivals",
+          "expressions",
+          "writing"
+        ],
+        "writing": [
+          "dernier",
+          "past",
+          "writing"
+        ]
+      },
+      "listening": "听教材第20课对应的配套材料：先判断节日，再记录人物、日期、地点、同行者与活动；第三遍听助动词、否定与时长。材料若为课文配音，就对照实际音轨逐段核查。本站Lina／Karim／Zoé／Hugo四段为原创训练，不是教材录音稿；不提供不存在的音轨编号。最后用四句复述一段，并随机听写十二个月份。"
     }
   ]
 };

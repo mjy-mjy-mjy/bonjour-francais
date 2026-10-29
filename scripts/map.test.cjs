@@ -8,7 +8,7 @@ function data(){const c=vm.createContext({});c.window=c;for(const file of ['cont
 test('map covers the real 9 units and all 36 lessons without treating missing content as available',()=>{
  const {c,catalog,courses}=data();const model=c.KNOWLEDGE_MAP.unitsModel(c.COURSE_CONTENT.units,catalog,courses,{completed:[1,14,36]});
  assert.equal(model.length,9);const lessons=model.flatMap(u=>u.lessons);assert.equal(lessons.length,36);assert.equal(new Set(lessons.map(l=>l.number)).size,36);
- assert.equal(lessons.filter(l=>l.available).length,19);assert.equal(lessons[13].title,'À Londres');assert.equal(lessons[35].available,false);assert.equal(lessons[35].completed,true);
+ assert.equal(lessons.filter(l=>l.available).length,20);assert.equal(lessons[13].title,'À Londres');assert.equal(lessons[35].available,false);assert.equal(lessons[35].completed,true);
 });
 test('knowledge atlas deep links reach original sections and topic IDs are stable and unique',()=>{
  const {c,courses}=data();const entries=c.KNOWLEDGE_MAP.knowledgeEntries(courses);assert.ok(entries.length>100);assert.equal(entries.length,new Set(entries.map(e=>e.id)).size);
@@ -31,3 +31,4 @@ test('fractional, nonnumeric and out-of-range unit links use a valid fallback',(
  for(const bad of ['1.5','bogus','0','-1','99',undefined])assert.equal(unit(bad,4),4);
  assert.equal(unit('9',4),9);
 });
+

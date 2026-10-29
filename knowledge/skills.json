@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "首批语义技能取自现有第1—19课，不代表A1全部知识；A2—B2为学习方向规划。",
+  "scope": "当前语义技能取自现有第1—20课，不代表A1全部知识；A2—B2为学习方向规划。",
   "branches": [
     {
       "id": "pronunciation",
@@ -101,6 +101,10 @@
         {
           "lesson": 3,
           "section": "sound"
+        },
+        {
+          "lesson": 20,
+          "section": "sound"
         }
       ],
       "requires": [
@@ -156,6 +160,10 @@
         },
         {
           "lesson": 11,
+          "section": "sound"
+        },
+        {
+          "lesson": 20,
           "section": "sound"
         }
       ],
@@ -376,6 +384,10 @@
         {
           "lesson": 16,
           "section": "time"
+        },
+        {
+          "lesson": 20,
+          "section": "months"
         }
       ],
       "requires": [
@@ -553,6 +565,10 @@
         {
           "lesson": 9,
           "section": "habiter"
+        },
+        {
+          "lesson": 20,
+          "section": "verbs"
         }
       ],
       "requires": [
@@ -590,6 +606,10 @@
         },
         {
           "lesson": 17,
+          "section": "verbs"
+        },
+        {
+          "lesson": 20,
           "section": "verbs"
         }
       ],
@@ -649,6 +669,10 @@
         {
           "lesson": 18,
           "section": "beau"
+        },
+        {
+          "lesson": 20,
+          "section": "dernier"
         }
       ],
       "requires": [
@@ -981,6 +1005,10 @@
         {
           "lesson": 19,
           "section": "auxiliaries"
+        },
+        {
+          "lesson": 20,
+          "section": "verbs"
         }
       ],
       "requires": [
@@ -1007,6 +1035,10 @@
         {
           "lesson": 18,
           "section": "verbs"
+        },
+        {
+          "lesson": 20,
+          "section": "past"
         }
       ],
       "requires": [
@@ -1038,6 +1070,10 @@
         {
           "lesson": 19,
           "section": "verbs"
+        },
+        {
+          "lesson": 20,
+          "section": "past"
         }
       ],
       "requires": [
@@ -1061,6 +1097,10 @@
         {
           "lesson": 19,
           "section": "agreement"
+        },
+        {
+          "lesson": 20,
+          "section": "past"
         }
       ],
       "requires": [
@@ -1088,6 +1128,10 @@
         {
           "lesson": 19,
           "section": "patterns"
+        },
+        {
+          "lesson": 20,
+          "section": "past"
         }
       ],
       "requires": [
@@ -1116,6 +1160,10 @@
         {
           "lesson": 19,
           "section": "y"
+        },
+        {
+          "lesson": 20,
+          "section": "past"
         }
       ],
       "requires": [
@@ -1280,6 +1328,10 @@
         },
         {
           "lesson": 19,
+          "section": "writing"
+        },
+        {
+          "lesson": 20,
           "section": "writing"
         }
       ],
@@ -1456,6 +1508,10 @@
         {
           "lesson": 19,
           "section": "communicate"
+        },
+        {
+          "lesson": 20,
+          "section": "communicate"
         }
       ],
       "requires": [
@@ -1594,6 +1650,10 @@
         {
           "lesson": 19,
           "section": "reading"
+        },
+        {
+          "lesson": 20,
+          "section": "reading"
         }
       ],
       "requires": [
@@ -1730,6 +1790,10 @@
         {
           "lesson": 19,
           "section": "writing"
+        },
+        {
+          "lesson": 20,
+          "section": "writing"
         }
       ],
       "requires": [
@@ -1738,6 +1802,86 @@
         "g-past-order"
       ],
       "group": "",
+      "planned": false
+    },
+    {
+      "id": "v-festivals",
+      "branch": "vocabulary",
+      "stage": "A1",
+      "title": "节日与社交表达",
+      "goal": "用日期、习俗和人物关系介绍节庆场景。",
+      "criteria": [
+        "能说出本课七个节日的日期和一个常见活动。",
+        "能在语境中区分朋友与恋人称呼，并使用双人晚餐、礼物和祝福语。"
+      ],
+      "refs": [
+        {
+          "lesson": 20,
+          "section": "festivals"
+        },
+        {
+          "lesson": 20,
+          "section": "words"
+        },
+        {
+          "lesson": 20,
+          "section": "expressions"
+        }
+      ],
+      "requires": [
+        "v-time"
+      ],
+      "group": "",
+      "planned": false
+    },
+    {
+      "id": "g-spend-time",
+      "branch": "grammar",
+      "stage": "A1",
+      "title": "花时间做某事",
+      "goal": "用passer＋时间＋à＋不定式说清一次活动的持续时间。",
+      "criteria": [
+        "能在现在时和复合过去时中保留à后动作原形。",
+        "能区分花时间用avoir与顺路经过某地用être的passer。"
+      ],
+      "refs": [
+        {
+          "lesson": 20,
+          "section": "expressions"
+        },
+        {
+          "lesson": 20,
+          "section": "verbs"
+        }
+      ],
+      "requires": [
+        "g-er",
+        "g-past-avoir"
+      ],
+      "group": "structure",
+      "planned": false
+    },
+    {
+      "id": "g-dernier",
+      "branch": "grammar",
+      "stage": "A1",
+      "title": "dernier与过去时间",
+      "goal": "用正确的性数和位置表达刚过去的时期或一个范围的最后部分。",
+      "criteria": [
+        "能按所修饰名词选dernier、dernière、derniers或dernières。",
+        "能区分le mois dernier与le dernier mois de l’année，并写入回忆句。"
+      ],
+      "refs": [
+        {
+          "lesson": 20,
+          "section": "dernier"
+        }
+      ],
+      "requires": [
+        "g-agreement",
+        "v-time"
+      ],
+      "group": "nominals",
       "planned": false
     },
     {
