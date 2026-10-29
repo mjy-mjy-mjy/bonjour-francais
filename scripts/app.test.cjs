@@ -851,3 +851,33 @@ test('completion changes roll back on storage failure and reject invalid lesson 
  assert.equal(JSON.parse(a.storage.value).currentLesson,3);
  assert.equal(vm.runInContext('toggleLessonComplete(1.5)',a.context),false);
 });
+
+test('skill mastery supports legacy backups, persists with course records and rolls back failed saves',()=>{
+ const a=app(progress({completed:[1],currentLesson:2}));vm.runInContext(fs.readFileSync(path.join(root,'skill-tree-data.js'),'utf8'),a.context);
+ const start=Date.parse('2026-10-28T00:00:00Z');
+ assert.equal(vm.runInContext(`setSkillMastery('g-y',{level:2},${start})`,a.context),true);
+ assert.equal(JSON.parse(a.storage.value).skillMastery['g-y'].level,2);
+ assert.equal(vm.runInContext(`setSkillMastery('g-y',{level:3},${start+3600000})`,a.context),false);
+ assert.equal(vm.runInContext(`setSkillMastery('g-y',{level:3},${start+86400000})`,a.context),true);
+ a.storage.failSave=true;assert.equal(vm.runInContext(`setSkillMastery('g-y',{level:0},${start+90000000})`,a.context),false);
+ assert.equal(vm.runInContext('state.skillMastery["g-y"].level',a.context),3);a.storage.failSave=false;
+ a.main.listeners.click({target:{closest:()=>({dataset:{complete:'2'},hasAttribute:()=>false})}});
+ const saved=JSON.parse(a.storage.value);assert.equal(saved.skillMastery['g-y'].level,3);assert.ok(saved.completed.includes(2));
+ assert.ok(app(a.storage.value,'#settings').main.innerHTML.includes('1 个已点亮技能'));
+ assert.equal(vm.runInContext(`setSkillMastery('a2-grammar',{level:2},${start})`,a.context),false);
+});
+test('invalid mastery is rejected; future semantic IDs in a compatible backup are retained',()=>{
+ const a=app();assert.equal(vm.runInContext('validSkillMastery({"g-y":{level:9,updatedAt:"2026-10-29"}})',a.context),false);
+ assert.equal(vm.runInContext('validSkillMastery({"g-y":{level:2,updatedAt:"2026-10-29"}})',a.context),false);
+ const future={level:1,note:'Keep this',updatedAt:'2026-10-29T00:00:00Z'};
+ const restored=app(progress({skillMastery:{'future-skill':future}}));
+ assert.equal(vm.runInContext('state.skillMastery["future-skill"].note',restored.context),'Keep this');
+ assert.ok(app(progress({skillMastery:undefined}),'#settings').main.innerHTML.includes('学习记录与备份'));
+});
+test('lesson references return to the shared semantic skill with the current mastery badge',()=>{
+ const a=app(null,'#lesson/19');vm.runInContext(fs.readFileSync(path.join(root,'skill-tree-data.js'),'utf8'),a.context);
+ vm.runInContext("setSkillMastery('g-y',{level:2});render()",a.context);
+ assert.ok(a.main.innerHTML.includes('href="#skills/A1/grammar/g-y">地点副代词 y ✓'));
+ a.context.location.hash='#lesson/10';vm.runInContext('render()',a.context);
+ assert.ok(a.main.innerHTML.includes('href="#skills/A1/grammar/g-y">地点副代词 y ✓'));
+});
