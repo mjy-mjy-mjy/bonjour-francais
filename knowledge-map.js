@@ -38,6 +38,16 @@
       href:'#lesson/'+c.number+'/'+s.id
     })));
   }
+  function labelVisibility(items,scale,width,height){
+    const boxes=[],visible=new Set();
+    for(const item of [...items].sort((a,b)=>b.priority-a.priority)){
+      const x=item.x*scale,y=item.y*scale+24,box={left:x-78,right:x+78,top:y,bottom:y+64};
+      if(box.left<0||box.right>width||box.top<0||box.bottom>height)continue;
+      if(boxes.some(b=>box.left<b.right+6&&box.right>b.left-6&&box.top<b.bottom+6&&box.bottom>b.top-6))continue;
+      visible.add(item.id);boxes.push(box);
+    }
+    return visible;
+  }
   const normalizeAtlas=value=>String(value??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[’‘]/g,"'").toLowerCase();
   function atlasModel(courses){
     const linked=new Map();
@@ -76,7 +86,7 @@
     return {number:n,title:meta?.title||'教材学习记录',translation:meta?.translation||'详细讲义待补充',core:meta?.core||[],pages:meta?.pages||'',available:courses.has(n),completed:state.completed.includes(n)};
   })}));}
   function render(){return `<section class="knowledge-map" id="knowledge-map" aria-label="法语知识学习大陆">
-    <header class="map-header"><a href="#route" class="map-brand">Bonjour Français<small>知识学习大陆</small></a><div class="map-actions"><a href="${esc(window.SKILL_TREE?.resumeHref()||'#skills')}">知识技能树</a><button data-map="atlas">知识图鉴</button><button data-map="list" aria-label="打开单元与课程列表">课程目录</button><button data-map="fullscreen">全屏</button><a href="#route">返回书房</a></div></header>
+    <header class="map-header"><a href="#route" class="map-brand">Bonjour Français<small>知识学习大陆</small></a><div class="map-actions"><a href="${esc(window.SKILL_TREE?.resumeHref()||'#skills')}">知识技能树</a><button data-map="atlas">知识图鉴</button><button data-map="list" aria-label="打开单元与课程列表">课程目录</button><button data-map="route-sample">第6单元路线样板</button><button data-map="fullscreen">全屏</button><a href="#route">返回书房</a></div></header>
     <nav class="map-breadcrumb" id="map-breadcrumb" aria-label="地图位置"></nav>
     <div class="map-body">
       <div class="map-stage" id="map-stage" tabindex="0" aria-label="学习地图，可用方向键移动，加减键缩放，0键回到全貌">
@@ -85,7 +95,7 @@
       </div>
       <aside class="map-panel" id="map-panel" hidden aria-label="课程与知识详情"><button class="map-panel-close" data-map="close" aria-label="关闭详情">×</button><div id="map-detail"></div></aside>
     </div>
-    <footer class="map-footer"><div class="map-progress" id="map-progress" aria-live="polite"></div><div class="map-caption">拖动探索 · 滚轮或双指缩放 · 点击地点查看课程<span id="map-status" role="status" aria-live="polite"></span></div><div class="map-tools"><button data-map="zoom-in" aria-label="放大地图">＋</button><button data-map="zoom-out" aria-label="缩小地图">−</button><button data-map="reset">全貌</button><button data-map="current">我的位置</button></div></footer>
+    <footer class="map-footer"><div class="map-progress" id="map-progress" aria-live="polite"></div><div class="map-caption">◎ 当前课 · ◇ 查看中 · ✓ 已学完 · △ 待补讲义<span id="map-status" role="status" aria-live="polite"></span></div><div class="map-tools"><button data-map="zoom-in" aria-label="放大地图">＋</button><button data-map="zoom-out" aria-label="缩小地图">−</button><button data-map="reset">全貌</button><button data-map="current">我的位置</button></div></footer>
     </section>`;}
   function mount(adapter,level='world',unitArg){
     cleanup();const root=document.getElementById('knowledge-map');if(!root)return;
@@ -101,31 +111,38 @@
     const region=regions.find(r=>r.id===level);
     const key=level==='A1'?'#map/A1'+(unitView?'/'+unit:''):region?'#map/'+region.id:'#map';
     lastMapHash=key;
-    let panelKind='none',selectedLesson=0,query='',category='',atlasMode='knowledge',disposed=false,restoreFrame=0,restoring=false;
+    let panelKind='none',selectedLesson=0,routeSample=false,query='',category='',atlasMode='knowledge',disposed=false,restoreFrame=0,restoring=false;
     const remembered=memory.get(key);
     let view={x:0,y:0,scale:1},minScale=.2,activePointers=new Map(),pinch=null,returnFocus=null,focusPoint=[50,50],focusZoom=1,lastSize=null;
-    const apply=()=>{view=constrainView(view,stage.clientWidth,stage.clientHeight);root.classList.toggle('map-labels-compact',view.scale<.7);world.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.scale})`;world.style.setProperty('--pin-scale',1/view.scale);};
+    const apply=()=>{view=constrainView(view,stage.clientWidth,stage.clientHeight);root.classList.toggle('map-labels-compact',view.scale<.7);world.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.scale})`;world.style.setProperty('--pin-scale',1/view.scale);layoutLabels();};
     const center=(x,y,multiplier=1)=>{focusPoint=[x,y];focusZoom=multiplier;view.scale=minScale*multiplier;view.x=stage.clientWidth*.5-x/100*2048*view.scale;view.y=stage.clientHeight*.5-y/100*1152*view.scale;apply();};
     const fit=()=>{minScale=Math.min(stage.clientWidth/2048,stage.clientHeight/1152);center(50,50);};
     const zoom=(factor,cx=stage.clientWidth/2,cy=stage.clientHeight/2)=>{const next=Math.max(minScale*.8,Math.min(minScale*5,view.scale*factor)),ratio=next/view.scale;view.x=cx-(cx-view.x)*ratio;view.y=cy-(cy-view.y)*ratio;view.scale=next;apply();};
     const open=html=>{if(!panel.contains(document.activeElement))returnFocus=document.activeElement;detail.innerHTML=html;panel.scrollTop=0;panel.hidden=false;root.querySelector('.map-panel-close').focus();};
     const close=()=>{panelKind='none';panel.hidden=true;(returnFocus?.isConnected?returnFocus:stage).focus();};
     const title=(eyebrow,name)=>`<p class="map-eyebrow">${esc(eyebrow)}</p><h2>${esc(name)}</h2>`;
-    const pin=(x,y,label,action,kind='',symbol='⌂')=>`<button class="map-pin ${kind}" style="left:${x}%;top:${y}%" data-map="${action}" aria-label="${esc(label)}"><span class="map-pin-symbol" aria-hidden="true">${symbol}</span><span class="map-pin-label">${esc(label)}</span></button>`;
+    function layoutLabels(){
+      const pins=[...(markers.querySelectorAll?.('.map-pin')||[])];
+      const items=pins.map((p,i)=>({id:i,x:(Number(p.dataset.x)/100*2048)+view.x/view.scale,y:(Number(p.dataset.y)/100*1152)+view.y/view.scale,priority:Number(p.dataset.priority)||0}));
+      const visible=labelVisibility(items,view.scale,stage.clientWidth,stage.clientHeight);
+      pins.forEach((p,i)=>p.classList.toggle('map-label-hidden',!visible.has(i)));
+    }
+    const pin=(x,y,label,action,kind='',symbol='⌂')=>`<button class="map-pin ${kind}" style="left:${x}%;top:${y}%" data-map="${action}" data-x="${x}" data-y="${y}" data-priority="${kind.includes('selected')?3:kind.includes('active')?2:1}" aria-label="${esc(label)}"><span class="map-pin-symbol" aria-hidden="true">${symbol}</span><span class="map-pin-label">${esc(label)}</span></button>`;
     function updateProgress(){const s=adapter.state(),count=s.completed.length;root.querySelector('#map-progress').innerHTML=`<strong>A1 · 课程探索</strong><span>${count} / 36 课已标记学习</span><progress value="${count}" max="36" aria-label="A1课程学习记录"></progress><small>课程记录与能力等级分别追踪</small>`;}
     function draw(){
       model=unitsModel(adapter.units,adapter.catalog,adapter.courses,adapter.state());
       markers.innerHTML=(level==='A1'?[]:regions).map(r=>pin(r.x,r.y,r.id+' · '+r.name,'region:'+r.id,'region '+(r.id==='A1'?'active':''),r.id)).join('');
       if(level==='A1'){
         const visibleUnits=unitView?[model[unit-1]]:model;
-        markers.innerHTML+=visibleUnits.map(u=>pin(...u.point,u.name,'unit:'+u.number,'town '+(u.number===unit&&unitView?'selected':''),'U'+u.number)).join('');
+        markers.innerHTML+=visibleUnits.map(u=>pin(...u.point,'单元 '+u.number+' · '+u.name,'unit:'+u.number,'town '+(u.number===unit&&unitView?'selected':''),'U'+u.number)).join('');
         if(unitView){
           const u=model[unit-1],offsets=[[-9,6],[-3,15],[5,15],[11,6]];
-          markers.innerHTML+=u.lessons.map((l,i)=>pin(u.point[0]+offsets[i][0],u.point[1]+offsets[i][1],l.title,'lesson:'+l.number,'lesson '+(l.completed?'done ':'')+(l.number===adapter.currentLesson()?'active ':'')+(l.number===selectedLesson?'selected':''),String(l.number).padStart(2,'0'))).join('');
+          markers.innerHTML+=u.lessons.map((l,i)=>pin(u.point[0]+offsets[i][0],u.point[1]+offsets[i][1],'第 '+l.number+' 课 · '+l.title+' · '+[l.number===adapter.currentLesson()?'◎ 当前学习':'',l.number===selectedLesson?'◇ 正在查看':'',l.completed?'✓ 已学完':'',!l.available?'△ 讲义待补充':''].filter(Boolean).join(' / '),'lesson:'+l.number,'lesson '+(!l.available?'unavailable ':'')+(l.completed?'done ':'')+(l.number===adapter.currentLesson()?'active ':'')+(l.number===selectedLesson?'selected':''),String(l.number).padStart(2,'0')+(l.number===adapter.currentLesson()?' ◎':'')+(l.number===selectedLesson?' ◇':'')+(l.completed?' ✓':'')+(!l.available?' △':''))).join('');
         }
       }
       root.querySelector('#map-breadcrumb').innerHTML=`<a href="#map">大陆全貌</a>${region?`<span>／</span><a href="#map/${region.id}">${region.id} · ${esc(region.name)}</a>`:''}${unitView?`<span>／</span><button data-map="unit:${unit}">单元 ${unit}</button>`:''}`;
-      updateProgress();
+      if(routeSample&&unitView&&unit===6){const u=model[5],offsets=[[-9,6],[-3,15],[5,15],[11,6]];markers.innerHTML='<svg class="map-route-sample" viewBox="0 0 2048 1152" aria-label="第6单元课次顺序样板，不代表必经学习路径"><polyline points="'+offsets.map(([x,y])=>((u.point[0]+x)/100*2048)+','+((u.point[1]+y)/100*1152)).join(' ')+'"/></svg>'+markers.innerHTML;}
+      layoutLabels();updateProgress();
     }
     function openUnit(n){panelKind='unit';selectedLesson=0;const u=model[n-1];open(title('A1 / UNITÉ '+n,u.name)+`<p>第 ${(n-1)*4+1}—${n*4} 课 · ${u.lessons.filter(l=>l.completed).length}/4 已标记学习</p><div class="map-list">${u.lessons.map(l=>`<button data-map="lesson:${l.number}"><span>${String(l.number).padStart(2,'0')}</span><div><strong lang="fr">${esc(l.title)}</strong><small>${esc(l.translation)} · ${l.completed?'已学习':'待学习'} · ${l.available?'详细讲义':'教材笔记'}</small></div></button>`).join('')}</div>`);}
     function openLesson(n){if(!Number.isInteger(n)||n<1||n>36)return;selectedLesson=n;panelKind='lesson';const l=model[Math.ceil(n/4)-1].lessons.find(l=>l.number===n);open(lessonDetail(l,entries.filter(e=>e.lesson===n),adapter.state()));draw();}
@@ -162,6 +179,7 @@
         }
       }
       if(action==='current'){const currentUnit=Math.ceil(adapter.currentLesson()/4);if(unitView&&unit===currentUnit){center(...model[currentUnit-1].point,2);openLesson(adapter.currentLesson());}else {pendingLesson=adapter.currentLesson();location.hash='#map/A1/'+currentUnit;}}
+      if(action==='route-sample'){if(unitView&&unit===6){routeSample=!routeSample;draw();root.querySelector('#map-status').textContent=routeSample?'第6单元课次顺序样板，视觉待验':'路线样板已关闭';}else root.querySelector('#map-status').textContent='请进入第6单元查看路线样板';}
       if(action==='atlas')openAtlas();
       if(action==='atlas-mode'&&['knowledge','course'].includes(id)){atlasMode=id;openAtlas();root.querySelector('[data-map="atlas-mode:'+id+'"]').focus({preventScroll:true});}
       if(action==='atlas-clear'){root.querySelector('#map-atlas-search').value='';root.querySelector('#map-atlas-category').value='';filterAtlas();root.querySelector('#map-atlas-search').focus({preventScroll:true});}
@@ -215,5 +233,5 @@
     on(window,'pagehide',remember);
     cleanup=()=>{if(disposed)return;disposed=true;remember();cancelAnimationFrame(restoreFrame);controller.abort();observer.disconnect();};
   }
-  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,atlasModel,atlasResults,atlasResultsHtml,unitsModel,regions,states,constrainView,unitNumber,resumeHref,hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
+  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,labelVisibility,atlasModel,atlasResults,atlasResultsHtml,unitsModel,regions,states,constrainView,unitNumber,resumeHref,hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
 })();
