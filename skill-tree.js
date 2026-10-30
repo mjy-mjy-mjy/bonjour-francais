@@ -17,7 +17,10 @@
     return nodes.filter(n=>!n.planned&&(records[n.id]?.level||0)<2&&n.requires.every(id=>(records[id]?.level||0)>=2)).map((n,i)=>({n,i,score:(records[n.id]?.level||0)*2+Number(n.refs.some(r=>completed.includes(r.lesson)))})).sort((a,b)=>b.score-a.score||a.i-b.i)[0]?.n||null;
   }
   const normalize=text=>String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[’‘]/g,"'").toLocaleLowerCase();
-  function searchNodes(term){const query=normalize(term.trim());return query?data.nodes.filter(n=>normalize([n.title,n.goal,...n.criteria,data.branches.find(b=>b.id===n.branch).name].join(' ')).includes(query)):[];}
+  const courseByNumber=new Map((window.COURSE_LIBRARY?.lessons||[]).map(c=>[c.number,c]));
+  const coverage=()=>Math.max(0,...data.nodes.flatMap(n=>n.refs.map(r=>r.lesson)));
+  const bounded=(v,max)=>Number.isInteger(Number(v))&&Number(v)>=1&&Number(v)<=max?Number(v):0;
+  function searchNodes(term){const query=normalize(term.trim());return query?data.nodes.filter(n=>normalize([n.title,n.goal,...n.criteria,...(n.aliases||[]),...n.refs.map(r=>['第'+r.lesson+'课',courseByNumber.get(r.lesson)?.title,courseByNumber.get(r.lesson)?.translation,courseByNumber.get(r.lesson)?.sections.find(s=>s.id===r.section)?.title].join(' ')),data.branches.find(b=>b.id===n.branch).name].join(' ')).includes(query)):[];}
   function route(hash){
     const [path,queryString='']=hash.split('?');
     const [,level,branch,item]=path.replace(/^#/,'').split('/');
@@ -27,25 +30,38 @@
     const node=byId.get(item);
     const validScope=(!level||level==='all'||data.stages.includes(level))&&(!branch||branch==='all'||data.branches.some(b=>b.id===branch));
     const selected=validScope&&node&&(stage==='all'||node.stage===stage)&&(category==='all'||node.branch===category)?node:null;
-    return {stage,branch:category,node:selected,group:category==='grammar'?(groups[item]?item:params.get('group')==='all'?'':selected?.group||''):'',allGroups:params.get('group')==='all',mode:params.get('view')==='list'?'list':'graph',query:(params.get('q')||'').slice(0,200)};
+    return {unit:bounded(params.get('unit'),9),lesson:bounded(params.get('lesson'),36),stage,branch:category,node:selected,group:category==='grammar'?(groups[item]?item:params.get('group')==='all'?'':selected?.group||''):'',allGroups:params.get('group')==='all',mode:params.get('view')==='list'?'list':'graph',query:(params.get('q')||'').slice(0,200)};
   }
   function href(stage='all',branch='all',item='',options={}){
     const params=new URLSearchParams();
     if(options.mode==='list')params.set('view','list');
     if(options.allGroups)params.set('group','all');
+    if(bounded(options.unit,9))params.set('unit',options.unit);
+    if(bounded(options.lesson,36))params.set('lesson',options.lesson);
     if(options.query)params.set('q',options.query.slice(0,200));
     return '#skills/'+stage+'/'+branch+(item?'/'+item:'')+(params.size?'?'+params.toString():'');
   }
+  const CACHE_KEY='bonjour-francais-skill-view-v1';
+  function readViewCache(raw){
+    const saved=JSON.parse(raw||'null'),views=new Map();if(!saved)return {last:'',views};
+    const safe=h=>typeof h==='string'&&h.length<2000&&h.startsWith('#skills/')&&href(route(h).stage,route(h).branch,route(h).node?.id||route(h).group,route(h))===h;
+    for(const entry of (Array.isArray(saved.views)?saved.views:[]).slice(-60)){
+      if(!Array.isArray(entry))continue;const [key,v]=entry;
+      if(safe(key)&&v&&v.view&&['x','y','scale'].every(k=>Number.isFinite(v.view[k]))&&v.view.scale>0&&v.view.scale<=3&&Math.abs(v.view.x)<1e7&&Math.abs(v.view.y)<1e7&&['width','height','scroll','detail'].every(k=>Number.isFinite(v[k])&&v[k]>=0&&v[k]<1e6))views.set(key,v);
+    }
+    return {last:safe(saved.last)?saved.last:'',views};
+  }
+  try{const cache=readViewCache(window.sessionStorage?.getItem(CACHE_KEY));lastSkillHash=cache.last;for(const [k,v] of cache.views)viewMemory.set(k,v);}catch{}
   function scopedNodes(scope,withQuery=true){
     const matches=withQuery&&scope.query?new Set(searchNodes(scope.query).map(n=>n.id)):null;
-    return data.nodes.filter(n=>(scope.stage==='all'?!n.planned:n.stage===scope.stage)&&(scope.branch==='all'||n.branch===scope.branch)&&(!scope.group||n.group===scope.group)&&(!matches||matches.has(n.id)));
+    return data.nodes.filter(n=>(!scope.unit||n.refs.some(r=>Math.ceil(r.lesson/4)===scope.unit&&(!scope.lesson||r.lesson===scope.lesson)))&&(!scope.lesson||n.refs.some(r=>r.lesson===scope.lesson))&&(scope.stage==='all'?!n.planned:n.stage===scope.stage)&&(scope.branch==='all'||n.branch===scope.branch)&&(!scope.group||n.group===scope.group)&&(!matches||matches.has(n.id)));
   }
   function icon(name){const shapes={sound:'<path d="M3 10v4m4-8v12m5-15v18m5-15v12m4-8v4"/>',book:'<path d="M12 6v15M3 4h5a4 4 0 0 1 4 3 4 4 0 0 1 4-3h5v15h-5a4 4 0 0 0-4 2 4 4 0 0 0-4-2H3Z"/>',structure:'<path d="M8 3h8v6H8zM2 16h7v5H2zm13 0h7v5h-7zM12 9v4M5 16v-3h14v3"/>',headphones:'<path d="M4 14v-3a8 8 0 0 1 16 0v3M3 13h4v8H3zm14 0h4v8h-4z"/>',chat:'<path d="M3 4h18v13H9l-6 4Z"/><path d="M7 9h10m-10 4h6"/>',eye:'<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',pen:'<path d="m4 16 12-12 4 4L8 20H4Z M13 7l4 4M13 21h9"/>'};return `<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${shapes[name]||shapes.structure}</svg>`;}
   function render(){return `<section class="skill-tree st-modern" id="skill-tree" aria-label="法语知识技能树">
     <header class="st-header"><a href="#route" class="st-brand"><span class="st-brand-mark">B.</span><span>Bonjour Français<small>LE PARCOURS DES COMPÉTENCES</small></span></a><nav aria-label="成长视图"><a href="#skills" aria-current="page">技能树</a><a href="#skills/A1/grammar/verbs" class="st-sample-entry">动词与时态</a><a href="#verbs">动词手册</a><a href="${esc(window.KNOWLEDGE_MAP?.resumeHref()||'#map')}">${esc(window.KNOWLEDGE_MAP?.resumeLabel?.()||'知识大陆')}</a><a href="#route">返回书房</a><a href="#settings">记录与备份</a></nav></header>
     <div class="st-hero"><div><p class="st-eyebrow">VOTRE PROGRESSION</p><h1>你的法语，正在生长。</h1><p class="st-subtitle">首批 ${data.nodes.filter(n=>!n.planned).length} 个技能 · A1 第1—${Math.max(...data.nodes.flatMap(n=>n.refs.map(r=>r.lesson)))}课 · 后续阶段逐步扩展</p><a class="st-next" id="st-next"></a></div><div class="st-stats" id="st-stats"></div><div class="st-goal"><span>长期目标</span><strong>NCLC 7</strong><small>听 · 说 · 读 · 写</small></div></div>
     <div class="st-controls"><nav id="st-levels" aria-label="学习阶段"></nav><label class="st-branch-label">分支<select id="st-branch" aria-label="选择技能分支"><option value="all">全部分支</option>${data.branches.map(b=>`<option value="${b.id}">${b.name}</option>`).join('')}</select></label><nav id="st-view-modes" class="st-view-modes" aria-label="知识展示方式"></nav><label class="st-search-label"><span>⌕</span><input id="st-search" type="search" aria-label="搜索技能" placeholder="搜索技能，例如：过去时" maxlength="200" autocomplete="off"></label></div>
-    <div class="st-path" id="st-path"></div>
+    <div class="st-scope-controls"><label>单元<select id="st-unit"><option value="0">全部单元</option>${Array.from({length:9},(_,i)=>`<option value="${i+1}">单元 ${i+1}</option>`).join('')}</select></label><label>课次<select id="st-lesson"><option value="0">全部课次</option>${Array.from({length:36},(_,i)=>`<option value="${i+1}">第 ${i+1} 课</option>`).join('')}</select></label><button data-st-action="clear-scope">清除范围</button></div><div class="st-path" id="st-path"></div>
     <div class="st-layout"><div class="st-stage" id="st-stage" tabindex="0" aria-label="技能树画布，可拖动、滚轮缩放，方向键移动，0键查看全貌"><div class="st-board" id="st-board"></div><div class="st-canvas-hint">拖动探索 · 滚轮缩放 · 点击节点</div></div><aside class="st-detail" id="st-detail" aria-label="技能详情" hidden><button class="st-close" id="st-close" aria-label="关闭技能详情">×</button><div id="st-detail-body"></div></aside></div>
     <footer class="st-footer"><div class="st-legend">${states.map((s,i)=>`<span><i class="st-dot st-level-${i}"></i>${s}</span>`).join('')}<span class="st-plan-legend">◇ 后续规划</span></div><div class="st-zoom"><button data-st-action="minus" aria-label="缩小技能树">−</button><span id="st-scale">100%</span><button data-st-action="plus" aria-label="放大技能树">＋</button><button data-st-action="fit">全景适配</button></div></footer><div class="st-live" id="st-live" role="status" aria-live="polite"></div>
     </section>`;}
@@ -87,10 +103,10 @@
     const stage=root.querySelector('#st-stage'),board=root.querySelector('#st-board'),panel=root.querySelector('#st-detail'),body=root.querySelector('#st-detail-body');
     let current=route(location.hash),currentKey=href(current.stage,current.branch,current.node?.id||current.group,current),restoreFrame=0,restoring=false,layout={width:1280,height:680,points:new Map()},view={x:0,y:0,scale:1},lastSize=null,pointers=new Map(),pinch=null,returnFocus=null,noticeTimer=null;
     const isVerbView=()=>current.stage==='A1'&&current.branch==='grammar'&&current.group==='verbs';
-    const linkTo=(level='all',branch='all',item='',options={})=>href(level,branch,item,{mode:current.mode,allGroups:current.allGroups,query:level===current.stage&&branch===current.branch?current.query:'',...options});
+    const linkTo=(level='all',branch='all',item='',options={})=>href(level,branch,item,{mode:current.mode,allGroups:current.allGroups,unit:current.unit,lesson:current.lesson,query:level===current.stage&&branch===current.branch?current.query:'',...options});
     const selectHref=n=>current.mode==='list'&&(current.stage==='all'||current.stage===n.stage)&&(current.branch==='all'||current.branch===n.branch)?linkTo(current.stage,current.branch,n.id,{allGroups:!current.group}):linkTo(n.stage,n.branch,n.id);
     const currentItem=()=>current.node?.id||current.group;
-    const isCanvas=()=>current.mode==='graph'&&current.stage==='A1'&&current.branch!=='all'&&(current.branch!=='grammar'||Boolean(current.group));
+    const isCanvas=()=>!current.unit&&!current.lesson&&current.mode==='graph'&&current.stage==='A1'&&current.branch!=='all'&&(current.branch!=='grammar'||Boolean(current.group));
     const records=()=>adapter.state().skillMastery||{};
     const levelOf=n=>records()[n.id]?.level||0;
     const announce=message=>{clearTimeout(noticeTimer);root.querySelector('#st-live').textContent=message;noticeTimer=setTimeout(()=>{root.querySelector('#st-live').textContent='';},3500);};
@@ -124,10 +140,11 @@
       const branch=data.branches.find(b=>b.id===current.branch),title=groups[current.group]||branch?.name||'法语知识全景';
       root.querySelector('h1').textContent=current.stage!=='all'&&current.stage!=='A1'?current.stage+' · 后续学习方向':title;
       root.querySelector('.st-hero .st-eyebrow').textContent=branch?(current.stage==='all'?'A1':current.stage)+' / '+branch.french:'VOTRE PARCOURS / CONNAISSANCES';
-      root.querySelector('.st-subtitle').textContent=current.stage!=='all'&&current.stage!=='A1'?'规划节点仅展示方向，不计入掌握进度':branch?branch.description+' · '+scopedNodes(current,false).length+' 个已收录技能':'A1 · 第1—20课 · 七个领域，连接知识与运用';
+      root.querySelector('.st-subtitle').textContent=current.stage!=='all'&&current.stage!=='A1'?'规划节点仅展示方向，不计入掌握进度':branch?branch.description+' · '+scopedNodes(current,false).length+' 个已收录技能':'A1 · 第1—'+coverage()+'课 · 七个领域，连接知识与运用';
+      root.querySelector('#st-unit').value=String(current.unit);root.querySelector('#st-lesson').value=String(current.lesson);
       root.querySelector('#st-branch').value=current.branch;
       root.querySelector('#st-search').value=current.query;
-      root.querySelector('#st-view-modes').innerHTML=['graph','list'].map(mode=>`<a href="${linkTo(current.stage,current.branch,currentItem(),{mode})}" ${current.mode===mode?'aria-current="page"':''}>${mode==='graph'?'关系图':'列表'}</a>`).join('');
+      root.querySelector('#st-view-modes').innerHTML=['graph','list'].map(mode=>`<a href="${linkTo(current.stage,current.branch,currentItem(),{mode,...(mode==='graph'?{unit:0,lesson:0}:{})})}" ${current.mode===mode?'aria-current="page"':''}>${mode==='graph'?'关系图':'列表'}</a>`).join('');
       root.querySelector('#st-levels').innerHTML=['all','A1'].map(level=>`<a href="${linkTo(level,current.branch)}" ${level===current.stage?'aria-current="page"':''}>${level==='all'?'知识全景':level}</a>`).join('')+`<details class="st-future"><summary ${!['all','A1'].includes(current.stage)?'class="is-active"':''}>未来方向${!['all','A1'].includes(current.stage)?' · '+current.stage:''}</summary><nav aria-label="后续阶段">${data.stages.filter(l=>l!=='A1').map(l=>`<a href="${linkTo(l,current.branch)}" ${l===current.stage?'aria-current="page"':''}>${l} · 规划</a>`).join('')}</nav></details>`;
       root.querySelector('#st-path').innerHTML=`<a href="${linkTo()}">知识全景</a>${branch?`<span>／</span><a href="${linkTo('A1',branch.id)}">${branch.name}</a>`:''}${current.group?`<span>／</span><span>${groups[current.group]}</span>`:''}${current.branch==='grammar'&&current.stage==='A1'?`<nav aria-label="语法子树"><a href="${linkTo('A1','grammar')}" ${!current.group?'aria-current="page"':''}>全部语法</a>${Object.entries(groups).map(([id,name])=>`<a href="${linkTo('A1','grammar',id)}" ${current.group===id?'aria-current="page"':''}>${name}</a>`).join('')}</nav>`:''}`;
       for(const link of root.querySelectorAll('.st-header nav a')){link.removeAttribute('aria-current');if(link.getAttribute('href')===(isVerbView()?href('A1','grammar','verbs'):'#skills'))link.setAttribute('aria-current','page');}
@@ -190,7 +207,7 @@
     }
     function draw(){
       controls();stats();
-      if(current.mode==='list')listView();
+      if(current.mode==='list'||current.unit||current.lesson)listView();
       else if(!['all','A1'].includes(current.stage))planning();
       else if(isVerbView())verbGraph();
       else if(current.stage==='A1'&&current.branch==='grammar'&&!current.group)grammarOverview();
@@ -208,9 +225,11 @@
     }
     function remember(){
       const saved={view:{...view},width:stage.clientWidth,height:stage.clientHeight,scroll:stage.scrollTop,detail:panel.scrollTop};
+      if(restoring)return;
       viewMemory.set(currentKey,saved);
       if(viewMemory.size>60)viewMemory.delete(viewMemory.keys().next().value);
       lastSkillHash=href(current.stage,current.branch,currentItem(),current);
+      try{window.sessionStorage?.setItem(CACHE_KEY,JSON.stringify({last:lastSkillHash,views:[...viewMemory]}));}catch{}
     }
     function restore(ensureSelection=false){
       cancelAnimationFrame(restoreFrame);restoring=true;root.setAttribute('aria-busy','true');
@@ -226,7 +245,7 @@
     }
     function close(){
       const hadQuery=Boolean(current.query);
-      if(current.node||hadQuery){location.hash=linkTo(current.stage,current.branch,current.group,{query:''});return;}
+      if(current.node||hadQuery){location.hash=linkTo(current.stage,current.branch,current.group);return;}
       panel.hidden=true;
       if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true});else stage.focus({preventScroll:true});
     }
@@ -240,14 +259,14 @@
       const hash=href(current.stage,current.branch,currentItem(),current);
       history.replaceState(history.state,'',hash);currentKey=hash;
       // Only replace the results, keeping the search input focused during typing.
-      root.querySelector('#st-view-modes').innerHTML=['graph','list'].map(mode=>`<a href="${linkTo(current.stage,current.branch,currentItem(),{mode})}" ${current.mode===mode?'aria-current="page"':''}>${mode==='graph'?'关系图':'列表'}</a>`).join('');
+      root.querySelector('#st-view-modes').innerHTML=['graph','list'].map(mode=>`<a href="${linkTo(current.stage,current.branch,currentItem(),{mode,...(mode==='graph'?{unit:0,lesson:0}:{})})}" ${current.mode===mode?'aria-current="page"':''}>${mode==='graph'?'关系图':'列表'}</a>`).join('');
       if(current.mode==='list'){listView();stage.scrollTop=0;}
       else searchResults();
     }
     function navigate(){
       remember();const previous=current,previousSaved=viewMemory.get(currentKey);
       current=route(location.hash);currentKey=href(current.stage,current.branch,current.node?.id||current.group,current);
-      const sameScope=['stage','branch','group','mode','query'].every(key=>previous[key]===current[key]);
+      const sameScope=['stage','branch','group','mode','query','unit','lesson'].every(key=>previous[key]===current[key]);
       if(sameScope&&!viewMemory.has(currentKey))viewMemory.set(currentKey,{...previousSaved,detail:0});
       panel.hidden=true;draw();
       if(current.node)openNode(current.node);else if(current.query&&current.mode==='graph')searchResults();
@@ -268,11 +287,14 @@
         }else announce('记录未能保存，请导出备份。');return;
       }
       const action=e.target.closest('[data-st-action]')?.dataset.stAction;
+      if(action==='clear-scope'){location.hash=linkTo(current.stage,current.branch,current.group,{unit:0,lesson:0});return;}
       if(action==='clear-search'){root.querySelector('#st-search').value='';search();}
       if(!isCanvas())return;
       if(action==='plus')zoom(1.25);if(action==='minus')zoom(.8);if(action==='fit')fit();
     });
     on(root.querySelector('#st-close'),'click',close);
+    on(window,'pagehide',remember);
+    for(const field of ['unit','lesson'])on(root.querySelector('#st-'+field),'change',e=>{const value=bounded(e.target.value,field==='unit'?9:36);location.hash=linkTo(current.stage,current.branch,'',{mode:'list',[field]:value,...(field==='unit'?{lesson:0}:{})});});
     on(root.querySelector('#st-branch'),'change',e=>location.hash=linkTo(current.stage==='all'&&e.target.value!=='all'?'A1':current.stage,e.target.value,'',{allGroups:false}));
     on(root.querySelector('#st-search'),'input',search);
     on(body,'input',e=>{if(e.target.id==='st-note'&&current.node){const ok=adapter.setSkill(current.node.id,{note:e.target.value});root.querySelector('#st-note-status').textContent=ok?'运用记录已保存':'未能保存，请先复制这段记录';}});
@@ -293,6 +315,6 @@
     let disposed=false;
     dispose=()=>{if(disposed)return;disposed=true;remember();cancelAnimationFrame(restoreFrame);controller.abort();observer.disconnect();clearInterval(reviewTimer);clearTimeout(noticeTimer);activeNavigate=null;};
   }
-  window.SKILL_TREE={render,mount,unmount:()=>dispose(),navigate:()=>activeNavigate?.()||false,summary,recommend,searchNodes,canReview,route,href,scopedNodes,graphLayout,verbLayout,skillRelations,states,resumeHref:()=>lastSkillHash||'#skills'};
+  window.SKILL_TREE={render,mount,unmount:()=>dispose(),navigate:()=>activeNavigate?.()||false,summary,recommend,coverage,readViewCache,searchNodes,canReview,route,href,scopedNodes,graphLayout,verbLayout,skillRelations,states,resumeHref:()=>lastSkillHash||'#skills'};
 })();
 

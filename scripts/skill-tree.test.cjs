@@ -104,3 +104,24 @@ test('shared branch layouts keep every card separate and dependencies pointing f
   }
  }
 });
+
+test('course-aware search and URL range filters find lesson 21 without changing knowledge IDs',()=>{
+ const {tree}=model();assert.equal(tree.coverage(),21);assert.equal(tree.searchNodes('第21课').length,9);assert.equal(tree.searchNodes('C’est interdit').length,9);
+ const h=tree.href('all','all','',{mode:'list',unit:6,lesson:21,query:'命令式'}),r=tree.route(h);assert.equal(r.unit,6);assert.equal(r.lesson,21);assert.ok(tree.scopedNodes(r).some(n=>n.id==='g-coi-imperative'));assert.equal(tree.scopedNodes({...r,unit:5}).length,0);assert.equal(tree.route('#skills/all/all?unit=99&lesson=1.5').lesson,0);
+});
+
+function mountedTree(saved,hash='#skills/all/all?view=list'){
+ const els=new Map(),handlers=new Map(),frames=new Map();let serial=0;
+ function el(id){if(els.has(id))return els.get(id);const e={innerHTML:'',hidden:false,scrollTop:0,value:'',clientWidth:1600,clientHeight:900,style:{},isConnected:true,classList:{toggle(){},add(){}},setAttribute(){},removeAttribute(){},getAttribute(){return null;},focus(){},contains(){return false;},getBoundingClientRect(){return {left:0,right:1600,top:0,bottom:900};},querySelector:q=>el(q),querySelectorAll:()=>[],addEventListener(t,fn,o={}){const key=id+':'+t;if(!handlers.has(key))handlers.set(key,[]);handlers.get(key).push(e=>{if(!o.signal?.aborted)fn(e);});}};els.set(id,e);return e;}
+ const storage={value:saved};const c=vm.createContext({URLSearchParams,AbortController,console,location:{hash},history:{state:null,replaceState(_,__,h){c.location.hash=h;}},document:{getElementById:()=>el('root'),activeElement:null},sessionStorage:{getItem:()=>storage.value,setItem:(_,v)=>storage.value=v},requestAnimationFrame:fn=>{frames.set(++serial,fn);return serial;},cancelAnimationFrame:id=>frames.delete(id),ResizeObserver:class{observe(){}disconnect(){}},setTimeout:()=>1,clearTimeout(){},setInterval:()=>1,clearInterval(){}});c.window=c;c.addEventListener=(...args)=>el('window').addEventListener(...args);
+ for(const f of ['course.js','skill-tree-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),c);
+ const state={completed:[],skillMastery:{}};const adapter={state:()=>state,courses:new Map(c.COURSE_LIBRARY.lessons.map(l=>[l.number,l])),setSkill:(id,patch)=>{state.skillMastery[id]={...state.skillMastery[id],...patch};return true;}};
+ return {c,el,state,storage,mount:()=>c.SKILL_TREE.mount(adapter),flush(){while(frames.size){const [id,fn]=frames.entries().next().value;frames.delete(id);fn();}},fire:(id,type,e)=>(handlers.get(id+':'+type)||[]).forEach(fn=>fn(e))};
+}
+
+test('skill view restores list and detail scroll on refresh and rejects damaged session entries',()=>{
+ const a=mountedTree(null,'#skills/all/all/g-coi-imperative?view=list&unit=6&lesson=21');a.mount();a.flush();a.el('#st-stage').scrollTop=480;a.el('#st-detail').scrollTop=210;a.c.SKILL_TREE.unmount();
+ const b=mountedTree(a.storage.value,a.c.location.hash);b.mount();b.flush();assert.equal(b.el('#st-stage').scrollTop,480);assert.equal(b.el('#st-detail').scrollTop,210);assert.equal(b.el('#st-lesson').value,'21');
+ b.fire('#st-close','click',{});assert.match(b.c.location.hash,/unit=6/);assert.match(b.c.location.hash,/lesson=21/);
+ const {tree}=model();assert.equal(tree.readViewCache('{"last":"javascript:bad","views":[null,123]}').last,'');assert.equal(tree.readViewCache('{"views":[["#skills/all/all",{"view":{"scale":999}}]]}').views.size,0);
+});

@@ -295,3 +295,5 @@ body.skills-active{overflow:hidden}
 @media(max-width:750px){.st-modern .st-view-modes{margin-left:0}.st-dashboard{padding:20px 16px}.st-dashboard-intro{display:block}.st-dashboard-intro>a{display:inline-block;margin-top:15px}.st-domain-grid,.st-domain-group:nth-of-type(2) .st-domain-grid,.st-grammar-grid,.st-plan-grid{grid-template-columns:1fr}.st-list{padding:0 14px 30px}.st-list-row{grid-template-columns:minmax(0,1fr);gap:12px}.st-list-source{text-align:left}.st-future-panel summary span{display:block;margin:10px 0 0}}
 
 .st-domain-card.is-selected{border-color:#d0ad72;background:linear-gradient(125deg,#a1803925,#22394770)}
+
+.st-scope-controls{display:flex;align-items:center;gap:18px;padding:8px 32px;border-bottom:1px solid #718a9b33;flex-wrap:wrap;font-size:13px}.st-scope-controls label{display:flex;gap:10px;align-items:center}.st-scope-controls button{border:1px solid #a0845755;background:#172d3b;color:#e5c38e;padding:8px;border-radius:3px;cursor:pointer}
