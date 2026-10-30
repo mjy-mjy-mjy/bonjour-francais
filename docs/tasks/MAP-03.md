@@ -29,6 +29,6 @@
 - git diff --check与文档链接检查通过。生成指纹由构建更新，无新增发布资源。
 - 当前工具目录无浏览器控制工具；未运行桌面／手机真实浏览器视觉或系统全屏。Node模拟不替代视觉验收，此项明确留待可用浏览器环境补验。
 
-提交和部署：按既有授权提交main；提交SHA以Git历史为准，远端更新后核对。部署／线上显示分别核验，不从本地测试推断。
+提交和部署：内容提交[8494b4a](https://github.com/mjy-mjy-mjy/bonjour-francais/commit/8494b4a3fe1572cd152fe76f0455fad5ea8fbea3)已提交main，已核对远端SHA，本地与远端树58833645一致。[Pages工作流40994135102](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/40994135102)的检查、上传与部署步骤success。线上页面／产物哈希未核验，桌面视觉待验。
 
 后续目标：MAP-04图鉴双入口及逐步关联（不以67个技能覆盖全部章节）；MAP-05单元标签、状态和宽屏布局，路线先做样板验证。两项未自动实施。
