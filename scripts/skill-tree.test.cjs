@@ -137,3 +137,22 @@ test('cross-branch relation navigation can return to the exact original filtered
  a.c.location.hash='#skills/A1/speaking/s-past?view=list';a.c.SKILL_TREE.navigate();a.flush();assert.match(a.el('#st-detail-body').innerHTML,/返回原知识视图/);
  a.fire('root','click',{target:{closest:q=>q==='[data-st-action]'?{dataset:{stAction:'relation-back'}}:null}});assert.equal(a.c.location.hash,hash);a.c.SKILL_TREE.navigate();a.flush();assert.equal(a.el('#st-stage').scrollTop,350);
 });
+
+test('review statuses and recommendations explain actual records without fabricating mastery',()=>{
+ const {tree,data}=model(),now=Date.parse('2026-10-30T12:00:00Z');assert.equal(tree.reviewState(null,now),'unrecorded');assert.equal(tree.reviewState({level:1},now),'touched');assert.equal(tree.reviewState({level:2,masteredAt:new Date(now-86399999).toISOString()},now),'independent');assert.equal(tree.reviewState({level:2,masteredAt:new Date(now-86400000).toISOString()},now),'due');assert.equal(tree.reviewState({level:2,masteredAt:'bad'},now),'independent');assert.equal(tree.reviewState({level:3},now),'reviewed');
+ const records={'g-pronouns':{level:2},'g-etre':{level:1}};const suggestion=tree.recommendation(data.nodes,records,[1]);assert.equal(suggestion.node.id,'g-etre');assert.ok(suggestion.reasons.some(r=>r.includes('记录接触')));assert.ok(suggestion.reasons.some(r=>r.includes('基础')));assert.ok(suggestion.reasons.some(r=>r.includes('课程')));
+ const scope=tree.route(tree.href('all','all','',{mode:'list',review:'due',unit:6,lesson:21}));assert.equal(scope.review,'due');const due=tree.scopedNodes(scope,true,{'g-coi-imperative':{level:2,masteredAt:'2020-01-01T00:00:00Z'}},now);assert.deepEqual(Array.from(due,n=>n.id),['g-coi-imperative']);assert.equal(tree.scopedNodes(scope,true,{},now).length,0);
+ for(const n of data.nodes.filter(n=>!n.planned))for(const ref of tree.practiceSources(n)){const course=JSON.parse(fs.readFileSync(path.join(root,'lessons',String(ref.lesson).padStart(2,'0')+'.json'),'utf8'));assert.ok(course.sections.some(s=>s.id==='practice'));}
+});
+
+test('review list updates after self-evaluation and keeps scope on closing and refresh',()=>{
+ const hash='#skills/all/all/g-coi-imperative?view=list&review=due&unit=6&lesson=21';const a=mountedTree(null,hash);a.state.skillMastery['g-coi-imperative']={level:2,masteredAt:'2020-01-01T00:00:00Z'};a.mount();a.flush();a.el('#st-stage').scrollTop=300;
+ assert.match(a.el('#st-board').innerHTML,/命令式与间接宾语代词/);assert.match(a.el('#st-detail-body').innerHTML,/#lesson\/21\/practice/);
+ a.fire('root','click',{target:{closest:q=>q==='[data-st-level]'?{dataset:{stLevel:'3'}}:null}});assert.equal(a.state.skillMastery['g-coi-imperative'].level,3);assert.doesNotMatch(a.el('#st-board').innerHTML,/data-skill="g-coi-imperative"/);
+ a.fire('#st-close','click',{});assert.match(a.c.location.hash,/review=due/);a.c.SKILL_TREE.navigate();a.flush();assert.equal(a.el('#st-lesson').value,'21');a.c.SKILL_TREE.unmount();const b=mountedTree(a.storage.value,a.c.location.hash);b.mount();b.flush();assert.equal(b.el('#st-review').value,'due');assert.equal(b.el('#st-stage').scrollTop,300);
+});
+
+test('expanded shared text is restored before applying deep detail scroll',()=>{
+ const a=mountedTree(null,'#skills/A1/grammar/g-articles');const fold={open:true};a.mount();a.flush();a.el('#st-detail-body').querySelectorAll=()=>[fold];a.el('#st-detail').scrollTop=900;a.c.SKILL_TREE.unmount();
+ const b=mountedTree(a.storage.value,a.c.location.hash),restored={open:false};b.el('#st-detail-body').querySelectorAll=()=>[restored];let scroll=0;Object.defineProperty(b.el('#st-detail'),'scrollTop',{get:()=>scroll,set:v=>scroll=Math.min(v,restored.open?2000:200)});b.mount();b.flush();assert.equal(restored.open,true);assert.equal(scroll,900);
+});

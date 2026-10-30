@@ -251,5 +251,5 @@
     on(window,'pagehide',remember);
     cleanup=()=>{if(disposed)return;disposed=true;remember();cancelAnimationFrame(restoreFrame);controller.abort();observer.disconnect();};
   }
-  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,reviewState,labelVisibility,atlasModel,atlasResults,atlasResultsHtml,unitsModel,regions,states,constrainView,unitNumber,resumeHref,resumeLabel:()=>memory.get(lastMapHash)?.reviewMode?'返回知识复习':'返回知识大陆',hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
+  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,reviewLabels,reviewState,labelVisibility,atlasModel,atlasResults,atlasResultsHtml,unitsModel,regions,states,constrainView,unitNumber,resumeHref,resumeLabel:()=>memory.get(lastMapHash)?.reviewMode?'返回知识复习':'返回知识大陆',hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
 })();
