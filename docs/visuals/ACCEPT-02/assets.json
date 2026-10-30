@@ -1,0 +1,182 @@
+{
+  "base": "http://127.0.0.1:8872/bonjour-francais/",
+  "kind": "HTTP bytes, not browser acceptance",
+  "html_sha256": "ea25a17831f12676895d03c7d3a17b5684745c1f17955c2d11c6250eca211854",
+  "fingerprints": [
+    {
+      "reference": "styles.css?v=5848935d7ebc",
+      "sha256": "5848935d7ebc89a097fd91d9342681da7521c6f1fa6200cb21554c63d8333ed6"
+    },
+    {
+      "reference": "content.js?v=7f27164b9bb1",
+      "sha256": "7f27164b9bb185757a9c403e196771be3c33a7fd5fbb6d2d256814d3aeec7e8b"
+    },
+    {
+      "reference": "course.js?v=79ee51a10a3d",
+      "sha256": "79ee51a10a3dbb938f9d2a679460f328d6bbc37eea728e38ce129a99adb50521"
+    },
+    {
+      "reference": "lesson14.js?v=84176c6f938b",
+      "sha256": "84176c6f938b095b71501136e9c5f6a1ed9b07c0b8b22c0fc2b44e27700c1dbb"
+    },
+    {
+      "reference": "knowledge-map.css?v=bd475f499166",
+      "sha256": "bd475f499166ddd838cd90fcb5211d6d4e6642f8481d3326024af99293471bbd"
+    },
+    {
+      "reference": "knowledge-map.js?v=3ef0508b57a1",
+      "sha256": "3ef0508b57a1a8f70add816cb2759bdc3645a753d34a4c5a594591a9dc7a7d06"
+    },
+    {
+      "reference": "skill-tree.css?v=0333a2ec15d0",
+      "sha256": "0333a2ec15d0abb5bba77b19f130f054ccbcc3ec2bddb8964ac573f75fc0ba7b"
+    },
+    {
+      "reference": "skill-tree-data.js?v=ed5a8ca1736d",
+      "sha256": "ed5a8ca1736d2ad8d178408f94ec144ecabd6bde44d55d8def4aa8013c317ab2"
+    },
+    {
+      "reference": "grammar-data.js?v=c91070ccb2d4",
+      "sha256": "c91070ccb2d4c11df7a53f52df35e836acf835e0a4416686e0fc6e529166c075"
+    },
+    {
+      "reference": "skill-tree.js?v=9fd932ea9f2a",
+      "sha256": "9fd932ea9f2a140ac524aefb7158876f3214cc1074591f0cfbd2f8ad90a7d6a5"
+    },
+    {
+      "reference": "verb-data.js?v=1538f3b01d82",
+      "sha256": "1538f3b01d82b3242a6d2879028e3b97a2451b26fed7a6c7b5bd72f2db81c637"
+    },
+    {
+      "reference": "verb-knowledge.css?v=cee270b80e63",
+      "sha256": "cee270b80e63463727f0d125bac108b4dc9cd01f4a870678a963bd4a27e6982c"
+    },
+    {
+      "reference": "verb-knowledge.js?v=890686e9ebd6",
+      "sha256": "890686e9ebd6514d5fabefebad704c34c37783ae85ec9fb879fcbff58e85e33d"
+    },
+    {
+      "reference": "app.js?v=6ca339ecdde0",
+      "sha256": "6ca339ecdde02130b7bfc3cbb97d495239c6c53c296c275be933e8c77aee908a"
+    }
+  ],
+  "requests": [
+    {
+      "reference": "index.html",
+      "status": 200,
+      "sha256": "ea25a17831f12676895d03c7d3a17b5684745c1f17955c2d11c6250eca211854",
+      "matches_source": true
+    },
+    {
+      "reference": "styles.css?v=5848935d7ebc",
+      "status": 200,
+      "sha256": "5848935d7ebc89a097fd91d9342681da7521c6f1fa6200cb21554c63d8333ed6",
+      "matches_source": true
+    },
+    {
+      "reference": "content.js?v=7f27164b9bb1",
+      "status": 200,
+      "sha256": "7f27164b9bb185757a9c403e196771be3c33a7fd5fbb6d2d256814d3aeec7e8b",
+      "matches_source": true
+    },
+    {
+      "reference": "course.js?v=79ee51a10a3d",
+      "status": 200,
+      "sha256": "79ee51a10a3dbb938f9d2a679460f328d6bbc37eea728e38ce129a99adb50521",
+      "matches_source": true
+    },
+    {
+      "reference": "lesson14.js?v=84176c6f938b",
+      "status": 200,
+      "sha256": "84176c6f938b095b71501136e9c5f6a1ed9b07c0b8b22c0fc2b44e27700c1dbb",
+      "matches_source": true
+    },
+    {
+      "reference": "knowledge-map.css?v=bd475f499166",
+      "status": 200,
+      "sha256": "bd475f499166ddd838cd90fcb5211d6d4e6642f8481d3326024af99293471bbd",
+      "matches_source": true
+    },
+    {
+      "reference": "knowledge-map.js?v=3ef0508b57a1",
+      "status": 200,
+      "sha256": "3ef0508b57a1a8f70add816cb2759bdc3645a753d34a4c5a594591a9dc7a7d06",
+      "matches_source": true
+    },
+    {
+      "reference": "skill-tree.css?v=0333a2ec15d0",
+      "status": 200,
+      "sha256": "0333a2ec15d0abb5bba77b19f130f054ccbcc3ec2bddb8964ac573f75fc0ba7b",
+      "matches_source": true
+    },
+    {
+      "reference": "skill-tree-data.js?v=ed5a8ca1736d",
+      "status": 200,
+      "sha256": "ed5a8ca1736d2ad8d178408f94ec144ecabd6bde44d55d8def4aa8013c317ab2",
+      "matches_source": true
+    },
+    {
+      "reference": "grammar-data.js?v=c91070ccb2d4",
+      "status": 200,
+      "sha256": "c91070ccb2d4c11df7a53f52df35e836acf835e0a4416686e0fc6e529166c075",
+      "matches_source": true
+    },
+    {
+      "reference": "skill-tree.js?v=9fd932ea9f2a",
+      "status": 200,
+      "sha256": "9fd932ea9f2a140ac524aefb7158876f3214cc1074591f0cfbd2f8ad90a7d6a5",
+      "matches_source": true
+    },
+    {
+      "reference": "verb-data.js?v=1538f3b01d82",
+      "status": 200,
+      "sha256": "1538f3b01d82b3242a6d2879028e3b97a2451b26fed7a6c7b5bd72f2db81c637",
+      "matches_source": true
+    },
+    {
+      "reference": "verb-knowledge.css?v=cee270b80e63",
+      "status": 200,
+      "sha256": "cee270b80e63463727f0d125bac108b4dc9cd01f4a870678a963bd4a27e6982c",
+      "matches_source": true
+    },
+    {
+      "reference": "verb-knowledge.js?v=890686e9ebd6",
+      "status": 200,
+      "sha256": "890686e9ebd6514d5fabefebad704c34c37783ae85ec9fb879fcbff58e85e33d",
+      "matches_source": true
+    },
+    {
+      "reference": "app.js?v=6ca339ecdde0",
+      "status": 200,
+      "sha256": "6ca339ecdde02130b7bfc3cbb97d495239c6c53c296c275be933e8c77aee908a",
+      "matches_source": true
+    },
+    {
+      "reference": "assets/knowledge-continent.webp",
+      "status": 200,
+      "sha256": "704541f44c55f9f54bb16f411f83b972cfd02d80e1fd57be511507ca177fad34",
+      "matches_source": true
+    }
+  ],
+  "status": "passed",
+  "source_commit": "328543f3f81f12d22e2e21352763e8a075a5b633",
+  "rebuild_byte_identical": [
+    "index.html",
+    "course.js",
+    "lesson14.js",
+    "skill-tree-data.js",
+    "verb-data.js",
+    "grammar-data.js"
+  ],
+  "online": {
+    "url": "https://mjy-mjy-mjy.github.io/bonjour-francais/",
+    "verified": false,
+    "error": "CONNECT tunnel failed, response 403; exit 56",
+    "deployment_run": 41018875876,
+    "deployment_conclusion": "success",
+    "artifact_id": 12960403916,
+    "artifact_digest_from_github": "sha256:6a7e7f4a574b16cc7e96bc800f1edfea9b985f0726dbe6581736227c80bb538c",
+    "artifact_bytes_verified": false,
+    "artifact_download_error": "Connector returned reusable file reference; file download destination denied CONNECT 403"
+  }
+}
