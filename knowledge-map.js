@@ -23,7 +23,7 @@
   function lessonSkills(n){return (window.FRENCH_SKILLS?.nodes||[]).filter(s=>!s.planned&&s.refs.some(r=>r.lesson===n));}
   function lessonDetail(l,knowledge,state){
     const skills=lessonSkills(l.number),labels=window.SKILL_TREE?.states||['未学习','已接触','能独立运用','复测巩固'];
-    return `<p class="map-eyebrow">A1 / 单元 ${Math.ceil(l.number/4)} / 第 ${l.number} 课</p><h2>${esc(l.title)}</h2><p>${esc(l.translation)}</p><p class="map-muted">${l.completed?'已学完':'未标记学完'} · ${l.available?'详细讲义':'讲义待补充 · 可记教材笔记'}${l.pages?' · 教材 '+esc(l.pages)+' 页':''}</p><div class="map-panel-actions"><a class="map-primary" href="#lesson/${l.number}">${l.available?'进入讲义':'打开教材笔记'}</a><button data-map="atlas-lesson:${l.number}">本课知识图鉴</button><button data-map="complete:${l.number}">${l.completed?'撤销已学习标记':'标记本课已学习'}</button></div>${atlasBookmark?'<button data-map="atlas-return">返回图鉴结果</button>':''}<h3>本课关联技能</h3><p class="map-muted">与技能树共用自评记录；进入技能查看标准并记录。</p>${skills.length?skills.map(n=>`<a class="map-atlas-item" href="#skills/${n.stage}/${n.branch}/${n.id}"><strong>${esc(n.title)}</strong><small>技能自评 · ${esc(labels[state.skillMastery?.[n.id]?.level||0])}</small></a>`).join(''):'<p class="map-muted">本课尚无已收录的关联技能。</p>'}<details class="map-chapters"><summary>章节目录与章节自评 · ${knowledge.length} 项</summary><p class="map-muted">章节自评保留原记录，与跨课技能自评分别记录。</p>${knowledge.map(e=>`<div class="map-knowledge"><a href="${e.href}">${esc(e.title)}</a><label>章节自评<select data-map-mastery="${esc(e.id)}">${states.map((label,i)=>`<option value="${i}" ${Number(state.knowledgeMastery?.[e.id]?.level||0)===i?'selected':''}>${label}</option>`).join('')}</select></label></div>`).join('')}</details><details><summary>本课学习要点</summary><ul>${l.core.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details>`;
+    return `<p class="map-eyebrow">A1 / 单元 ${Math.ceil(l.number/4)} / 第 ${l.number} 课</p><h2>${esc(l.title)}</h2><p>${esc(l.translation)}</p><p class="map-muted">${l.completed?'已学完':'未标记学完'} · ${l.available?'详细讲义':'讲义待补充 · 可记教材笔记'}${l.pages?' · 教材 '+esc(l.pages)+' 页':''}</p><div class="map-panel-actions"><a class="map-primary" href="#lesson/${l.number}">${l.available?'进入讲义':'打开教材笔记'}</a><button data-map="atlas-lesson:${l.number}">本课知识图鉴</button><button data-map="review-lesson:${l.number}">复习本课</button><button data-map="complete:${l.number}">${l.completed?'撤销已学习标记':'标记本课已学习'}</button></div>${atlasBookmark?'<button data-map="atlas-return">返回图鉴结果</button>':''}<h3>本课关联技能</h3><p class="map-muted">与技能树共用自评记录；进入技能查看标准并记录。</p>${skills.length?skills.map(n=>`<a class="map-atlas-item" href="#skills/${n.stage}/${n.branch}/${n.id}"><strong>${esc(n.title)}</strong><small>技能自评 · ${esc(labels[state.skillMastery?.[n.id]?.level||0])}</small></a>`).join(''):'<p class="map-muted">本课尚无已收录的关联技能。</p>'}<details class="map-chapters"><summary>章节目录与章节自评 · ${knowledge.length} 项</summary><p class="map-muted">章节自评保留原记录，与跨课技能自评分别记录。</p>${knowledge.map(e=>`<div class="map-knowledge"><a href="${e.href}">${esc(e.title)}</a><label>章节自评<select data-map-mastery="${esc(e.id)}">${states.map((label,i)=>`<option value="${i}" ${Number(state.knowledgeMastery?.[e.id]?.level||0)===i?'selected':''}>${label}</option>`).join('')}</select></label></div>`).join('')}</details><details><summary>本课学习要点</summary><ul>${l.core.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details>`;
   }
   const unitNumber=(value,fallback=1)=>Number.isInteger(Number(value))&&Number(value)>=1&&Number(value)<=9?Number(value):fallback;
   function constrainView(view,width,height){
@@ -60,23 +60,30 @@
         seen.add(id);
         refs.push({id,lesson:ref.lesson,title:section.title,courseTitle:course.title,translation:course.translation,href:'#lesson/'+ref.lesson+'/'+ref.section});
       }
-      const skill={id:n.id,title:n.title,goal:n.goal,criteria:n.criteria,branch:n.branch,href:'#skills/'+n.stage+'/'+n.branch+'/'+n.id,refs};
+      const skill={id:n.id,title:n.title,goal:n.goal,criteria:n.criteria,branch:n.branch,href:'#skills/'+n.stage+'/'+n.branch+'/'+n.id,refs,practiceRefs:[...new Set(refs.map(r=>r.lesson))].filter(number=>courses.get(number)?.sections.some(section=>section.id==='practice')).map(number=>({lesson:number,href:'#lesson/'+number+'/practice'}))};
       for(const ref of refs){if(!linked.has(ref.id))linked.set(ref.id,[]);linked.get(ref.id).push(skill);}
       return skill;
     });
     const chapters=knowledgeEntries(courses).map(e=>({...e,courseTitle:courses.get(e.lesson).title,translation:courses.get(e.lesson).translation,skills:linked.get(e.id)||[]}));
     return {skills,chapters};
   }
+  const reviewLabels={all:'全部状态',unrecorded:'未记录掌握',touched:'已接触',independent:'能独立运用',due:'待复测',reviewed:'复测巩固'};
+  function reviewState(record,now=Date.now()){
+    if(!record?.level)return 'unrecorded';
+    if(record.level===1)return 'touched';
+    if(record.level===3)return 'reviewed';
+    return (window.SKILL_TREE?.canReview(record,now)??(record.level===2&&Number.isFinite(Date.parse(record.masteredAt))&&now-Date.parse(record.masteredAt)>=86400000))?'due':'independent';
+  }
   function atlasResults(atlas,{mode='knowledge',query='',category='',scopeUnit=0,scopeLesson=0}={}){
     const term=normalizeAtlas(query.trim()),inScope=n=>(!scopeUnit||Math.ceil(n/4)===scopeUnit)&&(!scopeLesson||n===scopeLesson);
     if(mode==='course')return atlas.chapters.filter(e=>inScope(e.lesson)&&(!category||e.categories.includes(category))&&(!term||normalizeAtlas([e.title,e.courseTitle,e.translation,'第'+e.lesson+'课',...e.skills.map(n=>n.title)].join(' ')).includes(term)));
     return atlas.skills.filter(n=>n.refs.some(r=>inScope(r.lesson))&&(!category||n.branch===category)&&(!term||normalizeAtlas([n.title,n.goal,...(n.criteria||[]),skillNames[n.branch],...n.refs.map(r=>['第'+r.lesson+'课',r.courseTitle,r.translation,r.title].join(' '))].join(' ')).includes(term)));
   }
-  function atlasResultsHtml(found,mode,state){
+  function atlasResultsHtml(found,mode,state,review=false){
     if(!found.length)return '<p class="map-muted">没有匹配结果，试试其他关键词或分类。</p><button class="map-atlas-clear" data-map="atlas-clear">清除筛选</button>';
     if(mode==='knowledge'){
       const labels=window.SKILL_TREE?.states||['未学习','已接触','能独立运用','复测巩固'];
-      return found.map(n=>`<article class="map-atlas-card"><h3><a href="${esc(n.href)}">${esc(n.title)}</a></h3><p class="map-muted">${esc(skillNames[n.branch])} · 技能自评：${esc(labels[state.skillMastery?.[n.id]?.level||0])}</p><p>${esc(n.goal)}</p><p class="map-atlas-source-label">课程出处</p><ul class="map-atlas-refs">${n.refs.map(r=>`<li><a href="${esc(r.href)}">第 ${r.lesson} 课 · ${esc(r.courseTitle)}<span>${esc(r.title)}</span></a><button class="map-locate" data-map="locate:${r.lesson}">定位第 ${r.lesson} 课</button></li>`).join('')}</ul>${n.refs.length?'':'<p class="map-muted">章节出处待补充。</p>'}</article>`).join('');
+      return found.map(n=>`<article class="map-atlas-card"><h3><a href="${esc(n.href)}">${esc(n.title)}</a></h3><p class="map-muted">${esc(skillNames[n.branch])} · 技能自评：${esc(labels[state.skillMastery?.[n.id]?.level||0])}</p><p>${esc(n.goal)}</p>${review?`<p class="map-review-state">复习状态：${reviewLabels[reviewState(state.skillMastery?.[n.id])]}</p><a class="map-review-standard" href="${esc(n.href)}">查看掌握标准并记录自评 →</a><p class="map-muted">课程练习按出处提供，不代表逐题对应本技能。</p>${(n.practiceRefs||[]).map(r=>`<a class="map-review-practice" href="${r.href}">第 ${r.lesson} 课 · 已有书面练习与答案</a>`).join('')}`:''}<p class="map-atlas-source-label">课程出处</p><ul class="map-atlas-refs">${n.refs.map(r=>`<li><a href="${esc(r.href)}">第 ${r.lesson} 课 · ${esc(r.courseTitle)}<span>${esc(r.title)}</span></a><button class="map-locate" data-map="locate:${r.lesson}">定位第 ${r.lesson} 课</button></li>`).join('')}</ul>${n.refs.length?'':'<p class="map-muted">章节出处待补充。</p>'}</article>`).join('');
     }
     const groups=new Map();
     for(const e of found){if(!groups.has(e.lesson))groups.set(e.lesson,[]);groups.get(e.lesson).push(e);}
@@ -87,7 +94,7 @@
     return {number:n,title:meta?.title||'教材学习记录',translation:meta?.translation||'详细讲义待补充',core:meta?.core||[],pages:meta?.pages||'',available:courses.has(n),completed:state.completed.includes(n)};
   })}));}
   function render(){return `<section class="knowledge-map" id="knowledge-map" aria-label="法语知识学习大陆">
-    <header class="map-header"><a href="#route" class="map-brand">Bonjour Français<small>知识学习大陆</small></a><div class="map-actions"><a href="${esc(window.SKILL_TREE?.resumeHref()||'#skills')}">知识技能树</a><button data-map="atlas">知识图鉴</button><button data-map="list" aria-label="打开单元与课程列表">课程目录</button><button data-map="route-sample">第6单元路线样板</button><button data-map="fullscreen">全屏</button><a href="#route">返回书房</a></div></header>
+    <header class="map-header"><a href="#route" class="map-brand">Bonjour Français<small>知识学习大陆</small></a><div class="map-actions"><a href="${esc(window.SKILL_TREE?.resumeHref()||'#skills')}">知识技能树</a><button data-map="atlas">知识图鉴</button><button data-map="review">知识复习</button><button data-map="list" aria-label="打开单元与课程列表">课程目录</button><button data-map="route-sample">第6单元路线样板</button><button data-map="fullscreen">全屏</button><a href="#route">返回书房</a></div></header>
     <nav class="map-breadcrumb" id="map-breadcrumb" aria-label="地图位置"></nav>
     <div class="map-body">
       <div class="map-stage" id="map-stage" tabindex="0" aria-label="学习地图，可用方向键移动，加减键缩放，0键回到全貌">
@@ -112,7 +119,7 @@
     const region=regions.find(r=>r.id===level);
     const key=level==='A1'?'#map/A1'+(unitView?'/'+unit:''):region?'#map/'+region.id:'#map';
     lastMapHash=key;
-    let panelKind='none',selectedLesson=0,scopeUnit=0,scopeLesson=0,routeSample=false,query='',category='',atlasMode='knowledge',disposed=false,restoreFrame=0,restoring=false;
+    let panelKind='none',selectedLesson=0,reviewMode=false,reviewFilter='all',scopeUnit=0,scopeLesson=0,routeSample=false,query='',category='',atlasMode='knowledge',disposed=false,restoreFrame=0,restoring=false;
     const remembered=pendingBookmark?.hash===key?pendingBookmark.value:memory.get(key);pendingBookmark=null;
     let view={x:0,y:0,scale:1},minScale=.2,activePointers=new Map(),pinch=null,returnFocus=null,focusPoint=[50,50],focusZoom=1,lastSize=null;
     const apply=()=>{view=constrainView(view,stage.clientWidth,stage.clientHeight);root.classList.toggle('map-labels-compact',view.scale<.7);world.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.scale})`;world.style.setProperty('--pin-scale',1/view.scale);layoutLabels();};
@@ -149,17 +156,17 @@
     function openLesson(n){if(!Number.isInteger(n)||n<1||n>36)return;selectedLesson=n;panelKind='lesson';const l=model[Math.ceil(n/4)-1].lessons.find(l=>l.number===n);open(lessonDetail(l,entries.filter(e=>e.lesson===n),adapter.state()));draw();}
     function openList(){panelKind='list';open(title('A1 / 教材目录','9 个单元 · 36 课')+`<div class="map-list">${model.map(u=>`<button data-map="unit:${u.number}"><span>${u.number}</span><div><strong>${esc(u.name)}</strong><small>第 ${(u.number-1)*4+1}—${u.number*4} 课</small></div></button>`).join('')}</div>`);}
     function openAtlas(){
-      panelKind='atlas';if(!Object.hasOwn(skillNames,category))category='';
+      panelKind='atlas';if(!Object.hasOwn(reviewLabels,reviewFilter))reviewFilter='all';if(!Object.hasOwn(skillNames,category))category='';
       const scopeControls=`<div class="map-scope"><label>单元<select id="map-atlas-unit"><option value="0">全部单元</option>${model.map(u=>`<option value="${u.number}">单元 ${u.number} · ${esc(u.name)}</option>`).join('')}</select></label><label>课次<select id="map-atlas-lesson"><option value="0">全部课次</option>${model.flatMap(u=>u.lessons).filter(l=>!scopeUnit||Math.ceil(l.number/4)===scopeUnit).map(l=>`<option value="${l.number}">第 ${l.number} 课 · ${esc(l.title)}</option>`).join('')}</select></label></div>`;
-      open(title('CONNAISSANCES / 跨课检索','知识图鉴')+`<nav class="map-atlas-modes" aria-label="图鉴浏览方式"><button data-map="atlas-mode:knowledge" aria-pressed="${atlasMode==='knowledge'}">按知识</button><button data-map="atlas-mode:course" aria-pressed="${atlasMode==='course'}">按课程</button></nav><button class="map-atlas-clear" data-map="atlas-clear">清除筛选</button><label>搜索知识、课程或章节<input id="map-atlas-search" type="search" maxlength="200" placeholder="例如：命令式、21、Téléphone"></label><label>分类<select id="map-atlas-category"><option value="">全部分类</option>${Object.entries(skillNames).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></label>${scopeControls}<p class="map-muted">${atlasMode==='knowledge'?'已收录 '+atlas.skills.length+' 个知识点，点击名称查看技能详情及自评标准。':'按课程保留现有讲义章节，关联知识逐步整理。'}章节自评与技能自评分别记录。</p><p id="map-atlas-scope" class="map-muted"></p><p id="map-atlas-count" role="status" aria-live="polite"></p><div id="map-atlas-results"></div>`);
-      root.querySelector('#map-atlas-unit').value=String(scopeUnit);root.querySelector('#map-atlas-lesson').value=String(scopeLesson);root.querySelector('#map-atlas-search').value=query;root.querySelector('#map-atlas-category').value=category;filterAtlas();
+      open(title('CONNAISSANCES / 跨课检索',reviewMode?'知识复习':'知识图鉴')+`<nav class="map-atlas-modes" aria-label="图鉴浏览方式"><button data-map="atlas-mode:knowledge" aria-pressed="${atlasMode==='knowledge'}">按知识</button><button data-map="atlas-mode:course" aria-pressed="${atlasMode==='course'}">按课程</button></nav><button class="map-atlas-clear" data-map="atlas-clear">清除筛选</button><label>搜索知识、课程或章节<input id="map-atlas-search" type="search" maxlength="200" placeholder="例如：命令式、21、Téléphone"></label><label>分类<select id="map-atlas-category"><option value="">全部分类</option>${Object.entries(skillNames).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></label>${scopeControls}${reviewMode?`<label>技能自评状态<select id="map-review-status">${Object.entries(reviewLabels).map(([id,name])=>`<option value="${id}">${name}</option>`).join('')}</select></label><p class="map-muted">选范围后查看讲义、练习和掌握标准。自评后返回本列表继续；待复测沿用已记录掌握时间满24小时的规则，不代表已经通过测评。</p>`:''}<p class="map-muted">${atlasMode==='knowledge'?'已收录 '+atlas.skills.length+' 个知识点，点击名称查看技能详情及自评标准。':'按课程保留现有讲义章节，关联知识逐步整理。'}章节自评与技能自评分别记录。</p><p id="map-atlas-scope" class="map-muted"></p><p id="map-atlas-count" role="status" aria-live="polite"></p><div id="map-atlas-results"></div>`);
+      if(reviewMode)root.querySelector('#map-review-status').value=reviewFilter;root.querySelector('#map-atlas-unit').value=String(scopeUnit);root.querySelector('#map-atlas-lesson').value=String(scopeLesson);root.querySelector('#map-atlas-search').value=query;root.querySelector('#map-atlas-category').value=category;filterAtlas();
     }
     function filterAtlas(){
       const input=root.querySelector('#map-atlas-search');if(!input)return;
       query=input.value.slice(0,200);category=root.querySelector('#map-atlas-category').value;
-      const found=atlasResults(atlas,{mode:atlasMode,query,category,scopeUnit,scopeLesson});root.querySelector('#map-atlas-scope').textContent=[scopeUnit?'单元 '+scopeUnit:'全部单元',scopeLesson?'第 '+scopeLesson+' 课':'全部课次',skillNames[category]||'全部分类',query?'搜索：'+query:''].filter(Boolean).join(' · ');
+      const found=atlasResults(atlas,{mode:atlasMode,query,category,scopeUnit,scopeLesson}).filter(n=>!reviewMode||reviewFilter==='all'||reviewState(adapter.state().skillMastery?.[n.id])===reviewFilter);root.querySelector('#map-atlas-scope').textContent=[scopeUnit?'单元 '+scopeUnit:'全部单元',scopeLesson?'第 '+scopeLesson+' 课':'全部课次',skillNames[category]||'全部分类',query?'搜索：'+query:''].filter(Boolean).join(' · ');
       root.querySelector('#map-atlas-count').textContent=atlasMode==='knowledge'?found.length+' 个知识点'+(scopeLesson?' · 第 '+scopeLesson+' 课':scopeUnit?' · 单元 '+scopeUnit:''):new Set(found.map(e=>e.lesson)).size+' 课 · '+found.length+' 个章节';
-      root.querySelector('#map-atlas-results').innerHTML=atlasResultsHtml(found,atlasMode,adapter.state());panel.scrollTop=0;
+      root.querySelector('#map-atlas-results').innerHTML=atlasResultsHtml(found,atlasMode,adapter.state(),reviewMode);panel.scrollTop=0;
     }
     on(root,'click',async e=>{const button=e.target.closest('[data-map]');if(!button)return;const [action,id]=button.dataset.map.split(':');
       if(action==='close')close();
@@ -182,20 +189,21 @@
       }
       if(action==='current'){const currentUnit=Math.ceil(adapter.currentLesson()/4);if(unitView&&unit===currentUnit){center(...model[currentUnit-1].point,2);openLesson(adapter.currentLesson());}else {pendingLesson=adapter.currentLesson();location.hash='#map/A1/'+currentUnit;}}
       if(action==='route-sample'){if(unitView&&unit===6){routeSample=!routeSample;draw();root.querySelector('#map-status').textContent=routeSample?'第6单元课次顺序样板，视觉待验':'路线样板已关闭';}else root.querySelector('#map-status').textContent='请进入第6单元查看路线样板';}
-      if(action==='atlas-lesson'){scopeLesson=Number(id);scopeUnit=Math.ceil(scopeLesson/4);query='';category='';atlasMode='knowledge';openAtlas();}
+      if(action==='review'||action==='review-lesson'){reviewMode=true;reviewFilter='all';atlasMode='knowledge';query='';category='';scopeLesson=action==='review-lesson'?Number(id):0;scopeUnit=scopeLesson?Math.ceil(scopeLesson/4):0;openAtlas();}
+      if(action==='atlas-lesson'){reviewMode=false;scopeLesson=Number(id);scopeUnit=Math.ceil(scopeLesson/4);query='';category='';atlasMode='knowledge';openAtlas();}
       if(action==='locate'){
         const n=Number(id);if(!Number.isInteger(n)||n<1||n>36)return;
         if(panelKind==='atlas'){remember();atlasBookmark={hash:key,value:memory.get(key)};}
         if(unitView&&Math.ceil(n/4)===unit){center(...model[unit-1].point,2);openLesson(n);}else{pendingLesson=n;location.hash='#map/A1/'+Math.ceil(n/4);}
       }
       if(action==='atlas-return'&&atlasBookmark){const back=atlasBookmark;cleanup();pendingBookmark=back;if(back.hash===key)mount(adapter,level,unitArg);else location.hash=back.hash;}
-      if(action==='atlas')openAtlas();
-      if(action==='atlas-mode'&&['knowledge','course'].includes(id)){atlasMode=id;openAtlas();root.querySelector('[data-map="atlas-mode:'+id+'"]').focus({preventScroll:true});}
-      if(action==='atlas-clear'){scopeUnit=0;scopeLesson=0;query='';category='';openAtlas();root.querySelector('#map-atlas-search').value='';root.querySelector('#map-atlas-category').value='';filterAtlas();root.querySelector('#map-atlas-search').focus({preventScroll:true});}
+      if(action==='atlas'){reviewMode=false;openAtlas();}
+      if(action==='atlas-mode'&&['knowledge','course'].includes(id)){reviewMode=false;atlasMode=id;openAtlas();root.querySelector('[data-map="atlas-mode:'+id+'"]').focus({preventScroll:true});}
+      if(action==='atlas-clear'){reviewFilter='all';scopeUnit=0;scopeLesson=0;query='';category='';openAtlas();root.querySelector('#map-atlas-search').value='';root.querySelector('#map-atlas-category').value='';filterAtlas();root.querySelector('#map-atlas-search').focus({preventScroll:true});}
       if(action==='list')openList();
       if(action==='fullscreen'){try{if(document.fullscreenElement)await document.exitFullscreen();else await root.requestFullscreen();}catch{root.querySelector('#map-status').textContent='当前浏览器未允许系统全屏，地图已占满页面。';}}
     });
-    on(root,'change',e=>{if(e.target.matches('[data-map-mastery]')){const ok=adapter.setMastery(e.target.dataset.mapMastery,Number(e.target.value));if(!ok)e.target.value=String(adapter.state().knowledgeMastery?.[e.target.dataset.mapMastery]?.level||0);root.querySelector('#map-status').textContent=ok?'知识掌握状态已保存':'掌握状态未能保存，请导出学习记录备份';}if(e.target.id==='map-atlas-category')filterAtlas();if(['map-atlas-unit','map-atlas-lesson'].includes(e.target.id)){scopeUnit=unitNumber(root.querySelector('#map-atlas-unit').value,0);const n=Number(root.querySelector('#map-atlas-lesson').value);scopeLesson=Number.isInteger(n)&&n>=1&&n<=36&&(!scopeUnit||Math.ceil(n/4)===scopeUnit)?n:0;openAtlas();root.querySelector('#'+e.target.id).focus({preventScroll:true});}});
+    on(root,'change',e=>{if(e.target.matches('[data-map-mastery]')){const ok=adapter.setMastery(e.target.dataset.mapMastery,Number(e.target.value));if(!ok)e.target.value=String(adapter.state().knowledgeMastery?.[e.target.dataset.mapMastery]?.level||0);root.querySelector('#map-status').textContent=ok?'知识掌握状态已保存':'掌握状态未能保存，请导出学习记录备份';}if(e.target.id==='map-atlas-category')filterAtlas();if(e.target.id==='map-review-status'){reviewFilter=Object.hasOwn(reviewLabels,e.target.value)?e.target.value:'all';filterAtlas();}if(['map-atlas-unit','map-atlas-lesson'].includes(e.target.id)){scopeUnit=unitNumber(root.querySelector('#map-atlas-unit').value,0);const n=Number(root.querySelector('#map-atlas-lesson').value);scopeLesson=Number.isInteger(n)&&n>=1&&n<=36&&(!scopeUnit||Math.ceil(n/4)===scopeUnit)?n:0;openAtlas();root.querySelector('#'+e.target.id).focus({preventScroll:true});}});
     on(root,'input',e=>{if(e.target.id==='map-atlas-search')filterAtlas();});
     on(stage,'wheel',e=>{e.preventDefault();const r=stage.getBoundingClientRect();zoom(Math.exp(-e.deltaY*.0015),e.clientX-r.left,e.clientY-r.top);},{passive:false});
     on(stage,'pointerdown',e=>{if(e.target.closest('button,a'))return;stage.focus();stage.setPointerCapture(e.pointerId);activePointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(activePointers.size===2){const [a,b]=[...activePointers.values()];pinch=Math.hypot(a.x-b.x,a.y-b.y);}});
@@ -218,15 +226,16 @@
     function remember(){
       if(restoring)return;
       const size=lastSize||{width:stage.clientWidth,height:stage.clientHeight};
-      const value={cx:(size.width/2-view.x)/view.scale,cy:(size.height/2-view.y)/view.scale,zoom:view.scale/minScale,panel:panel.hidden?'none':panelKind,lesson:selectedLesson,scroll:panel.scrollTop,query,category,scopeUnit,scopeLesson,atlasMode,chapters:!!detail.querySelector('.map-chapters')?.open};
+      const value={cx:(size.width/2-view.x)/view.scale,cy:(size.height/2-view.y)/view.scale,zoom:view.scale/minScale,panel:panel.hidden?'none':panelKind,lesson:selectedLesson,scroll:panel.scrollTop,query,category,scopeUnit,scopeLesson,reviewMode,reviewFilter,atlasMode,chapters:!!detail.querySelector('.map-chapters')?.open};
       memory.delete(key);memory.set(key,value);while(memory.size>20)memory.delete(memory.keys().next().value);
       try{window.sessionStorage?.setItem(CACHE_KEY,JSON.stringify({last:key,views:[...memory],atlasBookmark}));}catch{}
     }
     if(pendingLesson&&unitView&&Math.ceil(pendingLesson/4)===unit){openLesson(pendingLesson);pendingLesson=null;}
     else if(remembered){
-      query=remembered.query;category=remembered.category;scopeUnit=unitNumber(remembered.scopeUnit,0);const savedLesson=Number(remembered.scopeLesson);scopeLesson=Number.isInteger(savedLesson)&&savedLesson>=1&&savedLesson<=36&&(!scopeUnit||Math.ceil(savedLesson/4)===scopeUnit)?savedLesson:0;
+      query=remembered.query;category=remembered.category;reviewMode=remembered.reviewMode===true;reviewFilter=Object.hasOwn(reviewLabels,remembered.reviewFilter)?remembered.reviewFilter:'all';scopeUnit=unitNumber(remembered.scopeUnit,0);const savedLesson=Number(remembered.scopeLesson);scopeLesson=Number.isInteger(savedLesson)&&savedLesson>=1&&savedLesson<=36&&(!scopeUnit||Math.ceil(savedLesson/4)===scopeUnit)?savedLesson:0;
       // Old atlas snapshots held chapter results; keep their filters in that view.
       atlasMode=remembered.atlasMode==='course'||(remembered.atlasMode===undefined&&remembered.panel==='atlas')?'course':'knowledge';
+      if(reviewMode)atlasMode='knowledge';
       if(remembered.panel==='lesson'&&remembered.lesson&&(!unitView||Math.ceil(remembered.lesson/4)===unit))openLesson(remembered.lesson);
       else if(remembered.panel==='atlas')openAtlas();
       else if(remembered.panel==='list')openList();
@@ -242,5 +251,5 @@
     on(window,'pagehide',remember);
     cleanup=()=>{if(disposed)return;disposed=true;remember();cancelAnimationFrame(restoreFrame);controller.abort();observer.disconnect();};
   }
-  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,labelVisibility,atlasModel,atlasResults,atlasResultsHtml,unitsModel,regions,states,constrainView,unitNumber,resumeHref,hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
+  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,reviewState,labelVisibility,atlasModel,atlasResults,atlasResultsHtml,unitsModel,regions,states,constrainView,unitNumber,resumeHref,resumeLabel:()=>memory.get(lastMapHash)?.reviewMode?'返回知识复习':'返回知识大陆',hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
 })();

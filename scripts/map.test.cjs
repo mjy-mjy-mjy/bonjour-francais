@@ -173,3 +173,19 @@ test('unit and lesson filters intersect in both modes and course atlas locates a
  const a=mounted();a.mount('A1','6');a.click('lesson:21');a.click('atlas-lesson:21');assert.equal(a.el('#map-atlas-lesson').value,'21');a.el('#map-panel').scrollTop=450;a.click('locate:21');assert.match(a.el('#map-detail').innerHTML,/返回图鉴结果/);a.click('atlas-return');a.flush();assert.equal(a.el('#map-atlas-lesson').value,'21');assert.equal(a.el('#map-panel').scrollTop,450);
  const b=mounted();b.mount('world');b.click('atlas');b.el('#map-panel').scrollTop=510;b.click('locate:21');b.mount('A1','6');b.flush();b.c.KNOWLEDGE_MAP.unmount();const reload=mounted(b.storage.value);reload.mount('A1','6');reload.flush();reload.click('atlas-return');assert.equal(reload.c.location.hash,'#map');reload.mount('world');reload.flush();assert.equal(reload.el('#map-panel').scrollTop,510);
 });
+
+test('review states use actual timestamps and never infer skill mastery from course completion',()=>{
+ const {c,courses}=data(),map=c.KNOWLEDGE_MAP,now=Date.parse('2026-10-30T12:00:00Z');
+ assert.equal(map.reviewState(undefined,now),'unrecorded');assert.equal(map.reviewState({level:1},now),'touched');
+ assert.equal(map.reviewState({level:2,masteredAt:new Date(now-86399999).toISOString()},now),'independent');assert.equal(map.reviewState({level:2,masteredAt:new Date(now-86400000).toISOString()},now),'due');assert.equal(map.reviewState({level:2,masteredAt:'bad'},now),'independent');assert.equal(map.reviewState({level:3},now),'reviewed');
+ const atlas=map.atlasModel(courses);for(const n of atlas.skills)for(const r of n.practiceRefs)assert.ok(courses.get(r.lesson).sections.some(s=>s.id==='practice')&&r.href==='#lesson/'+r.lesson+'/practice');
+ const html=map.atlasResultsHtml(atlas.skills.filter(n=>n.id==='g-coi-imperative'),'knowledge',{completed:[21],skillMastery:{}},true);assert.match(html,/未记录掌握/);assert.match(html,/#lesson\/21\/practice/);assert.match(html,/不代表逐题对应/);assert.match(html,/查看掌握标准并记录自评/);
+});
+
+test('review filters and scope survive skill self-evaluation round trip and refresh',()=>{
+ const a=mounted();a.mount('A1','6');a.click('review-lesson:21');a.el('#map-review-status').value='due';a.state.skillMastery['g-coi-imperative']={level:2,masteredAt:'2020-01-01T00:00:00Z'};
+ a.fire('root','change',{target:{id:'map-review-status',value:'due',matches:()=>false}});assert.match(a.el('#map-atlas-results').innerHTML,/命令式与间接宾语代词/);a.el('#map-panel').scrollTop=250;a.c.KNOWLEDGE_MAP.unmount();assert.equal(a.c.KNOWLEDGE_MAP.resumeLabel(),'返回知识复习');
+ // This is the state returned by the existing skill page after its saved self-evaluation.
+ a.state.skillMastery['g-coi-imperative']={level:3,masteredAt:'2020-01-01T00:00:00Z',reviewedAt:'2026-10-30T00:00:00Z'};a.mount('A1','6');a.flush();assert.equal(a.el('#map-review-status').value,'due');assert.equal(a.el('#map-atlas-lesson').value,'21');assert.equal(a.el('#map-atlas-count').textContent,'0 个知识点 · 第 21 课');assert.equal(a.el('#map-panel').scrollTop,250);a.c.KNOWLEDGE_MAP.unmount();
+ const b=mounted(a.storage.value);b.mount('A1','6');b.flush();assert.equal(b.el('#map-review-status').value,'due');assert.match(b.el('#map-detail').innerHTML,/知识复习/);b.click('atlas-clear');assert.equal(b.el('#map-review-status').value,'all');assert.equal(b.el('#map-atlas-lesson').value,'0');
+});

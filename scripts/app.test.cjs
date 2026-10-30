@@ -898,3 +898,7 @@ test('a lesson offers the saved map return even from the world atlas or without 
  a.context.KNOWLEDGE_MAP.resumeHref=()=> '#map';vm.runInContext('render()',a.context);assert.ok(a.main.innerHTML.includes('href="#map">↩ 返回知识大陆'));
  a.context.location.hash='#lesson/36';vm.runInContext('render()',a.context);assert.ok(a.main.innerHTML.includes('↩ 返回知识大陆'));
 });
+
+test('course reading returns to the saved review list with an explicit label',()=>{
+ const a=app(null,'#lesson/21');a.context.KNOWLEDGE_MAP={unmount(){},resumeHref:()=> '#map/A1/6',hasVisited:()=>true,resumeLabel:()=> '返回知识复习'};vm.runInContext('render()',a.context);assert.ok(a.main.innerHTML.includes('href="#map/A1/6">↩ 返回知识复习'));
+});
