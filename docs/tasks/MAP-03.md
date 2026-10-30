@@ -43,4 +43,4 @@
 - 修复前新增2项均失败（深处1500被截为400；全貌恢复旧放大视角），修复后通过。应用90／地图11／技能13／动词6，共120项Node通过，无失败／跳过；构建、内容／资源与9份JS语法检查通过。
 - 共享构建源未改动，本轮未重跑Python构建单测。当前无浏览器控制工具，真实桌面／手机视觉未运行。
 
-提交／部署：实现与自动回归已完成，待核对本轮提交及Pages工作流结果。
+提交／部署：修复提交[758a53a](https://github.com/mjy-mjy-mjy/bonjour-francais/commit/758a53a9876e914ef0e293defa03f703bf437384)已推送main，远端SHA与本地树9c1a1da5一致。[Pages工作流40996225082](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/40996225082)完成且conclusion为success，检查步骤通过；线上页面效果及产物哈希未核验。
