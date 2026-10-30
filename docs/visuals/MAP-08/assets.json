@@ -1,0 +1,162 @@
+{
+  "base": "http://127.0.0.1:8878/bonjour-francais/",
+  "kind": "HTTP bytes, not browser acceptance",
+  "html_sha256": "1b563d07be56f8667893d4b9fd1a35fee5d74d09065dd07830febb7bcd6c291f",
+  "fingerprints": [
+    {
+      "reference": "styles.css?v=5848935d7ebc",
+      "sha256": "5848935d7ebc89a097fd91d9342681da7521c6f1fa6200cb21554c63d8333ed6"
+    },
+    {
+      "reference": "content.js?v=7f27164b9bb1",
+      "sha256": "7f27164b9bb185757a9c403e196771be3c33a7fd5fbb6d2d256814d3aeec7e8b"
+    },
+    {
+      "reference": "course.js?v=79ee51a10a3d",
+      "sha256": "79ee51a10a3dbb938f9d2a679460f328d6bbc37eea728e38ce129a99adb50521"
+    },
+    {
+      "reference": "lesson14.js?v=84176c6f938b",
+      "sha256": "84176c6f938b095b71501136e9c5f6a1ed9b07c0b8b22c0fc2b44e27700c1dbb"
+    },
+    {
+      "reference": "knowledge-map.css?v=70635766108b",
+      "sha256": "70635766108b4337f1afa758219e73ca258a1421f153e114b9b22ff4ee4e25c5"
+    },
+    {
+      "reference": "knowledge-map.js?v=fa551e967f21",
+      "sha256": "fa551e967f21a248b71b59e974c2e795e421674d58acded730d0e02a8e224664"
+    },
+    {
+      "reference": "skill-tree.css?v=0333a2ec15d0",
+      "sha256": "0333a2ec15d0abb5bba77b19f130f054ccbcc3ec2bddb8964ac573f75fc0ba7b"
+    },
+    {
+      "reference": "skill-tree-data.js?v=ed5a8ca1736d",
+      "sha256": "ed5a8ca1736d2ad8d178408f94ec144ecabd6bde44d55d8def4aa8013c317ab2"
+    },
+    {
+      "reference": "grammar-data.js?v=c91070ccb2d4",
+      "sha256": "c91070ccb2d4c11df7a53f52df35e836acf835e0a4416686e0fc6e529166c075"
+    },
+    {
+      "reference": "skill-tree.js?v=9fd932ea9f2a",
+      "sha256": "9fd932ea9f2a140ac524aefb7158876f3214cc1074591f0cfbd2f8ad90a7d6a5"
+    },
+    {
+      "reference": "verb-data.js?v=1538f3b01d82",
+      "sha256": "1538f3b01d82b3242a6d2879028e3b97a2451b26fed7a6c7b5bd72f2db81c637"
+    },
+    {
+      "reference": "verb-knowledge.css?v=cee270b80e63",
+      "sha256": "cee270b80e63463727f0d125bac108b4dc9cd01f4a870678a963bd4a27e6982c"
+    },
+    {
+      "reference": "verb-knowledge.js?v=890686e9ebd6",
+      "sha256": "890686e9ebd6514d5fabefebad704c34c37783ae85ec9fb879fcbff58e85e33d"
+    },
+    {
+      "reference": "app.js?v=6ca339ecdde0",
+      "sha256": "6ca339ecdde02130b7bfc3cbb97d495239c6c53c296c275be933e8c77aee908a"
+    }
+  ],
+  "requests": [
+    {
+      "reference": "index.html",
+      "status": 200,
+      "sha256": "1b563d07be56f8667893d4b9fd1a35fee5d74d09065dd07830febb7bcd6c291f",
+      "matches_source": true
+    },
+    {
+      "reference": "styles.css?v=5848935d7ebc",
+      "status": 200,
+      "sha256": "5848935d7ebc89a097fd91d9342681da7521c6f1fa6200cb21554c63d8333ed6",
+      "matches_source": true
+    },
+    {
+      "reference": "content.js?v=7f27164b9bb1",
+      "status": 200,
+      "sha256": "7f27164b9bb185757a9c403e196771be3c33a7fd5fbb6d2d256814d3aeec7e8b",
+      "matches_source": true
+    },
+    {
+      "reference": "course.js?v=79ee51a10a3d",
+      "status": 200,
+      "sha256": "79ee51a10a3dbb938f9d2a679460f328d6bbc37eea728e38ce129a99adb50521",
+      "matches_source": true
+    },
+    {
+      "reference": "lesson14.js?v=84176c6f938b",
+      "status": 200,
+      "sha256": "84176c6f938b095b71501136e9c5f6a1ed9b07c0b8b22c0fc2b44e27700c1dbb",
+      "matches_source": true
+    },
+    {
+      "reference": "knowledge-map.css?v=70635766108b",
+      "status": 200,
+      "sha256": "70635766108b4337f1afa758219e73ca258a1421f153e114b9b22ff4ee4e25c5",
+      "matches_source": true
+    },
+    {
+      "reference": "knowledge-map.js?v=fa551e967f21",
+      "status": 200,
+      "sha256": "fa551e967f21a248b71b59e974c2e795e421674d58acded730d0e02a8e224664",
+      "matches_source": true
+    },
+    {
+      "reference": "skill-tree.css?v=0333a2ec15d0",
+      "status": 200,
+      "sha256": "0333a2ec15d0abb5bba77b19f130f054ccbcc3ec2bddb8964ac573f75fc0ba7b",
+      "matches_source": true
+    },
+    {
+      "reference": "skill-tree-data.js?v=ed5a8ca1736d",
+      "status": 200,
+      "sha256": "ed5a8ca1736d2ad8d178408f94ec144ecabd6bde44d55d8def4aa8013c317ab2",
+      "matches_source": true
+    },
+    {
+      "reference": "grammar-data.js?v=c91070ccb2d4",
+      "status": 200,
+      "sha256": "c91070ccb2d4c11df7a53f52df35e836acf835e0a4416686e0fc6e529166c075",
+      "matches_source": true
+    },
+    {
+      "reference": "skill-tree.js?v=9fd932ea9f2a",
+      "status": 200,
+      "sha256": "9fd932ea9f2a140ac524aefb7158876f3214cc1074591f0cfbd2f8ad90a7d6a5",
+      "matches_source": true
+    },
+    {
+      "reference": "verb-data.js?v=1538f3b01d82",
+      "status": 200,
+      "sha256": "1538f3b01d82b3242a6d2879028e3b97a2451b26fed7a6c7b5bd72f2db81c637",
+      "matches_source": true
+    },
+    {
+      "reference": "verb-knowledge.css?v=cee270b80e63",
+      "status": 200,
+      "sha256": "cee270b80e63463727f0d125bac108b4dc9cd01f4a870678a963bd4a27e6982c",
+      "matches_source": true
+    },
+    {
+      "reference": "verb-knowledge.js?v=890686e9ebd6",
+      "status": 200,
+      "sha256": "890686e9ebd6514d5fabefebad704c34c37783ae85ec9fb879fcbff58e85e33d",
+      "matches_source": true
+    },
+    {
+      "reference": "app.js?v=6ca339ecdde0",
+      "status": 200,
+      "sha256": "6ca339ecdde02130b7bfc3cbb97d495239c6c53c296c275be933e8c77aee908a",
+      "matches_source": true
+    },
+    {
+      "reference": "assets/knowledge-continent.webp",
+      "status": 200,
+      "sha256": "704541f44c55f9f54bb16f411f83b972cfd02d80e1fd57be511507ca177fad34",
+      "matches_source": true
+    }
+  ],
+  "status": "passed"
+}

@@ -34,10 +34,10 @@ test('fractional, nonnumeric and out-of-range unit links use a valid fallback',(
 
 // Exercise mount/navigation with deterministic DOM events; these are not visual browser checks.
 function mounted(savedSession,storageFails=false){
- const elements=new Map(),frames=new Map(),storage={value:savedSession},handlers={};let nextFrame=0;
+ const elements=new Map(),frames=new Map(),storage={value:savedSession},handlers={};let nextFrame=0,resize;
  function el(id){if(elements.has(id))return elements.get(id);const x={id,hidden:false,scrollTop:0,value:'',open:false,clientWidth:1200,clientHeight:700,innerHTML:'',style:{setProperty(){}},classList:{toggle(){}},focus(){this.focused=true;},contains(){return false;},isConnected:true,
   addEventListener(t,fn,options={}){const wrapper=e=>{if(!options.signal?.aborted)fn(e);};(handlers[id+':'+t]??=[]).push(wrapper);},querySelector(q){if(q==='.map-chapters')return this.innerHTML.includes('map-chapters')?el('chapters'):null;return el(q);},getBoundingClientRect(){return {left:0,top:0};},setPointerCapture(){}};elements.set(id,x);return x;}
- const c=vm.createContext({console,AbortController,location:{hash:'#map'},document:{getElementById:()=>el('root'),activeElement:null},sessionStorage:{getItem:()=>{if(storageFails)throw Error('blocked');return storage.value;},setItem:(_,v)=>{if(storageFails)throw Error('blocked');storage.value=v;}},requestAnimationFrame:fn=>{frames.set(++nextFrame,fn);return nextFrame;},cancelAnimationFrame:id=>frames.delete(id),ResizeObserver:class{observe(){}disconnect(){}}});c.window=c;c.addEventListener=(...args)=>el('window').addEventListener(...args);
+ const c=vm.createContext({console,AbortController,location:{hash:'#map'},document:{getElementById:()=>el('root'),activeElement:null},sessionStorage:{getItem:()=>{if(storageFails)throw Error('blocked');return storage.value;},setItem:(_,v)=>{if(storageFails)throw Error('blocked');storage.value=v;}},requestAnimationFrame:fn=>{frames.set(++nextFrame,fn);return nextFrame;},cancelAnimationFrame:id=>frames.delete(id),ResizeObserver:class{constructor(fn){resize=fn;}observe(){}disconnect(){}}});c.window=c;c.addEventListener=(...args)=>el('window').addEventListener(...args);
  for(const f of ['content.js','course.js','lesson14.js','skill-tree-data.js','knowledge-map.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),c);
  const state={completed:[20],knowledgeMastery:{'21:coi':{level:2,updatedAt:'2026-10-30T00:00:00Z'}},skillMastery:{'g-coi-imperative':{level:1}}};
  const adapter={units:c.COURSE_CONTENT.units,catalog:c.COURSE_LIBRARY.catalog,courses:new Map(c.COURSE_LIBRARY.lessons.map(l=>[l.number,l])),state:()=>state,currentLesson:()=>21,toggleComplete:()=>false,setMastery:()=>false};
@@ -46,7 +46,7 @@ function mounted(savedSession,storageFails=false){
   // The app unmounts before replacing the map DOM on each hash navigation.
   c.KNOWLEDGE_MAP.unmount();el('#map-panel').hidden=true;el('#map-detail').innerHTML='';el('chapters').open=false;
   c.KNOWLEDGE_MAP.mount(adapter,level,unit);
- },flush:()=>{while(frames.size){const [id,fn]=frames.entries().next().value;frames.delete(id);fn();}},click:action=>fire('root','click',{target:{closest:()=>({dataset:{map:action}})}}),fire,
+ },flush:()=>{while(frames.size){const [id,fn]=frames.entries().next().value;frames.delete(id);fn();}},resize:()=>resize?.(),click:action=>fire('root','click',{target:{closest:()=>({dataset:{map:action}})}}),fire,
  limitPanelScroll(collapsed,expanded){
   // Model the browser's scrollTop clamp against the current content height.
   let top=0;Object.defineProperty(el('#map-panel'),'scrollTop',{get:()=>top,set:v=>{top=Math.max(0,Math.min(v,el('chapters').open?expanded:collapsed));}});
@@ -204,4 +204,52 @@ test('selected and current course labels outrank the unit label when their boxes
  const visible=a.c.KNOWLEDGE_MAP.labelVisibility([{id:'town',x:100,y:100,priority:priority('unit:6')},{id:'course',x:100,y:100,priority:priority('lesson:21')}],1,500,500);
  assert.equal(visible.has('course'),true);assert.equal(visible.has('town'),false);
  a.click('lesson:22');const updated=a.el('#map-markers').innerHTML,active=Number(updated.match(/data-map="lesson:21"[^>]*data-priority="(\d+)"/)[1]);assert.ok(active>priority('unit:6'));
+});
+
+
+test('course status badges coexist without inferring skill mastery or changing completion',()=>{
+ const {c}=data(),map=c.KNOWLEDGE_MAP,l={number:21,title:'C’est interdit !',translation:'禁止！',available:false,completed:true,core:[]};
+ const before=JSON.stringify(l),badges=map.courseBadges(l,{current:true,viewed:true});assert.deepEqual(Array.from(badges,b=>b.kind),['current','viewed','done','pending']);
+ assert.equal(map.courseBadges({...l,available:true,completed:false}).length,0);
+ const html=map.lessonDetail(l,[],{skillMastery:{}},{current:true});for(const b of badges)assert.ok(html.includes(b.label));
+ assert.match(html,/打开教材笔记/);assert.match(html,/map-completion-action/);assert.equal((html.match(/class="map-primary"/g)||[]).length,1);
+ assert.doesNotMatch(html.match(/<div class="map-panel-actions">([\s\S]*?)<\/div>/)[1],/complete:21/);assert.equal(JSON.stringify(l),before);
+});
+
+test('measured label sizes, edge shifts and offscreen anchors drive collision checks',()=>{
+ const {c}=data(),map=c.KNOWLEDGE_MAP;
+ const items=[{id:'selected',x:200,y:160,width:240,height:100,priority:5},{id:'other',x:390,y:160,width:210,height:80,priority:1}];
+ assert.equal(map.labelVisibility(items,1,800,600).has('other'),false,'Actual widths overlap despite the old small box model');
+ for(const [x,y] of [[20,80],[780,80],[400,570]]){
+  const placement=map.labelPlacement(x,y,210,90,800,600);
+  assert.equal(placement.anchorVisible,true);assert.equal(map.labelVisibility([{id:'edge',x,y,width:210,height:90,...placement}],1,800,600).has('edge'),true);
+ }
+ const outside=map.labelPlacement(-30,100,210,90,800,600);assert.equal(map.labelVisibility([{id:'orphan',x:-30,y:100,width:210,height:90,...outside}],1,800,600).size,0);
+});
+
+test('unit framing keeps all unit nodes in the viewport and within valid cached zoom bounds',()=>{
+ const {c,courses,catalog}=data(),map=c.KNOWLEDGE_MAP,units=map.unitsModel(c.COURSE_CONTENT.units,catalog,courses,{completed:[]});
+ for(const [w,h] of [[874,480],[1375,850],[1934,1211],[3214,1931],[390,240],[1000,90]])for(const unit of units){
+  const v=map.unitFraming(unit.point,w,h),minimum=Math.min(w/2048,h/1152);assert.ok(v.scale>=minimum&&v.scale/minimum<=5.00001);
+  for(const [dx,dy] of [[0,0],[-9,6],[-3,15],[5,15],[11,6]]){
+   const x=(unit.point[0]+dx)/100*2048*v.scale+v.x,y=(unit.point[1]+dy)/100*1152*v.scale+v.y;
+   assert.ok(x>=0&&x<=w&&y>=0&&y<=h,`${unit.number} / ${w}x${h}: node out of frame`);
+  }
+ }
+});
+
+test('automatic unit framing adapts on resize but manual zoom and restored views stay authoritative',()=>{
+ const a=mounted();a.mount('A1','6');a.flush();a.el('#map-stage').clientWidth=900;a.el('#map-stage').clientHeight=600;a.resize();
+ const auto=a.el('#map-world').style.transform,scale=v=>Number(v.match(/scale\(([^)]+)\)/)[1]);
+ a.click('zoom-in');const manual=a.el('#map-world').style.transform;a.el('#map-stage').clientWidth=1000;a.resize();
+ assert.notEqual(manual,auto);const expected=scale(manual)*Math.min(1000/2048,600/1152)/Math.min(900/2048,600/1152);
+ assert.ok(Math.abs(scale(a.el('#map-world').style.transform)-expected)<1e-9);
+ a.c.KNOWLEDGE_MAP.unmount();const b=mounted(a.storage.value);b.mount('A1','6');b.click('current');const focused=b.el('#map-world').style.transform;b.flush();assert.equal(b.el('#map-world').style.transform,focused,'A pending old restore cannot undo My Position');
+});
+
+test('secondary map tools retain their actions and Escape closes tools before the course panel',()=>{
+ const {c}=data(),html=c.KNOWLEDGE_MAP.render();assert.match(html,/<details class="map-more">/);assert.match(html,/data-map="fullscreen"/);assert.match(html,/data-map="route-sample"/);
+ const a=mounted();a.mount('A1','6');a.el('.map-more').open=true;a.fire('root','keydown',{key:'Escape',preventDefault(){}});
+ assert.equal(a.el('.map-more').open,false);assert.equal(a.el('#map-panel').hidden,false);
+ a.el('.map-more').open=true;a.click('route-sample');assert.equal(a.el('.map-more').open,false);assert.match(a.el('#map-markers').innerHTML,/map-route-sample/);
 });
