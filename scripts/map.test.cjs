@@ -34,15 +34,23 @@ test('fractional, nonnumeric and out-of-range unit links use a valid fallback',(
 
 // Exercise mount/navigation with deterministic DOM events; these are not visual browser checks.
 function mounted(savedSession,storageFails=false){
- const elements=new Map(),frames=[],storage={value:savedSession},handlers={};
+ const elements=new Map(),frames=new Map(),storage={value:savedSession},handlers={};let nextFrame=0;
  function el(id){if(elements.has(id))return elements.get(id);const x={id,hidden:false,scrollTop:0,value:'',open:false,clientWidth:1200,clientHeight:700,innerHTML:'',style:{setProperty(){}},classList:{toggle(){}},focus(){},contains(){return false;},isConnected:true,
   addEventListener(t,fn,options={}){const wrapper=e=>{if(!options.signal?.aborted)fn(e);};(handlers[id+':'+t]??=[]).push(wrapper);},querySelector(q){if(q==='.map-chapters')return this.innerHTML.includes('map-chapters')?el('chapters'):null;return el(q);},getBoundingClientRect(){return {left:0,top:0};},setPointerCapture(){}};elements.set(id,x);return x;}
- const c=vm.createContext({console,AbortController,location:{hash:'#map'},document:{getElementById:()=>el('root'),activeElement:null},sessionStorage:{getItem:()=>{if(storageFails)throw Error('blocked');return storage.value;},setItem:(_,v)=>{if(storageFails)throw Error('blocked');storage.value=v;}},requestAnimationFrame:fn=>{frames.push(fn);return frames.length;},cancelAnimationFrame(){},ResizeObserver:class{observe(){}disconnect(){}}});c.window=c;c.addEventListener=(...args)=>el('window').addEventListener(...args);
+ const c=vm.createContext({console,AbortController,location:{hash:'#map'},document:{getElementById:()=>el('root'),activeElement:null},sessionStorage:{getItem:()=>{if(storageFails)throw Error('blocked');return storage.value;},setItem:(_,v)=>{if(storageFails)throw Error('blocked');storage.value=v;}},requestAnimationFrame:fn=>{frames.set(++nextFrame,fn);return nextFrame;},cancelAnimationFrame:id=>frames.delete(id),ResizeObserver:class{observe(){}disconnect(){}}});c.window=c;c.addEventListener=(...args)=>el('window').addEventListener(...args);
  for(const f of ['content.js','course.js','lesson14.js','skill-tree-data.js','knowledge-map.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),c);
  const state={completed:[20],knowledgeMastery:{'21:coi':{level:2,updatedAt:'2026-10-30T00:00:00Z'}},skillMastery:{'g-coi-imperative':{level:1}}};
  const adapter={units:c.COURSE_CONTENT.units,catalog:c.COURSE_LIBRARY.catalog,courses:new Map(c.COURSE_LIBRARY.lessons.map(l=>[l.number,l])),state:()=>state,currentLesson:()=>21,toggleComplete:()=>false,setMastery:()=>false};
  const fire=(id,type,event={})=>(handlers[id+':'+type]||[]).forEach(f=>f(event));
- return {c,el,storage,state,mount:(level,unit)=>c.KNOWLEDGE_MAP.mount(adapter,level,unit),flush:()=>{while(frames.length)frames.shift()();},click:action=>fire('root','click',{target:{closest:()=>({dataset:{map:action}})}}),fire};
+ return {c,el,storage,state,mount:(level,unit)=>{
+  // The app unmounts before replacing the map DOM on each hash navigation.
+  c.KNOWLEDGE_MAP.unmount();el('#map-panel').hidden=true;el('#map-detail').innerHTML='';el('chapters').open=false;
+  c.KNOWLEDGE_MAP.mount(adapter,level,unit);
+ },flush:()=>{while(frames.size){const [id,fn]=frames.entries().next().value;frames.delete(id);fn();}},click:action=>fire('root','click',{target:{closest:()=>({dataset:{map:action}})}}),fire,
+ limitPanelScroll(collapsed,expanded){
+  // Model the browser's scrollTop clamp against the current content height.
+  let top=0;Object.defineProperty(el('#map-panel'),'scrollTop',{get:()=>top,set:v=>{top=Math.max(0,Math.min(v,el('chapters').open?expanded:collapsed));}});
+ }};
 }
 test('current location opens the actual course across units without changing learning records',()=>{
  const a=mounted(),before=JSON.stringify(a.state);a.mount('world');a.click('current');assert.equal(a.c.location.hash,'#map/A1/6');a.mount('A1','6');a.flush();
@@ -63,4 +71,24 @@ test('atlas filters and scroll survive navigation, and explicit closing remains 
 test('damaged caches and blocked storage fall back safely while in-memory return still works',()=>{
  for(const bad of ['{','{"last":"javascript:alert(1)","views":[]}',JSON.stringify({last:'#map/A1/6',views:[['#map/A1/6',{panel:'lesson',lesson:99,cx:NaN,cy:0,zoom:Infinity}]]})]){const a=mounted(bad);assert.doesNotThrow(()=>{a.mount('A1','6');a.flush();});assert.doesNotMatch(a.el('#map-detail').innerHTML,/第 99 课/);}
  const a=mounted(null,true);a.mount('A1','6');a.click('lesson:21');a.c.KNOWLEDGE_MAP.unmount();a.mount('A1','6');a.flush();assert.match(a.el('#map-detail').innerHTML,/C’est interdit/);
+});
+
+test('expanded chapters are restored before deep panel scroll is clamped',()=>{
+ const a=mounted();a.limitPanelScroll(400,2500);a.mount('A1','6');a.click('lesson:21');a.el('chapters').open=true;a.el('#map-panel').scrollTop=1500;a.c.KNOWLEDGE_MAP.unmount();
+ for(const b of [a,mounted(a.storage.value)]){
+  if(b!==a)b.limitPanelScroll(400,2500);
+  b.mount('A1','6');b.flush();assert.equal(b.el('chapters').open,true);assert.equal(b.el('#map-panel').scrollTop,1500,'Same-tab navigation and reload must preserve deep chapter scroll');
+ }
+});
+
+test('full view resets cached world zoom and panels while ordinary returns preserve context',()=>{
+ const a=mounted();a.mount('world');const full=a.el('#map-world').style.transform;
+ a.click('zoom-in');a.click('atlas');const zoomed=a.el('#map-world').style.transform;
+ a.mount('A1','6');a.mount('world');a.flush();assert.equal(a.el('#map-world').style.transform,zoomed);assert.equal(a.el('#map-panel').hidden,false);assert.match(a.el('#map-detail').innerHTML,/跨课检索/);
+ a.mount('A1','6');a.click('lesson:21');a.click('reset');assert.equal(a.c.location.hash,'#map');a.mount('world');a.flush();
+ assert.equal(a.el('#map-world').style.transform,full);assert.equal(a.el('#map-panel').hidden,true);
+ a.mount('A1','6');a.flush();assert.match(a.el('#map-detail').innerHTML,/C’est interdit/,'Reset keeps unit context available');
+ a.mount('world');a.flush();a.click('zoom-in');a.click('atlas');a.c.KNOWLEDGE_MAP.unmount();
+ const b=mounted(a.storage.value);b.mount('world');b.click('reset');b.flush();assert.equal(b.el('#map-world').style.transform,full,'Pending restore cannot undo a reset');assert.equal(b.el('#map-panel').hidden,true);
+ b.c.KNOWLEDGE_MAP.unmount();const reload=mounted(b.storage.value);reload.mount('world');reload.flush();assert.equal(reload.el('#map-world').style.transform,full);assert.equal(reload.el('#map-panel').hidden,true);
 });

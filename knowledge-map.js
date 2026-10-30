@@ -108,7 +108,15 @@
         if(adapter.toggleComplete(n)){draw();openLesson(n);panel.scrollTop=scroll;detail.querySelector('[data-map="complete:'+n+'"]').focus({preventScroll:true});root.querySelector('#map-status').textContent='课程学习记录已保存';}
         else root.querySelector('#map-status').textContent='记录未能保存，请导出备份';
       }
-      if(action==='zoom-in')zoom(1.3);if(action==='zoom-out')zoom(1/1.3);if(action==='reset'){if(level!=='world')location.hash='#map';else{fit();close();}}
+      if(action==='zoom-in')zoom(1.3);if(action==='zoom-out')zoom(1/1.3);
+      if(action==='reset'){
+        if(level!=='world'){
+          // Explicit reset discards the world view; ordinary links still resume it.
+          memory.delete('#map');pendingLesson=null;location.hash='#map';
+        }else{
+          cancelAnimationFrame(restoreFrame);restoring=false;fit();close();
+        }
+      }
       if(action==='current'){const currentUnit=Math.ceil(adapter.currentLesson()/4);if(unitView&&unit===currentUnit){center(...model[currentUnit-1].point,2);openLesson(adapter.currentLesson());}else {pendingLesson=adapter.currentLesson();location.hash='#map/A1/'+currentUnit;}}
       if(action==='atlas')openAtlas();
       if(action==='list')openList();
@@ -149,7 +157,12 @@
       else if(remembered.panel==='list')openList();
       else if(remembered.panel==='none')panel.hidden=true;
       restoring=true;
-      restoreFrame=requestAnimationFrame(()=>{minScale=Math.min(stage.clientWidth/2048,stage.clientHeight/1152);view.scale=minScale*remembered.zoom;view.x=stage.clientWidth/2-remembered.cx*view.scale;view.y=stage.clientHeight/2-remembered.cy*view.scale;apply();lastSize={width:stage.clientWidth,height:stage.clientHeight};panel.scrollTop=remembered.scroll;const chapters=detail.querySelector('.map-chapters');if(chapters)chapters.open=!!remembered.chapters;restoring=false;});
+      restoreFrame=requestAnimationFrame(()=>{
+        minScale=Math.min(stage.clientWidth/2048,stage.clientHeight/1152);view.scale=minScale*remembered.zoom;view.x=stage.clientWidth/2-remembered.cx*view.scale;view.y=stage.clientHeight/2-remembered.cy*view.scale;apply();lastSize={width:stage.clientWidth,height:stage.clientHeight};
+        // Restore content height before the browser clamps the requested scroll.
+        const chapters=detail.querySelector('.map-chapters');if(chapters)chapters.open=!!remembered.chapters;
+        panel.scrollTop=remembered.scroll;restoring=false;
+      });
     }
     on(window,'pagehide',remember);
     cleanup=()=>{if(disposed)return;disposed=true;remember();cancelAnimationFrame(restoreFrame);controller.abort();observer.disconnect();};
