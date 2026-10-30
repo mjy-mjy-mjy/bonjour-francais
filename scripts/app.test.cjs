@@ -6,9 +6,10 @@ const vm = require('node:vm');
 const root = path.join(__dirname, '..');
 const snapshot = JSON.parse(fs.readFileSync(path.join(root, 'data/draws.json'), 'utf8'));
 
-function app(saved, hash = '#route', theme = null) {
+function app(saved, hash = '#route', theme = null, reading = null) {
   const elements = {};
-  const storage = {value: saved || null, theme};
+  const storage = {value: saved || null, theme, reading};
+  const frames=new Map();let frameId=0;
   function element(id) {
     return elements[id] ||= {innerHTML: '', value: '', textContent: '', listeners: {}, attributes: {},
       classList: {add() {}, remove() {}},
@@ -23,6 +24,8 @@ function app(saved, hash = '#route', theme = null) {
     document: {documentElement: {dataset: {}}, getElementById: element, querySelector: () => element('skip'), createElement: () => ({click() {}})},
     localStorage: {getItem: key => key === 'bonjour-francais-theme-v1' ? storage.theme : storage.value,
       setItem: (key, value) => {if(key === 'bonjour-francais-theme-v1') {if(storage.failTheme)throw Error('theme storage unavailable');storage.theme = value;}else {if(storage.failSave)throw Error('progress storage unavailable');storage.value = value;}}},
+    sessionStorage:{getItem:()=>storage.reading,setItem:(_,v)=>{storage.reading=v;}},
+    requestAnimationFrame:fn=>{frames.set(++frameId,fn);return frameId;},cancelAnimationFrame:id=>frames.delete(id),
     setTimeout: () => 1, clearTimeout() {},
     fetch: async () => ({ok: true, json: async () => snapshot}),
     FormData: class {constructor(form) {this.form = form;} get() {return this.form.answer;}},
@@ -37,7 +40,7 @@ function app(saved, hash = '#route', theme = null) {
   vm.runInContext(fs.readFileSync(path.join(root, 'course.js'), 'utf8'), context);
   vm.runInContext(fs.readFileSync(path.join(root, 'lesson14.js'), 'utf8'), context);
   vm.runInContext(fs.readFileSync(path.join(root, 'app.js'), 'utf8'), context);
-  return {context, elements, storage, main: element('page-content')};
+  return {context, elements, storage, main: element('page-content'),flush(){while(frames.size){const [id,fn]=frames.entries().next().value;frames.delete(id);fn();}}};
 }
 
 test('every learning page renders; invalid lesson numbers are rejected', () => {
@@ -901,4 +904,24 @@ test('a lesson offers the saved map return even from the world atlas or without 
 
 test('course reading returns to the saved review list with an explicit label',()=>{
  const a=app(null,'#lesson/21');a.context.KNOWLEDGE_MAP={unmount(){},resumeHref:()=> '#map/A1/6',hasVisited:()=>true,resumeLabel:()=> '返回知识复习'};vm.runInContext('render()',a.context);assert.ok(a.main.innerHTML.includes('href="#map/A1/6">↩ 返回知识复习'));
+});
+
+
+test('lesson answers and reading position survive navigation and reload in a separate session cache',()=>{
+ const a=app(null,'#lesson/21/practice'),fold={open:true};a.main.querySelectorAll=()=>[fold];a.context.scrollY=7500;
+ a.context.events.pagehide();assert.equal(a.storage.value&&JSON.parse(a.storage.value).skillMastery['g-coi-imperative'],undefined);
+ a.context.location.hash='#route';a.context.events.hashchange({oldURL:'https://example.test/#lesson/21/practice'});
+ a.context.location.hash='#lesson/21/practice';fold.open=false;let restored=0;a.context.scrollTo=(_,y)=>{restored=y;};
+ a.context.events.hashchange({oldURL:'https://example.test/#route'});a.flush();assert.equal(fold.open,true);assert.equal(restored,7500);
+ const b=app(a.storage.value,'#lesson/21/practice',null,a.storage.reading),other={open:false};b.main.querySelectorAll=()=>[other];let top=0;b.context.scrollTo=(_,y)=>{top=y;};
+ b.context.restoreReadingView();b.flush();assert.equal(other.open,true);assert.equal(top,7500);
+ assert.equal(JSON.parse(a.storage.reading).views[0][0],'#lesson/21/practice');assert.ok(!Object.hasOwn(JSON.parse(a.storage.value),'readingViews'));
+});
+
+test('reading cache ignores malformed entries and a pending restore cannot scroll a different page',()=>{
+ for(const raw of ['{',JSON.stringify({views:[['javascript:bad',{scroll:100,expanded:[0]}],['#lesson/21/practice',{scroll:-1,expanded:[0]}]]})]){
+  const a=app(null,'#lesson/21/practice',null,raw);assert.doesNotThrow(()=>a.flush());
+ }
+ const cache=JSON.stringify({views:[['#lesson/21/practice',{scroll:7500,expanded:[0]}]]});const a=app(null,'#lesson/21/practice',null,cache);let top=0;a.context.scrollTo=(_,y)=>top=y;
+ a.context.location.hash='#route';a.context.events.hashchange({oldURL:'https://example.test/#lesson/21/practice'});a.flush();assert.equal(top,0);
 });

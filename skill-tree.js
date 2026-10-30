@@ -300,8 +300,9 @@
       if(levelButton&&current.node){
         const level=Number(levelButton.dataset.stLevel);
         if(adapter.setSkill(current.node.id,{level})){
-          const detailScroll=panel.scrollTop,stageScroll=stage.scrollTop;
+          const detailScroll=panel.scrollTop,stageScroll=stage.scrollTop,expanded=[...body.querySelectorAll('details')].map(d=>d.open);
           draw();board.querySelector('.is-selected')?.classList.add('just-updated');openNode(current.node,false);
+          body.querySelectorAll('details').forEach((d,i)=>d.open=!!expanded[i]);
           panel.scrollTop=detailScroll;stage.scrollTop=stageScroll;
           body.querySelector(`[data-st-level="${level}"]`).focus({preventScroll:true});announce('技能状态已保存：'+states[level]);
         }else announce('记录未能保存，请导出备份。');return;
@@ -317,7 +318,7 @@
     on(window,'pagehide',remember);
     on(root.querySelector('#st-review'),'change',e=>location.hash=linkTo(current.stage,current.branch,'',{mode:'list',review:Object.hasOwn(reviewLabels,e.target.value)?e.target.value:'all'}));
     for(const field of ['unit','lesson'])on(root.querySelector('#st-'+field),'change',e=>{const value=bounded(e.target.value,field==='unit'?9:36);location.hash=linkTo(current.stage,current.branch,'',{mode:'list',[field]:value,...(field==='unit'?{lesson:0}:{})});});
-    on(root.querySelector('#st-branch'),'change',e=>location.hash=linkTo(current.stage==='all'&&e.target.value!=='all'?'A1':current.stage,e.target.value,'',{allGroups:false}));
+    on(root.querySelector('#st-branch'),'change',e=>location.hash=linkTo(current.stage==='all'&&e.target.value!=='all'?'A1':current.stage,e.target.value,'',{allGroups:false,query:current.query}));
     on(root.querySelector('#st-search'),'input',search);
     on(body,'input',e=>{if(e.target.id==='st-note'&&current.node){const ok=adapter.setSkill(current.node.id,{note:e.target.value});root.querySelector('#st-note-status').textContent=ok?'运用记录已保存':'未能保存，请先复制这段记录';}});
     on(stage,'wheel',e=>{if(!isCanvas())return;e.preventDefault();const r=stage.getBoundingClientRect();zoom(Math.exp(-e.deltaY*.0012),e.clientX-r.left,e.clientY-r.top);},{passive:false});

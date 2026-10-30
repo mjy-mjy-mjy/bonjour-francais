@@ -1,0 +1,195 @@
+{
+  "base": "http://127.0.0.1:8766/bonjour-francais/",
+  "browser": "154.0.8037.57",
+  "interactions": [
+    "Current/viewed/completed/pending lesson states; course and chapter writes remain independent of skills.",
+    "Lesson21 → combined atlas → skill criteria → original lecture/practice → expanded answer; back/forward/reload and return link restore filters, selection and reading position.",
+    "Atlas course/knowledge modes, course location/return, empty result and clear-all filters.",
+    "Branch changes preserve keyword, unit, lesson and self-evaluation filter.",
+    "Existing shared negation text stays expanded with deep scroll after self-evaluation and reload; closing retains lesson list.",
+    "24h threshold with isolated virtual clock; reviewed skill leaves due list, statistics/filter update and review context persists."
+  ],
+  "viewports": [
+    {
+      "label": "1280",
+      "css": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 906,
+        "y": 128.375,
+        "width": 360,
+        "height": 496.125
+      },
+      "visibleLabels": 3
+    },
+    {
+      "label": "1366",
+      "css": [
+        1366,
+        768
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 983.1875,
+        "y": 130.5625,
+        "width": 368.8125,
+        "height": 541.9375
+      },
+      "visibleLabels": 4
+    },
+    {
+      "label": "2k-200-effective",
+      "css": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 906,
+        "y": 128.375,
+        "width": 360,
+        "height": 496.125
+      },
+      "visibleLabels": 3
+    },
+    {
+      "label": "2k-150-effective",
+      "css": [
+        1707,
+        960
+      ],
+      "deviceScaleFactor": 1.5,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 1232.125,
+        "y": 133.390625,
+        "width": 460.875,
+        "height": 731.109375
+      },
+      "visibleLabels": 5
+    },
+    {
+      "label": "2k-125-effective",
+      "css": [
+        2048,
+        1152
+      ],
+      "deviceScaleFactor": 1.25,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 1481.046875,
+        "y": 133.390625,
+        "width": 552.953125,
+        "height": 923.109375
+      },
+      "visibleLabels": 5
+    },
+    {
+      "label": "2k",
+      "css": [
+        2560,
+        1440
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 1946,
+        "y": 133.390625,
+        "width": 600,
+        "height": 1211.109375
+      },
+      "visibleLabels": 5
+    },
+    {
+      "label": "4k-125-effective",
+      "css": [
+        3072,
+        1728
+      ],
+      "deviceScaleFactor": 1.25,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 2458,
+        "y": 133.390625,
+        "width": 600,
+        "height": 1499.109375
+      },
+      "visibleLabels": 5
+    },
+    {
+      "label": "4k-150-effective",
+      "css": [
+        2560,
+        1440
+      ],
+      "deviceScaleFactor": 1.5,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 1946,
+        "y": 133.390625,
+        "width": 600,
+        "height": 1211.109375
+      },
+      "visibleLabels": 5
+    },
+    {
+      "label": "4k-200-effective",
+      "css": [
+        1920,
+        1080
+      ],
+      "deviceScaleFactor": 2,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 1387.609375,
+        "y": 133.390625,
+        "width": 518.390625,
+        "height": 851.109375
+      },
+      "visibleLabels": 5
+    },
+    {
+      "label": "4k",
+      "css": [
+        3840,
+        2160
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 3226,
+        "y": 133.390625,
+        "width": 600,
+        "height": 1931.109375
+      },
+      "visibleLabels": 5
+    },
+    {
+      "label": "mobile-smoke",
+      "css": [
+        390,
+        844
+      ],
+      "deviceScaleFactor": 1,
+      "browserZoom": "100%",
+      "mapDetail": {
+        "x": 10,
+        "y": 496.859375,
+        "width": 370,
+        "height": 283.640625
+      },
+      "visibleLabels": 1
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Headless Chromium; browser zoom 100%.",
+    "CSS viewport and deviceScaleFactor are emulated independently; no real OS scaling or mobile hardware."
+  ]
+}

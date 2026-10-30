@@ -11,3 +11,6 @@
 收尾自审修正[7ab4304](https://github.com/mjy-mjy-mjy/bonjour-francais/commit/7ab430430dfbfbd01fec66f19d875d7bd342cfd8)：返回单元时重绘清除旧课选择；标签样式覆盖旧的低缩放隐藏规则。131项Node再次通过，[最终Pages工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41013982928)完成且success。未经真实视觉验收，不将路线样板推广至其他单元。
 
 提交[6091bb8](https://github.com/mjy-mjy-mjy/bonjour-francais/commit/6091bb822dbbbe7dc567404a173d189127f908f9)已推送并核对，[Pages工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41013293203)完成且success。线上页面效果／产物哈希未验。
+
+
+2026-10-30补验：[ACCEPT-01](ACCEPT-01.md)用第21课完成隔离Chromium交互与桌面有效视口检查，修复标签／复习上下文及阅读恢复问题；详见该任务的实际结果和限制。真实系统缩放与用户本机浏览器仍未验。

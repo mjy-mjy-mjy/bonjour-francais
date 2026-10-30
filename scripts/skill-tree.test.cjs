@@ -156,3 +156,18 @@ test('expanded shared text is restored before applying deep detail scroll',()=>{
  const a=mountedTree(null,'#skills/A1/grammar/g-articles');const fold={open:true};a.mount();a.flush();a.el('#st-detail-body').querySelectorAll=()=>[fold];a.el('#st-detail').scrollTop=900;a.c.SKILL_TREE.unmount();
  const b=mountedTree(a.storage.value,a.c.location.hash),restored={open:false};b.el('#st-detail-body').querySelectorAll=()=>[restored];let scroll=0;Object.defineProperty(b.el('#st-detail'),'scrollTop',{get:()=>scroll,set:v=>scroll=Math.min(v,restored.open?2000:200)});b.mount();b.flush();assert.equal(restored.open,true);assert.equal(scroll,900);
 });
+
+test('changing branch preserves keyword, course range and review status as combined filters',()=>{
+ const a=mountedTree(null,'#skills/all/all?view=list&review=unrecorded&unit=6&lesson=21&q='+encodeURIComponent('命令式'));a.mount();a.flush();
+ a.fire('#st-branch','change',{target:{value:'grammar'}});const r=a.c.SKILL_TREE.route(a.c.location.hash);
+ assert.equal(r.query,'命令式');assert.equal(r.branch,'grammar');assert.equal(r.unit,6);assert.equal(r.lesson,21);assert.equal(r.review,'unrecorded');
+ assert.equal(a.c.SKILL_TREE.scopedNodes(r).length,2);
+});
+
+test('self-evaluation preserves expanded shared text before restoring deep reading position',()=>{
+ const a=mountedTree(null,'#skills/A1/grammar/g-negative');a.mount();a.flush();const fold={open:true},body=a.el('#st-detail-body');body.querySelectorAll=()=>[fold];
+ let html=body.innerHTML;Object.defineProperty(body,'innerHTML',{get:()=>html,set:v=>{html=v;fold.open=false;}});
+ let scroll=0;Object.defineProperty(a.el('#st-detail'),'scrollTop',{get:()=>scroll,set:v=>scroll=Math.min(v,fold.open?3000:300)});a.el('#st-detail').scrollTop=1800;
+ a.fire('root','click',{target:{closest:q=>q==='[data-st-level]'?{dataset:{stLevel:'1'}}:null}});
+ assert.equal(a.state.skillMastery['g-negative'].level,1);assert.equal(fold.open,true);assert.equal(scroll,1800);
+});

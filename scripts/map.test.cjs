@@ -189,3 +189,19 @@ test('review filters and scope survive skill self-evaluation round trip and refr
  a.state.skillMastery['g-coi-imperative']={level:3,masteredAt:'2020-01-01T00:00:00Z',reviewedAt:'2026-10-30T00:00:00Z'};a.mount('A1','6');a.flush();assert.equal(a.el('#map-review-status').value,'due');assert.equal(a.el('#map-atlas-lesson').value,'21');assert.equal(a.el('#map-atlas-count').textContent,'0 个知识点 · 第 21 课');assert.equal(a.el('#map-panel').scrollTop,250);a.c.KNOWLEDGE_MAP.unmount();
  const b=mounted(a.storage.value);b.mount('A1','6');b.flush();assert.equal(b.el('#map-review-status').value,'due');assert.match(b.el('#map-detail').innerHTML,/知识复习/);b.click('atlas-clear');assert.equal(b.el('#map-review-status').value,'all');assert.equal(b.el('#map-atlas-lesson').value,'0');
 });
+
+test('review has no atlas mode exit and ignores stale mode actions without losing filters',()=>{
+ const a=mounted();a.mount('A1','6');a.click('review-lesson:21');a.el('#map-review-status').value='unrecorded';a.fire('root','change',{target:{id:'map-review-status',value:'unrecorded',matches:()=>false}});
+ assert.doesNotMatch(a.el('#map-detail').innerHTML,/aria-label="图鉴浏览方式"/);
+ a.click('atlas-mode:knowledge');assert.equal(a.el('#map-review-status').value,'unrecorded');assert.match(a.el('#map-detail').innerHTML,/知识复习/);assert.equal(a.el('#map-atlas-lesson').value,'21');
+ a.c.KNOWLEDGE_MAP.unmount();const b=mounted(a.storage.value);b.mount('A1','6');b.flush();assert.equal(b.el('#map-review-status').value,'unrecorded');
+});
+
+test('selected and current course labels outrank the unit label when their boxes collide',()=>{
+ const a=mounted();a.mount('A1','6');a.click('lesson:21');
+ const html=a.el('#map-markers').innerHTML,priority=id=>Number(html.match(new RegExp('data-map="'+id+'"[^>]*data-priority="(\\d+)"'))[1]);
+ assert.ok(priority('lesson:21')>priority('unit:6'));
+ const visible=a.c.KNOWLEDGE_MAP.labelVisibility([{id:'town',x:100,y:100,priority:priority('unit:6')},{id:'course',x:100,y:100,priority:priority('lesson:21')}],1,500,500);
+ assert.equal(visible.has('course'),true);assert.equal(visible.has('town'),false);
+ a.click('lesson:22');const updated=a.el('#map-markers').innerHTML,active=Number(updated.match(/data-map="lesson:21"[^>]*data-priority="(\d+)"/)[1]);assert.ok(active>priority('unit:6'));
+});

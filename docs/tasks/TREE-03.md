@@ -7,3 +7,6 @@
 共享正文折叠展开状态在设置详情scrollTop之前恢复。独立导航缓存不进入学习备份，不改原个人记录协议，99条建议基础与67个技能ID保持。构建、内容、10份JS语法、138项Node（应用91／地图21／技能20／动词6）及4项Python通过；覆盖推荐依据、时间边界、真实练习出处、实际挂载自评／关闭／刷新和展开后的滚动截断回归。浏览器视觉、2K／4K实际CSS视口及系统缩放未运行。
 
 提交[19ca77d](https://github.com/mjy-mjy-mjy/bonjour-francais/commit/19ca77d95de91a7ab7c2c7eb8656cd7a534aeadc)已推送main并核对本地树一致；[Pages部署](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41015522721)完成且success。线上产物哈希及页面视觉未核验。
+
+
+2026-10-30补验：[ACCEPT-01](ACCEPT-01.md)用第21课完成隔离Chromium交互与桌面有效视口检查，修复标签／复习上下文及阅读恢复问题；详见该任务的实际结果和限制。真实系统缩放与用户本机浏览器仍未验。
