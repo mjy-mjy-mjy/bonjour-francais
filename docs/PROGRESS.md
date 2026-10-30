@@ -6,7 +6,7 @@
 
 ## 当前目标与范围
 
-[ACCEPT-01](tasks/ACCEPT-01.md)第21课真实使用验收与收敛：5项P2已修复，144项Node＋4项Python及6组实际Chromium交互／11组有效视口通过；[截图与视口证据](visuals/ACCEPT-01/README.md)。本窗口work，基线a979031，提交／部署待核对。真实系统缩放与用户本机浏览器未验；github.io线上读取被当前代理403阻止。不扩展共享正文或新增模块。
+[ACCEPT-01](tasks/ACCEPT-01.md)第21课真实使用验收与收敛：5项P2已修复，144项Node＋4项Python及6组实际Chromium交互／11组有效视口通过；[截图与视口证据](visuals/ACCEPT-01/README.md)。本窗口work，基线a979031；修复1cd9b93已推送main，[Pages工作流41018737811](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41018737811)检查、上传及部署success。真实系统缩放与用户本机浏览器未验；github.io线上读取被当前代理403阻止。不扩展共享正文或新增模块。
 
 知识技能树三轮已实现并分别验证：[TREE-01](tasks/TREE-01.md)定位／恢复（133项Node）、[TREE-02](tasks/TREE-02.md)首批共享语法与关系导航（135项Node＋4项Python）、[TREE-03](tasks/TREE-03.md)可解释推荐／复习（138项Node＋4项Python）。语法整理按francais-review-unit执行，明确仅第1—16课的3个主题、6个原章；不是整个K2完成。三轮独立提交e1d43f8／4402552／19ca77d，均已核对main与Pages部署success；链接见任务卡。当轮无浏览器工具；本轮第21课浏览器补验见ACCEPT-01，真实系统缩放仍未验。
 
@@ -55,7 +55,7 @@
 
 | 顺序／ID | 任务 | 当前状态 | 依赖／后续动作 |
 | --- | --- | --- | --- |
-| ACCEPT-01 | 第21课真实使用验收与收敛 | 本地修复与验收完成，发布待核对 | [任务及限制](tasks/ACCEPT-01.md)；不硬排下一功能轮次 |
+| ACCEPT-01 | 第21课真实使用验收与收敛 | 完成（修复、浏览器验收及Pages部署） | [任务及限制](tasks/ACCEPT-01.md)；不硬排下一功能轮次 |
 | DOC-02 | 管理文档整理 | 完成；见Git历史与任务记录 | [任务记录](tasks/DOC-02.md) |
 | SKILL-01 | 补课与单元整理Skill | 完成（文件与静态校验） | [调用及限制](tasks/SKILL-01.md)；未执行实际补课或整理 |
 | 1 · VIS-01 | 动词与时态视觉样板 | 完成（样板与本地验收） | [范围与验收](tasks/VIS-01.md)；历史样板验收通过；现已由VIS-02推广 |
