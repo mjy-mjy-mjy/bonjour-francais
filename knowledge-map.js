@@ -5,7 +5,7 @@
     {id:'B1',name:'连贯表达',x:44,y:22,description:'后续阶段：连续叙述、解释理由、协商解决问题。课程待扩充。'},
     {id:'B2',name:'深入讨论',x:82,y:17,description:'后续阶段：比较观点、论证与回应。课程待扩充；等级以测评为准。'}];
   const towns=[[14,64],[34,51],[42,74],[32,37],[48,61],[20,34],[12,47],[24,76],[47,44]];
-  const skillNames={grammar:'语法',vocabulary:'词汇',pronunciation:'语音',reading:'阅读',speaking:'口语',writing:'写作'};
+  const skillNames={grammar:'语法',vocabulary:'词汇',pronunciation:'语音',listening:'听力',reading:'阅读',speaking:'口语',writing:'写作'};
   const states=['未记录','接触过','能回忆','能运用','已复测'];
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let cleanup=()=>{},lastMapHash='',pendingLesson=null;
@@ -38,6 +38,39 @@
       href:'#lesson/'+c.number+'/'+s.id
     })));
   }
+  const normalizeAtlas=value=>String(value??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[’‘]/g,"'").toLowerCase();
+  function atlasModel(courses){
+    const linked=new Map();
+    const skills=(window.FRENCH_SKILLS?.nodes||[]).filter(n=>!n.planned).map(n=>{
+      const seen=new Set(),refs=[];
+      for(const ref of n.refs){
+        const course=courses.get(ref.lesson),section=course?.sections.find(s=>s.id===ref.section),id=ref.lesson+':'+ref.section;
+        if(!section||seen.has(id))continue;
+        seen.add(id);
+        refs.push({id,lesson:ref.lesson,title:section.title,courseTitle:course.title,translation:course.translation,href:'#lesson/'+ref.lesson+'/'+ref.section});
+      }
+      const skill={id:n.id,title:n.title,goal:n.goal,criteria:n.criteria,branch:n.branch,href:'#skills/'+n.stage+'/'+n.branch+'/'+n.id,refs};
+      for(const ref of refs){if(!linked.has(ref.id))linked.set(ref.id,[]);linked.get(ref.id).push(skill);}
+      return skill;
+    });
+    const chapters=knowledgeEntries(courses).map(e=>({...e,courseTitle:courses.get(e.lesson).title,translation:courses.get(e.lesson).translation,skills:linked.get(e.id)||[]}));
+    return {skills,chapters};
+  }
+  function atlasResults(atlas,{mode='knowledge',query='',category=''}={}){
+    const term=normalizeAtlas(query.trim());
+    if(mode==='course')return atlas.chapters.filter(e=>(!category||e.categories.includes(category))&&(!term||normalizeAtlas([e.title,e.courseTitle,e.translation,'第'+e.lesson+'课',...e.skills.map(n=>n.title)].join(' ')).includes(term)));
+    return atlas.skills.filter(n=>(!category||n.branch===category)&&(!term||normalizeAtlas([n.title,n.goal,...(n.criteria||[]),skillNames[n.branch],...n.refs.map(r=>['第'+r.lesson+'课',r.courseTitle,r.translation,r.title].join(' '))].join(' ')).includes(term)));
+  }
+  function atlasResultsHtml(found,mode,state){
+    if(!found.length)return '<p class="map-muted">没有匹配结果，试试其他关键词或分类。</p><button class="map-atlas-clear" data-map="atlas-clear">清除筛选</button>';
+    if(mode==='knowledge'){
+      const labels=window.SKILL_TREE?.states||['未学习','已接触','能独立运用','复测巩固'];
+      return found.map(n=>`<article class="map-atlas-card"><h3><a href="${esc(n.href)}">${esc(n.title)}</a></h3><p class="map-muted">${esc(skillNames[n.branch])} · 技能自评：${esc(labels[state.skillMastery?.[n.id]?.level||0])}</p><p>${esc(n.goal)}</p><p class="map-atlas-source-label">课程出处</p><ul class="map-atlas-refs">${n.refs.map(r=>`<li><a href="${esc(r.href)}">第 ${r.lesson} 课 · ${esc(r.courseTitle)}<span>${esc(r.title)}</span></a></li>`).join('')}</ul>${n.refs.length?'':'<p class="map-muted">章节出处待补充。</p>'}</article>`).join('');
+    }
+    const groups=new Map();
+    for(const e of found){if(!groups.has(e.lesson))groups.set(e.lesson,[]);groups.get(e.lesson).push(e);}
+    return [...groups].map(([number,chapters])=>`<section class="map-atlas-course"><h3><a href="#lesson/${number}">第 ${number} 课 · ${esc(chapters[0].courseTitle)}</a></h3>${chapters.map(e=>`<div class="map-atlas-chapter"><a class="map-atlas-item" href="${esc(e.href)}"><strong>${esc(e.title)}</strong><small>章节自评：${esc(states[state.knowledgeMastery?.[e.id]?.level||0])}</small></a>${e.skills.length?`<div class="map-atlas-links"><span>关联知识</span>${e.skills.map(n=>`<a href="${esc(n.href)}">${esc(n.title)}</a>`).join('')}</div>`:'<p class="map-muted">关联知识待整理</p>'}</div>`).join('')}</section>`).join('');
+  }
   function unitsModel(units,catalog,courses,state){return units.map((name,i)=>({number:i+1,name,point:towns[i],lessons:Array.from({length:4},(_,j)=>{
     const n=i*4+j+1,meta=catalog.find(c=>c.number===n);
     return {number:n,title:meta?.title||'教材学习记录',translation:meta?.translation||'详细讲义待补充',core:meta?.core||[],pages:meta?.pages||'',available:courses.has(n),completed:state.completed.includes(n)};
@@ -61,13 +94,14 @@
     const stage=root.querySelector('#map-stage'),world=root.querySelector('#map-world'),markers=root.querySelector('#map-markers'),panel=root.querySelector('#map-panel'),detail=root.querySelector('#map-detail');
     let model=unitsModel(adapter.units,adapter.catalog,adapter.courses,adapter.state());
     const entries=knowledgeEntries(adapter.courses);
+    const atlas=atlasModel(adapter.courses);
     const current=adapter.currentLesson();
     const unit=unitNumber(unitArg,unitNumber(Math.ceil(current/4)));
     const unitView=level==='A1'&&unitArg!==undefined;
     const region=regions.find(r=>r.id===level);
     const key=level==='A1'?'#map/A1'+(unitView?'/'+unit:''):region?'#map/'+region.id:'#map';
     lastMapHash=key;
-    let panelKind='none',selectedLesson=0,query='',category='',disposed=false,restoreFrame=0,restoring=false;
+    let panelKind='none',selectedLesson=0,query='',category='',atlasMode='knowledge',disposed=false,restoreFrame=0,restoring=false;
     const remembered=memory.get(key);
     let view={x:0,y:0,scale:1},minScale=.2,activePointers=new Map(),pinch=null,returnFocus=null,focusPoint=[50,50],focusZoom=1,lastSize=null;
     const apply=()=>{view=constrainView(view,stage.clientWidth,stage.clientHeight);root.classList.toggle('map-labels-compact',view.scale<.7);world.style.transform=`translate(${view.x}px,${view.y}px) scale(${view.scale})`;world.style.setProperty('--pin-scale',1/view.scale);};
@@ -96,8 +130,18 @@
     function openUnit(n){panelKind='unit';selectedLesson=0;const u=model[n-1];open(title('A1 / UNITÉ '+n,u.name)+`<p>第 ${(n-1)*4+1}—${n*4} 课 · ${u.lessons.filter(l=>l.completed).length}/4 已标记学习</p><div class="map-list">${u.lessons.map(l=>`<button data-map="lesson:${l.number}"><span>${String(l.number).padStart(2,'0')}</span><div><strong lang="fr">${esc(l.title)}</strong><small>${esc(l.translation)} · ${l.completed?'已学习':'待学习'} · ${l.available?'详细讲义':'教材笔记'}</small></div></button>`).join('')}</div>`);}
     function openLesson(n){if(!Number.isInteger(n)||n<1||n>36)return;selectedLesson=n;panelKind='lesson';const l=model[Math.ceil(n/4)-1].lessons.find(l=>l.number===n);open(lessonDetail(l,entries.filter(e=>e.lesson===n),adapter.state()));draw();}
     function openList(){panelKind='list';open(title('A1 / 教材目录','9 个单元 · 36 课')+`<div class="map-list">${model.map(u=>`<button data-map="unit:${u.number}"><span>${u.number}</span><div><strong>${esc(u.name)}</strong><small>第 ${(u.number-1)*4+1}—${u.number*4} 课</small></div></button>`).join('')}</div>`);}
-    function openAtlas(){panelKind='atlas';open(title('CONNAISSANCES / 跨课检索','知识图鉴')+`<label>查找知识<input id="map-atlas-search" type="search" placeholder="例如：过去时、动词、冠词"></label><label>分类<select id="map-atlas-category"><option value="">全部知识</option>${Object.entries(skillNames).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></label><p class="map-muted">汇集现有详细讲义；同一知识记录在课程与图鉴中共用。</p><div id="map-atlas-results"></div>`);root.querySelector('#map-atlas-search').value=query;root.querySelector('#map-atlas-category').value=category;filterAtlas();}
-    function filterAtlas(){const input=root.querySelector('#map-atlas-search');if(!input)return;query=input.value.slice(0,200);category=root.querySelector('#map-atlas-category').value;const term=query.trim().toLowerCase();const found=entries.filter(e=>(!category||e.categories.includes(category))&&(!term||(e.title+' '+e.lesson).toLowerCase().includes(term)));root.querySelector('#map-atlas-results').innerHTML=`<p>${found.length} 项知识</p>`+found.map(e=>`<a class="map-atlas-item" href="${e.href}"><strong>${esc(e.title)}</strong><small>第 ${e.lesson} 课 · ${states[Number(adapter.state().knowledgeMastery?.[e.id]?.level||0)]}</small></a>`).join('');}
+    function openAtlas(){
+      panelKind='atlas';if(!Object.hasOwn(skillNames,category))category='';
+      open(title('CONNAISSANCES / 跨课检索','知识图鉴')+`<nav class="map-atlas-modes" aria-label="图鉴浏览方式"><button data-map="atlas-mode:knowledge" aria-pressed="${atlasMode==='knowledge'}">按知识</button><button data-map="atlas-mode:course" aria-pressed="${atlasMode==='course'}">按课程</button></nav><label>搜索知识、课程或章节<input id="map-atlas-search" type="search" maxlength="200" placeholder="例如：命令式、21、Téléphone"></label><label>分类<select id="map-atlas-category"><option value="">全部分类</option>${Object.entries(skillNames).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></label><p class="map-muted">${atlasMode==='knowledge'?'已收录 '+atlas.skills.length+' 个知识点，点击名称查看技能详情及自评标准。':'按课程保留现有讲义章节，关联知识逐步整理。'}章节自评与技能自评分别记录。</p><p id="map-atlas-count" role="status" aria-live="polite"></p><div id="map-atlas-results"></div>`);
+      root.querySelector('#map-atlas-search').value=query;root.querySelector('#map-atlas-category').value=category;filterAtlas();
+    }
+    function filterAtlas(){
+      const input=root.querySelector('#map-atlas-search');if(!input)return;
+      query=input.value.slice(0,200);category=root.querySelector('#map-atlas-category').value;
+      const found=atlasResults(atlas,{mode:atlasMode,query,category});
+      root.querySelector('#map-atlas-count').textContent=atlasMode==='knowledge'?found.length+' 个知识点':new Set(found.map(e=>e.lesson)).size+' 课 · '+found.length+' 个章节';
+      root.querySelector('#map-atlas-results').innerHTML=atlasResultsHtml(found,atlasMode,adapter.state());panel.scrollTop=0;
+    }
     on(root,'click',async e=>{const button=e.target.closest('[data-map]');if(!button)return;const [action,id]=button.dataset.map.split(':');
       if(action==='close')close();
       if(action==='region')location.hash='#map/'+id;
@@ -119,6 +163,8 @@
       }
       if(action==='current'){const currentUnit=Math.ceil(adapter.currentLesson()/4);if(unitView&&unit===currentUnit){center(...model[currentUnit-1].point,2);openLesson(adapter.currentLesson());}else {pendingLesson=adapter.currentLesson();location.hash='#map/A1/'+currentUnit;}}
       if(action==='atlas')openAtlas();
+      if(action==='atlas-mode'&&['knowledge','course'].includes(id)){atlasMode=id;openAtlas();root.querySelector('[data-map="atlas-mode:'+id+'"]').focus({preventScroll:true});}
+      if(action==='atlas-clear'){root.querySelector('#map-atlas-search').value='';root.querySelector('#map-atlas-category').value='';filterAtlas();root.querySelector('#map-atlas-search').focus({preventScroll:true});}
       if(action==='list')openList();
       if(action==='fullscreen'){try{if(document.fullscreenElement)await document.exitFullscreen();else await root.requestFullscreen();}catch{root.querySelector('#map-status').textContent='当前浏览器未允许系统全屏，地图已占满页面。';}}
     });
@@ -145,13 +191,15 @@
     function remember(){
       if(restoring)return;
       const size=lastSize||{width:stage.clientWidth,height:stage.clientHeight};
-      const value={cx:(size.width/2-view.x)/view.scale,cy:(size.height/2-view.y)/view.scale,zoom:view.scale/minScale,panel:panel.hidden?'none':panelKind,lesson:selectedLesson,scroll:panel.scrollTop,query,category,chapters:!!detail.querySelector('.map-chapters')?.open};
+      const value={cx:(size.width/2-view.x)/view.scale,cy:(size.height/2-view.y)/view.scale,zoom:view.scale/minScale,panel:panel.hidden?'none':panelKind,lesson:selectedLesson,scroll:panel.scrollTop,query,category,atlasMode,chapters:!!detail.querySelector('.map-chapters')?.open};
       memory.delete(key);memory.set(key,value);while(memory.size>20)memory.delete(memory.keys().next().value);
       try{window.sessionStorage?.setItem(CACHE_KEY,JSON.stringify({last:key,views:[...memory]}));}catch{}
     }
     if(pendingLesson&&unitView&&Math.ceil(pendingLesson/4)===unit){openLesson(pendingLesson);pendingLesson=null;}
     else if(remembered){
       query=remembered.query;category=remembered.category;
+      // Old atlas snapshots held chapter results; keep their filters in that view.
+      atlasMode=remembered.atlasMode==='course'||(remembered.atlasMode===undefined&&remembered.panel==='atlas')?'course':'knowledge';
       if(remembered.panel==='lesson'&&remembered.lesson&&(!unitView||Math.ceil(remembered.lesson/4)===unit))openLesson(remembered.lesson);
       else if(remembered.panel==='atlas')openAtlas();
       else if(remembered.panel==='list')openList();
@@ -167,5 +215,5 @@
     on(window,'pagehide',remember);
     cleanup=()=>{if(disposed)return;disposed=true;remember();cancelAnimationFrame(restoreFrame);controller.abort();observer.disconnect();};
   }
-  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,unitsModel,regions,states,constrainView,unitNumber,resumeHref,hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
+  window.KNOWLEDGE_MAP={render,mount,unmount:()=>cleanup(),knowledgeEntries,atlasModel,atlasResults,atlasResultsHtml,unitsModel,regions,states,constrainView,unitNumber,resumeHref,hasVisited:()=>!!lastMapHash,lessonDetail,lessonSkills};
 })();

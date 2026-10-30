@@ -108,3 +108,21 @@ body.map-active{overflow:hidden}
 .map-panel details{margin:18px 0;border-top:1px solid #b4986966;padding-top:14px}
 .map-panel summary{cursor:pointer;font-size:14px;font-weight:600;line-height:1.6}
 .map-panel .map-atlas-item:focus-visible{outline-offset:-3px}
+
+/* MAP-04: one semantic card with exact course sources, or the original chapter index. */
+.map-atlas-modes{display:flex;gap:6px;margin:16px 0}
+.map-atlas-modes button,.map-atlas-clear{border:1px solid #95631b;border-radius:3px;background:#fffaf0;padding:9px 12px;font-size:14px;min-height:44px}
+.map-atlas-modes button{flex:1}
+.map-atlas-modes button[aria-pressed="true"]{background:#805622;color:#fff7df;font-weight:bold}
+.map-atlas-card,.map-atlas-course{margin:18px 0;padding-top:4px;border-top:1px solid #b4986966;overflow-wrap:anywhere}
+.map-atlas-card h3,.map-atlas-course h3{margin:14px 0 8px;font-size:16px;line-height:1.6}
+.map-atlas-card p{margin:8px 0}
+.map-panel .map-atlas-source-label{font-size:12px;font-weight:bold;margin-top:14px}
+.map-panel .map-atlas-refs{list-style:none;padding:0;margin:0}
+.map-atlas-refs a{display:block;padding:8px 0;font-size:13px;line-height:1.6}
+.map-atlas-refs span{display:block;font-size:12px;color:#765e40}
+.map-atlas-chapter{padding-bottom:10px;border-bottom:1px solid #a7844545}
+.map-atlas-chapter .map-atlas-item{border:0;padding-bottom:6px}
+.map-atlas-links{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;font:12px/1.6 system-ui,sans-serif}
+.map-atlas-links>span{color:#765e40}
+.map-atlas-links a{padding:4px 6px;background:#f2e0b7;border-radius:3px}

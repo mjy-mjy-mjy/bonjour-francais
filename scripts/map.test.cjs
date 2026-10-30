@@ -4,7 +4,7 @@ const fs=require('node:fs');
 const vm=require('node:vm');
 const path=require('node:path');
 const root=path.join(__dirname,'..');
-function data(){const c=vm.createContext({});c.window=c;for(const file of ['content.js','course.js','lesson14.js','knowledge-map.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);const catalog=c.COURSE_LIBRARY.catalog;return {c,catalog,courses:new Map([...c.COURSE_LIBRARY.lessons,{...catalog.find(l=>l.number===14),...c.LESSON14_CONTENT}].map(l=>[l.number,l]))};}
+function data(){const c=vm.createContext({});c.window=c;for(const file of ['content.js','course.js','lesson14.js','skill-tree-data.js','knowledge-map.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);const catalog=c.COURSE_LIBRARY.catalog;return {c,catalog,courses:new Map([...c.COURSE_LIBRARY.lessons,{...catalog.find(l=>l.number===14),...c.LESSON14_CONTENT}].map(l=>[l.number,l]))};}
 test('map covers the real 9 units and all 36 lessons without treating missing content as available',()=>{
  const {c,catalog,courses}=data();const model=c.KNOWLEDGE_MAP.unitsModel(c.COURSE_CONTENT.units,catalog,courses,{completed:[1,14,36]});
  assert.equal(model.length,9);const lessons=model.flatMap(u=>u.lessons);assert.equal(lessons.length,36);assert.equal(new Set(lessons.map(l=>l.number)).size,36);
@@ -35,7 +35,7 @@ test('fractional, nonnumeric and out-of-range unit links use a valid fallback',(
 // Exercise mount/navigation with deterministic DOM events; these are not visual browser checks.
 function mounted(savedSession,storageFails=false){
  const elements=new Map(),frames=new Map(),storage={value:savedSession},handlers={};let nextFrame=0;
- function el(id){if(elements.has(id))return elements.get(id);const x={id,hidden:false,scrollTop:0,value:'',open:false,clientWidth:1200,clientHeight:700,innerHTML:'',style:{setProperty(){}},classList:{toggle(){}},focus(){},contains(){return false;},isConnected:true,
+ function el(id){if(elements.has(id))return elements.get(id);const x={id,hidden:false,scrollTop:0,value:'',open:false,clientWidth:1200,clientHeight:700,innerHTML:'',style:{setProperty(){}},classList:{toggle(){}},focus(){this.focused=true;},contains(){return false;},isConnected:true,
   addEventListener(t,fn,options={}){const wrapper=e=>{if(!options.signal?.aborted)fn(e);};(handlers[id+':'+t]??=[]).push(wrapper);},querySelector(q){if(q==='.map-chapters')return this.innerHTML.includes('map-chapters')?el('chapters'):null;return el(q);},getBoundingClientRect(){return {left:0,top:0};},setPointerCapture(){}};elements.set(id,x);return x;}
  const c=vm.createContext({console,AbortController,location:{hash:'#map'},document:{getElementById:()=>el('root'),activeElement:null},sessionStorage:{getItem:()=>{if(storageFails)throw Error('blocked');return storage.value;},setItem:(_,v)=>{if(storageFails)throw Error('blocked');storage.value=v;}},requestAnimationFrame:fn=>{frames.set(++nextFrame,fn);return nextFrame;},cancelAnimationFrame:id=>frames.delete(id),ResizeObserver:class{observe(){}disconnect(){}}});c.window=c;c.addEventListener=(...args)=>el('window').addEventListener(...args);
  for(const f of ['content.js','course.js','lesson14.js','skill-tree-data.js','knowledge-map.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),c);
@@ -91,4 +91,67 @@ test('full view resets cached world zoom and panels while ordinary returns prese
  a.mount('world');a.flush();a.click('zoom-in');a.click('atlas');a.c.KNOWLEDGE_MAP.unmount();
  const b=mounted(a.storage.value);b.mount('world');b.click('reset');b.flush();assert.equal(b.el('#map-world').style.transform,full,'Pending restore cannot undo a reset');assert.equal(b.el('#map-panel').hidden,true);
  b.c.KNOWLEDGE_MAP.unmount();const reload=mounted(b.storage.value);reload.mount('world');reload.flush();assert.equal(reload.el('#map-world').style.transform,full);assert.equal(reload.el('#map-panel').hidden,true);
+});
+
+test('atlas keeps every original chapter and uses only exact authored skill references',()=>{
+ const {c,courses}=data(),map=c.KNOWLEDGE_MAP,before=JSON.stringify(c.FRENCH_SKILLS),atlas=map.atlasModel(courses);
+ assert.equal(atlas.skills.length,67);assert.equal(new Set(atlas.skills.map(n=>n.id)).size,67);
+ assert.equal(atlas.skills.reduce((count,n)=>count+n.refs.length,0),174);
+ assert.deepEqual(Array.from(atlas.chapters,e=>e.id),Array.from(map.knowledgeEntries(courses),e=>e.id));
+ assert.equal(atlas.chapters.length,221);assert.ok(atlas.chapters.some(e=>!e.skills.length));
+ for(const n of atlas.skills){
+  const source=c.FRENCH_SKILLS.nodes.find(s=>s.id===n.id);assert.equal(source.planned,false);
+  for(const ref of n.refs){assert.ok(source.refs.some(r=>r.lesson===ref.lesson&&ref.id===r.lesson+':'+r.section));assert.ok(courses.get(ref.lesson).sections.some(s=>ref.href==='#lesson/'+ref.lesson+'/'+s.id));}
+ }
+ for(const e of atlas.chapters){const expected=c.FRENCH_SKILLS.nodes.filter(n=>!n.planned&&n.refs.some(r=>r.lesson===e.lesson&&r.section===e.section)).map(n=>n.id);assert.deepEqual(Array.from(e.skills,n=>n.id),Array.from(expected));}
+ assert.equal(JSON.stringify(c.FRENCH_SKILLS),before);
+});
+
+test('atlas searches knowledge, exact sources and course names with French accent normalization',()=>{
+ const {c,courses}=data(),map=c.KNOWLEDGE_MAP,atlas=map.atlasModel(courses),search=options=>map.atlasResults(atlas,options);
+ assert.ok(search({query:'命令式',category:'grammar'}).some(n=>n.id==='g-imperative'));
+ assert.ok(search({query:'telephone-moi'}).some(n=>n.id==='g-coi-imperative'));
+ for(const branch of c.FRENCH_SKILLS.branches){const found=search({category:branch.id});assert.ok(found.length,branch.id);assert.ok(found.every(n=>n.branch===branch.id));}
+ assert.ok(search({query:'C’est interdit'}).some(n=>n.id==='g-coi-imperative'));
+ const chapters=search({mode:'course',query:'第21课'});assert.ok(chapters.length);assert.ok(chapters.every(e=>e.lesson===21));
+ assert.ok(search({mode:'course',query:'命令式',category:'grammar'}).some(e=>e.id==='21:imperative'));
+ const unlinked=atlas.chapters.find(e=>!e.skills.length);assert.ok(search({mode:'course',query:unlinked.title}).some(e=>e.id===unlinked.id));
+ assert.equal(search({query:'no-result-xyz'}).length,0);
+});
+
+test('atlas renders separate self-evaluations and navigable sources without copying lesson bodies',()=>{
+ const {c,courses}=data(),map=c.KNOWLEDGE_MAP,atlas=map.atlasModel(courses),state={completed:[21],knowledgeMastery:{'21:coi':{level:4}},skillMastery:{'g-coi-imperative':{level:1}}},before=JSON.stringify(state);
+ const knowledge=map.atlasResultsHtml(atlas.skills.filter(n=>n.id==='g-coi-imperative'),'knowledge',state);
+ assert.match(knowledge,/技能自评：已接触/);assert.doesNotMatch(knowledge,/章节自评|已复测/);assert.match(knowledge,/href="#lesson\/21\/coi"/);assert.match(knowledge,/href="#skills\/A1\/grammar\/g-coi-imperative"/);
+ const chapter=map.atlasResultsHtml(atlas.chapters.filter(e=>e.id==='21:coi'),'course',state);
+ assert.match(chapter,/章节自评：已复测/);assert.match(chapter,/#skills\/A1\/grammar\/g-coi-imperative/);assert.equal(JSON.stringify(state),before);
+ const unsafe={...atlas.skills[0],title:'<script>bad</script>',goal:'<img onerror=bad>',refs:[]};assert.doesNotMatch(map.atlasResultsHtml([unsafe],'knowledge',state),/<script>|<img/);
+});
+
+test('both atlas modes preserve filtered results, scroll and map view on return and reload',()=>{
+ for(const mode of ['knowledge','course']){
+  const a=mounted(),before=JSON.stringify(a.state);a.mount('A1','6');a.click('atlas');a.click('atlas-mode:'+mode);
+  a.el('#map-atlas-search').value='命令式';a.el('#map-atlas-category').value='grammar';a.fire('root','input',{target:{id:'map-atlas-search'}});
+  assert.match(a.el('#map-atlas-results').innerHTML,/#lesson\/21\/imperative/);
+  a.el('#map-panel').scrollTop=700;a.click('zoom-in');const transform=a.el('#map-world').style.transform;a.c.KNOWLEDGE_MAP.unmount();
+  for(const b of [a,mounted(a.storage.value)]){
+   assert.equal(b.c.KNOWLEDGE_MAP.resumeHref(),'#map/A1/6');b.mount('A1','6');b.flush();
+   assert.ok(b.el('#map-detail').innerHTML.includes('data-map="atlas-mode:'+mode+'" aria-pressed="true"'));
+   assert.equal(b.el('#map-atlas-search').value,'命令式');assert.equal(b.el('#map-atlas-category').value,'grammar');assert.equal(b.el('#map-panel').scrollTop,700);assert.equal(b.el('#map-world').style.transform,transform);assert.match(b.el('#map-atlas-results').innerHTML,/#lesson\/21\/imperative/);assert.equal(JSON.stringify(b.state),before);
+  }
+ }
+});
+
+test('legacy chapter atlas caches keep their mode while invalid optional filters safely default',()=>{
+ const a=mounted();a.mount('world');a.click('atlas');a.el('#map-atlas-search').value='过去时';a.fire('root','input',{target:{id:'map-atlas-search'}});a.c.KNOWLEDGE_MAP.unmount();
+ const saved=JSON.parse(a.storage.value);delete saved.views[0][1].atlasMode;
+ const b=mounted(JSON.stringify(saved));b.mount('world');b.flush();assert.match(b.el('#map-detail').innerHTML,/atlas-mode:course" aria-pressed="true"/);assert.match(b.el('#map-atlas-count').textContent,/个章节/);assert.equal(b.el('#map-atlas-search').value,'过去时');
+ saved.views[0][1].atlasMode='bad';saved.views[0][1].category='unknown';const d=mounted(JSON.stringify(saved));d.mount('world');d.flush();assert.match(d.el('#map-detail').innerHTML,/atlas-mode:knowledge" aria-pressed="true"/);assert.equal(d.el('#map-atlas-category').value,'');
+});
+
+test('atlas mode switching retains query and category and empty results can be cleared',()=>{
+ const a=mounted();a.mount('world');a.click('atlas');assert.match(a.el('#map-detail').innerHTML,/atlas-mode:knowledge" aria-pressed="true"/);assert.equal(a.el('#map-atlas-count').textContent,'67 个知识点');
+ a.el('#map-atlas-search').value='no-result-xyz';a.el('#map-atlas-category').value='listening';a.fire('root','input',{target:{id:'map-atlas-search'}});a.click('atlas-mode:course');
+ assert.equal(a.el('#map-atlas-search').value,'no-result-xyz');assert.equal(a.el('#map-atlas-category').value,'listening');assert.match(a.el('#map-atlas-results').innerHTML,/清除筛选/);assert.equal(a.el('[data-map="atlas-mode:course"]').focused,true);
+ a.click('atlas-clear');assert.equal(a.el('#map-atlas-search').value,'');assert.equal(a.el('#map-atlas-category').value,'');assert.equal(a.el('#map-atlas-count').textContent,'21 课 · 221 个章节');assert.equal(a.el('#map-atlas-search').focused,true);
 });
