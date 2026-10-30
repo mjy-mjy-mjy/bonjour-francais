@@ -161,7 +161,7 @@ test('label collisions prioritize selection across desktop CSS viewport scales',
  const items=[{id:'current',x:300,y:150,priority:2},{id:'selected',x:310,y:155,priority:3},{id:'far',x:700,y:150,priority:1}];
  const visible=c.KNOWLEDGE_MAP.labelVisibility(items,scale,width,900);assert.ok(visible.has('selected'));assert.ok(!visible.has('current'));
  }
- const a=mounted();a.mount('A1','6');a.click('lesson:22');assert.match(a.el('#map-markers').innerHTML,/◎ 当前学习/);assert.match(a.el('#map-markers').innerHTML,/◇ 正在查看/);a.click('route-sample');assert.match(a.el('#map-markers').innerHTML,/map-route-sample/);a.click('route-sample');assert.doesNotMatch(a.el('#map-markers').innerHTML,/map-route-sample/);
+ const a=mounted();a.mount('A1','6');a.click('lesson:22');assert.match(a.el('#map-markers').innerHTML,/◎ 当前学习/);assert.match(a.el('#map-markers').innerHTML,/◇ 正在查看/);a.click('route-sample');assert.match(a.el('#map-markers').innerHTML,/map-route-sample/);a.click('route-sample');assert.doesNotMatch(a.el('#map-markers').innerHTML,/map-route-sample/);a.click('unit:6');assert.doesNotMatch(a.el('#map-markers').innerHTML,/◇ 正在查看/);
 });
 
 test('unit and lesson filters intersect in both modes and course atlas locates and returns',()=>{

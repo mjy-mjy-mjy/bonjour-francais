@@ -129,7 +129,7 @@ body.map-active{overflow:hidden}
 
 /* MAP-05: label boxes are placed in screen pixels and culled on collisions. */
 .knowledge-map .map-pin{height:44px;width:44px;min-width:44px}
-.knowledge-map .map-pin-label{position:absolute;top:42px;width:150px;max-width:150px;max-height:62px;overflow:hidden;display:block;font-size:12px;line-height:1.4}
+.knowledge-map .map-pin.town .map-pin-label,.knowledge-map .map-pin.lesson .map-pin-label,.knowledge-map .map-pin.region .map-pin-label{position:absolute;top:42px;width:150px;max-width:150px;max-height:62px;overflow:hidden;display:block;font-size:12px;line-height:1.4}
 .knowledge-map .map-pin.map-label-hidden .map-pin-label{display:none}
 .knowledge-map .map-pin:hover .map-pin-label,.knowledge-map .map-pin:focus-visible .map-pin-label{display:block;z-index:10;max-height:none}
 .map-pin.active .map-pin-symbol{outline:3px solid #387987;outline-offset:3px}
