@@ -6,7 +6,7 @@
 
 ## 当前目标与范围
 
-[ACCEPT-02](tasks/ACCEPT-02.md)线上／桌面缺口与跨课回归：基线328543f已核对main和Pages成功；线上及发布ZIP下载仍被代理CONNECT 403阻止，未核验线上HTML／资源字节。无Browser app控制接口或用户设备，本轮实际浏览器／桌面缩放未运行。临时副本6份生成文件不变、14项指纹及16项本地子路径HTTP字节通过；新增14／20／21课集成事件回归后共148项Node＋4项Python通过。[证据与限制](visuals/ACCEPT-02/README.md)。没有新应用缺陷或应用改动；仅补验证脚本和文档，提交／部署待核对。
+[ACCEPT-02](tasks/ACCEPT-02.md)线上／桌面缺口与跨课回归：基线328543f已核对main和Pages成功；线上及发布ZIP下载仍被代理CONNECT 403阻止，未核验线上HTML／资源字节。无Browser app控制接口或用户设备，本轮实际浏览器／桌面缩放未运行。临时副本6份生成文件不变、14项指纹及16项本地子路径HTTP字节通过；新增14／20／21课集成事件回归后共148项Node＋4项Python通过。[证据与限制](visuals/ACCEPT-02/README.md)。没有新应用缺陷或应用改动；仅补验证脚本和文档；796eb72已推送main，[Pages工作流41021245112](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41021245112)检查、上传及部署success。
 
 [ACCEPT-01](tasks/ACCEPT-01.md)第21课真实使用验收与收敛：5项P2已修复，144项Node＋4项Python及6组实际Chromium交互／11组有效视口通过；[截图与视口证据](visuals/ACCEPT-01/README.md)。本窗口work，基线a979031；修复1cd9b93已推送main，[Pages工作流41018737811](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41018737811)检查、上传及部署success。真实系统缩放与用户本机浏览器未验；github.io线上读取被当前代理403阻止。不扩展共享正文或新增模块。
 
