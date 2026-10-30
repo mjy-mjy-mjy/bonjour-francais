@@ -163,3 +163,13 @@ test('label collisions prioritize selection across desktop CSS viewport scales',
  }
  const a=mounted();a.mount('A1','6');a.click('lesson:22');assert.match(a.el('#map-markers').innerHTML,/◎ 当前学习/);assert.match(a.el('#map-markers').innerHTML,/◇ 正在查看/);a.click('route-sample');assert.match(a.el('#map-markers').innerHTML,/map-route-sample/);a.click('route-sample');assert.doesNotMatch(a.el('#map-markers').innerHTML,/map-route-sample/);
 });
+
+test('unit and lesson filters intersect in both modes and course atlas locates and returns',()=>{
+ const {c,courses}=data(),m=c.KNOWLEDGE_MAP,atlas=m.atlasModel(courses);
+ for(const mode of ['knowledge','course']){
+ const found=m.atlasResults(atlas,{mode,scopeUnit:6,scopeLesson:21});assert.ok(found.length);assert.ok(found.every(n=>mode==='course'?n.lesson===21:n.refs.some(r=>r.lesson===21)));
+ assert.equal(m.atlasResults(atlas,{mode,scopeUnit:5,scopeLesson:21}).length,0);
+ }
+ const a=mounted();a.mount('A1','6');a.click('lesson:21');a.click('atlas-lesson:21');assert.equal(a.el('#map-atlas-lesson').value,'21');a.el('#map-panel').scrollTop=450;a.click('locate:21');assert.match(a.el('#map-detail').innerHTML,/返回图鉴结果/);a.click('atlas-return');a.flush();assert.equal(a.el('#map-atlas-lesson').value,'21');assert.equal(a.el('#map-panel').scrollTop,450);
+ const b=mounted();b.mount('world');b.click('atlas');b.el('#map-panel').scrollTop=510;b.click('locate:21');b.mount('A1','6');b.flush();b.c.KNOWLEDGE_MAP.unmount();const reload=mounted(b.storage.value);reload.mount('A1','6');reload.flush();reload.click('atlas-return');assert.equal(reload.c.location.hash,'#map');reload.mount('world');reload.flush();assert.equal(reload.el('#map-panel').scrollTop,510);
+});
