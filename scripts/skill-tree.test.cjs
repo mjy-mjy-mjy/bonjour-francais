@@ -4,7 +4,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const vm=require('node:vm');
 const root=path.join(__dirname,'..');
-function model(){const c=vm.createContext({URLSearchParams});c.window=c;for(const file of ['course.js','lesson14.js','skill-tree-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);return {c,data:c.FRENCH_SKILLS,tree:c.SKILL_TREE};}
+function model(){const c=vm.createContext({URLSearchParams});c.window=c;for(const file of ['course.js','lesson14.js','skill-tree-data.js','grammar-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);return {c,data:c.FRENCH_SKILLS,tree:c.SKILL_TREE};}
 test('curated scope has seven branches, 67 linked skills and 21 explicitly planned directions',()=>{
  const {data}=model();assert.equal(data.branches.length,7);assert.equal(data.nodes.filter(n=>!n.planned).length,67);assert.equal(data.nodes.filter(n=>n.planned).length,21);assert.equal(new Set(data.nodes.map(n=>n.id)).size,data.nodes.length);
  const source=JSON.parse(fs.readFileSync(path.join(root,'knowledge/skills.json'),'utf8'));assert.deepEqual(JSON.parse(JSON.stringify(data)),source);
@@ -114,7 +114,7 @@ function mountedTree(saved,hash='#skills/all/all?view=list'){
  const els=new Map(),handlers=new Map(),frames=new Map();let serial=0;
  function el(id){if(els.has(id))return els.get(id);const e={innerHTML:'',hidden:false,scrollTop:0,value:'',clientWidth:1600,clientHeight:900,style:{},isConnected:true,classList:{toggle(){},add(){}},setAttribute(){},removeAttribute(){},getAttribute(){return null;},focus(){},contains(){return false;},getBoundingClientRect(){return {left:0,right:1600,top:0,bottom:900};},querySelector:q=>el(q),querySelectorAll:()=>[],addEventListener(t,fn,o={}){const key=id+':'+t;if(!handlers.has(key))handlers.set(key,[]);handlers.get(key).push(e=>{if(!o.signal?.aborted)fn(e);});}};els.set(id,e);return e;}
  const storage={value:saved};const c=vm.createContext({URLSearchParams,AbortController,console,location:{hash},history:{state:null,replaceState(_,__,h){c.location.hash=h;}},document:{getElementById:()=>el('root'),activeElement:null},sessionStorage:{getItem:()=>storage.value,setItem:(_,v)=>storage.value=v},requestAnimationFrame:fn=>{frames.set(++serial,fn);return serial;},cancelAnimationFrame:id=>frames.delete(id),ResizeObserver:class{observe(){}disconnect(){}},setTimeout:()=>1,clearTimeout(){},setInterval:()=>1,clearInterval(){}});c.window=c;c.addEventListener=(...args)=>el('window').addEventListener(...args);
- for(const f of ['course.js','skill-tree-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),c);
+ for(const f of ['course.js','skill-tree-data.js','grammar-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),c);
  const state={completed:[],skillMastery:{}};const adapter={state:()=>state,courses:new Map(c.COURSE_LIBRARY.lessons.map(l=>[l.number,l])),setSkill:(id,patch)=>{state.skillMastery[id]={...state.skillMastery[id],...patch};return true;}};
  return {c,el,state,storage,mount:()=>c.SKILL_TREE.mount(adapter),flush(){while(frames.size){const [id,fn]=frames.entries().next().value;frames.delete(id);fn();}},fire:(id,type,e)=>(handlers.get(id+':'+type)||[]).forEach(fn=>fn(e))};
 }
@@ -124,4 +124,16 @@ test('skill view restores list and detail scroll on refresh and rejects damaged 
  const b=mountedTree(a.storage.value,a.c.location.hash);b.mount();b.flush();assert.equal(b.el('#st-stage').scrollTop,480);assert.equal(b.el('#st-detail').scrollTop,210);assert.equal(b.el('#st-lesson').value,'21');
  b.fire('#st-close','click',{});assert.match(b.c.location.hash,/unit=6/);assert.match(b.c.location.hash,/lesson=21/);
  const {tree}=model();assert.equal(tree.readViewCache('{"last":"javascript:bad","views":[null,123]}').last,'');assert.equal(tree.readViewCache('{"views":[["#skills/all/all",{"view":{"scale":999}}]]}').views.size,0);
+});
+
+test('shared grammar preview and course blocks come from the same scoped author records',()=>{
+ const {c,tree}=model();assert.equal(c.FRENCH_GRAMMAR.records.length,3);let count=0;
+ for(const r of c.FRENCH_GRAMMAR.records){const html=tree.grammarPreview(r.id);assert.match(html,/核心规则/);assert.match(html,/例句/);assert.match(html,/易错点/);for(const b of r.blocks){count++;const course=c.COURSE_LIBRARY.lessons.find(l=>l.number===b.lesson);assert.equal(course.sections.find(s=>s.id===b.section).html,b.html);assert.ok(html.includes(b.html));}}
+ assert.equal(count,6);assert.equal(tree.grammarPreview('g-y'),'');assert.ok(tree.searchNodes('negation').some(n=>n.id==='g-negative'));
+});
+
+test('cross-branch relation navigation can return to the exact original filtered view',()=>{
+ const hash='#skills/A1/grammar/g-past-etre?view=list&unit=5&lesson=19';const a=mountedTree(null,hash);a.mount();a.flush();a.el('#st-stage').scrollTop=350;
+ a.c.location.hash='#skills/A1/speaking/s-past?view=list';a.c.SKILL_TREE.navigate();a.flush();assert.match(a.el('#st-detail-body').innerHTML,/返回原知识视图/);
+ a.fire('root','click',{target:{closest:q=>q==='[data-st-action]'?{dataset:{stAction:'relation-back'}}:null}});assert.equal(a.c.location.hash,hash);a.c.SKILL_TREE.navigate();a.flush();assert.equal(a.el('#st-stage').scrollTop,350);
 });

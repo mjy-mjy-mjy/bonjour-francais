@@ -34,6 +34,7 @@ jobs:
           node --check verb-knowledge.js
           python3 scripts/check-site.py
           python3 scripts/test_verb_build.py
+          python3 scripts/test_grammar_build.py
           node --test scripts/*.test.cjs
       - name: Refresh official invitation data
         id: refresh
@@ -47,6 +48,7 @@ jobs:
           mkdir _site
           cp index.html styles.css app.js content.js course.js lesson14.js _site/
           cp knowledge-map.js knowledge-map.css skill-tree-data.js skill-tree.js skill-tree.css _site/
+          cp grammar-data.js _site/
           cp verb-data.js verb-knowledge.js verb-knowledge.css _site/
           cp -R data assets _site/
       - uses: actions/upload-pages-artifact@v3

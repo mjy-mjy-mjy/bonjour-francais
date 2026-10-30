@@ -24,7 +24,7 @@
     {
       "id": "articles",
       "title": "05 / un、une：不定冠词单数与其他限定词的对照",
-      "html": "<h2>05 / un、une：不定冠词单数与其他限定词的对照</h2><p><b>un</b> 阳性单数，<b>une</b> 阴性单数，通常引入一个／某一个人物或事物。它们不仅是数字，还能说明名词性别。不能因为中文常省掉“一个”，就把法语名词前的限定词全部删除。</p><div class=\"table-scroll\"><table><thead><tr><th>名词</th><th>不定冠词形式</th><th>中文／用途</th></tr></thead><tbody><tr><td>téléphone（m.）</td><td>un téléphone</td><td>一个电话／电话设备。</td></tr><tr><td>numéro（m.）</td><td>un numéro</td><td>一个号码。</td></tr><tr><td>adresse（f.）</td><td>une adresse</td><td>一个地址；元音前 une 不写成 un’。</td></tr><tr><td>ville（f.）</td><td>une ville</td><td>一座城市。</td></tr><tr><td>étudiant（m.）</td><td>un étudiant</td><td>一位男学生；元音前 un 不省音。</td></tr><tr><td>étudiante（f.）</td><td>une étudiante</td><td>一位女学生；une 不省音为 un’。</td></tr><tr><td>an（m.）</td><td>un an</td><td>一年／一岁中的“一”；两个以上 ans。</td></tr></tbody></table></div><h3>5.1 un / une 与 le / la / l’ 的差别</h3><p><b>C’est une adresse.</b> 说明“这是一个地址”；<b>C’est l’adresse de Mei.</b> 指梅的那个地址（de 的限定用法为补充）；<b>mon adresse</b> 表示我的地址；<b>quelle adresse ?</b> 在询问地址。这些是不同的限定方式，不把 une、la、ma 全堆在一起。</p><h3>5.2 元音前不套用定冠词的省音规则</h3><p class=\"example\">la adresse → l’adresse（定冠词省音）<br>une adresse → une adresse（不定冠词保留）<br>ma adresse → mon adresse（物主词换形，不是写 m’adresse）</p><p>三个结构不能只背一个“元音前全省音”的规则；词类决定具体变化。un / une 的复数 des 以后学习，不要求现在完整展开复数名词。</p><h3>5.3 国籍与职业句中的限制（复习／拓展）</h3><p><b>Elle est chinoise.</b> 中 chinoise 是形容词，不加 une；<b>C’est une Chinoise.</b> 为名词结构，可以有 une 并将国籍人物名词大写。职业说明常说 Je suis étudiant.；C’est un étudiant. 是另一结构。这里只比较基本形式，第 14 课职业专题再补全细节。</p>"
+      "html": "{{grammar:g-articles:3-articles}}"
     },
     {
       "id": "questions",

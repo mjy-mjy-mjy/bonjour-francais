@@ -25,3 +25,7 @@
 第14课现在从 `lessons/14.json` 维护，`lesson14.js` 不再是手工源。其12章节、q7—q30以及 `content.js` 的q1—q6和原笔记键保留；兼容别名仍可供现有模块使用。
 
 修改后运行构建、`python3 scripts/check-site.py`、`python3 scripts/test_verb_build.py` 和全部 `scripts/*.test.cjs`；确认实际用例执行。可选浏览器检查为 `python3 scripts/check-verb-library.py`，需Playwright、Chromium及本地8765服务器。旧结构／题目选项兼容基线在 `scripts/fixtures/k1-legacy-signatures.json`；不要为通过测试静默改写旧题含义。
+
+## 首批共享语法（TREE-02）
+
+grammar.json维护3个稳定语义ID、规则摘要／例句／易错点和6个原课程正文块。课程用`{{grammar:技能ID:正文块ID}}`引用，构建先展开语法再展开动词；grammar-data.js由构建生成，技能详情读取同一记录。仅覆盖2、3、5、6课的明确章节；其他范围仍保留原课程正文。盘点见[语法试点清单](../docs/GRAMMAR_PILOT_INVENTORY.md)。不要手改生成文件。
