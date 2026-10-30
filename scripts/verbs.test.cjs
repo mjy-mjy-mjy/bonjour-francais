@@ -41,7 +41,7 @@ test('shareable routes restore filters and reject invalid IDs without changing l
 });
 test('unification preserves legacy section IDs, quiz IDs, choices and answers across all 20 lessons',()=>{
  const {c}=model(),legacy=JSON.parse(fs.readFileSync(path.join(root,'scripts/fixtures/k1-legacy-signatures.json'),'utf8'));
- assert.equal(c.COURSE_LIBRARY.lessons.length,20);assert.equal(c.LESSON14_CONTENT,c.COURSE_LIBRARY.lessons.find(l=>l.number===14));assert.equal(c.LESSON14_CONTENT.exercises.length,10);
+ assert.equal(c.COURSE_LIBRARY.lessons.length,21);assert.equal(c.LESSON14_CONTENT,c.COURSE_LIBRARY.lessons.find(l=>l.number===14));assert.equal(c.LESSON14_CONTENT.exercises.length,10);
  for(const [n,before] of Object.entries(legacy)){
   const lesson=c.COURSE_LIBRARY.lessons.find(l=>l.number===Number(n));
   assert.deepEqual(Array.from(lesson.sections,s=>s.id),before.sections,n);

@@ -274,6 +274,20 @@ window.COURSE_LIBRARY = {
         "理解四段节日回忆",
         "第5单元综合运用"
       ]
+    },
+    {
+      "number": 21,
+      "title": "C’est interdit !",
+      "translation": "禁止！",
+      "pages": "66–67",
+      "core": [
+        "请求、给予与拒绝许可",
+        "表达禁止及适用范围",
+        "pouvoir现在时",
+        "否定命令式",
+        "肯定命令式后的间接宾语代词",
+        "/ʃ/与/ʒ/辨音"
+      ]
     }
   ],
   "lessons": [
@@ -11074,6 +11088,482 @@ window.COURSE_LIBRARY = {
         ]
       },
       "listening": "听教材第20课对应的配套材料：先判断节日，再记录人物、日期、地点、同行者与活动；第三遍听助动词、否定与时长。材料若为课文配音，就对照实际音轨逐段核查。本站Lina／Karim／Zoé／Hugo四段为原创训练，不是教材录音稿；不提供不存在的音轨编号。最后用四句复述一段，并随机听写十二个月份。"
+    },
+    {
+      "number": 21,
+      "title": "C’est interdit !",
+      "translation": "禁止！",
+      "pages": "66–67",
+      "core": [
+        "请求、给予与拒绝许可",
+        "表达禁止及适用范围",
+        "pouvoir现在时",
+        "否定命令式",
+        "肯定命令式后的间接宾语代词",
+        "/ʃ/与/ʒ/辨音"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标与教材范围",
+          "html": "<h2>01 / 学习目标与教材范围</h2><p>第6单元 Vivre avec les autres，第21课 <b>C’est interdit !</b>（禁止！）。出版方教师指南核实教材第66—67页：请求、给予和拒绝许可，表达禁止；pouvoir现在时、否定命令式、肯定命令式后的间接宾语代词（COI）；/ʃ/与/ʒ/辨音。</p><p>读完后应能：询问某项行为是否获准；理解一条规定的对象与范围；用否定命令式提醒对方；用Téléphonez-lui一类表达说明联系谁。</p><p>以下中文讲解、人物、告示、对话及练习均为本站原创，不是教材逐字稿或教材答案。教材含公共场所对话及饮食主题角色扮演；本站以虚构活动中心规则作综合练习，不将旧教材的饮食情景用作个人健康建议。条件式礼貌请求、双代词连用及其他时态不作本课新增核心。</p>"
+        },
+        {
+          "id": "pouvoir",
+          "title": "2. pouvoir现在时：允许、能力与可能",
+          "html": "<h2>02 / pouvoir现在时：允许、能力与可能</h2><p><b>主语＋pouvoir变位＋不定式</b>。第二个动词保持原形：Nous pouvons réserver une salle.（我们可以预约一个房间。）不能写nous pouvons réservons。pouvoir没有命令式；不要自行构造“Peux !”。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>形式</th><th>完整例句</th></tr></thead><tbody><tr><td>je</td><td>peux</td><td>Je peux attendre ici.</td></tr><tr><td>tu</td><td>peux</td><td>Tu peux poser ton sac.</td></tr><tr><td>il / elle / on</td><td>peut</td><td>On peut utiliser cette salle.</td></tr><tr><td>nous</td><td>pouvons</td><td>Nous pouvons entrer ensemble.</td></tr><tr><td>vous</td><td>pouvez</td><td>Vous pouvez demander une clé.</td></tr><tr><td>ils / elles</td><td>peuvent</td><td>Elles peuvent rester dehors.</td></tr></tbody></table></div><p>三个词干：peu-、pouv-、peuv-。je peux、tu peux、il peut同音/pø/；nous pouvons /puvɔ̃/、vous pouvez /puve/；ils peuvent中的peuvent为/pœv/，不是/pø/，也不读-ent。</p><h3>同一个动词，看语境判断</h3><p>许可：Vous pouvez entrer dans cette salle. 能力：Après le cours, je peux lire ce message en français. 可能／条件允许：Nous pouvons partir à dix heures. 不能把所有ne…pas pouvoir都译成“禁止”：Je ne peux pas venir ce soir可表示我今晚来不了。</p><p>否定：Je <b>ne peux pas</b> rester. 疑问：<b>Est-ce que</b> vous pouvez attendre ? / <b>Pouvez-vous</b> attendre ?</p><p>查阅补充：je倒装采用<b>Puis-je… ?</b>，如Puis-je ouvrir la porte ?，不写Peux-je。日常先熟练Je peux… ?与Est-ce que je peux… ?；pourriez-vous属于其他时态的礼貌表达，暂作识别。</p>"
+        },
+        {
+          "id": "permission",
+          "title": "3. 请求、允许与拒绝：说明具体范围",
+          "html": "<h2>03 / 请求、允许与拒绝：说明具体范围</h2><p>请求前加Bonjour、Excusez-moi；根据对象选tu或vous。Je peux m’asseoir ici, s’il vous plaît ?（请问我能坐这里吗？）这里m’属于s’asseoir，不是pouvoir的词尾。</p><div class=\"table-scroll\"><table><thead><tr><th>意图</th><th>表达</th><th>理解</th></tr></thead><tbody><tr><td>请求</td><td>Est-ce que nous pouvons utiliser la salle bleue ?</td><td>我们能用蓝色房间吗？</td></tr><tr><td>允许</td><td>Oui, vous pouvez y travailler jusqu’à dix-huit heures.</td><td>可以，但有时间范围。</td></tr><tr><td>拒绝</td><td>Non, désolé, cette salle est réservée.</td><td>拒绝并解释原因。</td></tr><tr><td>替代方案</td><td>Vous pouvez attendre dans le jardin.</td><td>可提供另一选择。</td></tr></tbody></table></div><p>对方回答Oui并不代表所有行为都获准。把<b>动作、地点、时间、条件</b>分别记下。On ne peut pas manger dans la salle bleue不代表整座建筑里都禁止吃东西。</p><p>复习：地点y代替已明确的地点；jusqu’à说明截止时间。主语on用第三人称单数：on peut，不能写on peuvent。</p>"
+        },
+        {
+          "id": "prohibition",
+          "title": "4. 禁止结构：de与不定式",
+          "html": "<h2>04 / 禁止结构：de与不定式</h2><p><b>C’est interdit.</b>可以独立回应“这是禁止的”。明确动作时，最稳妥地使用<b>Il est interdit de＋不定式</b>：Il est interdit de courir dans le couloir.（走廊里禁止奔跑。）</p><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>原创例句</th><th>注意</th></tr></thead><tbody><tr><td>Il est interdit de…</td><td>Il est interdit d’utiliser cette machine.</td><td>元音前de省音成d’。</td></tr><tr><td>Il n’est pas permis de…</td><td>Il n’est pas permis de manger dans cette salle.</td><td>permis是固定结构里的词形，不随主语vous变化。</td></tr><tr><td>On ne peut pas…</td><td>On ne peut pas laisser les vélos ici.</td><td>pouvoir后直接接原形，不加de。</td></tr><tr><td>Défense de…／… interdit(e)(s)</td><td>Défense de courir. / Entrée interdite.</td><td>告示识别；entrée阴性，interdite加e。</td></tr></tbody></table></div><p>否定落点不同：Vous ne pouvez pas téléphoner（不能打电话）与Vous pouvez ne pas téléphoner（可以选择不打电话）不同。后者只作辨析补充。</p><p>规定以现场真实告示为准。本站例句是假设的语言场景，不声称所有酒店、交通工具或公共场所一律适用某条规定。</p>"
+        },
+        {
+          "id": "imperative",
+          "title": "5. 否定命令式：ne…pas包住动词",
+          "html": "<h2>05 / 否定命令式：ne…pas包住动词</h2><p>复习第10—11课：命令式通常使用tu、nous、vous对应形式，省去主语。否定时把<b>ne…pas</b>放在动词两侧；元音前用n’。</p><div class=\"table-scroll\"><table><thead><tr><th>对象</th><th>肯定</th><th>否定</th></tr></thead><tbody><tr><td>一个熟人tu</td><td>Parle doucement.</td><td>Ne parle pas fort.</td></tr><tr><td>包含自己nous</td><td>Entrons.</td><td>N’entrons pas maintenant.</td></tr><tr><td>礼貌／多人vous</td><td>Utilisez cette porte.</td><td>N’utilisez pas cette porte.</td></tr><tr><td>tu，普通-er动词</td><td>Regarde le panneau.</td><td>Ne regarde pas ton téléphone.</td></tr></tbody></table></div><p>普通-er的tu命令式在这里去-s：Ne téléphone pas. 不是Ne téléphones pas. 非-er的形式不能照搬：Ne prends pas cette clé. 词尾-s保留。aller、être等已有特殊形式请回到原课复习。</p><p>命令式与描述分开：Tu ne parles pas（你不说话）含主语，是陈述句；Ne parle pas（别说话）是命令。可加s’il vous plaît缓和语气，但不能把礼貌标记当作许可本身。</p>"
+        },
+        {
+          "id": "coi",
+          "title": "6. 间接宾语代词与肯定命令式",
+          "html": "<h2>06 / 间接宾语代词与肯定命令式</h2><p>先看动词搭配：<b>parler à quelqu’un、téléphoner à quelqu’un、donner quelque chose à quelqu’un</b>。这里à后的人是动作接收者，可用间接宾语代词；不能把所有à＋人都机械换成lui，例如penser à elle不照此替换。</p><div class=\"table-scroll\"><table><thead><tr><th>接收者</th><th>普通句位置</th><th>肯定命令式后形式</th></tr></thead><tbody><tr><td>对我</td><td>me（元音前m’）</td><td>-moi</td></tr><tr><td>对你</td><td>te（元音前t’）</td><td>-toi</td></tr><tr><td>对他／她</td><td>lui</td><td>-lui</td></tr><tr><td>对我们</td><td>nous</td><td>-nous</td></tr><tr><td>对你们／您</td><td>vous</td><td>-vous</td></tr><tr><td>对他们／她们</td><td>leur</td><td>-leur</td></tr></tbody></table></div><p><b>动词命令式＋连字符＋代词</b>：Donne-moi un stylo.（给我一支笔。）Parlez-lui doucement.（轻声和他／她说话。）Téléphonez-leur demain.（明天给他们／她们打电话。）lui不区分男性女性；leur不加s，不与物主限定词leurs混淆。</p><p>对照：Vous téléphonez à Nora → Vous <b>lui</b> téléphonez → <b>Téléphonez-lui</b>. 命令式的主语形式来自听话人，不来自接电话的人。</p><p>复习重读代词时见过moi、toi，但此处是肯定命令式后的宾语位置，不能把普通陈述句写成Je moi téléphone。本站衔接补充：带y／en或双代词的组合另有规则，本课先处理单个COI，不将-mois之类错误写法泛化成规律。</p>"
+        },
+        {
+          "id": "patterns",
+          "title": "7. 否定命令式里的代词：移回动词前",
+          "html": "<h2>07 / 否定命令式里的代词：移回动词前</h2><p>本节将两项本课核心组合练习：否定命令式中，宾语代词回到动词前；moi／toi回到me／te，按需要省音。<b>ne＋代词＋动词＋pas</b>，不要保留肯定命令式的连字符。</p><div class=\"table-scroll\"><table><thead><tr><th>普通句</th><th>肯定命令式</th><th>否定命令式</th></tr></thead><tbody><tr><td>Tu me téléphones.</td><td>Téléphone-moi.</td><td>Ne me téléphone pas.</td></tr><tr><td>Vous lui parlez.</td><td>Parlez-lui.</td><td>Ne lui parlez pas.</td></tr><tr><td>Tu leur donnes le code.</td><td>Donne-leur le code.</td><td>Ne leur donne pas le code.</td></tr><tr><td>Vous nous écrivez.</td><td>Écrivez-nous.</td><td>Ne nous écrivez pas.</td></tr></tbody></table></div><p>m’省音对照：Donnez-moi cette adresse → Ne m’envoyez pas cette adresse（别把这个地址发给我；改用envoyer）。单独肯定句中若代词在变位动词前：Vous m’envoyez cette adresse.</p><p>本站补充词序：Vous pouvez <b>lui téléphoner</b>.（您可以给他／她打电话。）lui属于téléphoner，放不定式前；否定许可：Vous <b>ne pouvez pas lui téléphoner</b>. 不能把它同肯定命令式后置混为一谈。</p>"
+        },
+        {
+          "id": "words",
+          "title": "8. 词汇：规则、设施与礼貌",
+          "html": "<h2>08 / 词汇：规则、设施与礼貌</h2><p>词汇放回动作与场景记忆；下列例句均为原创，扩展词不表示教材逐词清单。</p><div class=\"table-scroll\"><table><thead><tr><th>词语</th><th>性数／搭配</th><th>意思</th></tr></thead><tbody><tr><td>une permission / une autorisation</td><td>demander une permission</td><td>许可／授权</td></tr><tr><td>un règlement / une règle</td><td>lire le règlement</td><td>规章／一条规则（本站补充）</td></tr><tr><td>une entrée / une sortie</td><td>Entrée interdite.</td><td>入口／出口</td></tr><tr><td>un téléphone portable</td><td>utiliser son portable</td><td>手机</td></tr><tr><td>un passeport</td><td>présenter son passeport</td><td>护照</td></tr><tr><td>un chien / une chienne</td><td>les chiens</td><td>狗／母狗</td></tr><tr><td>un couloir / une salle</td><td>dans le couloir / dans la salle</td><td>走廊／房间（本站场景补充）</td></tr><tr><td>fumer / utiliser / interdire</td><td>interdit / interdite</td><td>吸烟／使用／禁止；只识别interdire，不在此伪造其完整变位</td></tr><tr><td>permis / interdit</td><td>C’est permis. / C’est interdit.</td><td>允许的／禁止的</td></tr><tr><td>Excusez-moi. / Désolé(e).</td><td>Désolée，女性说话者常用拼写</td><td>劳驾／抱歉</td></tr></tbody></table></div><p>un portable、un passeport为阳性；une permission、une arrivée为阴性。Entrée interdite中的interdite配合entrée；Il est interdit de…是非人称固定框架，不能根据说话人性别改成Il est interdite。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "9. /ʃ/与/ʒ/：清浊对照",
+          "html": "<h2>09 / /ʃ/与/ʒ/：清浊对照</h2><p>这两个音都让气流摩擦通过。发/ʃ/时声带通常不振动；发/ʒ/时声带振动。可轻触喉部交替发音，避免额外加汉语元音。</p><div class=\"table-scroll\"><table><thead><tr><th>音</th><th>常见拼写</th><th>原创辨音材料</th></tr></thead><tbody><tr><td>/ʃ/</td><td>ch</td><td>chat、chaud、chercher</td></tr><tr><td>/ʒ/</td><td>j；g在e／i前常见</td><td>jour、jouer、rouge、girafe</td></tr></tbody></table></div><p>最小对立练习：<b>chou /ʃu/ — joue /ʒu/</b>。也可比较chaud /ʃo/与非同韵的jour /ʒuʁ/，但这不是最小对立。</p><p>先听或请同伴随机读chou／joue，遮住拼写后标声音，再录音回听。词尾字母不等于音：rouge末尾听到/ʒ/，不加/ə/。ch并非任何词都读/ʃ/，如chorale里的ch为/k/，先记常用例词，不写绝对规则。</p><p>本课同时复习peux /pø/与peuvent /pœv/，注意这是一组动词词形的声音差异，与/ʃ/、/ʒ/清浊对照分开练。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "10. 原创告示：只按文本判断",
+          "html": "<h2>10 / 原创告示：只按文本判断</h2><p>以下为<b>原创虚构活动中心</b>，不是教材原文或真实机构规定。</p><blockquote><p>Centre des Tilleuls — Salle bleue<br>Vous pouvez travailler ici de neuf heures à dix-huit heures. Les boissons sont autorisées. Il est interdit de manger dans cette salle. Ne laissez pas vos sacs devant la porte. Pour réserver un ordinateur, téléphonez à Nora avant midi.</p></blockquote><p>信息表：允许工作与喝饮料；禁止在蓝色房间吃东西；不要把包放门前；预约电脑请在中午前打给Nora。开放时间9点至18点不等于Nora整天都接预约。没有说明饮料免费、其他房间能否吃东西、Nora的职位或联系电话；这些都属于<b>未提及</b>。</p><p>先圈动作，再标肯定／否定，最后看范围与条件。将téléphonez à Nora改成Téléphonez-lui，不能改成Téléphonez-elle。leur要有多个接收者依据，不能因为听话人是vous就用leur。</p>"
+        },
+        {
+          "id": "communicate",
+          "title": "11. 原创对话与听说训练",
+          "html": "<h2>11 / 原创对话与听说训练</h2><p>情景：虚构中心的接待处。Nora为接待人员，Mei来使用房间。</p><blockquote><p>Mei : Bonjour, est-ce que je peux manger dans la salle bleue ?<br>Nora : Non, désolée, ce n’est pas permis. Vous pouvez manger dans le jardin.<br>Mei : D’accord. Et pour réserver un ordinateur ?<br>Nora : Téléphonez-moi avant midi, s’il vous plaît.<br>Mei : Merci. Est-ce que je peux laisser mon sac devant la porte ?<br>Nora : Non, ne laissez pas votre sac là. Gardez le passage libre.</p></blockquote><p>理解：Nora拒绝的是蓝色房间内吃东西与门前放包，给出花园吃饭的替代方案；没有给出电脑预约费用。Téléphonez-moi中的moi指Nora。</p><p>两人轮换：A每次问一项许可，B明确同意或拒绝并说明范围；改成tu时同步改变位与礼貌表达。听同伴朗读时先记地点，再记动作与否定词，最后辨认moi／lui／leur接收者。教材听力请使用实际版本对应配套资源；本段无配套录音，不是教材录音稿。</p>"
+        },
+        {
+          "id": "writing",
+          "title": "12. 写告示与个人复习清单",
+          "html": "<h2>12 / 写告示与个人复习清单</h2><p>原创模板：<b>Atelier du samedi — Vous pouvez apporter un cahier. Il est interdit de prendre des photos. Ne laissez pas la porte ouverte. Pour poser une question à Léa, écrivez-lui.</b>（周六工作坊：可带本子；禁止拍照；不要让门开着；有问题请写信给Léa。）</p><p>写作任务：为虚构场所写四句，包含一项许可、一项禁止、一条否定命令和一条COI命令。检查动作对象、地点和时间是否明确；若不是实际规则，注明虚构。个人自查：能否六人称说出pouvoir？能否把Parle-lui转成否定？能否听辨chou／joue？完成课文不自动等于这三项都掌握。</p><p>核对来源：<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF\" target=\"_blank\" rel=\"noopener\">出版方教师指南</a>第21课（PDF第70—72页，书内77—79页）；<a href=\"https://www.larousse.fr/fr/conjugaison/francais/pouvoir/6963\" target=\"_blank\" rel=\"noopener\">Larousse：pouvoir</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/tai1.html\" target=\"_blank\" rel=\"noopener\">得州大学：命令式</a>；<a href=\"https://www.laits.utexas.edu/tex/gr/pro8.html\" target=\"_blank\" rel=\"noopener\">得州大学：间接宾语代词</a>。核对日期2026-10-30；例句与任务为本站原创。</p>"
+        },
+        {
+          "id": "practice",
+          "title": "13. 分层练习A—J：50项任务与答案",
+          "html": "<h2>13 / 分层练习A—J：50项任务与答案</h2><h3>A. pouvoir变位</h3><ol><li>je＋pouvoir？</li><li>nous＋pouvoir？</li><li>elles＋pouvoir？</li><li>改错：Vous peut entrer.</li><li>改错：On peuvent attendre.</li></ol><details><summary>查看参考答案与解析</summary><ol><li>je peux；第一人称通常用peux。</li><li>nous pouvons；词干pouv-。</li><li>elles peuvent；词干peuv-。</li><li>Vous pouvez entrer.；变位按vous。</li><li>On peut attendre.；on用单数。</li></ol></details><h3>B. 不定式与否定</h3><ol><li>改错：Nous pouvons réservons.</li><li>否定：Je peux rester.</li><li>将Tu peux venir改成est-ce que问句。</li><li>改错：Peux-je ouvrir ?</li><li>Je ne peux pas venir一定表示法律禁止吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Nous pouvons réserver.；第二个动词用原形。</li><li>Je ne peux pas rester.；包住peux。</li><li>Est-ce que tu peux venir ?；保持主语动词顺序。</li><li>Puis-je ouvrir ?；je倒装用puis。</li><li>不；也可能因时间或能力而无法前来。</li></ol></details><h3>C. 请求与范围</h3><ol><li>礼貌问“我们能用这个房间吗”。</li><li>写一个允许的回答。</li><li>写拒绝并说明被预约。</li><li>jusqu’à dix-huit heures表示什么？</li><li>蓝色房间禁止吃东西，可以推断花园也禁止吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Est-ce que nous pouvons utiliser cette salle, s’il vous plaît ?</li><li>例：Oui, vous pouvez utiliser cette salle.；答案开放。</li><li>Non, désolé(e), cette salle est réservée.；答案开放。</li><li>到18点为止，不代表18点后也获准。</li><li>不能；规则范围仅限指定房间。</li></ol></details><h3>D. 禁止结构</h3><ol><li>补全：Il est interdit ___ courir.</li><li>改错：Il est interdit de utiliser ce téléphone.</li><li>改错：On ne peut pas de manger ici.</li><li>把Entrée interdit改正确。</li><li>说话人为女性时，Il est interdit de courir要改interdite吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>de；后接原形。</li><li>Il est interdit d’utiliser ce téléphone.；de省音。</li><li>On ne peut pas manger ici.；pouvoir后不用de。</li><li>Entrée interdite.；entrée阴性。</li><li>不改；非人称固定结构。</li></ol></details><h3>E. 否定命令式</h3><ol><li>否定：Parle fort.</li><li>否定：Utilisez cette porte.</li><li>否定：Entrons maintenant.</li><li>改错：Ne téléphones pas.</li><li>改错：Ne prend pas la clé.</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Ne parle pas fort.；省略主语。</li><li>N’utilisez pas cette porte.；元音前省音。</li><li>N’entrons pas maintenant.；nous建议。</li><li>Ne téléphone pas.；这里tu的-er命令式无s。</li><li>Ne prends pas la clé.；prendre的tu保留s。</li></ol></details><h3>F. COI肯定命令式</h3><ol><li>将Téléphonez à Nora改用代词。</li><li>将Parlez à mes amies改用代词。</li><li>改错：Donne-me un stylo.</li><li>改错：Parlez leurs.（和她们说话）</li><li>Téléphonez-lui里的lui可以指女性吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Téléphonez-lui.；单个人可用lui。</li><li>Parlez-leur.；多个接收者用leur。</li><li>Donne-moi un stylo.；肯定命令式me变moi。</li><li>Parlez-leur.；连字符且leur不加s。</li><li>可以，lui同时可指他或她。</li></ol></details><h3>G. COI否定与词序</h3><ol><li>否定：Parlez-lui.</li><li>否定：Téléphone-moi.</li><li>否定：Donne-leur le code.</li><li>改错：Vous pouvez téléphonez-lui.</li><li>改错：Ne envoyez-moi pas ce message.</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Ne lui parlez pas.；代词移前。</li><li>Ne me téléphone pas.；moi回me。</li><li>Ne leur donne pas le code.；无连字符。</li><li>Vous pouvez lui téléphoner.；代词在不定式前。</li><li>Ne m’envoyez pas ce message.；m’省音且前置。</li></ol></details><h3>H. 辨音与词汇</h3><ol><li>chou中的首音？</li><li>joue中的首音？</li><li>rouge末尾是/ʃ/还是/ʒ/？</li><li>peuvent是否读/pø/？</li><li>une permission与un passeport分别什么意思？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>/ʃ/；声带通常不振动。</li><li>/ʒ/；声带振动。</li><li>/ʒ/，不另加元音。</li><li>不是；为/pœv/，最后-ent不读。</li><li>许可与护照；前者阴性，后者阳性。</li></ol></details><h3>I. 原创告示理解</h3><ol><li>蓝色房间几点可工作？</li><li>能在蓝色房间喝饮料吗？</li><li>饮料免费吗？</li><li>何时打给Nora预约电脑？</li><li>Nora的职位是否由告示给出？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>9点至18点；来自de neuf heures à dix-huit heures。</li><li>可以；Les boissons sont autorisées.明确说明。</li><li>未提及；允许喝不等于免费。</li><li>中午前；avant midi。</li><li>没有；对话中的角色说明不可倒推成告示明说。</li></ol></details><h3>J. 综合输出</h3><ol><li>写一句虚构场所的许可。</li><li>写一句禁止拍照的规则。</li><li>礼貌提醒别把门留开着。</li><li>用COI说“给Léa写信吧”（vous）。</li><li>原创对话中Téléphonez-moi的moi指谁？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>例：Vous pouvez apporter un cahier.；答案开放。</li><li>Il est interdit de prendre des photos.；答案开放。</li><li>Ne laissez pas la porte ouverte, s’il vous plaît.；答案开放。</li><li>Écrivez-lui.；lui指Léa。</li><li>Nora；当前说话者。</li></ol></details>"
+        },
+        {
+          "id": "review",
+          "title": "14. 易错速查与知识回看",
+          "html": "<h2>14 / 易错速查与知识回看</h2><ul><li>pouvoir后接原形；on peut、nous pouvons、elles peuvent。</li><li>禁止：Il est interdit de courir；命令：Ne courez pas。</li><li>肯定命令Téléphonez-lui；否定Ne lui téléphonez pas。</li><li>moi／toi仅在本课肯定命令后替代me／te；lui不区分男女，leur不加s。</li><li>规则须看动作、地点、时间与条件，未提及的信息不能推断。</li></ul><p>回看已有知识：<a href=\"#lesson/10/imperative\">第10课命令式</a>、<a href=\"#lesson/6/negative\">第6课否定</a>、<a href=\"#lesson/14/questions\">第14课est-ce que</a>。通过本课“关联技能”进入可追溯的知识节点；自评按个人实际能力记录。</p>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "id": "l21-q01",
+          "question": "nous＋pouvoir现在时？",
+          "options": [
+            "pouvons",
+            "peuvent",
+            "peux"
+          ],
+          "answer": 0,
+          "explanation": "nous对应pouvons。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q02",
+          "question": "on＋pouvoir现在时？",
+          "options": [
+            "peuvent",
+            "peut",
+            "pouvez"
+          ],
+          "answer": 1,
+          "explanation": "on按第三人称单数变位。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q03",
+          "question": "“她们可以等待”是哪句？",
+          "options": [
+            "Elles peut attendre.",
+            "Elles pouvons attendre.",
+            "Elles peuvent attendre."
+          ],
+          "answer": 2,
+          "explanation": "elles用peuvent，attendre为原形。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q04",
+          "question": "正确的不定式搭配？",
+          "options": [
+            "Vous pouvez réserver.",
+            "Vous pouvez réservez.",
+            "Vous pouvez de réserver."
+          ],
+          "answer": 0,
+          "explanation": "pouvoir后直接用原形。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q05",
+          "question": "Je peux venir的否定？",
+          "options": [
+            "Je peux ne venir pas.",
+            "Je ne peux pas venir.",
+            "Je ne venir peux pas."
+          ],
+          "answer": 1,
+          "explanation": "ne…pas包住变位动词。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q06",
+          "question": "je倒装请求许可应选？",
+          "options": [
+            "Peux-je entrer ?",
+            "Peut-je entrer ?",
+            "Puis-je entrer ?"
+          ],
+          "answer": 2,
+          "explanation": "je倒装用puis。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q07",
+          "question": "补全：Il est interdit ___ courir.",
+          "options": [
+            "de",
+            "à",
+            "省略介词"
+          ],
+          "answer": 0,
+          "explanation": "此结构需要de。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q08",
+          "question": "元音前正确写法？",
+          "options": [
+            "de utiliser",
+            "d’utiliser",
+            "du utiliser"
+          ],
+          "answer": 1,
+          "explanation": "de在元音前省音。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q09",
+          "question": "告示“入口禁止进入”的正确配合？",
+          "options": [
+            "Entrée interdit.",
+            "Entrée interdits.",
+            "Entrée interdite."
+          ],
+          "answer": 2,
+          "explanation": "entrée阴性单数。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q10",
+          "question": "否定命令：别大声说话（tu）。",
+          "options": [
+            "Ne parle pas fort.",
+            "Tu ne parle pas fort.",
+            "Ne parles pas fort."
+          ],
+          "answer": 0,
+          "explanation": "普通-er的tu命令式此处无s。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q11",
+          "question": "否定命令：别用这扇门（vous）。",
+          "options": [
+            "Ne utilisez pas cette porte.",
+            "N’utilisez pas cette porte.",
+            "N’utiliser pas cette porte."
+          ],
+          "answer": 1,
+          "explanation": "保留vous动词形式并省音。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q12",
+          "question": "别拿这把钥匙（tu）。",
+          "options": [
+            "Ne prend pas la clé.",
+            "Ne prendre pas la clé.",
+            "Ne prends pas la clé."
+          ],
+          "answer": 2,
+          "explanation": "prendre的tu命令式保留s。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q13",
+          "question": "Téléphonez à Nora改用COI？",
+          "options": [
+            "Téléphonez-lui.",
+            "Téléphonez-elle.",
+            "Téléphonez-leur."
+          ],
+          "answer": 0,
+          "explanation": "一位女性接收者也用lui。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q14",
+          "question": "Parlez à mes amies改用COI？",
+          "options": [
+            "Parlez-lui.",
+            "Parlez-leur.",
+            "Parlez-leurs."
+          ],
+          "answer": 1,
+          "explanation": "复数接收者用leur，不加s。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q15",
+          "question": "“给我一支笔”（tu）？",
+          "options": [
+            "Donne-me un stylo.",
+            "Me donne un stylo.",
+            "Donne-moi un stylo."
+          ],
+          "answer": 2,
+          "explanation": "肯定命令式后me变moi，并用连字符连接。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q16",
+          "question": "Parlez-lui的否定？",
+          "options": [
+            "Ne lui parlez pas.",
+            "Ne parlez-lui pas.",
+            "Lui ne parlez pas."
+          ],
+          "answer": 0,
+          "explanation": "否定时代词在动词前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q17",
+          "question": "Téléphone-moi的否定？",
+          "options": [
+            "Ne téléphone-moi pas.",
+            "Ne me téléphone pas.",
+            "Ne moi téléphone pas."
+          ],
+          "answer": 1,
+          "explanation": "moi回me并移前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q18",
+          "question": "带pouvoir的正确词序？",
+          "options": [
+            "Vous pouvez téléphoner-lui.",
+            "Vous lui pouvez téléphoner.",
+            "Vous pouvez lui téléphoner."
+          ],
+          "answer": 2,
+          "explanation": "lui属于不定式téléphoner。",
+          "group": "grammar"
+        },
+        {
+          "id": "l21-q19",
+          "question": "permission的冠词是？",
+          "options": [
+            "une",
+            "un",
+            "du"
+          ],
+          "answer": 0,
+          "explanation": "permission阴性。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l21-q20",
+          "question": "un passeport是？",
+          "options": [
+            "一条规定",
+            "一本护照",
+            "一部手机"
+          ],
+          "answer": 1,
+          "explanation": "护照为阳性。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l21-q21",
+          "question": "“允许的”对应？",
+          "options": [
+            "interdit",
+            "important",
+            "permis"
+          ],
+          "answer": 2,
+          "explanation": "permis与interdit意义相反。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l21-q22",
+          "question": "chou的首音？",
+          "options": [
+            "/ʃ/",
+            "/ʒ/",
+            "/z/"
+          ],
+          "answer": 0,
+          "explanation": "chou以清音/ʃ/开头。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l21-q23",
+          "question": "joue的首音？",
+          "options": [
+            "/ʃ/",
+            "/ʒ/",
+            "/s/"
+          ],
+          "answer": 1,
+          "explanation": "joue以浊音/ʒ/开头。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l21-q24",
+          "question": "peuvent的读音？",
+          "options": [
+            "/pø/",
+            "/pœvɑ̃/",
+            "/pœv/"
+          ],
+          "answer": 2,
+          "explanation": "听到/v/，-ent不读。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l21-q25",
+          "question": "原创告示：饮料免费吗？",
+          "options": [
+            "未提及",
+            "一定免费",
+            "一定收费"
+          ],
+          "answer": 0,
+          "explanation": "只说明可以喝，没有价格信息。",
+          "group": "reading"
+        },
+        {
+          "id": "l21-q26",
+          "question": "原创告示：何时联系Nora预约电脑？",
+          "options": [
+            "18点以后",
+            "中午前",
+            "任何时候"
+          ],
+          "answer": 1,
+          "explanation": "avant midi限定预约联系时间。",
+          "group": "reading"
+        },
+        {
+          "id": "l21-q27",
+          "question": "原创对话：Téléphonez-moi里的moi是谁？",
+          "options": [
+            "Mei",
+            "所有来访者",
+            "Nora"
+          ],
+          "answer": 2,
+          "explanation": "由当前说话者Nora确定。",
+          "group": "listening"
+        },
+        {
+          "id": "l21-q28",
+          "question": "礼貌请求许可应选？",
+          "options": [
+            "Est-ce que je peux entrer, s’il vous plaît ?",
+            "J’entre !",
+            "Tu entres."
+          ],
+          "answer": 0,
+          "explanation": "提出请求并使用礼貌标记。",
+          "group": "speaking"
+        },
+        {
+          "id": "l21-q29",
+          "question": "jusqu’à dix-huit heures表示？",
+          "options": [
+            "18点以后",
+            "截至18点",
+            "每天18小时"
+          ],
+          "answer": 1,
+          "explanation": "jusqu’à表示截止。",
+          "group": "reading"
+        },
+        {
+          "id": "l21-q30",
+          "question": "写虚构场所规则时应？",
+          "options": [
+            "省略适用范围",
+            "把假设当成实际规定",
+            "写清动作和范围并注明虚构"
+          ],
+          "answer": 2,
+          "explanation": "保持规则与实际情况边界明确。",
+          "group": "writing"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "pouvoir",
+          "prohibition",
+          "imperative",
+          "coi",
+          "patterns"
+        ],
+        "vocabulary": [
+          "words",
+          "permission"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading"
+        ],
+        "speaking": [
+          "permission",
+          "communicate"
+        ],
+        "writing": [
+          "writing",
+          "patterns"
+        ]
+      },
+      "listening": "使用教材实际版本第21课配套录音：第一遍辨场所和说话人，第二遍记录允许／禁止的动作与范围，第三遍听pouvoir及否定命令式、代词接收者。再做/ʃ/与/ʒ/辨音；不臆造音轨编号。本站对话为原创文字，没有配套音频，可请同伴朗读作补充训练，不视为教材录音。"
     }
   ]
 };

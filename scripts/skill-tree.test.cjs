@@ -5,8 +5,8 @@ const path=require('node:path');
 const vm=require('node:vm');
 const root=path.join(__dirname,'..');
 function model(){const c=vm.createContext({URLSearchParams});c.window=c;for(const file of ['course.js','lesson14.js','skill-tree-data.js','skill-tree.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),c);return {c,data:c.FRENCH_SKILLS,tree:c.SKILL_TREE};}
-test('curated scope has seven branches, 64 linked skills and 21 explicitly planned directions',()=>{
- const {data}=model();assert.equal(data.branches.length,7);assert.equal(data.nodes.filter(n=>!n.planned).length,64);assert.equal(data.nodes.filter(n=>n.planned).length,21);assert.equal(new Set(data.nodes.map(n=>n.id)).size,data.nodes.length);
+test('curated scope has seven branches, 67 linked skills and 21 explicitly planned directions',()=>{
+ const {data}=model();assert.equal(data.branches.length,7);assert.equal(data.nodes.filter(n=>!n.planned).length,67);assert.equal(data.nodes.filter(n=>n.planned).length,21);assert.equal(new Set(data.nodes.map(n=>n.id)).size,data.nodes.length);
  const source=JSON.parse(fs.readFileSync(path.join(root,'knowledge/skills.json'),'utf8'));assert.deepEqual(JSON.parse(JSON.stringify(data)),source);
  for(const n of data.nodes){assert.match(n.id,/^[a-z][a-z0-9-]{1,79}$/);assert.ok(data.branches.some(b=>b.id===n.branch));assert.ok(data.stages.includes(n.stage));if(n.planned){assert.equal(n.refs.length,0);}else{assert.ok(n.criteria.length>=2);assert.ok(n.refs.length);assert.equal(n.stage,'A1');}}
 });
@@ -24,7 +24,7 @@ test('recommended prerequisites form an acyclic graph and every grammar group fi
 test('progress excludes roadmap nodes and does not infer mastery from completed lessons',()=>{
  const {data,tree}=model(),now=Date.parse('2026-10-29T12:00:00Z');
  const records={'g-etre':{level:2,masteredAt:'2026-10-27T12:00:00Z'},'g-y':{level:1},'p-r':{level:3},'a2-grammar':{level:3}};
- assert.deepEqual(JSON.parse(JSON.stringify(tree.summary(data.nodes,records,now))),{total:64,touched:3,mastered:2,reviewed:1,due:1});
+ assert.deepEqual(JSON.parse(JSON.stringify(tree.summary(data.nodes,records,now))),{total:67,touched:3,mastered:2,reviewed:1,due:1});
  assert.equal(tree.summary(data.nodes,{},now).mastered,0);
 });
 test('review requires 24 hours after an independently recorded mastery state',()=>{
@@ -70,10 +70,10 @@ test('selection relations retain cross-branch prerequisites and only show direct
 
 test('overview and list scopes expose actual skills, exclude plans and share search normalization',()=>{
  const {tree}=model(),scope=tree.route('#skills');
- assert.equal(tree.scopedNodes(scope).length,64);
+ assert.equal(tree.scopedNodes(scope).length,67);
  assert.equal(tree.scopedNodes(tree.route('#skills/A2/all?view=list')).length,7);
  const branch=tree.route('#skills/A1/grammar?view=list');
- assert.equal(tree.scopedNodes(branch).length,27);
+ assert.equal(tree.scopedNodes(branch).length,28);
  const found=tree.scopedNodes(tree.route('#skills/A1/grammar/verbs?q=etre'));
  assert.ok(found.every(n=>n.group==='verbs'));assert.ok(found.some(n=>n.id==='g-etre'));assert.ok(found.some(n=>n.id==='g-past-etre'));assert.ok(!found.some(n=>n.id==='g-y'));
  assert.equal(tree.scopedNodes(tree.route('#skills/all/all?view=list&q=zz-no-match')).length,0);
@@ -82,9 +82,9 @@ test('mode, query and selection round-trip without narrowing an explicitly broad
  const {tree}=model();
  const h=tree.href('all','all','g-past-etre',{mode:'list',query:'être & passé',allGroups:true});
  const r=tree.route(h);assert.equal(r.node.id,'g-past-etre');assert.equal(r.mode,'list');assert.equal(r.query,'être & passé');
- assert.equal(tree.scopedNodes({...r,query:''}).length,64);
+ assert.equal(tree.scopedNodes({...r,query:''}).length,67);
  const grammar=tree.route(tree.href('A1','grammar','g-etre',{mode:'list',allGroups:true}));
- assert.equal(grammar.group,'');assert.equal(tree.scopedNodes(grammar).length,27);
+ assert.equal(grammar.group,'');assert.equal(tree.scopedNodes(grammar).length,28);
  assert.equal(tree.route('#skills/A1/grammar/g-etre?view=unknown').mode,'graph');
  assert.equal(tree.route('#skills/invalid/all/g-etre?view=list').node,null);
  assert.equal(tree.route('#skills/A1/writing/g-etre').node,null);

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "当前语义技能取自现有第1—20课，不代表A1全部知识；A2—B2为学习方向规划。",
+  "scope": "当前语义技能取自现有第1—21课，不代表A1全部知识；A2—B2为学习方向规划。",
   "branches": [
     {
       "id": "pronunciation",
@@ -611,6 +611,10 @@
         {
           "lesson": 20,
           "section": "verbs"
+        },
+        {
+          "lesson": 21,
+          "section": "pouvoir"
         }
       ],
       "requires": [
@@ -729,6 +733,10 @@
         {
           "lesson": 15,
           "section": "patterns"
+        },
+        {
+          "lesson": 21,
+          "section": "pouvoir"
         }
       ],
       "requires": [
@@ -764,6 +772,10 @@
         {
           "lesson": 14,
           "section": "questions"
+        },
+        {
+          "lesson": 21,
+          "section": "permission"
         }
       ],
       "requires": [
@@ -830,10 +842,11 @@
       "branch": "grammar",
       "stage": "A1",
       "title": "命令式与建议",
-      "goal": "在指路、建议中选用适当人称和词形。",
+      "goal": "用命令式给出路线、建议及禁止，并区分肯定与否定。",
       "criteria": [
         "能改写已学动词的命令式。",
-        "能区分给 tu、nous、vous 的指令。"
+        "能区分给 tu、nous、vous 的指令。",
+        "能用ne…pas构成否定命令，保留正确的人称形式。"
       ],
       "refs": [
         {
@@ -843,6 +856,10 @@
         {
           "lesson": 11,
           "section": "advice"
+        },
+        {
+          "lesson": 21,
+          "section": "imperative"
         }
       ],
       "requires": [
@@ -921,6 +938,10 @@
         {
           "lesson": 11,
           "section": "on"
+        },
+        {
+          "lesson": 21,
+          "section": "permission"
         }
       ],
       "requires": [
@@ -1735,6 +1756,10 @@
         {
           "lesson": 14,
           "section": "phrases"
+        },
+        {
+          "lesson": 21,
+          "section": "writing"
         }
       ],
       "requires": [
@@ -2135,6 +2160,84 @@
       "requires": [],
       "group": "",
       "planned": true
+    },
+    {
+      "id": "g-coi-imperative",
+      "branch": "grammar",
+      "stage": "A1",
+      "title": "命令式与间接宾语代词",
+      "goal": "根据动作接收者选择COI，在肯定／否定命令中正确放置。",
+      "criteria": [
+        "能用lui指单个男性或女性，leur指多人。",
+        "能将Téléphone-moi转换为Ne me téléphone pas，并解释位置变化。"
+      ],
+      "refs": [
+        {
+          "lesson": 21,
+          "section": "coi"
+        },
+        {
+          "lesson": 21,
+          "section": "patterns"
+        }
+      ],
+      "requires": [
+        "g-imperative",
+        "g-negative"
+      ],
+      "group": "structure",
+      "planned": false
+    },
+    {
+      "id": "p-ch-j",
+      "branch": "pronunciation",
+      "stage": "A1",
+      "title": "/ʃ/与/ʒ/清浊对照",
+      "goal": "听辨并复现常见词中的/ʃ/与/ʒ/。",
+      "criteria": [
+        "能区分chou与joue的首音。",
+        "能用声带振动检查清浊，不附加元音。"
+      ],
+      "refs": [
+        {
+          "lesson": 21,
+          "section": "sound"
+        }
+      ],
+      "requires": [],
+      "group": "",
+      "planned": false
+    },
+    {
+      "id": "s-permission",
+      "branch": "speaking",
+      "stage": "A1",
+      "title": "请求许可与表达禁止",
+      "goal": "在具体场景中请求、给予或拒绝许可，说明范围。",
+      "criteria": [
+        "能礼貌询问是否允许某个动作。",
+        "能说明拒绝原因或替代方案，不把局部规则泛化。"
+      ],
+      "refs": [
+        {
+          "lesson": 21,
+          "section": "permission"
+        },
+        {
+          "lesson": 21,
+          "section": "prohibition"
+        },
+        {
+          "lesson": 21,
+          "section": "communicate"
+        }
+      ],
+      "requires": [
+        "g-irregular",
+        "g-negative"
+      ],
+      "group": "",
+      "planned": false
     }
   ]
 }
