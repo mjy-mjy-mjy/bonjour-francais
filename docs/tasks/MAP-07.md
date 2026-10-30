@@ -7,3 +7,5 @@
 条目提供技能标准、精确引用的原讲义、关联课程实际存在的practice章节。练习明确为课程级，不声称逐题对应技能；无练习章节不生成链接。不新增题目、不生成个人学习或复测时间。
 
 本轮构建、内容、9份JS语法与131项Node通过（应用91／地图21／技能13／动词6），包括24小时边界、无效日期、独立状态、真实练习链接、更新后返回与刷新。新增笔记／备份协议为零。浏览器视觉与系统缩放未运行；当前无浏览器控制工具。共享构建源未变，Python构建单测未重跑。
+
+提交[beb2650](https://github.com/mjy-mjy-mjy/bonjour-francais/commit/beb26505d3a33d07a5315a9cc36d1e69c94c412f)已推送并核对，[Pages工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41013815338)完成且success。线上页面效果／产物哈希未验。
