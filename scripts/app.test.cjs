@@ -889,3 +889,12 @@ test('lesson references return to the shared semantic skill with the current mas
  assert.equal(vm.runInContext('state.skillMastery["g-y"].level',a.context),2);
 });
 
+
+
+test('a lesson offers the saved map return even from the world atlas or without linked skills',()=>{
+ const a=app(null,'#lesson/21');
+ a.context.KNOWLEDGE_MAP={unmount(){},resumeHref:()=> '#map/A1/6',hasVisited:()=>true};
+ vm.runInContext('render()',a.context);assert.ok(a.main.innerHTML.includes('href="#map/A1/6">↩ 返回知识大陆'));
+ a.context.KNOWLEDGE_MAP.resumeHref=()=> '#map';vm.runInContext('render()',a.context);assert.ok(a.main.innerHTML.includes('href="#map">↩ 返回知识大陆'));
+ a.context.location.hash='#lesson/36';vm.runInContext('render()',a.context);assert.ok(a.main.innerHTML.includes('↩ 返回知识大陆'));
+});

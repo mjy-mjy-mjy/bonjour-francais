@@ -103,3 +103,8 @@ body.map-active{overflow:hidden}
 @media(max-width:370px){.map-tools{grid-template-columns:repeat(2,auto)}.map-actions{gap:4px}.map-actions button,.map-actions a{padding:6px 7px}}
 @media(max-height:520px) and (min-width:701px){.map-header{padding-top:8px}.map-breadcrumb{padding-bottom:6px}.map-footer{padding-top:5px;padding-bottom:5px}.map-progress small{display:none}}
 @media print{.knowledge-map{display:none}}
+
+/* MAP-03: course details retain separate chapter and semantic records. */
+.map-panel details{margin:18px 0;border-top:1px solid #b4986966;padding-top:14px}
+.map-panel summary{cursor:pointer;font-size:14px;font-weight:600;line-height:1.6}
+.map-panel .map-atlas-item:focus-visible{outline-offset:-3px}

@@ -119,7 +119,7 @@ function rememberLearningLesson(n) {
 function navigation(page) {
   const selected=Number(location.hash.split('/')[1]),n=courses.has(selected)?selected:defaultCourseNumber();
   const links=items=>items.map(([id,label])=>`<a class="nav-link ${page===id?'active':''}" ${page===id?'aria-current="page"':''} href="#${id}${categories.slice(1,8).some(c=>c[0]===id)?'/'+n:''}">${icon(id)}<span>${label}</span></a>`).join('');
-  document.getElementById('navigation').innerHTML=`<a class="nav-link ${page==='skills'?'active':''}" href="#skills">${icon('grammar')}<span>知识技能树</span></a><a class="nav-link ${page==='verbs'?'active':''}" href="#verbs">${icon('grammar')}<span>动词变位手册</span></a><a class="nav-link ${page==='map'?'active':''}" href="#map">${icon('route')}<span>知识大陆</span></a><div class="nav-group"><p class="nav-label">学习</p>${links(categories.slice(0,8))}</div><div class="nav-group"><p class="nav-label">复习与资料</p>${links(categories.slice(8))}</div>`;
+  document.getElementById('navigation').innerHTML=`<a class="nav-link ${page==='skills'?'active':''}" href="#skills">${icon('grammar')}<span>知识技能树</span></a><a class="nav-link ${page==='verbs'?'active':''}" href="#verbs">${icon('grammar')}<span>动词变位手册</span></a><a class="nav-link ${page==='map'?'active':''}" href="${escapeHtml(window.KNOWLEDGE_MAP?.resumeHref()||'#map')}">${icon('route')}<span>知识大陆</span></a><div class="nav-group"><p class="nav-label">学习</p>${links(categories.slice(0,8))}</div><div class="nav-group"><p class="nav-label">复习与资料</p>${links(categories.slice(8))}</div>`;
 }
 let routeUnit=null;
 function note(id,prompt) {return `<section class="section"><h2>${prompt}</h2><textarea data-note="${id}" aria-label="${prompt}" placeholder="写下自己的表达、问题或复习要点…">${escapeHtml(state.notes[id]||'')}</textarea><div class="print-note" data-print-note="${id}">${escapeHtml(state.notes[id]||'（尚未填写）')}</div><p class="source-note">输入后自动保存在当前浏览器，可在“学习记录与备份”中导出。</p></section>`;}
@@ -161,8 +161,10 @@ function knowledge(ids,course=lesson14) {
 function writtenPractice(letters,course=lesson14) {return `<section class="lesson-notes knowledge-section"><h2>书面练习与参考答案</h2><p class="subtle">先在笔记中作答，再展开答案核对。</p>${course.exercises.filter(e=>letters.includes(e.id)).map(e=>e.html).join('')}</section>`;}
 function quickCheck(list,n=14) {const qs=list||questions.filter(q=>q.lesson===n);return `<section class="section" id="lesson${n}-quick-check"><h2>即时小测 · ${qs.length} 题</h2><p class="subtle">提交后查看解析，答错的题会自动进入“错题与收藏”。开放任务请按参考答案和自查标准检查。</p>${quiz(qs)}</section>`;}
 function lessonSkillLinks(n){
+  const mapReturn=window.KNOWLEDGE_MAP?.resumeHref();
+  const mapLink=mapReturn&&window.KNOWLEDGE_MAP?.hasVisited()?`<a class="button secondary" href="${escapeHtml(mapReturn)}">↩ 返回知识大陆</a>`:'';
   const nodes=window.FRENCH_SKILLS?.nodes.filter(s=>!s.planned&&s.refs.some(r=>r.lesson===n))||[];
-  return nodes.length?`<nav class="lesson-skills" aria-label="本课关联技能"><span>关联技能</span>${window.VERB_KNOWLEDGE?.lessonLink(n)||''}${window.SKILL_TREE?.resumeHref?.()&&window.SKILL_TREE.resumeHref()!=='#skills'?`<a class="skill-return" href="${escapeHtml(window.SKILL_TREE.resumeHref())}">↩ 返回知识视图</a>`:''}${nodes.map(node=>`<a href="#skills/${node.stage}/${node.branch}/${node.id}">${escapeHtml(node.title)}${state.skillMastery[node.id]?.level>=2?' ✓':''}</a>`).join('')}</nav>`:'';
+  return mapLink+(nodes.length?`<nav class="lesson-skills" aria-label="本课关联技能"><span>关联技能</span>${window.VERB_KNOWLEDGE?.lessonLink(n)||''}${window.SKILL_TREE?.resumeHref?.()&&window.SKILL_TREE.resumeHref()!=='#skills'?`<a class="skill-return" href="${escapeHtml(window.SKILL_TREE.resumeHref())}">↩ 返回知识视图</a>`:''}${nodes.map(node=>`<a href="#skills/${node.stage}/${node.branch}/${node.id}">${escapeHtml(node.title)}${state.skillMastery[node.id]?.level>=2?' ✓':''}</a>`).join('')}</nav>`:'');
 }
 function lesson(n) {
   const course=courses.get(n),meta=catalog.find(c=>c.number===n),done=state.completed.includes(n),favorite=state.favorites.includes(n);
