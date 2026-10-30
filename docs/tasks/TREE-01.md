@@ -5,3 +5,5 @@
 完成：覆盖课数动态生成；搜索课次、课名、章节和技能文本；单元／课次交集筛选进入列表；URL表达范围；关闭详情保留查询与范围。sessionStorage独立缓存最多60个视图，刷新恢复画布／列表／详情位置，损坏缓存安全回退，存储不可用仍使用内存。保留知识ID与个人记录协议。
 
 构建、内容、9份JS语法及133项Node通过（91／21／15／6）。新增实际挂载模拟覆盖刷新与关闭，另验证第21课9个技能及范围交集。无浏览器控制工具，真实桌面／手机视觉与系统缩放未验。未新增发布资源。
+
+提交[e1d43f8](https://github.com/mjy-mjy-mjy/bonjour-francais/commit/e1d43f8837e0de99f6b26dd96ed417e9973db4bc)已推送main并核对本地树一致；[Pages部署](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/41014667791)完成且success。线上产物哈希及页面视觉未核验。
