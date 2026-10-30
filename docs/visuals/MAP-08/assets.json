@@ -1,7 +1,7 @@
 {
   "base": "http://127.0.0.1:8878/bonjour-francais/",
   "kind": "HTTP bytes, not browser acceptance",
-  "html_sha256": "1b563d07be56f8667893d4b9fd1a35fee5d74d09065dd07830febb7bcd6c291f",
+  "html_sha256": "728d8b80312ef8e74fededda51fc1194823fe5682195d1ec17e390139f671a04",
   "fingerprints": [
     {
       "reference": "styles.css?v=5848935d7ebc",
@@ -24,8 +24,8 @@
       "sha256": "70635766108b4337f1afa758219e73ca258a1421f153e114b9b22ff4ee4e25c5"
     },
     {
-      "reference": "knowledge-map.js?v=fa551e967f21",
-      "sha256": "fa551e967f21a248b71b59e974c2e795e421674d58acded730d0e02a8e224664"
+      "reference": "knowledge-map.js?v=7c43ce8443ec",
+      "sha256": "7c43ce8443ec2a154472334849718db139d8a78768c8679c989333787ce8c4e4"
     },
     {
       "reference": "skill-tree.css?v=0333a2ec15d0",
@@ -64,7 +64,7 @@
     {
       "reference": "index.html",
       "status": 200,
-      "sha256": "1b563d07be56f8667893d4b9fd1a35fee5d74d09065dd07830febb7bcd6c291f",
+      "sha256": "728d8b80312ef8e74fededda51fc1194823fe5682195d1ec17e390139f671a04",
       "matches_source": true
     },
     {
@@ -98,9 +98,9 @@
       "matches_source": true
     },
     {
-      "reference": "knowledge-map.js?v=fa551e967f21",
+      "reference": "knowledge-map.js?v=7c43ce8443ec",
       "status": 200,
-      "sha256": "fa551e967f21a248b71b59e974c2e795e421674d58acded730d0e02a8e224664",
+      "sha256": "7c43ce8443ec2a154472334849718db139d8a78768c8679c989333787ce8c4e4",
       "matches_source": true
     },
     {
