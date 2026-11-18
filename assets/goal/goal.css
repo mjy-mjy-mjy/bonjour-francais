@@ -420,11 +420,19 @@ body.goal-active { background: #0c111e; }
 .goal-chase .goal-time .goal-rail { grid-row: 6; }
 .goal-chase .goal-dates { grid-row: 7; margin-top: 11px; }
 
-/* The blue edge marks elapsed time. Both streams move toward the common finish. */
-.goal-chase .goal-time .goal-rail::before,
-.goal-chase .goal-time .goal-fill::before,
-.goal-chase .goal-time.is-progress-updated .goal-fill::after { animation-direction: normal; }
-.goal-chase #goal-time-bar[aria-valuenow] .goal-marker { display: block; }
+/* The chase markers share an axis. Motion is anchored to each marker's edge. */
+.goal-chase .goal-rail::before,
+.goal-chase .goal-fill::before,
+.goal-chase .goal-time.is-progress-updated :is(.goal-fill, .goal-marker)::after { content: none; }
+.goal-chase .goal-study .goal-fill {
+  background: linear-gradient(90deg, #99672f, #c8914c 64%, #ebbc71 96%, #ffdfa0);
+}
+.goal-chase .goal-time .goal-fill {
+  background: linear-gradient(90deg, #587a93 0, #8db1c8 min(25px, 26%), #668ca9 44%, #486c8e);
+}
+.goal-chase #goal-time-bar[aria-valuenow] .goal-marker { display: block; width: 2px; }
+.goal-chase #goal-time-bar[data-empty] .goal-marker { background: #7999ac; box-shadow: none; }
+.goal-time-fragments { display: none; }
 
 .goal-chase-gap { grid-row: 5; position: relative; }
 .goal-chase-gap span {
@@ -448,66 +456,87 @@ body.goal-active { background: #0c111e; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .goal-chase .goal-rail {
-    --flow-span: clamp(164px, 27vw, 360px);
-    --flow-duration: 2.65s;
-  }
-  .goal-chase .goal-time .goal-rail { --flow-duration: 3.6s; }
-
-  .goal-chase .goal-rail::before {
-    --trail: color-mix(in srgb, var(--signal) 84%, transparent);
-    height: clamp(4px, 42%, 10px);
-  }
-  .goal-chase .goal-fill::before { --trail: #fffb; }
-  .goal-chase .goal-rail::before,
-  .goal-chase .goal-fill::before {
-    background-image:
-      radial-gradient(ellipse 11px 2px at 73% 50%, #fff 14%, var(--trail) 40%, transparent 100%),
-      radial-gradient(ellipse 2px 1px at 54% 29%, var(--trail) 25%, transparent 100%),
-      radial-gradient(ellipse 4px 1px at 64% 71%, var(--trail) 18%, transparent 100%),
-      radial-gradient(ellipse 43px 36% at 68% 50%, var(--trail), transparent),
-      linear-gradient(90deg, transparent 18%, var(--trail) 70%, transparent 78%);
-    background-size: var(--flow-span) 100%;
-  }
-  .goal-chase .goal-time .goal-rail::before,
-  .goal-chase .goal-time .goal-fill::before { animation-delay: -.95s; }
-
-  .goal-chase .goal-marker::before {
+  .goal-chase .goal-study .goal-fill::before {
     content: "";
+    inset: 0 0 0 auto;
+    width: min(100%, 172px);
+    background:
+      radial-gradient(ellipse 15px 2px at 94% 50%, #fff8d8, transparent),
+      radial-gradient(circle at 76% 28%, #fff2bc 0 1px, transparent 2.2px),
+      radial-gradient(circle at 87% 76%, #fff2bc 0 1.3px, transparent 2.5px),
+      radial-gradient(circle at 58% 63%, #ffd27d 0 1px, transparent 2px),
+      linear-gradient(90deg, transparent 30%, #fff1bead 97%);
+    background-repeat: no-repeat;
+    transform-origin: right center;
+    animation: goal-gather-light 2.8s ease-in-out infinite;
+  }
+  .goal-chase .goal-study .goal-marker {
+    animation: goal-warm-edge 2.8s ease-in-out infinite;
+  }
+  .goal-chase .goal-study.is-progress-updated .goal-fill::after {
+    inset: 0 0 0 auto;
+    width: min(100%, 156px);
+    background: linear-gradient(90deg, transparent 8%, #fff6 72%, #fff4cb 100%);
+    animation: goal-seal-progress .85s ease-out both;
+  }
+  .goal-chase .goal-study.is-progress-updated .goal-marker::after {
+    inset: -3px -9px;
+    animation: goal-lock-edge .7s ease-out both;
+  }
+
+  .goal-chase #goal-time-bar:not([data-empty]) .goal-time-fragments {
+    display: block;
     position: absolute;
-    inset: -3px -5px;
-    border: 1px solid var(--signal);
-    border-radius: 99px;
-    box-shadow: 0 0 9px color-mix(in srgb, var(--signal) 58%, transparent);
+    inset: 0 auto 0 0;
+    width: calc(100% - var(--width));
+    border-radius: inherit;
+    overflow: hidden;
     pointer-events: none;
-    animation: goal-chase-beacon 2.4s cubic-bezier(.18,.64,.33,1) infinite;
+    transition: width .55s cubic-bezier(.18,.79,.28,1);
   }
-  .goal-chase .goal-time .goal-marker::before { animation-delay: -.8s; }
-
-  .goal-chase-gap[data-order="ahead"] span::before,
-  .goal-chase-gap[data-order="behind"] span::before {
-    --flow-span: 24px;
-    content: "";
+  .goal-time-fragments i {
     position: absolute;
-    inset: 0;
-    background: linear-gradient(130deg, transparent 36%, #b1e8fa42 48%, transparent 60%) 0 / var(--flow-span) 100%;
-    animation: goal-rail-flow 1.3s linear infinite;
+    top: var(--origin, 50%);
+    right: 0;
+    width: var(--size, 3px);
+    height: var(--size, 3px);
+    border-radius: 25%;
+    background: #cbeeff;
+    box-shadow: 0 0 6px #9ad9ffb3;
+    animation: goal-erode-time var(--falloff, 2.5s) var(--phase, -.2s) ease-out infinite;
   }
-  .goal-chase-gap[data-order="ahead"] span::before {
-    background-image: linear-gradient(130deg, transparent 36%, #ffe1a94a 48%, transparent 60%);
-  }
-  .goal-chase .is-progress-updated .goal-marker::after { animation-name: goal-chase-boost; }
+  .goal-time-fragments i:nth-child(2) { --origin: 31%; --drift: -46px, 1px; --phase: -1.2s; --falloff: 2.8s; }
+  .goal-time-fragments i:nth-child(3) { --origin: 59%; --drift: -36px, 4px; --phase: -1.9s; --size: 2px; }
+  .goal-time-fragments i:nth-child(4) { --origin: 69%; --drift: -62px, 4px; --phase: -.7s; --falloff: 2.3s; }
+  .goal-time-fragments i:nth-child(5) { --origin: 41%; --drift: -83px, -6px; --phase: -1.6s; --size: 2px; }
 }
 
-@keyframes goal-chase-beacon {
-  0% { opacity: 0; transform: scale(.65, .85); }
-  17% { opacity: .76; }
-  65%, 100% { opacity: 0; transform: scale(2.55, 1.4); }
+@keyframes goal-gather-light {
+  0% { opacity: 0; transform: translateX(-47%) scaleY(1); }
+  22% { opacity: .84; }
+  73% { opacity: .95; transform: translateX(0) scaleY(.43); }
+  84%, 100% { opacity: 0; transform: scaleY(.12); }
 }
-@keyframes goal-chase-boost {
-  0% { opacity: 0; transform: scale(.6); }
+@keyframes goal-warm-edge {
+  0%, 100% { box-shadow: 0 0 8px #ebbb707a; }
+  42% { box-shadow: 0 0 10px 1px #ebbb7090; }
+  74% { box-shadow: 0 0 14px 3px #f8c478b8; }
+}
+@keyframes goal-seal-progress {
+  0% { opacity: 0; transform: translateX(-42%); }
   24% { opacity: 1; }
-  100% { opacity: 0; transform: scale(3.35, 1.6); }
+  64% { opacity: .85; transform: translateX(0); }
+  100% { opacity: 0; transform: translateX(0); }
+}
+@keyframes goal-lock-edge {
+  0% { opacity: 0; transform: scaleX(2.35); }
+  38% { opacity: 1; }
+  100% { opacity: 0; transform: scaleX(.36); }
+}
+@keyframes goal-erode-time {
+  0% { opacity: 0; transform: translate(0, 0) scale(1.25); }
+  16% { opacity: .94; }
+  82%, 100% { opacity: 0; transform: translate(var(--drift, -74px, -3px)) scale(.23); }
 }
 
 .goal-chase-controls {

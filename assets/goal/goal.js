@@ -151,17 +151,18 @@
 
     function updatePace(study, remaining) {
       const position = pace(study, remaining);
-      pacePanel.dataset.order = position?.order ?? 'unset';
+      const order = position?.order ?? 'unset';
+      pacePanel.dataset.order = order;
+      gapMarker.dataset.order = order;
       if (!position) {
         paceSummary.textContent = '等待截止日期';
         paceNote.textContent = '设置后可比较学习节奏';
         gapMarker.style.setProperty('--gap-width', '0%');
         return;
       }
-      const {elapsed, gap, order} = position;
+      const {elapsed, gap} = position;
       paceSummary.textContent = order === 'even' ? '进度同步' : (order === 'ahead' ? '领先 ' : '落后 ') + gap + ' 个百分点';
       paceNote.textContent = '按均匀投入估算';
-      gapMarker.dataset.order = order;
       gapMarker.style.setProperty('--gap-start', (Math.min(study, elapsed) * 100) + '%');
       gapMarker.style.setProperty('--gap-width', (Math.abs(study - elapsed) * 100) + '%');
     }

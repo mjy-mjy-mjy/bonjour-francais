@@ -21,8 +21,8 @@
   <script src="verb-data.js?v=1538f3b01d82" defer></script>
   <link rel="stylesheet" href="verb-knowledge.css?v=cee270b80e63">
   <script src="verb-knowledge.js?v=890686e9ebd6" defer></script>
-  <link rel="stylesheet" href="assets/goal/goal.css?v=53a978d93c8a">
-  <script src="assets/goal/goal.js?v=a798a4109f68" defer></script>
+  <link rel="stylesheet" href="assets/goal/goal.css?v=8737bbb475a1">
+  <script src="assets/goal/goal.js?v=eaa3dd45fbb9" defer></script>
   <script src="app.js?v=84385f621a1b" defer></script>
 </head>
 <body>
@@ -124,7 +124,11 @@
               <button type="button" class="goal-action goal-date" data-goal-action="dates"><svg class="icon" aria-hidden="true"><use href="#goal-i-calendar"/></svg><span id="goal-date-label">选择截止日期</span></button>
             </div>
             <div class="goal-scale">
-              <div class="goal-rail" id="goal-time-bar" role="progressbar" aria-label="剩余时间比例" aria-valuemin="0" aria-valuemax="100" aria-valuetext="待设置截止日期"><div class="goal-fill"></div><span class="goal-marker"></span></div>
+              <div class="goal-rail" id="goal-time-bar" role="progressbar" aria-label="剩余时间比例" aria-valuemin="0" aria-valuemax="100" aria-valuetext="待设置截止日期">
+                <div class="goal-fill"></div>
+                <span class="goal-time-fragments" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+                <span class="goal-marker"></span>
+              </div>
               <div class="goal-ticks" aria-hidden="true"></div>
               <div class="goal-labels goal-dates"><span>开始 <time id="goal-start-label"></time></span><span>截止 <time id="goal-end-label">待设置</time></span></div>
             </div>
