@@ -414,7 +414,6 @@ body.goal-active { background: #0c111e; }
 
 .goal-chase .goal-rail {
   height: clamp(12px, 2.3vh, 32px);
-  --flow-span: clamp(128px, 17vw, 255px);
 }
 
 .goal-chase .goal-study .goal-rail { grid-row: 4; }
@@ -446,6 +445,69 @@ body.goal-active { background: #0c111e; }
   border-left-color: #9bdbedb8;
   border-right-color: #eac389a8;
   background: linear-gradient(90deg, #9bdbed2b, #eac3892b);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .goal-chase .goal-rail {
+    --flow-span: clamp(164px, 27vw, 360px);
+    --flow-duration: 2.65s;
+  }
+  .goal-chase .goal-time .goal-rail { --flow-duration: 3.6s; }
+
+  .goal-chase .goal-rail::before {
+    --trail: color-mix(in srgb, var(--signal) 84%, transparent);
+    height: clamp(4px, 42%, 10px);
+  }
+  .goal-chase .goal-fill::before { --trail: #fffb; }
+  .goal-chase .goal-rail::before,
+  .goal-chase .goal-fill::before {
+    background-image:
+      radial-gradient(ellipse 11px 2px at 73% 50%, #fff 14%, var(--trail) 40%, transparent 100%),
+      radial-gradient(ellipse 2px 1px at 54% 29%, var(--trail) 25%, transparent 100%),
+      radial-gradient(ellipse 4px 1px at 64% 71%, var(--trail) 18%, transparent 100%),
+      radial-gradient(ellipse 43px 36% at 68% 50%, var(--trail), transparent),
+      linear-gradient(90deg, transparent 18%, var(--trail) 70%, transparent 78%);
+    background-size: var(--flow-span) 100%;
+  }
+  .goal-chase .goal-time .goal-rail::before,
+  .goal-chase .goal-time .goal-fill::before { animation-delay: -.95s; }
+
+  .goal-chase .goal-marker::before {
+    content: "";
+    position: absolute;
+    inset: -3px -5px;
+    border: 1px solid var(--signal);
+    border-radius: 99px;
+    box-shadow: 0 0 9px color-mix(in srgb, var(--signal) 58%, transparent);
+    pointer-events: none;
+    animation: goal-chase-beacon 2.4s cubic-bezier(.18,.64,.33,1) infinite;
+  }
+  .goal-chase .goal-time .goal-marker::before { animation-delay: -.8s; }
+
+  .goal-chase-gap[data-order="ahead"] span::before,
+  .goal-chase-gap[data-order="behind"] span::before {
+    --flow-span: 24px;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(130deg, transparent 36%, #b1e8fa42 48%, transparent 60%) 0 / var(--flow-span) 100%;
+    animation: goal-rail-flow 1.3s linear infinite;
+  }
+  .goal-chase-gap[data-order="ahead"] span::before {
+    background-image: linear-gradient(130deg, transparent 36%, #ffe1a94a 48%, transparent 60%);
+  }
+  .goal-chase .is-progress-updated .goal-marker::after { animation-name: goal-chase-boost; }
+}
+
+@keyframes goal-chase-beacon {
+  0% { opacity: 0; transform: scale(.65, .85); }
+  17% { opacity: .76; }
+  65%, 100% { opacity: 0; transform: scale(2.55, 1.4); }
+}
+@keyframes goal-chase-boost {
+  0% { opacity: 0; transform: scale(.6); }
+  24% { opacity: 1; }
+  100% { opacity: 0; transform: scale(3.35, 1.6); }
 }
 
 .goal-chase-controls {
