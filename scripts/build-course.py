@@ -35,7 +35,7 @@ import hashlib
 import re
 index = ROOT / 'index.html'
 page = index.read_text(encoding='utf-8')
-for asset in ['grammar-data.js', 'verb-data.js', 'verb-knowledge.js', 'verb-knowledge.css', 'styles.css', 'content.js', 'course.js', 'lesson14.js', 'app.js', 'knowledge-map.js', 'knowledge-map.css', 'skill-tree-data.js', 'skill-tree.js', 'skill-tree.css']:
+for asset in ['assets/goal/goal.css', 'assets/goal/goal.js', 'grammar-data.js', 'verb-data.js', 'verb-knowledge.js', 'verb-knowledge.css', 'styles.css', 'content.js', 'course.js', 'lesson14.js', 'app.js', 'knowledge-map.js', 'knowledge-map.css', 'skill-tree-data.js', 'skill-tree.js', 'skill-tree.css']:
     digest = hashlib.sha256((ROOT / asset).read_bytes()).hexdigest()[:12]
     page = re.sub(r'(["\'])' + re.escape(asset) + r'(?:\?v=[a-f0-9]+)?(["\'])',
                   lambda match: match[1] + asset + '?v=' + digest + match[2], page)
