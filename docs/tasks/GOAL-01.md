@@ -56,4 +56,6 @@
 
 浏览器核对了桌面与 320 × 568、390 × 844、2560 × 1440 嵌入视口中的边界对齐、记时点亮、撤销、到期与清空截止日期。课程构建、公开资源与课程检查、脚本语法、158 项 Node 测试和 4 项 Python 测试通过。[桌面示例](../visuals/GOAL-01/chase-gain-and-erosion.jpg)
 
+积累与消磨动效提交 `7a78233` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44301803034)部署成功，正式页面已核对两套动效样式。
+
 [返回项目进度](../PROGRESS.md)
