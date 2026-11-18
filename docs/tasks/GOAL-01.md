@@ -24,4 +24,6 @@
 
 课程构建、公开资源与课程检查、脚本语法、157 项 Node 测试及 4 项 Python 测试通过。2560 × 1440 和 390 × 844 浏览器视口检查了快捷记时、自定义时长和修改截止日期。320 × 568 视口验证了刷新恢复、撤销和无横向溢出。
 
+动效提交 `040e3d3` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44254440094)完成部署，正式页面已确认加载新版动效资源。
+
 [返回项目进度](../PROGRESS.md)
