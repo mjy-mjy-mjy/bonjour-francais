@@ -40,4 +40,6 @@
 
 顶部可切到原版 `#goal/classic`，两版共用学时和日期。追赶视图把记时、撤销和日期快捷入口放在底部。课程构建、公开资源与课程检查、脚本语法、158 项 Node 测试和 4 项 Python 测试通过。浏览器验证了新增学时缩短落后差距、原版共享数据、撤销，及 320 × 568、390 × 844、2560 × 1440 三种视口的布局与双轨对齐。[桌面示例截图](../visuals/GOAL-01/chase-desktop.jpg)
 
+追赶视图提交 `cd01dfd` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44261779197)部署成功，正式页面已核对默认布局、两条轨道对齐、底部控件及循环动画。
+
 [返回项目进度](../PROGRESS.md)
