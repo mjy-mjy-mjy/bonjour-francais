@@ -102,7 +102,7 @@
     const oldTitle = document.title;
     let goal = initial;
     let original = goal;
-    let clock, toast, pulse;
+    let clock, toast;
     let savingForm = false;
 
     document.body.classList.add('goal-active');
@@ -191,20 +191,19 @@
       firstField.focus();
     }
 
-    function flash() {
-      const panel = board.querySelector('.goal-study');
-      panel.classList.remove('is-recorded');
+    function flash(rail) {
+      const panel = rail.closest('.goal-panel');
+      panel.classList.remove('is-progress-updated');
+      // Reapply the one-shot animation on each saved entry, even during a previous sweep.
       void panel.offsetWidth;
-      panel.classList.add('is-recorded');
-      clearTimeout(pulse);
-      pulse = setTimeout(() => panel.classList.remove('is-recorded'), 680);
+      panel.classList.add('is-progress-updated');
     }
 
     async function log(minutes) {
       const id = globalThis.crypto?.randomUUID?.() ?? Date.now() + '-' + Math.random();
       await commit(current => addEntry(current, minutes, id));
       if (abort.signal.aborted) return;
-      flash();
+      flash(studyBar);
       announce('已记入 ' + (minutes % 60 ? minutes + ' 分钟' : (minutes / 60) + ' 小时'));
     }
 
@@ -256,8 +255,12 @@
             deadline: settings.elements.deadline.value
           };
           const baseline = original;
+          const previous = goal;
           await commit(current => editGoal(current, baseline, draft));
-          if (!abort.signal.aborted) announce('目标设置已保存');
+          if (!abort.signal.aborted) {
+            if (goal.deadline && (goal.startDate !== previous.startDate || goal.deadline !== previous.deadline)) flash(timeBar);
+            announce('目标设置已保存');
+          }
         }
         if (!abort.signal.aborted && dialog.open) dialog.close();
       } catch (error) { errorLabel.textContent = storageError(error); }
@@ -281,7 +284,7 @@
 
     release = () => {
       abort.abort();
-      clearTimeout(clock); clearTimeout(toast); clearTimeout(pulse);
+      clearTimeout(clock); clearTimeout(toast);
       if (dialog.open) dialog.close();
       document.body.classList.remove('goal-active');
       document.title = oldTitle;
