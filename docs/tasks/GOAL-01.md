@@ -48,4 +48,6 @@
 
 浏览器核对了 320 × 568、390 × 844 和 2560 × 1440 三种视口的双轨对齐、循环动效、记入学时、撤销与刷新恢复。课程构建、公开资源与课程检查、脚本语法、158 项 Node 测试和 4 项 Python 测试通过。[桌面示例](../visuals/GOAL-01/chase-light-trails.jpg)
 
+增强动效提交 `4530723` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44300019013)部署成功，正式页面已核对两条轨道的新版拖尾与循环光圈。
+
 [返回项目进度](../PROGRESS.md)
