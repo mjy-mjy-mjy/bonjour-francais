@@ -32,4 +32,6 @@
 
 在 2560 × 1440 和 390 × 844 浏览器视口验证两条动效在静置跨过完整周期后仍在移动。另核对了零学时、截止日未设置时的流光及窄屏宽度。构建、课程与公开资源检查、脚本语法、157 项 Node 测试及 4 项 Python 测试通过。
 
+持续流光提交 `aadfcd8` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44255840278)部署成功，正式页面已核对两条动画均为循环播放。
+
 [返回项目进度](../PROGRESS.md)
