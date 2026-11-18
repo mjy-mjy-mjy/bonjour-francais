@@ -83,9 +83,17 @@
     return (fraction >= 1 ? 100 : Math.min(99.9, fraction * 100)).toFixed(1);
   }
 
+  function pace(study, remaining) {
+    if (remaining === null) return null;
+    const elapsed = 1 - remaining;
+    const gap = (Math.abs(study - elapsed) * 100).toFixed(1);
+    const order = Number(gap) === 0 ? 'even' : study > elapsed ? 'ahead' : 'behind';
+    return {elapsed, gap, order};
+  }
+
   let release = null;
 
-  function mount(container) {
+  function mount(container, view) {
     container.replaceChildren(document.getElementById('goal-template').content.cloneNode(true));
     const board = container.querySelector('#goal-board');
     const byId = id => board.querySelector('#' + id);
@@ -96,6 +104,12 @@
     const full = action('fullscreen');
     const studyBar = byId('goal-study-bar');
     const timeBar = byId('goal-time-bar');
+    const chase = view !== 'classic';
+    const layoutLink = byId('goal-layout-link');
+    const pacePanel = byId('goal-chase-pace');
+    const paceSummary = byId('goal-pace-summary');
+    const paceNote = byId('goal-pace-note');
+    const gapMarker = byId('goal-chase-gap');
     const abort = new AbortController();
     const listen = (element, event, callback) => element.addEventListener(event, callback, {signal: abort.signal});
     const initial = freshGoal(localDate());
@@ -107,6 +121,18 @@
 
     document.body.classList.add('goal-active');
     document.title = 'NCLC 7 目标 · Bonjour Français';
+
+    if (chase) {
+      board.classList.add('goal-chase');
+      pacePanel.hidden = false;
+      gapMarker.hidden = false;
+      const controls = byId('goal-chase-controls');
+      controls.append(board.querySelector('.goal-controls'), action('dates'));
+      controls.hidden = false;
+    } else {
+      layoutLink.href = '#goal';
+      layoutLink.textContent = '追赶视图';
+    }
 
     function announce(message, persistent = false) {
       const status = byId('goal-status');
@@ -123,6 +149,23 @@
       rail.style.setProperty('--width', ((fraction ?? 0) * 100) + '%');
     }
 
+    function updatePace(study, remaining) {
+      const position = pace(study, remaining);
+      pacePanel.dataset.order = position?.order ?? 'unset';
+      if (!position) {
+        paceSummary.textContent = '等待截止日期';
+        paceNote.textContent = '设置后可比较学习节奏';
+        gapMarker.style.setProperty('--gap-width', '0%');
+        return;
+      }
+      const {elapsed, gap, order} = position;
+      paceSummary.textContent = order === 'even' ? '进度同步' : (order === 'ahead' ? '领先 ' : '落后 ') + gap + ' 个百分点';
+      paceNote.textContent = '按均匀投入估算';
+      gapMarker.dataset.order = order;
+      gapMarker.style.setProperty('--gap-start', (Math.min(study, elapsed) * 100) + '%');
+      gapMarker.style.setProperty('--gap-width', (Math.abs(study - elapsed) * 100) + '%');
+    }
+
     function paint() {
       const {study, remaining, days, state} = measures(goal);
       const total = hoursFormat.format(goal.totalMinutes / 60);
@@ -132,7 +175,8 @@
       byId('goal-target').textContent = target;
       byId('goal-days').textContent = days === null ? '—' : String(days);
       const timeNote = {unconfigured: '选择截止日期，开始倒计时', overdue: '计划日期已过', due: '今天到期', scheduled: '计划尚未开始'};
-      byId('goal-time-detail').textContent = timeNote[state] || '计划时间剩余 ' + percent(remaining) + '%';
+      byId('goal-time-detail').textContent = timeNote[state] ||
+        (chase ? '计划时间已过 ' + percent(1 - remaining) + '%' : '计划时间剩余 ' + percent(remaining) + '%');
       byId('goal-date-label').textContent = goal.deadline ? '调整日期' : '选择截止日期';
       for (const [id, value] of [['goal-start-label', goal.startDate], ['goal-end-label', goal.deadline]]) {
         const label = byId(id);
@@ -147,6 +191,7 @@
       undo.setAttribute('aria-label', undoText);
       updateRail(studyBar, study, '已学 ' + total + ' 小时，目标 ' + target + ' 小时');
       updateRail(timeBar, remaining, days === null ? '待设置截止日期' : '剩余 ' + days + ' 天');
+      if (chase) updatePace(study, remaining);
     }
 
     function storageError(error) {
@@ -195,7 +240,7 @@
       const panel = rail.closest('.goal-panel');
       panel.classList.remove('is-progress-updated');
       // Reapply the one-shot animation on each saved entry, even during a previous sweep.
-      void panel.offsetWidth;
+      void rail.offsetWidth;
       panel.classList.add('is-progress-updated');
     }
 
@@ -296,7 +341,7 @@
   }
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = {key, freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, localDate};
+    module.exports = {key, freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, localDate, pace};
   } else {
     window.FRENCH_GOAL = {mount, unmount};
   }

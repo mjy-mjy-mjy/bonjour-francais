@@ -21,9 +21,9 @@
   <script src="verb-data.js?v=1538f3b01d82" defer></script>
   <link rel="stylesheet" href="verb-knowledge.css?v=cee270b80e63">
   <script src="verb-knowledge.js?v=890686e9ebd6" defer></script>
-  <link rel="stylesheet" href="assets/goal/goal.css?v=bd66b4d0cc9f">
-  <script src="assets/goal/goal.js?v=9f2b01d05cc9" defer></script>
-  <script src="app.js?v=e89836a9063a" defer></script>
+  <link rel="stylesheet" href="assets/goal/goal.css?v=c346a38c2574">
+  <script src="assets/goal/goal.js?v=a798a4109f68" defer></script>
+  <script src="app.js?v=84385f621a1b" defer></script>
 </head>
 <body>
   <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
@@ -77,6 +77,7 @@
         <a class="goal-brand" href="#route" aria-label="Bonjour Français 学习手册"><span class="goal-monogram" aria-hidden="true">B.</span><span lang="fr">Bonjour Français</span></a>
         <div class="goal-menu">
           <a class="goal-back" href="#route"><svg class="icon" aria-hidden="true"><use href="#goal-i-back"/></svg>学习手册</a>
+          <a class="goal-tool goal-layout-link" id="goal-layout-link" href="#goal/classic">原版</a>
           <button type="button" class="goal-tool" data-goal-action="settings"><svg class="icon" aria-hidden="true"><use href="#goal-i-settings"/></svg>目标设置</button>
           <button type="button" class="goal-tool goal-icon-button" data-goal-action="fullscreen" aria-label="进入全屏" title="进入全屏" hidden><svg class="icon" aria-hidden="true"><use href="#goal-i-expand"/></svg></button>
         </div>
@@ -86,49 +87,57 @@
           <span class="goal-kicker"><span class="goal-flag" aria-hidden="true"></span>法语学习目标</span>
           <h1 lang="fr"><i>Objectif</i> NCLC 7</h1>
         </header>
-        <section class="goal-panel goal-study" aria-labelledby="goal-study-title">
-          <div class="goal-panel-head">
-            <h2 id="goal-study-title"><span class="goal-section-icon"><svg class="icon" aria-hidden="true"><use href="#goal-i-hours"/></svg></span>学习进度</h2>
-            <span class="goal-caption" lang="fr">Progression</span>
-          </div>
-          <div class="goal-metric-row">
-            <div class="goal-reading">
-              <div class="goal-metric"><span id="goal-percent">0.0</span><span class="goal-unit">%</span></div>
-              <p class="goal-detail">已学 <strong id="goal-total">0</strong><span class="goal-slash">/</span><span id="goal-target">1,000</span> 小时</p>
+        <div class="goal-lanes">
+          <section class="goal-panel goal-study" aria-labelledby="goal-study-title">
+            <div class="goal-panel-head">
+              <h2 id="goal-study-title"><span class="goal-section-icon"><svg class="icon" aria-hidden="true"><use href="#goal-i-hours"/></svg></span>学习进度</h2>
+              <span class="goal-caption" lang="fr">Progression</span>
             </div>
-            <div class="goal-controls" role="group" aria-label="记录学习时长">
-              <button type="button" class="goal-action goal-primary" data-goal-action="one">+1 小时</button>
-              <button type="button" class="goal-action" data-goal-action="two">+2 小时</button>
-              <button type="button" class="goal-action" data-goal-action="custom">自定义</button>
-              <button type="button" class="goal-action goal-icon-button" data-goal-action="undo" aria-label="撤销上次记录" title="撤销上次记录" disabled><svg class="icon" aria-hidden="true"><use href="#goal-i-undo"/></svg></button>
+            <div class="goal-metric-row">
+              <div class="goal-reading">
+                <div class="goal-metric"><span id="goal-percent">0.0</span><span class="goal-unit">%</span></div>
+                <p class="goal-detail">已学 <strong id="goal-total">0</strong><span class="goal-slash">/</span><span id="goal-target">1,000</span> 小时</p>
+              </div>
+              <div class="goal-controls" role="group" aria-label="记录学习时长">
+                <button type="button" class="goal-action goal-primary" data-goal-action="one">+1 小时</button>
+                <button type="button" class="goal-action" data-goal-action="two">+2 小时</button>
+                <button type="button" class="goal-action" data-goal-action="custom">自定义</button>
+                <button type="button" class="goal-action goal-icon-button" data-goal-action="undo" aria-label="撤销上次记录" title="撤销上次记录" disabled><svg class="icon" aria-hidden="true"><use href="#goal-i-undo"/></svg></button>
+              </div>
             </div>
-          </div>
-          <div class="goal-scale">
-            <div class="goal-rail" id="goal-study-bar" role="progressbar" aria-label="学时目标完成度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="goal-fill"></div><span class="goal-marker"></span></div>
-            <div class="goal-ticks" aria-hidden="true"></div>
-            <div class="goal-labels goal-percents" aria-hidden="true"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span></div>
-          </div>
-        </section>
-        <section class="goal-panel goal-time" aria-labelledby="goal-time-title">
-          <div class="goal-panel-head">
-            <h2 id="goal-time-title"><span class="goal-section-icon"><svg class="icon" aria-hidden="true"><use href="#goal-i-time"/></svg></span>剩余时间</h2>
-            <span class="goal-caption" lang="fr">Temps restant</span>
-          </div>
-          <div class="goal-metric-row">
-            <div class="goal-reading">
-              <div class="goal-metric"><span id="goal-days">—</span><span class="goal-unit goal-day-unit">天</span></div>
-              <p class="goal-detail" id="goal-time-detail">选择截止日期，开始倒计时</p>
+            <div class="goal-scale">
+              <div class="goal-rail" id="goal-study-bar" role="progressbar" aria-label="学时目标完成度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="goal-fill"></div><span class="goal-marker"></span></div>
+              <div class="goal-ticks" aria-hidden="true"></div>
+              <div class="goal-labels goal-percents" aria-hidden="true"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span></div>
             </div>
-            <button type="button" class="goal-action goal-date" data-goal-action="dates"><svg class="icon" aria-hidden="true"><use href="#goal-i-calendar"/></svg><span id="goal-date-label">选择截止日期</span></button>
+          </section>
+          <section class="goal-panel goal-time" aria-labelledby="goal-time-title">
+            <div class="goal-panel-head">
+              <h2 id="goal-time-title"><span class="goal-section-icon"><svg class="icon" aria-hidden="true"><use href="#goal-i-time"/></svg></span>剩余时间</h2>
+              <span class="goal-caption" lang="fr">Temps restant</span>
+            </div>
+            <div class="goal-metric-row">
+              <div class="goal-reading">
+                <div class="goal-metric"><span id="goal-days">—</span><span class="goal-unit goal-day-unit">天</span></div>
+                <p class="goal-detail" id="goal-time-detail">选择截止日期，开始倒计时</p>
+              </div>
+              <button type="button" class="goal-action goal-date" data-goal-action="dates"><svg class="icon" aria-hidden="true"><use href="#goal-i-calendar"/></svg><span id="goal-date-label">选择截止日期</span></button>
+            </div>
+            <div class="goal-scale">
+              <div class="goal-rail" id="goal-time-bar" role="progressbar" aria-label="剩余时间比例" aria-valuemin="0" aria-valuemax="100" aria-valuetext="待设置截止日期"><div class="goal-fill"></div><span class="goal-marker"></span></div>
+              <div class="goal-ticks" aria-hidden="true"></div>
+              <div class="goal-labels goal-dates"><span>开始 <time id="goal-start-label"></time></span><span>截止 <time id="goal-end-label">待设置</time></span></div>
+            </div>
+          </section>
+          <div class="goal-chase-gap" id="goal-chase-gap" aria-hidden="true" hidden><span></span></div>
+          <div class="goal-chase-pace" id="goal-chase-pace" hidden>
+            <strong id="goal-pace-summary">等待截止日期</strong>
+            <span id="goal-pace-note">设置后可比较学习节奏</span>
           </div>
-          <div class="goal-scale">
-            <div class="goal-rail" id="goal-time-bar" role="progressbar" aria-label="剩余时间比例" aria-valuemin="0" aria-valuemax="100" aria-valuetext="待设置截止日期"><div class="goal-fill"></div><span class="goal-marker"></span></div>
-            <div class="goal-ticks" aria-hidden="true"></div>
-            <div class="goal-labels goal-dates"><span>开始 <time id="goal-start-label"></time></span><span>截止 <time id="goal-end-label">待设置</time></span></div>
-          </div>
-        </section>
-        <p class="goal-status" role="status" aria-live="polite" id="goal-status"></p>
+        </div>
       </div>
+      <div class="goal-chase-controls" id="goal-chase-controls" hidden></div>
+      <p class="goal-status" role="status" aria-live="polite" id="goal-status"></p>
       <dialog class="goal-dialog" id="goal-dialog" aria-labelledby="goal-dialog-title">
         <div class="goal-sheet">
           <div class="goal-dialog-head"><h2 id="goal-dialog-title">目标设置</h2><button type="button" class="goal-tool goal-icon-button" data-goal-action="close" aria-label="关闭"><svg class="icon" aria-hidden="true"><use href="#goal-i-close"/></svg></button></div>

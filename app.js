@@ -294,7 +294,7 @@ function render() {
   window.FRENCH_GOAL?.unmount();
   cancelAnimationFrame(readingFrame);readingRestoring=false;activeReadingHash='';window.VERB_KNOWLEDGE?.unmount();window.KNOWLEDGE_MAP?.unmount();window.SKILL_TREE?.unmount();clearSearch(false);setNavigationOpen(false);const [page,arg,section]=(location.hash.slice(1)||'route').split('/');document.body?.classList[page==='map'?'add':'remove']('map-active');document.body?.classList[page==='skills'?'add':'remove']('skills-active');if(!suppressVisitTracking&&(page==='lesson'||(categories.slice(1,8).some(c=>c[0]===page)&&courses.has(Number(arg)))))rememberLearningLesson(Number(arg));suppressVisitTracking=false;main.className=page==='lesson'||categories.slice(1,8).some(c=>c[0]===page)?'reading-page':'';document.getElementById('page-location').textContent=page==='lesson'?`A1 / 第 ${arg} 课`:page==='verbs'?'知识库 / 动词变位':page==='settings'?'学习记录与备份':`A1 / ${categories.find(c=>c[0]===page)?.[1]||'学习路线'}`;navigation(page==='lesson'?'route':page);document.getElementById('search').value='';
   if(page==='goal' && window.FRENCH_GOAL) {
-    window.FRENCH_GOAL.mount(main);
+    window.FRENCH_GOAL.mount(main, arg);
     updateReadingTools();
     return;
   }
