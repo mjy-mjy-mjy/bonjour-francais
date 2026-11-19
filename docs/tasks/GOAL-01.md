@@ -88,4 +88,6 @@
 
 浏览器核对了红线移除、毫秒变化、红框动效及追赶视图往返。320 × 568、390 × 844 和 2560 × 1440 视口中五组数字均保持横排。构建、站点检查、脚本语法、160 项 Node 测试与 4 项 Python 测试通过。[桌面示例](../visuals/GOAL-01/countdown-no-track.jpg)
 
+移除逐秒消耗线的提交 `f80f2da` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44471057014)部署成功，线上已核对五组数字及消耗线已移除。
+
 [返回项目进度](../PROGRESS.md)
