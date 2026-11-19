@@ -80,4 +80,6 @@
 
 浏览器核对了 320 × 568、390 × 844 和 2560 × 1440 视口，含最窄视口的七位天数；数字对齐且无横向溢出。验证了最后一天的节奏、毫秒与消耗线同步、归零及往返追赶视图。构建、站点检查、脚本语法、160 项 Node 测试与 4 项 Python 测试通过。[桌面示例](../visuals/GOAL-01/countdown-single-row.jpg)
 
+横排倒计时提交 `3f3ebd3` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44470440816)部署成功，通过带版本参数的线上链接核对了五组数字同排与新资源指纹。
+
 [返回项目进度](../PROGRESS.md)
