@@ -72,4 +72,6 @@
 
 浏览器核对了毫秒与红线同步、最后一天和最后一小时的周期（最后一小时使用本地模拟时钟）、归零、清除和恢复日期及返回追赶视图后原学时记录。320 × 568、390 × 844 和 2560 × 1440 视口均能容纳数字和工具栏。课程构建、公开资源与课程检查、脚本语法、160 项 Node 测试与 4 项 Python 测试通过。[桌面示例](../visuals/GOAL-01/countdown-pressure-desktop.jpg)
 
+倒计时动效提交 `1266251` 已进入 main。[GitHub Pages 工作流](https://github.com/mjy-mjy-mjy/bonjour-francais/actions/runs/44454964853)部署成功，正式页面已核对新版倒计时入口及资源指纹。
+
 [返回项目进度](../PROGRESS.md)
