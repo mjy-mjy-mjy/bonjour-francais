@@ -593,13 +593,31 @@ body.goal-active { background: #0c111e; }
 
 .goal-countdown {
   --goal-gutter: clamp(14px, 4vw, 112px);
-  background: #0e0a0b;
+  --pressure-beat: 2.4s;
+  --pressure-base: .56;
+  --pressure-peak: .88;
+  --pressure-light: #ff5c41;
+  --pressure-edge: #e9311f;
+  background: #100607;
   color: #fae9df;
+}
+.goal-countdown[data-countdown-state="final-day"] {
+  --pressure-beat: 1.5s;
+  --pressure-base: .69;
+  --pressure-peak: .97;
+  --pressure-light: #ff4937;
+}
+.goal-countdown[data-countdown-state="final-hour"] {
+  --pressure-beat: .9s;
+  --pressure-base: .8;
+  --pressure-peak: 1;
+  --pressure-light: #ff3e38;
+  --pressure-edge: #ff2b22;
 }
 .goal-countdown .goal-top {
   min-height: 58px;
   padding-block: 8px;
-  background: #120c0ddb;
+  background: #120809;
   border-color: #ffc0aa20;
 }
 .goal-countdown .goal-brand,
@@ -616,104 +634,130 @@ body.goal-active { background: #0c111e; }
   isolation: isolate;
   display: grid;
   place-items: center;
+  overflow: clip;
   padding: clamp(24px, 6vh, 96px) var(--goal-gutter);
   background:
-    radial-gradient(ellipse at 51% 63%, #321412 0%, #160d10 46%, transparent 72%),
-    #0e0a0b;
+    radial-gradient(ellipse at center, #090304 22%, #140607 63%, #2c0808),
+    #100607;
 }
 
-.goal-countdown-heat {
+.goal-countdown-pressure {
   position: absolute;
-  inset: auto 0 0;
-  height: 62%;
-  overflow: hidden;
+  inset: 0;
+  opacity: var(--pressure-base);
   pointer-events: none;
-  border-bottom: 1px solid #fd785d8c;
   background:
-    linear-gradient(to top, #b02b183a, transparent 14%),
-    radial-gradient(ellipse at 51% 104%, #9929197a, #37110a25 55%, transparent 81%);
+    radial-gradient(ellipse at 0% 50%, #d72b2366, transparent 43%),
+    radial-gradient(ellipse at 100% 50%, #d72b2366, transparent 43%),
+    radial-gradient(ellipse at 50% 102%, #b5232066, transparent 39%);
+  box-shadow: inset 0 0 clamp(28px, 6vw, 114px) #ab251c52;
 }
-.goal-countdown-heat::before,
-.goal-countdown-heat::after {
+.goal-countdown-pressure::before {
   content: "";
   position: absolute;
-  pointer-events: none;
+  inset: clamp(9px, 2.3vmin, 28px);
+  --corner: clamp(23px, 5vmin, 64px);
+  --frame-line: linear-gradient(var(--pressure-edge), var(--pressure-edge)) no-repeat;
+  background:
+    var(--frame-line) left top / var(--corner) 2px,
+    var(--frame-line) right top / var(--corner) 2px,
+    var(--frame-line) right bottom / var(--corner) 2px,
+    var(--frame-line) left bottom / var(--corner) 2px,
+    var(--frame-line) left top / 2px var(--corner),
+    var(--frame-line) right top / 2px var(--corner),
+    var(--frame-line) right bottom / 2px var(--corner),
+    var(--frame-line) left bottom / 2px var(--corner);
+  border: 1px solid #fc574226;
+  filter: drop-shadow(0 0 12px #ff3f31);
 }
-.goal-countdown-heat::before {
-  inset: 55% -6% -12%;
-  background: radial-gradient(ellipse at 51% 100%, #e54b266d, #df3b2527 46%, transparent 75%);
-  opacity: .8;
-}
-.goal-countdown-heat::after {
-  inset: 18% 0 -13%;
-  background-image:
-    radial-gradient(circle at 8% 78%, #ffb371b3 0 1px, transparent 1.6px),
-    radial-gradient(circle at 34% 50%, #fa7d49b8 0 1px, transparent 1.6px),
-    radial-gradient(circle at 52% 72%, #ffb371bd 0 1px, transparent 1.8px),
-    radial-gradient(circle at 77% 49%, #fa7d49aa 0 1px, transparent 1.6px),
-    radial-gradient(circle at 91% 84%, #ffb371aa 0 1px, transparent 1.8px);
-  background-size: min(260px, 58vw) 100%;
-  opacity: .65;
+.goal-countdown[data-countdown-state="unset"] .goal-countdown-pressure,
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-pressure { opacity: .27; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .goal-countdown:is([data-countdown-state="running"], [data-countdown-state="final-day"], [data-countdown-state="final-hour"]) .goal-countdown-pressure {
+    animation: goal-countdown-pressure var(--pressure-beat) ease-in-out infinite;
+  }
+  .goal-countdown:is([data-countdown-state="running"], [data-countdown-state="final-day"], [data-countdown-state="final-hour"]) .goal-countdown-pressure::before {
+    animation: goal-countdown-compress var(--pressure-beat) ease-in-out infinite;
+  }
 }
 
-.goal-countdown[data-countdown-state="running"] .goal-countdown-heat::before {
-  animation: goal-countdown-heat 3.8s ease-in-out infinite alternate;
+@keyframes goal-countdown-pressure {
+  0%, 100% { opacity: var(--pressure-base); }
+  46% { opacity: var(--pressure-peak); }
 }
-.goal-countdown[data-countdown-state="running"] .goal-countdown-heat::after {
-  animation: goal-countdown-embers 4.5s linear infinite;
-}
-.goal-countdown[data-countdown-state="finished"] .goal-countdown-heat,
-.goal-countdown[data-countdown-state="unset"] .goal-countdown-heat { opacity: .48; }
-.goal-countdown[data-countdown-state="finished"] .goal-countdown-heat::after,
-.goal-countdown[data-countdown-state="unset"] .goal-countdown-heat::after { content: none; }
-
-@keyframes goal-countdown-heat {
-  from { opacity: .55; transform: scaleY(.82); }
-  to { opacity: .95; transform: scaleY(1.12); }
-}
-@keyframes goal-countdown-embers {
-  0% { opacity: 0; transform: translateY(10%); }
-  24% { opacity: .72; }
-  70% { opacity: .56; }
-  100% { opacity: 0; transform: translateY(-29%); }
+@keyframes goal-countdown-compress {
+  0%, 100% { transform: scale(1); }
+  46% { transform: scale(.962, .954); }
 }
 
 .goal-countdown-readout {
   z-index: 1;
   container-type: inline-size;
-  width: min(100%, 1840px);
+  width: min(100%, 1450px);
   text-align: center;
 }
 .goal-countdown-readout h1 {
-  margin: 0 0 clamp(22px, 6vh, 72px);
+  margin: 0 0 clamp(18px, 3.7vh, 60px);
   color: #efb5a4;
-  font-size: clamp(15px, 1.45vw, 28px);
+  font-size: clamp(14px, 1.12vw, 22px);
   font-weight: 600;
-  letter-spacing: .27em;
+  letter-spacing: .23em;
 }
 .goal-countdown-digits {
+  --countdown-digit-size: min(22rem, 31vh, 25.2cqi);
+  display: grid;
+  justify-items: center;
+  font-family: var(--goal-mono);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.goal-countdown-calendar {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: .095em;
-  font-family: var(--goal-mono);
-  font-size: min(11rem, calc(151cqi / (15 + var(--countdown-extra-days, 0))));
-  font-variant-numeric: tabular-nums;
-  line-height: .98;
-  color: #ffefe2;
-  text-shadow: 0 0 .28em #ff75494d;
+  margin-bottom: clamp(18px, 4vh, 64px);
+  color: #ffe5d9;
+  font-size: clamp(22px, 4.6cqi, 68px);
 }
-.goal-countdown-unit { display: grid; gap: clamp(10px, 2.5vh, 28px); }
+.goal-countdown-calendar .goal-countdown-unit {
+  padding-inline: clamp(16px, 3.1cqi, 45px);
+  min-width: 2.3em;
+}
+.goal-countdown-calendar .goal-countdown-unit + .goal-countdown-unit { border-inline-start: 1px solid #e34e3d50; }
+.goal-countdown-unit { display: grid; gap: clamp(7px, 1.4vh, 16px); }
 .goal-countdown-unit b { font-weight: 700; }
 .goal-countdown-unit small {
-  color: #d3a79b;
-  font: 550 clamp(10px, 1.08vw, 18px)/1.3 var(--font-body);
-  letter-spacing: .14em;
+  color: #ebada0;
+  font: 550 clamp(12px, 1.12vw, 17px)/1.3 var(--font-body);
+  letter-spacing: .15em;
 }
-.goal-countdown-separator { color: #a95343; }
-.goal-countdown-fast { color: #ff7658; text-shadow: 0 0 .28em #ff593a75; }
-.goal-countdown-fraction { color: #ff9c7c; }
-.goal-countdown-dot { color: #d6614b; }
+.goal-countdown-clock {
+  display: flex;
+  align-items: flex-start;
+  font-size: var(--countdown-digit-size);
+  line-height: .86;
+  color: var(--pressure-light);
+  text-shadow: 0 0 .18em #e5281e76, 0 0 .5em #b91b3652;
+}
+.goal-countdown-clock b { letter-spacing: -.045em; }
+.goal-countdown-dot { margin-inline: -.07em; color: #ec4637; }
+.goal-countdown-clock .goal-countdown-unit:last-child { color: #ff8871; }
+.goal-countdown-second-track {
+  width: min(100%, calc(var(--countdown-digit-size) * 3.3));
+  height: 3px;
+  margin-top: clamp(16px, 3.5vh, 38px);
+  background: #ff675025;
+}
+.goal-countdown-second-track i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #a1241b, #ff654a 75%, #ffc0a5);
+  box-shadow: 0 0 12px #ee4c3da8;
+  transform-origin: left;
+}
+@media (prefers-reduced-motion: reduce) {
+  .goal-countdown-second-track { visibility: hidden; }
+}
 
 .goal-countdown-deadline {
   margin: clamp(25px, 5.5vh, 64px) 0 0;
@@ -732,8 +776,9 @@ body.goal-active { background: #0c111e; }
   clip-path: inset(50%);
   white-space: nowrap;
 }
-.goal-countdown[data-countdown-state="finished"] .goal-countdown-fast,
-.goal-countdown[data-countdown-state="finished"] .goal-countdown-separator { color: #db8d79; }
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-clock,
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-clock .goal-countdown-unit,
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-dot { color: #c18578; text-shadow: none; }
 
 @media (max-width: 475px) {
   .goal-chase .goal-top { padding-inline: 12px; gap: 6px; }
@@ -742,5 +787,4 @@ body.goal-active { background: #0c111e; }
   .goal-countdown-link .icon { display: none; }
   .goal-countdown .goal-top { min-height: 50px; }
   .goal-countdown .goal-top .goal-tool { font-size: 12px; }
-  .goal-countdown-digits { font-size: calc(151cqi / (15 + var(--countdown-extra-days, 0))); }
 }

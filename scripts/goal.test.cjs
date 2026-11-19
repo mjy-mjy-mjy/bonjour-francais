@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const {freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, pace, countdownParts, deadlineTime} = require('../assets/goal/goal.js');
+const {freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, pace, countdownParts, countdownState, deadlineTime} = require('../assets/goal/goal.js');
 const blank = freshGoal('2026-11-01');
 const configured = {...blank, deadline: '2026-11-21'};
 const at = day => new Date(day + 'T00:00:00');
@@ -59,4 +59,13 @@ test('countdown keeps subsecond precision and stops at zero on the same local de
   assert.deepEqual(countdownParts(end - (end - 1)), {days: 0, hours: 0, minutes: 0, seconds: 0, milliseconds: 1});
   assert.deepEqual(countdownParts(end - (end + 1)), {days: 0, hours: 0, minutes: 0, seconds: 0, milliseconds: 0});
   assert.equal(measures(configured, new Date(end)).remaining, 0);
+});
+
+test('countdown pressure changes at the exact last day and hour boundaries', () => {
+  assert.equal(countdownState(86_400_001), 'running');
+  assert.equal(countdownState(86_400_000), 'final-day');
+  assert.equal(countdownState(3_600_001), 'final-day');
+  assert.equal(countdownState(3_600_000), 'final-hour');
+  assert.equal(countdownState(1), 'final-hour');
+  assert.equal(countdownState(0), 'finished');
 });

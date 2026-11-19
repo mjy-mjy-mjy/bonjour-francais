@@ -104,6 +104,13 @@
     };
   }
 
+  function countdownState(left) {
+    if (left <= 0) return 'finished';
+    if (left <= 3_600_000) return 'final-hour';
+    if (left <= 86_400_000) return 'final-day';
+    return 'running';
+  }
+
   function createCountdown(board) {
     const stage = board.querySelector('#goal-countdown-stage');
     const title = stage.querySelector('h1');
@@ -112,6 +119,7 @@
     const dateLabel = stage.querySelector('#goal-countdown-deadline');
     const dateText = dateLabel.querySelector('time');
     const empty = stage.querySelector('#goal-countdown-empty');
+    const secondBar = digits.querySelector('.goal-countdown-second-track i');
     const numbers = Object.fromEntries([...digits.querySelectorAll('[data-countdown-unit]')]
       .map(node => [node.dataset.countdownUnit, node]));
     let end, frame, previousSecond;
@@ -121,19 +129,20 @@
       const wholeSecond = Math.floor(left / 1000);
       const {days, hours, minutes, seconds, milliseconds} = countdownParts(left);
       numbers.milliseconds.textContent = String(milliseconds).padStart(3, '0');
+      secondBar.style.transform = `scaleX(${milliseconds / 1000})`;
 
       if (wholeSecond !== previousSecond) {
         numbers.days.textContent = String(days).padStart(2, '0');
         numbers.hours.textContent = String(hours).padStart(2, '0');
         numbers.minutes.textContent = String(minutes).padStart(2, '0');
         numbers.seconds.textContent = String(seconds).padStart(2, '0');
-        digits.style.setProperty('--countdown-extra-days', Math.max(0, String(days).length - 2));
         timer.textContent = `剩余 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
         previousSecond = wholeSecond;
       }
 
+      const state = countdownState(left);
+      if (board.dataset.countdownState !== state) board.dataset.countdownState = state;
       if (left === 0) {
-        board.dataset.countdownState = 'finished';
         title.textContent = '已到截止时间';
       } else if (!document.hidden) {
         frame = requestAnimationFrame(draw);
@@ -148,9 +157,11 @@
       const configured = Boolean(date);
       digits.hidden = timer.hidden = dateLabel.hidden = !configured;
       empty.hidden = configured;
-      board.dataset.countdownState = configured ? 'running' : 'unset';
       title.textContent = configured ? '距 NCLC 7 目标截止' : 'NCLC 7 倒计时';
-      if (!configured) return;
+      if (!configured) {
+        board.dataset.countdownState = 'unset';
+        return;
+      }
 
       end = deadlineTime(date);
       dateText.dateTime = date + 'T00:00';
@@ -431,7 +442,7 @@
   }
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = {key, freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, localDate, pace, countdownParts, deadlineTime};
+    module.exports = {key, freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, localDate, pace, countdownParts, countdownState, deadlineTime};
   } else {
     window.FRENCH_GOAL = {mount, unmount};
   }

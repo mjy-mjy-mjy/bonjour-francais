@@ -21,8 +21,8 @@
   <script src="verb-data.js?v=1538f3b01d82" defer></script>
   <link rel="stylesheet" href="verb-knowledge.css?v=cee270b80e63">
   <script src="verb-knowledge.js?v=890686e9ebd6" defer></script>
-  <link rel="stylesheet" href="assets/goal/goal.css?v=ca7af19c4c61">
-  <script src="assets/goal/goal.js?v=130f69d1cae6" defer></script>
+  <link rel="stylesheet" href="assets/goal/goal.css?v=68e7f981287b">
+  <script src="assets/goal/goal.js?v=6496ce64a9d8" defer></script>
   <script src="app.js?v=84385f621a1b" defer></script>
 </head>
 <body>
@@ -144,15 +144,20 @@
       </div>
       <div class="goal-chase-controls" id="goal-chase-controls" hidden></div>
       <section class="goal-countdown-stage" id="goal-countdown-stage" aria-labelledby="goal-countdown-title" hidden>
-        <div class="goal-countdown-heat" aria-hidden="true"></div>
+        <div class="goal-countdown-pressure" aria-hidden="true"></div>
         <div class="goal-countdown-readout">
           <h1 id="goal-countdown-title">NCLC 7 倒计时</h1>
           <div class="goal-countdown-digits" id="goal-countdown-digits" aria-hidden="true" hidden>
-            <span class="goal-countdown-unit"><b data-countdown-unit="days">00</b><small>天</small></span><span class="goal-countdown-separator">:</span>
-            <span class="goal-countdown-unit"><b data-countdown-unit="hours">00</b><small>时</small></span><span class="goal-countdown-separator">:</span>
-            <span class="goal-countdown-unit"><b data-countdown-unit="minutes">00</b><small>分</small></span><span class="goal-countdown-separator">:</span>
-            <span class="goal-countdown-unit goal-countdown-fast"><b data-countdown-unit="seconds">00</b><small>秒</small></span><span class="goal-countdown-separator goal-countdown-dot">.</span>
-            <span class="goal-countdown-unit goal-countdown-fast goal-countdown-fraction"><b data-countdown-unit="milliseconds">000</b><small>毫秒</small></span>
+            <div class="goal-countdown-calendar">
+              <span class="goal-countdown-unit"><b data-countdown-unit="days">00</b><small>天</small></span>
+              <span class="goal-countdown-unit"><b data-countdown-unit="hours">00</b><small>时</small></span>
+              <span class="goal-countdown-unit"><b data-countdown-unit="minutes">00</b><small>分</small></span>
+            </div>
+            <div class="goal-countdown-clock">
+              <span class="goal-countdown-unit"><b data-countdown-unit="seconds">00</b><small>秒</small></span><span class="goal-countdown-dot">.</span>
+              <span class="goal-countdown-unit"><b data-countdown-unit="milliseconds">000</b><small>毫秒</small></span>
+            </div>
+            <div class="goal-countdown-second-track"><i></i></div>
           </div>
           <p class="goal-countdown-accessible" id="goal-countdown-timer" role="timer" aria-live="off" hidden></p>
           <p class="goal-countdown-deadline" id="goal-countdown-deadline" hidden>截止时间 <time id="goal-countdown-date"></time></p>
