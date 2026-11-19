@@ -735,21 +735,6 @@ body.goal-active { background: #0c111e; }
   text-shadow: 0 0 .18em #e5281e76, 0 0 .5em #b91b3652;
 }
 .goal-countdown-fraction { color: #ff8871; }
-.goal-countdown-second-track {
-  height: 3px;
-  margin-top: clamp(16px, 3.5vh, 38px);
-  background: #ff675025;
-}
-.goal-countdown-second-track i {
-  display: block;
-  height: 100%;
-  background: linear-gradient(90deg, #a1241b, #ff654a 75%, #ffc0a5);
-  box-shadow: 0 0 12px #ee4c3da8;
-  transform-origin: left;
-}
-@media (prefers-reduced-motion: reduce) {
-  .goal-countdown-second-track { visibility: hidden; }
-}
 
 .goal-countdown-deadline {
   margin: clamp(25px, 5.5vh, 64px) 0 0;

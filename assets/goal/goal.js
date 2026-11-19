@@ -119,7 +119,6 @@
     const dateLabel = stage.querySelector('#goal-countdown-deadline');
     const dateText = dateLabel.querySelector('time');
     const empty = stage.querySelector('#goal-countdown-empty');
-    const secondBar = digits.querySelector('.goal-countdown-second-track i');
     const numbers = Object.fromEntries([...digits.querySelectorAll('[data-countdown-unit]')]
       .map(node => [node.dataset.countdownUnit, node]));
     let end, frame, previousSecond;
@@ -129,7 +128,6 @@
       const wholeSecond = Math.floor(left / 1000);
       const {days, hours, minutes, seconds, milliseconds} = countdownParts(left);
       numbers.milliseconds.textContent = String(milliseconds).padStart(3, '0');
-      secondBar.style.transform = `scaleX(${milliseconds / 1000})`;
 
       if (wholeSecond !== previousSecond) {
         const dayText = String(days).padStart(2, '0');
