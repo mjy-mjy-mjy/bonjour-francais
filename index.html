@@ -21,8 +21,8 @@
   <script src="verb-data.js?v=1538f3b01d82" defer></script>
   <link rel="stylesheet" href="verb-knowledge.css?v=cee270b80e63">
   <script src="verb-knowledge.js?v=890686e9ebd6" defer></script>
-  <link rel="stylesheet" href="assets/goal/goal.css?v=8737bbb475a1">
-  <script src="assets/goal/goal.js?v=eaa3dd45fbb9" defer></script>
+  <link rel="stylesheet" href="assets/goal/goal.css?v=ca7af19c4c61">
+  <script src="assets/goal/goal.js?v=130f69d1cae6" defer></script>
   <script src="app.js?v=84385f621a1b" defer></script>
 </head>
 <body>
@@ -75,10 +75,12 @@
       </svg>
       <header class="goal-top">
         <a class="goal-brand" href="#route" aria-label="Bonjour Français 学习手册"><span class="goal-monogram" aria-hidden="true">B.</span><span lang="fr">Bonjour Français</span></a>
+        <a class="goal-countdown-back goal-tool" id="goal-countdown-back" href="#goal" hidden><svg class="icon" aria-hidden="true"><use href="#goal-i-back"/></svg>追赶视图</a>
         <div class="goal-menu">
           <a class="goal-back" href="#route"><svg class="icon" aria-hidden="true"><use href="#goal-i-back"/></svg>学习手册</a>
           <a class="goal-tool goal-layout-link" id="goal-layout-link" href="#goal/classic">原版</a>
-          <button type="button" class="goal-tool" data-goal-action="settings"><svg class="icon" aria-hidden="true"><use href="#goal-i-settings"/></svg>目标设置</button>
+          <a class="goal-tool goal-countdown-link" id="goal-countdown-link" href="#goal/countdown" hidden><svg class="icon" aria-hidden="true"><use href="#goal-i-time"/></svg>倒计时</a>
+          <button type="button" class="goal-tool" data-goal-action="settings"><svg class="icon" aria-hidden="true"><use href="#goal-i-settings"/></svg><span id="goal-settings-label">目标设置</span></button>
           <button type="button" class="goal-tool goal-icon-button" data-goal-action="fullscreen" aria-label="进入全屏" title="进入全屏" hidden><svg class="icon" aria-hidden="true"><use href="#goal-i-expand"/></svg></button>
         </div>
       </header>
@@ -141,14 +143,33 @@
         </div>
       </div>
       <div class="goal-chase-controls" id="goal-chase-controls" hidden></div>
+      <section class="goal-countdown-stage" id="goal-countdown-stage" aria-labelledby="goal-countdown-title" hidden>
+        <div class="goal-countdown-heat" aria-hidden="true"></div>
+        <div class="goal-countdown-readout">
+          <h1 id="goal-countdown-title">NCLC 7 倒计时</h1>
+          <div class="goal-countdown-digits" id="goal-countdown-digits" aria-hidden="true" hidden>
+            <span class="goal-countdown-unit"><b data-countdown-unit="days">00</b><small>天</small></span><span class="goal-countdown-separator">:</span>
+            <span class="goal-countdown-unit"><b data-countdown-unit="hours">00</b><small>时</small></span><span class="goal-countdown-separator">:</span>
+            <span class="goal-countdown-unit"><b data-countdown-unit="minutes">00</b><small>分</small></span><span class="goal-countdown-separator">:</span>
+            <span class="goal-countdown-unit goal-countdown-fast"><b data-countdown-unit="seconds">00</b><small>秒</small></span><span class="goal-countdown-separator goal-countdown-dot">.</span>
+            <span class="goal-countdown-unit goal-countdown-fast goal-countdown-fraction"><b data-countdown-unit="milliseconds">000</b><small>毫秒</small></span>
+          </div>
+          <p class="goal-countdown-accessible" id="goal-countdown-timer" role="timer" aria-live="off" hidden></p>
+          <p class="goal-countdown-deadline" id="goal-countdown-deadline" hidden>截止时间 <time id="goal-countdown-date"></time></p>
+          <div class="goal-countdown-empty" id="goal-countdown-empty" hidden>
+            <p>设置截止日期后开始倒计时。</p>
+            <button type="button" class="goal-action" data-goal-action="dates">选择截止日期</button>
+          </div>
+        </div>
+      </section>
       <p class="goal-status" role="status" aria-live="polite" id="goal-status"></p>
       <dialog class="goal-dialog" id="goal-dialog" aria-labelledby="goal-dialog-title">
         <div class="goal-sheet">
           <div class="goal-dialog-head"><h2 id="goal-dialog-title">目标设置</h2><button type="button" class="goal-tool goal-icon-button" data-goal-action="close" aria-label="关闭"><svg class="icon" aria-hidden="true"><use href="#goal-i-close"/></svg></button></div>
           <form id="goal-settings-form">
             <div class="goal-fields">
-              <label>目标学时（小时）<input type="number" name="targetHours" min="0.01" step="any" inputmode="decimal" required></label>
-              <label>已学总时长（小时）<input type="number" name="totalHours" min="0" step="any" inputmode="decimal" required></label>
+              <label class="goal-study-setting">目标学时（小时）<input type="number" name="targetHours" min="0.01" step="any" inputmode="decimal" required></label>
+              <label class="goal-study-setting">已学总时长（小时）<input type="number" name="totalHours" min="0" step="any" inputmode="decimal" required></label>
               <label>开始日期<input type="date" name="startDate" required></label>
               <label>截止日期<input type="date" name="deadline"></label>
             </div>

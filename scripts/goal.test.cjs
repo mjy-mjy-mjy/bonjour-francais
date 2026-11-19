@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const {freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, pace} = require('../assets/goal/goal.js');
+const {freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, pace, countdownParts, deadlineTime} = require('../assets/goal/goal.js');
 const blank = freshGoal('2026-11-01');
 const configured = {...blank, deadline: '2026-11-21'};
 const at = day => new Date(day + 'T00:00:00');
@@ -49,4 +49,14 @@ test('chase compares study progress to elapsed time and handles equality and an 
   assert.deepEqual(pace(.62, .5), {elapsed: .5, gap: '12.0', order: 'ahead'});
   assert.equal(pace(.5004, .5).order, 'even');
   assert.deepEqual(pace(.98, 0), {elapsed: 1, gap: '2.0', order: 'behind'});
+});
+
+test('countdown keeps subsecond precision and stops at zero on the same local deadline as the chase view', () => {
+  const end = deadlineTime(configured.deadline);
+  assert.equal(end, at(configured.deadline).getTime());
+  const sample = 101 * 86_400_000 + 3 * 3_600_000 + 4 * 60_000 + 5_009;
+  assert.deepEqual(countdownParts(sample), {days: 101, hours: 3, minutes: 4, seconds: 5, milliseconds: 9});
+  assert.deepEqual(countdownParts(end - (end - 1)), {days: 0, hours: 0, minutes: 0, seconds: 0, milliseconds: 1});
+  assert.deepEqual(countdownParts(end - (end + 1)), {days: 0, hours: 0, minutes: 0, seconds: 0, milliseconds: 0});
+  assert.equal(measures(configured, new Date(end)).remaining, 0);
 });

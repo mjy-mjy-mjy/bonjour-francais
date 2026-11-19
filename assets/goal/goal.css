@@ -583,3 +583,164 @@ body.goal-active { background: #0c111e; }
   .goal-chase .goal-content { gap: 14px; padding-block: 14px; }
   .goal-chase-controls { padding-block: 8px max(8px, env(safe-area-inset-bottom)); }
 }
+
+.goal-countdown-link {
+  color: #ffb39d;
+  border-color: #99524580;
+  background: #fa714614;
+}
+.goal-countdown-link:hover { border-color: #e28166a8; background: #fa714623; }
+
+.goal-countdown {
+  --goal-gutter: clamp(14px, 4vw, 112px);
+  background: #0e0a0b;
+  color: #fae9df;
+}
+.goal-countdown .goal-top {
+  min-height: 58px;
+  padding-block: 8px;
+  background: #120c0ddb;
+  border-color: #ffc0aa20;
+}
+.goal-countdown .goal-brand,
+.goal-countdown .goal-back,
+.goal-countdown .goal-layout-link,
+.goal-countdown .goal-study-setting,
+.goal-countdown[data-countdown-state="unset"] .goal-top [data-goal-action="settings"] { display: none; }
+.goal-countdown .goal-top .goal-tool { min-height: 38px; font-size: 13px; }
+.goal-countdown .goal-top .goal-icon-button { min-width: 38px; }
+
+.goal-countdown-stage {
+  flex: 1;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  padding: clamp(24px, 6vh, 96px) var(--goal-gutter);
+  background:
+    radial-gradient(ellipse at 51% 63%, #321412 0%, #160d10 46%, transparent 72%),
+    #0e0a0b;
+}
+
+.goal-countdown-heat {
+  position: absolute;
+  inset: auto 0 0;
+  height: 62%;
+  overflow: hidden;
+  pointer-events: none;
+  border-bottom: 1px solid #fd785d8c;
+  background:
+    linear-gradient(to top, #b02b183a, transparent 14%),
+    radial-gradient(ellipse at 51% 104%, #9929197a, #37110a25 55%, transparent 81%);
+}
+.goal-countdown-heat::before,
+.goal-countdown-heat::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+.goal-countdown-heat::before {
+  inset: 55% -6% -12%;
+  background: radial-gradient(ellipse at 51% 100%, #e54b266d, #df3b2527 46%, transparent 75%);
+  opacity: .8;
+}
+.goal-countdown-heat::after {
+  inset: 18% 0 -13%;
+  background-image:
+    radial-gradient(circle at 8% 78%, #ffb371b3 0 1px, transparent 1.6px),
+    radial-gradient(circle at 34% 50%, #fa7d49b8 0 1px, transparent 1.6px),
+    radial-gradient(circle at 52% 72%, #ffb371bd 0 1px, transparent 1.8px),
+    radial-gradient(circle at 77% 49%, #fa7d49aa 0 1px, transparent 1.6px),
+    radial-gradient(circle at 91% 84%, #ffb371aa 0 1px, transparent 1.8px);
+  background-size: min(260px, 58vw) 100%;
+  opacity: .65;
+}
+
+.goal-countdown[data-countdown-state="running"] .goal-countdown-heat::before {
+  animation: goal-countdown-heat 3.8s ease-in-out infinite alternate;
+}
+.goal-countdown[data-countdown-state="running"] .goal-countdown-heat::after {
+  animation: goal-countdown-embers 4.5s linear infinite;
+}
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-heat,
+.goal-countdown[data-countdown-state="unset"] .goal-countdown-heat { opacity: .48; }
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-heat::after,
+.goal-countdown[data-countdown-state="unset"] .goal-countdown-heat::after { content: none; }
+
+@keyframes goal-countdown-heat {
+  from { opacity: .55; transform: scaleY(.82); }
+  to { opacity: .95; transform: scaleY(1.12); }
+}
+@keyframes goal-countdown-embers {
+  0% { opacity: 0; transform: translateY(10%); }
+  24% { opacity: .72; }
+  70% { opacity: .56; }
+  100% { opacity: 0; transform: translateY(-29%); }
+}
+
+.goal-countdown-readout {
+  z-index: 1;
+  container-type: inline-size;
+  width: min(100%, 1840px);
+  text-align: center;
+}
+.goal-countdown-readout h1 {
+  margin: 0 0 clamp(22px, 6vh, 72px);
+  color: #efb5a4;
+  font-size: clamp(15px, 1.45vw, 28px);
+  font-weight: 600;
+  letter-spacing: .27em;
+}
+.goal-countdown-digits {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: .095em;
+  font-family: var(--goal-mono);
+  font-size: min(11rem, calc(151cqi / (15 + var(--countdown-extra-days, 0))));
+  font-variant-numeric: tabular-nums;
+  line-height: .98;
+  color: #ffefe2;
+  text-shadow: 0 0 .28em #ff75494d;
+}
+.goal-countdown-unit { display: grid; gap: clamp(10px, 2.5vh, 28px); }
+.goal-countdown-unit b { font-weight: 700; }
+.goal-countdown-unit small {
+  color: #d3a79b;
+  font: 550 clamp(10px, 1.08vw, 18px)/1.3 var(--font-body);
+  letter-spacing: .14em;
+}
+.goal-countdown-separator { color: #a95343; }
+.goal-countdown-fast { color: #ff7658; text-shadow: 0 0 .28em #ff593a75; }
+.goal-countdown-fraction { color: #ff9c7c; }
+.goal-countdown-dot { color: #d6614b; }
+
+.goal-countdown-deadline {
+  margin: clamp(25px, 5.5vh, 64px) 0 0;
+  color: #d3a79b;
+  font-size: clamp(12px, 1.12vw, 19px);
+}
+.goal-countdown-deadline time { color: #f6c8b9; font-family: var(--goal-mono); margin-left: .5em; }
+.goal-countdown-empty p { color: #d3a79b; }
+.goal-countdown-empty .goal-action { color: #fff1e8; border-color: #b36a57; background: #7a2b20; }
+.goal-countdown-accessible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-fast,
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-separator { color: #db8d79; }
+
+@media (max-width: 475px) {
+  .goal-chase .goal-top { padding-inline: 12px; gap: 6px; }
+  .goal-chase .goal-top .goal-tool { padding-inline: .55em; }
+  .goal-chase .goal-top .goal-icon-button { padding: 0; }
+  .goal-countdown-link .icon { display: none; }
+  .goal-countdown .goal-top { min-height: 50px; }
+  .goal-countdown .goal-top .goal-tool { font-size: 12px; }
+  .goal-countdown-digits { font-size: calc(151cqi / (15 + var(--countdown-extra-days, 0))); }
+}

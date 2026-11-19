@@ -3,6 +3,7 @@
 
   const key = 'bonjour-francais-nclc7-goal-v1';
   const dayMs = 86_400_000;
+  const deadlineTime = date => new Date(date + 'T00:00:00').getTime();
   const hoursFormat = new Intl.NumberFormat('zh-CN', {maximumFractionDigits: 2});
   const isMinutes = value => Number.isSafeInteger(value) && value >= 0;
 
@@ -71,7 +72,7 @@
     // Civil-day differences stay integral across daylight-saving transitions. The rail follows actual time.
     const days = Math.round((Date.parse(goal.deadline) - Date.parse(today)) / dayMs);
     const start = new Date(goal.startDate + 'T00:00:00').getTime();
-    const end = new Date(goal.deadline + 'T00:00:00').getTime();
+    const end = deadlineTime(goal.deadline);
     let remaining = now < end ? 1 : 0;
     if (end > start) remaining = Math.max(0, Math.min(1, (end - now.getTime()) / (end - start)));
     const state = days < 0 ? 'overdue' : days === 0 ? 'due' : today < goal.startDate ? 'scheduled' : 'active';
@@ -91,6 +92,76 @@
     return {elapsed, gap, order};
   }
 
+  function countdownParts(milliseconds) {
+    const left = Math.max(0, milliseconds);
+    const seconds = Math.floor(left / 1000);
+    return {
+      days: Math.floor(seconds / 86_400),
+      hours: Math.floor(seconds / 3600) % 24,
+      minutes: Math.floor(seconds / 60) % 60,
+      seconds: seconds % 60,
+      milliseconds: left % 1000,
+    };
+  }
+
+  function createCountdown(board) {
+    const stage = board.querySelector('#goal-countdown-stage');
+    const title = stage.querySelector('h1');
+    const digits = stage.querySelector('#goal-countdown-digits');
+    const timer = stage.querySelector('#goal-countdown-timer');
+    const dateLabel = stage.querySelector('#goal-countdown-deadline');
+    const dateText = dateLabel.querySelector('time');
+    const empty = stage.querySelector('#goal-countdown-empty');
+    const numbers = Object.fromEntries([...digits.querySelectorAll('[data-countdown-unit]')]
+      .map(node => [node.dataset.countdownUnit, node]));
+    let end, frame, previousSecond;
+
+    function draw() {
+      const left = Math.max(0, end - Date.now());
+      const wholeSecond = Math.floor(left / 1000);
+      const {days, hours, minutes, seconds, milliseconds} = countdownParts(left);
+      numbers.milliseconds.textContent = String(milliseconds).padStart(3, '0');
+
+      if (wholeSecond !== previousSecond) {
+        numbers.days.textContent = String(days).padStart(2, '0');
+        numbers.hours.textContent = String(hours).padStart(2, '0');
+        numbers.minutes.textContent = String(minutes).padStart(2, '0');
+        numbers.seconds.textContent = String(seconds).padStart(2, '0');
+        digits.style.setProperty('--countdown-extra-days', Math.max(0, String(days).length - 2));
+        timer.textContent = `剩余 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
+        previousSecond = wholeSecond;
+      }
+
+      if (left === 0) {
+        board.dataset.countdownState = 'finished';
+        title.textContent = '已到截止时间';
+      } else if (!document.hidden) {
+        frame = requestAnimationFrame(draw);
+      }
+    }
+
+    function stop() { cancelAnimationFrame(frame); }
+
+    function setDeadline(date) {
+      stop();
+      previousSecond = undefined;
+      const configured = Boolean(date);
+      digits.hidden = timer.hidden = dateLabel.hidden = !configured;
+      empty.hidden = configured;
+      board.dataset.countdownState = configured ? 'running' : 'unset';
+      title.textContent = configured ? '距 NCLC 7 目标截止' : 'NCLC 7 倒计时';
+      if (!configured) return;
+
+      end = deadlineTime(date);
+      dateText.dateTime = date + 'T00:00';
+      dateText.textContent = date.replaceAll('-', '.') + ' 00:00';
+      draw();
+    }
+
+    stage.hidden = false;
+    return {setDeadline, stop};
+  }
+
   let release = null;
 
   function mount(container, view) {
@@ -104,7 +175,8 @@
     const full = action('fullscreen');
     const studyBar = byId('goal-study-bar');
     const timeBar = byId('goal-time-bar');
-    const chase = view !== 'classic';
+    const countdown = view === 'countdown';
+    const chase = view !== 'classic' && !countdown;
     const layoutLink = byId('goal-layout-link');
     const pacePanel = byId('goal-chase-pace');
     const paceSummary = byId('goal-pace-summary');
@@ -120,10 +192,17 @@
     let savingForm = false;
 
     document.body.classList.add('goal-active');
-    document.title = 'NCLC 7 目标 · Bonjour Français';
+    document.title = (countdown ? 'NCLC 7 倒计时' : 'NCLC 7 目标') + ' · Bonjour Français';
 
-    if (chase) {
+    const countdownView = countdown ? createCountdown(board) : null;
+    if (countdown) {
+      board.classList.add('goal-countdown');
+      board.querySelector('.goal-content').hidden = true;
+      byId('goal-countdown-back').hidden = false;
+      byId('goal-settings-label').textContent = '调整截止日期';
+    } else if (chase) {
       board.classList.add('goal-chase');
+      byId('goal-countdown-link').hidden = false;
       pacePanel.hidden = false;
       gapMarker.hidden = false;
       const controls = byId('goal-chase-controls');
@@ -168,6 +247,10 @@
     }
 
     function paint() {
+      if (countdownView) {
+        countdownView.setDeadline(goal.deadline);
+        return;
+      }
       const {study, remaining, days, state} = measures(goal);
       const total = hoursFormat.format(goal.totalMinutes / 60);
       const target = hoursFormat.format(goal.targetMinutes / 60);
@@ -225,7 +308,7 @@
       const isCustom = mode === 'custom';
       settings.hidden = isCustom;
       custom.hidden = !isCustom;
-      byId('goal-dialog-title').textContent = isCustom ? '记录学习时长' : '目标设置';
+      byId('goal-dialog-title').textContent = countdown ? '倒计时日期' : isCustom ? '记录学习时长' : '目标设置';
       board.querySelectorAll('.goal-form-error').forEach(element => { element.textContent = ''; });
       settings.elements.targetHours.value = Number((goal.targetMinutes / 60).toFixed(2));
       settings.elements.totalHours.value = Number((goal.totalMinutes / 60).toFixed(2));
@@ -268,7 +351,7 @@
       if (!button || button.disabled) return;
       const name = button.dataset.goalAction;
       try {
-        if (['settings', 'dates', 'custom'].includes(name)) openForm(name);
+        if (['settings', 'dates', 'custom'].includes(name)) openForm(countdown ? 'dates' : name);
         else if (name === 'close') dialog.close();
         else if (name === 'one' || name === 'two') await log(name === 'one' ? 60 : 120);
         else if (name === 'undo') {
@@ -304,8 +387,8 @@
           const previous = goal;
           await commit(current => editGoal(current, baseline, draft));
           if (!abort.signal.aborted) {
-            if (goal.deadline && (goal.startDate !== previous.startDate || goal.deadline !== previous.deadline)) flash(timeBar);
-            announce('目标设置已保存');
+            if (!countdown && goal.deadline && (goal.startDate !== previous.startDate || goal.deadline !== previous.deadline)) flash(timeBar);
+            announce(countdown ? '倒计时日期已保存' : '目标设置已保存');
           }
         }
         if (!abort.signal.aborted && dialog.open) dialog.close();
@@ -314,13 +397,18 @@
     });
 
     function tick() {
+      if (countdown) return;
       paint();
       clearTimeout(clock);
       clock = setTimeout(tick, 60_050 - Date.now() % 60_000);
     }
     listen(window, 'storage', event => { if (event.key === key || event.key === null) reload(); });
     listen(window, 'pageshow', reload);
-    listen(document, 'visibilitychange', () => { if (!document.hidden) { reload(); tick(); } });
+    listen(document, 'visibilitychange', () => {
+      if (document.hidden) countdownView?.stop();
+      else { reload(); tick(); }
+    });
+    if (countdownView) listen(window, 'pagehide', countdownView.stop);
     listen(document, 'fullscreenchange', updateFullscreen);
     updateFullscreen();
     reload();
@@ -330,6 +418,7 @@
 
     release = () => {
       abort.abort();
+      countdownView?.stop();
       clearTimeout(clock); clearTimeout(toast);
       if (dialog.open) dialog.close();
       document.body.classList.remove('goal-active');
@@ -342,7 +431,7 @@
   }
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = {key, freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, localDate, pace};
+    module.exports = {key, freshGoal, readGoal, addEntry, undoEntry, editGoal, measures, percent, localDate, pace, countdownParts, deadlineTime};
   } else {
     window.FRENCH_GOAL = {mount, unmount};
   }
