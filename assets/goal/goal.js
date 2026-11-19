@@ -132,7 +132,9 @@
       secondBar.style.transform = `scaleX(${milliseconds / 1000})`;
 
       if (wholeSecond !== previousSecond) {
-        numbers.days.textContent = String(days).padStart(2, '0');
+        const dayText = String(days).padStart(2, '0');
+        numbers.days.textContent = dayText;
+        digits.style.setProperty('--countdown-day-digits', dayText.length);
         numbers.hours.textContent = String(hours).padStart(2, '0');
         numbers.minutes.textContent = String(minutes).padStart(2, '0');
         numbers.seconds.textContent = String(seconds).padStart(2, '0');

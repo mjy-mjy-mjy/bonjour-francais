@@ -688,7 +688,7 @@ body.goal-active { background: #0c111e; }
 }
 @keyframes goal-countdown-compress {
   0%, 100% { transform: scale(1); }
-  46% { transform: scale(.962, .954); }
+  46% { transform: scale(.938, .93); }
 }
 
 .goal-countdown-readout {
@@ -698,52 +698,44 @@ body.goal-active { background: #0c111e; }
   text-align: center;
 }
 .goal-countdown-readout h1 {
-  margin: 0 0 clamp(18px, 3.7vh, 60px);
+  margin: 0 0 clamp(20px, 4.5vh, 68px);
   color: #efb5a4;
   font-size: clamp(14px, 1.12vw, 22px);
   font-weight: 600;
   letter-spacing: .23em;
 }
 .goal-countdown-digits {
-  --countdown-digit-size: min(22rem, 31vh, 25.2cqi);
-  display: grid;
-  justify-items: center;
+  --countdown-day-digits: 2;
+  display: inline-grid;
+  max-width: 100%;
   font-family: var(--goal-mono);
   font-variant-numeric: tabular-nums;
   line-height: 1;
 }
-.goal-countdown-calendar {
+.goal-countdown-clock {
   display: flex;
-  justify-content: center;
-  margin-bottom: clamp(18px, 4vh, 64px);
+  align-items: flex-start;
+  /* Fit the nine fixed digits, separators and the variable-width day field. */
+  font-size: min(11rem, 27vh, calc(100cqi / (7.35 + .64 * var(--countdown-day-digits))));
   color: #ffe5d9;
-  font-size: clamp(22px, 4.6cqi, 68px);
+  text-shadow: 0 0 .24em #e5281e57;
 }
-.goal-countdown-calendar .goal-countdown-unit {
-  padding-inline: clamp(16px, 3.1cqi, 45px);
-  min-width: 2.3em;
-}
-.goal-countdown-calendar .goal-countdown-unit + .goal-countdown-unit { border-inline-start: 1px solid #e34e3d50; }
 .goal-countdown-unit { display: grid; gap: clamp(7px, 1.4vh, 16px); }
-.goal-countdown-unit b { font-weight: 700; }
+.goal-countdown-unit b { font-weight: 700; letter-spacing: -.025em; }
 .goal-countdown-unit small {
   color: #ebada0;
   font: 550 clamp(12px, 1.12vw, 17px)/1.3 var(--font-body);
   letter-spacing: .15em;
 }
-.goal-countdown-clock {
-  display: flex;
-  align-items: flex-start;
-  font-size: var(--countdown-digit-size);
-  line-height: .86;
+.goal-countdown-separator { width: .43em; color: #a44940; }
+.goal-countdown-dot { color: #ec4637; }
+.goal-countdown-seconds,
+.goal-countdown-fraction {
   color: var(--pressure-light);
   text-shadow: 0 0 .18em #e5281e76, 0 0 .5em #b91b3652;
 }
-.goal-countdown-clock b { letter-spacing: -.045em; }
-.goal-countdown-dot { margin-inline: -.07em; color: #ec4637; }
-.goal-countdown-clock .goal-countdown-unit:last-child { color: #ff8871; }
+.goal-countdown-fraction { color: #ff8871; }
 .goal-countdown-second-track {
-  width: min(100%, calc(var(--countdown-digit-size) * 3.3));
   height: 3px;
   margin-top: clamp(16px, 3.5vh, 38px);
   background: #ff675025;
@@ -778,7 +770,7 @@ body.goal-active { background: #0c111e; }
 }
 .goal-countdown[data-countdown-state="finished"] .goal-countdown-clock,
 .goal-countdown[data-countdown-state="finished"] .goal-countdown-clock .goal-countdown-unit,
-.goal-countdown[data-countdown-state="finished"] .goal-countdown-dot { color: #c18578; text-shadow: none; }
+.goal-countdown[data-countdown-state="finished"] .goal-countdown-separator { color: #c18578; text-shadow: none; }
 
 @media (max-width: 475px) {
   .goal-chase .goal-top { padding-inline: 12px; gap: 6px; }
