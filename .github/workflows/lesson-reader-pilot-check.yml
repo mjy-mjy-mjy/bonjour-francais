@@ -1,0 +1,117 @@
+name: Verify lesson 23 reading pilot
+on:
+  push:
+    branches: ['codex/lesson-23-reader']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and test the existing site
+        run: |
+          node --check app.js
+          node --check knowledge-map.js
+          node --check skill-tree.js
+          node --check skill-tree-data.js
+          node --check content.js
+          python3 scripts/build-course.py
+          node --check course.js
+          node --check lesson14.js
+          node --check verb-data.js
+          node --check verb-knowledge.js
+          python3 scripts/check-site.py
+          python3 scripts/test_verb_build.py
+          python3 scripts/test_grammar_build.py
+          node --test scripts/*.test.cjs
+          git diff --exit-code
+      - name: Verify desktop and mobile reading interactions
+        shell: bash
+        run: |
+          set -eu
+          python3 - <<'PY'
+          from pathlib import Path
+          markup = Path('index.html').read_text(encoding='utf-8')
+          test = r'''
+          <script>
+          (async () => {
+            const assert = (value, message) => { if (!value) throw new Error(message); };
+            const wait = () => new Promise(resolve => setTimeout(resolve,120));
+            const marker = document.createElement('output');
+            marker.id = 'reader-qa';
+            document.body.append(marker);
+            try {
+              await wait();
+              const mobile = innerWidth <= 800;
+              const nav = document.getElementById('navigation');
+              const toggle = document.getElementById('navigation-toggle');
+              const toc = document.querySelector('.lesson-reader-index');
+              const list = toc.querySelector('.lesson-reader-index-links');
+              const tocToggle = toc.querySelector('button');
+              const section = id => document.getElementById('lesson23-' + id);
+              const active = () => list.querySelector('[aria-current]')?.dataset.sectionTarget;
+              assert(document.body.classList.contains('lesson-reader-active'), 'missing reader');
+              assert(getComputedStyle(nav).display === 'none', 'global menu starts open');
+              toggle.click();
+              assert(getComputedStyle(nav).display !== 'none', 'global menu unable to open');
+              toggle.click();
+              assert(toc.getBoundingClientRect().width <= innerWidth, 'directory overflows');
+              assert(document.documentElement.scrollWidth === innerWidth, 'page overflows');
+              if (mobile) {
+                assert(getComputedStyle(list).display === 'none', 'mobile directory starts open');
+                tocToggle.click();
+                assert(tocToggle.getAttribute('aria-expanded') === 'true', 'mobile directory cannot open');
+                assert(getComputedStyle(list).display !== 'none', 'mobile directory hidden when open');
+                list.querySelector('a[data-section-target="lesson23-cod"]').click();
+                await wait();
+                assert(tocToggle.getAttribute('aria-expanded') === 'false', 'mobile directory failed to close after navigation');
+                assert(active() === 'lesson23-cod', 'mobile chapter link did not activate');
+              } else {
+                assert(toc.getBoundingClientRect().left >= section('scope').getBoundingClientRect().right, 'directory is not to the right');
+                list.style.maxHeight = '100px';
+                section('practice').scrollIntoView();
+                await wait();
+                assert(active() === 'lesson23-practice', 'scrolling did not activate practice');
+                assert(list.scrollTop > 0, 'sidebar did not auto-scroll');
+                section('scope').scrollIntoView();
+                await wait();
+                assert(active() === 'lesson23-scope' && list.scrollTop === 0, 'scrolling back did not restore first entry');
+                assert(toc.getBoundingClientRect().top >= 0, 'sticky directory scrolled out of view');
+              }
+              const explanation = section('cod').querySelector('details');
+              assert(!!explanation.querySelector('table'), 'original table missing');
+              dispatchEvent(new Event('beforeprint'));
+              assert(explanation.open, 'print did not include collapsed explanation');
+              dispatchEvent(new Event('afterprint'));
+              assert(!explanation.open, 'print did not restore explanation state');
+              location.hash = '#lesson/22';
+              await wait();
+              assert(!document.body.classList.contains('lesson-reader-active'), 'another lesson has the reader');
+              marker.textContent = 'PASS ' + (mobile ? 'mobile' : 'desktop');
+            } catch (error) {
+              marker.textContent = 'FAIL ' + error.message;
+            }
+          })();
+          </script>
+          '''
+          Path('lesson-reader-qa.html').write_text(markup.replace('</body>',test+'</body>'),encoding='utf-8')
+          PY
+          python3 -m http.server 8765 --bind 127.0.0.1 &
+          qa_server=$!
+          trap 'kill "$qa_server"' EXIT
+          for try in {1..10}; do
+            if curl -fsS http://127.0.0.1:8765/lesson-reader-qa.html -o /dev/null; then break; fi
+            sleep 1
+          done
+          for view in desktop mobile; do
+            case "$view" in
+              desktop) dimensions=1365,820 ;;
+              mobile) dimensions=500,820 ;;
+            esac
+            google-chrome --headless --disable-gpu --no-sandbox --user-data-dir="/tmp/lesson-reader-$view" --window-size="$dimensions" --virtual-time-budget=4000 --dump-dom 'http://127.0.0.1:8765/lesson-reader-qa.html#lesson/23' > "/tmp/lesson-reader-$view.html"
+            if ! grep -oE '<output id="reader-qa">PASS [^<]+</output>' "/tmp/lesson-reader-$view.html" | grep -F "PASS $view"; then
+              grep -oE '<output id="reader-qa">[^<]*</output>' "/tmp/lesson-reader-$view.html" || true
+              exit 1
+            fi
+          done
