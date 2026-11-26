@@ -5,7 +5,7 @@ const categories = [['route','学习路线'],['pronunciation','发音'],['vocabu
 const descriptions = {pronunciation:'按课次查发音、连读与听辨',vocabulary:'词性、性数、搭配与辨析',grammar:'完整结构表、变位与中文讲解',listening:'每课教材音频的听力任务',speaking:'按情景提问、回应并复述',reading:'读对话与资料，核对信息',writing:'按课次完成短文与改错'};
 const main = document.getElementById('page-content');
 const searchResults = document.getElementById('search-results');
-let searchOrigin=null;
+let searchOrigin=null,searchGuideTarget='';
 function clearSearch(restoreScroll=true) {
   document.getElementById('search').value='';
   main.hidden=false;searchResults.hidden=true;
@@ -15,6 +15,7 @@ function clearSearch(restoreScroll=true) {
     searchOrigin=null;
   }
   updateReadingTools();
+  scheduleLessonOutline();
 }
 function setNavigationOpen(open) {
   document.getElementById('sidebar').classList[open?'add':'remove']('navigation-open');
@@ -23,8 +24,15 @@ function setNavigationOpen(open) {
 function lessonSection(section) {
   const n=Number(location.hash.split('/')[1]);
   const target=document.getElementById(`lesson${n}-${section}`);
+  if(section==='toc')setLessonOutlineOpen(true);
+  if(location.hash===searchGuideTarget){
+    const detail=target?.querySelector('.lesson-reader-detail');
+    if(detail)detail.open=true;
+    searchGuideTarget='';
+  }
   target?.scrollIntoView();
-  if(section==='toc')target?.focus?.({preventScroll:true});
+  if(section==='toc'||lessonOutline)target?.focus?.({preventScroll:true});
+  scheduleLessonOutline();
 }
 function updateReadingTools() {
   const [page,arg]=location.hash.slice(1).split('/');
@@ -44,9 +52,12 @@ try{
     if(typeof hash==='string'&&validReadingHash(hash)&&view&&Number.isFinite(view.scroll)&&view.scroll>=0&&view.scroll<1e7&&Array.isArray(view.expanded)&&view.expanded.length<=2000&&view.expanded.every(i=>Number.isInteger(i)&&i>=0&&i<2000))readingViews.set(hash,view);
   }
 }catch{}
+function readingPanels(){
+  return Array.from(main.querySelectorAll('details')).filter(panel=>!panel.matches?.('.lesson-reader-detail'));
+}
 function rememberReadingView(){
   if(!activeReadingHash||readingRestoring||searchOrigin)return;
-  const view={scroll:window.scrollY||0,expanded:[...main.querySelectorAll('details')].map((d,i)=>d.open?i:-1).filter(i=>i>=0)};
+  const view={scroll:window.scrollY||0,expanded:readingPanels().map((d,i)=>d.open?i:-1).filter(i=>i>=0)};
   readingViews.delete(activeReadingHash);readingViews.set(activeReadingHash,view);
   while(readingViews.size>60)readingViews.delete(readingViews.keys().next().value);
   try{window.sessionStorage?.setItem(READING_VIEW_KEY,JSON.stringify({views:[...readingViews]}));}catch{}
@@ -56,9 +67,9 @@ function restoreReadingView(){
   activeReadingHash=validReadingHash(location.hash)?location.hash:'';
   const saved=readingViews.get(activeReadingHash);if(!saved)return;
   // Restore content height before the browser clamps a deep reading position.
-  main.querySelectorAll('details').forEach((d,i)=>d.open=saved.expanded.includes(i));
+  readingPanels().forEach((d,i)=>d.open=saved.expanded.includes(i));
   readingRestoring=true;
-  readingFrame=requestAnimationFrame(()=>{window.scrollTo(0,saved.scroll);readingRestoring=false;});
+  readingFrame=requestAnimationFrame(()=>{window.scrollTo(0,saved.scroll);readingRestoring=false;scheduleLessonOutline();});
 }
 const {vocabulary,resources,units} = window.COURSE_CONTENT;
 const catalog = window.COURSE_LIBRARY.catalog;
@@ -182,24 +193,125 @@ function route() {
     <details class="course-directory section"><summary>前 ${Math.max(...catalog.map(c=>c.number))} 课 · 教材路线 <span class="source-note">完整讲义目录</span></summary><div class="course-list">${catalog.map(c=>`<a class="course-entry" href="#lesson/${c.number}"><span class="course-entry-number">${String(c.number).padStart(2,'0')}</span><div><h3>${escapeHtml(c.title)} · ${escapeHtml(c.translation)} →</h3><p>${escapeHtml(c.core.join(' · '))}</p></div></a>`).join('')}</div></details>
     <section class="section"><div class="section-heading"><h2>A1 课次记录</h2><span class="source-note">共36课</span></div><p class="source-note">第1—${Math.max(...courses.keys())}课已提供详细讲义，其余课次可先保留教材笔记。课次完成记录由你确认。</p><div class="lessons">${Array.from({length:36},(_,i)=>i+1).map(v=>`<a href="#lesson/${v}" class="lesson-link ${v===n?'current':''} ${state.completed.includes(v)?'done':''}" aria-label="第 ${v} 课${state.completed.includes(v)?'，已完成':''}">${String(v).padStart(2,'0')}${state.completed.includes(v)?' ✓':''}</a>`).join('')}</div></section>`;
 }
-function knowledge(ids,course=lesson14) {
+
+const lessonGuides = window.COURSE_CONTENT.lessonGuides || {};
+const hasLessonReader = n => Object.hasOwn(lessonGuides,n) && courses.has(n);
+let lessonOutline=null, lessonOutlineFrame=0;
+
+function mountLessonOutline() {
+  const index=main.querySelector('.lesson-reader-index');
+  if(!index){lessonOutline=null;return;}
+  const list=index.querySelector('.lesson-reader-index-links');
+  const entries=Array.from(list.querySelectorAll('a'),link=>({
+    link,target:document.getElementById(link.dataset.sectionTarget)
+  })).filter(entry=>entry.target);
+  if(!entries.length)return;
+  lessonOutline={index,list,entries,active:null};
+  scheduleLessonOutline();
+}
+
+function setLessonOutlineOpen(open) {
+  if(!lessonOutline)return;
+  const {index}=lessonOutline,button=index.querySelector('.lesson-reader-index-toggle');
+  index.classList[open?'add':'remove']('is-open');
+  button.setAttribute('aria-expanded',String(open));
+  scheduleLessonOutline();
+}
+
+function syncLessonOutline() {
+  if(!lessonOutline||main.hidden)return;
+  const {entries,list}=lessonOutline;
+  let current=entries[0];
+  const readingLine=124;
+  for(const entry of entries) {
+    if(entry.target.getBoundingClientRect().top>readingLine)break;
+    current=entry;
+  }
+  if(!current)return;
+  if(current!==lessonOutline.active) {
+    lessonOutline.active?.link.removeAttribute('aria-current');
+    current.link.setAttribute('aria-current','location');
+    lessonOutline.active=current;
+  }
+  if(!list.clientHeight)return;
+  const item=current.link.getBoundingClientRect(),viewport=list.getBoundingClientRect();
+  if(item.top<viewport.top)list.scrollTop+=item.top-viewport.top;
+  else if(item.bottom>viewport.bottom)list.scrollTop+=item.bottom-viewport.bottom;
+}
+
+function scheduleLessonOutline() {
+  if(!lessonOutline||lessonOutlineFrame)return;
+  lessonOutlineFrame=requestAnimationFrame(()=>{
+    lessonOutlineFrame=0;
+    syncLessonOutline();
+  });
+}
+
+function lessonGuide(guide) {
+  const examples=guide.examples.map(({label,parts,translation})=>{
+    const french=parts.map(part=>Array.isArray(part)?`<strong>${escapeHtml(part[0])}</strong>`:escapeHtml(part)).join('');
+    return `<div class="lesson-reader-example"><span>${escapeHtml(label)}</span><span lang="fr">${french}</span><span>${escapeHtml(translation)}</span></div>`;
+  }).join('');
+  return `<p class="lesson-reader-rule"><strong>先记住</strong> ${escapeHtml(guide.rule)}</p><div class="lesson-reader-examples">${examples}</div><p class="lesson-reader-warning"><strong>易错点</strong> ${escapeHtml(guide.warning)}</p>`;
+}
+function knowledge(ids,course=lesson14,guides=null) {
   const wanted=ids||course.sections.map(s=>s.id);
-  return `<div class="lesson-notes">${wanted.map(id=>{const section=course.sections.find(s=>s.id===id);return `<section class="knowledge-section" id="lesson${course.number}-${id}" aria-labelledby="title-${course.number}-${id}">${section.html.replace('<h2>',`<h2 id="title-${course.number}-${id}">`)}${window.VERB_KNOWLEDGE?.sectionLinks(course.number,section.id)||''}</section>`;}).join('')}</div>`;
+  const blocks=wanted.map(id=>{
+    const section=course.sections.find(s=>s.id===id);
+    const titleId=`title-${course.number}-${id}`;
+    let html=section.html.replace('<h2>',`<h2 id="${titleId}">`);
+    const guide=guides?.[id];
+    if(guide) {
+      const titleEnd=html.indexOf('</h2>')+5;
+      html=html.slice(0,titleEnd)+lessonGuide(guide)+
+        `<details class="lesson-reader-detail"><summary>${escapeHtml(guide.details)}</summary><div>${html.slice(titleEnd)}</div></details>`;
+    }
+    return `<section class="knowledge-section" id="lesson${course.number}-${id}" aria-labelledby="${titleId}"${guides?' tabindex="-1"':''}>${html}${window.VERB_KNOWLEDGE?.sectionLinks(course.number,section.id)||''}</section>`;
+  });
+  return `<div class="lesson-notes">${blocks.join('')}</div>`;
 }
 function writtenPractice(letters,course=lesson14) {return `<section class="lesson-notes knowledge-section"><h2>书面练习与参考答案</h2><p class="subtle">先在笔记中作答，再展开答案核对。</p>${course.exercises.filter(e=>letters.includes(e.id)).map(e=>e.html).join('')}</section>`;}
-function quickCheck(list,n=14) {const qs=list||questions.filter(q=>q.lesson===n);return `<section class="section" id="lesson${n}-quick-check"><h2>即时小测 · ${qs.length} 题</h2><p class="subtle">提交后查看解析，答错的题会自动进入“错题与收藏”。开放任务请按参考答案和自查标准检查。</p>${quiz(qs)}</section>`;}
+function quickCheck(list,n=14,reader=false) {const qs=list||questions.filter(q=>q.lesson===n);return `<section class="section" id="lesson${n}-quick-check"${reader?' tabindex="-1"':''}><h2>即时小测 · ${qs.length} 题</h2><p class="subtle">提交后查看解析，答错的题会自动进入“错题与收藏”。开放任务请按参考答案和自查标准检查。</p>${quiz(qs)}</section>`;}
 function lessonSkillLinks(n){
   const mapReturn=window.KNOWLEDGE_MAP?.resumeHref();
   const mapLink=mapReturn&&window.KNOWLEDGE_MAP?.hasVisited()?`<a class="button secondary" href="${escapeHtml(mapReturn)}">↩ ${escapeHtml(window.KNOWLEDGE_MAP?.resumeLabel?.()||'返回知识大陆')}</a>`:'';
   const nodes=window.FRENCH_SKILLS?.nodes.filter(s=>!s.planned&&s.refs.some(r=>r.lesson===n))||[];
   return mapLink+(nodes.length?`<nav class="lesson-skills" aria-label="本课关联技能"><span>关联技能</span>${window.VERB_KNOWLEDGE?.lessonLink(n)||''}${window.SKILL_TREE?.resumeHref?.()&&window.SKILL_TREE.resumeHref()!=='#skills'?`<a class="skill-return" href="${escapeHtml(window.SKILL_TREE.resumeHref())}">↩ 返回知识视图</a>`:''}${nodes.map(node=>`<a href="#skills/${node.stage}/${node.branch}/${node.id}">${escapeHtml(node.title)}${state.skillMastery[node.id]?.level>=2?' ✓':''}</a>`).join('')}</nav>`:'');
 }
+
+function lessonOutlineMarkup(n,sections,count,reader=false) {
+  const links=[...sections,{id:'quick-check',title:`即时小测 · ${count} 题`}].map(({id,title})=>
+    `<a href="#lesson/${n}/${id}"${reader?` data-section-target="lesson${n}-${id}"`:''}>${escapeHtml(title.replace(' / ',' · '))}</a>`
+  ).join('');
+  const label=`id="lesson${n}-toc" tabindex="-1" aria-label="第 ${n} 课知识目录"`;
+  if(!reader)return `<nav class="lesson-toc" ${label}><h2>本课目录</h2><div>${links}</div></nav>`;
+  return `<nav class="lesson-toc lesson-reader-index" ${label}>
+    <h2>本课目录</h2>
+    <button type="button" class="button secondary lesson-reader-index-toggle" data-reader-index aria-expanded="false" aria-controls="lesson-reader-index-links">本课目录 <span aria-hidden="true">⌄</span></button>
+    <div class="lesson-reader-index-links" id="lesson-reader-index-links">${links}</div>
+  </nav>`;
+}
+
 function lesson(n) {
   const course=courses.get(n),meta=catalog.find(c=>c.number===n),done=state.completed.includes(n),favorite=state.favorites.includes(n);
   const qs=questions.filter(q=>q.lesson===n);
-  return heading(`LEÇON ${String(n).padStart(2,'0')}`,meta?`${escapeHtml(meta.title)} · ${escapeHtml(meta.translation)}`:`第 ${n} 课 · 教材学习记录`,course?`详细复习讲义 · ${course.sections.length} 个模块 · ${course.exercises.length} 组书面练习与解析 · ${qs.length} 道即时小测`:'本课详细讲义正在补充；可以先结合教材记录笔记。')+
-  `<div class="toolbar"><button class="button" data-complete="${n}">${done?'已完成 ✓ · 撤销':'标记本课完成'}</button><button class="button secondary" data-favorite="${n}">${favorite?'已收藏 ★ · 取消':'收藏本课'}</button><a href="#route">回到学习路线</a></div>`+
-  lessonSkillLinks(n)+(course?`<div class="toolbar lesson-actions"><button class="button secondary" data-print>打印 / 另存为 PDF（含答案）</button><button class="button secondary" data-answers="open">展开全部参考答案</button><button class="button secondary" data-answers="close">收起全部参考答案</button></div><nav class="lesson-toc" id="lesson${n}-toc" tabindex="-1" aria-label="第 ${n} 课知识目录"><h2>本课目录</h2><div>${course.sections.map(section=>`<a href="#lesson/${n}/${section.id}">${escapeHtml(section.title.replace(' / ',' · '))}</a>`).join('')}<a href="#lesson/${n}/quick-check">即时小测 · ${qs.length} 题</a></div></nav>`+knowledge(course.sections.filter(s=>s.id!=='review').map(s=>s.id),course)+quickCheck(qs,n)+knowledge(['review'],course)+`<section class="section"><h2>按技能继续练习</h2><div class="grid">${['listening','speaking','reading','writing'].map(id=>`<a class="card card-link" href="#${id}/${n}"><h3>${categories.find(c=>c[0]===id)[1]} →</h3><p>第 ${n} 课 · ${descriptions[id]}</p></a>`).join('')}</div></section>`:'')+note(`lesson-${n}`,'本课笔记');
+  const reader=hasLessonReader(n);
+  const title=meta?`${escapeHtml(meta.title)} · ${escapeHtml(meta.translation)}`:`第 ${n} 课 · 教材学习记录`;
+  const description=course?`详细复习讲义 · ${course.sections.length} 个模块 · ${course.exercises.length} 组书面练习与解析 · ${qs.length} 道即时小测`:'本课详细讲义正在补充；可以先结合教材记录笔记。';
+  const header=reader
+    ? `<header class="lesson-reader-heading">${heading(`A1 · 第 ${Math.ceil(n/4)} 单元 · 第 ${n} 课`,`<span lang="fr">${escapeHtml(meta.title)}</span>`,escapeHtml(meta.translation))}<nav class="lesson-reader-focus" aria-label="本课重点"><strong>本课重点</strong>${course.sections.filter(section=>lessonGuides[n][section.id]).map(section=>`<a href="#lesson/${n}/${section.id}">${escapeHtml(lessonGuides[n][section.id].label)}</a>`).join('')}</nav></header>`
+    : heading(`LEÇON ${String(n).padStart(2,'0')}`,title,description);
+  const toolbar=`<div class="toolbar"><button class="button" data-complete="${n}">${done?'已完成 ✓ · 撤销':'标记本课完成'}</button><button class="button secondary" data-favorite="${n}">${favorite?'已收藏 ★ · 取消':'收藏本课'}</button><a href="#route">回到学习路线</a></div>`;
+  const notes=note(`lesson-${n}`,'本课笔记');
+  if(!course)return header+toolbar+lessonSkillLinks(n)+notes;
+  const actions=`<div class="toolbar lesson-actions"><button class="button secondary" data-print>打印 / 另存为 PDF（含答案）</button><button class="button secondary" data-answers="open">展开全部参考答案</button><button class="button secondary" data-answers="close">收起全部参考答案</button></div>`;
+  const skills=`<section class="section"><h2>按技能继续练习</h2><div class="grid">${['listening','speaking','reading','writing'].map(id=>`<a class="card card-link" href="#${id}/${n}"><h3>${categories.find(c=>c[0]===id)[1]} →</h3><p>第 ${n} 课 · ${descriptions[id]}</p></a>`).join('')}</div></section>`;
+  const outline=lessonOutlineMarkup(n,course.sections,qs.length,reader);
+  if(reader) {
+    const content=knowledge(null,course,lessonGuides[n])+quickCheck(qs,n,true)+lessonSkillLinks(n)+skills+notes;
+    return header+toolbar+actions+`<div class="lesson-reader-layout">${outline}<div class="lesson-reader-content">${content}</div></div>`;
+  }
+  return header+toolbar+lessonSkillLinks(n)+actions+outline+knowledge(course.sections.filter(s=>s.id!=='review').map(s=>s.id),course)+quickCheck(qs,n)+knowledge(['review'],course)+skills+notes;
 }
 function categoryPage(kind,arg) {
   const n=arg===undefined?defaultCourseNumber():Number(arg),course=courses.get(n),label=categories.find(c=>c[0]===kind)[1];
@@ -292,13 +404,15 @@ function draws() {loadDraws();const header=heading('EXPRESS ENTRY','EE 邀请记
 function settings() {return heading('MES DONNÉES','学习记录与备份','保留你自己的学习痕迹。')+`<div class="card prose"><h2>当前浏览器中的记录</h2><p>${state.completed.length} 课完成记录 · ${state.wrong.length} 道错题 · ${Object.keys(state.notes).length} 份课后笔记 · ${Object.values(state.skillMastery).filter(s=>s.level>=2).length} 个已点亮技能 · ${state.quickNotes.length} 条随手记${state.quickNoteDraft.title||state.quickNoteDraft.body?' · 1 份随手记草稿':''}</p><p>更换浏览器、清除网站数据或迁移网站地址前，请导出备份。备份文件包含课后笔记、随手记及未完成草稿，请保存在自己的电脑上。</p><div class="toolbar"><button class="button" id="export">导出学习记录</button><label class="button secondary">导入备份<input id="import" type="file" accept="application/json,.json" hidden></label></div></div>`;}
 function render() {
   window.FRENCH_GOAL?.unmount();
-  cancelAnimationFrame(readingFrame);readingRestoring=false;activeReadingHash='';window.VERB_KNOWLEDGE?.unmount();window.KNOWLEDGE_MAP?.unmount();window.SKILL_TREE?.unmount();clearSearch(false);setNavigationOpen(false);const [page,arg,section]=(location.hash.slice(1)||'route').split('/');document.body?.classList[page==='map'?'add':'remove']('map-active');document.body?.classList[page==='skills'?'add':'remove']('skills-active');if(!suppressVisitTracking&&(page==='lesson'||(categories.slice(1,8).some(c=>c[0]===page)&&courses.has(Number(arg)))))rememberLearningLesson(Number(arg));suppressVisitTracking=false;main.className=page==='lesson'||categories.slice(1,8).some(c=>c[0]===page)?'reading-page':'';document.getElementById('page-location').textContent=page==='lesson'?`A1 / 第 ${arg} 课`:page==='verbs'?'知识库 / 动词变位':page==='settings'?'学习记录与备份':`A1 / ${categories.find(c=>c[0]===page)?.[1]||'学习路线'}`;navigation(page==='lesson'?'route':page);document.getElementById('search').value='';
+  lessonOutline=null;
+  cancelAnimationFrame(lessonOutlineFrame);lessonOutlineFrame=0;
+  cancelAnimationFrame(readingFrame);readingRestoring=false;activeReadingHash='';window.VERB_KNOWLEDGE?.unmount();window.KNOWLEDGE_MAP?.unmount();window.SKILL_TREE?.unmount();clearSearch(false);setNavigationOpen(false);const [page,arg,section]=(location.hash.slice(1)||'route').split('/');document.body?.classList[page==='map'?'add':'remove']('map-active');document.body?.classList[page==='skills'?'add':'remove']('skills-active');document.body?.classList[page==='lesson'&&hasLessonReader(Number(arg))?'add':'remove']('lesson-reader-active');if(!suppressVisitTracking&&(page==='lesson'||(categories.slice(1,8).some(c=>c[0]===page)&&courses.has(Number(arg)))))rememberLearningLesson(Number(arg));suppressVisitTracking=false;main.className=page==='lesson'||categories.slice(1,8).some(c=>c[0]===page)?'reading-page':'';document.getElementById('page-location').textContent=page==='lesson'?`A1 / 第 ${arg} 课`:page==='verbs'?'知识库 / 动词变位':page==='settings'?'学习记录与备份':`A1 / ${categories.find(c=>c[0]===page)?.[1]||'学习路线'}`;navigation(page==='lesson'?'route':page);document.getElementById('search').value='';
   if(page==='goal' && window.FRENCH_GOAL) {
     window.FRENCH_GOAL.mount(main, arg);
     updateReadingTools();
     return;
   }
-  if(page==='verbs'&&window.VERB_KNOWLEDGE)main.innerHTML=window.VERB_KNOWLEDGE.render();else if(page==='skills'&&window.SKILL_TREE)main.innerHTML=window.SKILL_TREE.render();else if(page==='map'&&window.KNOWLEDGE_MAP)main.innerHTML=window.KNOWLEDGE_MAP.render();else if(page==='route')main.innerHTML=route();else if(page==='lesson'){const n=Number(arg);main.innerHTML=Number.isInteger(n)&&n>=1&&n<=36?lesson(n):heading('','找不到这节课');}else if(categories.slice(1,8).some(c=>c[0]===page))main.innerHTML=categoryPage(page,arg);else if(page==='review')main.innerHTML=heading('RÉVISION','错题与收藏','答对的错题会从待复习列表中移除。')+`<section class="section"><h2>收藏课程</h2>${state.favorites.length?state.favorites.map(n=>`<p><a href="#lesson/${n}">第 ${n} 课${catalog.find(c=>c.number===n)?' · '+escapeHtml(catalog.find(c=>c.number===n).title):''} →</a></p>`).join(''):'<p class="subtle">在课程页面点击“收藏本课”。</p>'}</section><section class="section"><h2>待复习错题</h2>${state.wrong.length?quiz(questions.filter(q=>state.wrong.includes(q.id))):'<div class="empty">目前没有待复习错题。继续学一课吧。<p><a href="#route">回到学习路线 →</a></p></div>'}</section>`;else if(page==='resources')main.innerHTML=heading('RESSOURCES','官方资源','学习标准、教材资源与加拿大官方信息。')+`<div class="links">${resources.map(r=>`<div class="card">${external(r[2],r[0])}<p class="subtle">${r[1]}</p></div>`).join('')}</div>`;else if(page==='draws')main.innerHTML=draws();else if(page==='notebook'){if(arg)notebookQuery='';main.innerHTML=notebook();}else if(page==='settings')main.innerHTML=settings();else main.innerHTML=heading('','找不到这个页面')+'<a href="#route">返回学习路线</a>';if(page==='verbs'&&window.VERB_KNOWLEDGE)window.VERB_KNOWLEDGE.mount();if(page==='skills'&&window.SKILL_TREE)window.SKILL_TREE.mount({state:()=>state,courses,setSkill:setSkillMastery});if(page==='map'&&window.KNOWLEDGE_MAP)window.KNOWLEDGE_MAP.mount({units,catalog,courses,state:()=>state,currentLesson:learningLesson,toggleComplete:toggleLessonComplete,setMastery:(id,level)=>{const previous=state.knowledgeMastery[id];state.knowledgeMastery[id]={level,updatedAt:new Date().toISOString()};if(save())return true;if(previous)state.knowledgeMastery[id]=previous;else delete state.knowledgeMastery[id];return false;}},arg,section);if(section&&page==='lesson')lessonSection(section);if(page==='notebook'&&arg)document.getElementById(`quick-note-${arg}`)?.scrollIntoView();if(page==='lesson')restoreReadingView();updateReadingTools();if(!storageAvailable)main.insertAdjacentHTML('afterbegin','<p role="alert">浏览器存储暂不可用，学习记录可能无法保留，请及时导出备份。</p>');}
+  if(page==='verbs'&&window.VERB_KNOWLEDGE)main.innerHTML=window.VERB_KNOWLEDGE.render();else if(page==='skills'&&window.SKILL_TREE)main.innerHTML=window.SKILL_TREE.render();else if(page==='map'&&window.KNOWLEDGE_MAP)main.innerHTML=window.KNOWLEDGE_MAP.render();else if(page==='route')main.innerHTML=route();else if(page==='lesson'){const n=Number(arg);main.innerHTML=Number.isInteger(n)&&n>=1&&n<=36?lesson(n):heading('','找不到这节课');}else if(categories.slice(1,8).some(c=>c[0]===page))main.innerHTML=categoryPage(page,arg);else if(page==='review')main.innerHTML=heading('RÉVISION','错题与收藏','答对的错题会从待复习列表中移除。')+`<section class="section"><h2>收藏课程</h2>${state.favorites.length?state.favorites.map(n=>`<p><a href="#lesson/${n}">第 ${n} 课${catalog.find(c=>c.number===n)?' · '+escapeHtml(catalog.find(c=>c.number===n).title):''} →</a></p>`).join(''):'<p class="subtle">在课程页面点击“收藏本课”。</p>'}</section><section class="section"><h2>待复习错题</h2>${state.wrong.length?quiz(questions.filter(q=>state.wrong.includes(q.id))):'<div class="empty">目前没有待复习错题。继续学一课吧。<p><a href="#route">回到学习路线 →</a></p></div>'}</section>`;else if(page==='resources')main.innerHTML=heading('RESSOURCES','官方资源','学习标准、教材资源与加拿大官方信息。')+`<div class="links">${resources.map(r=>`<div class="card">${external(r[2],r[0])}<p class="subtle">${r[1]}</p></div>`).join('')}</div>`;else if(page==='draws')main.innerHTML=draws();else if(page==='notebook'){if(arg)notebookQuery='';main.innerHTML=notebook();}else if(page==='settings')main.innerHTML=settings();else main.innerHTML=heading('','找不到这个页面')+'<a href="#route">返回学习路线</a>';if(page==='verbs'&&window.VERB_KNOWLEDGE)window.VERB_KNOWLEDGE.mount();if(page==='skills'&&window.SKILL_TREE)window.SKILL_TREE.mount({state:()=>state,courses,setSkill:setSkillMastery});if(page==='map'&&window.KNOWLEDGE_MAP)window.KNOWLEDGE_MAP.mount({units,catalog,courses,state:()=>state,currentLesson:learningLesson,toggleComplete:toggleLessonComplete,setMastery:(id,level)=>{const previous=state.knowledgeMastery[id];state.knowledgeMastery[id]={level,updatedAt:new Date().toISOString()};if(save())return true;if(previous)state.knowledgeMastery[id]=previous;else delete state.knowledgeMastery[id];return false;}},arg,section);if(page==='lesson'&&hasLessonReader(Number(arg)))mountLessonOutline();if(section&&page==='lesson')lessonSection(section);if(page==='notebook'&&arg)document.getElementById(`quick-note-${arg}`)?.scrollIntoView();if(page==='lesson')restoreReadingView();updateReadingTools();if(!storageAvailable)main.insertAdjacentHTML('afterbegin','<p role="alert">浏览器存储暂不可用，学习记录可能无法保留，请及时导出备份。</p>');}
 main.addEventListener('submit',e=>{if(e.target.id==='quick-note-form'){e.preventDefault();submitQuickNote();return;}const form=e.target.closest('[data-question]');if(!form)return;e.preventDefault();const q=questions.find(q=>q.id===form.dataset.question),value=new FormData(form).get('answer');if(value===null)return;const correct=Number(value)===q.answer;state.attempts[q.id]=correct;state.wrong=state.wrong.filter(id=>id!==q.id);if(!correct)state.wrong.push(q.id);save();const feedback=form.querySelector('.feedback');feedback.className=`feedback ${correct?'correct':'wrong'}`;feedback.textContent=(correct?'答对了。':'再想一想。正确答案：'+q.options[q.answer]+(/[.!?。！？]$/.test(q.options[q.answer])?' ':'。'))+q.explanation;});
 main.addEventListener('input',e=>{
   if(e.target.id==='quick-note-search'){notebookQuery=e.target.value;document.getElementById('quick-note-list').innerHTML=notebookList();return;}
@@ -310,7 +424,16 @@ main.addEventListener('input',e=>{
     return;
   }
   if(e.target.dataset.note){state.notes[e.target.dataset.note]=e.target.value;const printed=main.querySelector(`[data-print-note="${e.target.dataset.note}"]`);if(printed)printed.textContent=e.target.value||'（尚未填写）';save();}});
-main.addEventListener('click',e=>{const button=e.target.closest('button');if(!button)return;if(button.dataset.quickNoteEdit||button.dataset.quickNoteDelete||button.hasAttribute('data-quick-note-undo')||button.hasAttribute('data-quick-note-dismiss')||button.id==='quick-note-reset'){quickNoteAction(button);return;}if(button.dataset.unit){const unit=Number(button.dataset.unit);if(Number.isInteger(unit)&&unit>=1&&unit<=9){routeUnit=unit;render();}return;}if(button.hasAttribute('data-print'))window.print();if(button.dataset.answers){main.querySelectorAll('.lesson-notes details').forEach(d=>d.open=button.dataset.answers==='open');}if(button.dataset.complete){if(toggleLessonComplete(Number(button.dataset.complete))){suppressVisitTracking=true;render();}}if(button.dataset.favorite){const n=Number(button.dataset.favorite);state.favorites=state.favorites.includes(n)?state.favorites.filter(v=>v!==n):[...state.favorites,n];save();render();}if(button.dataset.page){drawPage+=Number(button.dataset.page);render();}if(button.id==='french-only'){drawType=drawData?.rounds.find(r=>r.category==='法语能力类别')?.category||'';drawPage=0;render();}if(button.id==='export'){const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='bonjour-francais-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}});
+main.addEventListener('click',e=>{
+  const outlineLink=lessonOutline&&e.target.closest('.lesson-reader-index [data-section-target]');
+  if(outlineLink?.dataset.sectionTarget&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey) {
+    setLessonOutlineOpen(false);
+    if(outlineLink.getAttribute('href')===location.hash){e.preventDefault();lessonSection(location.hash.split('/')[2]);}
+    return;
+  }
+  const button=e.target.closest('button');if(!button)return;
+  if(button.hasAttribute?.('data-reader-index')){setLessonOutlineOpen(button.getAttribute('aria-expanded')!=='true');return;}
+if(button.dataset.quickNoteEdit||button.dataset.quickNoteDelete||button.hasAttribute('data-quick-note-undo')||button.hasAttribute('data-quick-note-dismiss')||button.id==='quick-note-reset'){quickNoteAction(button);return;}if(button.dataset.unit){const unit=Number(button.dataset.unit);if(Number.isInteger(unit)&&unit>=1&&unit<=9){routeUnit=unit;render();}return;}if(button.hasAttribute('data-print'))window.print();if(button.dataset.answers){main.querySelectorAll('.lesson-notes details').forEach(d=>{if(!d.matches?.('.lesson-reader-detail'))d.open=button.dataset.answers==='open';});}if(button.dataset.complete){if(toggleLessonComplete(Number(button.dataset.complete))){suppressVisitTracking=true;render();}}if(button.dataset.favorite){const n=Number(button.dataset.favorite);state.favorites=state.favorites.includes(n)?state.favorites.filter(v=>v!==n):[...state.favorites,n];save();render();}if(button.dataset.page){drawPage+=Number(button.dataset.page);render();}if(button.id==='french-only'){drawType=drawData?.rounds.find(r=>r.category==='法语能力类别')?.category||'';drawPage=0;render();}if(button.id==='export'){const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='bonjour-francais-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}});
 main.addEventListener('change',async e=>{if(e.target.id==='learning-course'){const n=Number(e.target.value);if(!validLessonNumber(n))return;state.currentLesson=n;routeUnit=null;save();render();document.getElementById('learning-course')?.focus?.();return;}if(e.target.id==='course-select'){location.hash=`#${e.target.dataset.category}/${e.target.value}`;return;}if(e.target.id==='draw-type'){drawType=e.target.value;drawPage=0;render();}if(e.target.id==='draw-year'){drawYear=e.target.value;drawPage=0;render();}if(e.target.id==='import'){const file=e.target.files[0];if(!file)return;try {if(file.size>5_000_000)throw Error('备份文件过大');const imported=JSON.parse(await file.text());if(!validState(imported))throw Error('这不是有效的学习记录备份');if(!confirm('导入将替换当前浏览器中的学习记录，是否继续？'))return;const previous=state;state={...emptyState(),...imported};if(!save()){state=previous;return;}deletedQuickNote=null;suppressVisitTracking=true;render();notify('学习记录已导入');}catch(error){notify(error.message);}}});
 document.getElementById('search').addEventListener('input',e=>{const term=e.target.value.trim().toLocaleLowerCase();if(!term){clearSearch();return;}const entries=[...categories.slice(1,8).map(([id,label])=>[label,descriptions[id],`#${id}`]),...vocabulary.map(v=>[v[0],v[1]+' '+v[2],'#vocabulary']),...resources.map(r=>[r[0],r[1],'#resources']),...Array.from(courses.values()).flatMap(c=>c.sections.map(s=>[`第 ${c.number} 课 · ${s.title}`,plainText(s.html),`#lesson/${c.number}/${s.id}`])),...state.quickNotes.map(n=>[n.title||'未命名记录',n.body,`#notebook/${n.id}`]),...catalog.map(c=>[`${c.title} ${c.translation}`,`第${c.number}课 `+c.core.join(' '),`#lesson/${c.number}`])];if(!searchOrigin)searchOrigin={label:document.getElementById('page-location').textContent,scroll:window.scrollY||0};main.hidden=true;searchResults.hidden=false;document.getElementById('page-location').textContent='RECHERCHE / 搜索结果';const matches=entries.filter(r=>(r[0]+' '+r[1]).toLocaleLowerCase().includes(term));searchResults.innerHTML=heading('RECHERCHE','搜索结果')+`<button type="button" class="button secondary" id="search-back">返回原页面</button>`+`<p class="subtle">${matches.length} 项匹配</p><div class="links">${matches.map(r=>`<a class="card card-link" href="${r[2]}"><h3>${escapeHtml(r[0])} →</h3><p>${escapeHtml(searchExcerpt(r[1],term))}</p></a>`).join('')||'<div class="empty">没有找到匹配内容，试试“职业”“时间”或“faire”。</div>'}</div>`;window.scrollTo(0,0);updateReadingTools();});
 function plainText(html) {return html.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();}
@@ -318,6 +441,7 @@ function searchExcerpt(text,term) {const found=text.toLocaleLowerCase().indexOf(
 // In-page lesson navigation preserves selected answers and opened reference panels.
 window.addEventListener('hashchange',e=>{
   const from=(e.oldURL||'').split('#')[1]||'',to=location.hash.slice(1);
+  if(searchGuideTarget!==location.hash)searchGuideTarget='';
   const previous=from.split('/'),next=to.split('/');
   clearSearch(false);setNavigationOpen(false);
   if(previous[0]==='verbs'&&next[0]==='verbs'&&window.VERB_KNOWLEDGE?.navigate())return;
@@ -332,15 +456,24 @@ document.getElementById('search').addEventListener('keydown',e=>{if(e.key==='Esc
 searchResults.addEventListener('click',e=>{
   if(e.target.closest('#search-back')){clearSearch();document.getElementById('search').focus();return;}
   const link=e.target.closest('a');
-  if(link?.getAttribute('href')===location.hash){e.preventDefault();clearSearch(false);const [page,arg,section]=location.hash.slice(1).split('/');if(page==='lesson'&&section)lessonSection(section);else if(page==='notebook'&&arg)document.getElementById(`quick-note-${arg}`)?.scrollIntoView();else window.scrollTo(0,0);}
+  const href=link?.getAttribute('href')||'';
+  searchGuideTarget=/^#lesson\/\d+\/[a-z0-9-]+$/.test(href)&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey?href:'';
+  if(href===location.hash&&link){e.preventDefault();clearSearch(false);const [page,arg,section]=location.hash.slice(1).split('/');if(page==='lesson'&&section)lessonSection(section);else if(page==='notebook'&&arg)document.getElementById(`quick-note-${arg}`)?.scrollIntoView();else window.scrollTo(0,0);}
 });
 document.getElementById('reading-toc').addEventListener('click',e=>{if(e.currentTarget.getAttribute('href')===location.hash){e.preventDefault();lessonSection('toc');}});
 document.getElementById('reading-top').addEventListener('click',()=>{window.scrollTo(0,0);document.getElementById('main').focus({preventScroll:true});});
 document.querySelector('.skip').addEventListener('click',e=>{e.preventDefault();const target=document.getElementById('main');target.scrollIntoView();target.focus({preventScroll:true});});
-window.addEventListener('scroll',()=>{updateReadingTools();rememberReadingView();},{passive:true});
+window.addEventListener('scroll',()=>{updateReadingTools();rememberReadingView();scheduleLessonOutline();},{passive:true});
+window.addEventListener('resize',scheduleLessonOutline);
+main.addEventListener('keydown',e=>{
+  if(e.key!=='Escape'||!lessonOutline?.index.classList.contains('is-open')||!lessonOutline.index.contains(e.target))return;
+  setLessonOutlineOpen(false);
+  lessonOutline.index.querySelector('.lesson-reader-index-toggle').focus();
+});
+
 window.addEventListener('pagehide',rememberReadingView);
 window.addEventListener('click',rememberReadingView,true);
-main.addEventListener('toggle',rememberReadingView,true);
+main.addEventListener('toggle',()=>{rememberReadingView();scheduleLessonOutline();},true);
 let printPanels=[];
 window.addEventListener('beforeprint',()=>{printPanels=[...main.querySelectorAll('details')].map(panel=>({panel,open:panel.open}));printPanels.forEach(({panel})=>panel.open=true);});
 window.addEventListener('afterprint',()=>{printPanels.forEach(({panel,open})=>panel.open=open);printPanels=[];});
