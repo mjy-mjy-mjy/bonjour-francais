@@ -37,7 +37,7 @@ jobs:
           <script>
           (async () => {
             const assert = (value, message) => { if (!value) throw new Error(message); };
-            const wait = () => new Promise(resolve => setTimeout(resolve,120));
+            const wait = () => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
             const marker = document.createElement('output');
             marker.id = 'reader-qa';
             document.body.append(marker);
@@ -66,14 +66,14 @@ jobs:
                 list.querySelector('a[data-section-target="lesson23-cod"]').click();
                 await wait();
                 assert(tocToggle.getAttribute('aria-expanded') === 'false', 'mobile directory failed to close after navigation');
-                assert(active() === 'lesson23-cod', 'mobile chapter link did not activate');
+                assert(active() === 'lesson23-cod', 'mobile chapter link did not activate: ' + active() + ', top=' + section('cod').getBoundingClientRect().top);
               assert(toc.getBoundingClientRect().top >= 0, 'mobile directory control scrolled out of view');
               } else {
                 assert(toc.getBoundingClientRect().left >= section('scope').getBoundingClientRect().right, 'directory is not to the right');
                 list.style.maxHeight = '100px';
                 section('practice').scrollIntoView();
                 await wait();
-                assert(active() === 'lesson23-practice', 'scrolling did not activate practice');
+                assert(active() === 'lesson23-practice', 'scrolling did not activate practice: ' + active() + ', top=' + section('practice').getBoundingClientRect().top + ', scrollY=' + scrollY);
                 assert(list.scrollTop > 0, 'sidebar did not auto-scroll');
                 section('scope').scrollIntoView();
                 await wait();
@@ -107,14 +107,47 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/lesson-reader-qa.html -o /dev/null; then break; fi
             sleep 1
           done
-          for view in desktop mobile; do
-            case "$view" in
-              desktop) dimensions=1365,820 ;;
-              mobile) dimensions=500,820 ;;
-            esac
-            google-chrome --headless --disable-gpu --no-sandbox --user-data-dir="/tmp/lesson-reader-$view" --window-size="$dimensions" --virtual-time-budget=4000 --dump-dom 'http://127.0.0.1:8765/lesson-reader-qa.html#lesson/23' > "/tmp/lesson-reader-$view.html"
-            if ! grep -oE '<output id="reader-qa">PASS [^<]+</output>' "/tmp/lesson-reader-$view.html" | grep -F "PASS $view"; then
-              grep -oE '<output id="reader-qa">[^<]*</output>' "/tmp/lesson-reader-$view.html" || true
-              exit 1
-            fi
-          done
+          qa_driver_path=$(command -v chromedriver || true)
+          if [ -z "$qa_driver_path" ]; then qa_driver_path="$CHROMEWEBDRIVER/chromedriver"; fi
+          "$qa_driver_path" --port=9515 > /tmp/lesson-reader-driver.log 2>&1 &
+          qa_driver=$!
+          trap 'kill "$qa_server" "$qa_driver"' EXIT
+          python3 - <<'PY'
+          import json
+          import time
+          from urllib.request import Request, urlopen
+
+          address = 'http://127.0.0.1:9515'
+
+          def driver(path, payload=None, method=None):
+              data = None if payload is None else json.dumps(payload).encode()
+              request = Request(address+path, data=data, method=method, headers={'Content-Type':'application/json'})
+              with urlopen(request, timeout=10) as response:
+                  return json.load(response)['value']
+
+          for i in range(50):
+              try:
+                  if driver('/status')['ready']:
+                      break
+              except OSError:
+                  time.sleep(.2)
+          else:
+              raise SystemExit('ChromeDriver did not start')
+
+          for name, width in [('desktop',1365), ('mobile',500)]:
+              caps = {'browserName':'chrome','goog:chromeOptions': {'args':['--headless','--no-sandbox','--disable-dev-shm-usage']}}
+              session = driver('/session',{'capabilities':{'alwaysMatch':caps}})['sessionId']
+              target = '/session/'+session
+              try:
+                  driver(target+'/window/rect', {'width':width,'height':820})
+                  driver(target+'/url', {'url':'http://127.0.0.1:8765/lesson-reader-qa.html#lesson/23'})
+                  for i in range(40):
+                      result = driver(target+'/execute/sync', {'script':"return document.getElementById('reader-qa')?.textContent || '';", 'args':[]})
+                      if result:
+                          break
+                      time.sleep(.1)
+                  print(name, result, flush=True)
+                  assert result == 'PASS '+name, result
+              finally:
+                  driver(target, method='DELETE')
+          PY
