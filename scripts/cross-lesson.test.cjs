@@ -9,7 +9,9 @@ const root=path.join(__dirname,'..');
 const cases=[
  {lesson:14,id:'g-irregular',query:'不规则',section:'verbs',sharedVerb:true},
  {lesson:20,id:'g-dernier',query:'dernier',section:'dernier'},
- {lesson:21,id:'g-coi-imperative',query:'间接宾语',section:'coi'}
+ {lesson:21,id:'g-coi-imperative',query:'间接宾语',section:'coi'},
+ {lesson:22,id:'g-futur-proche',query:'最近将来时',section:'future'},
+ {lesson:23,id:'g-cod-pronouns',query:'直接宾语',section:'cod'}
 ];
 
 function session(hash='#route',saved={}){

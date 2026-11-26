@@ -1,0 +1,350 @@
+{
+  "number": 23,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标与教材范围",
+      "html": "<h2>01 / 学习目标与教材范围</h2><p>第6单元 <i>Vivre avec les autres</i>。教材以商量送礼和安排聚会为背景。学完能提议、同意或婉拒，并能用 <i>le / la / l’ / les</i> 指代直接宾语、用 <i>lui / leur</i> 指代已说过的接收者。</p><p>本页依据<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF#page=76\">出版方教师指南</a>第23课。对话、阅读和练习为本站原创。先掌握单个代词，再用第18课和第22课的句型练习词序。</p>"
+    },
+    {
+      "id": "verbs",
+      "title": "2. connaître 的现在时",
+      "html": "<h2>02 / connaître 的现在时</h2><p><i>connaître</i> 常接人、地点或事物，表达认识、了解或熟悉。<i>Je connais ces collègues.</i> 我认识这些同事。<i>Vous connaissez ce quartier ?</i> 您熟悉这个街区吗？</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>connaître</th><th>例句</th></tr></thead><tbody><tr><td>je</td><td>connais</td><td>Je connais Paul.</td></tr><tr><td>tu</td><td>connais</td><td>Tu connais ce restaurant.</td></tr><tr><td>il / elle / on</td><td>connaît</td><td>On connaît ses goûts.</td></tr><tr><td>nous</td><td>connaissons</td><td>Nous connaissons cette librairie.</td></tr><tr><td>vous</td><td>connaissez</td><td>Vous connaissez Léa.</td></tr><tr><td>ils / elles</td><td>connaissent</td><td>Ils connaissent les invités.</td></tr></tbody></table></div><p>单数的三种写法都读 /kɔnɛ/。传统拼写 <i>connaître / connaît</i> 带长音符，新拼写也接受 <i>connaitre / connait</i>。回看<a href=\"#lesson/22/verbs\">第22课 savoir</a>。<i>Je connais ce jeu.</i> 是我熟悉这个游戏，<i>Je sais jouer à ce jeu.</i> 是我会玩这个游戏。</p>"
+    },
+    {
+      "id": "cod",
+      "title": "3. 直接宾语代词 COD",
+      "html": "<h2>03 / 直接宾语代词 COD</h2><p>先看动词怎么接宾语。<i>connaître quelqu’un</i> 直接接人，中间没有介词。<i>Je connais ces collègues.</i> 中的 <i>ces collègues</i> 就是直接宾语。前文已说过是谁，就可以用 <i>les</i> 代替它。</p><div class=\"table-scroll\"><table><thead><tr><th>被替换的名词组</th><th>代词</th><th>替换示例</th></tr></thead><tbody><tr><td>阳性单数 <i>ce livre</i></td><td>le</td><td>Je prends ce livre. → Je le prends.</td></tr><tr><td>阴性单数 <i>cette carte</i></td><td>la</td><td>Je choisis cette carte. → Je la choisis.</td></tr><tr><td>单数，代词后遇元音或哑音 h</td><td>l’</td><td>J’achète cette carte. → Je l’achète.</td></tr><tr><td>复数 <i>ces collègues</i></td><td>les</td><td>Je connais ces collègues. → Je les connais.</td></tr></tbody></table></div><p>英文 <i>I know them</i> 的 <i>them</i> 跟在动词后，法语普通陈述句的弱读代词通常贴在相关动词前。对照 <b>Je les connais.</b> 我认识他们。<b>Je ne les connais pas.</b> 我不认识他们。<i>ne…pas</i> 罩住 <i>les connais</i>，代词依旧贴在 <i>connais</i> 前。</p>"
+    },
+    {
+      "id": "coi",
+      "title": "4. 间接宾语代词 lui 与 leur",
+      "html": "<h2>04 / 间接宾语代词 lui 与 leur</h2><p><i>offrir quelque chose à quelqu’un</i> 有两项信息。<i>On offre un livre à Léa.</i> 中「书」是送的东西，<i>à Léa</i> 是接收者。只替换接收者，得到 <i>On <b>lui</b> offre un livre.</i></p><p><b>lui</b> 代表一个接收者，可以是他或她。<b>leur</b> 代表多个接收者，作为代词永远不加 s。<i>On offre un livre à nos amis. → On leur offre un livre.</i> 否定：<i>On ne leur offre pas de livre.</i></p><p>比较 <i>J’invite Léa. → Je l’invite.</i> 与 <i>Je téléphone à Léa. → Je lui téléphone.</i> 两句都是 Léa，但代词由 <i>inviter quelqu’un</i> 和 <i>téléphoner à quelqu’un</i> 的搭配决定。<i>penser à elle</i> 也有 <i>à</i>，却要保留介词和重读代词，可先记这项常见例外。命令式的位置回看<a href=\"#lesson/21/coi\">第21课</a>。</p>"
+    },
+    {
+      "id": "placement",
+      "title": "5. 肯定、否定与有两个动词的句子",
+      "html": "<h2>05 / 肯定、否定与有两个动词的句子</h2><p>先找代词替换的成分属于哪个动作，再找这个动作在句中的形式。用同一组人对比，先练句子骨架。</p><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>示例</th><th>放在哪里</th></tr></thead><tbody><tr><td>现在时肯定</td><td>Je les connais.</td><td>变位动词前。</td></tr><tr><td>现在时否定</td><td>Je ne les connais pas.</td><td>代词和动词一起放在 ne…pas 中间。</td></tr><tr><td>最近将来时</td><td>Je vais les inviter.</td><td>les 是 inviter 的宾语，放在不定式前。</td></tr><tr><td>最近将来时否定</td><td>Je ne vais pas les inviter.</td><td>否定围住 vais，les 仍在 inviter 前。</td></tr><tr><td>情态动词＋不定式</td><td>Je veux les inviter. / Je ne veux pas les inviter.</td><td>les 仍在 inviter 前。</td></tr><tr><td>复合过去时</td><td>Je leur ai parlé. / Je ne leur ai pas parlé.</td><td>代词放在助动词前，否定围住 leur ai。</td></tr></tbody></table></div><p><b>衔接练习</b>：COD 也可以放在助动词前。<i>J’ai vu les invités. → Je les ai vus.</i> 这里提前的是阳性复数 COD，<i>vus</i> 要配合。<i>Je leur ai parlé.</i> 中 <i>leur</i> 是 COI，<i>parlé</i> 不随它变化。先把位置练稳，再练分词配合。双代词的排列另作专题。</p>"
+    },
+    {
+      "id": "expressions",
+      "title": "6. 提议、同意与婉拒",
+      "html": "<h2>06 / 提议、同意与婉拒</h2><div class=\"table-scroll\"><table><thead><tr><th>意图</th><th>例句</th></tr></thead><tbody><tr><td>开口提议</td><td>On peut lui offrir un carnet. / Et si on lui offrait un carnet ?</td></tr><tr><td>接受</td><td>Bonne idée ! / D’accord. On fait ça.</td></tr><tr><td>婉拒并说明原因</td><td>Je ne crois pas. Elle en a déjà un.</td></tr><tr><td>提出替代选项</td><td>Pourquoi pas des fleurs ? / On peut lui offrir une plante.</td></tr></tbody></table></div><p>先熟练使用 <i>On peut＋不定式</i> 和 <i>Pourquoi pas… ?</i>。<i>Et si on… ?</i> 和 <i>Elle en a déjà un.</i> 可先整体识别。拒绝时可以先说明原因，再给一个替代方案。</p>"
+    },
+    {
+      "id": "words",
+      "title": "7. 礼物、聚会和职场词汇",
+      "html": "<h2>07 / 礼物、聚会和职场词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词语</th><th>意思</th><th>例子</th></tr></thead><tbody><tr><td>un cadeau / un agenda</td><td>礼物／日程本</td><td>offrir un agenda</td></tr><tr><td>un / une collègue</td><td>同事</td><td>une collègue de Léa</td></tr><tr><td>un invité / une invitée</td><td>客人／受邀者</td><td>prévenir les invités</td></tr><tr><td>une idée / une fête</td><td>主意／聚会</td><td>organiser une fête</td></tr><tr><td>le goût / les goûts</td><td>口味／偏好</td><td>connaître ses goûts</td></tr><tr><td>un départ / la retraite</td><td>离开／退休</td><td>partir à la retraite</td></tr><tr><td>un plat / un lieu</td><td>菜肴／地点</td><td>choisir un lieu</td></tr><tr><td>nouveau / nouvel / nouvelle</td><td>新的</td><td>un nouveau carnet、un nouvel agenda、une nouvelle idée</td></tr></tbody></table></div><p><i>offrir quelque chose à quelqu’un</i> 是把某物送给某人。<i>choisir un cadeau</i> 是选礼物。<i>inviter quelqu’un à une fête</i> 中受邀的人是 COD，<i>à une fête</i> 指活动。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "8. e caduc：口语里时读时不读的 e",
+      "html": "<h2>08 / e caduc：口语里时读时不读的 e</h2><p><b>e caduc</b> 常指可以弱读成 /ə/、在一些语境下也可略去的 e。听 <i>je</i>、<i>le</i>、<i>ne</i> 在短句中发生了什么。可用 <i>Je le prends.</i> 做练习，较慢时逐音读，较自然时可能读得接近 <i>Je l’prends</i> 的声音。后者只作听感提示，书写仍用 <i>Je le prends.</i></p><p>发不发 /ə/ 会随说话速度、地区和附近辅音而变。不要机械删掉每个 e。再比较真正需要书写省音的 <i>Je l’offre.</i>，因为 <i>offre</i> 以元音开头。跟读时先听清 <i>le</i> 指的是什么，再留意弱读。</p>"
+    },
+    {
+      "id": "reading",
+      "title": "9. 原创阅读：给同事准备告别礼物",
+      "html": "<h2>09 / 原创阅读：给同事准备告别礼物</h2><blockquote><p>Maya quitte l’équipe vendredi. Elle aime les plantes, mais elle a déjà beaucoup de carnets. Alex propose un carnet. Salomé préfère une petite plante. On peut lui offrir la plante à la fin de la réunion. Alex va prévenir les collègues jeudi.</p></blockquote><p>先分清谁、何时和讨论中的两个礼物。Maya 星期五离开团队。Alex 提议送本子，Salomé 偏向送小植物。句中的 <i>lui</i> 指 Maya。Alex 将在星期四通知同事。文中没有说 Maya 离开的原因，也没说谁负责买植物。</p>"
+    },
+    {
+      "id": "communicate",
+      "title": "10. 原创对话：商量聚会与礼物",
+      "html": "<h2>10 / 原创对话：商量聚会与礼物</h2><blockquote><p>— Qu’est-ce qu’on offre à Sam ? On peut lui offrir un livre.<br>— Je ne connais pas ses goûts. Pourquoi pas une plante ?<br>— D’accord. Je vais l’acheter jeudi. Tu connais les nouveaux collègues ?<br>— Non, je ne les connais pas encore. Mais je peux leur écrire pour les inviter.</p></blockquote><p>轮流提议礼物、回应、说明理由、确定谁负责什么。对话中的 <i>lui</i> 指 Sam，<i>l’</i> 指植物，<i>les / leur</i> 都指同事，但分别服务于 <i>connaître / inviter</i> 和 <i>écrire à</i> 的搭配。继续练习时，换掉礼物和接收者人数。</p>"
+    },
+    {
+      "id": "writing",
+      "title": "11. 写一条聚会分工留言",
+      "html": "<h2>11 / 写一条聚会分工留言</h2><p>写四句短消息。交代时间、提出礼物、用代词指代接收者、安排通知与购买。</p><blockquote><p>La fête est vendredi à dix-huit heures. On peut offrir une plante à Lina. Je vais la choisir jeudi. Tu peux lui écrire pour confirmer l’heure ?</p></blockquote><p>检查每个代词都有明确的前文。先用全名词组建立信息，再在后文代换，避免读者猜是谁或什么。</p>"
+    },
+    {
+      "id": "review",
+      "title": "12. 复习速查",
+      "html": "<h2>12 / 复习速查</h2><ul><li><i>connaître Léa → la connaître</i>，<i>parler à Léa → lui parler</i>。先看动词搭配。</li><li><i>Je les connais → Je ne les connais pas → Je vais les inviter.</i> 先找代词所属动词。</li><li><i>lui</i> 一个接收者，<i>leur</i> 多个接收者。</li><li>提议用 <i>On peut…</i>，接受用 <i>Bonne idée !</i>，婉拒后可以用 <i>Pourquoi pas… ?</i> 换个方案。</li></ul>"
+    },
+    {
+      "id": "practice",
+      "title": "13. 分组练习 A—J（30 项）",
+      "html": "<h2>13 / 分组练习 A—J（30 项）</h2><h3>A. connaître</h3><ol><li>补全：Vous ___ cette librairie ?</li><li>改错：Nous connaît bien Lina.</li><li>「我会弹钢琴」选 connaître 还是 savoir？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Vous <b>connaissez</b> cette librairie ?</li><li>Nous <b>connaissons</b> bien Lina.</li><li><i>Je sais jouer du piano.</i> 表达会做某事。</li></ol></details><h3>B. COD 选择</h3><ol><li>Je prends le livre. 用代词改写。</li><li>Elle choisit la carte. 用代词改写。</li><li>Tu invites mes amies. 用代词改写。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>le</b> prends.</li><li>Elle <b>la</b> choisit.</li><li>Tu <b>les</b> invites.</li></ol></details><h3>C. 否定与省音</h3><ol><li>Je connais ces collègues. 换代词并改为否定。</li><li>J’achète cette plante. 换代词。</li><li>改错：Je les ne connais pas.</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je ne <b>les</b> connais pas.</li><li>Je <b>l’</b>achète.</li><li>Je <b>ne les connais pas</b>.</li></ol></details><h3>D. COI 选择</h3><ol><li>Je parle à Lina. 换代词。</li><li>On écrit à nos collègues. 换代词。</li><li>On offre des fleurs à ce couple. 替换接收者。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>lui</b> parle.</li><li>On <b>leur</b> écrit.</li><li>On <b>lui</b> offre des fleurs. <i>Ce couple</i> 在语法上是单数。</li></ol></details><h3>E. 用动词搭配辨 COD 和 COI</h3><ol><li>J’invite Lina. 换代词。</li><li>J’écris à Lina. 换代词。</li><li>On offre un carnet à Sam. 说出物品和接收者。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>l’</b>invite. <i>Inviter quelqu’un</i>。</li><li>Je <b>lui</b> écris. <i>Écrire à quelqu’un</i>。</li><li>物品 <i>un carnet</i> 是 COD，<i>à Sam</i> 是 COI。</li></ol></details><h3>F. 不定式与复合过去时</h3><ol><li>Je vais inviter les collègues. 换代词。</li><li>把 Je vais les inviter. 改为否定。</li><li>J’ai parlé à Lina. 换代词并否定。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je vais <b>les inviter</b>.</li><li>Je ne vais pas <b>les inviter</b>.</li><li>Je <b>ne lui ai pas</b> parlé.</li></ol></details><h3>G. 提议与回应</h3><ol><li>提议给 Lina 送一盆植物。</li><li>用一句话接受这个提议。</li><li>觉得她已有很多植物，提议改送本书。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>On peut lui offrir une plante.</li><li>Bonne idée !</li><li>Elle a déjà beaucoup de plantes. Pourquoi pas un livre ?</li></ol></details><h3>H. 阅读取证</h3><ol><li>原创短文里，谁星期五离开团队？</li><li>谁提议送本子？</li><li>文中说谁买植物了吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Maya。</li><li>Alex。</li><li>未提及。</li></ol></details><h3>I. 语音与听力</h3><ol><li>在慢读 Je le prends. 时，le 中弱读的元音是什么？</li><li>哪个是规范写法：Je l’prends. 还是 Je le prends.？</li><li>遮住原创对话，请同伴朗读。准备哪天买植物？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>/ə/。自然语流里有时不发。</li><li><i>Je le prends.</i></li><li>星期四，<i>jeudi</i>。</li></ol></details><h3>J. 输出与自查</h3><ol><li>写「我将给我的同事们写信」，用 leur。</li><li>说「我不认识这些客人」，先用全名词，再改成代词。</li><li>写两句给朋友确认给 Lina 买礼物，并至少用一次 lui。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je vais leur écrire.</li><li>Je ne connais pas ces invités. → Je ne les connais pas.</li><li>例：Je vais acheter une plante jeudi. On peut lui offrir la plante vendredi.</li></ol></details>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "id": "l23-q01",
+      "question": "Nous ___ déjà ces collègues.",
+      "options": [
+        "connaît",
+        "connaissons",
+        "connaissez"
+      ],
+      "answer": 1,
+      "explanation": "nous 对应 connaissons。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q02",
+      "question": "Ils ___ bien ce quartier.",
+      "options": [
+        "connaissent",
+        "connais",
+        "connaissons"
+      ],
+      "answer": 0,
+      "explanation": "ils 对应 connaissent。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q03",
+      "question": "Je choisis cette carte. 换成代词。",
+      "options": [
+        "Je lui choisis.",
+        "Je le choisis.",
+        "Je la choisis."
+      ],
+      "answer": 2,
+      "explanation": "cette carte 是阴性单数 COD。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q04",
+      "question": "J’achète cette plante. 换成代词。",
+      "options": [
+        "Je la achète.",
+        "Je l’achète.",
+        "Je lui achète."
+      ],
+      "answer": 1,
+      "explanation": "la 在 achète 前省音为 l’。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q05",
+      "question": "Je connais ces collègues. 换代词并否定。",
+      "options": [
+        "Je ne les connais pas.",
+        "Je ne connais pas les.",
+        "Je les ne connais pas."
+      ],
+      "answer": 0,
+      "explanation": "les 放在 connais 前，ne…pas 围住 les connais。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q06",
+      "question": "Je téléphone à Nora. 换成代词。",
+      "options": [
+        "Je la téléphone.",
+        "Je leur téléphone.",
+        "Je lui téléphone."
+      ],
+      "answer": 2,
+      "explanation": "téléphoner à Nora 用 lui。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q07",
+      "question": "J’écris à mes amis. 换成代词。",
+      "options": [
+        "Je leurs écris.",
+        "Je leur écris.",
+        "Je les écris."
+      ],
+      "answer": 1,
+      "explanation": "leur 是多人 COI，代词永远不加 s。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q08",
+      "question": "Je vais inviter les collègues. 换成代词。",
+      "options": [
+        "Je vais les inviter.",
+        "Je vais inviter les.",
+        "Je vais leur inviter."
+      ],
+      "answer": 0,
+      "explanation": "les 是 inviter 的 COD，放在其原形前。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q09",
+      "question": "Je vais les inviter. 的否定形式是？",
+      "options": [
+        "Je ne les vais pas inviter.",
+        "Je vais les ne pas inviter.",
+        "Je ne vais pas les inviter."
+      ],
+      "answer": 2,
+      "explanation": "否定围住 vais，les 在 inviter 前。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q10",
+      "question": "J’ai parlé à Lina. 换成代词并否定。",
+      "options": [
+        "Je n’ai pas lui parlé.",
+        "Je ne lui ai pas parlé.",
+        "Je ne l’ai pas parlé."
+      ],
+      "answer": 1,
+      "explanation": "lui 是 COI，复合过去时放在助动词 ai 前。",
+      "group": "grammar"
+    },
+    {
+      "id": "l23-q11",
+      "question": "哪项表示「退休」？",
+      "options": [
+        "partir à la retraite",
+        "passer un entretien",
+        "connaître ses goûts"
+      ],
+      "answer": 0,
+      "explanation": "partir à la retraite 是退休。",
+      "group": "vocabulary"
+    },
+    {
+      "id": "l23-q12",
+      "question": "哪一项拼写正确？",
+      "options": [
+        "un nouvelle agenda",
+        "un nouveau agenda",
+        "un nouvel agenda"
+      ],
+      "answer": 2,
+      "explanation": "agenda 是元音开头的阳性名词，用 nouvel。",
+      "group": "vocabulary"
+    },
+    {
+      "id": "l23-q13",
+      "question": "e caduc 在读出来时常是什么音？",
+      "options": [
+        "/w/",
+        "/ə/",
+        "/ɥ/"
+      ],
+      "answer": 1,
+      "explanation": "弱读时常是 /ə/。",
+      "group": "pronunciation"
+    },
+    {
+      "id": "l23-q14",
+      "question": "如果自然语流里听不到 le 中的 e，书写应如何？",
+      "options": [
+        "Je le prends.",
+        "Je l’prends.",
+        "Je lp rends."
+      ],
+      "answer": 0,
+      "explanation": "辅音开头的 prends 前依然写 le。",
+      "group": "pronunciation"
+    },
+    {
+      "id": "l23-q15",
+      "question": "原创短文里谁偏向送小植物？",
+      "options": [
+        "Maya",
+        "Alex",
+        "Salomé"
+      ],
+      "answer": 2,
+      "explanation": "Salomé préfère une petite plante。",
+      "group": "reading"
+    },
+    {
+      "id": "l23-q16",
+      "question": "Maya 离开团队的原因是什么？",
+      "options": [
+        "她要去旅行",
+        "原文未说明",
+        "她不喜欢植物"
+      ],
+      "answer": 1,
+      "explanation": "短文只给出离开时间。",
+      "group": "reading"
+    },
+    {
+      "id": "l23-q17",
+      "question": "听同伴朗读原创对话，第一人一开始提议哪种礼物？",
+      "options": [
+        "一本书",
+        "一盆植物",
+        "一张卡片"
+      ],
+      "answer": 0,
+      "explanation": "第一项提议是 un livre。",
+      "group": "listening"
+    },
+    {
+      "id": "l23-q18",
+      "question": "原创对话里确认哪天买植物？",
+      "options": [
+        "周一",
+        "周六",
+        "星期四"
+      ],
+      "answer": 2,
+      "explanation": "Je vais l’acheter jeudi。",
+      "group": "listening"
+    },
+    {
+      "id": "l23-q19",
+      "question": "哪句适合提出另一项选择？",
+      "options": [
+        "Je connais la plante.",
+        "Pourquoi pas une plante ?",
+        "Elle écrit jeudi."
+      ],
+      "answer": 1,
+      "explanation": "Pourquoi pas… ? 可引出替代选项。",
+      "group": "speaking"
+    },
+    {
+      "id": "l23-q20",
+      "question": "哪句表示接受提议？",
+      "options": [
+        "Bonne idée !",
+        "Je ne crois pas.",
+        "Je ne le connais pas."
+      ],
+      "answer": 0,
+      "explanation": "Bonne idée ! 意为「好主意」。",
+      "group": "speaking"
+    },
+    {
+      "id": "l23-q21",
+      "question": "已知收礼者是 Lina，怎样写「我们可以给她送一本书」？",
+      "options": [
+        "On peut la offrir un livre.",
+        "On peut leur offrir un livre.",
+        "On peut lui offrir un livre."
+      ],
+      "answer": 2,
+      "explanation": "Lina 是单个接收者，用 lui，置于 offrir 前。",
+      "group": "writing"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "verbs",
+      "cod",
+      "coi",
+      "placement"
+    ],
+    "vocabulary": [
+      "words"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "reading"
+    ],
+    "speaking": [
+      "expressions",
+      "communicate"
+    ],
+    "writing": [
+      "writing",
+      "placement"
+    ]
+  },
+  "listening": "用教材对应第23课录音。先听大家在商量什么，再记提议的礼物、接受或拒绝的理由，最后回找 le／la／les 和 lui／leur 各指谁。也可请同伴朗读本站原创对话，先遮住文字听礼物、购买时间和谁负责通知。"
+}

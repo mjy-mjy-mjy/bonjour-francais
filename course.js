@@ -288,6 +288,34 @@ window.COURSE_LIBRARY = {
         "肯定命令式后的间接宾语代词",
         "/ʃ/与/ʒ/辨音"
       ]
+    },
+    {
+      "number": 22,
+      "title": "Petites annonces",
+      "translation": "分类广告",
+      "pages": "68–69",
+      "core": [
+        "阅读分类广告与求职交流",
+        "vouloir／savoir 现在时",
+        "pouvoir／savoir／vouloir 辨析",
+        "il faut＋不定式",
+        "最近将来时",
+        "/ɥ/ 与 /w/ 辨音"
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Qu’est-ce qu’on lui offre ?",
+      "translation": "我们送他／她什么？",
+      "pages": "70–71",
+      "core": [
+        "提出、接受与婉拒建议",
+        "connaître 现在时",
+        "直接宾语代词 le／la／l’／les",
+        "间接宾语代词 lui／leur",
+        "代词在否定句与多动词结构中的位置",
+        "e caduc（弱读 e）"
+      ]
     }
   ],
   "lessons": [
@@ -11564,6 +11592,722 @@ window.COURSE_LIBRARY = {
         ]
       },
       "listening": "使用教材实际版本第21课配套录音：第一遍辨场所和说话人，第二遍记录允许／禁止的动作与范围，第三遍听pouvoir及否定命令式、代词接收者。再做/ʃ/与/ʒ/辨音；不臆造音轨编号。本站对话为原创文字，没有配套音频，可请同伴朗读作补充训练，不视为教材录音。"
+    },
+    {
+      "number": 22,
+      "title": "Petites annonces",
+      "translation": "分类广告",
+      "pages": "68–69",
+      "core": [
+        "阅读分类广告与求职交流",
+        "vouloir／savoir 现在时",
+        "pouvoir／savoir／vouloir 辨析",
+        "il faut＋不定式",
+        "最近将来时",
+        "/ɥ/ 与 /w/ 辨音"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标与教材范围",
+          "html": "<h2>01 / 学习目标与教材范围</h2><p>第6单元 <i>Vivre avec les autres</i>。教材以招聘广告和简短交流为背景，训练表达意愿、已学会的技能、可能性和义务，并练习给建议。学完能从广告里找出职位和条件，简短介绍自己的技能、空闲时间与下一步安排。</p><p>本页讲解依据<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF#page=73\">出版方教师指南</a>第22课。用于练习的广告、人物、对话和题目均为本站原创。</p>"
+        },
+        {
+          "id": "verbs",
+          "title": "2. vouloir 与 savoir 的现在时",
+          "html": "<h2>02 / vouloir 与 savoir 的现在时</h2><p><b>vouloir</b> 表意愿，可接名词或不定式。<i>Je veux un poste à temps partiel.</i> 我想要一份兼职。<i>Nous voulons travailler ici.</i> 我们想在这里工作。</p><p><b>savoir</b> 接不定式时表示学会怎样做。<i>Elle sait utiliser ce logiciel.</i> 她会用这款软件。也能表达知道一项信息，例如 <i>Je sais où est l’hôtel.</i> 我知道酒店在哪里。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>vouloir</th><th>savoir</th></tr></thead><tbody><tr><td>je</td><td>veux</td><td>sais</td></tr><tr><td>tu</td><td>veux</td><td>sais</td></tr><tr><td>il / elle / on</td><td>veut</td><td>sait</td></tr><tr><td>nous</td><td>voulons</td><td>savons</td></tr><tr><td>vous</td><td>voulez</td><td>savez</td></tr><tr><td>ils / elles</td><td>veulent</td><td>savent</td></tr></tbody></table></div><p><i>veux / veut</i> 同读 /vø/，<i>veulent</i> 读 /vœl/。<i>sais / sait</i> 同读 /sɛ/，<i>savent</i> 读 /sav/。接另一个动词，后者保持原形，例如 <i>Vous savez conduire ?</i></p>"
+        },
+        {
+          "id": "modal",
+          "title": "3. 同一个动作的三种意思",
+          "html": "<h2>03 / 同一个动作的三种意思</h2><div class=\"table-scroll\"><table><thead><tr><th>例句</th><th>意思</th></tr></thead><tbody><tr><td>Je veux conduire.</td><td>我想开车，表达意愿。</td></tr><tr><td>Je sais conduire.</td><td>我会开车，表达技能。</td></tr><tr><td>Je peux conduire aujourd’hui.</td><td>我今天可以开车，表达条件允许。</td></tr></tbody></table></div><p><i>Je sais conduire, mais je ne peux pas conduire aujourd’hui.</i> 我会开车，但今天开不了。<i>Tu veux… ?</i> 常用来问对方意愿。第21课的 <a href=\"#lesson/21/pouvoir\">pouvoir</a> 还可表达许可或能力，具体看语境。礼貌表达 <i>Je voudrais…</i> 可以先整体识别。</p>"
+        },
+        {
+          "id": "obligation",
+          "title": "4. il faut 表达必要和建议",
+          "html": "<h2>04 / il faut 表达必要和建议</h2><p><b>Il faut＋不定式</b> 表示要做某事。<i>Pour postuler, il faut envoyer un CV.</i> 申请这个职位需要发简历。<i>Il</i> 在这个固定结构里不指具体的人，即使是对着 <i>vous</i> 说，也用 <i>il faut</i>。</p><p><i>Pour progresser, il faut pratiquer un peu chaque jour.</i> 想进步就需要每天练一点。语境决定这是要求还是建议。<i>Il ne faut pas arriver en retard.</i> 表示不应该迟到。要说「没有必要打印」，可用 <i>Ce n’est pas nécessaire d’imprimer le document.</i></p>"
+        },
+        {
+          "id": "future",
+          "title": "5. 最近将来时 futur proche",
+          "html": "<h2>05 / 最近将来时 futur proche</h2><p><b>主语＋aller 现在时＋动词原形</b>，常表达已经打算做的事或根据眼下情况将发生的事。<i>Je vais envoyer mon CV ce soir.</i> 我今晚打算发简历。<i>Nous allons commencer lundi.</i> 我们星期一将开始。「最近」没有固定天数。</p><p>判断 <i>aller</i> 的作用，可以看它后面是什么。<i>Je vais à l’hôtel.</i> 是我去酒店，<i>Je vais appeler l’hôtel.</i> 是我打算给酒店打电话。需要时回看<a href=\"#verbs/present-aller\">aller 六人称变位</a>。</p><p><b>否定围住变位的 aller</b>。<i>Je ne vais pas travailler samedi.</i> 我星期六不打算上班。问句 <i>Est-ce que vous allez commencer lundi ?</i> 再看补充词序 <i>Je vais me présenter.</i>、<i>Je ne vais pas me présenter.</i>，<i>me</i> 属于 <i>se présenter</i>，留在不定式旁。地点代词也可这样用，例如 <i>Je vais y travailler.</i></p>"
+        },
+        {
+          "id": "words",
+          "title": "6. 广告、职位与面试词汇",
+          "html": "<h2>06 / 广告、职位与面试词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>法语</th><th>含义</th><th>搭配</th></tr></thead><tbody><tr><td>une petite annonce</td><td>分类小广告</td><td>lire une annonce</td></tr><tr><td>un poste / un emploi</td><td>岗位／工作</td><td>chercher un emploi</td></tr><tr><td>un candidat / une candidate</td><td>应聘者</td><td>contacter une candidate</td></tr><tr><td>un / une réceptionniste</td><td>前台接待员</td><td>travailler à la réception</td></tr><tr><td>un entretien / un CV</td><td>面试／简历</td><td>passer un entretien、envoyer un CV</td></tr><tr><td>une expérience / une qualité</td><td>经验／优点</td><td>avoir de l’expérience</td></tr><tr><td>un point fort / un point faible</td><td>优势／弱项</td><td>présenter ses points forts</td></tr><tr><td>une langue / la restauration</td><td>语言／餐饮业</td><td>parler deux langues</td></tr><tr><td>disponible / indispensable</td><td>有空的／必不可少的</td><td>être disponible le samedi</td></tr></tbody></table></div><p><i>un candidat souriant / une candidate souriante</i>，而 <i>dynamique</i>、<i>disponible</i> 的阴阳性单数同形。广告里的 <i>H/F</i> 可识别为 <i>homme/femme</i>，<i>à temps partiel</i> 表示非全日制。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "7. 辨音 /ɥ/ 与 /w/",
+          "html": "<h2>07 / 辨音 /ɥ/ 与 /w/</h2><p>两个半元音都和紧接着的元音同属一个音节。发 <b>/ɥ/</b> 时从法语 <i>tu</i> 的 /y/ 口型快速滑向后一个元音，如 <i>lui</i> /lɥi/、<i>nuit</i> /nɥi/、<i>huit</i> /ɥit/。发 <b>/w/</b> 时从 <i>tout</i> 的 /u/ 口型快速滑过去，如 <i>oui</i> /wi/、<i>moi</i> /mwa/、<i>trois</i> /tʁwa/。</p><p>请同伴混读 <i>oui, nuit, moi, lui, huit, trois</i>。先听后分类，再看拼写。自己跟读时，把 <i>oui</i> 和 <i>lui</i> 分别读成一个音节。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "8. 原创阅读：周末接待员招聘",
+          "html": "<h2>08 / 原创阅读：周末接待员招聘</h2><blockquote><p>La Maison des Arts cherche un ou une réceptionniste. Travail le samedi de 9 h à 13 h. Il faut savoir utiliser un ordinateur et parler français. L’anglais est un plus. Pour postuler, envoyez votre CV avant vendredi.</p></blockquote><p>需要区分三类信息：<b>必需</b>的是会用电脑、会说法语，并能按周六时段工作。<b>加分项</b>是英语。<b>未提及</b>的是薪酬。<i>avant vendredi</i> 指星期五之前。</p><p>假设你法语能交流、会用电脑，但周六上午没空。先圈出匹配的两项，再用 <i>Je ne peux pas travailler le samedi matin.</i> 说明冲突。</p>"
+        },
+        {
+          "id": "communicate",
+          "title": "9. 原创面试对话与口语",
+          "html": "<h2>09 / 原创面试对话与口语</h2><blockquote><p>— Bonjour. Pourquoi est-ce que vous voulez travailler ici ?<br>— J’aime le contact avec le public. Je sais utiliser un ordinateur et je parle un peu anglais.<br>— Est-ce que vous pouvez travailler le samedi matin ?<br>— Oui, je peux. Je vais vous envoyer mon CV ce soir.<br>— Très bien. Pour l’entretien, il faut apporter une pièce d’identité.</p></blockquote><p>一人扮演招聘方，问意愿、技能和可工作时间。另一人回答并说下一步计划。交换角色后加入一项不匹配的条件，例如 <i>Je peux venir le samedi, mais pas le matin.</i> 练习给建议时可从 <i>Pour préparer l’entretien, il faut…</i> 开始。</p>"
+        },
+        {
+          "id": "writing",
+          "title": "10. 写一封简短的应聘留言",
+          "html": "<h2>10 / 写一封简短的应聘留言</h2><p>写清四项信息：申请什么、会做什么、何时有空、下一步怎么联系。可用下面的原创范例替换信息。</p><blockquote><p>Bonjour,<br>Je veux postuler au poste de réceptionniste. Je sais utiliser un ordinateur et je peux travailler le samedi matin. Je vais vous envoyer mon CV ce soir.<br>Merci et bonne journée.</p></blockquote><p>写完检查 <i>savoir</i>、<i>pouvoir</i> 后是否用原形，时间能否让对方准确安排面试。</p>"
+        },
+        {
+          "id": "review",
+          "title": "11. 复习速查",
+          "html": "<h2>11 / 复习速查</h2><ul><li>想做用 <i>vouloir</i>，学会做用 <i>savoir</i>，条件许可常用 <i>pouvoir</i>。</li><li><i>Il faut préparer son CV.</i> 表达必要。<i>Je vais préparer mon CV.</i> 说自己的计划。</li><li>听到招聘条件时，分清要求、加分项和未提及的信息。</li></ul>"
+        },
+        {
+          "id": "practice",
+          "title": "12. 分组练习 A—J（30 项）",
+          "html": "<h2>12 / 分组练习 A—J（30 项）</h2><h3>A. vouloir</h3><ol><li>补全：Nous ___ travailler ici.</li><li>改错：Elles veut venir.</li><li>说「我想找一份兼职」。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Nous <b>voulons</b> travailler ici.</li><li>Elles <b>veulent</b> venir.</li><li>Je veux trouver un emploi à temps partiel.</li></ol></details><h3>B. savoir</h3><ol><li>补全：Vous ___ conduire ?</li><li>改错：Il sait utilise un ordinateur.</li><li>把 Tu sais conduire. 改为否定。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Vous <b>savez</b> conduire ?</li><li>Il sait <b>utiliser</b> un ordinateur.</li><li>Tu ne sais pas conduire.</li></ol></details><h3>C. 选择意思</h3><ol><li>我会开车，但今天没条件开车。</li><li>Je veux partir. 是计划、意愿还是已学会的技能？</li><li>问应聘者星期六能不能来。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>sais</b> conduire, mais je ne <b>peux</b> pas conduire aujourd’hui.</li><li>意愿。</li><li>Est-ce que vous pouvez venir samedi ?</li></ol></details><h3>D. 必要与建议</h3><ol><li>说「申请需要发简历」。</li><li>改错：Vous faut préparer le dossier.</li><li>用 il faut 的否定说「不应迟到」。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Pour postuler, il faut envoyer un CV.</li><li>Il faut préparer le dossier.</li><li>Il ne faut pas arriver en retard.</li></ol></details><h3>E. 最近将来时</h3><ol><li>用 futur proche 说「我今晚要打电话」。</li><li>将 Nous allons venir lundi. 改为否定。</li><li>改错：Elle va se présente.</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je vais téléphoner ce soir.</li><li>Nous n’allons pas venir lundi.</li><li>Elle va <b>se présenter</b>.</li></ol></details><h3>F. 词汇与配合</h3><ol><li>写出「一位面带微笑的女应聘者」。</li><li>un entretien 是什么？</li><li>un point fort 与 un point faible 分别是什么意思？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>une candidate souriante</li><li>面试，也可指交谈，依语境而定。</li><li>优势、弱项。</li></ol></details><h3>G. 半元音</h3><ol><li>moi 的半元音是什么？</li><li>lui 的半元音是什么？</li><li>oui 是几个音节？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>/w/。</li><li>/ɥ/。</li><li>一个音节 /wi/。</li></ol></details><h3>H. 读招聘广告</h3><ol><li>工作时间是什么？</li><li>英语是否必须？</li><li>广告明确给了工资吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>星期六 9 点至 13 点。</li><li>不是。<i>un plus</i> 表示加分项。</li><li>未提及。</li></ol></details><h3>I. 听说与追问</h3><ol><li>让同伴朗读面试对话，听后写下候选人何时发简历。</li><li>面试要带什么？</li><li>礼貌追问：我什么时候可以开始？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Ce soir，今晚。</li><li>Une pièce d’identité，身份证明。</li><li>Quand est-ce que je peux commencer ?</li></ol></details><h3>J. 综合输出</h3><ol><li>写两句话说你的技能和空闲时间。</li><li>说你明天打算做什么。</li><li>给准备面试的人一句建议。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>例：Je sais utiliser un ordinateur. Je peux venir le samedi matin.</li><li>例：Je vais préparer mon entretien demain.</li><li>例：Il faut lire l’annonce avant l’entretien.</li></ol></details>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "id": "l22-q01",
+          "question": "Nous ___ travailler ici.",
+          "options": [
+            "veulent",
+            "voulons",
+            "voulez"
+          ],
+          "answer": 1,
+          "explanation": "nous 对应 voulons。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q02",
+          "question": "Elles ___ rencontrer la directrice.",
+          "options": [
+            "veulent",
+            "veut",
+            "voulez"
+          ],
+          "answer": 0,
+          "explanation": "elles 对应 veulent。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q03",
+          "question": "Vous ___ utiliser ce logiciel ?",
+          "options": [
+            "savons",
+            "savent",
+            "savez"
+          ],
+          "answer": 2,
+          "explanation": "vous 对应 savez。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q04",
+          "question": "哪句明确表达已经掌握一项技能？",
+          "options": [
+            "Je veux conduire.",
+            "Je sais conduire.",
+            "Je vais conduire."
+          ],
+          "answer": 1,
+          "explanation": "savoir＋不定式表示懂得怎样做。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q05",
+          "question": "今天有条件来，怎么说？",
+          "options": [
+            "Je peux venir aujourd’hui.",
+            "Je sais venir aujourd’hui.",
+            "Je veux venir aujourd’hui."
+          ],
+          "answer": 0,
+          "explanation": "此处 pouvoir 表示有条件。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q06",
+          "question": "申请需要发简历。哪句正确？",
+          "options": [
+            "Il faut envoyez un CV.",
+            "Vous faut envoyer un CV.",
+            "Il faut envoyer un CV."
+          ],
+          "answer": 2,
+          "explanation": "il faut 使用非人称主语，后接不定式。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q07",
+          "question": "Il ne faut pas fumer. 是什么意思？",
+          "options": [
+            "没有必要吸烟",
+            "不得吸烟",
+            "打算吸烟"
+          ],
+          "answer": 1,
+          "explanation": "这里表示禁止吸烟。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q08",
+          "question": "我今晚打算发简历。",
+          "options": [
+            "Je vais envoyer mon CV ce soir.",
+            "Je vais envoie mon CV ce soir.",
+            "Je vais à envoyer mon CV ce soir."
+          ],
+          "answer": 0,
+          "explanation": "aller 变位，envoyer 保持原形。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q09",
+          "question": "Nous allons travailler. 的否定形式是？",
+          "options": [
+            "Nous allons pas ne travailler.",
+            "Nous n’allons travailler pas.",
+            "Nous n’allons pas travailler."
+          ],
+          "answer": 2,
+          "explanation": "n’…pas 围住 allons。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q10",
+          "question": "哪句表示「我打算在那里工作」？",
+          "options": [
+            "J’y vais travailler.",
+            "Je vais y travailler.",
+            "Je vais travailler y."
+          ],
+          "answer": 1,
+          "explanation": "y 回指 travailler 的地点，放在原形前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l22-q11",
+          "question": "une petite annonce 在本课是什么意思？",
+          "options": [
+            "分类小广告",
+            "问候语",
+            "时间表"
+          ],
+          "answer": 0,
+          "explanation": "本课用它指招聘等短广告。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l22-q12",
+          "question": "「一位面带微笑的女应聘者」怎么写？",
+          "options": [
+            "une candidat souriant",
+            "une candidate souriant",
+            "une candidate souriante"
+          ],
+          "answer": 2,
+          "explanation": "candidate 和 souriante 都采用阴性单数。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l22-q13",
+          "question": "lui 含哪个半元音？",
+          "options": [
+            "/w/",
+            "/ɥ/",
+            "/j/"
+          ],
+          "answer": 1,
+          "explanation": "lui 读作 /lɥi/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l22-q14",
+          "question": "哪个词含 /w/？",
+          "options": [
+            "trois",
+            "lui",
+            "nuit"
+          ],
+          "answer": 0,
+          "explanation": "trois 读作 /tʁwa/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l22-q15",
+          "question": "原创广告的工作时间是？",
+          "options": [
+            "星期五晚上",
+            "每天上午",
+            "星期六 9 点至 13 点"
+          ],
+          "answer": 2,
+          "explanation": "文中明确给出星期六 9—13 点。",
+          "group": "reading"
+        },
+        {
+          "id": "l22-q16",
+          "question": "L’anglais est un plus. 表示什么？",
+          "options": [
+            "英语必须",
+            "英语是加分项",
+            "不能说英语"
+          ],
+          "answer": 1,
+          "explanation": "un plus 指额外优势。",
+          "group": "reading"
+        },
+        {
+          "id": "l22-q17",
+          "question": "听招聘对话做笔记，先区分哪两类信息？",
+          "options": [
+            "岗位要求和应聘者的回答",
+            "标题颜色和图片大小",
+            "单词长短和字母数"
+          ],
+          "answer": 0,
+          "explanation": "逐项对照岗位要求和应聘者情况。",
+          "group": "listening"
+        },
+        {
+          "id": "l22-q18",
+          "question": "听同伴读原创对话，应聘者什么时候发简历？",
+          "options": [
+            "周六上午",
+            "昨天",
+            "今晚"
+          ],
+          "answer": 2,
+          "explanation": "ce soir 表示今晚。",
+          "group": "listening"
+        },
+        {
+          "id": "l22-q19",
+          "question": "哪句适合询问应聘者周六是否有空？",
+          "options": [
+            "Il faut venir samedi.",
+            "Est-ce que vous pouvez venir samedi ?",
+            "Je sais travailler."
+          ],
+          "answer": 1,
+          "explanation": "est-ce que 加 pouvez 询问可行性。",
+          "group": "speaking"
+        },
+        {
+          "id": "l22-q20",
+          "question": "想给面试准备建议，可以怎么开头？",
+          "options": [
+            "Pour préparer l’entretien, il faut…",
+            "L’entretien est un point faible.",
+            "Je ne sais pas venir."
+          ],
+          "answer": 0,
+          "explanation": "il faut＋不定式可给出必要步骤。",
+          "group": "speaking"
+        },
+        {
+          "id": "l22-q21",
+          "question": "应聘留言中最有助于对方继续联系的一项是？",
+          "options": [
+            "与岗位无关的长故事",
+            "没有具体日期的感叹",
+            "明确的空闲时间和下一步"
+          ],
+          "answer": 2,
+          "explanation": "明确可约时间与下一步有助于安排。",
+          "group": "writing"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "verbs",
+          "modal",
+          "obligation",
+          "future"
+        ],
+        "vocabulary": [
+          "words"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading"
+        ],
+        "speaking": [
+          "communicate",
+          "modal"
+        ],
+        "writing": [
+          "writing"
+        ]
+      },
+      "listening": "用教材对应第22课录音。第一遍辨任务场景和人物，第二遍分栏记招募条件与应聘者回答，第三遍复述技能、时间和接下来的安排。也可请同伴朗读本站原创面试对话，遮住文字记录可上班时段、发简历时间和面试所需物品。"
+    },
+    {
+      "number": 23,
+      "title": "Qu’est-ce qu’on lui offre ?",
+      "translation": "我们送他／她什么？",
+      "pages": "70–71",
+      "core": [
+        "提出、接受与婉拒建议",
+        "connaître 现在时",
+        "直接宾语代词 le／la／l’／les",
+        "间接宾语代词 lui／leur",
+        "代词在否定句与多动词结构中的位置",
+        "e caduc（弱读 e）"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. 学习目标与教材范围",
+          "html": "<h2>01 / 学习目标与教材范围</h2><p>第6单元 <i>Vivre avec les autres</i>。教材以商量送礼和安排聚会为背景。学完能提议、同意或婉拒，并能用 <i>le / la / l’ / les</i> 指代直接宾语、用 <i>lui / leur</i> 指代已说过的接收者。</p><p>本页依据<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF#page=76\">出版方教师指南</a>第23课。对话、阅读和练习为本站原创。先掌握单个代词，再用第18课和第22课的句型练习词序。</p>"
+        },
+        {
+          "id": "verbs",
+          "title": "2. connaître 的现在时",
+          "html": "<h2>02 / connaître 的现在时</h2><p><i>connaître</i> 常接人、地点或事物，表达认识、了解或熟悉。<i>Je connais ces collègues.</i> 我认识这些同事。<i>Vous connaissez ce quartier ?</i> 您熟悉这个街区吗？</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>connaître</th><th>例句</th></tr></thead><tbody><tr><td>je</td><td>connais</td><td>Je connais Paul.</td></tr><tr><td>tu</td><td>connais</td><td>Tu connais ce restaurant.</td></tr><tr><td>il / elle / on</td><td>connaît</td><td>On connaît ses goûts.</td></tr><tr><td>nous</td><td>connaissons</td><td>Nous connaissons cette librairie.</td></tr><tr><td>vous</td><td>connaissez</td><td>Vous connaissez Léa.</td></tr><tr><td>ils / elles</td><td>connaissent</td><td>Ils connaissent les invités.</td></tr></tbody></table></div><p>单数的三种写法都读 /kɔnɛ/。传统拼写 <i>connaître / connaît</i> 带长音符，新拼写也接受 <i>connaitre / connait</i>。回看<a href=\"#lesson/22/verbs\">第22课 savoir</a>。<i>Je connais ce jeu.</i> 是我熟悉这个游戏，<i>Je sais jouer à ce jeu.</i> 是我会玩这个游戏。</p>"
+        },
+        {
+          "id": "cod",
+          "title": "3. 直接宾语代词 COD",
+          "html": "<h2>03 / 直接宾语代词 COD</h2><p>先看动词怎么接宾语。<i>connaître quelqu’un</i> 直接接人，中间没有介词。<i>Je connais ces collègues.</i> 中的 <i>ces collègues</i> 就是直接宾语。前文已说过是谁，就可以用 <i>les</i> 代替它。</p><div class=\"table-scroll\"><table><thead><tr><th>被替换的名词组</th><th>代词</th><th>替换示例</th></tr></thead><tbody><tr><td>阳性单数 <i>ce livre</i></td><td>le</td><td>Je prends ce livre. → Je le prends.</td></tr><tr><td>阴性单数 <i>cette carte</i></td><td>la</td><td>Je choisis cette carte. → Je la choisis.</td></tr><tr><td>单数，代词后遇元音或哑音 h</td><td>l’</td><td>J’achète cette carte. → Je l’achète.</td></tr><tr><td>复数 <i>ces collègues</i></td><td>les</td><td>Je connais ces collègues. → Je les connais.</td></tr></tbody></table></div><p>英文 <i>I know them</i> 的 <i>them</i> 跟在动词后，法语普通陈述句的弱读代词通常贴在相关动词前。对照 <b>Je les connais.</b> 我认识他们。<b>Je ne les connais pas.</b> 我不认识他们。<i>ne…pas</i> 罩住 <i>les connais</i>，代词依旧贴在 <i>connais</i> 前。</p>"
+        },
+        {
+          "id": "coi",
+          "title": "4. 间接宾语代词 lui 与 leur",
+          "html": "<h2>04 / 间接宾语代词 lui 与 leur</h2><p><i>offrir quelque chose à quelqu’un</i> 有两项信息。<i>On offre un livre à Léa.</i> 中「书」是送的东西，<i>à Léa</i> 是接收者。只替换接收者，得到 <i>On <b>lui</b> offre un livre.</i></p><p><b>lui</b> 代表一个接收者，可以是他或她。<b>leur</b> 代表多个接收者，作为代词永远不加 s。<i>On offre un livre à nos amis. → On leur offre un livre.</i> 否定：<i>On ne leur offre pas de livre.</i></p><p>比较 <i>J’invite Léa. → Je l’invite.</i> 与 <i>Je téléphone à Léa. → Je lui téléphone.</i> 两句都是 Léa，但代词由 <i>inviter quelqu’un</i> 和 <i>téléphoner à quelqu’un</i> 的搭配决定。<i>penser à elle</i> 也有 <i>à</i>，却要保留介词和重读代词，可先记这项常见例外。命令式的位置回看<a href=\"#lesson/21/coi\">第21课</a>。</p>"
+        },
+        {
+          "id": "placement",
+          "title": "5. 肯定、否定与有两个动词的句子",
+          "html": "<h2>05 / 肯定、否定与有两个动词的句子</h2><p>先找代词替换的成分属于哪个动作，再找这个动作在句中的形式。用同一组人对比，先练句子骨架。</p><div class=\"table-scroll\"><table><thead><tr><th>结构</th><th>示例</th><th>放在哪里</th></tr></thead><tbody><tr><td>现在时肯定</td><td>Je les connais.</td><td>变位动词前。</td></tr><tr><td>现在时否定</td><td>Je ne les connais pas.</td><td>代词和动词一起放在 ne…pas 中间。</td></tr><tr><td>最近将来时</td><td>Je vais les inviter.</td><td>les 是 inviter 的宾语，放在不定式前。</td></tr><tr><td>最近将来时否定</td><td>Je ne vais pas les inviter.</td><td>否定围住 vais，les 仍在 inviter 前。</td></tr><tr><td>情态动词＋不定式</td><td>Je veux les inviter. / Je ne veux pas les inviter.</td><td>les 仍在 inviter 前。</td></tr><tr><td>复合过去时</td><td>Je leur ai parlé. / Je ne leur ai pas parlé.</td><td>代词放在助动词前，否定围住 leur ai。</td></tr></tbody></table></div><p><b>衔接练习</b>：COD 也可以放在助动词前。<i>J’ai vu les invités. → Je les ai vus.</i> 这里提前的是阳性复数 COD，<i>vus</i> 要配合。<i>Je leur ai parlé.</i> 中 <i>leur</i> 是 COI，<i>parlé</i> 不随它变化。先把位置练稳，再练分词配合。双代词的排列另作专题。</p>"
+        },
+        {
+          "id": "expressions",
+          "title": "6. 提议、同意与婉拒",
+          "html": "<h2>06 / 提议、同意与婉拒</h2><div class=\"table-scroll\"><table><thead><tr><th>意图</th><th>例句</th></tr></thead><tbody><tr><td>开口提议</td><td>On peut lui offrir un carnet. / Et si on lui offrait un carnet ?</td></tr><tr><td>接受</td><td>Bonne idée ! / D’accord. On fait ça.</td></tr><tr><td>婉拒并说明原因</td><td>Je ne crois pas. Elle en a déjà un.</td></tr><tr><td>提出替代选项</td><td>Pourquoi pas des fleurs ? / On peut lui offrir une plante.</td></tr></tbody></table></div><p>先熟练使用 <i>On peut＋不定式</i> 和 <i>Pourquoi pas… ?</i>。<i>Et si on… ?</i> 和 <i>Elle en a déjà un.</i> 可先整体识别。拒绝时可以先说明原因，再给一个替代方案。</p>"
+        },
+        {
+          "id": "words",
+          "title": "7. 礼物、聚会和职场词汇",
+          "html": "<h2>07 / 礼物、聚会和职场词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>词语</th><th>意思</th><th>例子</th></tr></thead><tbody><tr><td>un cadeau / un agenda</td><td>礼物／日程本</td><td>offrir un agenda</td></tr><tr><td>un / une collègue</td><td>同事</td><td>une collègue de Léa</td></tr><tr><td>un invité / une invitée</td><td>客人／受邀者</td><td>prévenir les invités</td></tr><tr><td>une idée / une fête</td><td>主意／聚会</td><td>organiser une fête</td></tr><tr><td>le goût / les goûts</td><td>口味／偏好</td><td>connaître ses goûts</td></tr><tr><td>un départ / la retraite</td><td>离开／退休</td><td>partir à la retraite</td></tr><tr><td>un plat / un lieu</td><td>菜肴／地点</td><td>choisir un lieu</td></tr><tr><td>nouveau / nouvel / nouvelle</td><td>新的</td><td>un nouveau carnet、un nouvel agenda、une nouvelle idée</td></tr></tbody></table></div><p><i>offrir quelque chose à quelqu’un</i> 是把某物送给某人。<i>choisir un cadeau</i> 是选礼物。<i>inviter quelqu’un à une fête</i> 中受邀的人是 COD，<i>à une fête</i> 指活动。</p>"
+        },
+        {
+          "id": "sound",
+          "title": "8. e caduc：口语里时读时不读的 e",
+          "html": "<h2>08 / e caduc：口语里时读时不读的 e</h2><p><b>e caduc</b> 常指可以弱读成 /ə/、在一些语境下也可略去的 e。听 <i>je</i>、<i>le</i>、<i>ne</i> 在短句中发生了什么。可用 <i>Je le prends.</i> 做练习，较慢时逐音读，较自然时可能读得接近 <i>Je l’prends</i> 的声音。后者只作听感提示，书写仍用 <i>Je le prends.</i></p><p>发不发 /ə/ 会随说话速度、地区和附近辅音而变。不要机械删掉每个 e。再比较真正需要书写省音的 <i>Je l’offre.</i>，因为 <i>offre</i> 以元音开头。跟读时先听清 <i>le</i> 指的是什么，再留意弱读。</p>"
+        },
+        {
+          "id": "reading",
+          "title": "9. 原创阅读：给同事准备告别礼物",
+          "html": "<h2>09 / 原创阅读：给同事准备告别礼物</h2><blockquote><p>Maya quitte l’équipe vendredi. Elle aime les plantes, mais elle a déjà beaucoup de carnets. Alex propose un carnet. Salomé préfère une petite plante. On peut lui offrir la plante à la fin de la réunion. Alex va prévenir les collègues jeudi.</p></blockquote><p>先分清谁、何时和讨论中的两个礼物。Maya 星期五离开团队。Alex 提议送本子，Salomé 偏向送小植物。句中的 <i>lui</i> 指 Maya。Alex 将在星期四通知同事。文中没有说 Maya 离开的原因，也没说谁负责买植物。</p>"
+        },
+        {
+          "id": "communicate",
+          "title": "10. 原创对话：商量聚会与礼物",
+          "html": "<h2>10 / 原创对话：商量聚会与礼物</h2><blockquote><p>— Qu’est-ce qu’on offre à Sam ? On peut lui offrir un livre.<br>— Je ne connais pas ses goûts. Pourquoi pas une plante ?<br>— D’accord. Je vais l’acheter jeudi. Tu connais les nouveaux collègues ?<br>— Non, je ne les connais pas encore. Mais je peux leur écrire pour les inviter.</p></blockquote><p>轮流提议礼物、回应、说明理由、确定谁负责什么。对话中的 <i>lui</i> 指 Sam，<i>l’</i> 指植物，<i>les / leur</i> 都指同事，但分别服务于 <i>connaître / inviter</i> 和 <i>écrire à</i> 的搭配。继续练习时，换掉礼物和接收者人数。</p>"
+        },
+        {
+          "id": "writing",
+          "title": "11. 写一条聚会分工留言",
+          "html": "<h2>11 / 写一条聚会分工留言</h2><p>写四句短消息。交代时间、提出礼物、用代词指代接收者、安排通知与购买。</p><blockquote><p>La fête est vendredi à dix-huit heures. On peut offrir une plante à Lina. Je vais la choisir jeudi. Tu peux lui écrire pour confirmer l’heure ?</p></blockquote><p>检查每个代词都有明确的前文。先用全名词组建立信息，再在后文代换，避免读者猜是谁或什么。</p>"
+        },
+        {
+          "id": "review",
+          "title": "12. 复习速查",
+          "html": "<h2>12 / 复习速查</h2><ul><li><i>connaître Léa → la connaître</i>，<i>parler à Léa → lui parler</i>。先看动词搭配。</li><li><i>Je les connais → Je ne les connais pas → Je vais les inviter.</i> 先找代词所属动词。</li><li><i>lui</i> 一个接收者，<i>leur</i> 多个接收者。</li><li>提议用 <i>On peut…</i>，接受用 <i>Bonne idée !</i>，婉拒后可以用 <i>Pourquoi pas… ?</i> 换个方案。</li></ul>"
+        },
+        {
+          "id": "practice",
+          "title": "13. 分组练习 A—J（30 项）",
+          "html": "<h2>13 / 分组练习 A—J（30 项）</h2><h3>A. connaître</h3><ol><li>补全：Vous ___ cette librairie ?</li><li>改错：Nous connaît bien Lina.</li><li>「我会弹钢琴」选 connaître 还是 savoir？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Vous <b>connaissez</b> cette librairie ?</li><li>Nous <b>connaissons</b> bien Lina.</li><li><i>Je sais jouer du piano.</i> 表达会做某事。</li></ol></details><h3>B. COD 选择</h3><ol><li>Je prends le livre. 用代词改写。</li><li>Elle choisit la carte. 用代词改写。</li><li>Tu invites mes amies. 用代词改写。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>le</b> prends.</li><li>Elle <b>la</b> choisit.</li><li>Tu <b>les</b> invites.</li></ol></details><h3>C. 否定与省音</h3><ol><li>Je connais ces collègues. 换代词并改为否定。</li><li>J’achète cette plante. 换代词。</li><li>改错：Je les ne connais pas.</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je ne <b>les</b> connais pas.</li><li>Je <b>l’</b>achète.</li><li>Je <b>ne les connais pas</b>.</li></ol></details><h3>D. COI 选择</h3><ol><li>Je parle à Lina. 换代词。</li><li>On écrit à nos collègues. 换代词。</li><li>On offre des fleurs à ce couple. 替换接收者。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>lui</b> parle.</li><li>On <b>leur</b> écrit.</li><li>On <b>lui</b> offre des fleurs. <i>Ce couple</i> 在语法上是单数。</li></ol></details><h3>E. 用动词搭配辨 COD 和 COI</h3><ol><li>J’invite Lina. 换代词。</li><li>J’écris à Lina. 换代词。</li><li>On offre un carnet à Sam. 说出物品和接收者。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>l’</b>invite. <i>Inviter quelqu’un</i>。</li><li>Je <b>lui</b> écris. <i>Écrire à quelqu’un</i>。</li><li>物品 <i>un carnet</i> 是 COD，<i>à Sam</i> 是 COI。</li></ol></details><h3>F. 不定式与复合过去时</h3><ol><li>Je vais inviter les collègues. 换代词。</li><li>把 Je vais les inviter. 改为否定。</li><li>J’ai parlé à Lina. 换代词并否定。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je vais <b>les inviter</b>.</li><li>Je ne vais pas <b>les inviter</b>.</li><li>Je <b>ne lui ai pas</b> parlé.</li></ol></details><h3>G. 提议与回应</h3><ol><li>提议给 Lina 送一盆植物。</li><li>用一句话接受这个提议。</li><li>觉得她已有很多植物，提议改送本书。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>On peut lui offrir une plante.</li><li>Bonne idée !</li><li>Elle a déjà beaucoup de plantes. Pourquoi pas un livre ?</li></ol></details><h3>H. 阅读取证</h3><ol><li>原创短文里，谁星期五离开团队？</li><li>谁提议送本子？</li><li>文中说谁买植物了吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Maya。</li><li>Alex。</li><li>未提及。</li></ol></details><h3>I. 语音与听力</h3><ol><li>在慢读 Je le prends. 时，le 中弱读的元音是什么？</li><li>哪个是规范写法：Je l’prends. 还是 Je le prends.？</li><li>遮住原创对话，请同伴朗读。准备哪天买植物？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>/ə/。自然语流里有时不发。</li><li><i>Je le prends.</i></li><li>星期四，<i>jeudi</i>。</li></ol></details><h3>J. 输出与自查</h3><ol><li>写「我将给我的同事们写信」，用 leur。</li><li>说「我不认识这些客人」，先用全名词，再改成代词。</li><li>写两句给朋友确认给 Lina 买礼物，并至少用一次 lui。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je vais leur écrire.</li><li>Je ne connais pas ces invités. → Je ne les connais pas.</li><li>例：Je vais acheter une plante jeudi. On peut lui offrir la plante vendredi.</li></ol></details>"
+        }
+      ],
+      "quickQuestions": [
+        {
+          "id": "l23-q01",
+          "question": "Nous ___ déjà ces collègues.",
+          "options": [
+            "connaît",
+            "connaissons",
+            "connaissez"
+          ],
+          "answer": 1,
+          "explanation": "nous 对应 connaissons。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q02",
+          "question": "Ils ___ bien ce quartier.",
+          "options": [
+            "connaissent",
+            "connais",
+            "connaissons"
+          ],
+          "answer": 0,
+          "explanation": "ils 对应 connaissent。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q03",
+          "question": "Je choisis cette carte. 换成代词。",
+          "options": [
+            "Je lui choisis.",
+            "Je le choisis.",
+            "Je la choisis."
+          ],
+          "answer": 2,
+          "explanation": "cette carte 是阴性单数 COD。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q04",
+          "question": "J’achète cette plante. 换成代词。",
+          "options": [
+            "Je la achète.",
+            "Je l’achète.",
+            "Je lui achète."
+          ],
+          "answer": 1,
+          "explanation": "la 在 achète 前省音为 l’。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q05",
+          "question": "Je connais ces collègues. 换代词并否定。",
+          "options": [
+            "Je ne les connais pas.",
+            "Je ne connais pas les.",
+            "Je les ne connais pas."
+          ],
+          "answer": 0,
+          "explanation": "les 放在 connais 前，ne…pas 围住 les connais。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q06",
+          "question": "Je téléphone à Nora. 换成代词。",
+          "options": [
+            "Je la téléphone.",
+            "Je leur téléphone.",
+            "Je lui téléphone."
+          ],
+          "answer": 2,
+          "explanation": "téléphoner à Nora 用 lui。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q07",
+          "question": "J’écris à mes amis. 换成代词。",
+          "options": [
+            "Je leurs écris.",
+            "Je leur écris.",
+            "Je les écris."
+          ],
+          "answer": 1,
+          "explanation": "leur 是多人 COI，代词永远不加 s。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q08",
+          "question": "Je vais inviter les collègues. 换成代词。",
+          "options": [
+            "Je vais les inviter.",
+            "Je vais inviter les.",
+            "Je vais leur inviter."
+          ],
+          "answer": 0,
+          "explanation": "les 是 inviter 的 COD，放在其原形前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q09",
+          "question": "Je vais les inviter. 的否定形式是？",
+          "options": [
+            "Je ne les vais pas inviter.",
+            "Je vais les ne pas inviter.",
+            "Je ne vais pas les inviter."
+          ],
+          "answer": 2,
+          "explanation": "否定围住 vais，les 在 inviter 前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q10",
+          "question": "J’ai parlé à Lina. 换成代词并否定。",
+          "options": [
+            "Je n’ai pas lui parlé.",
+            "Je ne lui ai pas parlé.",
+            "Je ne l’ai pas parlé."
+          ],
+          "answer": 1,
+          "explanation": "lui 是 COI，复合过去时放在助动词 ai 前。",
+          "group": "grammar"
+        },
+        {
+          "id": "l23-q11",
+          "question": "哪项表示「退休」？",
+          "options": [
+            "partir à la retraite",
+            "passer un entretien",
+            "connaître ses goûts"
+          ],
+          "answer": 0,
+          "explanation": "partir à la retraite 是退休。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l23-q12",
+          "question": "哪一项拼写正确？",
+          "options": [
+            "un nouvelle agenda",
+            "un nouveau agenda",
+            "un nouvel agenda"
+          ],
+          "answer": 2,
+          "explanation": "agenda 是元音开头的阳性名词，用 nouvel。",
+          "group": "vocabulary"
+        },
+        {
+          "id": "l23-q13",
+          "question": "e caduc 在读出来时常是什么音？",
+          "options": [
+            "/w/",
+            "/ə/",
+            "/ɥ/"
+          ],
+          "answer": 1,
+          "explanation": "弱读时常是 /ə/。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l23-q14",
+          "question": "如果自然语流里听不到 le 中的 e，书写应如何？",
+          "options": [
+            "Je le prends.",
+            "Je l’prends.",
+            "Je lp rends."
+          ],
+          "answer": 0,
+          "explanation": "辅音开头的 prends 前依然写 le。",
+          "group": "pronunciation"
+        },
+        {
+          "id": "l23-q15",
+          "question": "原创短文里谁偏向送小植物？",
+          "options": [
+            "Maya",
+            "Alex",
+            "Salomé"
+          ],
+          "answer": 2,
+          "explanation": "Salomé préfère une petite plante。",
+          "group": "reading"
+        },
+        {
+          "id": "l23-q16",
+          "question": "Maya 离开团队的原因是什么？",
+          "options": [
+            "她要去旅行",
+            "原文未说明",
+            "她不喜欢植物"
+          ],
+          "answer": 1,
+          "explanation": "短文只给出离开时间。",
+          "group": "reading"
+        },
+        {
+          "id": "l23-q17",
+          "question": "听同伴朗读原创对话，第一人一开始提议哪种礼物？",
+          "options": [
+            "一本书",
+            "一盆植物",
+            "一张卡片"
+          ],
+          "answer": 0,
+          "explanation": "第一项提议是 un livre。",
+          "group": "listening"
+        },
+        {
+          "id": "l23-q18",
+          "question": "原创对话里确认哪天买植物？",
+          "options": [
+            "周一",
+            "周六",
+            "星期四"
+          ],
+          "answer": 2,
+          "explanation": "Je vais l’acheter jeudi。",
+          "group": "listening"
+        },
+        {
+          "id": "l23-q19",
+          "question": "哪句适合提出另一项选择？",
+          "options": [
+            "Je connais la plante.",
+            "Pourquoi pas une plante ?",
+            "Elle écrit jeudi."
+          ],
+          "answer": 1,
+          "explanation": "Pourquoi pas… ? 可引出替代选项。",
+          "group": "speaking"
+        },
+        {
+          "id": "l23-q20",
+          "question": "哪句表示接受提议？",
+          "options": [
+            "Bonne idée !",
+            "Je ne crois pas.",
+            "Je ne le connais pas."
+          ],
+          "answer": 0,
+          "explanation": "Bonne idée ! 意为「好主意」。",
+          "group": "speaking"
+        },
+        {
+          "id": "l23-q21",
+          "question": "已知收礼者是 Lina，怎样写「我们可以给她送一本书」？",
+          "options": [
+            "On peut la offrir un livre.",
+            "On peut leur offrir un livre.",
+            "On peut lui offrir un livre."
+          ],
+          "answer": 2,
+          "explanation": "Lina 是单个接收者，用 lui，置于 offrir 前。",
+          "group": "writing"
+        }
+      ],
+      "categorySections": {
+        "grammar": [
+          "verbs",
+          "cod",
+          "coi",
+          "placement"
+        ],
+        "vocabulary": [
+          "words"
+        ],
+        "pronunciation": [
+          "sound"
+        ],
+        "reading": [
+          "reading"
+        ],
+        "speaking": [
+          "expressions",
+          "communicate"
+        ],
+        "writing": [
+          "writing",
+          "placement"
+        ]
+      },
+      "listening": "用教材对应第23课录音。先听大家在商量什么，再记提议的礼物、接受或拒绝的理由，最后回找 le／la／les 和 lui／leur 各指谁。也可请同伴朗读本站原创对话，先遮住文字听礼物、购买时间和谁负责通知。"
     }
   ]
 };

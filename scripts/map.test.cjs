@@ -8,7 +8,7 @@ function data(){const c=vm.createContext({});c.window=c;for(const file of ['cont
 test('map covers the real 9 units and all 36 lessons without treating missing content as available',()=>{
  const {c,catalog,courses}=data();const model=c.KNOWLEDGE_MAP.unitsModel(c.COURSE_CONTENT.units,catalog,courses,{completed:[1,14,36]});
  assert.equal(model.length,9);const lessons=model.flatMap(u=>u.lessons);assert.equal(lessons.length,36);assert.equal(new Set(lessons.map(l=>l.number)).size,36);
- assert.equal(lessons.filter(l=>l.available).length,21);assert.equal(lessons[13].title,'À Londres');assert.equal(lessons[35].available,false);assert.equal(lessons[35].completed,true);
+ assert.equal(lessons.filter(l=>l.available).length,23);assert.equal(lessons[13].title,'À Londres');assert.equal(lessons[35].available,false);assert.equal(lessons[35].completed,true);
 });
 test('knowledge atlas deep links reach original sections and topic IDs are stable and unique',()=>{
  const {c,courses}=data();const entries=c.KNOWLEDGE_MAP.knowledgeEntries(courses);assert.ok(entries.length>100);assert.equal(entries.length,new Set(entries.map(e=>e.id)).size);
@@ -95,10 +95,10 @@ test('full view resets cached world zoom and panels while ordinary returns prese
 
 test('atlas keeps every original chapter and uses only exact authored skill references',()=>{
  const {c,courses}=data(),map=c.KNOWLEDGE_MAP,before=JSON.stringify(c.FRENCH_SKILLS),atlas=map.atlasModel(courses);
- assert.equal(atlas.skills.length,67);assert.equal(new Set(atlas.skills.map(n=>n.id)).size,67);
- assert.equal(atlas.skills.reduce((count,n)=>count+n.refs.length,0),174);
+ assert.equal(atlas.skills.length,74);assert.equal(new Set(atlas.skills.map(n=>n.id)).size,74);
+ assert.equal(atlas.skills.reduce((count,n)=>count+n.refs.length,0),200);
  assert.deepEqual(Array.from(atlas.chapters,e=>e.id),Array.from(map.knowledgeEntries(courses),e=>e.id));
- assert.equal(atlas.chapters.length,221);assert.ok(atlas.chapters.some(e=>!e.skills.length));
+ assert.equal(atlas.chapters.length,242);assert.ok(atlas.chapters.some(e=>!e.skills.length));
  for(const n of atlas.skills){
   const source=c.FRENCH_SKILLS.nodes.find(s=>s.id===n.id);assert.equal(source.planned,false);
   for(const ref of n.refs){assert.ok(source.refs.some(r=>r.lesson===ref.lesson&&ref.id===r.lesson+':'+r.section));assert.ok(courses.get(ref.lesson).sections.some(s=>ref.href==='#lesson/'+ref.lesson+'/'+s.id));}
@@ -150,10 +150,10 @@ test('legacy chapter atlas caches keep their mode while invalid optional filters
 });
 
 test('atlas mode switching retains query and category and empty results can be cleared',()=>{
- const a=mounted();a.mount('world');a.click('atlas');assert.match(a.el('#map-detail').innerHTML,/atlas-mode:knowledge" aria-pressed="true"/);assert.equal(a.el('#map-atlas-count').textContent,'67 个知识点');
+ const a=mounted();a.mount('world');a.click('atlas');assert.match(a.el('#map-detail').innerHTML,/atlas-mode:knowledge" aria-pressed="true"/);assert.equal(a.el('#map-atlas-count').textContent,'74 个知识点');
  a.el('#map-atlas-search').value='no-result-xyz';a.el('#map-atlas-category').value='listening';a.fire('root','input',{target:{id:'map-atlas-search'}});a.click('atlas-mode:course');
  assert.equal(a.el('#map-atlas-search').value,'no-result-xyz');assert.equal(a.el('#map-atlas-category').value,'listening');assert.match(a.el('#map-atlas-results').innerHTML,/清除筛选/);assert.equal(a.el('[data-map="atlas-mode:course"]').focused,true);
- a.click('atlas-clear');assert.equal(a.el('#map-atlas-search').value,'');assert.equal(a.el('#map-atlas-category').value,'');assert.equal(a.el('#map-atlas-count').textContent,'21 课 · 221 个章节');assert.equal(a.el('#map-atlas-search').focused,true);
+ a.click('atlas-clear');assert.equal(a.el('#map-atlas-search').value,'');assert.equal(a.el('#map-atlas-category').value,'');assert.equal(a.el('#map-atlas-count').textContent,'23 课 · 242 个章节');assert.equal(a.el('#map-atlas-search').focused,true);
 });
 
 test('label collisions prioritize selection across desktop CSS viewport scales',()=>{

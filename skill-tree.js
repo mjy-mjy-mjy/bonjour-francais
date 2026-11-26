@@ -96,14 +96,15 @@
   // Presentation groups only: stable semantic IDs and prerequisites remain in skills.json.
   const verbSections=[
     {title:'现在时基础',caption:'从主语与变位出发',ids:['g-etre','g-avoir','g-er']},
-    {title:'表达与变化',caption:'把动作放进真实表达',ids:['g-irregular','g-imperative','g-reflexive']},
+    {title:'表达与变化',caption:'把动作放进真实表达',ids:['g-irregular','g-imperative','g-reflexive','g-futur-proche']},
     {title:'构成过去时',caption:'助动词 + 过去分词',ids:['g-participles','g-past-avoir']},
     {title:'配合与词序',caption:'让过去的表达更准确',ids:['g-past-etre','g-past-agreement','g-past-order']}
   ];
   function verbLayout(){
     const points=new Map();
     verbSections.forEach((section,col)=>section.ids.forEach((id,row)=>points.set(id,{x:200+col*370,y:310+row*160})));
-    return {width:1520,height:800,points};
+    const rows=Math.max(...verbSections.map(section=>section.ids.length));
+    return {width:1520,height:800+Math.max(0,rows-3)*160,points};
   }
   function skillRelations(id){
     const node=byId.get(id);

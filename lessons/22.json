@@ -1,0 +1,344 @@
+{
+  "number": 22,
+  "sections": [
+    {
+      "id": "scope",
+      "title": "1. 学习目标与教材范围",
+      "html": "<h2>01 / 学习目标与教材范围</h2><p>第6单元 <i>Vivre avec les autres</i>。教材以招聘广告和简短交流为背景，训练表达意愿、已学会的技能、可能性和义务，并练习给建议。学完能从广告里找出职位和条件，简短介绍自己的技能、空闲时间与下一步安排。</p><p>本页讲解依据<a href=\"https://www.hueber.de/media/36/978-3-19-023384-7_GP_LNT1.PDF#page=73\">出版方教师指南</a>第22课。用于练习的广告、人物、对话和题目均为本站原创。</p>"
+    },
+    {
+      "id": "verbs",
+      "title": "2. vouloir 与 savoir 的现在时",
+      "html": "<h2>02 / vouloir 与 savoir 的现在时</h2><p><b>vouloir</b> 表意愿，可接名词或不定式。<i>Je veux un poste à temps partiel.</i> 我想要一份兼职。<i>Nous voulons travailler ici.</i> 我们想在这里工作。</p><p><b>savoir</b> 接不定式时表示学会怎样做。<i>Elle sait utiliser ce logiciel.</i> 她会用这款软件。也能表达知道一项信息，例如 <i>Je sais où est l’hôtel.</i> 我知道酒店在哪里。</p><div class=\"table-scroll\"><table><thead><tr><th>主语</th><th>vouloir</th><th>savoir</th></tr></thead><tbody><tr><td>je</td><td>veux</td><td>sais</td></tr><tr><td>tu</td><td>veux</td><td>sais</td></tr><tr><td>il / elle / on</td><td>veut</td><td>sait</td></tr><tr><td>nous</td><td>voulons</td><td>savons</td></tr><tr><td>vous</td><td>voulez</td><td>savez</td></tr><tr><td>ils / elles</td><td>veulent</td><td>savent</td></tr></tbody></table></div><p><i>veux / veut</i> 同读 /vø/，<i>veulent</i> 读 /vœl/。<i>sais / sait</i> 同读 /sɛ/，<i>savent</i> 读 /sav/。接另一个动词，后者保持原形，例如 <i>Vous savez conduire ?</i></p>"
+    },
+    {
+      "id": "modal",
+      "title": "3. 同一个动作的三种意思",
+      "html": "<h2>03 / 同一个动作的三种意思</h2><div class=\"table-scroll\"><table><thead><tr><th>例句</th><th>意思</th></tr></thead><tbody><tr><td>Je veux conduire.</td><td>我想开车，表达意愿。</td></tr><tr><td>Je sais conduire.</td><td>我会开车，表达技能。</td></tr><tr><td>Je peux conduire aujourd’hui.</td><td>我今天可以开车，表达条件允许。</td></tr></tbody></table></div><p><i>Je sais conduire, mais je ne peux pas conduire aujourd’hui.</i> 我会开车，但今天开不了。<i>Tu veux… ?</i> 常用来问对方意愿。第21课的 <a href=\"#lesson/21/pouvoir\">pouvoir</a> 还可表达许可或能力，具体看语境。礼貌表达 <i>Je voudrais…</i> 可以先整体识别。</p>"
+    },
+    {
+      "id": "obligation",
+      "title": "4. il faut 表达必要和建议",
+      "html": "<h2>04 / il faut 表达必要和建议</h2><p><b>Il faut＋不定式</b> 表示要做某事。<i>Pour postuler, il faut envoyer un CV.</i> 申请这个职位需要发简历。<i>Il</i> 在这个固定结构里不指具体的人，即使是对着 <i>vous</i> 说，也用 <i>il faut</i>。</p><p><i>Pour progresser, il faut pratiquer un peu chaque jour.</i> 想进步就需要每天练一点。语境决定这是要求还是建议。<i>Il ne faut pas arriver en retard.</i> 表示不应该迟到。要说「没有必要打印」，可用 <i>Ce n’est pas nécessaire d’imprimer le document.</i></p>"
+    },
+    {
+      "id": "future",
+      "title": "5. 最近将来时 futur proche",
+      "html": "<h2>05 / 最近将来时 futur proche</h2><p><b>主语＋aller 现在时＋动词原形</b>，常表达已经打算做的事或根据眼下情况将发生的事。<i>Je vais envoyer mon CV ce soir.</i> 我今晚打算发简历。<i>Nous allons commencer lundi.</i> 我们星期一将开始。「最近」没有固定天数。</p><p>判断 <i>aller</i> 的作用，可以看它后面是什么。<i>Je vais à l’hôtel.</i> 是我去酒店，<i>Je vais appeler l’hôtel.</i> 是我打算给酒店打电话。需要时回看<a href=\"#verbs/present-aller\">aller 六人称变位</a>。</p><p><b>否定围住变位的 aller</b>。<i>Je ne vais pas travailler samedi.</i> 我星期六不打算上班。问句 <i>Est-ce que vous allez commencer lundi ?</i> 再看补充词序 <i>Je vais me présenter.</i>、<i>Je ne vais pas me présenter.</i>，<i>me</i> 属于 <i>se présenter</i>，留在不定式旁。地点代词也可这样用，例如 <i>Je vais y travailler.</i></p>"
+    },
+    {
+      "id": "words",
+      "title": "6. 广告、职位与面试词汇",
+      "html": "<h2>06 / 广告、职位与面试词汇</h2><div class=\"table-scroll\"><table><thead><tr><th>法语</th><th>含义</th><th>搭配</th></tr></thead><tbody><tr><td>une petite annonce</td><td>分类小广告</td><td>lire une annonce</td></tr><tr><td>un poste / un emploi</td><td>岗位／工作</td><td>chercher un emploi</td></tr><tr><td>un candidat / une candidate</td><td>应聘者</td><td>contacter une candidate</td></tr><tr><td>un / une réceptionniste</td><td>前台接待员</td><td>travailler à la réception</td></tr><tr><td>un entretien / un CV</td><td>面试／简历</td><td>passer un entretien、envoyer un CV</td></tr><tr><td>une expérience / une qualité</td><td>经验／优点</td><td>avoir de l’expérience</td></tr><tr><td>un point fort / un point faible</td><td>优势／弱项</td><td>présenter ses points forts</td></tr><tr><td>une langue / la restauration</td><td>语言／餐饮业</td><td>parler deux langues</td></tr><tr><td>disponible / indispensable</td><td>有空的／必不可少的</td><td>être disponible le samedi</td></tr></tbody></table></div><p><i>un candidat souriant / une candidate souriante</i>，而 <i>dynamique</i>、<i>disponible</i> 的阴阳性单数同形。广告里的 <i>H/F</i> 可识别为 <i>homme/femme</i>，<i>à temps partiel</i> 表示非全日制。</p>"
+    },
+    {
+      "id": "sound",
+      "title": "7. 辨音 /ɥ/ 与 /w/",
+      "html": "<h2>07 / 辨音 /ɥ/ 与 /w/</h2><p>两个半元音都和紧接着的元音同属一个音节。发 <b>/ɥ/</b> 时从法语 <i>tu</i> 的 /y/ 口型快速滑向后一个元音，如 <i>lui</i> /lɥi/、<i>nuit</i> /nɥi/、<i>huit</i> /ɥit/。发 <b>/w/</b> 时从 <i>tout</i> 的 /u/ 口型快速滑过去，如 <i>oui</i> /wi/、<i>moi</i> /mwa/、<i>trois</i> /tʁwa/。</p><p>请同伴混读 <i>oui, nuit, moi, lui, huit, trois</i>。先听后分类，再看拼写。自己跟读时，把 <i>oui</i> 和 <i>lui</i> 分别读成一个音节。</p>"
+    },
+    {
+      "id": "reading",
+      "title": "8. 原创阅读：周末接待员招聘",
+      "html": "<h2>08 / 原创阅读：周末接待员招聘</h2><blockquote><p>La Maison des Arts cherche un ou une réceptionniste. Travail le samedi de 9 h à 13 h. Il faut savoir utiliser un ordinateur et parler français. L’anglais est un plus. Pour postuler, envoyez votre CV avant vendredi.</p></blockquote><p>需要区分三类信息：<b>必需</b>的是会用电脑、会说法语，并能按周六时段工作。<b>加分项</b>是英语。<b>未提及</b>的是薪酬。<i>avant vendredi</i> 指星期五之前。</p><p>假设你法语能交流、会用电脑，但周六上午没空。先圈出匹配的两项，再用 <i>Je ne peux pas travailler le samedi matin.</i> 说明冲突。</p>"
+    },
+    {
+      "id": "communicate",
+      "title": "9. 原创面试对话与口语",
+      "html": "<h2>09 / 原创面试对话与口语</h2><blockquote><p>— Bonjour. Pourquoi est-ce que vous voulez travailler ici ?<br>— J’aime le contact avec le public. Je sais utiliser un ordinateur et je parle un peu anglais.<br>— Est-ce que vous pouvez travailler le samedi matin ?<br>— Oui, je peux. Je vais vous envoyer mon CV ce soir.<br>— Très bien. Pour l’entretien, il faut apporter une pièce d’identité.</p></blockquote><p>一人扮演招聘方，问意愿、技能和可工作时间。另一人回答并说下一步计划。交换角色后加入一项不匹配的条件，例如 <i>Je peux venir le samedi, mais pas le matin.</i> 练习给建议时可从 <i>Pour préparer l’entretien, il faut…</i> 开始。</p>"
+    },
+    {
+      "id": "writing",
+      "title": "10. 写一封简短的应聘留言",
+      "html": "<h2>10 / 写一封简短的应聘留言</h2><p>写清四项信息：申请什么、会做什么、何时有空、下一步怎么联系。可用下面的原创范例替换信息。</p><blockquote><p>Bonjour,<br>Je veux postuler au poste de réceptionniste. Je sais utiliser un ordinateur et je peux travailler le samedi matin. Je vais vous envoyer mon CV ce soir.<br>Merci et bonne journée.</p></blockquote><p>写完检查 <i>savoir</i>、<i>pouvoir</i> 后是否用原形，时间能否让对方准确安排面试。</p>"
+    },
+    {
+      "id": "review",
+      "title": "11. 复习速查",
+      "html": "<h2>11 / 复习速查</h2><ul><li>想做用 <i>vouloir</i>，学会做用 <i>savoir</i>，条件许可常用 <i>pouvoir</i>。</li><li><i>Il faut préparer son CV.</i> 表达必要。<i>Je vais préparer mon CV.</i> 说自己的计划。</li><li>听到招聘条件时，分清要求、加分项和未提及的信息。</li></ul>"
+    },
+    {
+      "id": "practice",
+      "title": "12. 分组练习 A—J（30 项）",
+      "html": "<h2>12 / 分组练习 A—J（30 项）</h2><h3>A. vouloir</h3><ol><li>补全：Nous ___ travailler ici.</li><li>改错：Elles veut venir.</li><li>说「我想找一份兼职」。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Nous <b>voulons</b> travailler ici.</li><li>Elles <b>veulent</b> venir.</li><li>Je veux trouver un emploi à temps partiel.</li></ol></details><h3>B. savoir</h3><ol><li>补全：Vous ___ conduire ?</li><li>改错：Il sait utilise un ordinateur.</li><li>把 Tu sais conduire. 改为否定。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Vous <b>savez</b> conduire ?</li><li>Il sait <b>utiliser</b> un ordinateur.</li><li>Tu ne sais pas conduire.</li></ol></details><h3>C. 选择意思</h3><ol><li>我会开车，但今天没条件开车。</li><li>Je veux partir. 是计划、意愿还是已学会的技能？</li><li>问应聘者星期六能不能来。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je <b>sais</b> conduire, mais je ne <b>peux</b> pas conduire aujourd’hui.</li><li>意愿。</li><li>Est-ce que vous pouvez venir samedi ?</li></ol></details><h3>D. 必要与建议</h3><ol><li>说「申请需要发简历」。</li><li>改错：Vous faut préparer le dossier.</li><li>用 il faut 的否定说「不应迟到」。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Pour postuler, il faut envoyer un CV.</li><li>Il faut préparer le dossier.</li><li>Il ne faut pas arriver en retard.</li></ol></details><h3>E. 最近将来时</h3><ol><li>用 futur proche 说「我今晚要打电话」。</li><li>将 Nous allons venir lundi. 改为否定。</li><li>改错：Elle va se présente.</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Je vais téléphoner ce soir.</li><li>Nous n’allons pas venir lundi.</li><li>Elle va <b>se présenter</b>.</li></ol></details><h3>F. 词汇与配合</h3><ol><li>写出「一位面带微笑的女应聘者」。</li><li>un entretien 是什么？</li><li>un point fort 与 un point faible 分别是什么意思？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>une candidate souriante</li><li>面试，也可指交谈，依语境而定。</li><li>优势、弱项。</li></ol></details><h3>G. 半元音</h3><ol><li>moi 的半元音是什么？</li><li>lui 的半元音是什么？</li><li>oui 是几个音节？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>/w/。</li><li>/ɥ/。</li><li>一个音节 /wi/。</li></ol></details><h3>H. 读招聘广告</h3><ol><li>工作时间是什么？</li><li>英语是否必须？</li><li>广告明确给了工资吗？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>星期六 9 点至 13 点。</li><li>不是。<i>un plus</i> 表示加分项。</li><li>未提及。</li></ol></details><h3>I. 听说与追问</h3><ol><li>让同伴朗读面试对话，听后写下候选人何时发简历。</li><li>面试要带什么？</li><li>礼貌追问：我什么时候可以开始？</li></ol><details><summary>查看参考答案与解析</summary><ol><li>Ce soir，今晚。</li><li>Une pièce d’identité，身份证明。</li><li>Quand est-ce que je peux commencer ?</li></ol></details><h3>J. 综合输出</h3><ol><li>写两句话说你的技能和空闲时间。</li><li>说你明天打算做什么。</li><li>给准备面试的人一句建议。</li></ol><details><summary>查看参考答案与解析</summary><ol><li>例：Je sais utiliser un ordinateur. Je peux venir le samedi matin.</li><li>例：Je vais préparer mon entretien demain.</li><li>例：Il faut lire l’annonce avant l’entretien.</li></ol></details>"
+    }
+  ],
+  "quickQuestions": [
+    {
+      "id": "l22-q01",
+      "question": "Nous ___ travailler ici.",
+      "options": [
+        "veulent",
+        "voulons",
+        "voulez"
+      ],
+      "answer": 1,
+      "explanation": "nous 对应 voulons。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q02",
+      "question": "Elles ___ rencontrer la directrice.",
+      "options": [
+        "veulent",
+        "veut",
+        "voulez"
+      ],
+      "answer": 0,
+      "explanation": "elles 对应 veulent。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q03",
+      "question": "Vous ___ utiliser ce logiciel ?",
+      "options": [
+        "savons",
+        "savent",
+        "savez"
+      ],
+      "answer": 2,
+      "explanation": "vous 对应 savez。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q04",
+      "question": "哪句明确表达已经掌握一项技能？",
+      "options": [
+        "Je veux conduire.",
+        "Je sais conduire.",
+        "Je vais conduire."
+      ],
+      "answer": 1,
+      "explanation": "savoir＋不定式表示懂得怎样做。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q05",
+      "question": "今天有条件来，怎么说？",
+      "options": [
+        "Je peux venir aujourd’hui.",
+        "Je sais venir aujourd’hui.",
+        "Je veux venir aujourd’hui."
+      ],
+      "answer": 0,
+      "explanation": "此处 pouvoir 表示有条件。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q06",
+      "question": "申请需要发简历。哪句正确？",
+      "options": [
+        "Il faut envoyez un CV.",
+        "Vous faut envoyer un CV.",
+        "Il faut envoyer un CV."
+      ],
+      "answer": 2,
+      "explanation": "il faut 使用非人称主语，后接不定式。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q07",
+      "question": "Il ne faut pas fumer. 是什么意思？",
+      "options": [
+        "没有必要吸烟",
+        "不得吸烟",
+        "打算吸烟"
+      ],
+      "answer": 1,
+      "explanation": "这里表示禁止吸烟。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q08",
+      "question": "我今晚打算发简历。",
+      "options": [
+        "Je vais envoyer mon CV ce soir.",
+        "Je vais envoie mon CV ce soir.",
+        "Je vais à envoyer mon CV ce soir."
+      ],
+      "answer": 0,
+      "explanation": "aller 变位，envoyer 保持原形。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q09",
+      "question": "Nous allons travailler. 的否定形式是？",
+      "options": [
+        "Nous allons pas ne travailler.",
+        "Nous n’allons travailler pas.",
+        "Nous n’allons pas travailler."
+      ],
+      "answer": 2,
+      "explanation": "n’…pas 围住 allons。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q10",
+      "question": "哪句表示「我打算在那里工作」？",
+      "options": [
+        "J’y vais travailler.",
+        "Je vais y travailler.",
+        "Je vais travailler y."
+      ],
+      "answer": 1,
+      "explanation": "y 回指 travailler 的地点，放在原形前。",
+      "group": "grammar"
+    },
+    {
+      "id": "l22-q11",
+      "question": "une petite annonce 在本课是什么意思？",
+      "options": [
+        "分类小广告",
+        "问候语",
+        "时间表"
+      ],
+      "answer": 0,
+      "explanation": "本课用它指招聘等短广告。",
+      "group": "vocabulary"
+    },
+    {
+      "id": "l22-q12",
+      "question": "「一位面带微笑的女应聘者」怎么写？",
+      "options": [
+        "une candidat souriant",
+        "une candidate souriant",
+        "une candidate souriante"
+      ],
+      "answer": 2,
+      "explanation": "candidate 和 souriante 都采用阴性单数。",
+      "group": "vocabulary"
+    },
+    {
+      "id": "l22-q13",
+      "question": "lui 含哪个半元音？",
+      "options": [
+        "/w/",
+        "/ɥ/",
+        "/j/"
+      ],
+      "answer": 1,
+      "explanation": "lui 读作 /lɥi/。",
+      "group": "pronunciation"
+    },
+    {
+      "id": "l22-q14",
+      "question": "哪个词含 /w/？",
+      "options": [
+        "trois",
+        "lui",
+        "nuit"
+      ],
+      "answer": 0,
+      "explanation": "trois 读作 /tʁwa/。",
+      "group": "pronunciation"
+    },
+    {
+      "id": "l22-q15",
+      "question": "原创广告的工作时间是？",
+      "options": [
+        "星期五晚上",
+        "每天上午",
+        "星期六 9 点至 13 点"
+      ],
+      "answer": 2,
+      "explanation": "文中明确给出星期六 9—13 点。",
+      "group": "reading"
+    },
+    {
+      "id": "l22-q16",
+      "question": "L’anglais est un plus. 表示什么？",
+      "options": [
+        "英语必须",
+        "英语是加分项",
+        "不能说英语"
+      ],
+      "answer": 1,
+      "explanation": "un plus 指额外优势。",
+      "group": "reading"
+    },
+    {
+      "id": "l22-q17",
+      "question": "听招聘对话做笔记，先区分哪两类信息？",
+      "options": [
+        "岗位要求和应聘者的回答",
+        "标题颜色和图片大小",
+        "单词长短和字母数"
+      ],
+      "answer": 0,
+      "explanation": "逐项对照岗位要求和应聘者情况。",
+      "group": "listening"
+    },
+    {
+      "id": "l22-q18",
+      "question": "听同伴读原创对话，应聘者什么时候发简历？",
+      "options": [
+        "周六上午",
+        "昨天",
+        "今晚"
+      ],
+      "answer": 2,
+      "explanation": "ce soir 表示今晚。",
+      "group": "listening"
+    },
+    {
+      "id": "l22-q19",
+      "question": "哪句适合询问应聘者周六是否有空？",
+      "options": [
+        "Il faut venir samedi.",
+        "Est-ce que vous pouvez venir samedi ?",
+        "Je sais travailler."
+      ],
+      "answer": 1,
+      "explanation": "est-ce que 加 pouvez 询问可行性。",
+      "group": "speaking"
+    },
+    {
+      "id": "l22-q20",
+      "question": "想给面试准备建议，可以怎么开头？",
+      "options": [
+        "Pour préparer l’entretien, il faut…",
+        "L’entretien est un point faible.",
+        "Je ne sais pas venir."
+      ],
+      "answer": 0,
+      "explanation": "il faut＋不定式可给出必要步骤。",
+      "group": "speaking"
+    },
+    {
+      "id": "l22-q21",
+      "question": "应聘留言中最有助于对方继续联系的一项是？",
+      "options": [
+        "与岗位无关的长故事",
+        "没有具体日期的感叹",
+        "明确的空闲时间和下一步"
+      ],
+      "answer": 2,
+      "explanation": "明确可约时间与下一步有助于安排。",
+      "group": "writing"
+    }
+  ],
+  "categorySections": {
+    "grammar": [
+      "verbs",
+      "modal",
+      "obligation",
+      "future"
+    ],
+    "vocabulary": [
+      "words"
+    ],
+    "pronunciation": [
+      "sound"
+    ],
+    "reading": [
+      "reading"
+    ],
+    "speaking": [
+      "communicate",
+      "modal"
+    ],
+    "writing": [
+      "writing"
+    ]
+  },
+  "listening": "用教材对应第22课录音。第一遍辨任务场景和人物，第二遍分栏记招募条件与应聘者回答，第三遍复述技能、时间和接下来的安排。也可请同伴朗读本站原创面试对话，遮住文字记录可上班时段、发简历时间和面试所需物品。"
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "当前语义技能取自现有第1—21课，不代表A1全部知识；A2—B2为学习方向规划。",
+  "scope": "当前语义技能取自现有第1—23课，不代表A1全部知识；A2—B2为学习方向规划。",
   "branches": [
     {
       "id": "pronunciation",
@@ -615,6 +615,14 @@
         {
           "lesson": 21,
           "section": "pouvoir"
+        },
+        {
+          "lesson": 22,
+          "section": "verbs"
+        },
+        {
+          "lesson": 23,
+          "section": "verbs"
         }
       ],
       "requires": [
@@ -677,6 +685,14 @@
         {
           "lesson": 20,
           "section": "dernier"
+        },
+        {
+          "lesson": 22,
+          "section": "words"
+        },
+        {
+          "lesson": 23,
+          "section": "words"
         }
       ],
       "requires": [
@@ -737,6 +753,14 @@
         {
           "lesson": 21,
           "section": "pouvoir"
+        },
+        {
+          "lesson": 22,
+          "section": "modal"
+        },
+        {
+          "lesson": 23,
+          "section": "placement"
         }
       ],
       "requires": [
@@ -776,6 +800,10 @@
         {
           "lesson": 21,
           "section": "permission"
+        },
+        {
+          "lesson": 22,
+          "section": "communicate"
         }
       ],
       "requires": [
@@ -972,6 +1000,10 @@
         {
           "lesson": 16,
           "section": "patterns"
+        },
+        {
+          "lesson": 22,
+          "section": "future"
         }
       ],
       "requires": [
@@ -1185,6 +1217,10 @@
         {
           "lesson": 20,
           "section": "past"
+        },
+        {
+          "lesson": 22,
+          "section": "future"
         }
       ],
       "requires": [
@@ -1323,6 +1359,14 @@
         {
           "lesson": 16,
           "section": "interview"
+        },
+        {
+          "lesson": 22,
+          "section": "communicate"
+        },
+        {
+          "lesson": 23,
+          "section": "communicate"
         }
       ],
       "requires": [
@@ -1586,6 +1630,10 @@
         {
           "lesson": 12,
           "section": "housing"
+        },
+        {
+          "lesson": 22,
+          "section": "reading"
         }
       ],
       "requires": [
@@ -1643,6 +1691,10 @@
         },
         {
           "lesson": 17,
+          "section": "reading"
+        },
+        {
+          "lesson": 23,
           "section": "reading"
         }
       ],
@@ -1759,6 +1811,14 @@
         },
         {
           "lesson": 21,
+          "section": "writing"
+        },
+        {
+          "lesson": 22,
+          "section": "writing"
+        },
+        {
+          "lesson": 23,
           "section": "writing"
         }
       ],
@@ -2235,6 +2295,178 @@
       "requires": [
         "g-irregular",
         "g-negative"
+      ],
+      "group": "",
+      "planned": false
+    },
+    {
+      "id": "g-obligation",
+      "branch": "grammar",
+      "stage": "A1",
+      "title": "义务与建议：il faut",
+      "goal": "用 il faut 加不定式表达必要性和建议。",
+      "criteria": [
+        "能针对一个场景给出必要步骤。",
+        "能区分 il ne faut pas 与 ce n’est pas nécessaire de。"
+      ],
+      "refs": [
+        {
+          "lesson": 22,
+          "section": "obligation"
+        }
+      ],
+      "requires": [
+        "g-negative"
+      ],
+      "group": "structure",
+      "planned": false
+    },
+    {
+      "id": "g-futur-proche",
+      "branch": "grammar",
+      "stage": "A1",
+      "title": "最近将来时",
+      "goal": "用 aller 现在时加不定式谈计划，并正确放置否定。",
+      "criteria": [
+        "能按人称变位 aller，保留后续动词原形。",
+        "能将计划句改为否定并解释代词的位置。"
+      ],
+      "refs": [
+        {
+          "lesson": 22,
+          "section": "future"
+        },
+        {
+          "lesson": 23,
+          "section": "placement"
+        }
+      ],
+      "requires": [
+        "g-irregular",
+        "g-negative"
+      ],
+      "group": "verbs",
+      "planned": false
+    },
+    {
+      "id": "p-glides",
+      "branch": "pronunciation",
+      "stage": "A1",
+      "title": "半元音 /ɥ/ 与 /w/",
+      "goal": "听辨半元音并与后续元音读在一个音节。",
+      "criteria": [
+        "能听辨 oui 和 lui 中的半元音。",
+        "能将 nuit、moi 等词读成一个音节。"
+      ],
+      "refs": [
+        {
+          "lesson": 22,
+          "section": "sound"
+        }
+      ],
+      "requires": [
+        "p-vowels"
+      ],
+      "group": "",
+      "planned": false
+    },
+    {
+      "id": "g-cod-pronouns",
+      "branch": "grammar",
+      "stage": "A1",
+      "title": "直接宾语代词 le、la、l’、les",
+      "goal": "根据宾语的性数和后续语音选词形，并定位代词。",
+      "criteria": [
+        "能把已知名词组换成 le、la、l’ 或 les。",
+        "能在肯定、否定和最近将来时句型中放对单个代词。"
+      ],
+      "refs": [
+        {
+          "lesson": 23,
+          "section": "cod"
+        },
+        {
+          "lesson": 23,
+          "section": "placement"
+        }
+      ],
+      "requires": [
+        "g-agreement",
+        "g-negative"
+      ],
+      "group": "structure",
+      "planned": false
+    },
+    {
+      "id": "g-coi-pronouns",
+      "branch": "grammar",
+      "stage": "A1",
+      "title": "间接宾语代词 lui、leur",
+      "goal": "按动词搭配识别接收者，根据单复数选择 lui 或 leur。",
+      "criteria": [
+        "能用动作搭配区分 je l’invite 和 je lui téléphone。",
+        "能用 lui 或 leur 改写陈述句和否定句。"
+      ],
+      "refs": [
+        {
+          "lesson": 23,
+          "section": "coi"
+        },
+        {
+          "lesson": 23,
+          "section": "placement"
+        }
+      ],
+      "requires": [
+        "g-negative"
+      ],
+      "group": "structure",
+      "planned": false
+    },
+    {
+      "id": "p-schwa",
+      "branch": "pronunciation",
+      "stage": "A1",
+      "title": "弱读 e（e caduc）",
+      "goal": "辨别弱读 e 的语流变化和必须写出的省音。",
+      "criteria": [
+        "能听出短句中弱读 e 的保留或省略。",
+        "能写对 Je le prends 和 Je l’offre。"
+      ],
+      "refs": [
+        {
+          "lesson": 23,
+          "section": "sound"
+        }
+      ],
+      "requires": [
+        "p-rhythm"
+      ],
+      "group": "",
+      "planned": false
+    },
+    {
+      "id": "s-proposals",
+      "branch": "speaking",
+      "stage": "A1",
+      "title": "提出、接受与婉拒建议",
+      "goal": "在送礼和聚会场景中商量可执行的方案。",
+      "criteria": [
+        "能提议一种礼物并指清接收者。",
+        "能接受提议或给出理由和替代选项。"
+      ],
+      "refs": [
+        {
+          "lesson": 23,
+          "section": "expressions"
+        },
+        {
+          "lesson": 23,
+          "section": "communicate"
+        }
+      ],
+      "requires": [
+        "s-permission"
       ],
       "group": "",
       "planned": false
