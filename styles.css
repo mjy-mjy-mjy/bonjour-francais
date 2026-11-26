@@ -330,9 +330,8 @@ footer { width: 100%; padding: 18px var(--page-gutter) 18px var(--column-gap); b
 .lesson-reader-content .knowledge-section { scroll-margin-top: 100px; }
 @media (min-width: 801px) { .lesson-reader-active #reading-toc { display: none; } }
 @media (max-width: 800px) {
-  .lesson-reader-layout { grid-template-columns: minmax(0,1fr); row-gap: 12px; }
-  .lesson-reader-content { grid-area: 2 / 1; }
-  .lesson-reader-index { grid-area: 1 / 1; top: 8px; z-index: 3; max-height: min(54dvh,360px); padding: 6px; }
+  .lesson-reader-layout { display: block; }
+  .lesson-reader-index { top: 8px; z-index: 3; max-height: min(54dvh,360px); padding: 6px; margin-bottom: 12px; }
   .lesson-reader-index h2, .lesson-reader-index:not(.is-open) .lesson-reader-index-links { display: none; }
   .lesson-reader-index-toggle { display: inline-flex; align-self: start; padding: 6px 12px; }
   .lesson-reader-index.is-open .lesson-reader-index-links { margin-top: 5px; }

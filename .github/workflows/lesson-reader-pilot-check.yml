@@ -67,6 +67,7 @@ jobs:
                 await wait();
                 assert(tocToggle.getAttribute('aria-expanded') === 'false', 'mobile directory failed to close after navigation');
                 assert(active() === 'lesson23-cod', 'mobile chapter link did not activate');
+              assert(toc.getBoundingClientRect().top >= 0, 'mobile directory control scrolled out of view');
               } else {
                 assert(toc.getBoundingClientRect().left >= section('scope').getBoundingClientRect().right, 'directory is not to the right');
                 list.style.maxHeight = '100px';
@@ -76,7 +77,9 @@ jobs:
                 assert(list.scrollTop > 0, 'sidebar did not auto-scroll');
                 section('scope').scrollIntoView();
                 await wait();
-                assert(active() === 'lesson23-scope' && list.scrollTop === 0, 'scrolling back did not restore first entry');
+                const first = list.querySelector('[data-section-target="lesson23-scope"]').getBoundingClientRect();
+              const visible = list.getBoundingClientRect();
+              assert(active() === 'lesson23-scope' && first.top >= visible.top - 1 && first.bottom <= visible.bottom + 1, 'scrolling back did not restore first entry: ' + active() + ', ' + list.scrollTop);
                 assert(toc.getBoundingClientRect().top >= 0, 'sticky directory scrolled out of view');
               }
               const explanation = section('cod').querySelector('details');
