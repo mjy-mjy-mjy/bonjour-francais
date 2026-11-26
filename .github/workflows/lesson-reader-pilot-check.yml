@@ -57,7 +57,7 @@ jobs:
               assert(getComputedStyle(nav).display !== 'none', 'global menu unable to open');
               toggle.click();
               assert(toc.getBoundingClientRect().width <= innerWidth, 'directory overflows');
-              assert(document.documentElement.scrollWidth === innerWidth, 'page overflows');
+              assert(document.documentElement.scrollWidth <= document.documentElement.clientWidth + 1, 'page overflows: ' + document.documentElement.scrollWidth + ' > ' + document.documentElement.clientWidth);
               if (mobile) {
                 assert(getComputedStyle(list).display === 'none', 'mobile directory starts open');
                 tocToggle.click();
