@@ -29,6 +29,42 @@ window.COURSE_CONTENT = {
     {id:'q5',question:'“我每周一工作”对应哪句话？',options:['Je travaille lundi.','Je travaille le lundi.','Je travaille au lundi.'],answer:1,explanation:'le lundi 表示习惯性的每个星期一；lundi 单独使用通常表示某个星期一，具体由上下文确定。'},
     {id:'q6',question:'Je reste à Londres une semaine. 这句话中 une semaine 表示什么？',options:['停留一周的时长','一周之后','每周一次'],answer:0,explanation:'这里的 une semaine 直接说明停留时长。请同时练习地点 à Londres 和时间 une semaine。'}
   ],
+  lessonGuides: {
+    23: {
+      cod: {
+        label: '直接宾语代词',
+        rule: '在本课的陈述句里，直接宾语代词放在它所搭配的动词前。',
+        examples: [
+          {label:'肯定',parts:['Je ',['les'],' connais.'],translation:'我认识他们。'},
+          {label:'否定',parts:['Je ne ',['les'],' connais pas.'],translation:'我不认识他们。'},
+          {label:'两个动词',parts:['Je vais ',['les'],' inviter.'],translation:'我打算邀请他们。'}
+        ],
+        warning: '第三句的 les 是 inviter 的宾语，所以放在 inviter 前。',
+        details: '详细讲解与完整代词表'
+      },
+      coi: {
+        label: '间接宾语代词',
+        rule: '表示接收者时，一个人用 lui，多个人用 leur。',
+        examples: [
+          {label:'一个人',parts:['On ',['lui'],' offre un livre.'],translation:'我们送他／她一本书。'},
+          {label:'多个人',parts:['On ',['leur'],' offre un livre.'],translation:'我们送他们一本书。'}
+        ],
+        warning: 'leur 当代词时永远不加 s。penser à elle 这样的搭配要保留 à。',
+        details: '详细讲解与动词搭配'
+      },
+      placement: {
+        label: '肯定、否定与双动词',
+        rule: '先找哪个动词带这个宾语，再判断代词应放在变位动词、不定式还是助动词前。',
+        examples: [
+          {label:'现在时否定',parts:['Je ne ',['les'],' connais pas.'],translation:'我不认识他们。'},
+          {label:'最近将来时否定',parts:['Je ne vais pas ',['les'],' inviter.'],translation:'我不打算邀请他们。'},
+          {label:'复合过去时',parts:['Je ',['leur'],' ai parlé.'],translation:'我和他们说过话。'}
+        ],
+        warning: 'Je ne vais pas les inviter 中，ne…pas 围住 vais，les 仍在 inviter 前。',
+        details: '完整位置对照表与分词配合'
+      }
+    }
+  },
   resources: [
     ['NCLC 标准与资源','了解法语能力等级与四项语言技能。','https://www.language.ca/ressourcesexpertise/niveaux-de-competence-linguistique-canadiens/'],
     ['加拿大 Express Entry','IRCC 官方项目与申请流程入口。','https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html'],
