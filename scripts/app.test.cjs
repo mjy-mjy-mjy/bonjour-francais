@@ -51,6 +51,25 @@ test('every learning page renders; invalid lesson numbers are rejected', () => {
   assert.ok(app(null, '#lesson/99').main.innerHTML.includes('找不到'));
 });
 
+test('every lesson shares the reading layout and authored chapter order', () => {
+  for(let n=1;n<=36;n++){
+    const {context,main}=app(null,`#lesson/${n}`);
+    const course=context.COURSE_LIBRARY.lessons.find(lesson=>lesson.number===n);
+    assert.ok(main.innerHTML.includes('lesson-reader-heading'), `reading header in lesson ${n}`);
+    assert.ok(main.innerHTML.includes(`data-note="lesson-${n}"`), `existing note key in lesson ${n}`);
+    const targets=[...main.innerHTML.matchAll(/data-section-target="([^"]+)"/g)].map(([,id])=>id);
+    if(!course){
+      assert.deepEqual(targets,[]);
+      continue;
+    }
+    const ids=Array.from(course.sections,section=>`lesson${n}-${section.id}`);
+    ids.push(`lesson${n}-quick-check`);
+    assert.deepEqual(targets,ids);
+    const locations=ids.map(id=>main.innerHTML.indexOf(`id="${id}"`));
+    assert.ok(locations.every((index,i)=>index>=0&&(!i||index>locations[i-1])), `chapter order in lesson ${n}`);
+  }
+});
+
 test('the homepage without a fragment defaults to the learning route', () => {
   const expected = app(null, '#route');
   for (const hash of ['', '#']) {

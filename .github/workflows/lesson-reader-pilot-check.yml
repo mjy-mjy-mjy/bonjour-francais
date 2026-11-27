@@ -1,4 +1,4 @@
-name: Verify lesson 23 reading pilot
+name: Verify the shared lesson reading layout
 on:
   push:
     branches: ['codex/lesson-23-reader']
@@ -36,34 +36,38 @@ jobs:
           test = r'''
           <script>
           (async () => {
-            const assert = (value, message) => { if (!value) throw new Error(message); };
+            const assert = (ok, message) => { if (!ok) throw new Error(message); };
             const wait = () => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
             const marker = document.createElement('output');
             marker.id = 'reader-qa';
             document.body.append(marker);
             try {
               await wait();
+              const n = Number(location.hash.split('/')[1]);
               const mobile = innerWidth <= 800;
               const nav = document.getElementById('navigation');
               const toggle = document.getElementById('navigation-toggle');
               const toc = document.querySelector('.lesson-reader-index');
               const list = toc.querySelector('.lesson-reader-index-links');
               const tocToggle = toc.querySelector('button');
-              const section = id => document.getElementById('lesson23-' + id);
+              const section = id => document.getElementById('lesson' + n + '-' + id);
               const active = () => list.querySelector('[aria-current]')?.dataset.sectionTarget;
+              const course = window.COURSE_LIBRARY.lessons.find(lesson => lesson.number === n);
               assert(document.body.classList.contains('lesson-reader-active'), 'missing reader');
               assert(getComputedStyle(nav).display === 'none', 'global menu starts open');
               toggle.click();
-              assert(getComputedStyle(nav).display !== 'none', 'global menu unable to open');
+              assert(getComputedStyle(nav).display !== 'none', 'global menu cannot open');
               toggle.click();
-              assert(toc.getBoundingClientRect().width <= innerWidth, 'directory overflows');
-              assert(document.documentElement.scrollWidth <= document.documentElement.clientWidth + 1, 'page overflows: ' + document.documentElement.scrollWidth + ' > ' + document.documentElement.clientWidth);
+              assert(document.documentElement.scrollWidth <= document.documentElement.clientWidth + 1, 'page overflows');
+              const links = Array.from(list.querySelectorAll('a'));
+              const ids = links.map(link => link.dataset.sectionTarget);
+              const expected = [...course.sections.map(s => s.id), 'quick-check'].map(id => 'lesson' + n + '-' + id);
+              assert(JSON.stringify(ids) === JSON.stringify(expected), 'directory omits or reorders chapters');
               const assertRows = () => {
-                const rows = Array.from(list.querySelectorAll('a'), link => link.getBoundingClientRect());
-                assert(rows.length === 14, 'missing chapter rows');
+                const rows = links.map(link => link.getBoundingClientRect());
                 assert(rows.every((row, i) => row.width >= list.clientWidth - 6 &&
                   (i === 0 || (Math.abs(row.left - rows[0].left) <= 1 && row.top >= rows[i-1].bottom))),
-                  'reader directory does not use one full-width row per chapter at width ' + innerWidth);
+                  'reader directory does not use a full-width row per chapter');
               };
               if (mobile) {
                 assert(getComputedStyle(list).display === 'none', 'mobile directory starts open');
@@ -71,36 +75,48 @@ jobs:
                 assert(tocToggle.getAttribute('aria-expanded') === 'true', 'mobile directory cannot open');
                 assert(getComputedStyle(list).display !== 'none', 'mobile directory hidden when open');
                 assertRows();
-                list.querySelector('a[data-section-target="lesson23-cod"]').click();
+                links[2].click();
                 await wait();
-                assert(tocToggle.getAttribute('aria-expanded') === 'false', 'mobile directory failed to close after navigation');
-                assert(active() === 'lesson23-cod', 'mobile chapter link did not activate: ' + active() + ', top=' + section('cod').getBoundingClientRect().top);
-              assert(toc.getBoundingClientRect().top >= 0, 'mobile directory control scrolled out of view');
+                assert(tocToggle.getAttribute('aria-expanded') === 'false', 'mobile directory did not close after navigation');
+                assert(active() === ids[2], 'mobile chapter link did not activate');
+                assert(toc.getBoundingClientRect().top >= 0, 'mobile directory button scrolled out of view');
               } else {
                 assert(toc.getBoundingClientRect().left >= section('scope').getBoundingClientRect().right, 'directory is not to the right');
                 assertRows();
                 list.style.maxHeight = '100px';
                 section('practice').scrollIntoView();
                 await wait();
-                assert(active() === 'lesson23-practice', 'scrolling did not activate practice: ' + active() + ', top=' + section('practice').getBoundingClientRect().top + ', scrollY=' + scrollY);
-                assert(list.scrollTop > 0, 'sidebar did not auto-scroll');
+                assert(active() === section('practice').id, 'scrolling did not activate practice: ' + active());
+                assert(list.scrollTop > 0, 'directory did not auto-scroll');
                 section('scope').scrollIntoView();
                 await wait();
-                const first = list.querySelector('[data-section-target="lesson23-scope"]').getBoundingClientRect();
-              const visible = list.getBoundingClientRect();
-              assert(active() === 'lesson23-scope' && first.top >= visible.top - 1 && first.bottom <= visible.bottom + 1, 'scrolling back did not restore first entry: ' + active() + ', ' + list.scrollTop);
-                assert(toc.getBoundingClientRect().top >= 0, 'sticky directory scrolled out of view');
+                const first = links[0].getBoundingClientRect();
+                const visible = list.getBoundingClientRect();
+                assert(active() === ids[0] && first.top >= visible.top - 1 && first.bottom <= visible.bottom + 1, 'first entry was not scrolled into view');
               }
-              const explanation = section('cod').querySelector('details');
-              assert(!!explanation.querySelector('table'), 'original table missing');
+              const answer = section('practice').querySelector('details');
+              assert(answer && !answer.open, 'exercise answer unavailable or already open');
               dispatchEvent(new Event('beforeprint'));
-              assert(explanation.open, 'print did not include collapsed explanation');
+              assert(answer.open, 'print did not include original answer');
               dispatchEvent(new Event('afterprint'));
-              assert(!explanation.open, 'print did not restore explanation state');
-              location.hash = '#lesson/22';
+              assert(!answer.open, 'print did not restore answer state');
+              const noteSelector = '[data-note="lesson-' + n + '"]';
+              const note = document.querySelector(noteSelector);
+              note.value = 'Reading layout test note';
+              note.dispatchEvent(new Event('input', {bubbles:true}));
+              location.hash = '#lesson/24';
               await wait();
-              assert(!document.body.classList.contains('lesson-reader-active'), 'another lesson has the reader');
-              marker.textContent = 'PASS ' + (mobile ? 'mobile' : 'desktop');
+              assert(document.body.classList.contains('lesson-reader-active'), 'note-only lesson lost the compact layout');
+              assert(!document.querySelector('.lesson-reader-index') && document.querySelector('[data-note="lesson-24"]'), 'note-only lesson must expose its note');
+              location.hash = '#route';
+              await wait();
+              assert(!document.body.classList.contains('lesson-reader-active'), 'learning route unexpectedly uses the reader');
+              if (!mobile) assert(getComputedStyle(nav).display !== 'none', 'learning route lost its sidebar');
+              location.hash = '#lesson/' + n + '/' + course.sections[2].id;
+              await wait();
+              assert(document.querySelector(noteSelector)?.value === 'Reading layout test note', 'stored note not restored');
+              assert(document.querySelector('.lesson-reader-index [aria-current]')?.dataset.sectionTarget === ids[2], 'old chapter link did not reach its section');
+              marker.textContent = 'PASS ' + n + ' ' + (mobile ? 'mobile' : 'desktop');
             } catch (error) {
               marker.textContent = 'FAIL ' + error.message;
             }
@@ -143,20 +159,20 @@ jobs:
           else:
               raise SystemExit('ChromeDriver did not start')
 
-          for name, width in [('desktop',1365), ('desktop',900), ('mobile',500)]:
+          for lesson, name, width in [(1,'desktop',1365), (14,'desktop',900), (22,'mobile',500), (23,'desktop',1365)]:
               caps = {'browserName':'chrome','goog:chromeOptions': {'args':['--headless','--no-sandbox','--disable-dev-shm-usage']}}
               session = driver('/session',{'capabilities':{'alwaysMatch':caps}})['sessionId']
               target = '/session/'+session
               try:
                   driver(target+'/window/rect', {'width':width,'height':820})
-                  driver(target+'/url', {'url':'http://127.0.0.1:8765/lesson-reader-qa.html#lesson/23'})
+                  driver(target+'/url', {'url':f'http://127.0.0.1:8765/lesson-reader-qa.html#lesson/{lesson}'})
                   for i in range(40):
                       result = driver(target+'/execute/sync', {'script':"return document.getElementById('reader-qa')?.textContent || '';", 'args':[]})
                       if result:
                           break
                       time.sleep(.1)
                   print(width, name, result, flush=True)
-                  assert result == 'PASS '+name, result
+                  assert result == f'PASS {lesson} {name}', result
               finally:
                   driver(target, method='DELETE')
           PY
