@@ -309,7 +309,7 @@ footer { width: 100%; padding: 18px var(--page-gutter) 18px var(--column-gap); b
   display: flex; flex-direction: column; max-height: calc(100dvh - 32px); min-height: 0; background: var(--card);
 }
 .lesson-reader-index h2 { margin: 0 8px 8px; font-size: 16px; font-weight: 650; }
-.lesson-reader-index .lesson-reader-index-links { display: grid; gap: 2px; overflow-y: auto; min-height: 0; padding: 2px; }
+.lesson-reader-index .lesson-reader-index-links { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; overflow-y: auto; min-height: 0; padding: 2px; }
 .lesson-reader-index a { display: block; padding: 6px 8px; border-radius: 7px; line-height: 1.45; color: var(--muted); }
 .lesson-reader-index a[aria-current="location"] { background: var(--soft); color: var(--accent); font-weight: 700; box-shadow: inset 2px 0 var(--accent); }
 .lesson-reader-index-toggle { display: none; }
